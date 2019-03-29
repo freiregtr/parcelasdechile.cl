@@ -15,7 +15,7 @@ session_start();
     <meta name="keywords" content="landing,startup,flat">
     <meta name="author" content="Made By JREYESP">
 
-    <title>Parcelas de Chile - Tu proyecto Holi tení pololi</title>
+    <title>Parcelas de Chile - Tu proyecto familiar</title>
 
     <!-- // PLUGINS (css files) // -->
     <link href="view/componentes/js/plugins/bootsnav_files/skins/color.css" rel="stylesheet">
@@ -23,15 +23,28 @@ session_start();
     <link href="view/componentes/js/plugins/bootsnav_files/css/bootsnav.css" rel="stylesheet">
     <link href="view/componentes/js/plugins/bootsnav_files/css/overwrite.css" rel="stylesheet">
     <link href="view/componentes/js/plugins/owl-carousel/owl.carousel.css" rel="stylesheet">
+    
     <link href="view/componentes/js/plugins/owl-carousel/owl.theme.css" rel="stylesheet">
+    
     <link href="view/componentes/js/plugins/owl-carousel/owl.transitions.css" rel="stylesheet">
+    
     <link href="view/componentes/js/plugins/Magnific-Popup-master/Magnific-Popup-master/dist/magnific-popup.css" rel="stylesheet">
+    
     <!--// ICONS //-->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css" rel="stylesheet">
+    
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+
+    
     <!--// BOOTSTRAP & Main //-->
+    
     <link href="view/componentes/bootstrap-3.3.7/bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
+    
     <link href="view/componentes/css/main.css" rel="stylesheet">
+    
 </head>
 
 <body>
@@ -95,7 +108,7 @@ session_start();
                         <span class="animated-text"></span>
                         <span class="typed-cursor"></span>
                     </h2>
-                    <p>Tenemos el privilegio de invitarte a disfrutar de un rincón natural único en nuestro país. Cerca de Puerto Varas y a 43 km de Puerto Montt se encuentra el Lago Chapo.
+                    <p>Tenemos el privilegio de invitarte a disfrutar de un rincón natural único en nuestro país. 
                     </p>
                     <a href="#proyectos" class="btn btn-transparent">Ver Proyectos</a>
                     <a class="btn btn-blue popup-youtube" href="https://www.youtube.com/watch?v=Qp7LSJsmgAk">
@@ -133,25 +146,25 @@ session_start();
     <section id="proyectos" class="section-padding">
         <div class="container">
             <h2>Nuestras parcelas</h2>
-            <p>Estas cson las caracteristicas generales de todas nuestras parcelas.</p>
+            <p>Estas son las característica generales de todas nuestras parcelas.</p>
             <div class="row">
                 <div class="col-md-4">
                     <div class="icon-box">
-                        <i class="material-icons">favorite</i>
+                        <i class="far fa-sticky-note"></i>
                         <h4>Rol único</h4>
                         <p>Con el N° de Rol el SII identifica a una propiedad o bien raíz. </p>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="icon-box">
-                        <i class="material-icons">flash_on</i>
+                        <i class="fas fa-tint"></i>
                         <h4>Factibilidad luz y agua</h4>
                         <p>Parcelas posibilitadas para obtener los recursos de luz y agua sin problemas.</p>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="icon-box">
-                        <i class="material-icons">settings</i>
+                        <i class="fas fa-ruler-combined"></i>
                         <h4>desde los 5000 Mt2</h4>
                         <p>Dependiendo del valor y el proyecto los mts comienzan desde los 5000 mt2</p>
                     </div>
@@ -178,8 +191,7 @@ session_start();
                             " Por qué tenemos el país más lindo del mundo, creemos que deberías elegir Parcelas de Chile."
                         </p>
                         <div class="proyecto1-text">
-                            <p>Una de las maravillas que podemos encontrar en la zona del Lago Chapo es la práctica de la pesca deportiva, ya que en sus aguas abunda la Trucha arcoíris. </p>
-                            <p> Disfruta navegando con la hermosa vista del Volcán Calbuco, y si eres de las personas que ama la naturaleza deberías recorrer los senderos de la Reserva Nacional Llanquihue, una de las más lindas de Chile.</p>
+                            <p>Una de las maravillas que podemos encontrar en la zona del Lago Chapo es Disfrutar navegando con la hermosa vista del Volcán Calbuco, y si eres de las personas que ama la naturaleza deberías recorrer los senderos de la Reserva Nacional Llanquihue, una de las más lindas de Chile.</p>
                         </div>
                         <a href="#caracteristicas" class="btn btn-white">Ver más</a>
                     </div>
@@ -200,7 +212,7 @@ session_start();
 
                 <div class="col-md-4">
                     <div class="icon-box">
-                        <i class="material-icons">thumb_up</i>
+                        <i class="fas fa-fish"></i>
                         <h4>Deporte</h4>
                         <p>Practica de pesca deportiva, por la abundancia de la Trucha arcoíris.</p>
                     </div>
@@ -208,7 +220,7 @@ session_start();
 
                 <div class="col-md-4">
                     <div class="icon-box">
-                        <i class="material-icons">euro_symbol</i>
+                        <i class="fas fa-leaf"></i>
                         <h4>Naturaleza</h4>
                         <p>Si amas la naturaleza deberías recorrer la Reserva Nacional Llanquihue.</p>
 
@@ -218,7 +230,7 @@ session_start();
 
                 <div class="col-md-4">
                     <div class="icon-box">
-                        <i class="material-icons">forum</i>
+                       <i class="fas fa-mountain"></i>
                         <h4>Paisajes</h4>
                         <p>Vista al Volcán Calbuco abrazada por el parque nacional Alerce Andino.</p>
                     </div>
@@ -345,7 +357,6 @@ session_start();
                         <div class="plan">
                             <div class="pricing-header">
                                 <h3>Lago Chapo</h3>
-                                <h4>desde</h4>
 
                                 <h3>
                                     <span class="currency">$</span>
@@ -401,7 +412,6 @@ session_start();
                         <div class="plan">
                             <div class="pricing-header">
                                 <h3>Lago Chapo</h3>
-                                <h4>desde</h4>
 
                                 <h3>
                                     <span class="currency">$</span>
@@ -429,17 +439,21 @@ session_start();
             </div>
         </div>
     </section>
-
+    <!--======================================== 
+           Video
+    ========================================-->
 
     <section id="valores">
-        <div class="container-fluid">
+        <div class="container">
             <div class="row">
                 <div class="col-md-12 text-center">
                     <h2>Video Promocional</h2>
                     <p>Proyecto Lago Chapo, últimas parcelas disponibles.</p>
                     <br>
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/Qp7LSJsmgAk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                   <div class="videoWrapper">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/Qp7LSJsmgAk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+                   </div>
                 </div>
                 <!-- Features Img -->
 
@@ -456,6 +470,8 @@ session_start();
             <div class="row">
                 <h2>Nuestros clientes</h2>
                 <p>Clientes felices, cumpliendo su proyecto familiar.</p>
+                <br>
+                <br>
                 <!--// Clients Images //-->
                 <div class="clientes-images">
                     <div id="owl-clientes">
@@ -487,6 +503,38 @@ session_start();
                         <h4>-Mariluz Ojeda</h4>
                     </div>
                 </div>
+            </div>
+        </div>
+    </section>
+    <!--======================================== 
+          perfil vendedores
+    ========================================-->
+
+    <section id="proyecto2">
+        <div class="container-fluid">
+            <div class="row">
+               <div class="col-md-6">
+                    <div class="proyecto2-content">
+                        <h2>Únete nuestro equipo de vendedores</h2>
+                        <br>
+                        <div class="proyecto2-text">
+                        <h4>  Tienes experiencia vendiendo terrenos ?</h4>
+                        <br>
+
+                        <p>Únete a nuestro equipo de vendedores.
+                        Este 2019 saldremos con mas de 500 parcelas en distintas regiones y buscamos a los mejores !
+                        </p>
+
+                    
+                        </div>
+                        <a href="#caracteristicas" class="btn btn-white">Inscribir</a>
+                    </div>
+                </div>
+                <!-- Img -->
+                <div class="col-md-6 proyecto2-bg">
+                </div>
+                <!-- Story Caption -->
+                
             </div>
         </div>
     </section>
@@ -530,10 +578,12 @@ session_start();
             </div>
         </div>
         <!-- Google Map -->
-        <div id="map"></div>
         <!-- Contact Form -->
         <div class="contacto-forms">
             <div class="container">
+               <br>
+               <br>
+               <br>
                 <h2>Contacto</h2>
                 <form class="contacto-form">
                     <div class="col-md-6">
@@ -567,10 +617,10 @@ session_start();
                     <hr>
                     <h5 class="pull-left">PARCELAS DE CHILE &copy; 2019 All rights reserved</h5>
                     <ul class="liste-unstyled pull-right">
-                        <li><a href="https://www.facebook.com/pg/parcelasdechile/reviews/?ref=page_internal" target="_blank"><i class="fa fa-facebook"></i></a></li>
-                        <li><a href="https://www.youtube.com/channel/UC1A2lJ21pRVisDtocb1gTTA?view_as=subscriber" target="_blank"><i class="fa fa-youtube"></i></a></li>
-                        <li><a href="https://www.linkedin.com/company/18903356/admin/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-                        <li><a href="https://www.instagram.com/parcelasdechile/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                        <li><a href="https://www.facebook.com/pg/parcelasdechile/reviews/?ref=page_internal" target="_blank"><i class="fab fa-facebook-square"></i></a></li>
+                        <li><a href="https://www.youtube.com/channel/UC1A2lJ21pRVisDtocb1gTTA?view_as=subscriber" target="_blank"><i class="fab fa-youtube"></i></a></li>
+                        <li><a href="https://www.linkedin.com/company/18903356/admin/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+                        <li><a href="https://www.instagram.com/parcelasdechile/" target="_blank"><i class="fab fa-instagram"></i></a></li>
                     </ul>
                 </div>
             </div>
