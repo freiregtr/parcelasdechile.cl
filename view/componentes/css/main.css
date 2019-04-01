@@ -558,7 +558,7 @@ nav.navbar.bootsnav.navbar-fixed .button-holder {
     margin-top: 60px; }
     #proyectos .icon-box i {
       font-size: 46px;
-      color: #155187; }
+      color: #009539; }
     #proyectos .icon-box h4 {
       margin: 25px 0; }
 
@@ -619,13 +619,14 @@ nav.navbar.bootsnav.navbar-fixed .button-holder {
     margin-top: 60px; }
     #caracteristicas .icon-box i {
       font-size: 46px;
-      color: #155187; }
+      color: #009539; }
     #caracteristicas .icon-box h4 {
       margin: 25px 0; }
 
 /*========================================
            Valores
 ========================================*/
+
 #valores {
   background: #155187;
   color: #fff;
@@ -787,3 +788,12 @@ footer {
     footer li a:focus,
     footer li a:active {
       color: #496174; }
+
+/*========================================
+          modals
+========================================*/
+
+ #loginErrorMsg input .error:focus{
+      border-color: red; 
+    }
+    

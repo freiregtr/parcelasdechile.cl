@@ -36,6 +36,12 @@ session_start();
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    
+    
+    
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+
 
 
     
@@ -527,7 +533,9 @@ session_start();
 
                     
                         </div>
-                        <a href="#caracteristicas" class="btn btn-white">Inscribir</a>
+                    
+                        
+                        <button type="button" class="btn btn-white" data-toggle="modal" data-target="#login-overlay">Inscribir</button>
                     </div>
                 </div>
                 <!-- Img -->
@@ -605,6 +613,7 @@ session_start();
         </div>
     </section>
 
+
     <!--======================================== 
            Footer
     ========================================-->
@@ -615,7 +624,7 @@ session_start();
                 <div class="footer-caption">
                     <img src="view/imagenes/logo/logo_transparente.png" class="img-responsive center-block" alt="logo">
                     <hr>
-                    <h5 class="pull-left">PARCELAS DE CHILE &copy; 2019 All rights reserved</h5>
+                    <h5 class="pull-left">PARCElAS DE CHILE &copy; 2019 All rights reserved</h5>
                     <ul class="liste-unstyled pull-right">
                         <li><a href="https://www.facebook.com/pg/parcelasdechile/reviews/?ref=page_internal" target="_blank"><i class="fab fa-facebook-square"></i></a></li>
                         <li><a href="https://www.youtube.com/channel/UC1A2lJ21pRVisDtocb1gTTA?view_as=subscriber" target="_blank"><i class="fab fa-youtube"></i></a></li>
@@ -643,10 +652,10 @@ session_start();
                 <div class="modal-body">
                     <form class="signup-form">
                         <div class="form-group">
-                            <input type="text" class="form-control" placeholder="Nombre de usuario" required="required">
+                            <input type="text" class="form-control error" placeholder="Nombre de usuario" required="required">
                         </div>
                         <div class="form-group">
-                            <input type="text" class="form-control" placeholder="Contraseña" required="required">
+                            <input type="text" class="form-control error" placeholder="Contraseña" required="required">
                         </div>
                         <div class="form-group text-center">
                             <button type="submit" class="btn btn-blue btn-block">Entrar</button>
@@ -660,7 +669,81 @@ session_start();
             </div>
         </div>
     </div>
+    
+    
+     <div class="container">
+         <div id="login-overlay" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-content">
+          <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">× cerrar</span><span class="sr-only">Close</span></button>
+              <h4 class="modal-title text-center" id="myModalLabel">PARCELAS DE CHILE</h4>
+          </div>
+          
+          
+          
+          <div class="modal-body">
+              <div class="container">
+                 <div class="row">
+                     <div class="col-md-6 content-center">
+                      <p class="lead">Registro postulantes</p>
+                      <ul class="list-unstyled" style="line-height: 2">
+                          <li><span class="fa fa-check text-success"></span> Flexibilidad horaria</li>
+                          <li><span class="fa fa-check text-success"></span> Bonos por metas</li>
+                          <li><span class="fa fa-check text-success"></span> Comisión por venta</li>
+                          <li><span class="fa fa-check text-success"></span> Perfil vendedor</li>
+                      </ul>
+                  </div>
+                          <div class="col-md-6 content-center">
+                      <div class="well">
+                          <form id="loginForm" method="POST" action="/register/" novalidate="novalidate">
+                             
+                              <div class="form-group">
+                                  <label for="name" class="control-label error">Nombres y apellidos</label>
+                                  <input type="text" class="form-control" id="name" name="name" value="" required="" title="Please enter you name" placeholder="Juan Pérez">
+                                  <span class="help-block"></span>
+                              </div>
+                              
+                              <div class="form-group">
+                                  <label for="mail" class="control-label">Correo Electrónico</label>
+                                  <input type="text" class="form-control error" id="mail" name="mail" value="" required="@" title="Please enter you email" placeholder="juanperez@gmail.com">
+                                  <span class="help-block"></span>
+                              </div>
+                              
+                                <div class="form-group">
+                                  <label for="phone" class="control-label">Teléfono</label>
+                                  <input type="text" class="form-control error" id="phone" name="phone" value="" required="" title="Please enter you phone" placeholder="912345678">
+                                  <span class="help-block"></span>
+                              </div>
+                              
+                               <div class="form-group">
+                                  <label for="password" class="control-label">Comentario</label>
+                                   <textarea class="form-control" placeholder="Escribenos tu experiencia" required>
+                                        </textarea>
+                                  <span class="help-block"></span>
+                              </div>
+                              
+                              <div id="loginErrorMsg" class="alert alert-error hide">Error en los datos ingresados</div>
+                              
+                              <button type="submit" class="btn btn-success btn-block">Enviar</button>
+                          </form>
+                      </div>
+                  </div>
+                 
+           
+              </div>
+              </div>
+          </div>
+      </div>
+  </div>
+     </div>
+   
+   
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+   
+   
+   
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="view/componentes/bootstrap-3.3.7/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
