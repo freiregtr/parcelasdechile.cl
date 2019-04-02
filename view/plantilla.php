@@ -1,7 +1,7 @@
 <?php
 //___________________________________________________________________________________________________________   
 // Inicialización de variable de sesión
-session_start();
+//session_start();
 //___________________________________________________________________________________________________________
 ?>
 <!DOCTYPE html>
@@ -126,18 +126,18 @@ session_start();
                     <form class="signup-form">
                         <h2 class="text-center">¿Te llamamos?</h2>
                         <hr>
-                        <div class="form-group">
-                            <input type="text" class="form-control" placeholder="Nombre Completo" required="required">
+                        <div class="form-group nombreForm1">
+                            <input type="text" class="form-control validando" placeholder="Nombre Completo" name="nombreForm1" id="nombreForm1">
                         </div>
-                        <div class="form-group">
-                            <input type="email" class="form-control" placeholder="Correo electrónico" required="required">
+                        <div class="form-group correoForm1">
+                            <input type="email" class="form-control validando" placeholder="Correo electrónico" name="correoForm1" id="correoForm1">
                         </div>
-                        <div class="form-group">
-                            <input type="text" class="form-control" placeholder="Teléfono" required="required">
+                        <div class="form-group telefonoForm1">
+                            <input type="text" class="form-control validando" placeholder="Teléfono" name="telefonoForm1" id="telefonoForm1">
                         </div>
 
                         <div class="form-group text-center">
-                            <button type="submit" class="btn btn-blue btn-block">Enviar</button>
+                            <button type="submit" class="btn btn-blue btn-block" id="btnLead1">Enviar</button>
                         </div>
                     </form>
                 </div>
@@ -695,7 +695,7 @@ session_start();
                   </div>
                           <div class="col-md-6 content-center">
                       <div class="well">
-                          <form id="loginForm" method="POST" action="/register/" novalidate="novalidate">
+                          <form id="loginForm" method="POST" action="" novalidate="novalidate">
                              
                               <div class="form-group">
                                   <label for="name" class="control-label error">Nombres y apellidos</label>
@@ -739,9 +739,9 @@ session_start();
    
    
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
-   
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>   
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="view/js/plantilla.js"></script>
    
    
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
