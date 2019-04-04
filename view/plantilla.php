@@ -281,9 +281,10 @@
                         <!-- Feature -->
                         <div class="media">
                             <div class="media-left">
-                                <a href="#">
-                                    <i class="material-icons">monetization_on</i>
-                                </a>
+                               
+<button type="button" class="btn btn-warning">$</button>
+
+                    
                             </div>
                             <div class="media-body">
                                 <h4 class="media-heading">9.990.000.-</h4>
@@ -294,9 +295,8 @@
                         <!-- Feature -->
                         <div class="media">
                             <div class="media-left">
-                                <a href="#">
-                                    <i class="material-icons">monetization_on</i>
-                                </a>
+                                <button type="button" class="btn btn-primary">$</button>
+
                             </div>
                             <div class="media-body">
                                 <h4 class="media-heading">10.990.000</h4>
@@ -307,9 +307,8 @@
                         <!-- Feature -->
                         <div class="media">
                             <div class="media-left">
-                                <a href="#">
-                                    <i class="material-icons">monetization_on</i>
-                                </a>
+                                <button type="button" class="btn btn-danger">$</button>
+
                             </div>
                             <div class="media-body">
                                 <h4 class="media-heading">12.990.000</h4>
@@ -320,9 +319,8 @@
                         <!-- Feature -->
                         <div class="media">
                             <div class="media-left">
-                                <a href="#">
-                                    <i class="material-icons">monetization_on</i>
-                                </a>
+                               <button type="button" class="btn btn-success">$</button>
+
                             </div>
                             <div class="media-body">
                                 <h4 class="media-heading">16.990.000</h4>
@@ -382,7 +380,7 @@
                                 </ul>
                             </div>
                             <div class="pricing-footer">
-                                <a href="#" class="btn btn-blue">Comprar</a>
+                                <a href="#" class="btn btn-blue">Reservar</a>
                             </div>
                         </div>
                     </div>
@@ -409,7 +407,7 @@
                                 </ul>
                             </div>
                             <div class="pricing-footer">
-                                <a href="#" class="btn btn-blue">Comprar</a>
+                                <a href="#" class="btn btn-blue">Reservar</a>
                             </div>
                         </div>
                     </div>
@@ -437,7 +435,7 @@
                                 </ul>
                             </div>
                             <div class="pricing-footer">
-                                <a href="#" class="btn btn-blue">Comprar</a>
+                                <a href="#" class="btn btn-blue">Reservar</a>
                             </div>
                         </div>
                     </div>
@@ -492,13 +490,13 @@
                 <div id="owl-testimonios">
                     <div class="item">
                         <i class="material-icons">mood</i>
-                        <p class="quote">Á mi me fascina vivir en una parcela, Lo recomiendo ha ojos cerrados,si a usted le gusta la tranquilidad escuchar el silencio ,NO ESPERE MÁS, SE LO RECOMIENDO AMIGO.
+                        <p class="quote">Á mi me fascina vivir en parcela, Lo recomiendo a ojos cerrados, si a usted le gusta la tranquilidad y disfrutar el silencio NO ESPERE MÁS, SE LO RECOMIENDO AMIGO.
                         </p>
                         <h4>-Antonia Erba</h4>
                     </div>
                     <div class="item">
                         <i class="material-icons">mood</i>
-                        <p class="quote">La tranquilidad de vida y el aire que se ve mas respirable, feliz con mi parcela.
+                        <p class="quote">La tranquilidad de vida y el aire que se se respira, feliz con mi parcela.
                         </p>
                         <h4>-Ir Rodriguez</h4>
                     </div>

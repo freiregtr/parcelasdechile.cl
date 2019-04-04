@@ -669,6 +669,8 @@ nav.navbar.bootsnav.navbar-fixed .button-holder {
   margin: 25px 0;
 }
 
+
+
 /*========================================
           proyecto 1
 ========================================*/
@@ -869,6 +871,9 @@ nav.navbar.bootsnav.navbar-fixed .button-holder {
 
 #price .pricing-container .pricing-footer {
   padding: 25px 0;
+}
+.amarillo{
+    background-color: yellow;
 }
 
 /*========================================
