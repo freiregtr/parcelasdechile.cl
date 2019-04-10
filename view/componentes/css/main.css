@@ -587,18 +587,33 @@ nav.navbar.bootsnav.navbar-fixed .button-holder {
   background-color: #fff;
   padding: 45px;
   border-radius: 5px;
+  max-height: 419px;
+}
+
+#home .signup-form div{
+  max-height:38px;
 }
 
 #home .signup-form input{
   border: 1px solid #eee;
-  height: 38px;
+  height: 38px; 
   box-shadow: none !important;
 }
 
+/* color de input */
+#home .validando{
+  border-width: 1px;
+  border-color: #fff;
+  max-height: 40px;
+}
+
+/* color de input */
 #home .validando:focus{
+  border-width: 1px;
   border-color: #155187;
 }
 
+/* color de error */
 #home .error{
   border-style: solid;
   border-width: 1px;
@@ -606,7 +621,8 @@ nav.navbar.bootsnav.navbar-fixed .button-holder {
   border-radius: 4px;
 }
 
-#home .validado{
+/* color de validación */
+#home .signup-form .validado{
   border-style: solid;
   border-width: 1px;
   border-color: green;
@@ -616,6 +632,7 @@ nav.navbar.bootsnav.navbar-fixed .button-holder {
 #home .signup-form .form-control {
   font-size: 16px;
   padding: 10px 15px;
+  border-width: 1px;
   color: #555;
   background-color: #fff;
   border-radius: 3px;
@@ -951,30 +968,66 @@ nav.navbar.bootsnav.navbar-fixed .button-holder {
 }
 
 #contacto .contacto-forms h2 {
+  margin-top: 80px;
   margin-bottom: 40px;
 }
 
-#contacto .contacto-forms input:focus {
-  border-color: #155187;
-}
-
-#contacto .contacto-forms .form-control {
-  font-size: 16px;
+#contacto .form-control {
+  border: 1px solid #fff;
+  font-size: 20px;
   padding: 20px 15px;
-  color: #555;
   background-color: #fff;
   border-radius: 3px;
-  border: 2px solid #999;
-  height: 38px;
   box-shadow: none !important;
-  margin: 30px 0;
+  border: 1px solid ;
+}
+
+#contacto .form-control:hover {
+  border: 1px solid #155187;
 }
 
 #contacto .contacto-forms textarea {
-  height: 118px !important;
+  height: 150px !important;
   resize: none;
   margin: 0;
 }
+
+#contacto .validadoTA textarea {
+  height: 150px !important;
+  resize: none;
+  margin: 0;
+  border-color: green;
+  background-color: rgb(206, 231, 202);
+  color: rgb(0, 0, 0);
+}
+
+#contacto .errorTA textarea {
+  height: 150px !important;
+  resize: none;
+  margin: 0;
+  border-color: red;
+  background-color: rgb(241, 229, 229);
+  color: rgb(0, 0, 0);
+}
+
+#contacto .validando input:focus {
+  border-color: #155187;
+}
+
+#contacto .error{
+  border-style: solid;
+  border-width: 1px;
+  border-color: red;
+  border-radius: 4px;
+}
+
+#contacto .validado{
+  border-style: solid;
+  border-width: 1px;
+  border-color: green;
+  border-radius: 4px;
+}
+
 
 /*========================================
            Footer
@@ -1020,4 +1073,16 @@ footer li a:hover, footer li a:focus, footer li a:active {
 
 #loginErrorMsg input .error:focus {
   border-color: red;
+}
+
+.nombreForm1{
+  max-height: 40px;
+}
+
+.correoForm1{
+  max-height: 40px;
+}
+
+.telefonoForm1{
+  max-height: 40px;
 }

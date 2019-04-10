@@ -17,6 +17,11 @@
 
     <title>Parcelas de Chile - Tu proyecto familiar</title>
 
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>      
+   
+
     <!-- // PLUGINS (css files) // -->
     <link href="view/componentes/js/plugins/bootsnav_files/skins/color.css" rel="stylesheet">
     <link href="view/componentes/js/plugins/bootsnav_files/css/animate.css" rel="stylesheet">
@@ -50,6 +55,15 @@
     <link href="view/componentes/bootstrap-3.3.7/bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
     
     <link href="view/componentes/css/main.css" rel="stylesheet">
+   
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="view/componentes/bootstrap-3.3.7/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+    <script src="view/componentes/js/plugins/owl-carousel/owl.carousel.min.js"></script>
+    <script src="view/componentes/js/plugins/bootsnav_files/js/bootsnav.js"></script>
+    <script src="view/componentes/js/plugins/typed.js-master/typed.js-master/dist/typed.min.js"></script>
+    <script src="view/componentes/js/plugins/Magnific-Popup-master/Magnific-Popup-master/dist/jquery.magnific-popup.js"></script>
+    <script src="view/componentes/js/main.js"></script>
     
 </head>
 
@@ -117,23 +131,25 @@
                     <p>Tenemos el privilegio de invitarte a disfrutar de un rincón natural único en nuestro país. 
                     </p>
                     <a href="#proyectos" class="btn btn-transparent">Ver Proyectos</a>
-                    <a class="btn btn-blue popup-youtube" href="https://www.youtube.com/watch?v=Qp7LSJsmgAk">
+                    <a class="btn btn-blue popup-youtube" href="https://www.youtube.com/embed/Qp7LSJsmgAk/">
                         <i class="material-icons">play_circle_filled</i>Ver video
                     </a>
                 </div>
                 <!-- Sign Up -->
-                <div class="col-md-5 col-md-offset-1">
-                    <form class="signup-form">
-                        <h2 class="text-center">¿Te llamamos?</h2>
+                <div class="col-md-5 col-md-offset-1" id="form1Padre">
+                    <form class="signup-form" method="POST">
+                        <div class="row" style="height: 70px">
+                            <h2 class="text-center" id="transition">¿Te llamamos?</h2>
+                        </div>
                         <hr>
                         <div class="form-group nombreForm1">
-                            <input type="text" class="form-control validando" placeholder="Nombre Completo" name="nombreForm1" id="nombreForm1">
+                            <input type="text" class="form-control form-label validando" placeholder="Nombre Completo" name="nombreForm1" id="nombreForm1">
                         </div>
                         <div class="form-group correoForm1">
-                            <input type="email" class="form-control validando" placeholder="Correo electrónico" name="correoForm1" id="correoForm1">
+                            <input type="email" class="form-control form-label validando" placeholder="Correo electrónico" name="correoForm1" id="correoForm1">
                         </div>
                         <div class="form-group telefonoForm1">
-                            <input type="text" class="form-control validando" placeholder="Teléfono" name="telefonoForm1" id="telefonoForm1">
+                            <input type="text" class="form-control form-label validando" placeholder="Teléfono" name="telefonoForm1" id="telefonoForm1">
                         </div>
 
                         <div class="form-group text-center">
@@ -259,7 +275,7 @@
             <br>
         </div>
 
-        <iframe src="https://lanube360.com/parcelas-chile" frameborder="0" width="100%" height="600px" scrolling="no" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" oallowfullscreen="true" msallowfullscreen="true"></iframe>
+        <iframe src="https://lanube360.com/parcelas-chile/" frameborder="0" width="100%" height="600px" scrolling="no" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" oallowfullscreen="true" msallowfullscreen="true"></iframe>
 
     </section>
 
@@ -455,7 +471,7 @@
                     <p>Proyecto Lago Chapo, últimas parcelas disponibles.</p>
                     <br>
                    <div class="videoWrapper">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/Qp7LSJsmgAk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/Qp7LSJsmgAk/" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
                    </div>
                 </div>
@@ -587,25 +603,33 @@
         <!-- Contact Form -->
         <div class="contacto-forms">
             <div class="container">
-               <br>
-               <br>
-               <br>
                 <h2>Contacto</h2>
-                <form class="contacto-form">
-                    <div class="col-md-6">
-                        <div class="form-group">
-                            <input type="text" class="form-control" placeholder="Nombre Completo" required="required">
+                <form>
+                    <div class="col-md-12">
+                        <div class="col-md-12">
+                            <div class="form-group nombreForm2 error">
+                                <input type="text" class="form-control" name="nombreForm2" id="nombreForm2" placeholder="Nombre Completo">
+                            </div>
                         </div>
-                        <div class="form-group">
-                            <input type="email" class="form-control" placeholder="Email" required="required">
+                        <div class="col-md-12">
+                            <div class="form-group correoForm2">
+                                <input type="email" class="form-control" name="correoForm2" id="correoForm2" placeholder="Email">
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="form-group telefonoForm2">
+                                <input type="text" class="form-control" placeholder="teléfono" name="telefonoForm2" id="telefonoForm2">
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="form-group mensajeForm2">
+                                <textarea class="form-control" rows="3" name="mensajeForm2" id="mensajesForm2" placeholder="Mensaje"></textarea>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-md-6">
-                        <div class="form-group">
-                            <textarea class="form-control" rows="3" placeholder="Mensaje"></textarea>
-                        </div>
+                    <div class="col-md-12">
+                        <button type="submit" class="btn btn-blue" id="btnLead2">Enviar</button>
                     </div>
-                    <button type="submit" class="btn btn-blue">Enviar</button>
                 </form>
             </div>
         </div>
@@ -624,8 +648,8 @@
                     <hr>
                     <h5 class="pull-left">PARCElAS DE CHILE &copy; 2019 All rights reserved</h5>
                     <ul class="liste-unstyled pull-right">
-                        <li><a href="https://www.facebook.com/pg/parcelasdechile/reviews/?ref=page_internal" target="_blank"><i class="fab fa-facebook-square"></i></a></li>
-                        <li><a href="https://www.youtube.com/channel/UC1A2lJ21pRVisDtocb1gTTA?view_as=subscriber" target="_blank"><i class="fab fa-youtube"></i></a></li>
+                        <li><a href="https://www.facebook.com/pg/parcelasdechile/reviews/?ref=page_internal/" target="_blank"><i class="fab fa-facebook-square"></i></a></li>
+                        <li><a href="https://www.youtube.com/channel/UC1A2lJ21pRVisDtocb1gTTA?view_as=subscriber/" target="_blank"><i class="fab fa-youtube"></i></a></li>
                         <li><a href="https://www.linkedin.com/company/18903356/admin/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
                         <li><a href="https://www.instagram.com/parcelasdechile/" target="_blank"><i class="fab fa-instagram"></i></a></li>
                     </ul>
@@ -733,24 +757,13 @@
           </div>
       </div>
   </div>
-     </div>
+</div>
    
-   
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>   
-    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <!-- Mailform-->
+    <div class="snackbars" id="form-output-global"></div>
+
     <script src="view/js/plantilla.js"></script>
-   
-   
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="view/componentes/bootstrap-3.3.7/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
-    <script src="view/componentes/js/plugins/owl-carousel/owl.carousel.min.js"></script>
-    <script src="view/componentes/js/plugins/bootsnav_files/js/bootsnav.js"></script>
-    <script src="view/componentes/js/plugins/typed.js-master/typed.js-master/dist/typed.min.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js"></script>
-    <script src="view/componentes/js/plugins/Magnific-Popup-master/Magnific-Popup-master/dist/jquery.magnific-popup.js"></script>
-    <script src="view/componentes/js/main.js"></script>
+
 </body>
 
 </html> 
