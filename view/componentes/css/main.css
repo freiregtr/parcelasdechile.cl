@@ -786,8 +786,8 @@ nav.navbar.bootsnav.navbar-fixed .button-holder {
 ========================================*/
 
 #valores {
-  background: #155187;
-  color: #fff;
+  background: #fff;
+  color:  #155187;
   padding: 80px 0;
 }
 
@@ -796,7 +796,7 @@ nav.navbar.bootsnav.navbar-fixed .button-holder {
 }
 
 #valores .media i {
-  color: #fff;
+  color: #155187;
   font-size: 46px;
   margin-right: 25px;
 }
@@ -809,139 +809,51 @@ nav.navbar.bootsnav.navbar-fixed .button-holder {
            Pricing
 ========================================*/
 
-#price {
-  text-align: center;
+.panel {
+  border: 1px solid #155187; 
+  border-radius:0;
+  transition: box-shadow 0.5s;
 }
 
-#price .plan {
-  background: #fff;
-  box-shadow: 0px 0px 60px 0px rgba(213, 216, 224, 0.7);
+.panel:hover {
+  box-shadow: 5px 0px 40px rgba(0,0,0, .2);
 }
 
-#price .active {
-  -webkit-transform: scale(1.05);
-  -ms-transform: scale(1.05);
-  transform: scale(1.05);
-  background-color: #fff;
-  box-shadow: 0px 0px 60px 0px rgba(21, 81, 135, 0.57);
-}
-
-#price .pricing-container {
-  margin-top: 80px;
-}
-
-#price .pricing-container h2 {
-  color: #496174;
-  margin-bottom: 40px;
-}
-
-#price .pricing-container h3 {
-  font-size: 24px;
+.panel-footer .btn:hover {
+  border: 1px solid #155187;
+  background-color: #fff !important;
   color: #155187;
-  margin-bottom: 0;
 }
 
-#price .pricing-container h2, #price .pricing-container h3 {
-  text-transform: none;
+.panel-heading {
+  color: #fff !important;
+  background-color: #155187 !important;
+  padding: 25px;
+  border-bottom: 1px solid transparent;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
 }
 
-#price .pricing-container .pricing-header {
-  padding: 30px 0;
+.panel-footer {
+  background-color: #fff !important;
 }
 
-#price .pricing-container .pricing-header .currency {
-  position: relative;
-  font-weight: 700;
-  font-size: 18px;
-  color: #496174;
-  top: -20px;
+.panel-footer h3 {
+  font-size: 32px;
 }
 
-#price .pricing-container .pricing-header .amount {
-  color: #496174;
-  font-size: 44px;
-  font-weight: 700;
+.panel-footer h4 {
+  color: #aaa;
+  font-size: 14px;
 }
 
-#price .pricing-container .pricing-header .period {
-  font-size: 22px;
-  font-weight: 300;
-  color: #496174;
-  position: relative;
-  top: 12px;
-}
-
-#price .pricing-container ul {
-  padding: 20px 0;
-}
-
-#price .pricing-container ul li {
-  font-size: 15px;
-  letter-spacing: .1em;
+.panel-footer .btn {
   margin: 15px 0;
-}
-
-#price .pricing-container ul li i {
-  color: #155187;
-  margin-right: 10px;
-}
-
-#price .pricing-container .pricing-footer {
-  padding: 25px 0;
-}
-.amarillo{
-    background-color: yellow;
-}
-
-/*========================================
-           Clientes
-========================================*/
-
-#clientes {
-  text-align: center;
-}
-
-}
-
-#clientes #owl-clientes {
-  margin: 60px 0;
-}
-
-#clientes #owl-clientes .owl-pagination {
-  display: none;
-}
-
-#clientes #owl-testimonios {
-  margin: 60px 0;
-}
-
-#clientes #owl-testimonios .owl-pagination .owl-page.active span {
-  background: #155187;
-}
-
-#clientes #owl-testimonios .owl-pagination .owl-page span {
-  border: 2px solid #155187;
-  border-radius: 50%;
-  background: transparent;
-  opacity: 1;
-  -webkit-transition: all .3s ease-in-out;
-  transition: all .3s ease-in-out;
-}
-
-#clientes #owl-testimonios i {
-  font-size: 48px;
-  color: #155187;
-}
-
-#clientes #owl-testimonios p {
-  width: 50%;
-  margin: 25px auto;
-}
-
-#clientes #owl-testimonios h3 {
+  background-color: #155187;
   color: #fff;
 }
-
 /*========================================
            Contacto
 ========================================*/

@@ -169,6 +169,7 @@
         <div class="container">
             <h2>Nuestras parcelas</h2>
             <p>Estas son las característica generales de todas nuestras parcelas.</p>
+            <hr>
             <div class="row">
                 <div class="col-md-4">
                     <div class="icon-box">
@@ -230,7 +231,8 @@
         <div class="container">
             <h2>Caracteristicas</h2>
             <p>Entretenciones, lugares turisticos y actividades de la zona.</p>
-            <div class="row">
+            <hr>
+                <div class="row">
 
                 <div class="col-md-4">
                     <div class="icon-box">
@@ -271,8 +273,7 @@
         <div class="container text-center">
             <h2>Parcelas Lago Chapo</h2>
             <p>Navega en 360º por el proyecto y sus parcelas.</p>
-            <br>
-            <br>
+            <hr>
         </div>
 
         <iframe src="https://lanube360.com/parcelas-chile/" frameborder="0" width="100%" height="600px" scrolling="no" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" oallowfullscreen="true" msallowfullscreen="true"></iframe>
@@ -283,7 +284,7 @@
           Valores
     ========================================-->
 
-    <section id="valores">
+    <section id="valores">       
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
@@ -367,96 +368,67 @@
 
     <section id="price" class="section-padding">
         <div class="container">
-            <h2>Valores</h2>
+           <div class="container-fluid">
+  <div class="text-center">
+   <h2>Valores</h2>
             <p>Los valores varian por la ubicación de la parcelacion dentro del proyecto.</p>
-            <div class="row">
-                <!-- Pricing Start Here -->
-                <div class="pricing-container">
-                    <div class="col-md-4">
-                        <!--== SINGLE USER: Plan ==-->
-                        <div class="plan">
-                            <div class="pricing-header">
-                                <h3>Lago Chapo</h3>
-
-                                <h3>
-                                    <span class="currency">$</span>
-
-                                    <span class="amount">12.990.000</span>
-
-                                </h3>
-                            </div>
-                            <div class="pricing-body">
-                                <ul class="list-unstyled">
-                                    <li><i class="material-icons">done</i><b>Rol único</b></li>
-                                    <li><i class="material-icons">done</i><b>Factibilidad luz y agua</b></li>
-                                    <li><i class="material-icons">done</i><b>5000 Mt2</b> </li>
-
-
-
-                                </ul>
-                            </div>
-                            <div class="pricing-footer">
-                                <a href="#" class="btn btn-blue">Reservar</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <!--== MULTIPLE USER: Plan ==-->
-                        <div class="plan active">
-                            <div class="pricing-header">
-                                <h3>Lago Chapo</h3>
-                                <h4>desde</h4>
-
-                                <h3>
-                                    <span class="currency">$</span>
-
-                                    <span class="amount">9.990.000</span>
-
-                                </h3>
-                            </div>
-                            <div class="pricing-body">
-                                <ul class="list-unstyled">
-                                    <li><i class="material-icons">done</i><b>Rol único</b></li>
-                                    <li><i class="material-icons">done</i><b>Factibilidad luz y agua</b></li>
-                                    <li><i class="material-icons">done</i><b>5000 Mt2</b> </li>
-
-                                </ul>
-                            </div>
-                            <div class="pricing-footer">
-                                <a href="#" class="btn btn-blue">Reservar</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <!--== Developer: Plan ==-->
-                        <div class="plan">
-                            <div class="pricing-header">
-                                <h3>Lago Chapo</h3>
-
-                                <h3>
-                                    <span class="currency">$</span>
-
-                                    <span class="amount">16.990.000</span>
-
-                                </h3>
-                            </div>
-                            <div class="pricing-body">
-                                <ul class="list-unstyled">
-                                    <li><i class="material-icons">done</i><b>Rol único</b></li>
-                                    <li><i class="material-icons">done</i><b>Factibilidad luz y agua</b></li>
-                                    <li><i class="material-icons">done</i><b>5000 Mt2</b> </li>
-
-
-
-                                </ul>
-                            </div>
-                            <div class="pricing-footer">
-                                <a href="#" class="btn btn-blue">Reservar</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            
+  </div>
+  <hr>
+  <div class="row">
+    <div class="col-sm-4">
+      <div class="panel panel-default text-center">
+        <div class="panel-heading">
+          <h1>Lago Chapo</h1>
+        </div>
+         <div class="panel-body">
+          <p><strong><i class="material-icons">done</i></strong> Rol único</p>
+          <p><strong><i class="material-icons">done</i></strong> Factibilidad luz y agua</p>
+          <p><strong><i class="material-icons">done</i></strong> 5000 Mt2</p>
+        </div>
+        <div class="panel-footer">
+          <h3>$12.990.000</h3>
+          <button class="btn btn-lg">Resevar</button>
+        </div>
+      </div> 
+    </div> 
+    <div class="col-sm-4">
+      <div class="panel panel-default text-center">
+        <div class="panel-heading">
+           <h1>Lago Chapo</h1>
+        </div>
+        <div class="panel-body">
+          <p><strong><i class="material-icons">done</i></strong> Rol único</p>
+          <p><strong><i class="material-icons">done</i></strong> Factibilidad luz y agua</p>
+          <p><strong><i class="material-icons">done</i></strong> 5000 Mt2</p>
+        </div>
+        <div class="panel-footer">
+          <h3>$9.990.000</h3>
+          <button class="btn btn-lg">Resevar</button>
+        </div>
+      </div> 
+    </div> 
+   <div class="col-sm-4">
+      <div class="panel panel-default text-center">
+        <div class="panel-heading">
+           <h1>Lago Chapo</h1>
+        </div>
+        <div class="panel-body">
+          <p><strong><i class="material-icons">done</i></strong> Rol único</p>
+          <p><strong><i class="material-icons">done</i></strong> Factibilidad luz y agua</p>
+          <p><strong><i class="material-icons">done</i></strong> 5000 Mt2</p>
+        </div>
+        <div class="panel-footer">
+          <h3>$16.990.000</h3>
+          
+     <button class="btn btn-lg">Resevar</button>
+        </div>
+      </div> 
+    </div> 
+  </div>
+</div>
+       
+       
         </div>
     </section>
     <!--======================================== 
@@ -469,7 +441,7 @@
                 <div class="col-md-12 text-center">
                     <h2>Video Promocional</h2>
                     <p>Proyecto Lago Chapo, últimas parcelas disponibles.</p>
-                    <br>
+                    <hr>
                    <div class="videoWrapper">
                         <iframe width="560" height="315" src="https://www.youtube.com/embed/Qp7LSJsmgAk/" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -487,11 +459,10 @@
 
     <section id="clientes" class="section-padding">
         <div class="container">
-            <div class="row">
-                <h2>Nuestros clientes</h2>
+            <div class="row text-center">
+                <h2 >Nuestros clientes</h2>
                 <p>Clientes felices, cumpliendo su proyecto familiar.</p>
-                <br>
-                <br>
+                <hr>
                 <!--// Clients Images //-->
                 <div class="clientes-images">
                     <div id="owl-clientes">
@@ -544,12 +515,8 @@
                         <p>Únete a nuestro equipo de vendedores.
                         Este 2019 saldremos con mas de 500 parcelas en distintas regiones y buscamos a los mejores !
                         </p>
-
-                    
                         </div>
-                    
-                        
-                        <button type="button" class="btn btn-white" data-toggle="modal" data-target="#login-overlay">Inscribir</button>
+                                             <button type="button" class="btn btn-white" data-toggle="modal" data-target="#login-overlay">Inscribir</button>
                     </div>
                 </div>
                 <!-- Img -->
@@ -569,6 +536,7 @@
         <div class="container">
             <h2>Contactanos</h2>
             <p>Tenemos un equipo de vendedores dispuestos a resolver todas tus dudad</p>
+            <hr>
 
         </div>
         <!-- Contact Info -->
