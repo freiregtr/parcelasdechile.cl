@@ -160,6 +160,22 @@
             </div>
         </div>
     </section>
+    
+     <!--======================================== 
+           tour 360
+    ========================================-->
+
+    <section id="360" class="section-padding">
+        <div class="container text-center">
+            <h2>Parcelas Lago Chapo</h2>
+            <p>Navega en 360º por el proyecto y sus parcelas.</p>
+            <hr>
+        </div>
+
+        <iframe src="https://lanube360.com/parcelas-chile/" frameborder="0" width="100%" height="600px" scrolling="no" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" oallowfullscreen="true" msallowfullscreen="true"></iframe>
+
+    </section>
+
 
     <!--======================================== 
            proyectos
@@ -199,7 +215,14 @@
     <!--======================================== 
           Proyecto 1 - Lago Chapo
     ========================================-->
-
+    
+    <div class="text-center">
+   <h2>Proyectos</h2>
+            <p>Visita nuestros proyectos y encantate con sus caracteristicas.</p>
+            
+  </div>
+  <hr>
+   
     <section id="proyecto1">
         <div class="container-fluid">
             <div class="row">
@@ -222,6 +245,33 @@
             </div>
         </div>
     </section>
+    <hr>
+     <!--======================================== 
+          Proyecto 3 - Mirador de halcones
+    ========================================-->
+     <section id="proyecto3">
+        <div class="container-fluid">
+            <div class="row">
+                <!-- Img -->
+                <div class="col-md-6 proyecto3-bg">
+                </div>
+                <!-- Story Caption -->
+                <div class="col-md-6">
+                    <div class="proyecto3-content">
+                        <h2>MIRADOR DE HALCONES</h2>
+                        <p class="proyecto3-quote">
+                            " Por qué tenemos el país más lindo del mundo, creemos que deberías elegir Parcelas de Chile."
+                        </p>
+                        <div class="proyecto3-text">
+                            <p>Una de las maravillas que podemos encontrar en la zona del Lago Chapo es Disfrutar navegando con la hermosa vista del Volcán Calbuco, y si eres de las personas que ama la naturaleza deberías recorrer los senderos de la Reserva Nacional Llanquihue, una de las más lindas de Chile.</p>
+                        </div>
+                        <a href="#caracteristicas" class="btn btn-white">Ver más</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
 
     <!--======================================== 
            Services
@@ -265,21 +315,7 @@
 
     </section>
 
-    <!--======================================== 
-           tour 360
-    ========================================-->
-
-    <section id="360" class="section-padding">
-        <div class="container text-center">
-            <h2>Parcelas Lago Chapo</h2>
-            <p>Navega en 360º por el proyecto y sus parcelas.</p>
-            <hr>
-        </div>
-
-        <iframe src="https://lanube360.com/parcelas-chile/" frameborder="0" width="100%" height="600px" scrolling="no" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" oallowfullscreen="true" msallowfullscreen="true"></iframe>
-
-    </section>
-
+   
     <!--======================================== 
           Valores
     ========================================-->
@@ -306,7 +342,6 @@
                             <div class="media-body">
                                 <h4 class="media-heading">9.990.000.-</h4>
                                 <p>Factibilidad luz y agua, 5000 mt2 y rol único</p>
-                                <p> Disponibles: 6, 10,14, 15, 16, 19, 21, 25, 26, 27, 28 y 29</p>
                             </div>
                         </div>
                         <!-- Feature -->
@@ -318,7 +353,6 @@
                             <div class="media-body">
                                 <h4 class="media-heading">10.990.000</h4>
                                 <p>Factibilidad luz y agua, 5000 mt2 y rol único</p>
-                                <p> Disponibles: 41, 42, 43, 44 y 46</p>
                             </div>
                         </div>
                         <!-- Feature -->
@@ -330,7 +364,6 @@
                             <div class="media-body">
                                 <h4 class="media-heading">12.990.000</h4>
                                 <p>Factibilidad luz y agua, 5000 mt2 y rol único</p>
-                                <p> Disponibles: 1, 2, 34, 36, 37, 38 y 39</p>
                             </div>
                         </div>
                         <!-- Feature -->
@@ -342,7 +375,6 @@
                             <div class="media-body">
                                 <h4 class="media-heading">16.990.000</h4>
                                 <p>Factibilidad luz y agua, 5000 mt2 y rol único</p>
-                                <p> Disponibles: 48, 49, 51, 52, 53, 54, 55, 58, 59 y 60</p>
                             </div>
                         </div>
 
@@ -351,10 +383,7 @@
                 </div>
                 <!-- Features Img -->
                 <div class="col-md-6 col-md-push-1">
-                    <br>
-                    <br>
-                    <br>
-                    <br>
+                 
                     <img src="view/imagenes/plano.png" class="img-responsive" alt="feature">
                 </div>
             </div>
@@ -374,6 +403,7 @@
             <p>Los valores varian por la ubicación de la parcelacion dentro del proyecto.</p>
             
   </div>
+  
   <hr>
   <div class="row">
     <div class="col-sm-4">
@@ -388,10 +418,11 @@
         </div>
         <div class="panel-footer">
           <h3>$12.990.000</h3>
-          <button class="btn btn-lg">Resevar</button>
+<button class="btn btn-blue">Resevar</button>    
         </div>
       </div> 
     </div> 
+    
     <div class="col-sm-4">
       <div class="panel panel-default text-center">
         <div class="panel-heading">
@@ -404,10 +435,11 @@
         </div>
         <div class="panel-footer">
           <h3>$9.990.000</h3>
-          <button class="btn btn-lg">Resevar</button>
-        </div>
+<button class="btn btn-blue">Reservar</button>    
+      </div>
       </div> 
     </div> 
+    
    <div class="col-sm-4">
       <div class="panel panel-default text-center">
         <div class="panel-heading">
@@ -421,10 +453,11 @@
         <div class="panel-footer">
           <h3>$16.990.000</h3>
           
-     <button class="btn btn-lg">Resevar</button>
-        </div>
+<button class="btn btn-blue">Reservar</button>    
+      </div>
       </div> 
     </div> 
+    
   </div>
 </div>
        
@@ -535,7 +568,7 @@
     <section id="contacto" class="section-padding">
         <div class="container">
             <h2>Contactanos</h2>
-            <p>Tenemos un equipo de vendedores dispuestos a resolver todas tus dudad</p>
+            <p>Tenemos un equipo de vendedores dispuestos a resolver todas tus dudas.</p>
             <hr>
 
         </div>
