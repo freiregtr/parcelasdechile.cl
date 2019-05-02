@@ -8,6 +8,18 @@
 <html lang="en">
 
 <head>
+
+    <!-- UA Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-137903886-1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-137903886-1');
+    </script>
+
+
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -53,9 +65,9 @@
     <!--// BOOTSTRAP & Main //-->
     
     <link href="view/componentes/bootstrap-3.3.7/bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
-    
     <link href="view/componentes/css/main.css" rel="stylesheet">
-   
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="view/componentes/bootstrap-3.3.7/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
@@ -68,6 +80,10 @@
 </head>
 
 <body>
+    <!-- btn -->
+    <a href="https://api.whatsapp.com/send?phone=56958053609&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20parcelas." class="float" target="_blank">
+    <i class="fa fa-whatsapp my-float"></i>
+    </a>
 
     <!--======================================== 
            Preloader
@@ -262,21 +278,6 @@
 
             </div>
         </div>
-
-    </section>
-
-    <!--======================================== 
-           tour 360
-    ========================================-->
-
-    <section id="360" class="section-padding">
-        <div class="container text-center">
-            <h2>Parcelas Lago Chapo</h2>
-            <p>Navega en 360º por el proyecto y sus parcelas.</p>
-            <hr>
-        </div>
-
-        <iframe src="https://lanube360.com/parcelas-chile/" frameborder="0" width="100%" height="600px" scrolling="no" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" oallowfullscreen="true" msallowfullscreen="true"></iframe>
 
     </section>
 
