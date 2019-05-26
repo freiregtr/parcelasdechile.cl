@@ -1427,7 +1427,7 @@ $document.ready(function () {
     });
   }
 
-  // carga asincronica de mapa
+  // carga asincronica de los tour 360, asi se evita que la carga sincronica no se vea afectada por el iframe
   $(".asincronico").append('<iframe src="https://lanube360.com/parcelas-chile/" frameborder="0" width="100%" height="600px" scrolling="no" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" oallowfullscreen="true" msallowfullscreen="true"></iframe>');
 });
 

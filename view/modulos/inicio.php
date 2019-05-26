@@ -172,7 +172,7 @@
             </section>
             <!-- RD Parallax-->
             <section class="rd-parallax">
-                <div data-speed="0.4" data-type="media" data-url="img/vendedor.jpg" class="rd-parallax-layer"></div>
+                <div data-speed="0.4" data-type="media" data-url="view/componentes/img/vendedor.jpg" class="rd-parallax-layer"></div>
                 <div data-speed="0" data-type="html" class="rd-parallax-layer">
                     <div class="shell section-100 section-lg-top-220 section-lg-bottom-205 context-dark text-md-left">
                         <hr class="divider">
