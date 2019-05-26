@@ -1,0 +1,138 @@
+// Navs
+// --------------------------------------------------
+
+.nav{
+  display: inline-block;
+
+  &-tabs{
+    border-bottom: none;
+
+    @media (min-width: $screen-sm-min) {
+      border-left: 1px solid #d6dee2;
+      border-right: 1px solid #d6dee2;
+    }
+
+    li + li {
+      border-left: 1px solid #d6dee2;
+    }
+
+    li{
+      border: 1px solid #d6dee2;
+      margin-left: 2px;
+      margin-top: 2px;
+
+      @media (min-width: $screen-sm-min) {
+        border: none;
+        margin: 0;
+      }
+
+      a{
+        padding: 13px 20px;
+        margin: 0;
+        border: none;
+        color: $gray-base;
+
+        @media (min-width: $screen-sm-min) {
+          border-top: 1px solid #d6dee2;
+          border-bottom: 1px solid #d6dee2;
+        }
+
+        &:hover,
+        &:focus{
+          background-color: transparent;
+          color: $brand-primary;
+          border-color: #d6dee2;
+        }
+
+        &.active{
+          border-bottom: none;
+          color: $brand-primary;
+        }
+      }
+    }
+  }
+
+  &-tabs-custom{
+    border-left: 1px solid #d6dee2;
+    border-right: 1px solid #d6dee2;
+
+    li{
+      margin: 0;
+      border: none;
+      a{
+        border-top: 1px solid #d6dee2;
+        border-bottom: 1px solid #d6dee2;
+        font-weight: 600;
+        background-color: #f3f3f4;
+        padding: 5px 10px;
+
+        @media (min-width: $screen-sm-min) {
+          padding: 10px 15px;
+        }
+
+        &:hover{
+          border-left: none;
+          border-right: none;
+        }
+      }
+
+      &.active{
+        > a{
+          &,
+          &:focus,
+          &:hover{
+            background-color: transparent;
+            border: none;
+            border-top: 1px solid #d6dee2;
+            color: $brand-primary;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+.modal-body{
+  .close {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    opacity: .65;
+    color: #333;
+    font-weight: 700;
+    font-size: 20px;
+  }
+
+  .nav-tabs{
+    display: flex;
+
+    &:before,
+    &:after{
+      content: none;
+    }
+
+    li{
+      flex-grow: 1;
+    }
+  }
+}
+
+.modal{
+  &:before {
+    content: " ";
+    display: inline-block;
+    width: 1%;
+    vertical-align: middle;
+
+    @media (min-width: $screen-xs-min) {
+      height: 100%;
+    }
+  }
+
+  .modal-dialog {
+    margin-top: 20px;
+    display: inline-block;
+    vertical-align: middle;
+  }
+}

@@ -1,0 +1,22 @@
+extends  ../_skeleton
+
+block variables
+	- var activeIndex = 1
+
+block title
+	title Home
+
+block page
+
+	// Page Header
+	header.page-header.bg-image-01
+		include ../sections/_navigation-transparent
+		include ../sections/_index-hero
+
+	include ../sections/_index-content
+
+	// Page Footer
+	include ../sections/_footer-default
+		//- only on index page
+		block footerLink
+			// {%FOOTER_LINK}

@@ -1,0 +1,13 @@
+//- Quote
+
+mixin quote-variant-1(citeSm, q, cite, img, imgW, imgH)
+	// Quote
+	blockquote.quote.quote-variant-1
+		p=q
+		.cite.unit.unit-sm-horizontal.unit-md-horizontal.unit-lg-horizontal.unit-middle
+			.unit-left
+				img(src=img width=imgW height=imgH alt='').img-circle.img-responsive.center-block
+			.unit-body
+				a(href='#').text-bold.text-base=cite
+				if(citeSm)
+					p.offset-top-5.small.text-primary=citeSm

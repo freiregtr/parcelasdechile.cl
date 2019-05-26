@@ -33,12 +33,11 @@
                             <!-- RD Navbar Toggle-->
                             <button data-rd-navbar-toggle=".rd-navbar-nav-wrap" class="rd-navbar-toggle"><span></span></button>
                             <!-- RD Navbar Brand-->
-                            <div class="rd-navbar-brand"><a href="inicio" class="brand-name"><img src="img/logo/logo_transparente.png" width="228" height="83" alt=""></a>
+                            <div class="rd-navbar-brand"><a href="inicio" class="brand-name"><img src="view/componentes/img/logo/logo_transparente.png" width="228" height="83" alt=""></a>
                             </div>
                             <div class="rd-navbar-contacts rd-navbar-collapse rd-navbar-collapse-2"><span class="semi-small">Póngase
                                     en contacto con nosotros</span>
-                                <div><span class="icon fa-phone text-primary"></span><a href="callto:>+56 9 5805 3609">+56 9 5805
-                                        3609</a>
+                                <div><span class="icon fa-phone text-primary"></span><a href="callto:>+56 9 5805 3609">+56 9 5805primary"></span><a href="callto:>+56 9 5805 3609">+56 9 58053609</a>
                                 </div>
                             </div>
                         </div>
@@ -55,7 +54,7 @@
                                         <li><a href="miradoralcones">Mirador Álcones</a></li>
                                     </ul>
                                 </li>
-                                <li><a href="about.html">Quienes Somos</a></li>
+                                <li><a href="quienessomos">Quienes Somos</a></li>
                                 <!-- RD Navbar Dropdown-->
                                 <li><a href="contacto">Contacto</a></li>
                             </ul>

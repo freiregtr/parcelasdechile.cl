@@ -1,0 +1,79 @@
+extends  ../_skeleton
+
+block variables
+	- var activeIndex = 0
+
+block title
+	title Warren Kalhoney
+
+block page
+	include ../mixins/_breadcrumbs
+	include ../mixins/_product
+
+	// Page Header
+	header.page-header
+		include ../sections/_navigation-default
+
+	// Page Content
+	main.page-content
+		+breadcrumbs({
+			0: {
+				"title": "Home",
+				"href": "./"
+			},
+			1: {
+				"title": "Warren Kalhoney"
+			}
+		})
+
+		section.section-top-70.section-bottom-80
+			.shell.text-md-left
+				h3 Contact Agent
+				.offset-top-30.unit.unit-md-horizontal.unit-lg-horizontal
+					.unit-left
+						img(src='images/user-05.jpg' width='301' height='301' alt='').img-responsive.center-block
+					.unit-body
+						h5 Warren Kalhoney
+						p.offset-top-20 I work with Chicago, MI and OH real estate markets. My name is Warren Kalhoney and I'm a full-time licensed real estate agent and I’ve been helping my clients achieve the "American Dream" since 1990. I’ve been working at this same agency for over 15 years! You can always reach me directly via the phone number I have posted, 24/7. My phones always turned on for my clients! I have offices both in the New York City and the Upstate New York. I can meet with my clients efficiently across the state and across the area if needed. In my practice, I have cooperated with few vendors in the industry & I negotiated with them to help to bring down the costs in your real estate transactions. I’m also proud to say, that throughout my career of an agent I’ve been awarded several distinguished sales awards. When working with me you are getting my full, professional attention to all the details of your transaction, only an experienced realtor can give! Contact me anytime for a free consultation. Let's get you packing for your next move! I’d love to hear from you and start looking for a perfect property for you!
+						div
+							span.text-middle.icon.inset-right-10.text-primary.fa-phone
+							a(href='callto:#').text-middle.text-base 800-2345-6789
+						div.offset-top-0
+							span.text-middle.icon.inset-right-10.text-primary.fa-phone
+							a(href='callto:#').text-middle.text-base 800-2345-6789
+						ul.list-inline.offset-top-20
+							li
+								a(href='#').icon.icon-sm.text-primary.fa-facebook
+							li
+								a(href='#').icon.icon-sm.text-primary.fa-twitter
+							li
+								a(href='#').icon.icon-sm.text-primary.fa-google-plus
+
+				hr
+
+				h3 This Agent's Active Listings:
+
+				// RD Google Map
+				.offset-top-40
+					.rd-google-map-lg.rd-google-map(class="rd-google-map__model", data-zoom='11', data-x='-73.9874068', data-y='40.643180', data-styles='[{"featureType":"landscape","stylers":[{"hue":"#FFBB00"},{"saturation":43.400000000000006},{"lightness":37.599999999999994},{"gamma":1}]},{"featureType":"road.highway","stylers":[{"hue":"#FFC200"},{"saturation":-61.8},{"lightness":45.599999999999994},{"gamma":1}]},{"featureType":"road.arterial","stylers":[{"hue":"#FF0300"},{"saturation":-100},{"lightness":51.19999999999999},{"gamma":1}]},{"featureType":"road.local","stylers":[{"hue":"#FF0300"},{"saturation":-100},{"lightness":52},{"gamma":1}]},{"featureType":"water","stylers":[{"hue":"#0078FF"},{"saturation":-13.200000000000003},{"lightness":2.4000000000000057},{"gamma":1}]},{"featureType":"poi","stylers":[{"hue":"#00FF6A"},{"saturation":-1.0989010989011234},{"lightness":11.200000000000017},{"gamma":1}]}]')
+						ul.map_locations
+							li(data-y='40.653180', data-x='-73.9814068')
+								p
+									| 9870 St Vincent Place, Glasgow, DC 45 Fr 45.
+							li(data-y='40.543180', data-x='-74.1994068')
+								p
+									| 9870 St Vincent Place, Glasgow, DC 45 Fr 45.
+
+				.range.offset-top-40
+					.cell-sm-6.cell-lg-4
+						+product-list('A beach house at Baja California peninsula','$1,342.00','Enjoy a refreshing time amidst the monumental Appalachian mountains, in a townhouse that will host…','232.00 m²',' 3',' 4','218 Front Street, Brooklyn, NY 11201, USA','images/product-01.jpg','418','316')
+
+					.cell-sm-6.cell-lg-4
+						+product-list('Hunting mansion in Kentucky','$1,200.00','Enjoy a refreshing time amidst the monumental Appalachian mountains, in a townhouse that will host…','232.00 m²',' 3',' 4','2001-2099 Saint Charles Street, St. Louis, MO 63103, USA','images/product-02.jpg','418','316')
+
+
+	// Page Footer
+	include ../sections/_footer-default
+
+
+

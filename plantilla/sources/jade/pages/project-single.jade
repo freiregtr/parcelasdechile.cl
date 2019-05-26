@@ -1,0 +1,107 @@
+extends  ../_skeleton
+
+block variables
+	- var activeIndex = 4
+
+block title
+	title Italian inspired living room
+
+block page
+	include ../mixins/_breadcrumbs
+
+	// Page Header
+	header.page-header
+		include ../sections/_navigation-default
+
+	// Page Content
+	main.page-content
+		+breadcrumbs({
+			0: {
+				"title": "Home",
+				"href": "./"
+			},
+			1: {
+				"title": "Italian inspired living room"
+			}
+		})
+
+		section.section-top-70.section-bottom-80
+			.shell.text-md-left.product
+				.range
+					.cell-md-8
+						div
+							a(href='#').label.label-primary VILLAS
+						h3.product-title Italian inspired living room
+						p.small
+							a(href='#') Emilia Warren
+							=' - '
+							a(href='#').text-gray June, 29 2016
+							=' - '
+							span.reveal-inline-block
+								span.icon.mdi.mdi-comment-outline.text-primary.text-middle.inset-right-5
+								a(href='#').text-gray 0 comments
+						// Slick Carousel
+						.offset-top-30.slick-slider.carousel-parent(data-arrows="true", data-loop="false", data-dots="false", data-swipe="true", data-items="1" data-child="#child-carousel", data-for="#child-carousel")
+							.item
+								img(src='images/post-10.jpg', alt='', width='886', height='670').img-responsive
+							.item
+								img(src='images/post-11.jpg', alt='', width='886', height='670').img-responsive
+							.item
+								img(src='images/post-12.jpg', alt='', width='886', height='670').img-responsive
+							.item
+								img(src='images/post-13.jpg', alt='', width='886', height='670').img-responsive
+							.item
+								img(src='images/post-14.jpg', alt='', width='886', height='670').img-responsive
+							.item
+								img(src='images/post-15.jpg', alt='', width='886', height='670').img-responsive
+							.item
+								img(src='images/post-16.jpg', alt='', width='886', height='670').img-responsive
+							.item
+								img(src='images/post-17.jpg', alt='', width='886', height='670').img-responsive
+
+						.slick-slider.slick-child#child-carousel(data-for=".carousel-parent", data-arrows="false",
+						data-loop="false", data-dots="false", data-swipe="true",
+						data-items="3", data-xs-items="3", data-sm-items="4",
+						data-md-items="5", data-lg-items="6", data-slide-to-scroll="1")
+							.item
+								img(src='images/post-10.jpg', alt='', width='140', height='105')
+							.item
+								img(src='images/post-11.jpg', alt='', width='140', height='105')
+							.item
+								img(src='images/post-12.jpg', alt='', width='140', height='105')
+							.item
+								img(src='images/post-13.jpg', alt='', width='140', height='105')
+							.item
+								img(src='images/post-14.jpg', alt='', width='140', height='105')
+							.item
+								img(src='images/post-15.jpg', alt='', width='140', height='105')
+							.item
+								img(src='images/post-16.jpg', alt='', width='140', height='105')
+							.item
+								img(src='images/post-17.jpg', alt='', width='140', height='105')
+
+						p.offset-top-50.text-bold Think you have a “photogenic side” for camera? So does your home!
+
+						p.offset-top-20 A picture is usually much more efficient, but in the case of your home’s listing photos, pictures can be thousands of dollars more efficient. It plainly makes sense: buyers often begin their search by surfing through online listings, and if the listing images are blurry or too dark, it’s a lot easier to mark a home off your must-see-in-person list. All in favor of the listings that simply look better on an image.
+
+						.offset-top-40.embed-responsive.embed-responsive-16by9.embed-responsive-custom
+							iframe(src="//www.youtube.com/embed/lY-Igmvf9nk?rel=0&amp;showinfo=0&version=3&enablejsapi=1")
+
+						p.offset-top-40 If you’re taking your photos by yourself, a nice quality camera will do it for starters… But you also need to know what potential customers are looking for when they inspect homes online. “Taking photographs is one of the most serious steps in the whole selling process,” says Mary Dimario, real estate agent and a president of MER Properties based in MA.
+
+						blockquote.quote.offset-top-20
+							.h5 The best qualities that our clients note they’ve noticed in our agents is their fast pace, trustworthiness, and dedication!
+							.h6
+								cite Robert McNeal
+
+						p.text-bold.offset-top-20 The properties we offer our customers are the best examples of how photogenic modern building can be. And this house with a beautiful living room in it is no exception.
+
+
+					.cell-md-4
+						include ../sections/_sidebar
+
+	// Page Footer
+	include ../sections/_footer-default
+
+
+

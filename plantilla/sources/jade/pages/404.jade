@@ -1,0 +1,49 @@
+extends  ../_skeleton
+
+block variables
+	- var activeIndex = 3
+
+block title
+	title Page not found.
+
+block page
+	include ../mixins/_breadcrumbs
+
+	// Page Header
+	header.page-header
+		include ../sections/_navigation-default
+
+	// Page Content
+	main.page-content
+		+breadcrumbs({
+			0: {
+				"title": "Home",
+				"href": "./"
+			},
+			1: {
+				"title": "404 Not Found"
+			}
+		})
+
+		section.section-top-70.section-bottom-80
+			.shell
+				h1 Error 404
+				h3.offset-top-20 Page not found.
+				a(href='./').offset-top-36.btn.btn-base VISIT HOME PAGE
+				p.offset-top-50.offset-lg-top-70 Unfortunately the page you were looking for could not be found. Maybe search can help.
+				.range.range-xs-center.offset-top-20
+					.cell-md-6.cell-lg-4
+						// RD Search
+						form.form-inline-custom.rd-search(action="search-results.html", method="GET")
+							.form-group.form-group-sm
+								label(for="rd-search-form-input" class="form-label") Enter a keyword
+								input(class="form-control" id="rd-search-form-input" type="text" name="s" autocomplete="off")
+							button.btn.btn-primary Search
+
+
+
+	// Page Footer
+	include ../sections/_footer-default
+
+
+

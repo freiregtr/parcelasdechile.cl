@@ -1,0 +1,77 @@
+extends  ../_skeleton
+
+block variables
+	- var activeIndex = 4
+
+block title
+	title Projects
+
+block page
+	include ../mixins/_breadcrumbs
+	include ../mixins/_thumbnail
+	include ../mixins/_pagination
+
+	// Page Header
+	header.page-header
+		include ../sections/_navigation-default
+
+	// Page Content
+	main.page-content
+		+breadcrumbs({
+			0: {
+				"title": "Home",
+				"href": "./"
+			},
+			1: {
+				"title": "404 Not Found"
+			}
+		})
+
+		section.section-top-70.section-bottom-80
+			.shell
+				h3 Home ideas gallery list
+				p.offset-top-32 Get an awe inspiration for your home interior! Here we’ve compiled a great amount of incentive home designs. This pinboard will help you in creating an absolutely unique look and feel of your property, by browsing through the best choices in these galleries!
+			.row.offset-top-40
+				// Isotope Filters
+				.col-lg-12
+					.isotope-filters.isotope-filters-horizontal
+						ul.nav.nav-tabs
+							li
+								a.active(data-isotope-filter='*', data-isotope-group='gallery', href='#') All
+							li
+								a(data-isotope-filter='Category 1', data-isotope-group='gallery', href='#') Apartments
+							li
+								a(data-isotope-filter='Category 2', data-isotope-group='gallery', href='#') Residential
+							li
+								a(data-isotope-filter='Category 3', data-isotope-group='gallery', href='#') Villas
+
+				// Isotope Content
+				.col-lg-12.offset-top-30
+					.isotope(data-isotope-layout='fitRows', data-isotope-group='gallery')
+						.row.row-no-gutter
+							.col-xs-12.col-sm-6.col-lg-4.isotope-item(data-filter='Category 3')
+								+thumbnail('Art decor styled dining hall','Emilia Warren','images/post-04.jpg','640','483')
+
+							.col-xs-12.col-sm-6.col-lg-4.isotope-item(data-filter='Category 1')
+								+thumbnail('Italian inspired living room','Emilia Warren','images/post-05.jpg','640','483')
+
+							.col-xs-12.col-sm-6.col-lg-4.isotope-item(data-filter='Category 1')
+								+thumbnail('Oyster-grey Mediterranean styled kitchen','Warren Kalhoney','images/post-06.jpg','640','483')
+
+							.col-xs-12.col-sm-6.col-lg-4.isotope-item(data-filter='Category 2')
+								+thumbnail('Sicily inspired, sunny white bedroom','Emilia Warren','images/post-07.jpg','640','483')
+
+							.col-xs-12.col-sm-6.col-lg-4.isotope-item(data-filter='Category 2')
+								+thumbnail('White Welsh style for a living room','Timothy Levine','images/post-08.jpg','640','483')
+
+							.col-xs-12.col-sm-6.col-lg-4.isotope-item(data-filter='*')
+								+thumbnail('Scottish, blue and yellow dining hall','Warren Kalhoney','images/post-09.jpg','640','483')
+
+					.offset-top-30
+						+pagination-bootstrap("pagination", 1, 2)
+
+	// Page Footer
+	include ../sections/_footer-default
+
+
+

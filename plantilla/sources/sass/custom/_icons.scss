@@ -1,0 +1,79 @@
+//
+// Icons
+// --------------------------------------------------
+
+// Base styles
+// --------------------------------------------------
+
+.icon {
+  font-size: 24px;
+
+  &:before {
+    position: relative;
+    display: inline-block;
+    font-weight: 400;
+    font-style: normal;
+    speak: none;
+    text-transform: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  text-decoration: none !important;
+
+
+  &:hover{
+    text-decoration: none !important;
+  }
+}
+
+
+// Alternate icons
+// --------------------------------------------------
+
+.icon-default {
+
+}
+
+.icon-primary {
+  color: $brand-primary;
+}
+
+.icon-circle{
+  display: inline-block;
+  border-radius: 50%;
+}
+
+
+// Button Sizes
+// --------------------------------------------------
+
+.icon-xs {
+
+}
+
+.icon-sm {
+  font-size: 20px;
+
+  &.icon-circle{
+    width: 96px;
+    height: 96px;
+    line-height: 96px;
+    text-align: center;
+    font-size: 30px;
+    border: 2px solid;
+  }
+}
+
+.icon-lg {
+  font-size: 30px;
+
+  &.icon-circle{
+    width: 134px;
+    height: 134px;
+    line-height: 134px;
+    text-align: center;
+    font-size: 36px;
+    border: 3px solid;
+  }
+}

@@ -1,0 +1,70 @@
+extends  ../_skeleton
+
+block variables
+	- var activeIndex = 3
+
+block title
+	title Pricing Table
+
+block page
+	include ../mixins/_breadcrumbs
+
+	// Page Header
+	header.page-header
+		include ../sections/_navigation-default
+
+	// Page Content
+	main.page-content
+		+breadcrumbs({
+			0: {
+				"title": "Home",
+				"href": "./"
+			},
+			1: {
+				"title": "Pricing Table"
+			}
+		})
+
+		section.section-top-70.section-bottom-80
+			.shell
+				h3 Pricing Table
+
+				.range-xs-center.range.offset-top-40
+					.cell-md-4.cell-sm-10
+						.pricing-box
+							.pricing-box-header
+								h3 Economy
+								.pricing-box-price $ 45.89
+								.pricing-box-price-subtitle Per/day
+							.pricing-box-body
+								p Double room 26.7 sq m (292 sq ft) on average and a 5.4 sq m bathroom (most bathrooms equipped with a bidet).
+								a(href='#').btn.btn-primary read more
+
+
+					.cell-md-4.cell-sm-10.offset-top-40.offset-md-top-0
+						.pricing-box.pricing-box-primary
+							.pricing-box-header
+								h3 Standard
+								.pricing-box-price $ 75.89
+								.pricing-box-price-subtitle Per/day
+							.pricing-box-body
+								p Double room 26.7 sq m (292 sq ft) on average and a 5.4 sq m bathroom (most bathrooms equipped with a bidet).
+								a(href='#').btn.btn-white read more
+
+
+					.cell-md-4.cell-sm-10.offset-top-40.offset-md-top-0
+						.pricing-box
+							.pricing-box-header
+								h3 Luxury
+								.pricing-box-price $ 95.89
+								.pricing-box-price-subtitle Per/day
+							.pricing-box-body
+								p Double room 26.7 sq m (292 sq ft) on average and a 5.4 sq m bathroom (most bathrooms equipped with a bidet).
+								a(href='#').btn.btn-primary read more
+
+
+	// Page Footer
+	include ../sections/_footer-default
+
+
+

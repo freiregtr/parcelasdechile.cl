@@ -1,0 +1,92 @@
+extends  ../_skeleton
+
+block variables
+	- var activeIndex = 2
+
+block title
+	title Listings Shortcode
+
+block page
+	include ../mixins/_pagination
+	include ../mixins/_breadcrumbs
+	include ../mixins/_product
+
+	// Page Header
+	header.page-header
+		include ../sections/_navigation-default
+
+	// Page Content
+	main.page-content
+		+breadcrumbs({
+			0: {
+				"title": "Home",
+				"href": "./"
+			},
+			1: {
+				"title": "Listings Shortcode"
+			}
+		})
+
+		section.section-top-70.section-bottom-80
+			.shell.text-md-left
+				.range
+					.cell-md-8
+						h3 Listings Shortcode
+
+						hr
+
+						.range-xs-middle.range.offset-top-25
+							.cell-lg-5.range-xs-middle.reveal-xs-flex
+								span.text-xs-nowrap.inset-right-10.semi-small Sorted by
+								//Select 2
+								select.form-control.select-filter(data-minimum-results-for-search="Infinity", data-constraints="@Required")
+									option(value='DateAdded|DESC')
+										| Time on market, newest first
+									option(value='DateAdded|ASC')
+										| Time on market, oldest first
+									option(value='Price|DESC')
+										| Price, highest first
+									option(value='Price|ASC')
+										| Price, lowest first
+									option(value='OverallPriceDropPercent|DESC')
+										| Price drop %, largest first
+									option(value='WalkScore|DESC')
+										| Walk Score®, highest first
+									option(value='ImprovedSqFt|DESC')
+										| Improved size, largest first
+									option(value='LotSqFt|DESC')
+										| Lot size, largest first
+
+							.offset-top-10.offset-lg-top-0.cell-lg-7.text-lg-right
+								p(style='font-size: 13px;') Properties 1 - 0 of 0 | « First | &lt; Previous | Next > | Last »
+
+						.offset-top-10
+							a(href='#' data-custom-toggle='#goal')
+								img.inset-right-5(src='http://cdn1.diverse-cdn.com/api/images/dsidxpress/icons/map.png/193ad5' alt='')
+								span Show these 0 properties on a map
+
+						#goal.offset-top-10(data-custom-toggle-goal)
+							// RD Google Map
+							.rd-google-map(class="rd-google-map__model", data-zoom='14', data-x='-74.0074068', data-y='40.643180', data-styles='[{"featureType":"landscape","stylers":[{"hue":"#FFBB00"},{"saturation":43.400000000000006},{"lightness":37.599999999999994},{"gamma":1}]},{"featureType":"road.highway","stylers":[{"hue":"#FFC200"},{"saturation":-61.8},{"lightness":45.599999999999994},{"gamma":1}]},{"featureType":"road.arterial","stylers":[{"hue":"#FF0300"},{"saturation":-100},{"lightness":51.19999999999999},{"gamma":1}]},{"featureType":"road.local","stylers":[{"hue":"#FF0300"},{"saturation":-100},{"lightness":52},{"gamma":1}]},{"featureType":"water","stylers":[{"hue":"#0078FF"},{"saturation":-13.200000000000003},{"lightness":2.4000000000000057},{"gamma":1}]},{"featureType":"poi","stylers":[{"hue":"#00FF6A"},{"saturation":-1.0989010989011234},{"lightness":11.200000000000017},{"gamma":1}]}]')
+								ul.map_locations
+									li(data-y='40.643180', data-x='-74.0274068')
+										p
+											| 9870 St Vincent Place, Glasgow, DC 45 Fr 45.
+
+						p.offset-top-10.text-bold No properties matching your search criteria were found.
+
+						p.semi-small.inset-left-20 Properties 1 - 0 of 0 | « First | &lt; Previous | Next > | Last »
+
+						p Listing information deemed reliable but not guaranteed
+
+						p='This '
+							a(href='http://www.diversesolutions.com/') Real Estate IDX
+							=' is (c) '
+							a(href='http://www.diversesolutions.com/') Diverse Solutions
+							=' 2016.'
+
+	// Page Footer
+	include ../sections/_footer-default
+
+
+

@@ -1,0 +1,49 @@
+//
+// Breadcrumb
+// --------------------------------------------------
+
+
+.breadcrumb{
+  background-color: transparent;
+  padding: 10px 0;
+  margin-top: 12px;
+  font-size: 12px;
+
+  @media (min-width: $screen-sm-min) {
+    margin-top: 40px;
+  }
+
+  @media (min-width: $screen-lg-min) {
+    margin-top: 96px;
+  }
+  
+  li{
+    display: block;
+
+    @media (min-width: $screen-sm-min) {
+      display: inline-block;
+    }
+  }
+
+  a{
+    color: $gray;
+
+    &:hover{
+      text-decoration: underline;
+    }
+  }
+
+  .active{
+    color: $brand-primary;
+  }
+
+  li + li:before{
+    content: none;
+    color: #d6dee2;
+
+    @media (min-width: $screen-sm-min) {
+      content: '|';
+      padding: 0 11px;
+    }
+  }
+}

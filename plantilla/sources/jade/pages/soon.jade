@@ -1,0 +1,32 @@
+extends  ../_skeleton
+
+block variables
+	- var activeIndex = 3
+
+block title
+	title Coming soon
+
+block page
+	// Page Content
+	main.page-content.page-content-100.context-dark(style='background: url("images/background-01.jpg"); background-size: cover;')
+		.page-content-inner
+			.shell
+				h1 This site is coming soon
+
+				// Countdown
+				.countdown(data-type='until', data-time='17 Dec 2016 16:00', data-format='dhms')
+
+				h3.text-primary Subscribe to Our Newsletter
+				p.offset-top-30 Get both our special offers and our maintenance tips directly to your inbox!
+
+				.range.range-xs-center.offset-top-30
+					.cell-lg-4.cell-md-6
+						// RD Mailform
+						form.rd-mailform.text-left(data-form-output="form-output-global", data-form-type='contact', method='post', action='bat/rd-mailform.php')
+							.form-group
+								label.form-label(for="contact-name") Enter name
+								input#contact-name.form-control(type="text" name="name" data-constraints='@Required')
+							.form-group
+								label.form-label(for="contact-email") Enter e-mail
+								input#contact-email.form-control(type="email" name="email" data-constraints="@Email @Required")
+							button.btn.btn-primary.btn-block submit

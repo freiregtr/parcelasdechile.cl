@@ -1,0 +1,127 @@
+include ../mixins/_posts
+
+aside
+	.range
+		.cell-md-12
+			h3 Search
+			// RD Search
+			form.offset-top-40.form-inline-custom.rd-search(action="search-results.html", method="GET")
+				.form-group.form-group-sm
+					label(for="rd-search-form-input" class="form-label") Enter keyword
+					input(class="form-control" id="rd-search-form-input" type="text" name="s" autocomplete="off")
+				button.btn.btn-primary search
+		.cell-md-12.offset-top-50
+			hr
+		.cell-md-12.offset-top-40
+			h3 Recent Posts
+
+			.offset-top-40
+				+post-blog-thumbnail('images/post-01.jpg', '184', '139', 'A beach house at Baja California peninsula', 'Emilia Warren', 'July 7, 2016', 'unit-sm-horizontal unit-md-vertical text-sm-left unit-lg-horizontal')
+
+			.offset-top-30
+				+post-blog-thumbnail('images/post-02.jpg', '184', '139', 'Cottage with a big pool in Phoenix suburbs, AZ', 'Stacy Goldwein', 'July 7, 2016', 'unit-sm-horizontal unit-md-vertical text-sm-left unit-lg-horizontal')
+
+			.offset-top-30
+				+post-blog-thumbnail('images/post-03.jpg', '184', '139', 'A beach house at Baja California peninsula', 'Emilia Warren', 'July 7, 2016', 'unit-sm-horizontal unit-md-vertical text-sm-left unit-lg-horizontal')
+		.cell-md-12.offset-top-50
+			hr
+		.cell-md-12.offset-top-40
+			.well
+				h3 About Us
+
+				.unit.unit-lg-horizontal.offset-top-30
+					.unit-left
+						img(src='images/user-01.jpg' width='140' height='140' alt='').img-responsive.center-block
+					.unit-body
+						h5 Emilia Warren
+						p.offset-top-10 Hello! My name is Emilia Warren and I'm a full-time licensed real…
+				.offset-top-30
+					a(href='#' style='padding: 12px 40px;').btn.btn-base read more
+		.cell-md-12.offset-top-50
+			hr
+		.cell-md-12.offset-top-40
+			h3 Recent Comments
+
+			.post-blog-sm.offset-top-30
+				.small
+					span.text-primary Emilia Warren
+					=' on'
+				.h6.offset-top-10
+					a(href='blog-single-post.html').text-base.text-bold Standard – Cottage with a big pool in Phoenix suburbs, AZ
+			.post-blog-sm.offset-top-30
+				.small
+					span.text-primary Emilia Warren
+					=' on'
+				.h6.offset-top-10
+					a(href='blog-single-post.html').text-base.text-bold Standard – Cottage with a big pool in Phoenix suburbs, AZ
+			.post-blog-sm.offset-top-30
+				.small
+					span.text-primary Emilia Warren
+					=' on'
+				.h6.offset-top-10
+					a(href='blog-single-post.html').text-base.text-bold Standard – Cottage with a big pool in Phoenix suburbs, AZ
+		.cell-md-12.offset-top-50
+			hr
+		.cell-md-12.offset-top-40
+			h3 Categories
+			ul.list.offset-top-40
+				li
+					a(href='#').text-gray Apartment
+				li
+					a(href='#').text-gray Office
+
+		.cell-md-12.offset-top-50
+			hr
+		.cell-md-12.offset-top-40
+			h3 Archives
+			ul.list.offset-top-40
+				li
+					a(href='#').text-gray July 2016
+				li
+					a(href='#').text-gray May 2016
+
+		.cell-md-12.offset-top-50
+			hr
+		.cell-md-12.offset-top-40
+			h3 Tags
+			ul.offset-top-20.offset-md-top-36.group
+				li
+					a(href='#').btn.btn-gray.btn-tag Apartments
+				li
+					a(href='#').btn.btn-gray.btn-tag Office
+		.cell-md-12.offset-top-50
+			hr
+		.cell-md-12.offset-top-40
+			.well
+				h3 Follow Us
+				ul.list-inline.offset-top-30
+					li
+						a(href='#').icon.icon-sm.text-white.fa-facebook
+					li
+						a(href='#').icon.icon-sm.text-white.fa-twitter
+					li
+						a(href='#').icon.icon-sm.text-white.fa-google-plus
+			.well.well-dark
+				h3 Newsletter
+				p.offset-tpo-10.offset-md-top-25.text-gray Sign up for the best deals in real estate!
+				// RD Mailform
+				form.offset-top-20.rd-mailform.form-inline-custom(data-form-output="form-output-global", data-form-type='subscribe', method='post', action='bat/rd-mailform.php')
+					.form-group
+						label.form-label(for="subscribe-email") Enter
+							span.veil.reveal-lg-inline=' please your'
+							=' e-mail'
+						input#subscribe-email.form-control.form-control-white(type="email" name="email" data-constraints="@Required @Email")
+					button(type="submit").btn.btn-primary get
+		.cell-md-12.offset-top-50
+			hr
+		.cell-md-12.offset-top-40
+			// RD Calendar
+			.rd-calendar
+				.rdc-table
+					.rdc-panel.text-center
+						a.rdc-prev
+						a.rdc-next
+						.h5.text-white
+							.rdc-month.reveal-inline-block
+							span
+							.rdc-fullyear.reveal-inline-block

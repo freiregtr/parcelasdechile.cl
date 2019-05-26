@@ -1,0 +1,119 @@
+extends  ../_skeleton
+
+block variables
+	- var activeIndex = 3
+
+block title
+	title Typography
+
+block page
+	include ../mixins/_breadcrumbs
+
+	// Page Header
+	header.page-header
+		include ../sections/_navigation-default
+
+	// Page Content
+	main.page-content
+		+breadcrumbs({
+			0: {
+				"title": "Home",
+				"href": "./"
+			},
+			1: {
+				"title": "Typography"
+			}
+		})
+
+		section.section-top-70.section-bottom-80
+			.shell.text-md-left
+				.range
+					.cell-md-8
+						h3 Typography
+						h1.offset-top-30 H1 Heading
+						p.offset-top-10 The best qualities that our clients note they’ve noticed in our agents is their fast pace, trustworthiness, and dedication!
+						h2.offset-top-30 H2 Heading
+						p.offset-top-20 The best qualities that our clients note they’ve noticed in our agents is their fast pace, trustworthiness, and dedication!
+						h3.offset-top-30 H3 Heading
+						p.offset-top-30 The best qualities that our clients note they’ve noticed in our agents is their fast pace, trustworthiness, and dedication!
+						h4.offset-top-30 H4 Heading
+						p.offset-top-20 The best qualities that our clients note they’ve noticed in our agents is their fast pace, trustworthiness, and dedication!
+						h5.offset-top-30 H5 Heading
+						p.offset-top-10 The best qualities that our clients note they’ve noticed in our agents is their fast pace, trustworthiness, and dedication!
+						h6.offset-top-30 H6 Heading
+						p.offset-top-10 The best qualities that our clients note they’ve noticed in our agents is their fast pace, trustworthiness, and dedication!
+						hr
+						h3 Unordered list
+						ul.list-marked.offset-top-32
+							li Property ID
+							li Property status
+							li Property type
+							li Location
+							li Bedrooms
+						hr
+						h3 Ordered list
+						ol.list-index.offset-top-32
+							li Property ID
+							li Property status
+							li Property type
+							li Location
+							li Bedrooms
+						hr
+						h3 Blockquotes
+						p.offset-top-30 Atlanta, Georgia is one of the most diverse cities in the US. This 2-storey apartment, designed in a neo-baroque style is located right at the very historical heart of the city, near J.W. Dobbs avenue…
+						blockquote.quote.offset-top-25
+							.h5 The best qualities that our clients note they’ve noticed in our agents is their fast pace, trustworthiness, and dedication!
+							.h6
+								cite Robert McNeal
+						p.offset-top-40
+							| Atlanta, Georgia is one of the most diverse cities in the US. This 2-storey apartment, designed in a neo-baroque style is located right at the very historical heart of the city, near J.W. Dobbs avenue…
+						hr
+						h3 Some other styles
+						p.offset-top-30
+							strong
+								span.text-base Bold Text:
+								=' '
+								|  We can offer you a wide variety of properties.
+						p
+							span.text-base
+								strong Strike-through:
+							=' '
+							del We can offer you a wide variety of properties.
+						p
+							span.text-base
+								strong Link:
+							=' '
+							a(href='#') We can offer you a wide variety of properties.
+						p
+							span.text-base
+								strong Inline Code:
+							=' '
+							code We can offer you a wide variety of properties.
+						hr
+						h3 Centre aligned image
+						p.offset-top-30 Atlanta, Georgia is one of the most diverse cities in the US. This 2-storey apartment, designed in a neo-baroque style is located right at the very historical heart of the city, near J.W. Dobbs avenue…
+						img(src='images/typography-01.jpg' width='418' height='316' alt='').offset-top-40.img-responsive.center-block
+						hr
+						h3 Left aligned image
+						.range.offset-top-30
+							.cell-md-6
+								img(src='images/typography-01.jpg' width='418' height='316' alt='').img-responsive.center-block
+							.cell-md-6.offset-top-20.offset-md-top-0
+								p Atlanta, Georgia is one of the most diverse cities in the US. This 2-storey apartment, designed in a neo-baroque style is located right at the very historical heart of the city, near J.W. Dobbs avenue…
+						hr
+						h3 Right aligned image
+						.range.offset-top-30
+							.cell-md-6.cell-md-push-1
+								img(src='images/typography-01.jpg' width='418' height='316' alt='').img-responsive.center-block
+							.cell-md-6.offset-top-20.offset-md-top-0
+								p Atlanta, Georgia is one of the most diverse cities in the US. This 2-storey apartment, designed in a neo-baroque style is located right at the very historical heart of the city, near J.W. Dobbs avenue…
+						hr
+						h3 Large image
+						p.offset-top-30 Atlanta, Georgia is one of the most diverse cities in the US. This 2-storey apartment, designed in a neo-baroque style is located right at the very historical heart of the city, near J.W. Dobbs avenue…
+						img(src='images/typography-02.jpg' width='886' height='520' alt='').img-responsive.center-block.offset-top-40
+
+					.cell-md-4
+						include ../sections/_sidebar
+
+	// Page Footer
+	include ../sections/_footer-default

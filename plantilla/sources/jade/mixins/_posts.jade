@@ -1,0 +1,98 @@
+//- Posts
+
+//- img - Post image src
+//- imgW - Post image width
+//- imgH - Post image height
+//- title - Post title
+//- author - Post author
+//- date - Post date
+
+mixin post-blog-thumbnail(img, imgW, imgH, title, author, date, unit, link)
+	// Post
+	.post-blog-thumbnail.unit(class=unit)
+		.unit-left
+			a(href=link || 'blog-single-post.html')
+				img(src=img width=imgW height=imgH alt='')
+		.unit-body
+			h6
+				a(href=link || 'blog-single-post.html').text-base.text-bold=title
+			.small.offset-top-7
+				a(href='blog.html')=author
+				=' - '
+				a(href='blog.html').text-gray=date
+
+mixin post-blog(title, author, date, text, comments, tag1, tag2, link)
+	.post-blog
+		h5
+			a(href=link || 'blog-single-post.html').text-base=title
+		p.post-blog-meta.small.offset-top-16
+			a(href=link || 'blog-single-post.html')=author
+			=' - '
+			a(href='#').text-gray=date
+		block
+		p.offset-top-20=text
+		.range.offset-top-20.range-xs-middle
+			.cell-md-8
+				p.small
+					span.inset-right-10.reveal-inline-block
+						span.icon.mdi.mdi-comment-outline.text-primary.text-middle.inset-right-5
+						a(href=link || 'blog-single-post.html').text-gray=comments
+					='Tags: '
+					span.inset-left-5
+						a(href='blog.html')=tag1
+					span.inset-left-10
+						a(href='blog.html')=tag2
+			.cell-md-4.text-md-right.offset-top-16.offset-md-top-0
+				a(href=link || 'blog-single-post.html').btn.btn-base read more
+
+mixin post-blog-type-1(title, author, date, text, comments, tag1, tag2, link)
+	.post-blog
+		h5
+			a(href=link || 'blog-single-post.html').text-base=title
+		p.post-blog-meta.small.offset-top-16
+			a(href=link || 'blog-single-post.html')=author
+			=' - '
+			a(href='#').text-gray=date
+		.unit.unit-lg-horizontal.offset-top-20
+			.unit-left
+				div
+					block
+			.unit-body
+				p=text
+		.range.offset-top-20.range-xs-middle
+			.cell-md-8
+				p.small
+					span.inset-right-10.reveal-inline-block
+						span.icon.mdi.mdi-comment-outline.text-primary.text-middle.inset-right-5
+						a(href=link || 'blog-single-post.html').text-gray=comments
+					='Tags: '
+					span.inset-left-5
+						a(href='blog.html')=tag1
+					span.inset-left-10
+						a(href='blog.html')=tag2
+			.cell-md-4.text-md-right.offset-top-16.offset-md-top-0
+				a(href=link || 'blog-single-post.html').btn.btn-base read more
+
+mixin post-blog-masonry(title, author, date, text, comments, tag1, tag2, htmlClass, link)
+	.post-blog(class=htmlClass)
+		h5
+			a(href=link || 'blog-single-post.html').text-base=title
+		p.post-blog-meta.small.offset-top-16
+			a(href=link || 'blog-single-post.html')=author
+			=' - '
+			a(href='#').text-gray=date
+		.offset-top-20
+			block
+		p.offset-top-10=text
+		.offset-top-20
+			p.small
+				span.inset-right-10.reveal-inline-block
+					span.icon.mdi.mdi-comment-outline.text-primary.text-middle.inset-right-5
+					a(href=link || 'blog-single-post.html').text-gray=comments
+				='Tags: '
+				span.inset-left-5
+					a(href='blog.html')=tag1
+				span.inset-left-10
+					a(href='blog.html')=tag2
+			.offset-top-16
+				a(href=link || 'blog-single-post.html').btn.btn-base read more

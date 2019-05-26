@@ -1,0 +1,29 @@
+extends  ../_skeleton
+
+block variables
+	- var activeIndex = 3
+
+block title
+	title Maintenance
+
+block page
+	// Page Content
+	main.page-content.page-content-100.bg-gray-base.context-dark
+		.page-content-inner
+			.shell
+				h1 Website will be online again soon
+				h5.offset-top-40 Currently it undergoes a regular health checkup.
+				hr
+				.range.range-xs-center.range-xs-bottom.text-md-left
+					.cell-md-4.cell-sm-9
+						img(src='images/icon-03.png' alt='').reveal-inline-block
+						h4.offset-top-25.offset-lg-top-40.text-primary Maintenance
+						p.offset-top-25 From time to time we put our website on maintenance to check if everything works OK!
+					.cell-md-4.cell-sm-9.offset-top-50.offset-md-top-0
+						img(src='images/icon-02.png' alt='').reveal-inline-block
+						h4.offset-top-25.offset-lg-top-40.text-primary Feature updates
+						p.offset-top-25 We just love to roll out new features to our website. That’s what we’re doing right now!
+					.cell-md-4.cell-sm-9.offset-top-50.offset-md-top-0
+						img(src='images/icon-01.png' alt='').reveal-inline-block
+						h4.offset-top-25.offset-lg-top-40.text-primary Bug fixes
+						p.offset-top-25 Any website might stumble upon some bugs. Those need to be fixed!

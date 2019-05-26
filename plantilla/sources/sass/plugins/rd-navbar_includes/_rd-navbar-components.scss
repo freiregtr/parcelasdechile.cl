@@ -1,0 +1,51 @@
+/*
+* Navbar components
+*/
+
+// RD Navbar
+.rd-navbar {
+  display: none;
+  background: $rd-navbar-background;
+}
+
+// RD Navbar Toggle
+.rd-navbar-toggle {
+  @include make-toggle(
+          $rd-navbar-toggle-preset,
+          $rd-navbar-min-line-height,
+          $rd-navbar-min-font-size,
+          $rd-navbar-fixed-toggle-color
+  );
+  background-color: transparent;
+  border: none;
+  display: none;
+
+  &:focus{
+    outline: none;
+  }
+}
+
+
+
+// RD Navbar Brand
+.rd-navbar-brand {
+  a{
+    display: inline-block;
+  }
+}
+
+// RD Navbar Nav
+.rd-navbar-nav {
+}
+
+// RD Navbar Dropdown
+.rd-navbar-dropdown {
+  display: none;
+}
+
+.rd-navbar {
+  // RD Navbar Search
+  .rd-search {
+
+  }
+}

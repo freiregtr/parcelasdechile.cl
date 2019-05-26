@@ -1,0 +1,78 @@
+extends  ../_skeleton
+
+block variables
+	- var activeIndex = 3
+
+block title
+	title FAQ
+
+block page
+	include ../mixins/_pagination
+	include ../mixins/_breadcrumbs
+	include ../mixins/_product
+
+	// Page Header
+	header.page-header
+		include ../sections/_navigation-default
+
+	// Page Content
+	main.page-content
+		+breadcrumbs({
+			0: {
+				"title": "Home",
+				"href": "./"
+			},
+			1: {
+				"title": "FAQ"
+			}
+		})
+
+		section.section-top-70.section-bottom-80
+			.shell.text-md-left
+				h3.text-center FAQ
+				// Accordion
+				.offset-top-30#accordion-2(role='tablist', aria-multiselectable='true')
+					.accordion-type-2.accordion-type-2__mod-1
+						.accordion-title#headingOne2(role='tab')
+							h5
+								a(role='button', data-toggle='collapse', data-parent='#accordion', href='#collapseOne2', aria-expanded='true', aria-controls='collapseOne2')
+									| Should I check with a bank before seeing homes?
+						.accordion-body#collapseOne2.panel-collapse.collapse.in(role='tabpanel', aria-labelledby='headingOne2')
+							p There’s really only 1 answer to this question and it’s a positive one… There’s a whole bunch of reasons why you must talk first with a bank and get pre-approved before looking at homes.  Front and center, checking with the bank before seeking for homes can help you understand exactly how much you can afford to spend.  It’s a waste of time to see homes that are listed for $250,000 if you can only afford up to $200,000 of a mortgage…
+								br
+								| If you’re a first time home buyer, checking with a bank before seeing  homes is strongly recommended, as there are many first time home buyer programs available. These programs can differ from state to state and county to county, so knowing exactly what’s available to you, is crucial!
+					.accordion-type-2.accordion-type-2__mod-1
+						.accordion-title#headingTwo2(role='tab')
+							h5
+								a.collapsed(role='button', data-toggle='collapse', data-parent='#accordion', href='#collapseTwo2', aria-expanded='false', aria-controls='collapseTwo2')
+									| Should I buy or continue my rent?
+						.accordion-body#collapseTwo2.panel-collapse.collapse(role='tabpanel', aria-labelledby='headingTwo2')
+							p Buying a house is a pretty serious investment of money, a long-term one.  This being said, renting can be kept as a better option for some people, depending on their specific circumstances.  The current interest rates are incredible. A 30-year FHA mortgage can be locked in at a rate of around 3.5%.  Since the interest rates are so small, it actually can be more viable to pay a mortgage tomorrow, than continuing paying your monthly rent today… But before you decide, ask yourself few critical things.  One of the most important questions to consider is the length you plan on staying in a home, if you were to purchase.  If the answer is a couple of years, then renting out is a smarter decision for sure!
+					.accordion-type-2.accordion-type-2__mod-1
+						.accordion-title#headingThree2(role='tab')
+							h5
+								a.collapsed(role='button', data-toggle='collapse', data-parent='#accordion', href='#collapseThree2', aria-expanded='false', aria-controls='collapseThree2')
+									| How easy is it to find a rent-to-own property?
+						.accordion-body#collapseThree2.panel-collapse.collapse(role='tabpanel', aria-labelledby='headingThree2')
+							p Can you find a needle in a haystack?  Sure you can, but the probability of such a coincidence is quite low…  The same can be told about stumbling upon a rent-to-own property.  Home buyers frequently ask whether rent-to-owns exist or whether an owner would see that kind of option in the not-so-distant future…  They are out there, but there are some things that you need to know before agreeing to a rent-to-own.
+					.accordion-type-2.accordion-type-2__mod-1
+						.accordion-title#headingThree3(role='tab')
+							h5
+								a.collapsed(role='button', data-toggle='collapse', data-parent='#accordion', href='#collapseThree3', aria-expanded='false', aria-controls='collapseThree3')
+									| Do I really need a realtor when purchasing a home?
+						.accordion-body#collapseThree3.panel-collapse.collapse(role='tabpanel', aria-labelledby='headingThree3')
+							p When purchasing a home, it’s strongly suggested that you do it with a professional realtor as your middle man…  There’s plenty of reasons why you should have a real estate agent represent your best interests when making that big purchase. Be mindful, that not all realtors are the same, though!  When choosing a buyer’s real estate agent, make sure you know how to examine the respective realtor’s credibility!
+					.accordion-type-2.accordion-type-2__mod-1
+						.accordion-title#headingThree4(role='tab')
+							h5
+								a.collapsed(role='button', data-toggle='collapse', data-parent='#accordion', href='#collapseThree4', aria-expanded='false', aria-controls='collapseThree4')
+									| Who pays the realtor fees as a purchase is being made?
+						.accordion-body#collapseThree4.panel-collapse.collapse(role='tabpanel', aria-labelledby='headingThree4')
+							p It’s critical that you understand this thinly veiled issue of who’s paying the fees for a realtor. It’s usually a seller. There are no guarantees, however, in most cases the seller pays the realtor fees.
+
+
+	// Page Footer
+	include ../sections/_footer-default
+
+
+

@@ -56,17 +56,17 @@
                         <div class="rd-navbar-inner">
                             <!-- RD Navbar Nav-->
                             <ul class="rd-navbar-nav">
-                                <li class="active"><a href="index1.html">Home</a></li>
+                                <li class="active"><a href="inicio">Home</a></li>
                                 <li><a href="#">Proyectos</a>
                                     <!-- RD Navbar Dropdown-->
                                     <ul class="rd-navbar-dropdown">
                                         <li><a href="lagochapo">Lago Chapo</a></li>
-                                        <li><a href="miradoralcones.html">Mirador Álcones</a></li>
+                                        <li><a href="miradoralcones">Mirador Álcones</a></li>
                                     </ul>
                                 </li>
-                                <li><a href="about.html">Quienes Somos</a></li>
+                                <li><a href="quienessomos">Quienes Somos</a></li>
                                 <!-- RD Navbar Dropdown-->
-                                <li><a href="contacto.html">Contacto</a></li>
+                                <li><a href="contacto">Contacto</a></li>
                             </ul>
                         </div>
                     </div>
