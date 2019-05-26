@@ -60,7 +60,7 @@
                                 <li><a href="#">Proyectos</a>
                                     <!-- RD Navbar Dropdown-->
                                     <ul class="rd-navbar-dropdown">
-                                        <li><a href="lagochapo.html">Lago Chapo</a></li>
+                                        <li><a href="lagochapo">Lago Chapo</a></li>
                                         <li><a href="miradoralcones.html">Mirador Álcones</a></li>
                                     </ul>
                                 </li>
@@ -148,11 +148,11 @@
                         <div class="reveal-block thumbnail-variant-1">
                             <div class="caption-wrapper">
                                 <img src="view/componentes/img/Proyectos/Lago_Chapo/lagochap.jpg" width="960" height="567" alt="" class="img-responsive center-block">
-                                <div class="caption"><a href="lagochapo.html" class="label label-primary">X Región</a></div>
+                                <div class="caption"><a href="lagochapo" class="label label-primary">X Región</a></div>
                             </div>
                             <div class="caption-2">
                                 <h3>Desde: $ 9.990.000</h3>
-                                <h3 class="caption-title"><a href="property.html" class="text-white">Lago Chapo, Puerto Montt</a></h3><a href="lagochapo.html" class="btn btn-primary-variant-1">Ver más</a>
+                                <h3 class="caption-title"><a href="property.html" class="text-white">Lago Chapo, Puerto Montt</a></h3><a href="lagochapo" class="btn btn-primary-variant-1">Ver más</a>
                             </div>
                         </div>
                     </div>
@@ -216,7 +216,7 @@
                         <div class="post-blog-sm offset-top-20 offset-md-top-36"><a href="blog-single-post.html" class="text-bold">www.agenciapanoramica.cl</a>
                             <p class="small offset-top-7">Tours Panorámicos</p>
                         </div>
-                        <div class="post-blog-sm offset-top-16"><a href="blog-single-post.html" class="text-bold">www.lagochapo.cl</a>
+                        <div class="post-blog-sm offset-top-16"><a href="lagochapo" class="text-bold">www.lagochapo.cl</a>
                             <p class="small offset-top-7">Agencia de viajes</p>
                         </div>
                     </div>
