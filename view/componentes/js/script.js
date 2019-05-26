@@ -1426,5 +1426,8 @@ $document.ready(function () {
       }, 300);
     });
   }
+
+  // carga asincronica de mapa
+  $(".asincronico").append('<iframe src="https://lanube360.com/parcelas-chile/" frameborder="0" width="100%" height="600px" scrolling="no" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" oallowfullscreen="true" msallowfullscreen="true"></iframe>');
 });
 
