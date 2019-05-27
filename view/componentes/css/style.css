@@ -10440,7 +10440,7 @@ fieldset[disabled] .bg-gray-base .btn-primary {
 }
 
 .bg-image-01 {
-  background: url("../img/h2.jpg");
+  background: url(../img/h2.jpg);
   background-size: cover;
 }
 
