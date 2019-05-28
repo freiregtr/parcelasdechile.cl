@@ -41,7 +41,7 @@
                                 <div><span class="icon fa-phone text-primary"></span><a>+56 9 5805 3609</a></div>
                             </div>
                             <!-- RD Navbar Brand-->
-                            <div class="rd-navbar-brand"><a href="index.html" class="brand-name"><img src="view/componentes/img/logo/logo_transparente.png" width="228" height="83" alt=""></a></div>
+                            <div class="rd-navbar-brand"><a href="index.html" class="brand-name"><img src="view/componentes/img/logo/logo_transparente.png" width="228" height="83" alt="Parcelas de chile"></a></div>
                             
                             <!--RD Navbar Search-->
                             <div class="rd-navbar-search"><a data-rd-navbar-toggle=".rd-search" href="#" class="rd-navbar-search-toggle"><span class="fa-search"></span></a>
@@ -146,20 +146,20 @@
                     <div class="cell-sm-6">
                         <div class="reveal-block thumbnail-variant-1">
                             <div class="caption-wrapper">
-                                <img src="view/componentes/img/Proyectos/Lago_Chapo/lagochap.jpg" width="960" height="567" alt="" class="img-responsive center-block">
+                                <img src="view/componentes/img/Proyectos/Lago_Chapo/lagochap.jpg" width="960" height="567" alt="Lago chapo" class="img-responsive center-block">
                                 <div class="caption"><a href="lagochapo" class="label label-primary">X Región</a></div>
                             </div>
                             <div class="caption-2">
                                 <h3>Desde: $ 9.990.000</h3>
                                   <p>Últimas parcelas disponibles</p>
-                                <h3 class="caption-title"><a href="property.html" class="text-white">Lago Chapo, Puerto Montt</a></h3><a href="lagochapo" class="btn btn-primary-variant-1">Ver más</a>
+                                <h3 class="caption-title"><a href="lagochapo.php" class="text-white">Lago Chapo, Puerto Montt</a></h3><a href="lagochapo" class="btn btn-primary-variant-1">Ver más</a>
                             </div>
                         </div>
                     </div>
                     <div class="cell-sm-6 offset-top-0">
                         <div class="reveal-block thumbnail-variant-1">
                             <div class="caption-wrapper">
-                                <img src="view/componentes/img/Proyectos/Mirador_alcones/malcones.jpg" width="960" height="567" alt="" class="img-responsive center-block">
+                                <img src="view/componentes/img/Proyectos/Mirador_alcones/malcones.jpg" width="960" height="567" alt="Volantin de la quebrada" class="img-responsive center-block">
                                 <div class="caption"><a href="miradoralcones.html" class="label label-primary">VI Región</a></div>
                             </div>
                             <div class="caption-2">
@@ -251,8 +251,8 @@
                     <div class="cell-md-4">
                         <h5>Tags</h5>
                         <ul class="offset-top-20 offset-md-top-36 group">
-                            <li><a href="blog.html" class="btn btn-tag">Apartments</a></li>
-                            <li><a href="blog.html" class="btn btn-tag">Office</a></li>
+                            <li><a href="blog.html" class="btn btn-tag">Parcelas</a></li>
+                            <li><a href="blog.html" class="btn btn-tag">Chile</a></li>
                         </ul>
                     </div>
                 </div>

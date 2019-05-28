@@ -40,7 +40,7 @@
                             <button data-rd-navbar-toggle=".rd-navbar-nav-wrap" class="rd-navbar-toggle"><span></span></button>
                             
                             <!-- RD Navbar Brand-->
-                            <div class="rd-navbar-brand"><a href="inicio" class="brand-name"><img src="view/componentes/img/logo/logo_transparente.png" width="228" height="83" alt=""></a>
+                            <div class="rd-navbar-brand"><a href="inicio" class="brand-name"><img src="view/componentes/img/logo/logo_transparente.png" width="228" height="83" alt="Parcelas de chile"></a>
                             </div>
                             
                             <div class="rd-navbar-contacts rd-navbar-collapse rd-navbar-collapse-2"><span>Póngase en contacto con nosotros</span>
@@ -75,11 +75,8 @@
                 </nav>
             </div>
         </header>
-        
         <!-- Page Content-->
-        
         <main class="page-content">
-           
             <section class="bg-gray-lighter">
                 <div class="shell text-left">
                     <ol class="breadcrumb">
@@ -88,14 +85,10 @@
                         </li> <li class="active">Lago Chapo</li>
                     </ol>
                 </div>
-            </section>
-            
+            </section> 
             <section class="section-top-70 section-bottom-80">
-               
                 <div class="shell text-md-left product">
-                   
                     <div class="range">
-                       
                         <div class="cell-md-8">
                             <div><a href="#" class="label label-primary">X Región</a></div>
                             <h2 class="offset-top-50">Lago Chapo</h2>
@@ -105,30 +98,29 @@
                             <!-- Slick Carousel-->
                             <div data-photo-swipe-gallery="gallery" data-arrows="true" data-loop="false" data-dots="false" data-swipe="true" data-items="1" class="slick-slider">
 
-                                <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/Proyectos/Lago_Chapo/1.jpg" data-author="Michael Hull" class="thumbnail-variant-2"><img src="view/componentes/img/Proyectos/Lago_Chapo/1.jpg" alt="" width="886" height="520" class="img-responsive"></a></div>
+                                <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/Proyectos/Lago_Chapo/1.jpg" class="thumbnail-variant-2"><img src="view/componentes/img/Proyectos/Lago_Chapo/1.jpg" alt="lago chapo" width="886" height="520" class="img-responsive"></a></div>
 
-                                <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/Proyectos/Lago_Chapo/2.jpg" data-author="Michael Hull" class="thumbnail-variant-2"><img src="view/componentes/img/Proyectos/Lago_Chapo/2.jpg" alt="" width="886" height="520" class="img-responsive"></a></div>
+                                <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/Proyectos/Lago_Chapo/2.jpg"  class="thumbnail-variant-2"><img src="view/componentes/img/Proyectos/Lago_Chapo/2.jpg" alt="lago chapo" width="886" height="520" class="img-responsive"></a></div>
 
-                                <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/Proyectos/Lago_Chapo/3.jpg" data-author="Michael Hull" class="thumbnail-variant-2"><img src="view/componentes/img/Proyectos/Lago_Chapo/3.jpg" alt="" width="886" height="520" class="img-responsive"></a></div>
+                                <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/Proyectos/Lago_Chapo/3.jpg" class="thumbnail-variant-2"><img src="view/componentes/img/Proyectos/Lago_Chapo/3.jpg" alt="lago chapo" width="886" height="520" class="img-responsive"></a></div>
 
-                                <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/Proyectos/Lago_Chapo/4.jpg" data-author="Michael Hull" class="thumbnail-variant-2"><img src="view/componentes/img/Proyectos/Lago_Chapo/4.jpg" alt="" width="886" height="520" class="img-responsive"></a></div>
+                                <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/Proyectos/Lago_Chapo/4.jpg" class="thumbnail-variant-2"><img src="view/componentes/img/Proyectos/Lago_Chapo/4.jpg" alt="lago chapo" width="886" height="520" class="img-responsive"></a></div>
 
-                                <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/Proyectos/Lago_Chapo/6.jpg" data-author="Michael Hull" class="thumbnail-variant-2"><img src="view/componentes/img/Proyectos/Lago_Chapo/6.jpg" alt="" width="886" height="520" class="img-responsive"></a></div>
+                                <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/Proyectos/Lago_Chapo/6.jpg"  class="thumbnail-variant-2"><img src="view/componentes/img/Proyectos/Lago_Chapo/6.jpg" alt="lago chapo" width="886" height="520" class="img-responsive"></a></div>
 
-                                <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/Proyectos/Lago_Chapo/7.jpg" data-author="Michael Hull" class="thumbnail-variant-2"><img src="view/componentes/img/Proyectos/Lago_Chapo/7.jpg" alt="" width="886" height="520" class="img-responsive"></a></div>
+                                <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/Proyectos/Lago_Chapo/7.jpg" class="thumbnail-variant-2"><img src="view/componentes/img/Proyectos/Lago_Chapo/7.jpg" alt="lago chapo" width="886" height="520" class="img-responsive"></a></div>
                             </div>
 
                             <p class="offset-top-40 text-bold text-base">" Por qué tenemos el país más lindo del mundo, creemos que
                                 deberías elegir Parcelas de Chile."</p>
                             <p class="offset-top-20">Una de las maravillas que podemos encontrar en la zona del Lago Chapo es
-                                Disfrutar navegando con la hermosa vista del Volcán Calbuco, y si eres de las personas que ama la naturaleza deberías recorrer los senderos de la Reserva Nacional Llanquihue, una de las más lindas de
-                                Chile.</p>
+                                Disfrutar navegando con la hermosa vista del Volcán Calbuco, y si eres de las personas que ama la naturaleza deberías recorrer los senderos de la Reserva Nacional Llanquihue, una de las más lindas de Chile.</p>
                             <hr>
                             <h2 class="offset-top-50">Parcelación</h2>
                             
                             <p>Loteo por parcela y valores</p>
                             
-                            <img src="view/componentes/img/Proyectos/Lago_Chapo/plano/plano_Mesa%20de%20trabajo%201.png" width="886" height="520" alt="" class="img-responsive center-block offset-top-40">
+                            <img src="view/componentes/img/Proyectos/Lago_Chapo/plano/plano_Mesa%20de%20trabajo%201.png" width="886" height="520" alt="lago chapo" class="img-responsive center-block offset-top-40">
                             
                             <hr>
                             <h2 class="offset-top-50">Tour 360º </h2>
@@ -148,15 +140,10 @@
                             
                             <hr>
                         </div>
-                        
                         <div class="cell-md-4">
-                           
                             <aside>
-                               
                                 <div class="range">
-                                   
                                     <div class="cell-md-12 offset-top-40">
-                                       
                                         <div class="cell-md-5 cell-lg-4 cell-md-preffix-1">
                                             <div class="well well-base">
                                                 <h3>¿Te llamamos?</h3>
@@ -179,18 +166,15 @@
                                                 </form>
                                             </div>
                                         </div>
-                                        
                                         <div class="cell-md-12 offset-top-50">
                                             <hr>
                                         </div>
-                                        
                                         <br>
                                         <h3>Otros Proyectos</h3>
-                                        
                                         <div class="offset-top-40">
                                             <!-- Post-->
                                             <div class="post-blog-thumbnail unit unit-sm-horizontal unit-md-vertical text-sm-left unit-lg-horizontal">
-                                                <div class="unit-left"><a href="lagochapo"><img src="view/componentes/img/lcc.jpg" width="184" height="139" alt=""></a></div>
+                                                <div class="unit-left"><a href="lagochapo"><img src="view/componentes/img/lcc.jpg" width="184" height="139" alt="lago chapo"></a></div>
                                                 <div class="unit-body">
                                                     <h6><a href="lagochapo" class="text-base text-bold">Lago Chapo</a></h6>
                                                     <div class="small offset-top-7"><a href="lagochapo" class="text-gray">Puerto Montt</a>
@@ -198,11 +182,10 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        
                                         <div class="offset-top-30">
                                             <!-- Post-->
                                             <div class="post-blog-thumbnail unit unit-sm-horizontal unit-md-vertical text-sm-left unit-lg-horizontal">
-                                                <div class="unit-left"><a href="blog-single-post.html"><img src="view/componentes/img/mhc.jpg" width="184" height="139" alt=""></a></div>
+                                                <div class="unit-left"><a href="blog-single-post.html"><img src="view/componentes/img/mhc.jpg" width="184" height="139" alt="lago chapo"></a></div>
                                                 <div class="unit-body">
                                                     <h6><a href="miradoralcones.html" class="text-base text-bold">Volantín de la Quebrada</a></h6>
                                                     <div class="small offset-top-7">
@@ -211,19 +194,15 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        
                                     </div>
-                                    
                                     <div class="cell-md-12 offset-top-50">
                                         <hr>
                                     </div> 
-                                 
                                     <div class="cell-md-12 offset-top-40">
-                                       
                                         <div class="well">
                                             <h3>Vendedora</h3>
                                             <div class="unit unit-lg-horizontal offset-top-30">
-                                                <div class="unit-left"><img src="view/componentes/images/user-03.jpg" width="140" height="140" alt="" class="img-responsive center-block"></div>
+                                                <div class="unit-left"><img src="view/componentes/images/user-03.jpg" width="140" height="140" alt="lago chapo" class="img-responsive center-block"></div>
                                                 <div class="unit-body">
                                                     <h5>Barbara Zuloaga </h5>
                                                     <p class="offset-top-10">Hola! Soy Barbara y estoy disponible para resolver tus dudas.</p>
@@ -232,21 +211,17 @@
                                             <div class="offset-top-30"><a href="#" style="padding: 12px 40px;" class="btn btn-base">Llamar</a>
                                             </div>
                                         </div>
-                                        
                                     </div>
-                                    
                                     <div class="cell-md-12 offset-top-50">
                                         <hr>
                                     </div>
-                                    
                                     <div class="cell-md-12 offset-top-40">
-                                       
                                         <div class="well">
                                             <h3>Siguenos</h3>
                                             <ul class="list-inline offset-top-30">
-                                                <li><a href="#" class="icon icon-sm text-white fa-facebook"></a></li>
-                                                <li><a href="#" class="icon icon-sm text-white fa-youtube"></a></li>
-                                                <li><a href="#" class="icon icon-sm text-white fa-instagram"></a></li>
+                                                <li><a href="https://www.facebook.com/parcelasdechile/" class="icon icon-sm text-white fa-facebook"></a></li>
+                                                <li><a href="https://www.youtube.com/channel/UC1A2lJ21pRVisDtocb1gTTA" class="icon icon-sm text-white fa-youtube"></a></li>
+                                                <li><a href="https://www.instagram.com/parcelasdechile/" class="icon icon-sm text-white fa-instagram"></a></li>
                                                 <li><a href="#" class="icon icon-sm text-white fa-linkedin"></a></li>
                                             </ul>
                                         </div>
@@ -342,8 +317,8 @@
                     <div class="cell-md-4">
                         <h5>Tags</h5>
                         <ul class="offset-top-20 offset-md-top-36 group">
-                            <li><a href="blog.html" class="btn btn-tag">Apartments</a></li>
-                            <li><a href="blog.html" class="btn btn-tag">Office</a></li>
+                            <li><a href="blog.html" class="btn btn-tag">Parcelas</a></li>
+                            <li><a href="blog.html" class="btn btn-tag">Chile</a></li>
                         </ul>
                     </div>
                     
