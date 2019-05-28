@@ -163,8 +163,10 @@
                                 <div class="caption"><a href="miradoralcones.html" class="label label-primary">VI Región</a></div>
                             </div>
                             <div class="caption-2">
+                               <h2 class="context-dark">Inscríbete en nuestra <br>venta en verde</h2>
+                               <br>
                                 <h3>Desde $7.990.00</h3>
-                                <p>inscríbete en nuestra venta en verde</p>
+                                <p>Próximo lanzamiento</p>
                                 <h3 class="caption-title"><a href="miradoralcones.html" class="text-white">Volantín de la Quebrada</a></h3><a href="miradoralcones.html" class="btn btn-primary-variant-1">Ver más</a>
                             </div>
                         </div>

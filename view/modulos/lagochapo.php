@@ -30,22 +30,30 @@
             <!-- RD Navbar-->
             <div class="rd-navbar-wrap">
                 <nav data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fixed" data-md-device-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-static" data-lg-device-layout="rd-navbar-static" data-sm-stick-up-offset="150px" data-md-stick-up-offset="1px" data-lg-stick-up-offset="150px" class="rd-navbar">
+                   
                     <button data-rd-navbar-toggle=".rd-navbar-collapse" class="rd-navbar-collapse-toggle"><span></span></button>
+                    
                     <div class="rd-navbar-panel">
                         <!-- RD Navbar Panel-->
                         <div class="rd-navbar-inner">
                             <!-- RD Navbar Toggle-->
                             <button data-rd-navbar-toggle=".rd-navbar-nav-wrap" class="rd-navbar-toggle"><span></span></button>
+                            
                             <!-- RD Navbar Brand-->
                             <div class="rd-navbar-brand"><a href="inicio" class="brand-name"><img src="view/componentes/img/logo/logo_transparente.png" width="228" height="83" alt=""></a>
                             </div>
-                            <div class="rd-navbar-contacts rd-navbar-collapse rd-navbar-collapse-2"><span>Póngase sen contacto con nosotros</span>
-                                <div><span class="icon fa-phone text-primary"></span><a href="callto:>+56 9 5805 3609"></span><a>+56 9 5805 3609</a>
+                            
+                            <div class="rd-navbar-contacts rd-navbar-collapse rd-navbar-collapse-2"><span>Póngase en contacto con nosotros</span>
+                                <div><span class="icon fa-phone text-primary"></span><a href="callto:> +56958053609"></span><a>+56 9 5805 3609</a>
                                 </div>
                             </div>
+                            
                         </div>
+                        
                     </div>
+                    
                     <div class="rd-navbar-nav-wrap">
+                       
                         <div class="rd-navbar-inner">
                             <!-- RD Navbar Nav-->
                             <ul class="rd-navbar-nav">
@@ -63,11 +71,15 @@
                             </ul>
                         </div>
                     </div>
+                    
                 </nav>
             </div>
         </header>
+        
         <!-- Page Content-->
+        
         <main class="page-content">
+           
             <section class="bg-gray-lighter">
                 <div class="shell text-left">
                     <ol class="breadcrumb">
@@ -77,9 +89,13 @@
                     </ol>
                 </div>
             </section>
+            
             <section class="section-top-70 section-bottom-80">
+               
                 <div class="shell text-md-left product">
+                   
                     <div class="range">
+                       
                         <div class="cell-md-8">
                             <div><a href="#" class="label label-primary">X Región</a></div>
                             <h2 class="offset-top-50">Lago Chapo</h2>
@@ -109,12 +125,17 @@
                                 Chile.</p>
                             <hr>
                             <h2 class="offset-top-50">Parcelación</h2>
+                            
                             <p>Loteo por parcela y valores</p>
+                            
                             <img src="view/componentes/img/Proyectos/Lago_Chapo/plano/plano_Mesa%20de%20trabajo%201.png" width="886" height="520" alt="" class="img-responsive center-block offset-top-40">
+                            
                             <hr>
                             <h2 class="offset-top-50">Tour 360º </h2>
                             <p>Navega por la parcelación con tu mouse</p>
+                            
                             <br>
+                            
                             <div class="asincronico">
                                 
                             </div>
@@ -124,15 +145,21 @@
                                 <div class="col-xs-6 text-left"><a href="#" class="btn btn-primary btn-icon btn-icon btn-icon-left"><span class="icon fa-angle-left"></span><span class="text text-regular veil reveal-xs-inline">Proyecto previo</span></a></div>
                                 <div class="col-xs-6 text-right"><a href="#" class="btn btn-primary btn-icon btn-icon btn-icon-right"><span class="text text-regular veil reveal-xs-inline">Siguiente proyecto</span><span class="icon fa-angle-right"></span></a></div>
                             </div>
+                            
                             <hr>
                         </div>
+                        
                         <div class="cell-md-4">
+                           
                             <aside>
+                               
                                 <div class="range">
+                                   
                                     <div class="cell-md-12 offset-top-40">
+                                       
                                         <div class="cell-md-5 cell-lg-4 cell-md-preffix-1">
                                             <div class="well well-base">
-                                                <h3 text-center>¿Te llamamos?</h3>
+                                                <h3>¿Te llamamos?</h3>
                                                 <form class="offset-top-30 text-left">
                                                     <div class="form-group">
                                                         <label class="form-label-static form-label-outside">Nombre Completo</label>
@@ -152,11 +179,14 @@
                                                 </form>
                                             </div>
                                         </div>
+                                        
                                         <div class="cell-md-12 offset-top-50">
                                             <hr>
                                         </div>
+                                        
                                         <br>
                                         <h3>Otros Proyectos</h3>
+                                        
                                         <div class="offset-top-40">
                                             <!-- Post-->
                                             <div class="post-blog-thumbnail unit unit-sm-horizontal unit-md-vertical text-sm-left unit-lg-horizontal">
@@ -168,6 +198,7 @@
                                                 </div>
                                             </div>
                                         </div>
+                                        
                                         <div class="offset-top-30">
                                             <!-- Post-->
                                             <div class="post-blog-thumbnail unit unit-sm-horizontal unit-md-vertical text-sm-left unit-lg-horizontal">
@@ -175,18 +206,20 @@
                                                 <div class="unit-body">
                                                     <h6><a href="miradoralcones.html" class="text-base text-bold">Volantín de la Quebrada</a></h6>
                                                     <div class="small offset-top-7">
-                                                        <a href="miradoralcones.html" class="text-gray">La Quebrada<a>
+                                                        <a href="miradoralcones.html" class="text-gray">La Quebrada</a>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
+                                        
                                     </div>
+                                    
                                     <div class="cell-md-12 offset-top-50">
                                         <hr>
-                                    </div>
-                                      
+                                    </div> 
                                  
                                     <div class="cell-md-12 offset-top-40">
+                                       
                                         <div class="well">
                                             <h3>Vendedora</h3>
                                             <div class="unit unit-lg-horizontal offset-top-30">
@@ -199,11 +232,15 @@
                                             <div class="offset-top-30"><a href="#" style="padding: 12px 40px;" class="btn btn-base">Llamar</a>
                                             </div>
                                         </div>
+                                        
                                     </div>
+                                    
                                     <div class="cell-md-12 offset-top-50">
                                         <hr>
                                     </div>
+                                    
                                     <div class="cell-md-12 offset-top-40">
+                                       
                                         <div class="well">
                                             <h3>Siguenos</h3>
                                             <ul class="list-inline offset-top-30">
@@ -213,11 +250,14 @@
                                                 <li><a href="#" class="icon icon-sm text-white fa-linkedin"></a></li>
                                             </ul>
                                         </div>
+                                        
                                         <div class="well well-dark">
                                             <h3>Newsletter</h3>
                                             <p class="offset-tpo-10 offset-md-top-25 text-gray">¡Regístrate para las mejores ofertas en
                                                 parcelas!</p>
+                                                
                                             <!-- RD Mailform-->
+                                            
                                             <form data-form-output="form-output-global" data-form-type="subscribe" method="post" action="bat/rd-mailform.php" class="offset-top-20 rd-mailform form-inline-custom">
                                                 <div class="form-group">
                                                     <label for="subscribe-email" class="form-label">mail
@@ -226,11 +266,15 @@
                                                 </div>
                                                 <button type="submit" class="btn btn-primary">Enviar</button>
                                             </form>
+                                            
                                         </div>
+                                        
                                     </div>
+                                    
                                     <div class="cell-md-12 offset-top-50">
                                         <hr>
                                     </div>
+                                    
                                     <div class="cell-md-12 offset-top-40">
                                         <!-- RD Calendar-->
                                         <div class="rd-calendar">
@@ -244,16 +288,26 @@
                                             </div>
                                         </div>
                                     </div>
+                                    
                                 </div>
+                                
                             </aside>
+                            
                         </div>
+                        
                     </div>
                 </div>
+                
             </section>
+            
         </main>
+        
         <!-- Page Footer-->
+        
         <section class="rd-parallax">
+           
             <div data-speed="0.4" data-type="media" data-url="view/componentes/img/h2.jpg" class="rd-parallax-layer"></div>
+            
             <div data-speed="0" data-type="html" class="rd-parallax-layer">
                 <div class="shell section-100 section-lg-top-220 section-lg-bottom-205 context-dark text-md-left">
                     <hr class="divider">
@@ -263,9 +317,13 @@
                     <a href="about.html" class="offset-top-50 btn btn-primary text-regular">Ver más</a>
                 </div>
             </div>
+            
         </section>
+        
         <footer class="page-footer">
+           
             <div class="shell section-70 section-lg-120">
+               
                 <div class="range text-md-left">
                     <div class="cell-md-4">
                         <h5>Sobre Nosotros</h5>
@@ -288,8 +346,11 @@
                             <li><a href="blog.html" class="btn btn-tag">Office</a></li>
                         </ul>
                     </div>
+                    
                 </div>
+                
             </div>
+            
             <div class="shell">
                 <hr>
             </div>
@@ -302,17 +363,25 @@
                     <div class="cell-sm-6 text-sm-right cell-sm-push-1">
                         <ul class="list-inline">
                             <li><a href="https://www.facebook.com/parcelasdechile/" target="_blank" class="icon icon-sm text-primary fa-facebook"></a></li>
-                            <li><a href="https://www.youtube.com/channel/UC1A2lJ21pRVisDtocb1gTTA" target="_blank" class="icon icon-sm text-primary fa-youtube"></a></li>
-                            <li><a href="https://www.linkedin.com/company/parcelasdechile?originalSubdomain=cl" target="_blank" class="icon icon-sm text-primary fa-linkedin"></a></li>
-                            <li><a href="https://instagram.com/parcelasdechile" target="_blank" class="icon icon-sm text-primary fa-instagram"></a></li>
+                            
+                            <li><a href="https://www.youtube.com/channel/UC1A2lJ21pRVisDtocb1gTTA/" target="_blank" class="icon icon-sm text-primary fa-youtube"></a></li>
+                            
+                            <li><a href="https://www.linkedin.com/company/parcelasdechile?originalSubdomain=cl/" target="_blank" class="icon icon-sm text-primary fa-linkedin"></a></li>
+                            
+                            <li><a href="https://instagram.com/parcelasdechile/" target="_blank" class="icon icon-sm text-primary fa-instagram"></a></li>
+                            
                         </ul>
                     </div>
+                    
                     <div class="cell-sm-6 text-sm-left offset-top-20 offset-sm-top-0">
                         <p class="small">Parcelas de Chile &#169;<span id="copyright-year"></span>. <a href="privacy.html" class="text-gray">Privacy Policy</a>
                         </p>
                     </div>
+                    
                 </div>
+                
             </div>
+            
         </footer>
         <!-- Global Mailform Output-->
         <div id="form-output-global" class="snackbars"></div>
