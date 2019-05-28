@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="es" class="wide wow-animation">
-
 <head>
     <!-- Site Title-->
     <title>Lago Chapo</title>
@@ -21,7 +20,6 @@
     <script src="js/html5shiv.min.js"></script>
 		<![endif]-->
 </head>
-
 <body>
     <!-- Page-->
     <div class="page text-center">
@@ -98,17 +96,17 @@
                             <!-- Slick Carousel-->
                             <div data-photo-swipe-gallery="gallery" data-arrows="true" data-loop="false" data-dots="false" data-swipe="true" data-items="1" class="slick-slider">
 
-                                <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/Proyectos/Lago_Chapo/1.jpg" class="thumbnail-variant-2"><img src="view/componentes/img/Proyectos/Lago_Chapo/1.jpg" alt="lago chapo" width="886" height="520" class="img-responsive"></a></div>
+                                <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/proyectos/lago_chapo/1.jpg" class="thumbnail-variant-2"><img src="view/componentes/img/proyectos/lago_chapo/1.jpg" alt="lago chapo" width="886" height="520" class="img-responsive"></a></div>
 
-                                <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/Proyectos/Lago_Chapo/2.jpg"  class="thumbnail-variant-2"><img src="view/componentes/img/Proyectos/Lago_Chapo/2.jpg" alt="lago chapo" width="886" height="520" class="img-responsive"></a></div>
+                                <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/proyectos/lago_chapo/2.jpg"  class="thumbnail-variant-2"><img src="view/componentes/img/proyectos/lago_chapo/2.jpg" alt="lago chapo" width="886" height="520" class="img-responsive"></a></div>
 
-                                <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/Proyectos/Lago_Chapo/3.jpg" class="thumbnail-variant-2"><img src="view/componentes/img/Proyectos/Lago_Chapo/3.jpg" alt="lago chapo" width="886" height="520" class="img-responsive"></a></div>
+                                <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/proyectos/lago_chapo/3.jpg" class="thumbnail-variant-2"><img src="view/componentes/img/proyectos/lago_chapo/3.jpg" alt="lago chapo" width="886" height="520" class="img-responsive"></a></div>
 
-                                <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/Proyectos/Lago_Chapo/4.jpg" class="thumbnail-variant-2"><img src="view/componentes/img/Proyectos/Lago_Chapo/4.jpg" alt="lago chapo" width="886" height="520" class="img-responsive"></a></div>
+                                <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/proyectos/lago_chapo/4.jpg" class="thumbnail-variant-2"><img src="view/componentes/img/proyectos/lago_chapo/4.jpg" alt="lago chapo" width="886" height="520" class="img-responsive"></a></div>
 
-                                <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/Proyectos/Lago_Chapo/6.jpg"  class="thumbnail-variant-2"><img src="view/componentes/img/Proyectos/Lago_Chapo/6.jpg" alt="lago chapo" width="886" height="520" class="img-responsive"></a></div>
+                                <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/proyectos/lago_chapo/6.jpg"  class="thumbnail-variant-2"><img src="view/componentes/img/proyectos/lago_chapo/6.jpg" alt="lago chapo" width="886" height="520" class="img-responsive"></a></div>
 
-                                <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/Proyectos/Lago_Chapo/7.jpg" class="thumbnail-variant-2"><img src="view/componentes/img/Proyectos/Lago_Chapo/7.jpg" alt="lago chapo" width="886" height="520" class="img-responsive"></a></div>
+                                <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/proyectos/lago_chapo/7.jpg" class="thumbnail-variant-2"><img src="view/componentes/img/proyectos/lago_chapo/7.jpg" alt="lago chapo" width="886" height="520" class="img-responsive"></a></div>
                             </div>
 
                             <p class="offset-top-40 text-bold text-base">" Por qué tenemos el país más lindo del mundo, creemos que
@@ -120,7 +118,7 @@
                             
                             <p>Loteo por parcela y valores</p>
                             
-                            <img src="view/componentes/img/Proyectos/Lago_Chapo/plano/plano_Mesa%20de%20trabajo%201.png" width="886" height="520" alt="lago chapo" class="img-responsive center-block offset-top-40">
+                            <img src="view/componentes/img/proyectos/lago_chapo/plano/plano_Mesa%20de%20trabajo%201.png" width="886" height="520" alt="lago chapo" class="img-responsive center-block offset-top-40">
                             
                             <hr>
                             <h2 class="offset-top-50">Tour 360º </h2>
@@ -220,9 +218,9 @@
                                             <h3>Siguenos</h3>
                                             <ul class="list-inline offset-top-30">
                                                 <li><a href="https://www.facebook.com/parcelasdechile/" class="icon icon-sm text-white fa-facebook"></a></li>
-                                                <li><a href="https://www.youtube.com/channel/UC1A2lJ21pRVisDtocb1gTTA" class="icon icon-sm text-white fa-youtube"></a></li>
+                                                <li><a href="https://www.youtube.com/channel/UC1A2lJ21pRVisDtocb1gTTA/" class="icon icon-sm text-white fa-youtube"></a></li>
                                                 <li><a href="https://www.instagram.com/parcelasdechile/" class="icon icon-sm text-white fa-instagram"></a></li>
-                                                <li><a href="#" class="icon icon-sm text-white fa-linkedin"></a></li>
+                                                <li><a href="https://cl.linkedin.com/company/parcelasdechile/" class="icon icon-sm text-white fa-linkedin"></a></li>
                                             </ul>
                                         </div>
                                         
@@ -269,20 +267,13 @@
                             </aside>
                             
                         </div>
-                        
                     </div>
-                </div>
-                
-            </section>
-            
+                </div> 
+            </section>  
         </main>
-        
         <!-- Page Footer-->
-        
         <section class="rd-parallax">
-           
             <div data-speed="0.4" data-type="media" data-url="view/componentes/img/h2.jpg" class="rd-parallax-layer"></div>
-            
             <div data-speed="0" data-type="html" class="rd-parallax-layer">
                 <div class="shell section-100 section-lg-top-220 section-lg-bottom-205 context-dark text-md-left">
                     <hr class="divider">
@@ -291,14 +282,10 @@
                     <br class="veil reveal-md-block"></h4>
                     <a href="about.html" class="offset-top-50 btn btn-primary text-regular">Ver más</a>
                 </div>
-            </div>
-            
-        </section>
-        
+            </div>   
+        </section>   
         <footer class="page-footer">
-           
             <div class="shell section-70 section-lg-120">
-               
                 <div class="range text-md-left">
                     <div class="cell-md-4">
                         <h5>Sobre Nosotros</h5>
@@ -321,42 +308,28 @@
                             <li><a href="blog.html" class="btn btn-tag">Chile</a></li>
                         </ul>
                     </div>
-                    
                 </div>
-                
             </div>
-            
             <div class="shell">
                 <hr>
             </div>
-
             <!-- PRIVACITY-->
-
             <div class="shell section-30">
-
                 <div class="range range-xs-middle">
                     <div class="cell-sm-6 text-sm-right cell-sm-push-1">
                         <ul class="list-inline">
                             <li><a href="https://www.facebook.com/parcelasdechile/" target="_blank" class="icon icon-sm text-primary fa-facebook"></a></li>
-                            
                             <li><a href="https://www.youtube.com/channel/UC1A2lJ21pRVisDtocb1gTTA/" target="_blank" class="icon icon-sm text-primary fa-youtube"></a></li>
-                            
                             <li><a href="https://www.linkedin.com/company/parcelasdechile?originalSubdomain=cl/" target="_blank" class="icon icon-sm text-primary fa-linkedin"></a></li>
-                            
                             <li><a href="https://instagram.com/parcelasdechile/" target="_blank" class="icon icon-sm text-primary fa-instagram"></a></li>
-                            
                         </ul>
                     </div>
-                    
                     <div class="cell-sm-6 text-sm-left offset-top-20 offset-sm-top-0">
                         <p class="small">Parcelas de Chile &#169;<span id="copyright-year"></span>. <a href="privacy.html" class="text-gray">Privacy Policy</a>
                         </p>
                     </div>
-                    
                 </div>
-                
-            </div>
-            
+            </div> 
         </footer>
         <!-- Global Mailform Output-->
         <div id="form-output-global" class="snackbars"></div>
@@ -400,5 +373,4 @@
         <script src="view/componentes/js/script.js"></script>
             </div>
 </body>
-
 </html>

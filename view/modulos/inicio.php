@@ -101,8 +101,7 @@
                                 <h1>Bienvenidos a Parcelas de Chile</h1> <p class="offset-top-25">Por qué tenemos el país más lindo del mundo, creemos que deberías elegir invertir con Parcelas de Chile.</p>
                             </div>
                         </div>
-                    </div>
-                    
+                    </div> 
                     <!-- TE LLAMAMOS-->
                     <div class="cell-md-5 cell-lg-4 cell-md-preffix-1">
                         <div class="well well-base">
@@ -129,12 +128,10 @@
                         </div>
                     </div>
                 </div>
-            </div>
-            
+            </div> 
         </header>
         <!-- Page Content-->
         <main class="page-content">
-        
         <section>
             <div class="shell section-100 section-lg-top-30 section-lg-bottom-30 context-light text-md-center">
                         <h3>Nuestras Parcelas en venta</h3>
@@ -146,7 +143,7 @@
                     <div class="cell-sm-6">
                         <div class="reveal-block thumbnail-variant-1">
                             <div class="caption-wrapper">
-                                <img src="view/componentes/img/Proyectos/Lago_Chapo/lagochap.jpg" width="960" height="567" alt="Lago chapo" class="img-responsive center-block">
+                                <img src="view/componentes/img/proyectos/lago_chapo/lagochapo.jpg" width="960" height="567" alt="Lago chapo" class="img-responsive center-block">
                                 <div class="caption"><a href="lagochapo" class="label label-primary">X Región</a></div>
                             </div>
                             <div class="caption-2">
@@ -159,7 +156,7 @@
                     <div class="cell-sm-6 offset-top-0">
                         <div class="reveal-block thumbnail-variant-1">
                             <div class="caption-wrapper">
-                                <img src="view/componentes/img/Proyectos/Mirador_alcones/malcones.jpg" width="960" height="567" alt="Volantin de la quebrada" class="img-responsive center-block">
+                                <img src="view/componentes/img/proyectos/mirador_alcones/malcones.jpg" width="960" height="567" alt="Volantin de la quebrada" class="img-responsive center-block">
                                 <div class="caption"><a href="miradoralcones.html" class="label label-primary">VI Región</a></div>
                             </div>
                             <div class="caption-2">
@@ -183,7 +180,7 @@
                             <p class="offset-top-10">Con el N° de Rol el SII identifica <br> a una propiedad o bien raíz. </p>
                         </div>
                         <div class="cell-lg-4 cell-md-4"><span class="icon icon-lg icon-circle icon-primary fa-bookmark"></span>
-                            <h5 class="offset-top-20">Factibilidad luz y agua</h5>
+                            <h5 class="offset-top-20">Posibilidad luz y agua</h5>
                             <p class="offset-top-10">Parcelas posibilitadas para obtener <br> los recursos de luz y agua sin problemas.</p>
                         </div>
                         <div class="cell-lg-4 cell-md-4"><span class="icon icon-lg icon-circle icon-primary fa-bookmark"></span>
@@ -260,11 +257,8 @@
             <div class="shell">
                 <hr>
             </div>
-
             <!-- PRIVACITY-->
-
             <div class="shell section-30">
-
                 <div class="range range-xs-middle">
                     <div class="cell-sm-6 text-sm-right cell-sm-push-1">
                         <ul class="list-inline">
