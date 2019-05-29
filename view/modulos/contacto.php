@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="es" class="wide wow-animation">
-
 <head>
     <!-- Site Title-->
     <title>Contacts</title>
@@ -17,7 +16,6 @@
     <script src="js/html5shiv.min.js"></script>
 		<![endif]-->
 </head>
-
 <body>
     <!-- Page-->
     <div class="page text-center">
@@ -234,5 +232,4 @@
     <script src="view/componentes/js/core.min.js"></script>
     <script src="view/componentes/js/script.js"></script>
 </body>
-
 </html>

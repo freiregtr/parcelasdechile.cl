@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="es" class="wide smoothscroll wow-animation">
-
 <head>
     <!-- Site Title-->
     <title>Parcelas de Chile</title>
