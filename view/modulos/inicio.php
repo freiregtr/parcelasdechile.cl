@@ -40,7 +40,7 @@
                                 <div><span class="icon fa-phone text-primary"></span><a>+56 9 5805 3609</a></div>
                             </div>
                             <!-- RD Navbar Brand-->
-                            <div class="rd-navbar-brand"><a href="index.html" class="brand-name"><img src="view/componentes/img/logo/logo_transparente.png" width="228" height="83" alt="Parcelas de chile"></a></div>
+                            <div class="rd-navbar-brand"><a href="inicio" class="brand-name"><img src="view/componentes/img/logo/logo_transparente.png" width="228" height="83" alt="Parcelas de chile"></a></div>
                             
                             <!--RD Navbar Search-->
                             <div class="rd-navbar-search"><a data-rd-navbar-toggle=".rd-search" href="#" class="rd-navbar-search-toggle"><span class="fa-search"></span></a>
@@ -148,7 +148,7 @@
                             <div class="caption-2">
                                 <h3>Desde: $ 9.990.000</h3>
                                   <p>Últimas parcelas disponibles</p>
-                                <h3 class="caption-title"><a href="lagochapo.php" class="text-white">Lago Chapo, Puerto Montt</a></h3><a href="lagochapo" class="btn btn-primary-variant-1">Ver más</a>
+                                <h3 class="caption-title"><a href="lagochapo" class="text-white">Lago Chapo, Puerto Montt</a></h3><a href="lagochapo" class="btn btn-primary-variant-1">Ver más</a>
                             </div>
                         </div>
                     </div>
