@@ -163,7 +163,7 @@
                             <div class="caption-2">
                                 <h3>Desde: $ 9.990.000</h3>
                                 <p>Últimas parcelas disponibles</p>
-                                <h3 class="caption-title"><a href="lagochapo.php" class="text-white">Lago Chapo, Puerto Montt</a></h3><a href="lagochapo" class="btn btn-primary-variant-1">Ver más</a>
+                                <h3 class="caption-title"><a href="lagochapo" class="text-white">Lago Chapo, Puerto Montt</a></h3><a href="lagochapo" class="btn btn-primary-variant-1">Ver más</a>
                             </div>
                         </div>
                     </div>
@@ -171,14 +171,14 @@
                         <div class="reveal-block thumbnail-variant-1">
                             <div class="caption-wrapper">
                                 <img src="view/componentes/img/proyectos/mirador_alcones/malcones.jpg" width="960" height="567" alt="Volantin de la quebrada" class="img-responsive center-block">
-                                <div class="caption"><a href="miradoralcones.html" class="label label-primary">VI Región</a></div>
+                                <div class="caption"><a href="miradoralcones" class="label label-primary">VI Región</a></div>
                             </div>
                             <div class="caption-2">
                                 <h2 class="context-dark">Inscríbete en nuestra <br>venta en verde</h2>
                                 <br>
                                 <h3>Desde $7.990.00</h3>
                                 <p>Próximo lanzamiento</p>
-                                <h3 class="caption-title"><a href="miradoralcones.html" class="text-white">Volantín de la Quebrada</a></h3><a href="miradoralcones.html" class="btn btn-primary-variant-1">Ver más</a>
+                                <h3 class="caption-title"><a href="miradoralcones" class="text-white">Volantín de la Quebrada</a></h3><a href="miradoralcones.html" class="btn btn-primary-variant-1">Ver más</a>
                             </div>
                         </div>
                     </div>
@@ -215,7 +215,7 @@
                         <hr class="divider">
                         <h2>Únete nuestro equipo de vendedores</h2>
                         <h4 class="offset-top-25">¿Tienes experiencia vendiendo terrenos ?<br class="veil reveal-md-block"></h4>
-                        <a href="about.html" class="offset-top-50 btn btn-primary text-regular">Ver más</a>
+                        <a href="about" class="offset-top-50 btn btn-primary text-regular">Ver más</a>
                     </div>
                 </div>
             </section>
