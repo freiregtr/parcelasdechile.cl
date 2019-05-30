@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es" class="wide smoothscroll wow-animation">
+
 <head>
     <!-- Site Title-->
     <title>Parcelas de Chile</title>
@@ -12,16 +13,29 @@
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
-    
+
+    <!-- UA Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-137903886-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'UA-137903886-1');
+    </script>
+
     <!-- Stylesheets-->
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="view/componentes/css/style.css">
-    
+
     <!--[if lt IE 10]>
     <div style="background: #212121; padding: 10px 0; box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3); clear: both; text-align:center; position: relative; z-index:1;"><a href="http://windows.microsoft.com/en-US/internet-explorer/"><img src="images/ie8-panel/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."></a></div>
     <script src="js/html5shiv.min.js"></script>
 		<![endif]-->
 </head>
+
 <body>
     <!-- Page-->
     <div class="page text-center">
@@ -41,7 +55,7 @@
                             </div>
                             <!-- RD Navbar Brand-->
                             <div class="rd-navbar-brand"><a href="index.html" class="brand-name"><img src="view/componentes/img/logo/logo_transparente.png" width="228" height="83" alt="Parcelas de chile"></a></div>
-                            
+
                             <!--RD Navbar Search-->
                             <div class="rd-navbar-search"><a data-rd-navbar-toggle=".rd-search" href="#" class="rd-navbar-search-toggle"><span class="fa-search"></span></a>
                                 <form action="search-results.html" data-search-live="rd-search-results-live" method="GET" class="rd-search">
@@ -55,10 +69,10 @@
                                     </div>
                                 </form>
                             </div>
-                            
+
                         </div>
                     </div>
-                    
+
                     <div class="rd-navbar-nav-wrap">
                         <div class="rd-navbar-inner">
                             <!-- RD Navbar Nav-->
@@ -97,15 +111,16 @@
                             </div>
                             <div class="owl-item">
                                 <hr class="divider veil reveal-md-inline-block">
-                                <h1>Bienvenidos a Parcelas de Chile</h1> <p class="offset-top-25">Por qué tenemos el país más lindo del mundo, creemos que deberías elegir invertir con Parcelas de Chile.</p>
+                                <h1>Bienvenidos a Parcelas de Chile</h1>
+                                <p class="offset-top-25">Por qué tenemos el país más lindo del mundo, creemos que deberías elegir invertir con Parcelas de Chile.</p>
                             </div>
                         </div>
-                    </div> 
+                    </div>
                     <!-- TE LLAMAMOS-->
                     <div class="cell-md-5 cell-lg-4 cell-md-preffix-1">
                         <div class="well well-base">
                             <h3>¿Te llamamos?</h3>
-                            
+
                             <form class="offset-top-30 text-left">
                                 <div class="form-group">
                                     <label class="form-label-static form-label-outside">Nombre Completo</label>
@@ -123,20 +138,20 @@
                                     <button class="btn btn-block btn-primary">Enviar</button>
                                 </div>
                             </form>
-                            
+
                         </div>
                     </div>
                 </div>
-            </div> 
+            </div>
         </header>
         <!-- Page Content-->
         <main class="page-content">
-        <section>
-            <div class="shell section-100 section-lg-top-30 section-lg-bottom-30 context-light text-md-center">
-                        <h3>Nuestras Parcelas en venta</h3>
-                    </div>
-        </section>
-           
+            <section>
+                <div class="shell section-100 section-lg-top-30 section-lg-bottom-30 context-light text-md-center">
+                    <h3>Nuestras Parcelas en venta</h3>
+                </div>
+            </section>
+
             <section>
                 <div class="range range-condensed text-sm-left">
                     <div class="cell-sm-6">
@@ -147,7 +162,7 @@
                             </div>
                             <div class="caption-2">
                                 <h3>Desde: $ 9.990.000</h3>
-                                  <p>Últimas parcelas disponibles</p>
+                                <p>Últimas parcelas disponibles</p>
                                 <h3 class="caption-title"><a href="lagochapo.php" class="text-white">Lago Chapo, Puerto Montt</a></h3><a href="lagochapo" class="btn btn-primary-variant-1">Ver más</a>
                             </div>
                         </div>
@@ -159,8 +174,8 @@
                                 <div class="caption"><a href="miradoralcones.html" class="label label-primary">VI Región</a></div>
                             </div>
                             <div class="caption-2">
-                               <h2 class="context-dark">Inscríbete en nuestra <br>venta en verde</h2>
-                               <br>
+                                <h2 class="context-dark">Inscríbete en nuestra <br>venta en verde</h2>
+                                <br>
                                 <h3>Desde $7.990.00</h3>
                                 <p>Próximo lanzamiento</p>
                                 <h3 class="caption-title"><a href="miradoralcones.html" class="text-white">Volantín de la Quebrada</a></h3><a href="miradoralcones.html" class="btn btn-primary-variant-1">Ver más</a>
@@ -169,10 +184,10 @@
                     </div>
                 </div>
             </section>
-            
-             <section id="proyectos">
+
+            <section id="proyectos">
                 <div class="shell section-70 section-lg-45 text-md-left">
-                
+
                     <div class="range range-xs-around text-center">
                         <div class="cell-lg-4 cell-md-4"><span class="icon icon-lg icon-circle icon-primary fa-bookmark"></span>
                             <h5 class="offset-top-20">Rol Único</h5>
@@ -187,12 +202,12 @@
                             <p class="offset-top-10">Dependiendo del valor y el proyecto <br> los mts comienzan desde los 5000 mt2</p>
                         </div>
                     </div>
-                 </div>
+                </div>
 
             </section>
-            
+
             <!-- RD Parallax-->
-            
+
             <section class="rd-parallax">
                 <div data-speed="0.4" data-type="media" data-url="view/componentes/img/h1.jpg" class="rd-parallax-layer"></div>
                 <div data-speed="0" data-type="html" class="rd-parallax-layer">
@@ -204,7 +219,7 @@
                     </div>
                 </div>
             </section>
-            
+
             <!-- NEWSLETTERS-->
             <section class="bg-primary section-45">
                 <div class="shell text-lg-left context-dark">
@@ -226,7 +241,7 @@
                 </div>
             </section>
         </main>
-        
+
         <!-- Page Footer-->
         <footer class="page-footer">
             <div class="shell section-70 section-lg-120">
@@ -311,9 +326,16 @@
                 </div>
             </div>
         </div>
-        <!-- Java script-->
+
+        <!-- btn whatsapp -->
+        <a href="https://api.whatsapp.com/send?phone=56958053609&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20parcelas." class="float" target="_blank">
+            <i class="fa fa-whatsapp my-float"></i>
+        </a>
+
+        <!-- javascript -->
         <script src="view/componentes/js/core.min.js"></script>
         <script src="view/componentes/js/script.js"></script>
     </div>
 </body>
+
 </html>

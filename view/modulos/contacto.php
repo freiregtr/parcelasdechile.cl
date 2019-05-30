@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es" class="wide wow-animation">
+
 <head>
     <!-- Site Title-->
     <title>Contacts</title>
@@ -11,11 +12,25 @@
     <!-- Stylesheets-->
     <link rel="stylesheet" type="view/componentes/text/css" href="//fonts.googleapis.com/css?family=Poppins:400,700,300,400italic">
     <link rel="stylesheet" href="view/componentes/css/style.css">
+
+    <!-- UA Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-137903886-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'UA-137903886-1');
+    </script>
+
     <!--[if lt IE 10]>
     <div style="background: #212121; padding: 10px 0; box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3); clear: both; text-align:center; position: relative; z-index:1;"><a href="http://windows.microsoft.com/en-US/internet-explorer/"><img src="images/ie8-panel/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."></a></div>
     <script src="js/html5shiv.min.js"></script>
 		<![endif]-->
 </head>
+
 <body>
     <!-- Page-->
     <div class="page text-center">
@@ -189,7 +204,7 @@
                 </div>
             </div>
         </footer>
-       
+
     </div>
     <!-- Global Mailform Output-->
     <div id="form-output-global" class="snackbars"></div>
@@ -228,8 +243,15 @@
             </div>
         </div>
     </div>
-    <!-- Java script-->
+
+    <!-- btn whatsapp -->
+    <a href="https://api.whatsapp.com/send?phone=56958053609&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20parcelas." class="float" target="_blank">
+        <i class="fa fa-whatsapp my-float"></i>
+    </a>
+
+    <!-- javascript -->
     <script src="view/componentes/js/core.min.js"></script>
     <script src="view/componentes/js/script.js"></script>
 </body>
+
 </html>
