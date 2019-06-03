@@ -105,11 +105,14 @@
                     <div class="range">
                         <div class="cell-md-8">
                             <div><a href="#" class="label label-primary">VI Región</a></div>
-                            <h2 class="offset-top-50">Volantín de la Quebrada</h2>
+                            <h2 class="offset-top-50">Volantín de la Quebrada
+                            <br>"Venta en verde"</h2>
                       
                             <br>
                             <!-- Slick Carousel-->
                             <div data-photo-swipe-gallery="gallery" data-arrows="true" data-loop="false" data-dots="false" data-swipe="true" data-items="1" class="slick-slider">
+                                
+                                <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/proyectos/mirador_alcones/malcones.jpg" class="thumbnail-variant-2"><img src="view/componentes/img/proyectos/mirador_alcones/malcones.jpg" alt="Volantin de la quebrada" width="886" height="520" class="img-responsive"></a></div>
 
                                 <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/proyectos/mirador_alcones/1.jpg" class="thumbnail-variant-2"><img src="view/componentes/img/proyectos/mirador_alcones/1.jpg" alt="Volantin de la quebrada" width="886" height="520" class="img-responsive"></a></div>
 
@@ -133,7 +136,7 @@
                             
                             <iframe src="https://cdn.flipsnack.com/widget/v2/widget.html?hash=fdzuluk7e" width="100%" height="480" seamless="seamless" scrolling="no" frameBorder="0" allowFullScreen></iframe>
                             <hr>
-                            <h2 class="offset-top-50">Parcelación</h2>
+                            <h2 class="offset-top-50">Parcelación <br>"Valores venta en verde"</h2>
 
 
                             <img src="view/componentes/img/Proyectos/mirador_alcones/plano/plano.png" width="886" height="520" alt="volantin de la quebrada" class="img-responsive center-block offset-top-40">

@@ -110,8 +110,8 @@
                         <div data-items="1" data-dots="true" data-margin="30" data-mouse-drag="false" class="context-dark owl-slider owl-carousel">
                             <div class="owl-item">
                                 <hr class="divider veil reveal-md-inline-block">
-                                <h1>Bienvenidos a Parcelas de Chile</h1>
-                                <p class="offset-top-25">Por qué tenemos el país más lindo del mundo, creemos que deberías elegir invertir con Parcelas de Chile.</p>
+                                <h1>Inscríbete en nuestra venta en verde</h1>
+                                <p class="offset-top-25">Próximo proyecto "Volantín de la Quebrada"</p>
                             </div>
                             <div class="owl-item">
                                 <hr class="divider veil reveal-md-inline-block">
