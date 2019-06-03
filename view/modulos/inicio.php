@@ -24,6 +24,7 @@
     <link rel="stylesheet" href="view/componentes/css/soch.css">
     <!-- UA Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-137903886-1"></script>
+    
     <script>
         window.dataLayer = window.dataLayer || [];
 
@@ -51,6 +52,7 @@
             <!-- RD Navbar-->
             <div class="rd-navbar-wrap">
                 <nav data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fixed" data-md-device-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-static" data-lg-device-layout="rd-navbar-static" data-sm-stick-up-offset="158px" data-md-stick-up-offset="10px" data-lg-stick-up-offset="158px" class="rd-navbar rd-navbar-centered">
+                   
                     <button data-rd-navbar-toggle=".rd-navbar-collapse" class="rd-navbar-collapse-toggle"><span></span></button>
                     <div class="rd-navbar-panel">
                         <!-- RD Navbar Panel-->
@@ -158,7 +160,7 @@
                     </div>
         </section>
            
-            <section>
+            <section >
                 <div class="range range-condensed text-sm-left">
                     <div class="cell-sm-6">
                         <div class="reveal-block thumbnail-variant-1">
@@ -167,6 +169,8 @@
                                 <div class="caption"><a href="lagochapo" class="label label-primary">X Región</a></div>
                             </div>
                             <div class="caption-2">
+                                <h2 class="context-dark ocultar">Inscríbete en nuestra <br>venta en verde</h2>
+                                <br>
                                 <h3>Desde: $ 9.990.000</h3>
                                   <p>Últimas parcelas disponibles</p>
                                 <h3 class="caption-title"><a href="lagochapo" class="text-white">Lago Chapo, Puerto Montt</a></h3><a href="lagochapo" class="btn btn-primary-variant-1">Ver más</a>
@@ -289,7 +293,7 @@
                         </ul>
                     </div>
                     <div class="cell-sm-6 text-sm-left offset-top-20 offset-sm-top-0">
-                        <p class="small">Parcelas de Chile &#169;<span id="copyright-year"></span>. <a href="privacy.html" class="text-gray">Privacy Policy</a>
+                        <p class="small">Parcelas de Chile &#169;<span id="copyright-year"></span>.
                         </p>
                     </div>
                 </div>
@@ -333,7 +337,6 @@
             </div>
         </div>
 
-        <!-- btn whatsapp -->
 
         <!-- Inicio Div chat -->
         <div id="sochSection">
@@ -342,7 +345,7 @@
             </div>
             <div class="chatIcons">
                 <div id="messengerIcon" class="myIcon" data-show="messengerPopup">
-                    <span class="fab fa-facebook-messenger"></span>
+                    <span class="fab fa-facebook"></span>
                 </div>
                 <div id="whatsappIcon" class="myIcon" data-show="whatsappPopup">
                     <span class="fab fa-whatsapp"></span>
@@ -359,8 +362,8 @@
                                 <span class="fas fa-times"></span>
                             </a>
                         </div>
-                        <h2 class="chatsPopup-title">Need Help? Chat with us</h2>
-                        <h2 class="chatsPopup-tagline">Click one of our representatives below</h2>
+                        <h2 class="chatsPopup-title">¿Necesitas ayuda?<br> habla con nosotros</h2>
+                        <h2 class="chatsPopup-tagline">Haga clic en uno de nuestros representantes a continuación</h2>
                     </div>
                     <div class="chatsPopup-body">
                         <div class="chatsPopupContent">
@@ -372,8 +375,8 @@
                                                 <img src="view/componentes/images/user1.jpg" alt="" class="img-fluid">
                                             </div>
                                             <div class="chatsUsercontent">
-                                                <h2 class="chatsUserName">Bobby</h2>
-                                                <h3 class="chatsUserTagline">Support</h3>
+                                                <h2 class="chatsUserName">Barbara</h2>
+                                                <h3 class="chatsUserTagline">Vendedor</h3>
                                                 <span class="userStatus">I will back soon.</span>
                                             </div>
                                         </div>
@@ -384,8 +387,8 @@
                                                 <img src="view/componentes/images/user2.jpg" alt="" class="img-fluid">
                                             </div>
                                             <div class="chatsUsercontent">
-                                                <h2 class="chatsUserName">Harry</h2>
-                                                <h3 class="chatsUserTagline">Sales</h3>
+                                                <h2 class="chatsUserName">Mauricio</h2>
+                                                <h3 class="chatsUserTagline">Vendedor</h3>
                                                 <span class="userStatus">I will back soon.</span>
                                             </div>
                                         </div>
@@ -396,8 +399,8 @@
                                                 <img src="view/componentes/images/user3.jpg" alt="" class="img-fluid">
                                             </div>
                                             <div class="chatsUsercontent">
-                                                <h2 class="chatsUserName">George</h2>
-                                                <h3 class="chatsUserTagline">Billing</h3>
+                                                <h2 class="chatsUserName">Nicolás</h2>
+                                                <h3 class="chatsUserTagline">Vendedor</h3>
                                                 <span class="userStatus">I will back soon.</span>
                                             </div>
                                         </div>
@@ -414,8 +417,8 @@
                                 <span class="fas fa-times"></span>
                             </a>
                         </div>
-                        <h2 class="chatsPopup-title">Need Help? Chat with us</h2>
-                        <h2 class="chatsPopup-tagline">Click one of our representatives below</h2>
+                        <h2 class="chatsPopup-title">¿Necesitas ayuda? <br>habla con nosotros</h2>
+                        <h2 class="chatsPopup-tagline">Haga clic en uno de nuestros representantes a continuación</h2>
                     </div>
                     <div class="chatsPopup-body">
                         <div class="chatsPopupContent">
@@ -427,8 +430,8 @@
                                                 <img src="view/componentes/images/user1.jpg" alt="" class="img-fluid">
                                             </div>
                                             <div class="chatsUsercontent">
-                                                <h2 class="chatsUserName">Bobby</h2>
-                                                <h3 class="chatsUserTagline">Support</h3>
+                                                <h2 class="chatsUserName">Barbara</h2>
+                                                <h3 class="chatsUserTagline">Vendedor</h3>
                                                 <span class="userStatus">I will back soon.</span>
                                             </div>
                                         </div>
@@ -439,8 +442,8 @@
                                                 <img src="view/componentes/images/user2.jpg" alt="" class="img-fluid">
                                             </div>
                                             <div class="chatsUsercontent">
-                                                <h2 class="chatsUserName">Harry</h2>
-                                                <h3 class="chatsUserTagline">Sales</h3>
+                                                <h2 class="chatsUserName">Mauricio</h2>
+                                                <h3 class="chatsUserTagline">Vendedor</h3>
                                                 <span class="userStatus">I will back soon.</span>
                                             </div>
                                         </div>
@@ -451,8 +454,8 @@
                                                 <img src="view/componentes/images/user3.jpg" alt="" class="img-fluid">
                                             </div>
                                             <div class="chatsUsercontent">
-                                                <h2 class="chatsUserName">George</h2>
-                                                <h3 class="chatsUserTagline">Billing</h3>
+                                                <h2 class="chatsUserName">Nicolás</h2>
+                                                <h3 class="chatsUserTagline">Vendedor</h3>
                                                 <span class="userStatus">I will back soon.</span>
                                             </div>
                                         </div>
@@ -469,8 +472,8 @@
                                 <span class="fas fa-times"></span>
                             </a>
                         </div>
-                        <h2 class="chatsPopup-title">Need Help? Chat with us</h2>
-                        <h2 class="chatsPopup-tagline">Click one of our representatives below</h2>
+                        <h2 class="chatsPopup-title">¿Necesitas ayuda? <br>habla con nosotros</h2>
+                        <h2 class="chatsPopup-tagline">Haga clic en uno de nuestros representantes a continuación</h2>
                     </div>
                     <div class="chatsPopup-body">
                         <div class="chatsPopupContent">
@@ -482,8 +485,8 @@
                                                 <img src="view/componentes/images/user1.jpg" alt="" class="img-fluid">
                                             </div>
                                             <div class="chatsUsercontent">
-                                                <h2 class="chatsUserName">Bobby</h2>
-                                                <h3 class="chatsUserTagline">Support</h3>
+                                                <h2 class="chatsUserName">Barbara</h2>
+                                                <h3 class="chatsUserTagline">Vendedor</h3>
                                                 <span class="userStatus">I will back soon.</span>
                                             </div>
                                         </div>
@@ -494,8 +497,8 @@
                                                 <img src="view/componentes/images/user2.jpg" alt="" class="img-fluid">
                                             </div>
                                             <div class="chatsUsercontent">
-                                                <h2 class="chatsUserName">Harry</h2>
-                                                <h3 class="chatsUserTagline">Sales</h3>
+                                                <h2 class="chatsUserName">Mauricio</h2>
+                                                <h3 class="chatsUserTagline">Vendedor</h3>
                                                 <span class="userStatus">I will back soon.</span>
                                             </div>
                                         </div>
@@ -506,8 +509,8 @@
                                                 <img src="view/componentes/images/user3.jpg" alt="" class="img-fluid">
                                             </div>
                                             <div class="chatsUsercontent">
-                                                <h2 class="chatsUserName">George</h2>
-                                                <h3 class="chatsUserTagline">Billing</h3>
+                                                <h2 class="chatsUserName">Nicolás</h2>
+                                                <h3 class="chatsUserTagline">Vendedor</h3>
                                                 <span class="userStatus">I will back soon.</span>
                                             </div>
                                         </div>
@@ -519,8 +522,6 @@
                 </div>
             </div>
         </div>
-        <!-- Termino Div chat -->
-
     </div>
 
 
@@ -541,9 +542,3 @@
 </body>
 
 </html>
-
-<!-- 
-    <a class="btnWhatsapp" href="https://api.whatsapp.com/send?phone=56958053609&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20parcelas." target="_blank">
-        <i class="fa fa-whatsapp my-float"></i>
-    </a>
--->

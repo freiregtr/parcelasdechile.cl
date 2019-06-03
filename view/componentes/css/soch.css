@@ -2,11 +2,12 @@
 
 #sochSection{
 	position: fixed;
-	bottom: 20px;
-	right: 20px;
+	bottom: 40px;
+	right: 40px;
 	width: 220px;
 	height: 50px;
-	text-align: right
+	text-align: right;
+    z-index: 10;
 }
 
 
@@ -21,7 +22,7 @@
 	position: relative;
 	overflow: hidden;
 	color: #fff;
-	z-index: 100000;
+	z-index: 1;
 	background-color: #42b1a8;
 	display: inline-block;
 	vertical-align: middle;

@@ -21437,7 +21437,7 @@ fieldset[disabled] .btn-white {
 }
 
 .thumbnail {
-  position: relative;
+  position: absolute;
   padding: 0;
   margin: 0;
   border: none;
@@ -21591,7 +21591,7 @@ fieldset[disabled] .btn-white {
   left: 0;
   background: linear-gradient(to bottom, rgba(11, 25, 35, 0) 0%, #0b1923 100%);
   opacity: 1;
-  z-index: 1;
+  z-index: 3;
   transition: .3s;
   pointer-events: none;
 }
@@ -21610,7 +21610,7 @@ fieldset[disabled] .btn-white {
     right: 0;
     padding: 50px;
     background-color: transparent;
-    z-index: 1;
+    z-index: 3;
     transform: translateY(60px);
     transition: .3s;
   }
@@ -21677,7 +21677,7 @@ fieldset[disabled] .btn-white {
   font-family: "Material Design Icons";
   opacity: 0;
   transition: .3s;
-  z-index: 1;
+  z-index: 3;
 }
 
 .thumbnail-variant-2:before {
@@ -21689,7 +21689,7 @@ fieldset[disabled] .btn-white {
   left: 0;
   background: linear-gradient(to bottom, rgba(11, 25, 35, 0) 0%, #0b1923 100%);
   opacity: 0;
-  z-index: 1;
+  z-index: 3;
   transition: 333ms all;
 }
 
@@ -30530,25 +30530,35 @@ ol ol {
 * @license      MIT license - http://opensource.org/licenses/MIT
 * @version      1.0.0
 */
+
+.ocultar{
+    color: transparent;
+}
+#ui-to-top {
+    position: fixed;
+ 
+}
 .ui-to-top {
-  width: 56px;
-  height: 56px;
+  width: 50px;
+  height: 50px;
   font-size: 32px;
-  line-height: 54px;
+  line-height: 50px;
   color: #FFF;
   background: #0a1923;
   border-radius: 50%;
-  position: fixed;
-  right: 15px;
-  bottom: 15px;
+  position: relative;
+  bottom: 700px;
+  left: 40px;
   overflow: hidden;
   text-align: center;
   text-decoration: none;
-  z-index: 20;
+  z-index: 11;
   transition: .3s all ease;
   -webkit-transform: translateY(100px);
   transform: translateY(100px);
 }
+
+
 
 .ui-to-top:focus {
   color: #fff;
@@ -33243,9 +33253,4 @@ html.tablet .slick-slider .slick-next {
 .progress-bar-secondary-4 .progress-bar__trail {
   stroke: rgba(136, 146, 152, 0.05);
 }
-
-/*========================================
-          btn whatsapp
-========================================*/
-
 
