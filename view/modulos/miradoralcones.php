@@ -112,14 +112,14 @@
                             <!-- Slick Carousel-->
                             <div data-photo-swipe-gallery="gallery" data-arrows="true" data-loop="false" data-dots="false" data-swipe="true" data-items="1" class="slick-slider">
 
-                                <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/Proyectos/mirador_alcones/1.jpg" class="thumbnail-variant-2"><img src="view/componentes/img/Proyectos/mirador_alcones/1.jpg" alt="Volantin de la quebrada" width="886" height="520" class="img-responsive"></a></div>
+                                <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/proyectos/mirador_alcones/1.jpg" class="thumbnail-variant-2"><img src="view/componentes/img/proyectos/mirador_alcones/1.jpg" alt="Volantin de la quebrada" width="886" height="520" class="img-responsive"></a></div>
 
-                                <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/Proyectos/mirador_alcones/2.jpg" class="thumbnail-variant-2"><img src="view/componentes/img/Proyectos/mirador_alcones/2.jpg" alt="Volantin de la quebrada" width="886" height="520" class="img-responsive"></a></div>
+                                <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/proyectos/mirador_alcones/2.jpg" class="thumbnail-variant-2"><img src="view/componentes/img/proyectos/mirador_alcones/2.jpg" alt="Volantin de la quebrada" width="886" height="520" class="img-responsive"></a></div>
 
 
-                                <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/Proyectos/mirador_alcones/4.jpg" class="thumbnail-variant-2"><img src="view/componentes/img/Proyectos/mirador_alcones/4.jpg" alt="Volantin de la quebrada" width="886" height="520" class="img-responsive"></a></div>
+                                <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/Proyectos/mirador_alcones/4.jpg" class="thumbnail-variant-2"><img src="view/componentes/img/proyectos/mirador_alcones/4.jpg" alt="Volantin de la quebrada" width="886" height="520" class="img-responsive"></a></div>
 
-                                <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/Proyectos/mirador_alcones/5.jpg" class="thumbnail-variant-2"><img src="view/componentes/img/Proyectos/mirador_alcones/5.jpg" alt="Volantin de la quebrada" width="886" height="520" class="img-responsive"></a></div>
+                                <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/proyectos/mirador_alcones/5.jpg" class="thumbnail-variant-2"><img src="view/componentes/img/proyectos/mirador_alcones/5.jpg" alt="Volantin de la quebrada" width="886" height="520" class="img-responsive"></a></div>
 
 
                             </div>
@@ -127,14 +127,14 @@
                             <p class="offset-top-40 text-bold text-base">" Por qué tenemos el país más lindo del mundo, creemos que
                                 deberías elegir Parcelas de Chile."</p>
 
-                            <p class="offset-top-20">Una de las maravillas que podemos encontrar en la zona del Lago Chapo es
-                                Disfrutar navegando con la hermosa vista del Volcán Calbuco, y si eres de las personas que ama la naturaleza deberías recorrer los senderos de la Reserva Nacional Llanquihue, una de las más lindas de Chile.</p>
+                            <p class="offset-top-20">Marchihue en la Provincia de Cardenal Caro (Región del Libertador General Bernardo O'Higgins) es un lugar en Chile a 86 millas (o 138 km) al suroeste de Santiago.</p>
+                            <p>Con alrededor de 7.557 habitantes, Marchigüe se dedica fundamentalmente a las actividades agrícolas, ganaderas y silvícolas, destacando las numerosos viñedos como la Viña Montes, Concha y Toro, La Estampa, entre otras.</p>
                             <hr>
                             <h2 class="offset-top-50">Parcelación</h2>
 
                             <p>Loteo por parcela y valores</p>
 
-                            <img src="view/componentes/img/Proyectos/Lago_Chapo/plano/plano_Mesa%20de%20trabajo%201.png" width="886" height="520" alt="lago chapo" class="img-responsive center-block offset-top-40">
+                            <img src="view/componentes/img/Proyectos/mirador_alcones/plano/plano.png" width="886" height="520" alt="volantin de la quebrada" class="img-responsive center-block offset-top-40">
                             <hr>
                             <h2 class="offset-top-50">Tour 360º </h2>
                             <p>Navega por la parcelación con tu mouse</p>

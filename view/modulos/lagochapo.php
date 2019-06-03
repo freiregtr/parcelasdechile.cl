@@ -134,7 +134,7 @@
 
                             <p>Loteo por parcela y valores</p>
 
-                            <img src="view/componentes/img/proyectos/lago_chapo/plano/plano_Mesa%20de%20trabajo%201.png" width="886" height="520" alt="lago chapo" class="img-responsive center-block offset-top-40">
+                            <img src="view/componentes/img/proyectos/lago_chapo/plano/plano.png" width="886" height="520" alt="lago chapo" class="img-responsive center-block offset-top-40">
 
                             <hr>
                             <h2 class="offset-top-50">Tour 360º </h2>
