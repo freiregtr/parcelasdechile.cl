@@ -1,0 +1,295 @@
+/* Main Css */
+
+#sochSection{
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	width: 220px;
+	height: 50px;
+	text-align: right
+}
+
+
+/* Common Icon Css */
+.myIcon{
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	font-size: 20px;
+	text-align: center;
+	border-radius: 50%;
+	position: relative;
+	overflow: hidden;
+	color: #fff;
+	z-index: 100000;
+	background-color: #42b1a8;
+	display: inline-block;
+	vertical-align: middle;
+	cursor: pointer;
+}
+.myIcon:before{
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	display: block;
+	background-color: rgba(0,0,0,0.2);
+	z-index: -1;
+	top: 0;
+	left: 0;
+	transform: translate(-100%, -100%);
+}
+
+/* Icons Animation */
+.myIcon:hover:before{
+	animation: chatIconBefore 0.5s linear 0s;
+}
+
+@-webkit-keyframes chatIconBefore {
+	from{ transform: translate(-100%,-100%); }
+	to{ transform: translate(100%,100%); }
+}
+@-moz-keyframes chatIconBefore {
+	from{ transform: translate(-100%,-100%); }
+	to{ transform: translate(100%,100%); }
+}
+@-ms-keyframes chatIconBefore {
+	from{ transform: translate(-100%,-100%); }
+	to{ transform: translate(100%,100%); }
+}
+@-o-keyframes chatIconBefore {
+	from{ transform: translate(-100%,-100%); }
+	to{ transform: translate(100%,100%); }
+}
+@keyframes chatIconBefore {
+	from{ transform: translate(-100%,-100%); }
+	to{ transform: translate(100%,100%); }
+}
+
+
+/* Chat Icons */
+.chatIcons{
+	position: absolute;
+	left: 0;
+	top: 50%;
+	transform: translate(50%,-50%);
+	opacity: 0;
+	visibility: hidden;
+	width: calc(100% - 50px);
+	padding: 5px;
+	text-align: center;
+	border-radius: 3px;
+	transition: all 0.5s;
+}
+.chatIcons.showIcons{
+	transform: translate(0%,-50%);
+	opacity: 1;
+	visibility: visible;
+}
+
+.chatIcons .myIcon{
+	margin-right: 10px;
+	width: 35px;
+	height: 35px;
+	line-height: 35px;
+	font-size: 16px;
+}
+
+
+
+.chatIcons .myIcons:last-child{
+	margin-right: 0
+}
+
+/* Chats Popup */
+
+.chatsPopup {
+    width: 280px;
+    border-radius: 10px;
+    overflow: hidden;
+    position: absolute;
+    bottom: calc(100% + 20px);
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.3);
+    right: 0;
+    transform: scale(0.7);
+    opacity: 0;
+    visibility: hidden;
+    text-align: left;
+}
+
+.chatsPopup.showPopup {
+    transform: scale(1);
+    opacity: 1;
+    visibility: visible;
+    transition: all 0.5s;
+}
+
+.chatsPopup .chatsPopup-header {
+    background-color: #000000;
+    padding: 25px 15px 20px;
+    text-align: center;
+    color: #fff;
+}
+
+.chatsPopup .chatsPopup-header .closePopup {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.chatsPopup .chatsPopup-header .closePopup a {
+    font-size: 16px;
+    color: #fff;
+}
+
+.chatsPopup .chatsPopup-header .chatsPopup-title {
+    font-size: 16px;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+.chatsPopup .chatsPopup-header .chatsPopup-tagline {
+    font-size: 12px;
+    margin-bottom: 0;
+}
+
+.chatsPopup .chatsPopup-body {
+    background-color: #fff;
+    padding: 10px;
+}
+
+.chatsPopup .chatsPopup-body .chatsPopupContent .chatsPopupList ul li {
+    margin-bottom: 10px;
+}
+
+.chatsPopup .chatsPopup-body .chatsPopupContent .chatsPopupList ul li:last-child {
+    margin-bottom: 0
+}
+
+.chatsPopup .chatsPopup-body .chatsPopupContent .chatsPopupList ul li .chats-button {
+    background-color: rgba(0, 0, 0, 0.08);
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.chatsPopup .chatsPopup-body .chatsPopupContent .chatsPopupList ul li .chats-button[data-available] {
+    cursor: pointer;
+}
+
+.chatsPopup .chatsPopup-body .chatsPopupContent .chatsPopupList ul li .chats-button div {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.chatsPopup .chatsPopup-body .chatsPopupContent .chatsPopupList ul li .chats-button .chatsUserImg {
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.chatsPopup .chatsPopup-body .chatsPopupContent .chatsPopupList ul li .chats-button .chatsUsercontent .chatsUserName {
+    font-size: 16px;
+    color: #383838;
+    margin-bottom: 2px;
+}
+
+.chatsPopup .chatsPopup-body .chatsPopupContent .chatsPopupList ul li .chats-button .chatsUsercontent .chatsUserTagline {
+    font-size: 12px;
+    margin-bottom: 0;
+    color: #8c8c8c;
+}
+
+.chatsPopup .chatsPopup-body .chatsPopupContent .chatsPopupList ul li .chats-button .chatsUsercontent .userStatus {
+    font-size: 10px;
+    padding: 2px 8px;
+    color: #fff;
+    display: inline-block;
+    border-radius: 15px;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.chatsPopup .chatsPopup-body .chatsPopupContent .chatsPopupList ul .active .chats-button .chatsUsercontent .userStatus {
+    background-color: #26C281;
+}
+
+.chatsPopup .chatsPopup-body .chatsPopupContent .chatsPopupList ul .offline .chats-button .chatsUsercontent .userStatus {
+    background-color: #f1a528;
+}
+
+
+
+/* Skype Icon */
+#skypeIcon{
+    background-color: #00aff0;
+}
+
+/* Start Skype Popup */
+
+#skypePopup {
+    box-shadow: 0px 0px 20px 0px rgba(0, 175, 240, 0.3);
+}
+
+#skypePopup .chatsPopup-header {
+    background-color: #00aff0;
+}
+#skypePopup .chatsPopup-body .chatsPopupContent .chatsPopupList ul li .chats-button {
+    background-color: rgba(0, 175, 240, 0.08);
+}
+
+/* End Skype Popup */
+
+
+
+/* Whatsapp Icon */
+#whatsappIcon{
+    background-color: #1bd741;
+}
+
+/* Start Whatsapp Popup */
+#whatsappPopup {
+    box-shadow: 0px 0px 20px 0px rgba(27, 215, 65, 0.3);
+}
+
+#whatsappPopup .chatsPopup-header {
+    background-color: #1bd741;
+}
+#whatsappPopup .chatsPopup-body .chatsPopupContent .chatsPopupList ul li .chats-button {
+    background-color: rgba(27, 215, 65, 0.08);
+}
+
+/* End Whatsapp Popup */
+
+
+/* Messenger Icon */
+#messengerIcon{
+    background-color: #0084FF;
+}
+
+/* Start Messenger Popup */
+#messengerPopup {
+    box-shadow: 0px 0px 20px 0px rgba(0,132,255, 0.3);
+}
+
+#messengerPopup .chatsPopup-header {
+    background-color: #0084FF;
+}
+#messengerPopup .chatsPopup-body .chatsPopupContent .chatsPopupList ul li .chats-button {
+    background-color: rgba(0,132,255, 0.08);
+}
+
+/* End Messenger Popup */
+
+
+/* User Offline Css */
+.chatsPopup .chatsPopup-body .chatsPopupContent .chatsPopupList ul li.offline .chats-button{
+    cursor: auto;
+    background-color: rgb(246, 246, 246) !important;
+}
+.chatsPopup .chatsPopup-body .chatsPopupContent .chatsPopupList ul li.offline .chats-button .chatsUserImg{
+    filter: grayscale(1);
+}

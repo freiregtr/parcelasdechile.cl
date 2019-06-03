@@ -8,12 +8,21 @@
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
+    <!-- Favicon -->
     <link rel="icon" href="zimages/favicon.ico" type="image/x-icon">
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <!-- manifiesto -->
     <link rel="manifest" href="/site.webmanifest">
-
+    <!-- Bootstrap Css -->
+    <!-- <link rel="stylesheet" href="assets/css/bootstrap.min.css"> -->
+    <!-- Font Awesome Css -->
+    <link rel="stylesheet" href="view/componentes/css/font-awesome.min.css">
+    <!-- Normalize Css -->
+    <link rel="stylesheet" href="view/componentes/css/normalize.css">
+    <!-- Main Css -->
+    <link rel="stylesheet" href="view/componentes/css/soch.css">
     <!-- UA Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-137903886-1"></script>
     <script>
@@ -328,14 +337,216 @@
         </div>
 
         <!-- btn whatsapp -->
-        <a href="https://api.whatsapp.com/send?phone=56958053609&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20parcelas." class="float" target="_blank">
-            <i class="fa fa-whatsapp my-float"></i>
-        </a>
 
-        <!-- javascript -->
-        <script src="view/componentes/js/core.min.js"></script>
-        <script src="view/componentes/js/script.js"></script>
+        <!-- Inicio Div chat -->
+        <div id="sochSection">
+            <div class="sochIcon myIcon">
+                <span class="fa fa-comment"></span>
+            </div>
+            <div class="chatIcons">
+                <div id="messengerIcon" class="myIcon" data-show="messengerPopup">
+                    <span class="fab fa-facebook-messenger"></span>
+                </div>
+                <div id="whatsappIcon" class="myIcon" data-show="whatsappPopup">
+                    <span class="fab fa-whatsapp"></span>
+                </div>
+                <div id="skypeIcon" class="myIcon" data-show="skypePopup">
+                    <span class="fab fa-skype"></span>
+                </div>
+            </div>
+            <div class="chatsPopupsBox">
+                <div id="skypePopup" class="chatsPopup">
+                    <div class="chatsPopup-header">
+                        <div class="closePopup">
+                            <a href="javascript:;">
+                                <span class="fas fa-times"></span>
+                            </a>
+                        </div>
+                        <h2 class="chatsPopup-title">Need Help? Chat with us</h2>
+                        <h2 class="chatsPopup-tagline">Click one of our representatives below</h2>
+                    </div>
+                    <div class="chatsPopup-body">
+                        <div class="chatsPopupContent">
+                            <div class="chatsPopupList">
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <div class="chats-button" data-skypename="Your-Skype-ID" data-available='{"monday":"00:00-23:59", "tuesday":"00:00-23:59", "wednesday":"00:00-23:59", "thursday":"00:00-23:59", "friday":"00:00-23:59","saturday": "00:00-23:59" }'>
+                                            <div class="chatsUserImg">
+                                                <img src="view/componentes/images/user1.jpg" alt="" class="img-fluid">
+                                            </div>
+                                            <div class="chatsUsercontent">
+                                                <h2 class="chatsUserName">Bobby</h2>
+                                                <h3 class="chatsUserTagline">Support</h3>
+                                                <span class="userStatus">I will back soon.</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="chats-button" data-skypename="Your-Skype-ID" data-available='{"monday":"01:00-22:59", "tuesday":"00:00-23:59", "wednesday":"00:00-23:59", "thursday":"00:00-23:59", "friday":"00:00-23:59","saturday": "00:00-23:59" }'>
+                                            <div class="chatsUserImg">
+                                                <img src="view/componentes/images/user2.jpg" alt="" class="img-fluid">
+                                            </div>
+                                            <div class="chatsUsercontent">
+                                                <h2 class="chatsUserName">Harry</h2>
+                                                <h3 class="chatsUserTagline">Sales</h3>
+                                                <span class="userStatus">I will back soon.</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="chats-button" data-skypename="Your-Skype-ID" data-available='{"sunday": "18:54-20:00","monday":"02:00-23:59", "tuesday":"00:00-23:59", "wednesday":"00:00-23:59", "thursday":"00:00-23:59", "friday":"00:00-23:59","saturday": "14:10-15:00" }'>
+                                            <div class="chatsUserImg">
+                                                <img src="view/componentes/images/user3.jpg" alt="" class="img-fluid">
+                                            </div>
+                                            <div class="chatsUsercontent">
+                                                <h2 class="chatsUserName">George</h2>
+                                                <h3 class="chatsUserTagline">Billing</h3>
+                                                <span class="userStatus">I will back soon.</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="whatsappPopup" class="chatsPopup">
+                    <div class="chatsPopup-header">
+                        <div class="closePopup">
+                            <a href="javascript:;">
+                                <span class="fas fa-times"></span>
+                            </a>
+                        </div>
+                        <h2 class="chatsPopup-title">Need Help? Chat with us</h2>
+                        <h2 class="chatsPopup-tagline">Click one of our representatives below</h2>
+                    </div>
+                    <div class="chatsPopup-body">
+                        <div class="chatsPopupContent">
+                            <div class="chatsPopupList">
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <div class="chats-button" data-contact="Your-whatsapp-number" data-available='{"monday":"00:00-23:59", "tuesday":"00:00-23:59", "wednesday":"00:00-23:59", "thursday":"00:00-23:59", "friday":"00:00-23:59","saturday": "00:00-23:59" }'>
+                                            <div class="chatsUserImg">
+                                                <img src="view/componentes/images/user1.jpg" alt="" class="img-fluid">
+                                            </div>
+                                            <div class="chatsUsercontent">
+                                                <h2 class="chatsUserName">Bobby</h2>
+                                                <h3 class="chatsUserTagline">Support</h3>
+                                                <span class="userStatus">I will back soon.</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="chats-button" data-contact="Your-whatsapp-number" data-available='{"monday":"00:00-23:59", "tuesday":"00:00-23:59", "wednesday":"00:00-23:59", "thursday":"00:00-23:59", "friday":"00:00-23:59","saturday": "00:00-23:59" }'>
+                                            <div class="chatsUserImg">
+                                                <img src="view/componentes/images/user2.jpg" alt="" class="img-fluid">
+                                            </div>
+                                            <div class="chatsUsercontent">
+                                                <h2 class="chatsUserName">Harry</h2>
+                                                <h3 class="chatsUserTagline">Sales</h3>
+                                                <span class="userStatus">I will back soon.</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="chats-button" data-contact="Your-whatsapp-number" data-available='{"monday":"00:00-23:59", "tuesday":"00:00-23:59", "wednesday":"00:00-23:59", "thursday":"00:00-23:59", "friday":"00:00-23:59","saturday": "00:00-23:59" }'>
+                                            <div class="chatsUserImg">
+                                                <img src="view/componentes/images/user3.jpg" alt="" class="img-fluid">
+                                            </div>
+                                            <div class="chatsUsercontent">
+                                                <h2 class="chatsUserName">George</h2>
+                                                <h3 class="chatsUserTagline">Billing</h3>
+                                                <span class="userStatus">I will back soon.</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="messengerPopup" class="chatsPopup">
+                    <div class="chatsPopup-header">
+                        <div class="closePopup">
+                            <a href="javascript:;">
+                                <span class="fas fa-times"></span>
+                            </a>
+                        </div>
+                        <h2 class="chatsPopup-title">Need Help? Chat with us</h2>
+                        <h2 class="chatsPopup-tagline">Click one of our representatives below</h2>
+                    </div>
+                    <div class="chatsPopup-body">
+                        <div class="chatsPopupContent">
+                            <div class="chatsPopupList">
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <div class="chats-button" data-username="Your-FB-Username" data-available='{"monday":"00:00-23:59", "tuesday":"00:00-23:59", "wednesday":"00:00-23:59", "thursday":"00:00-23:59", "friday":"00:00-23:59","saturday": "00:00-23:59" }'>
+                                            <div class="chatsUserImg">
+                                                <img src="view/componentes/images/user1.jpg" alt="" class="img-fluid">
+                                            </div>
+                                            <div class="chatsUsercontent">
+                                                <h2 class="chatsUserName">Bobby</h2>
+                                                <h3 class="chatsUserTagline">Support</h3>
+                                                <span class="userStatus">I will back soon.</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="chats-button" data-username="Your-FB-Username" data-available='{"monday":"00:00-23:59", "tuesday":"00:00-23:59", "wednesday":"00:00-23:59", "thursday":"00:00-23:59", "friday":"00:00-23:59","saturday": "00:00-23:59" }'>
+                                            <div class="chatsUserImg">
+                                                <img src="view/componentes/images/user2.jpg" alt="" class="img-fluid">
+                                            </div>
+                                            <div class="chatsUsercontent">
+                                                <h2 class="chatsUserName">Harry</h2>
+                                                <h3 class="chatsUserTagline">Sales</h3>
+                                                <span class="userStatus">I will back soon.</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="chats-button" data-username="Your-FB-Username" data-available='{"monday":"00:00-23:59", "tuesday":"00:00-23:59", "wednesday":"00:00-23:59", "thursday":"00:00-23:59", "friday":"00:00-23:59","saturday": "00:00-23:59" }'>
+                                            <div class="chatsUserImg">
+                                                <img src="view/componentes/images/user3.jpg" alt="" class="img-fluid">
+                                            </div>
+                                            <div class="chatsUsercontent">
+                                                <h2 class="chatsUserName">George</h2>
+                                                <h3 class="chatsUserTagline">Billing</h3>
+                                                <span class="userStatus">I will back soon.</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Termino Div chat -->
+
     </div>
+
+
+
+    <!-- javascript -->
+    <script src="view/componentes/js/core.min.js"></script>
+    <script src="view/componentes/js/script.js"></script>
+    <!-- Jquery Js -->
+    <!-- <script src="assets/js/jquery.min.js"></script> -->
+    <!-- Skype Chat Js -->
+    <script src="view/componentes/plugin-chat/skypeChat.js"></script>
+    <!-- Whatsapp Chat Js -->
+    <script src="view/componentes/plugin-chat/whatsappChat.js"></script>
+    <!-- Messenger Chat Js -->
+    <script src="view/componentes/plugin-chat/messengerChat.js"></script>
+    <!-- Main Js -->
+    <script src="view/componentes/plugin-chat/main.js"></script>
 </body>
 
 </html>
+
+<!-- 
+    <a class="btnWhatsapp" href="https://api.whatsapp.com/send?phone=56958053609&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20parcelas." target="_blank">
+        <i class="fa fa-whatsapp my-float"></i>
+    </a>
+-->
