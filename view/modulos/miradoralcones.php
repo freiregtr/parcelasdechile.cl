@@ -106,8 +106,7 @@
                         <div class="cell-md-8">
                             <div><a href="#" class="label label-primary">VI Región</a></div>
                             <h2 class="offset-top-50">Volantín de la Quebrada</h2>
-                            <br>
-                            <p>La Quebrada</p>
+                      
                             <br>
                             <!-- Slick Carousel-->
                             <div data-photo-swipe-gallery="gallery" data-arrows="true" data-loop="false" data-dots="false" data-swipe="true" data-items="1" class="slick-slider">
@@ -130,9 +129,12 @@
                             <p class="offset-top-20">Marchihue en la Provincia de Cardenal Caro (Región del Libertador General Bernardo O'Higgins) es un lugar en Chile a 86 millas (o 138 km) al suroeste de Santiago.</p>
                             <p>Con alrededor de 7.557 habitantes, Marchigüe se dedica fundamentalmente a las actividades agrícolas, ganaderas y silvícolas, destacando las numerosos viñedos como la Viña Montes, Concha y Toro, La Estampa, entre otras.</p>
                             <hr>
+                            <h2 class="offset-top-50">Carpeta de venta</h2>
+                            
+                            <iframe src="https://cdn.flipsnack.com/widget/v2/widget.html?hash=fdzuluk7e" width="100%" height="480" seamless="seamless" scrolling="no" frameBorder="0" allowFullScreen></iframe>
+                            <hr>
                             <h2 class="offset-top-50">Parcelación</h2>
 
-                            <p>Loteo por parcela y valores</p>
 
                             <img src="view/componentes/img/Proyectos/mirador_alcones/plano/plano.png" width="886" height="520" alt="volantin de la quebrada" class="img-responsive center-block offset-top-40">
                             <hr>
@@ -254,11 +256,9 @@
                                         </div>
 
                                     </div>
-
                                     <div class="cell-md-12 offset-top-50">
                                         <hr>
                                     </div>
-
                                     <div class="cell-md-12 offset-top-40">
                                         <!-- RD Calendar-->
                                         <div class="rd-calendar">
@@ -272,18 +272,12 @@
                                             </div>
                                         </div>
                                     </div>
-
                                 </div>
-
                             </aside>
-
                         </div>
-
                     </div>
                 </div>
-
             </section>
-
         </main>
 
         <!-- Page Footer-->
@@ -358,7 +352,7 @@
                     </div>
 
                     <div class="cell-sm-6 text-sm-left offset-top-20 offset-sm-top-0">
-                        <p class="small">Parcelas de Chile &#169;<span id="copyright-year"></span>. <a href="privacy.html" class="text-gray">Privacy Policy</a>
+                        <p class="small">Parcelas de Chile &#169;<span id="copyright-year"></span>
                         </p>
                     </div>
 
