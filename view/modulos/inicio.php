@@ -341,7 +341,7 @@
         <!-- Inicio Div chat -->
         <div id="sochSection">
             <div class="sochIcon myIcon">
-                <span class="fa fa-comment"></span>
+                <span class="fa fa-whatsapp"></span>
             </div>
             <div class="chatIcons">
                 <div id="messengerIcon" class="myIcon" data-show="messengerPopup">
