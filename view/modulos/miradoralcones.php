@@ -418,7 +418,7 @@
                     </div>
                     <div class="modal-body">
                         <div>
-                            <form data-form-output="form-output-global" data-form-type="subscribe" method="post" action="bat/rd-mailform.php" class="form-inline-custom-sm rd-mailform text-center">
+                            <form data-form-output="form-output-global" data-form-type="subscribe" method="post" action="view/componentes/bat/rd-mailform.php" class="form-inline-custom-sm rd-mailform text-center">
                                 <div class="form-group">
                                     <label for="sub-email" class="form-label">Ingrese su mail</label>
                                     <input id="sub-email" type="email" name="email" data-constraints="@Email @Required" class="form-control">
