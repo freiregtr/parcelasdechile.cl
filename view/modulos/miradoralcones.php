@@ -106,12 +106,12 @@
                         <div class="cell-md-8">
                             <div><a href="#" class="label label-primary">VI Región</a></div>
                             <h2 class="offset-top-50">Volantín de la Quebrada
-                            <br>"Venta en verde"</h2>
-                      
+                                <br>"Venta en verde"</h2>
+
                             <br>
                             <!-- Slick Carousel-->
                             <div data-photo-swipe-gallery="gallery" data-arrows="true" data-loop="false" data-dots="false" data-swipe="true" data-items="1" class="slick-slider">
-                                
+
                                 <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/proyectos/mirador_alcones/malcones.jpg" class="thumbnail-variant-2"><img src="view/componentes/img/proyectos/mirador_alcones/malcones.jpg" alt="Volantin de la quebrada" width="886" height="520" class="img-responsive"></a></div>
 
                                 <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/proyectos/mirador_alcones/1.jpg" class="thumbnail-variant-2"><img src="view/componentes/img/proyectos/mirador_alcones/1.jpg" alt="Volantin de la quebrada" width="886" height="520" class="img-responsive"></a></div>
@@ -133,7 +133,7 @@
                             <p>Con alrededor de 7.557 habitantes, Marchigüe se dedica fundamentalmente a las actividades agrícolas, ganaderas y silvícolas, destacando las numerosos viñedos como la Viña Montes, Concha y Toro, La Estampa, entre otras.</p>
                             <hr>
                             <h2 class="offset-top-50">Carpeta de venta</h2>
-                            
+
                             <iframe src="https://cdn.flipsnack.com/widget/v2/widget.html?hash=fdzuluk7e" width="100%" height="480" seamless="seamless" scrolling="no" frameBorder="0" allowFullScreen></iframe>
                             <hr>
                             <h2 class="offset-top-50">Parcelación <br>"Valores venta en verde"</h2>
@@ -406,6 +406,30 @@
         <a href="https://api.whatsapp.com/send?phone=56958053609&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20parcelas." class="float" target="_blank">
             <i class="fa fa-whatsapp my-float"></i>
         </a>
+
+
+
+        <div id="registerModal" role="dialog" class="modal fade">
+            <div class="modal-dialog modal-lg">
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-head">
+                        <h4>Subscribete para recibir noticias sobre este nuevo proyecto</h4>
+                    </div>
+                    <div class="modal-body">
+                        <div>
+                            <form data-form-output="form-output-global" data-form-type="subscribe" method="post" action="bat/rd-mailform.php" class="form-inline-custom-sm rd-mailform text-center">
+                                <div class="form-group">
+                                    <label for="sub-email" class="form-label">Ingrese su mail</label>
+                                    <input id="sub-email" type="email" name="email" data-constraints="@Email @Required" class="form-control">
+                                </div>
+                                <button class="btn btn-base-variant-1">Subscribirme</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
         <!-- javascript -->
         <script src="view/componentes/js/core.min.js"></script>

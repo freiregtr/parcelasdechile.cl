@@ -1,6 +1,6 @@
 <?php
 
-$recipients = 'test@demolink.com';
+$recipients = 'mailleads@parcelasdechile.cl';
 
 try {
     require './phpmailer/PHPMailerAutoload.php';
@@ -23,7 +23,7 @@ try {
                 $subject = 'A message from your site visitor';
                 break;
             case 'subscribe':
-                $subject = 'Subscribe request';
+                $subject = 'Suscripcion';
                 break;
             case 'order':
                 $subject = 'Order request';

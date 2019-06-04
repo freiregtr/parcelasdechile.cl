@@ -3,65 +3,65 @@
  */
 "use strict";
 
+
 var userAgent = navigator.userAgent.toLowerCase(),
-    initialDate = new Date(),
+  initialDate = new Date(),
 
-    $document = $(document),
-    $window = $(window),
-    $html = $("html"),
+  $document = $(document),
+  $window = $(window),
+  $html = $("html"),
 
-    isDesktop = $html.hasClass("desktop"),
-    isIE = userAgent.indexOf("msie") != -1 ? parseInt(userAgent.split("msie")[1]) : userAgent.indexOf("trident") != -1 ? 11 : userAgent.indexOf("edge") != -1 ? 12 : false,
-    isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent),
-    isTouch = "ontouchstart" in window,
+  isDesktop = $html.hasClass("desktop"),
+  isIE = userAgent.indexOf("msie") != -1 ? parseInt(userAgent.split("msie")[1]) : userAgent.indexOf("trident") != -1 ? 11 : userAgent.indexOf("edge") != -1 ? 12 : false,
+  isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent),
+  isTouch = "ontouchstart" in window,
 
-    plugins = {
-      pointerEvents: isIE < 11 ? "js/pointer-events.min.js" : false,
-      bootstrapTooltip: $("[data-toggle='tooltip']"),
-      bootstrapModalDialog: $('.modal'),
-      bootstrapTabs: $(".tabs"),
-      rdNavbar: $(".rd-navbar"),
-      rdParallax: $(".rd-parallax"),
-      selectFilter: $("select"),
-      rdGoogleMaps: $(".rd-google-map"),
-      rdMailForm: $(".rd-mailform"),
-      slick: $('.slick-slider'),
-      stepper: $("input[type='number']"),
-      progressBar: $(".progress-bar-js"),
-      progressLinear: $(".progress-linear"),
-      counter: $(".counter"),
-      rdInputLabel: $(".form-label"),
-      regula: $("[data-constraints]"),
-      countDown: $(".countdown"),
-      responsiveTabs: $(".responsive-tabs"),
-      owl: $(".owl-carousel"),
-      calendar: $('.rd-calendar'),
-      swiper: $(".swiper-slider"),
-      search: $(".rd-search"),
-      searchResults: $('.rd-search-results'),
-      statefulButton: $('.btn-stateful'),
-      isotope: $(".isotope"),
-      popover: $('[data-toggle="popover"]'),
-      viewAnimate: $('.view-animate'),
-      photoSwipeGallery: $("[data-photo-swipe-item]"),
-      radio: $("input[type='radio']"),
-      checkbox: $("input[type='checkbox']"),
-      customToggle: $("[data-custom-toggle]"),
-      facebookWidget: $('#fb-root'),
-    };
+  plugins = {
+    pointerEvents: isIE < 11 ? "js/pointer-events.min.js" : false,
+    bootstrapTooltip: $("[data-toggle='tooltip']"),
+    bootstrapModalDialog: $('.modal'),
+    bootstrapTabs: $(".tabs"),
+    rdNavbar: $(".rd-navbar"),
+    rdParallax: $(".rd-parallax"),
+    selectFilter: $("select"),
+    rdGoogleMaps: $(".rd-google-map"),
+    rdMailForm: $(".rd-mailform"),
+    slick: $('.slick-slider'),
+    stepper: $("input[type='number']"),
+    progressBar: $(".progress-bar-js"),
+    progressLinear: $(".progress-linear"),
+    counter: $(".counter"),
+    rdInputLabel: $(".form-label"),
+    regula: $("[data-constraints]"),
+    countDown: $(".countdown"),
+    responsiveTabs: $(".responsive-tabs"),
+    owl: $(".owl-carousel"),
+    calendar: $('.rd-calendar'),
+    swiper: $(".swiper-slider"),
+    search: $(".rd-search"),
+    searchResults: $('.rd-search-results'),
+    statefulButton: $('.btn-stateful'),
+    isotope: $(".isotope"),
+    popover: $('[data-toggle="popover"]'),
+    viewAnimate: $('.view-animate'),
+    photoSwipeGallery: $("[data-photo-swipe-item]"),
+    radio: $("input[type='radio']"),
+    checkbox: $("input[type='checkbox']"),
+    customToggle: $("[data-custom-toggle]"),
+    facebookWidget: $('#fb-root'),
+  };
 
 /**
  * Initialize All Scripts
  */
 $document.ready(function () {
-
   /**
    * getSwiperHeight
    * @description  calculate the height of swiper slider basing on data attr
    */
   function getSwiperHeight(object, attr) {
     var val = object.attr("data-" + attr),
-        dim;
+      dim;
 
     if (!val) {
       return undefined;
@@ -89,8 +89,8 @@ $document.ready(function () {
    */
   function toggleSwiperInnerVideos(swiper) {
     var prevSlide = $(swiper.slides[swiper.previousIndex]),
-        nextSlide = $(swiper.slides[swiper.activeIndex]),
-        videos;
+      nextSlide = $(swiper.slides[swiper.activeIndex]),
+      videos;
 
     prevSlide.find("video").each(function () {
       this.pause();
@@ -108,36 +108,36 @@ $document.ready(function () {
    */
   function toggleSwiperCaptionAnimation(swiper) {
     var prevSlide = $(swiper.container),
-        nextSlide = $(swiper.slides[swiper.activeIndex]);
+      nextSlide = $(swiper.slides[swiper.activeIndex]);
 
     prevSlide
-        .find("[data-caption-animate]")
-        .each(function () {
-          var $this = $(this);
-          $this
-              .removeClass("animated")
-              .removeClass($this.attr("data-caption-animate"))
-              .addClass("not-animated");
-        });
+      .find("[data-caption-animate]")
+      .each(function () {
+        var $this = $(this);
+        $this
+          .removeClass("animated")
+          .removeClass($this.attr("data-caption-animate"))
+          .addClass("not-animated");
+      });
 
     nextSlide
-        .find("[data-caption-animate]")
-        .each(function () {
-          var $this = $(this),
-              delay = $this.attr("data-caption-delay"),
-              duration = $this.attr('data-caption-duration');
+      .find("[data-caption-animate]")
+      .each(function () {
+        var $this = $(this),
+          delay = $this.attr("data-caption-delay"),
+          duration = $this.attr('data-caption-duration');
 
-          setTimeout(function () {
-            $this
-                .removeClass("not-animated")
-                .addClass($this.attr("data-caption-animate"))
-                .addClass("animated");
+        setTimeout(function () {
+          $this
+            .removeClass("not-animated")
+            .addClass($this.attr("data-caption-animate"))
+            .addClass("animated");
 
-            if (duration) {
-              $this.css('animation-duration', duration + 'ms');
-            }
-          }, delay ? parseInt(delay) : 0);
-        });
+          if (duration) {
+            $this.css('animation-duration', duration + 'ms');
+          }
+        }, delay ? parseInt(delay) : 0);
+      });
   }
 
   /**
@@ -156,12 +156,12 @@ $document.ready(function () {
 
       if (el.attr('data-fade') === 'true') {
         var bound = el[0].getBoundingClientRect(),
-            offsetTop = bound.top * 2 + scrollY,
-            sceneHeight = wrapper.outerHeight(),
-            sceneDevider = wrapper.offset().top + sceneHeight / 2.0,
-            layerDevider = offsetTop + el.outerHeight() / 2.0,
-            pos = sceneHeight / 6.0,
-            opacity;
+          offsetTop = bound.top * 2 + scrollY,
+          sceneHeight = wrapper.outerHeight(),
+          sceneDevider = wrapper.offset().top + sceneHeight / 2.0,
+          layerDevider = offsetTop + el.outerHeight() / 2.0,
+          pos = sceneHeight / 6.0,
+          opacity;
         if (sceneDevider + pos > layerDevider && sceneDevider - pos < layerDevider) {
           el[0].style["opacity"] = 1;
         } else {
@@ -247,28 +247,28 @@ $document.ready(function () {
     }
 
     elements
-        .on('input change propertychange blur', function (e) {
-          var $this = $(this), results;
+      .on('input change propertychange blur', function (e) {
+        var $this = $(this), results;
 
-          if (e.type != "blur") {
-            if (!$this.parent().hasClass("has-error")) {
-              return;
-            }
-          }
-
-          if ($this.parents('.rd-mailform').hasClass('success')) {
+        if (e.type != "blur") {
+          if (!$this.parent().hasClass("has-error")) {
             return;
           }
+        }
 
-          if ((results = $this.regula('validate')).length) {
-            for (i = 0; i < results.length; i++) {
-              $this.siblings(".form-validation").text(results[i].message).parent().addClass("has-error")
-            }
-          } else {
-            $this.siblings(".form-validation").text("").parent().removeClass("has-error")
+        if ($this.parents('.rd-mailform').hasClass('success')) {
+          return;
+        }
+
+        if ((results = $this.regula('validate')).length) {
+          for (i = 0; i < results.length; i++) {
+            $this.siblings(".form-validation").text(results[i].message).parent().addClass("has-error")
           }
-        })
-        .regula('bind');
+        } else {
+          $this.siblings(".form-validation").text("").parent().removeClass("has-error")
+        }
+      })
+      .regula('bind');
   }
 
   /**
@@ -335,10 +335,10 @@ $document.ready(function () {
     if (isIE < 11) {
       if (plugins.pointerEvents) {
         $.getScript(plugins.pointerEvents)
-            .done(function () {
-              $html.addClass("ie-10");
-              PointerEventsPolyfill.initialize({});
-            });
+          .done(function () {
+            $html.addClass("ie-10");
+            PointerEventsPolyfill.initialize({});
+          });
       }
     }
 
@@ -375,8 +375,8 @@ $document.ready(function () {
 
       modalItem.on('hidden.bs.modal', $.proxy(function () {
         var activeModal = $(this),
-            rdVideoInside = activeModal.find('video'),
-            youTubeVideoInside = activeModal.find('iframe');
+          rdVideoInside = activeModal.find('video'),
+          youTubeVideoInside = activeModal.find('iframe');
 
         if (rdVideoInside.length) {
           rdVideoInside[0].pause();
@@ -386,8 +386,8 @@ $document.ready(function () {
           var videoUrl = youTubeVideoInside.attr('src');
 
           youTubeVideoInside
-              .attr('src', '')
-              .attr('src', videoUrl);
+            .attr('src', '')
+            .attr('src', videoUrl);
         }
       }, modalItem))
     }
@@ -410,12 +410,12 @@ $document.ready(function () {
       //If have owl carousel inside tab - resize owl carousel on click
       if (responsiveTabsItem.find('.owl-carousel').length) {
         var respTabsArr = ['.resp-accordion', '.resp-tab-item'],
-            j;
+          j;
 
-        for(j = 0; j < respTabsArr.length; j++) {
+        for (j = 0; j < respTabsArr.length; j++) {
           responsiveTabsItem.find(respTabsArr[j].toString()).on('click', $.proxy(function (event) {
             var $this = $(this),
-                carouselObj = ($this.find('.resp-tab-content-active .owl-carousel').owlCarousel()).data('owlCarousel');
+              carouselObj = ($this.find('.resp-tab-content-active .owl-carousel').owlCarousel()).data('owlCarousel');
 
             if (carouselObj && typeof carouselObj.onResize === "function") {
               carouselObj.onResize();
@@ -539,8 +539,8 @@ $document.ready(function () {
    */
   if (plugins.progressBar.length) {
     var i,
-        bar,
-        type;
+      bar,
+      type;
 
     for (i = 0; i < plugins.progressBar.length; i++) {
       var progressItem = plugins.progressBar[i];
@@ -578,26 +578,26 @@ $document.ready(function () {
 
         if (progressItem.getAttribute("data-easing") && !isIE) {
           $(document)
-              .on("scroll", {"barItem": bar}, $.proxy(function (event) {
-                var bar = event.data.barItem;
-                var $this = $(this);
+            .on("scroll", { "barItem": bar }, $.proxy(function (event) {
+              var bar = event.data.barItem;
+              var $this = $(this);
 
-                if (isScrolledIntoView($this) && this.className.indexOf("progress-bar--animated") === -1) {
-                  this.className += " progress-bar--animated";
-                  bar.animate(parseInt($this.attr("data-value")) / 100.0, {
-                    easing: $this.attr("data-easing"),
-                    duration: $this.attr("data-duration") ? parseInt($this.attr("data-duration")) : 800,
-                    step: function (state, b) {
-                      if (b._container.className.indexOf("progress-bar-horizontal") > -1 ||
-                          b._container.className.indexOf("progress-bar-vertical") > -1) {
-                        b.text.style.width = Math.abs(b.value() * 100).toFixed(0) + "%"
-                      }
-                      b.setText(Math.abs(b.value() * 100).toFixed(0));
+              if (isScrolledIntoView($this) && this.className.indexOf("progress-bar--animated") === -1) {
+                this.className += " progress-bar--animated";
+                bar.animate(parseInt($this.attr("data-value")) / 100.0, {
+                  easing: $this.attr("data-easing"),
+                  duration: $this.attr("data-duration") ? parseInt($this.attr("data-duration")) : 800,
+                  step: function (state, b) {
+                    if (b._container.className.indexOf("progress-bar-horizontal") > -1 ||
+                      b._container.className.indexOf("progress-bar-vertical") > -1) {
+                      b.text.style.width = Math.abs(b.value() * 100).toFixed(0) + "%"
                     }
-                  });
-                }
-              }, progressItem))
-              .trigger("scroll");
+                    b.setText(Math.abs(b.value() * 100).toFixed(0));
+                  }
+                });
+              }
+            }, progressItem))
+            .trigger("scroll");
         } else {
           bar.set(parseInt($(progressItem).attr("data-value")) / 100.0);
           bar.setText($(progressItem).attr("data-value"));
@@ -622,20 +622,20 @@ $document.ready(function () {
     for (i = 0; i < plugins.progressLinear.length; i++) {
       var progressBar = $(plugins.progressLinear[i]);
       $window
-          .on("scroll load", $.proxy(function () {
-            var bar = $(this);
-            if (!bar.hasClass('animated-first') && isScrolledIntoView(bar)) {
-              var end = bar.attr("data-to");
-              bar.find('.progress-bar-linear').css({width: end + '%'});
-              bar.find('.progress-value').countTo({
-                refreshInterval: 40,
-                from: 0,
-                to: end,
-                speed: 500
-              });
-              bar.addClass('animated-first');
-            }
-          }, progressBar));
+        .on("scroll load", $.proxy(function () {
+          var bar = $(this);
+          if (!bar.hasClass('animated-first') && isScrolledIntoView(bar)) {
+            var end = bar.attr("data-to");
+            bar.find('.progress-bar-linear').css({ width: end + '%' });
+            bar.find('.progress-value').countTo({
+              refreshInterval: 40,
+              from: 0,
+              to: end,
+              speed: 500
+            });
+            bar.addClass('animated-first');
+          }
+        }, progressBar));
     }
   }
 
@@ -650,60 +650,60 @@ $document.ready(function () {
       var $slickItem = $(plugins.slick[i]);
 
       $slickItem.slick({
-            slidesToScroll: parseInt($slickItem.attr('data-slide-to-scroll')) || 1,
-            asNavFor: $slickItem.attr('data-for') || false,
-            dots: $slickItem.attr("data-dots") == "true",
-            infinite: $slickItem.attr("data-loop") == "true",
-            focusOnSelect: true,
-            arrows: $slickItem.attr("data-arrows") == "true",
-            swipe: $slickItem.attr("data-swipe") == "true",
-            autoplay: $slickItem.attr("data-autoplay") == "true",
-            vertical: $slickItem.attr("data-vertical") == "true",
-            centerMode: $slickItem.attr("data-center-mode") == "true",
-            centerPadding: $slickItem.attr("data-center-padding") ? $slickItem.attr("data-center-padding") : '0.50',
-            mobileFirst: true,
-            responsive: [
-              {
-                breakpoint: 0,
-                settings: {
-                  slidesToShow: parseInt($slickItem.attr('data-items')) || 1,
-                }
-              },
-              {
-                breakpoint: 480,
-                settings: {
-                  slidesToShow: parseInt($slickItem.attr('data-xs-items')) || 1,
-                }
-              },
-              {
-                breakpoint: 768,
-                settings: {
-                  slidesToShow: parseInt($slickItem.attr('data-sm-items')) || 1,
-                }
-              },
-              {
-                breakpoint: 992,
-                settings: {
-                  slidesToShow: parseInt($slickItem.attr('data-md-items')) || 1,
-                }
-              },
-              {
-                breakpoint: 1400,
-                settings: {
-                  slidesToShow: parseInt($slickItem.attr('data-lg-items')) || 1,
-                }
-              }
-            ]
-          })
-          .on('afterChange', function (event, slick, currentSlide, nextSlide) {
-            var $this = $(this),
-                childCarousel = $this.attr('data-child');
-
-            if (childCarousel) {
-              $(childCarousel + ' .slick-slide').removeClass('slick-current');
-              $(childCarousel + ' .slick-slide').eq(currentSlide).addClass('slick-current');
+        slidesToScroll: parseInt($slickItem.attr('data-slide-to-scroll')) || 1,
+        asNavFor: $slickItem.attr('data-for') || false,
+        dots: $slickItem.attr("data-dots") == "true",
+        infinite: $slickItem.attr("data-loop") == "true",
+        focusOnSelect: true,
+        arrows: $slickItem.attr("data-arrows") == "true",
+        swipe: $slickItem.attr("data-swipe") == "true",
+        autoplay: $slickItem.attr("data-autoplay") == "true",
+        vertical: $slickItem.attr("data-vertical") == "true",
+        centerMode: $slickItem.attr("data-center-mode") == "true",
+        centerPadding: $slickItem.attr("data-center-padding") ? $slickItem.attr("data-center-padding") : '0.50',
+        mobileFirst: true,
+        responsive: [
+          {
+            breakpoint: 0,
+            settings: {
+              slidesToShow: parseInt($slickItem.attr('data-items')) || 1,
             }
-          });
+          },
+          {
+            breakpoint: 480,
+            settings: {
+              slidesToShow: parseInt($slickItem.attr('data-xs-items')) || 1,
+            }
+          },
+          {
+            breakpoint: 768,
+            settings: {
+              slidesToShow: parseInt($slickItem.attr('data-sm-items')) || 1,
+            }
+          },
+          {
+            breakpoint: 992,
+            settings: {
+              slidesToShow: parseInt($slickItem.attr('data-md-items')) || 1,
+            }
+          },
+          {
+            breakpoint: 1400,
+            settings: {
+              slidesToShow: parseInt($slickItem.attr('data-lg-items')) || 1,
+            }
+          }
+        ]
+      })
+        .on('afterChange', function (event, slick, currentSlide, nextSlide) {
+          var $this = $(this),
+            childCarousel = $this.attr('data-child');
+
+          if (childCarousel) {
+            $(childCarousel + ' .slick-slide').removeClass('slick-current');
+            $(childCarousel + ' .slick-slide').eq(currentSlide).addClass('slick-current');
+          }
+        });
     }
   }
 
@@ -717,18 +717,18 @@ $document.ready(function () {
     for (i = 0; i < plugins.counter.length; i++) {
       var $counterNotAnimated = $(plugins.counter[i]).not('.animated');
       $document
-          .on("scroll", $.proxy(function () {
-            var $this = this;
+        .on("scroll", $.proxy(function () {
+          var $this = this;
 
-            if ((!$this.hasClass("animated")) && (isScrolledIntoView($this))) {
-              $this.countTo({
-                refreshInterval: 40,
-                speed: $this.attr("data-speed") || 1000
-              });
-              $this.addClass('animated');
-            }
-          }, $counterNotAnimated))
-          .trigger("scroll");
+          if ((!$this.hasClass("animated")) && (isScrolledIntoView($this))) {
+            $this.countTo({
+              refreshInterval: 40,
+              speed: $this.attr("data-speed") || 1000
+            });
+            $this.addClass('animated');
+          }
+        }, $counterNotAnimated))
+        .trigger("scroll");
     }
   }
 
@@ -770,11 +770,11 @@ $document.ready(function () {
     for (i = 0; i < plugins.viewAnimate.length; i++) {
       var $view = $(plugins.viewAnimate[i]).not('.active');
       $document.on("scroll", $.proxy(function () {
-            if (isScrolledIntoView(this)) {
-              this.addClass("active");
-            }
-          }, $view))
-          .trigger("scroll");
+        if (isScrolledIntoView(this)) {
+          this.addClass("active");
+        }
+      }, $view))
+        .trigger("scroll");
     }
   }
 
@@ -787,15 +787,15 @@ $document.ready(function () {
     for (i = 0; i < plugins.swiper.length; i++) {
       var s = $(plugins.swiper[i]);
       var pag = s.find(".swiper-pagination"),
-          next = s.find(".swiper-button-next"),
-          prev = s.find(".swiper-button-prev"),
-          bar = s.find(".swiper-scrollbar"),
-          parallax = s.parents('.rd-parallax').length,
-          swiperSlide = s.find(".swiper-slide");
+        next = s.find(".swiper-button-next"),
+        prev = s.find(".swiper-button-prev"),
+        bar = s.find(".swiper-scrollbar"),
+        parallax = s.parents('.rd-parallax').length,
+        swiperSlide = s.find(".swiper-slide");
 
       for (j = 0; j < swiperSlide.length; j++) {
         var $this = $(swiperSlide[j]),
-            url;
+          url;
 
         if (url = $this.attr("data-slide-bg")) {
           $this.css({
@@ -806,66 +806,66 @@ $document.ready(function () {
       }
 
       swiperSlide.end()
-          .find("[data-caption-animate]")
-          .addClass("not-animated")
-          .end()
-          .swiper({
-            autoplay: s.attr('data-autoplay') ? s.attr('data-autoplay') === "false" ? undefined : s.attr('data-autoplay') : 5000,
-            direction: s.attr('data-direction') ? s.attr('data-direction') : "horizontal",
-            effect: s.attr('data-slide-effect') ? s.attr('data-slide-effect') : "slide",
-            speed: s.attr('data-slide-speed') ? s.attr('data-slide-speed') : 600,
-            keyboardControl: s.attr('data-keyboard') === "true",
-            mousewheelControl: s.attr('data-mousewheel') === "true",
-            mousewheelReleaseOnEdges: s.attr('data-mousewheel-release') === "true",
-            nextButton: next.length ? next.get(0) : null,
-            prevButton: prev.length ? prev.get(0) : null,
-            pagination: pag.length ? pag.get(0) : null,
-            paginationClickable: pag.length ? pag.attr("data-clickable") !== "false" : false,
-            paginationBulletRender: pag.length ? pag.attr("data-index-bullet") === "true" ? function (index, className) {
-              return '<span class="' + className + '">' + (index + 1) + '</span>';
-            } : null : null,
-            scrollbar: bar.length ? bar.get(0) : null,
-            scrollbarDraggable: bar.length ? bar.attr("data-draggable") !== "false" : true,
-            scrollbarHide: bar.length ? bar.attr("data-draggable") === "false" : false,
-            loop: s.attr('data-loop') !== "false",
-            simulateTouch: s.attr('data-simulate-touch') ? s.attr('data-simulate-touch') === "true" : false,
-            onTransitionStart: function (swiper) {
-              toggleSwiperInnerVideos(swiper);
-            },
-            onTransitionEnd: function (swiper) {
-              toggleSwiperCaptionAnimation(swiper);
-            },
-            onInit: function (swiper) {
-              toggleSwiperInnerVideos(swiper);
-              toggleSwiperCaptionAnimation(swiper);
+        .find("[data-caption-animate]")
+        .addClass("not-animated")
+        .end()
+        .swiper({
+          autoplay: s.attr('data-autoplay') ? s.attr('data-autoplay') === "false" ? undefined : s.attr('data-autoplay') : 5000,
+          direction: s.attr('data-direction') ? s.attr('data-direction') : "horizontal",
+          effect: s.attr('data-slide-effect') ? s.attr('data-slide-effect') : "slide",
+          speed: s.attr('data-slide-speed') ? s.attr('data-slide-speed') : 600,
+          keyboardControl: s.attr('data-keyboard') === "true",
+          mousewheelControl: s.attr('data-mousewheel') === "true",
+          mousewheelReleaseOnEdges: s.attr('data-mousewheel-release') === "true",
+          nextButton: next.length ? next.get(0) : null,
+          prevButton: prev.length ? prev.get(0) : null,
+          pagination: pag.length ? pag.get(0) : null,
+          paginationClickable: pag.length ? pag.attr("data-clickable") !== "false" : false,
+          paginationBulletRender: pag.length ? pag.attr("data-index-bullet") === "true" ? function (index, className) {
+            return '<span class="' + className + '">' + (index + 1) + '</span>';
+          } : null : null,
+          scrollbar: bar.length ? bar.get(0) : null,
+          scrollbarDraggable: bar.length ? bar.attr("data-draggable") !== "false" : true,
+          scrollbarHide: bar.length ? bar.attr("data-draggable") === "false" : false,
+          loop: s.attr('data-loop') !== "false",
+          simulateTouch: s.attr('data-simulate-touch') ? s.attr('data-simulate-touch') === "true" : false,
+          onTransitionStart: function (swiper) {
+            toggleSwiperInnerVideos(swiper);
+          },
+          onTransitionEnd: function (swiper) {
+            toggleSwiperCaptionAnimation(swiper);
+          },
+          onInit: function (swiper) {
+            toggleSwiperInnerVideos(swiper);
+            toggleSwiperCaptionAnimation(swiper);
 
-              var swiperParalax = s.find(".swiper-parallax");
+            var swiperParalax = s.find(".swiper-parallax");
 
-              for (var k = 0; k < swiperParalax.length; k++) {
-                var $this = $(swiperParalax[k]),
-                    speed;
+            for (var k = 0; k < swiperParalax.length; k++) {
+              var $this = $(swiperParalax[k]),
+                speed;
 
-                if (parallax && !isIEBrows && !isMobile) {
-                  if (speed = $this.attr("data-speed")) {
-                    makeParallax($this, speed, s, false);
-                  }
+              if (parallax && !isIEBrows && !isMobile) {
+                if (speed = $this.attr("data-speed")) {
+                  makeParallax($this, speed, s, false);
                 }
               }
-              $(window).on('resize', function () {
-                swiper.update(true);
-              })
             }
-          });
+            $(window).on('resize', function () {
+              swiper.update(true);
+            })
+          }
+        });
 
       $(window)
-          .on("resize", function () {
-            var mh = getSwiperHeight(s, "min-height"),
-                h = getSwiperHeight(s, "height");
-            if (h) {
-              s.css("height", mh ? mh > h ? mh : h : h);
-            }
-          })
-          .trigger("resize");
+        .on("resize", function () {
+          var mh = getSwiperHeight(s, "min-height"),
+            h = getSwiperHeight(s, "height");
+          if (h) {
+            s.css("height", mh ? mh > h ? mh : h : h);
+          }
+        })
+        .trigger("resize");
     }
   }
 
@@ -876,22 +876,22 @@ $document.ready(function () {
   if (plugins.search.length || plugins.searchResults) {
     var handler = "bat/rd-search.php";
     var defaultTemplate = '<h5 class="search_title"><a target="_top" href="#{href}" class="search_link">#{title}</a></h5>' +
-        '<p>...#{token}...</p>' +
-        '<p class="match"><em>Terms matched: #{count} - URL: #{href}</em></p>';
+      '<p>...#{token}...</p>' +
+      '<p class="match"><em>Terms matched: #{count} - URL: #{href}</em></p>';
     var defaultFilter = '*.html';
 
     if (plugins.search.length) {
 
       for (i = 0; i < plugins.search.length; i++) {
         var searchItem = $(plugins.search[i]),
-            options = {
-              element: searchItem,
-              filter: (searchItem.attr('data-search-filter')) ? searchItem.attr('data-search-filter') : defaultFilter,
-              template: (searchItem.attr('data-search-template')) ? searchItem.attr('data-search-template') : defaultTemplate,
-              live: (searchItem.attr('data-search-live')) ? searchItem.attr('data-search-live') : false,
-              liveCount: (searchItem.attr('data-search-live-count')) ? parseInt(searchItem.attr('data-search-live')) : 4,
-              current: 0, processed: 0, timer: {}
-            };
+          options = {
+            element: searchItem,
+            filter: (searchItem.attr('data-search-filter')) ? searchItem.attr('data-search-filter') : defaultFilter,
+            template: (searchItem.attr('data-search-template')) ? searchItem.attr('data-search-template') : defaultTemplate,
+            live: (searchItem.attr('data-search-live')) ? searchItem.attr('data-search-live') : false,
+            liveCount: (searchItem.attr('data-search-live-count')) ? parseInt(searchItem.attr('data-search-live')) : 4,
+            current: 0, processed: 0, timer: {}
+          };
 
         if ($('.rd-navbar-search-toggle').length) {
           var toggle = $('.rd-navbar-search-toggle');
@@ -932,9 +932,9 @@ $document.ready(function () {
 
         searchItem.submit($.proxy(function () {
           $('<input />').attr('type', 'hidden')
-              .attr('name', "filter")
-              .attr('value', this.filter)
-              .appendTo(this.element);
+            .attr('name', "filter")
+            .attr('value', this.filter)
+            .appendTo(this.element);
           return true;
         }, options, this))
       }
@@ -966,11 +966,11 @@ $document.ready(function () {
     var i;
     for (i = 0; i < plugins.owl.length; i++) {
       var c = $(plugins.owl[i]),
-          responsive = {};
+        responsive = {};
 
       var aliaces = ["-", "-xs-", "-sm-", "-md-", "-lg-"],
-          values = [0, 480, 768, 992, 1200],
-          j, k;
+        values = [0, 480, 768, 992, 1200],
+        j, k;
 
       for (j = 0; j < values.length; j++) {
         responsive[values[j]] = {};
@@ -1027,11 +1027,11 @@ $document.ready(function () {
     var i, isogroup = [];
     for (i = 0; i < plugins.isotope.length; i++) {
       var isotopeItem = plugins.isotope[i]
-          , iso = new Isotope(isotopeItem, {
-        itemSelector: '.isotope-item',
-        layoutMode: isotopeItem.getAttribute('data-isotope-layout') ? isotopeItem.getAttribute('data-isotope-layout') : 'masonry',
-        filter: '*'
-      });
+        , iso = new Isotope(isotopeItem, {
+          itemSelector: '.isotope-item',
+          layoutMode: isotopeItem.getAttribute('data-isotope-layout') ? isotopeItem.getAttribute('data-isotope-layout') : 'masonry',
+          filter: '*'
+        });
 
       isogroup.push(iso);
     }
@@ -1080,11 +1080,11 @@ $document.ready(function () {
     var i;
     for (i = 0; i < plugins.countDown.length; i++) {
       var countDownItem = plugins.countDown[i],
-          d = new Date(),
-          type = countDownItem.getAttribute('data-type'),
-          time = countDownItem.getAttribute('data-time'),
-          format = countDownItem.getAttribute('data-format'),
-          settings = [];
+        d = new Date(),
+        type = countDownItem.getAttribute('data-type'),
+        time = countDownItem.getAttribute('data-time'),
+        format = countDownItem.getAttribute('data-format'),
+        settings = [];
 
       d.setTime(Date.parse(time)).toLocaleString();
       settings[type] = d;
@@ -1132,15 +1132,15 @@ $document.ready(function () {
    */
   if (plugins.rdMailForm.length) {
     var i, j, k,
-        msg = {
-          'MF000': 'Successfully sent!',
-          'MF001': 'Recipients are not set!',
-          'MF002': 'Form will not work locally!',
-          'MF003': 'Please, define email field in your form!',
-          'MF004': 'Please, define type of your form!',
-          'MF254': 'Something went wrong with PHPMailer!',
-          'MF255': 'Aw, snap! Something went wrong.'
-        };
+      msg = {
+        'MF000': 'Successfully sent!',
+        'MF001': 'Recipients are not set!',
+        'MF002': 'Form will not work locally!',
+        'MF003': 'Please, define email field in your form!',
+        'MF004': 'Please, define type of your form!',
+        'MF254': 'Something went wrong with PHPMailer!',
+        'MF255': 'Aw, snap! Something went wrong.'
+      };
 
     for (i = 0; i < plugins.rdMailForm.length; i++) {
       var $form = $(plugins.rdMailForm[i]);
@@ -1170,8 +1170,8 @@ $document.ready(function () {
         },
         success: function (result) {
           var form = $(plugins.rdMailForm[this.extraData.counter]),
-              output = $("#" + form.attr("data-form-output")),
-              $select = form.find('select');
+            output = $("#" + form.attr("data-form-output")),
+            $select = form.find('select');
 
           // Clear select2 after submit form
           if ($select.length) {
@@ -1220,13 +1220,13 @@ $document.ready(function () {
       event.preventDefault();
 
       var $el = $(this),
-          $galleryItems = $el.parents("[data-photo-swipe-gallery]").find("a[data-photo-swipe-item]"),
-          pswpElement = document.querySelectorAll('.pswp')[0],
-          encounteredItems = {},
-          pswpItems = [],
-          options,
-          pswpIndex = 0,
-          pswp;
+        $galleryItems = $el.parents("[data-photo-swipe-gallery]").find("a[data-photo-swipe-item]"),
+        pswpElement = document.querySelectorAll('.pswp')[0],
+        encounteredItems = {},
+        pswpItems = [],
+        options,
+        pswpIndex = 0,
+        pswp;
 
       if ($galleryItems.length == 0) {
         $galleryItems = $el;
@@ -1235,9 +1235,9 @@ $document.ready(function () {
       // loop over the gallery to build up the photoswipe items
       $galleryItems.each(function () {
         var $item = $(this),
-            src = $item.attr('href'),
-            size = $item.attr('data-size').split('x'),
-            pswdItem;
+          src = $item.attr('href'),
+          size = $item.attr('data-size').split('x'),
+          pswdItem;
 
         if ($item.is(':visible')) {
 
@@ -1269,7 +1269,7 @@ $document.ready(function () {
 
         getThumbBoundsFn: function (index) {
           var $el = pswpItems[index].el,
-              offset = $el.offset();
+            offset = $el.offset();
 
           return {
             x: offset.left,
@@ -1307,9 +1307,9 @@ $document.ready(function () {
 
       if ($this.attr("data-custom-toggle-disable-on-blur") === "true") {
         $("body").on("click", $this, function (e) {
-          if ( e.target !== e.data[0]
-              && $(e.data.attr('data-custom-toggle')).find($(e.target)).length
-              && e.data.find($(e.target)).length == 0) {
+          if (e.target !== e.data[0]
+            && $(e.data.attr('data-custom-toggle')).find($(e.target)).length
+            && e.data.find($(e.target)).length == 0) {
             $(e.data.attr('data-custom-toggle')).add(e.data[0]).removeClass('active');
           }
         })
@@ -1327,7 +1327,7 @@ $document.ready(function () {
 
     $.getScript("//maps.google.com/maps/api/js?key=AIzaSyAFeB0kVA6ouyJ_gEvFbMaefLy3cBCyRwo&sensor=false&libraries=geometry,places&v=3.7", function () {
       var head = document.getElementsByTagName('head')[0],
-          insertBefore = head.insertBefore;
+        insertBefore = head.insertBefore;
 
       head.insertBefore = function (newElement, referenceElement) {
         if (newElement.href && newElement.href.indexOf('//fonts.googleapis.com/css?family=Roboto') != -1 || newElement.innerHTML.indexOf('gm-style') != -1) {
@@ -1342,7 +1342,7 @@ $document.ready(function () {
 
         lazyInit($googleMapItem, $.proxy(function () {
           var $this = $(this),
-              styles = $this.attr("data-styles");
+            styles = $this.attr("data-styles");
 
           $this.googleMap({
             styles: styles ? JSON.parse(styles) : [],
@@ -1353,10 +1353,10 @@ $document.ready(function () {
                 var input = inputAddress;
                 var geocoder = new google.maps.Geocoder();
                 var marker = new google.maps.Marker(
-                    {
-                      map: map,
-                      icon: "images/gmap_marker.png",
-                    }
+                  {
+                    map: map,
+                    icon: "images/gmap_marker.png",
+                  }
                 );
                 var autocomplete = new google.maps.places.Autocomplete(inputAddress[0]);
                 autocomplete.bindTo('bounds', map);
@@ -1374,18 +1374,18 @@ $document.ready(function () {
                 $("#rd-google-map-address-submit").on('click', function (e) {
                   e.preventDefault();
                   var address = input.val();
-                  geocoder.geocode({'address': address}, function (results, status) {
+                  geocoder.geocode({ 'address': address }, function (results, status) {
                     if (status == google.maps.GeocoderStatus.OK) {
                       var latitude = results[0].geometry.location.lat();
                       var longitude = results[0].geometry.location.lng();
 
                       map.setCenter(new google.maps.LatLng(
-                          parseFloat(latitude),
-                          parseFloat(longitude)
+                        parseFloat(latitude),
+                        parseFloat(longitude)
                       ));
                       marker.setPosition(new google.maps.LatLng(
-                          parseFloat(latitude),
-                          parseFloat(longitude)
+                        parseFloat(latitude),
+                        parseFloat(longitude)
                       ))
                     }
                   });
@@ -1426,6 +1426,15 @@ $document.ready(function () {
       }, 300);
     });
   }
+
+  // auto inicializar modal
+  setTimeout(function () {
+    $('#registerModal').modal({
+      Keyboard: false,
+      show: true
+    });
+  }, 3000);
+  
 
   // carga asincronica de los tour 360, asi se evita que la carga sincronica no se vea afectada por el iframe
   $(".asincronico").append('<iframe src="https://lanube360.com/parcelas-chile/" frameborder="0" width="100%" height="600px" scrolling="no" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" oallowfullscreen="true" msallowfullscreen="true"></iframe>');
