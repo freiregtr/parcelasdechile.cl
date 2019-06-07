@@ -1,42 +1,4 @@
-<!DOCTYPE html>
-<html lang="es" class="wide wow-animation">
-
-<head>
-    <!-- Site Title-->
-    <title>Volantín de la Quebrada</title>
-    <meta name="format-detection" content="telephone=no">
-    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta charset="utf-8">
-    <link rel="icon" href="view/componentes/images/favicon.ico" type="image/x-icon">
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
-
-    <!-- UA Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-137903886-1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-        gtag('js', new Date());
-        gtag('config', 'UA-137903886-1');
-    </script>
-
-    <!-- Stylesheets-->
-    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="view/componentes/css/style.css">
-    <!--[if lt IE 10]>
-    <div style="background: #212121; padding: 10px 0; box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3); clear: both; text-align:center; position: relative; z-index:1;"><a href="http://windows.microsoft.com/en-US/internet-explorer/"><img src="images/ie8-panel/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."></a></div>
-    <script src="js/html5shiv.min.js"></script>
-		<![endif]-->
-</head>
-
-<body>
-    <!-- Page-->
+<!-- Page-->
     <div class="page text-center">
         <!-- Page Header-->
         <header class="page-header">
@@ -430,12 +392,3 @@
                 </div>
             </div>
         </div>
-
-        <!-- javascript -->
-        <script src="view/componentes/js/core.min.js"></script>
-        <script src="view/componentes/js/script.js"></script>
-    </div>
-
-</body>
-
-</html>
