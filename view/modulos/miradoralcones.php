@@ -380,12 +380,22 @@
                     </div>
                     <div class="modal-body">
                         <div>
-                            <form data-form-output="form-output-global" data-form-type="subscribe" method="post" action="view/componentes/bat/rd-mailform.php" class="form-inline-custom-sm rd-mailform text-center">
+                        <form class="offset-top-30 text-left">
                                 <div class="form-group">
-                                    <label for="sub-email" class="form-label">Ingrese su mail</label>
-                                    <input id="sub-email" type="email" name="email" data-constraints="@Email @Required" class="form-control">
+                                    <label class="form-label-static form-label-outside">Nombre Completo</label>
+                                    <input type="text" name="name" data-constraints="@Required" class="form-control">
                                 </div>
-                                <button class="btn btn-base-variant-1">Subscribirme</button>
+                                <div class="form-group">
+                                    <label class="form-label-static form-label-outside">Correo Electrónico</label>
+                                    <input type="text" name="name" data-constraints="@Required" class="form-control">
+                                </div>
+                                <div class="form-group">
+                                    <label class="form-label-static form-label-outside">Teléfono</label>
+                                    <input type="text" name="name" data-constraints="@Required" class="form-control">
+                                </div>
+                                <div class="offset-top-10">
+                                    <button class="btn btn-block btn-primary">Enviar</button>
+                                </div>
                             </form>
                         </div>
                     </div>

@@ -75,7 +75,7 @@
                             <div class="chatsPopupList">
                                 <ul class="list-unstyled">
                                     <li>
-                                        <div class="chats-button" data-contact="+56956798310" data-available='{"monday":"09:00-19:00", "tuesday":"09:00-19:00", "wednesday":"09:00-19:00", "thursday":"09:00-19:00", "friday":"09:00-19:00","saturday": "00:00-23:59" }'>
+                                        <div class="chats-button" data-contact="+56975194031" data-available='{"monday":"09:00-21:00", "tuesday":"09:00-21:00", "wednesday":"09:00-21:00", "thursday":"09:00-21:00", "friday":"09:00-21:00","saturday": "09:00-15:00" }'>
                                             <div class="chatsUserImg">
                                                 <img src="view/componentes/images/user1.jpg" alt="" class="img-fluid">
                                             </div>
