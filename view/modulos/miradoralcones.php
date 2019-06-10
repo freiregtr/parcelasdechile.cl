@@ -374,14 +374,23 @@
             <div class="modal-dialog modal-lg">
                 <!-- Modal content-->
                 <div class="modal-content">
-                    <div class="modal-head">
-                       <hr>
-                            <h2>Subscríbete para recibir noticias sobre este nuevo proyecto</h2>
-                        <hr>
-                    </div>
+                   
                     <div class="modal-body">
-                        <div>
-                        <form class="offset-top-30 text-left">
+                  <div class="row">
+                  <div class="col-md-6">
+                  <div class="modal-head">
+                  <hr>
+                            <h3>Subscríbete a nuestro nuevo proyecto</h3>
+                            <br>
+                            <h6>VENTA EN VERDE</h6>
+                            <hr>
+                            <li>Desde los 5000 Mt2</li>
+                            <li>Posibilidad de luz y agua</li>
+                            <li>Rol único</li>
+                    </div>
+                    </div>
+                    <div class="col-md-6">
+                    <form class="offset-top-30 text-left">
                                 <div class="form-group">
                                     <label class="form-label-static form-label-outside">Nombre Completo</label>
                                     <input type="text" name="name" data-constraints="@Required" class="form-control">
@@ -397,7 +406,10 @@
                                 <div class="offset-top-10">
                                     <button class="btn btn-block btn-primary">Enviar</button>
                                 </div>
-                            </form>
+                        </form>
+                    </div></div>
+                        <div>
+                        
                         </div>
                     </div>
                 </div>
