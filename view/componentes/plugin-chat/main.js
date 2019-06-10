@@ -40,11 +40,11 @@
 		$('.chats-button').each(function(){
 			var $dataAvail = $(this).attr('data-available');
 			if(typeof $dataAvail != "undefined" && $dataAvail != ''){
-				var onlineMsg = 'Disponible';
-				var offlineMsg = 'Estaré disponible';
+				var onlineMsg = 'Disponible ahora';
+				var offlineMsg = 'Volveré luego';
 				var available = $(this).data('available');
 				var d = new Date();
-				var days = ["Domingo","Lunes","Martes","Miercoles","Jueves","Viernes","Sabado"];
+				var days = ["sunday","monday","tuesday","wednesday","thursday","friday","saturday"];
 				var todayDay = days[d.getDay()];
 				var getHours = d.getHours();
 				var getMinutes = d.getMinutes();
@@ -74,7 +74,7 @@
 					// If user fill wrong time
 					if( timeofavailable[0] >= timeofavailable[1]){
 						$(this).parent("li").addClass("offline");
-						$(this).find(".userStatus").text("offline");
+						$(this).find(".userStatus").text("Fuera de linea");
 						return false;
 					}
 					// Compare between to time 
@@ -110,7 +110,7 @@
 							}else{
 								diff = diff_minute + ' Min';
 							}
-							$(this).find(".userStatus").text(offlineMsg+" after "+diff);
+							$(this).find(".userStatus").text(offlineMsg+" despues de "+diff);
 						}else{
 							// Next Day
 							if(typeof available[nextDay] != "undefined"){
@@ -134,10 +134,10 @@
 									}else{
 										diff = diff_minute + ' Min';
 									}
-									$(this).find(".userStatus").text(offlineMsg+" after "+diff);
+									$(this).find(".userStatus").text(offlineMsg+" despues de "+diff);
 							}else{
 
-								$(this).find(".userStatus").text(offlineMsg+" luego.");
+								$(this).find(".userStatus").text(offlineMsg+" soon.");
 							}
 						}
 					}
@@ -170,7 +170,7 @@
 						}
 						$(this).find(".userStatus").text(offlineMsg+" after "+diff);
 					}else{
-						$(this).find(".userStatus").text(offlineMsg+" luego.");
+						$(this).find(".userStatus").text(offlineMsg+" soon.");
 					}
 				}
 			}else{
@@ -178,7 +178,7 @@
 					e.preventDefault();
 				});
 				$(this).parent("li").addClass("offline");
-				$(this).find(".userStatus").text(offlineMsg+' luego.');
+				$(this).find(".userStatus").text(offlineMsg+' soon.');
 			}
 		})
 		/* End User Available JS */

@@ -4,12 +4,11 @@
 	position: fixed;
 	bottom: 40px;
 	right: 40px;
-	width: 220px;
+	width: 160px;
 	height: 50px;
 	text-align: right;
     z-index: 10;
 }
-
 
 /* Common Icon Css */
 .myIcon{
@@ -223,26 +222,6 @@
 }
 
 
-
-/* Skype Icon */
-#skypeIcon{
-    background-color: #00aff0;
-}
-
-/* Start Skype Popup */
-
-#skypePopup {
-    box-shadow: 0px 0px 20px 0px rgba(0, 175, 240, 0.3);
-}
-
-#skypePopup .chatsPopup-header {
-    background-color: #00aff0;
-}
-#skypePopup .chatsPopup-body .chatsPopupContent .chatsPopupList ul li .chats-button {
-    background-color: rgba(0, 175, 240, 0.08);
-}
-
-/* End Skype Popup */
 
 
 

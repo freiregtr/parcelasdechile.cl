@@ -322,4 +322,9 @@
                     </div>
                 </div>
             </div>
+        <!-- Inicio Div chat -->
+        <?php
+        include "chat.php";
+        ?>
+        <!-- Fin Div chat -->
         </div>
