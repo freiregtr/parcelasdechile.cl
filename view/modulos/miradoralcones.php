@@ -38,7 +38,9 @@
 <body>
     <!-- Page-->
     <div class="page text-center">
+       
         <!-- Page Header-->
+        
         <header class="page-header">
             <!-- RD Navbar-->
             <div class="rd-navbar-wrap">
@@ -88,8 +90,11 @@
                 </nav>
             </div>
         </header>
+        
         <!-- Page Content-->
+        
         <main class="page-content">
+           
             <section class="bg-gray-lighter">
                 <div class="shell text-left">
                     <ol class="breadcrumb">
@@ -100,6 +105,7 @@
                     </ol>
                 </div>
             </section>
+            
             <section class="section-top-70 section-bottom-80">
                 <div class="shell text-md-left product">
                     <div class="range">
@@ -107,9 +113,10 @@
                             <div><a href="#" class="label label-primary">VI Región</a></div>
                             <h2 class="offset-top-50">Volantín de la Quebrada
                                 <br>"Venta en verde"</h2>
-
                             <br>
+                            
                             <!-- Slick Carousel-->
+                            
                             <div data-photo-swipe-gallery="gallery" data-arrows="true" data-loop="false" data-dots="false" data-swipe="true" data-items="1" class="slick-slider">
 
                                 <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/proyectos/mirador_alcones/malcones.jpg" class="thumbnail-variant-2"><img src="view/componentes/img/proyectos/mirador_alcones/malcones.jpg" alt="Volantin de la quebrada" width="886" height="520" class="img-responsive"></a></div>
@@ -126,8 +133,7 @@
 
                             </div>
 
-                            <p class="offset-top-40 text-bold text-base">" Por qué tenemos el país más lindo del mundo, creemos que
-                                deberías elegir Parcelas de Chile."</p>
+                            <p class="offset-top-40 text-bold text-base">" Por qué tenemos el país más lindo del mundo, creemos que deberías elegir Parcelas de Chile."</p>
 
                             <p class="offset-top-20">Marchihue en la Provincia de Cardenal Caro (Región del Libertador General Bernardo O'Higgins) es un lugar en Chile a 86 millas (o 138 km) al suroeste de Santiago.</p>
                             <p>Con alrededor de 7.557 habitantes, Marchigüe se dedica fundamentalmente a las actividades agrícolas, ganaderas y silvícolas, destacando las numerosos viñedos como la Viña Montes, Concha y Toro, La Estampa, entre otras.</p>
