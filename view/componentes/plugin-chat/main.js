@@ -40,11 +40,11 @@
 		$('.chats-button').each(function(){
 			var $dataAvail = $(this).attr('data-available');
 			if(typeof $dataAvail != "undefined" && $dataAvail != ''){
-				var onlineMsg = 'Available Now';
-				var offlineMsg = 'I will come back';
+				var onlineMsg = 'Disponible';
+				var offlineMsg = 'Estaré disponible';
 				var available = $(this).data('available');
 				var d = new Date();
-				var days = ["sunday","monday","tuesday","wednesday","thursday","friday","saturday"];
+				var days = ["Domingo","Lunes","Martes","Miercoles","Jueves","Viernes","Sabado"];
 				var todayDay = days[d.getDay()];
 				var getHours = d.getHours();
 				var getMinutes = d.getMinutes();
@@ -137,7 +137,7 @@
 									$(this).find(".userStatus").text(offlineMsg+" after "+diff);
 							}else{
 
-								$(this).find(".userStatus").text(offlineMsg+" soon.");
+								$(this).find(".userStatus").text(offlineMsg+" luego.");
 							}
 						}
 					}
@@ -170,7 +170,7 @@
 						}
 						$(this).find(".userStatus").text(offlineMsg+" after "+diff);
 					}else{
-						$(this).find(".userStatus").text(offlineMsg+" soon.");
+						$(this).find(".userStatus").text(offlineMsg+" luego.");
 					}
 				}
 			}else{
@@ -178,7 +178,7 @@
 					e.preventDefault();
 				});
 				$(this).parent("li").addClass("offline");
-				$(this).find(".userStatus").text(offlineMsg+' soon.');
+				$(this).find(".userStatus").text(offlineMsg+' luego.');
 			}
 		})
 		/* End User Available JS */
