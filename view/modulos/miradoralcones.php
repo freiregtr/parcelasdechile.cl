@@ -402,19 +402,14 @@
             </div>
         </div>
 
-        <!-- btn whatsapp -->
-        <a href="https://api.whatsapp.com/send?phone=56958053609&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20parcelas." class="float" target="_blank">
-            <i class="fa fa-whatsapp my-float"></i>
-        </a>
-
-
-
         <div id="registerModal" role="dialog" class="modal fade">
             <div class="modal-dialog modal-lg">
                 <!-- Modal content-->
                 <div class="modal-content">
                     <div class="modal-head">
-                        <h4>Subscribete para recibir noticias sobre este nuevo proyecto</h4>
+                       <hr>
+                            <h2>Subscríbete para recibir noticias sobre este nuevo proyecto</h2>
+                        <hr>
                     </div>
                     <div class="modal-body">
                         <div>
