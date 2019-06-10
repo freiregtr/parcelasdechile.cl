@@ -108,12 +108,17 @@
         </header>
         <!-- Page Content-->
         <main class="page-content">
+        
+          <!-- Nuestras Parcelas-->
+        
         <section>
             <div class="shell section-100 section-lg-top-30 section-lg-bottom-30 context-light text-md-center">
                         <h3>Nuestras Parcelas en venta</h3>
                     </div>
         </section>
-           
+             
+              <!-- Las Parcelas-->
+              
             <section >
                 <div class="range range-condensed text-sm-left">
                     <div class="cell-sm-6">
@@ -149,6 +154,8 @@
                 </div>
             </section>
             
+              <!-- Caracteristicas Parcelas-->
+            
              <section id="proyectos">
                 <div class="shell section-70 section-lg-45 text-md-left">
                 
@@ -170,7 +177,7 @@
 
             </section>
             
-            <!-- RD Parallax-->
+            <!-- Parallax-->
             
             <section class="rd-parallax">
                 <div data-speed="0.4" data-type="media" data-url="view/componentes/img/h1.jpg" class="rd-parallax-layer"></div>
@@ -204,9 +211,11 @@
                     </div>
                 </div>
             </section>
+            
         </main>
         
         <!-- Page Footer-->
+        
         <footer class="page-footer">
             <div class="shell section-70 section-lg-120">
                 <div class="range text-md-left">
@@ -253,9 +262,13 @@
                 </div>
             </div>
         </footer>
+        
         <!-- Global Mailform Output-->
+        
         <div id="form-output-global" class="snackbars"></div>
+        
         <!-- PhotoSwipe Gallery-->
+        
         <div tabindex="-1" role="dialog" aria-hidden="true" class="pswp">
             <div class="pswp__bg"></div>
             <div class="pswp__scroll-wrap">
@@ -291,13 +304,11 @@
             </div>
         </div>
 
-
         <!-- Inicio Div chat -->
         <?php
         include "chat.php";
         ?>
         <!-- Fin Div chat -->
-        
     </div>
 
 

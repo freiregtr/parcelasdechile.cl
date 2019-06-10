@@ -1,6 +1,8 @@
 <!-- Page-->
     <div class="page text-center">
+       
         <!-- Page Header-->
+        
         <header class="page-header">
             <!-- RD Navbar-->
             <div class="rd-navbar-wrap">
@@ -50,8 +52,11 @@
                 </nav>
             </div>
         </header>
+        
         <!-- Page Content-->
+        
         <main class="page-content">
+           
             <section class="bg-gray-lighter">
                 <div class="shell text-left">
                     <ol class="breadcrumb">
@@ -62,6 +67,7 @@
                     </ol>
                 </div>
             </section>
+            
             <section class="section-top-70 section-bottom-80">
                 <div class="shell text-md-left product">
                     <div class="range">
@@ -69,9 +75,10 @@
                             <div><a href="#" class="label label-primary">VI Región</a></div>
                             <h2 class="offset-top-50">Volantín de la Quebrada
                                 <br>"Venta en verde"</h2>
-
                             <br>
+                            
                             <!-- Slick Carousel-->
+                            
                             <div data-photo-swipe-gallery="gallery" data-arrows="true" data-loop="false" data-dots="false" data-swipe="true" data-items="1" class="slick-slider">
 
                                 <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/proyectos/mirador_alcones/malcones.jpg" class="thumbnail-variant-2"><img src="view/componentes/img/proyectos/mirador_alcones/malcones.jpg" alt="Volantin de la quebrada" width="886" height="520" class="img-responsive"></a></div>
@@ -88,8 +95,7 @@
 
                             </div>
 
-                            <p class="offset-top-40 text-bold text-base">" Por qué tenemos el país más lindo del mundo, creemos que
-                                deberías elegir Parcelas de Chile."</p>
+                            <p class="offset-top-40 text-bold text-base">" Por qué tenemos el país más lindo del mundo, creemos que deberías elegir Parcelas de Chile."</p>
 
                             <p class="offset-top-20">Marchihue en la Provincia de Cardenal Caro (Región del Libertador General Bernardo O'Higgins) es un lugar en Chile a 86 millas (o 138 km) al suroeste de Santiago.</p>
                             <p>Con alrededor de 7.557 habitantes, Marchigüe se dedica fundamentalmente a las actividades agrícolas, ganaderas y silvícolas, destacando las numerosos viñedos como la Viña Montes, Concha y Toro, La Estampa, entre otras.</p>
@@ -364,23 +370,27 @@
             </div>
         </div>
 
-        <!-- btn whatsapp -->
-        <a href="https://api.whatsapp.com/send?phone=56958053609&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20parcelas." class="float" target="_blank">
-            <i class="fa fa-whatsapp my-float"></i>
-        </a>
-
-
-
         <div id="registerModal" role="dialog" class="modal fade">
             <div class="modal-dialog modal-lg">
                 <!-- Modal content-->
                 <div class="modal-content">
-                    <div class="modal-head">
-                        <h4>Subscribete para recibir noticias sobre este nuevo proyecto</h4>
-                    </div>
+                   
                     <div class="modal-body">
-                        <div>
-                        <form class="offset-top-30 text-left">
+                  <div class="row">
+                  <div class="col-md-6">
+                  <div class="modal-head">
+                  <hr>
+                            <h3>Subscríbete a nuestra venta en verde</h3>
+                            <br>
+                            <h6>Solo con invitación*</h6>
+                            <hr>
+                            <li>Desde los 5000 Mt2</li>
+                            <li>Posibilidad de luz y agua</li>
+                            <li>Rol único</li>
+                    </div>
+                    </div>
+                    <div class="col-md-6">
+                    <form class="offset-top-30 text-left">
                                 <div class="form-group">
                                     <label class="form-label-static form-label-outside">Nombre Completo</label>
                                     <input type="text" name="name" data-constraints="@Required" class="form-control">
@@ -396,7 +406,10 @@
                                 <div class="offset-top-10">
                                     <button class="btn btn-block btn-primary">Enviar</button>
                                 </div>
-                            </form>
+                        </form>
+                    </div></div>
+                        <div>
+                        
                         </div>
                     </div>
                 </div>
