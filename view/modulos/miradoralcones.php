@@ -380,9 +380,9 @@
                   <div class="col-md-6">
                   <div class="modal-head">
                   <hr>
-                            <h3>Subscríbete a nuestro nuevo proyecto</h3>
+                            <h3>Subscríbete a nuestra venta en verde</h3>
                             <br>
-                            <h6>VENTA EN VERDE</h6>
+                            <h6>Solo con invitación*</h6>
                             <hr>
                             <li>Desde los 5000 Mt2</li>
                             <li>Posibilidad de luz y agua</li>
