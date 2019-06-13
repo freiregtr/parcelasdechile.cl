@@ -20,11 +20,6 @@
     <!-- UA Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-137903886-1"></script>
 
-<<<<<<< HEAD
-       
-        <script>
-    
-=======
     <link href="/view/componentes/mapsvg/css/mapsvg.css" rel="stylesheet">
     <link href="/view/componentes/mapsvg/css/nanoscroller.css" rel="stylesheet">
     <script src="/view/componentes/mapsvg/js/jquery.js"></script>
@@ -33,7 +28,6 @@
     <script src="/view/componentes/mapsvg/js/mapsvg.min.js"></script>
 
     <script>
->>>>>>> 7254ae023dfa0275ee6ed2e514cc6a0421a7aec5
         window.dataLayer = window.dataLayer || [];
 
         function gtag() {

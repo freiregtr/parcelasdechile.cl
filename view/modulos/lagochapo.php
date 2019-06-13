@@ -181,7 +181,6 @@
                                     <div class="cell-md-12 offset-top-50">
                                         <hr>
                                     </div>
-<<<<<<< HEAD
                                     <div class="cell-md-12 offset-top-40">
                                         <div class="well">
                                             <h3>Siguenos</h3>
@@ -191,46 +190,6 @@
                                                 <li><a href="https://www.instagram.com/parcelasdechile/" class="icon icon-sm text-white fa-instagram"></a></li>
                                                 <li><a href="https://cl.linkedin.com/company/parcelasdechile/" class="icon icon-sm text-white fa-linkedin"></a></li>
                                             </ul>
-=======
-                                    <br>
-                                    <h3>Otros Proyectos</h3>
-                                    <div class="offset-top-40">
-                                        <!-- Post-->
-                                        <div class="post-blog-thumbnail unit unit-sm-horizontal unit-md-vertical text-sm-left unit-lg-horizontal">
-                                            <div class="unit-left"><a href="lagochapo"><img src="view/componentes/img/lcc.jpg" width="184" height="139" alt="lago chapo"></a></div>
-                                            <div class="unit-body">
-                                                <h6><a href="lagochapo" class="text-base text-bold">Lago Chapo</a></h6>
-                                                <div class="small offset-top-7"><a href="lagochapo" class="text-gray">Puerto Montt</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="offset-top-30">
-                                        <!-- Post-->
-                                        <div class="post-blog-thumbnail unit unit-sm-horizontal unit-md-vertical text-sm-left unit-lg-horizontal">
-                                            <div class="unit-left"><a href="blog-single-post.html"><img src="view/componentes/img/mhc.jpg" width="184" height="139" alt="lago chapo"></a></div>
-                                            <div class="unit-body">
-                                                <h6><a href="miradoralcones.html" class="text-base text-bold">Volantín de la Quebrada</a></h6>
-                                                <div class="small offset-top-7">
-                                                    <a href="miradoralcones.html" class="text-gray">La Quebrada</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="cell-md-12 offset-top-50">
-                                    <hr>
-                                </div>
-                                <div class="cell-md-12 offset-top-40">
-                                    <div class="well">
-                                        <h3>Vendedora</h3>
-                                        <div class="unit unit-lg-horizontal offset-top-30">
-                                            <div class="unit-left"><img src="view/componentes/images/user-03.jpg" width="140" height="140" alt="lago chapo" class="img-responsive center-block"></div>
-                                            <div class="unit-body">
-                                                <h5>Barbara Zuloaga </h5>
-                                                <p class="offset-top-10">Hola! Soy Barbara y estoy disponible para resolver tus dudas.</p>
-                                            </div>
->>>>>>> 7254ae023dfa0275ee6ed2e514cc6a0421a7aec5
                                         </div>
                                         <div class="offset-top-30"><a href="#" style="padding: 12px 40px;" class="btn btn-base">Llamar</a>
                                         </div>
