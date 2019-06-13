@@ -24,13 +24,9 @@
                                 <div><span class="icon fa-phone text-primary"></span><a href="callto:> +56958053609"></span><a>+56 9 5805 3609</a>
                                 </div>
                             </div>
-
                         </div>
-
                     </div>
-
                     <div class="rd-navbar-nav-wrap">
-
                         <div class="rd-navbar-inner">
                             <!-- RD Navbar Nav-->
                             <ul class="rd-navbar-nav">

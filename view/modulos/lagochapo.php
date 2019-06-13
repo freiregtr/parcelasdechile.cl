@@ -178,22 +178,6 @@
                                             </form>
                                         </div>
                                     </div>
-                                    <div class="cell-md-12 offset-top-50">
-                                        <hr>
-                                    </div>
-                                    <div class="cell-md-12 offset-top-40">
-                                        <div class="well">
-                                            <h3>Siguenos</h3>
-                                            <ul class="list-inline offset-top-30">
-                                                <li><a href="https://www.facebook.com/parcelasdechile/" class="icon icon-sm text-white fa-facebook"></a></li>
-                                                <li><a href="https://www.youtube.com/channel/UC1A2lJ21pRVisDtocb1gTTA/" class="icon icon-sm text-white fa-youtube"></a></li>
-                                                <li><a href="https://www.instagram.com/parcelasdechile/" class="icon icon-sm text-white fa-instagram"></a></li>
-                                                <li><a href="https://cl.linkedin.com/company/parcelasdechile/" class="icon icon-sm text-white fa-linkedin"></a></li>
-                                            </ul>
-                                        </div>
-                                        <div class="offset-top-30"><a href="#" style="padding: 12px 40px;" class="btn btn-base">Llamar</a>
-                                        </div>
-                                    </div>
                                 </div>
                                 <div class="cell-md-12 offset-top-50">
                                     <hr>
