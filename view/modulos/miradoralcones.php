@@ -108,12 +108,7 @@
 
 
                             <img src="view/componentes/img/Proyectos/mirador_alcones/plano/plano.png" width="886" height="520" alt="volantin de la quebrada" class="img-responsive center-block offset-top-40">
-                            <hr>
-                            <h2 class="offset-top-50">Tour 360º </h2>
-                            <p>Navega por la parcelación con tu mouse</p>
-                            <br>
-                            <div class="asincronico">
-                            </div>
+                       
                             <hr>
                             <div class="row">
                                 <div class="col-xs-6 text-left"><a href="lagochapo.php" class="btn btn-primary btn-icon btn-icon btn-icon-left"><span class="icon fa-angle-left"></span><span class="text text-regular veil reveal-xs-inline">Proyecto previo</span></a></div>
@@ -174,23 +169,6 @@
                                                         <a href="miradoralcones.html" class="text-gray">La Quebrada</a>
                                                     </div>
                                                 </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="cell-md-12 offset-top-50">
-                                        <hr>
-                                    </div>
-                                    <div class="cell-md-12 offset-top-40">
-                                        <div class="well">
-                                            <h3>Vendedora</h3>
-                                            <div class="unit unit-lg-horizontal offset-top-30">
-                                                <div class="unit-left"><img src="view/componentes/images/user-03.jpg" width="140" height="140" alt="lago chapo" class="img-responsive center-block"></div>
-                                                <div class="unit-body">
-                                                    <h5>Barbara Zuloaga </h5>
-                                                    <p class="offset-top-10">Hola! Soy Barbara y estoy disponible para resolver tus dudas.</p>
-                                                </div>
-                                            </div>
-                                            <div class="offset-top-30"><a href="#" style="padding: 12px 40px;" class="btn btn-base">Llamar</a>
                                             </div>
                                         </div>
                                     </div>
