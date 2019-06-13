@@ -163,23 +163,6 @@
                                     </div>
                                     <div class="cell-md-12 offset-top-40">
                                         <div class="well">
-                                            <h3>Vendedora</h3>
-                                            <div class="unit unit-lg-horizontal offset-top-30">
-                                                <div class="unit-left"><img src="view/componentes/images/user-03.jpg" width="140" height="140" alt="lago chapo" class="img-responsive center-block"></div>
-                                                <div class="unit-body">
-                                                    <h5>Barbara Zuloaga </h5>
-                                                    <p class="offset-top-10">Hola! Soy Barbara y estoy disponible para resolver tus dudas.</p>
-                                                </div>
-                                            </div>
-                                            <div class="offset-top-30"><a href="#" style="padding: 12px 40px;" class="btn btn-base">Llamar</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="cell-md-12 offset-top-50">
-                                        <hr>
-                                    </div>
-                                    <div class="cell-md-12 offset-top-40">
-                                        <div class="well">
                                             <h3>Siguenos</h3>
                                             <ul class="list-inline offset-top-30">
                                                 <li><a href="https://www.facebook.com/parcelasdechile/" class="icon icon-sm text-white fa-facebook"></a></li>
