@@ -1,7 +1,7 @@
 <!-- Page-->
     <div class="page text-center">
        
-        <!-- Page Header-->
+        <!-- HEADER -->
         
         <header class="page-header">
             <!-- RD Navbar-->
@@ -52,7 +52,9 @@
         <!-- Page Content-->
         
         <main class="page-content">
-           
+                  
+                   <!-- Page Content-->
+
             <section class="bg-gray-lighter">
                 <div class="shell text-left">
                     <ol class="breadcrumb">
@@ -64,12 +66,18 @@
                 </div>
             </section>
             
+                    <!-- PROYECTO EL VOLANTIN DE LA QUEBRADA-->
+
             <section class="section-top-70 section-bottom-80">
                 <div class="shell text-md-left product">
                     <div class="range">
                         <div class="cell-md-8">
-                            <div><a href="#" class="label label-primary">VI Región</a></div>
-                            <h2 class="offset-top-50">Volantín de la Quebrada
+                <div><a href="#" class="label label-primary">VI Región</a></div>  
+                   
+                                  <!-- GALERIA E INTRODUCCION AL PROYECTO-->
+       
+                    <section id="galeriavolantin">
+                                <h2 class="offset-top-50">Volantín de la Quebrada
                                 <br>"Venta en verde"</h2>
                             <br>
                             
@@ -90,26 +98,44 @@
 
 
                             </div>
-
-                            <p class="offset-top-40 text-bold text-base">" Por qué tenemos el país más lindo del mundo, creemos que deberías elegir Parcelas de Chile."</p>
+                                 <p class="offset-top-40 text-bold text-base">" Por qué tenemos el país más lindo del mundo, creemos que deberías elegir Parcelas de Chile."</p>
 
                             <p class="offset-top-20">Marchihue en la Provincia de Cardenal Caro (Región del Libertador General Bernardo O'Higgins) es un lugar en Chile a 86 millas (o 138 km) al suroeste de Santiago.</p>
                             <p>Con alrededor de 7.557 habitantes, Marchigüe se dedica fundamentalmente a las actividades agrícolas, ganaderas y silvícolas, destacando las numerosos viñedos como la Viña Montes, Concha y Toro, La Estampa, entre otras.</p>
+                </section>
                             <hr>
+                            
+                                    <!-- CARPETA DE VENTA-->
+
+                         <section id="carpetadeventa">
                             <h2 class="offset-top-50">Carpeta de venta</h2>
+<iframe src="https://cdn.flipsnack.com/widget/v2/widget.html?hash=f1na70y8h" width="100%" height="480" seamless="seamless" scrolling="no" frameBorder="0" allowFullScreen></iframe>
+                         </section>
+                           <hr>
+                                   <!-- PLANO DEL PROYECTO-->
 
-                            <iframe src="https://cdn.flipsnack.com/widget/v2/widget.html?hash=fdzuluk7e" width="100%" height="480" seamless="seamless" scrolling="no" frameBorder="0" allowFullScreen></iframe>
-                            <hr>
-                            <h2 class="offset-top-50">Parcelación <br>"Valores venta en verde"</h2>
-
-
-                            <img src="view/componentes/img/Proyectos/mirador_alcones/plano/plano.png" width="886" height="520" alt="volantin de la quebrada" class="img-responsive center-block offset-top-40">
                        
-                            <hr>
-                            <div class="row">
-                                <div class="col-xs-6 text-left"><a href="lagochapo.php" class="btn btn-primary btn-icon btn-icon btn-icon-left"><span class="icon fa-angle-left"></span><span class="text text-regular veil reveal-xs-inline">Proyecto previo</span></a></div>
+                           <section id="planovolantin">
+                                <h2 class="offset-top-50">Parcelación <br>"Valores venta en verde"</h2>
+                            <img src="view/componentes/img/Proyectos/mirador_alcones/plano/plano.png" width="886" height="520" alt="volantin de la quebrada" class="img-responsive center-block offset-top-40">
+                           </section>
+                           <hr>
+                           
+                                   <!-- PLANO 360-->
 
-                                <div class="col-xs-6 text-right"><a href="lagochapo.php" class="btn btn-primary btn-icon btn-icon btn-icon-right"><span class="text text-regular veil reveal-xs-inline">Siguiente proyecto</span><span class="icon fa-angle-right"></span></a></div>
+                            <section id="panovolantin">
+                                <h2 class="offset-top-50">Tour 360º</h2>
+                                <br>
+                                <iframe src="https://app.lapentor.com/sphere/el-volantin-de-la-quebrada" frameborder="0" width="100%" height="400px" scrolling="no" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" oallowfullscreen="true" msallowfullscreen="true"></iframe>
+                            </section>
+                            <hr>
+                            
+                                    <!-- BOTONES SIGUIENTE PROYECTO-->
+
+                            <div class="row">
+                                <div class="col-xs-6 text-left"><a href="lagochapo" class="btn btn-primary btn-icon btn-icon btn-icon-left"><span class="icon fa-angle-left"></span><span class="text text-regular veil reveal-xs-inline">Proyecto previo</span></a></div>
+
+                                <div class="col-xs-6 text-right"><a href="miradoralcones" class="btn btn-primary btn-icon btn-icon btn-icon-right"><span class="text text-regular veil reveal-xs-inline">Siguiente proyecto</span><span class="icon fa-angle-right"></span></a></div>
                             </div>
                             <hr>
                         </div>
@@ -224,8 +250,8 @@
                 </div>
             </section>
         </main>
-
-        <!-- Page Footer-->
+        
+        <!-- FOOTER-->
 
         <section class="rd-parallax">
 
@@ -306,9 +332,13 @@
             </div>
 
         </footer>
+        
         <!-- Global Mailform Output-->
+        
         <div id="form-output-global" class="snackbars"></div>
+        
         <!-- PhotoSwipe Gallery-->
+        
         <div tabindex="-1" role="dialog" aria-hidden="true" class="pswp">
             <div class="pswp__bg"></div>
             <div class="pswp__scroll-wrap">
@@ -358,9 +388,7 @@
                             <br>
                             <h6>Solo con invitación*</h6>
                             <hr>
-                            <li>Desde los 5000 Mt2</li>
-                            <li>Posibilidad de luz y agua</li>
-                            <li>Rol único</li>
+                             <img src="view/componentes/img/logo/logo_transparente.png" width="230" height="86" alt="Parcelas de chile">
                     </div>
                     </div>
                     <div class="col-md-6">

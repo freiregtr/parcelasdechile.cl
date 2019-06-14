@@ -1,6 +1,8 @@
 <!-- Page-->
 <div class="page text-center">
-    <!-- Page Header-->
+   
+    <!-- HEADER -->
+    
     <header class="page-header">
         <!-- RD Navbar-->
         <div class="rd-navbar-wrap">
@@ -50,8 +52,11 @@
             </nav>
         </div>
     </header>
+    
     <!-- Page Content-->
+    
     <main class="page-content">
+       
         <section class="bg-gray-lighter">
             <div class="shell text-left">
                 <ol class="breadcrumb">
@@ -116,7 +121,11 @@
                 <div class="range">
                     <div class="cell-md-8">
                         <div><a href="#" class="label label-primary">X Región</a></div>
-                        <h2 class="offset-top-50">Lago Chapo</h2>
+                        
+                         <!-- GALERIA E INTRODUCCION AL PROYECTO-->
+                         
+                      <section id="galerialagochapo">
+                            <h2 class="offset-top-50">Lago Chapo</h2>
                         <br>
                         <!-- Slick Carousel-->
                         <div data-photo-swipe-gallery="gallery" data-arrows="true" data-loop="false" data-dots="false" data-swipe="true" data-items="1" class="slick-slider">
@@ -137,15 +146,30 @@
                             deberías elegir Parcelas de Chile."</p>
                         <p class="offset-top-20">Una de las maravillas que podemos encontrar en la zona del Lago Chapo es
                             Disfrutar navegando con la hermosa vista del Volcán Calbuco, y si eres de las personas que ama la naturaleza deberías recorrer los senderos de la Reserva Nacional Llanquihue, una de las más lindas de Chile.</p>
+                  </section>
                         <hr>
+                        
+                          <!-- PLANO DEL PROYECTO-->
+
+                     <section id="planolagochapo">
+                             
                         <h2 class="offset-top-50">Parcelación</h2>
                         <img src="view/componentes/img/proyectos/lago_chapo/plano/plano.png" width="886" height="520" alt="lago chapo" class="img-responsive center-block offset-top-40">
+                     </section>
                         <hr>
-                        <h2 class="offset-top-50">Tour 360º </h2>
+                        
+                    <!-- PLANO 360-->
+                        
+                     <section id="360lagochapo">
+                            <h2 class="offset-top-50">Tour 360º </h2>
                         <br>
                         <div class="asincronico">
                         </div>
+               </section>
                         <hr>
+                        
+                         <!-- BOTONES SIGUIENTE PROYECTO-->
+                        
                         <div class="row">
                             <div class="col-xs-6 text-left"><a href="#" class="btn btn-primary btn-icon btn-icon btn-icon-left"><span class="icon fa-angle-left"></span><span class="text text-regular veil reveal-xs-inline">Proyecto previo</span></a></div>
                             <div class="col-xs-6 text-right"><a href="#" class="btn btn-primary btn-icon btn-icon btn-icon-right"><span class="text text-regular veil reveal-xs-inline">Siguiente proyecto</span><span class="icon fa-angle-right"></span></a></div>
@@ -230,7 +254,9 @@
             </div>
         </section>
     </main>
-    <!-- Page Footer-->
+    
+    <!-- FOOTER -->
+    
     <section class="rd-parallax">
         <div data-speed="0.4" data-type="media" data-url="view/componentes/img/h2.jpg" class="rd-parallax-layer"></div>
         <div data-speed="0" data-type="html" class="rd-parallax-layer">
@@ -243,6 +269,7 @@
             </div>
         </div>
     </section>
+    
     <footer class="page-footer">
         <div class="shell section-70 section-lg-120">
             <div class="range text-md-left">
@@ -290,9 +317,13 @@
             </div>
         </div>
     </footer>
+    
     <!-- Global Mailform Output-->
+    
     <div id="form-output-global" class="snackbars"></div>
+    
     <!-- PhotoSwipe Gallery-->
+    
     <div tabindex="-1" role="dialog" aria-hidden="true" class="pswp">
         <div class="pswp__bg"></div>
         <div class="pswp__scroll-wrap">
