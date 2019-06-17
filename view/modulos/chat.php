@@ -40,7 +40,7 @@
                                 </div>
                             </li>
                             <li>
-                                <div class="chats-button" data-contact="+56993590127" data-available='{"monday":"09:00-19:00", "tuesday":"09:00-19:00", "wednesday":"09:00-19:00", "thursday":"09:00-19:00", "friday":"09:00-19:00","saturday": "10:00-15:00" }'>
+                                <div class="chats-button" data-contact="+56993590127" data-available='{"monday":"10:00-20:00", "tuesday":"10:00-20:00", "wednesday":"10:00-20:00", "thursday":"10:00-20:00", "friday":"10:00-20:00","saturday": "10:00-19:00" }'>
                                     <div class="chatsUserImg">
                                         <img src="view/componentes/img/chat/mauricio.jpg" alt="" class="img-fluid">
                                     </div>
@@ -53,7 +53,7 @@
                             </li>
 
                             <li>
-                                <div class="chats-button" data-contact="+56988214958" data-available='{"monday":"09:00-19:00", "tuesday":"09:00-19:00", "wednesday":"09:00-19:00", "thursday":"09:00-19:00", "friday":"09:00-19:00","saturday": "10:00-15:00" }'>
+                                <div class="chats-button" data-contact="+56988214958" data-available='{"monday":"10:00-20:00", "tuesday":"10:00-20:00", "wednesday":"10:00-20:00", "thursday":"10:00-20:00", "friday":"10:00-20:00","saturday": "10:00-19:00" }'>
                                     <div class="chatsUserImg">
                                         <img src="view/componentes/img/chat/margarita.jpg" alt="" class="img-fluid">
                                     </div>
