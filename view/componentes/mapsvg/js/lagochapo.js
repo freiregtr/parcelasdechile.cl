@@ -1,5 +1,5 @@
 jQuery(document).ready(function() {
-  jQuery("#mapsvg").mapSvg({
+  jQuery("#lagochapoSvg").mapSvg({
     width: 705.14,
     height: 732.22,
     colors: {
