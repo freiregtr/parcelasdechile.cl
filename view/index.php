@@ -20,6 +20,18 @@
     <!-- UA Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-137903886-1"></script>
 
+        <!-- Prueba MAPSVG -->
+
+    <link href="/view/componentes/mapsvg/css/mapsvg.css" rel="stylesheet">
+    <link href="/view/componentes/mapsvg/css/nanoscroller.css" rel="stylesheet">
+
+<!-- <script src="/view/componentes/mapsvg/js/jquery.js"></script> -->
+
+    <script src="/view/componentes/mapsvg/js/jquery.mousewheel.min.js"></script>
+    <script src="/view/componentes/mapsvg/js/jquery.nanoscroller.min.js"></script>
+
+    <script src="/view/componentes/mapsvg/js/mapsvg.min.js"></script>
+
     <script>
         window.dataLayer = window.dataLayer || [];
 
