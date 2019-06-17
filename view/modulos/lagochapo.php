@@ -107,7 +107,7 @@
 
                             <h2 class="offset-top-50">Parcelación</h2>
 
-                            <div id="mapsvg"></div>
+                            <div id="lagochapoSvg"></div>
 
 
 

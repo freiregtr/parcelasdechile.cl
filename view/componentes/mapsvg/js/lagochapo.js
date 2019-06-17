@@ -1,5 +1,5 @@
-JQuery(document).ready(function() {
-    JQuery("#mapsvg").mapSvg({
+jQuery(document).ready(function() {
+  jQuery("#mapsvg").mapSvg({
     width: 705.14,
     height: 732.22,
     colors: {
@@ -462,9 +462,8 @@ JQuery(document).ready(function() {
       min: 0,
       max: false
     },
-    source: "view/componentes/mapsvg/maps/user-uploads/Lago_Chapo.svg",
+    source: "/view/componentes/mapsvg/maps/user-uploads/Lago_Chapo.svg",
     title: "Lago_Chapo",
     responsive: true
   });
 });
-;
