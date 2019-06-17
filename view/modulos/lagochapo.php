@@ -71,71 +71,25 @@
         <section class="section-top-70 section-bottom-80">
             <div class="shell text-md-left product">
                 <div class="range">
-                    <div class="cell-md-8">
+                    <div class="cell-md-12">
                         <div><a href="#" class="label label-primary">X Región</a></div>
 
                         <!-- GALERIA E INTRODUCCION AL PROYECTO-->
-
-                        <section id="galerialagochapo">
-                            <h2 class="offset-top-50">Lago Chapo</h2>
-                            <br>
-                            <!-- Slick Carousel-->
-                            <div data-photo-swipe-gallery="gallery" data-arrows="true" data-loop="false" data-dots="false" data-swipe="true" data-items="1" class="slick-slider">
-
-                                <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/proyectos/lago_chapo/1.jpg" class="thumbnail-variant-2"><img src="view/componentes/img/proyectos/lago_chapo/1.jpg" alt="lago chapo" width="886" height="520" class="img-responsive"></a></div>
-
-                                <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/proyectos/lago_chapo/2.jpg" class="thumbnail-variant-2"><img src="view/componentes/img/proyectos/lago_chapo/2.jpg" alt="lago chapo" width="886" height="520" class="img-responsive"></a></div>
-
-                                <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/proyectos/lago_chapo/3.jpg" class="thumbnail-variant-2"><img src="view/componentes/img/proyectos/lago_chapo/3.jpg" alt="lago chapo" width="886" height="520" class="img-responsive"></a></div>
-
-                                <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/proyectos/lago_chapo/4.jpg" class="thumbnail-variant-2"><img src="view/componentes/img/proyectos/lago_chapo/4.jpg" alt="lago chapo" width="886" height="520" class="img-responsive"></a></div>
-
-                                <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/proyectos/lago_chapo/6.jpg" class="thumbnail-variant-2"><img src="view/componentes/img/proyectos/lago_chapo/6.jpg" alt="lago chapo" width="886" height="520" class="img-responsive"></a></div>
-
-                                <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/proyectos/lago_chapo/7.jpg" class="thumbnail-variant-2"><img src="view/componentes/img/proyectos/lago_chapo/7.jpg" alt="lago chapo" width="886" height="520" class="img-responsive"></a></div>
-                            </div>
-                            <p class="offset-top-40 text-bold text-base">" Por qué tenemos el país más lindo del mundo, creemos que
+                        
+                        <section>
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <h2 class="offset-top-50">Lago <br> Chapo</h2>
+                                        <p class="offset-top-40 text-bold text-base">" Por qué tenemos el país más lindo del mundo, creemos que
                                 deberías elegir Parcelas de Chile."</p>
                             <p class="offset-top-20">Una de las maravillas que podemos encontrar en la zona del Lago Chapo es
                                 Disfrutar navegando con la hermosa vista del Volcán Calbuco, y si eres de las personas que ama la naturaleza deberías recorrer los senderos de la Reserva Nacional Llanquihue, una de las más lindas de Chile.</p>
-                        </section>
-                        <hr>
-
-                        <!-- PLANO DEL PROYECTO-->
-
-                        <section id="planolagochapo">
-
-                            <h2 class="offset-top-50">Parcelación</h2>
-
-                            <div id="lagochapoSvg"></div>
-
-
-
-                        </section>
-                        <hr>
-
-                        <!-- PLANO 360-->
-
-                        <section id="360lagochapo">
-                            <h2 class="offset-top-50">Tour 360º </h2>
-                            <br>
-                            <div class="asincronico">
-                            </div>
-                        </section>
-                        <hr>
-
-                        <!-- BOTONES SIGUIENTE PROYECTO-->
-
-                        <div class="row">
-                            <div class="col-xs-6 text-left"><a href="#" class="btn btn-primary btn-icon btn-icon btn-icon-left"><span class="icon fa-angle-left"></span><span class="text text-regular veil reveal-xs-inline">Proyecto previo</span></a></div>
-                            <div class="col-xs-6 text-right"><a href="#" class="btn btn-primary btn-icon btn-icon btn-icon-right"><span class="text text-regular veil reveal-xs-inline">Siguiente proyecto</span><span class="icon fa-angle-right"></span></a></div>
-                        </div>
-                        <hr>
-                    </div>
-                    <div class="cell-md-4">
-                        <aside>
-                            <div class="range">
-                                <div class="cell-md-12 offset-top-40">
+                                        
+                                    </div>
+                                    <div class="col-md-6">
+                                       
+                                       <div class="cell-md-12 offset-top-40">
                                     <div class="cell-md-5 cell-lg-4 cell-md-preffix-1">
                                         <div class="well well-base">
                                             <h3>¿Te llamamos?</h3>
@@ -159,10 +113,56 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="cell-md-12 offset-top-50">
-                                    <hr>
+                                        
+                                        
+                                    </div>
                                 </div>
-                                <div class="cell-md-12 offset-top-40">
+                            </div>
+                        </section>
+                        <hr>
+
+                        <section id="galerialagochapo">
+                           <div class="container">
+                               <div class="row">
+                                   <div class="col-md-12">
+                            <br>
+                            <!-- Slick Carousel-->
+                            <div data-photo-swipe-gallery="gallery" data-arrows="true" data-loop="false" data-dots="false" data-swipe="true" data-items="1" class="slick-slider">
+
+                                <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/proyectos/lago_chapo/1.jpg" class="thumbnail-variant-2"><img src="view/componentes/img/proyectos/lago_chapo/1.jpg" alt="lago chapo"  class="img-responsive"></a></div>
+
+                                <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/proyectos/lago_chapo/2.jpg" class="thumbnail-variant-2"><img src="view/componentes/img/proyectos/lago_chapo/2.jpg" alt="lago chapo" class="img-responsive"></a></div>
+
+                                <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/proyectos/lago_chapo/3.jpg" class="thumbnail-variant-2"><img src="view/componentes/img/proyectos/lago_chapo/3.jpg" alt="lago chapo"  class="img-responsive"></a></div>
+
+                                <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/proyectos/lago_chapo/4.jpg" class="thumbnail-variant-2"><img src="view/componentes/img/proyectos/lago_chapo/4.jpg" alt="lago chapo" class="img-responsive"></a></div>
+
+                                <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/proyectos/lago_chapo/6.jpg" class="thumbnail-variant-2"><img src="view/componentes/img/proyectos/lago_chapo/6.jpg" alt="lago chapo" class="img-responsive"></a></div>
+
+                                <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/proyectos/lago_chapo/7.jpg" class="thumbnail-variant-2"><img src="view/componentes/img/proyectos/lago_chapo/7.jpg" alt="lago chapo" class="img-responsive"></a></div>
+                            </div>
+                                   </div>
+                               </div>
+                           </div>
+                           
+                        </section>
+                        <hr>
+
+                        <!-- PLANO DEL PROYECTO-->
+
+                        <section id="planolagochapo">
+
+                         <div class="container">
+                             <div class="row">
+                                 <div class="col-md-6">
+                                        <h2 class="offset-top-50">Parcelación</h2>
+
+                            <div id="lagochapoSvg"></div>
+
+                                 </div>
+                                 
+                                 <div class="col-md-6">
+                                       <div class="cell-md-12 offset-top-40">
                                     <div class="well">
                                         <h3>Siguenos</h3>
                                         <ul class="list-inline offset-top-30">
@@ -187,25 +187,42 @@
                                         </form>
                                     </div>
                                 </div>
-                                <div class="cell-md-12 offset-top-50">
-                                    <hr>
-                                </div>
-                                <div class="cell-md-12 offset-top-40">
-                                    <!-- RD Calendar-->
-                                    <div class="rd-calendar">
-                                        <div class="rdc-table">
-                                            <div class="rdc-panel text-center"><a class="rdc-prev"></a><a class="rdc-next"></a>
-                                                <div class="h5 text-white">
-                                                    <div class="rdc-month reveal-inline-block"></div><span></span>
-                                                    <div class="rdc-fullyear reveal-inline-block"></div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+ 
+                                 </div>
+                             </div>
+                         </div>
+
+
+                        </section>
+                        <hr>
+
+                        <!-- PLANO 360-->
+
+                        <section id="360lagochapo">
+                          <div class="container">
+                              <div class="row">
+                                  <div class="col-md-12">
+                                        <h2 class="offset-top-50">Tour 360º </h2>
+                            <br>
+                            <div class="asincronico">
                             </div>
-                        </aside>
+                                  </div>
+                              </div>
+                          </div>
+                        </section>
+                        <hr>
+
+                        <!-- BOTONES SIGUIENTE PROYECTO-->
+
+                       <div class="container">
+                            <div class="row">
+                            <div class="col-xs-6 text-left"><a href="#" class="btn btn-primary btn-icon btn-icon btn-icon-left"><span class="icon fa-angle-left"></span><span class="text text-regular veil reveal-xs-inline">Proyecto previo</span></a></div>
+                            <div class="col-xs-6 text-right"><a href="#" class="btn btn-primary btn-icon btn-icon btn-icon-right"><span class="text text-regular veil reveal-xs-inline">Siguiente proyecto</span><span class="icon fa-angle-right"></span></a></div>
+                        </div>
+                       </div>
+                        <hr>
                     </div>
+                   
                 </div>
             </div>
         </section>

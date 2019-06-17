@@ -69,82 +69,24 @@
         <!-- PROYECTO EL VOLANTIN DE LA QUEBRADA-->
 
         <section class="section-top-70 section-bottom-80">
-            <div class="shell text-md-left product">
+        <div class="shell text-md-left product">
                 <div class="range">
-                    <div class="cell-md-8">
+                    <div class="cell-md-12">
                         <div><a href="#" class="label label-primary">VI Región</a></div>
 
-                        <!-- GALERIA E INTRODUCCION AL PROYECTO-->
-
-                        <section id="galeriavolantin">
+                        <!-- INTRODUCCION AL PROYECTO-->
+                    <section>
+                         <div class="container">
+                         <div class="row">
+                             <div class="col-md-6">
                             <h2 class="offset-top-50">Volantín de la Quebrada
                                 <br>"Venta en verde"</h2>
                             <br>
-
-                            <!-- Slick Carousel-->
-
-                            <div data-photo-swipe-gallery="gallery" data-arrows="true" data-loop="false" data-dots="false" data-swipe="true" data-items="1" class="slick-slider">
-
-                                <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/proyectos/mirador_alcones/malcones.jpg" class="thumbnail-variant-2"><img src="view/componentes/img/proyectos/mirador_alcones/malcones.jpg" alt="Volantin de la quebrada" width="886" height="520" class="img-responsive"></a></div>
-
-                                <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/proyectos/mirador_alcones/1.jpg" class="thumbnail-variant-2"><img src="view/componentes/img/proyectos/mirador_alcones/1.jpg" alt="Volantin de la quebrada" width="886" height="520" class="img-responsive"></a></div>
-
-                                <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/proyectos/mirador_alcones/2.jpg" class="thumbnail-variant-2"><img src="view/componentes/img/proyectos/mirador_alcones/2.jpg" alt="Volantin de la quebrada" width="886" height="520" class="img-responsive"></a></div>
-
-
-                                <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/Proyectos/mirador_alcones/4.jpg" class="thumbnail-variant-2"><img src="view/componentes/img/proyectos/mirador_alcones/4.jpg" alt="Volantin de la quebrada" width="886" height="520" class="img-responsive"></a></div>
-
-                                <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/proyectos/mirador_alcones/5.jpg" class="thumbnail-variant-2"><img src="view/componentes/img/proyectos/mirador_alcones/5.jpg" alt="Volantin de la quebrada" width="886" height="520" class="img-responsive"></a></div>
-
-
-                            </div>
-                            <p class="offset-top-40 text-bold text-base">" Por qué tenemos el país más lindo del mundo, creemos que deberías elegir Parcelas de Chile."</p>
-
-                            <p class="offset-top-20">Marchihue en la Provincia de Cardenal Caro (Región del Libertador General Bernardo O'Higgins) es un lugar en Chile a 86 millas (o 138 km) al suroeste de Santiago.</p>
-                            <p>Con alrededor de 7.557 habitantes, Marchigüe se dedica fundamentalmente a las actividades agrícolas, ganaderas y silvícolas, destacando las numerosos viñedos como la Viña Montes, Concha y Toro, La Estampa, entre otras.</p>
-                        </section>
-                        <hr>
-
-                        <!-- CARPETA DE VENTA-->
-
-                        <section id="carpetadeventa">
-                            <h2 class="offset-top-50">Carpeta de venta</h2>
-                            <iframe src="https://cdn.flipsnack.com/widget/v2/widget.html?hash=f1na70y8h" width="100%" height="480" seamless="seamless" scrolling="no" frameBorder="0" allowFullScreen></iframe>
-                        </section>
-                        <hr>
-                        <!-- PLANO DEL PROYECTO-->
-
-
-                        <section id="planovolantin">
-                            <h2 class="offset-top-50">Parcelación <br>"Valores venta en verde"</h2>
-                            <div id="volantinSvg"></div>
-
-                        </section>
-                        <hr>
-
-                        <!-- PLANO 360-->
-
-                        <section id="panovolantin">
-                            <h2 class="offset-top-50">Tour 360º</h2>
-                            <br>
-                            <iframe src="https://app.lapentor.com/sphere/el-volantin-de-la-quebrada" frameborder="0" width="100%" height="400px" scrolling="no" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" oallowfullscreen="true" msallowfullscreen="true"></iframe>
-                        </section>
-                        <hr>
-
-                        <!-- BOTONES SIGUIENTE PROYECTO-->
-
-                        <div class="row">
-                            <div class="col-xs-6 text-left"><a href="lagochapo" class="btn btn-primary btn-icon btn-icon btn-icon-left"><span class="icon fa-angle-left"></span><span class="text text-regular veil reveal-xs-inline">Proyecto previo</span></a></div>
-
-                            <div class="col-xs-6 text-right"><a href="miradoralcones" class="btn btn-primary btn-icon btn-icon btn-icon-right"><span class="text text-regular veil reveal-xs-inline">Siguiente proyecto</span><span class="icon fa-angle-right"></span></a></div>
-                        </div>
-                        <hr>
-                    </div>
-                    <div class="cell-md-4">
-                        <aside>
-                            <div class="range">
-                                <div class="cell-md-12 offset-top-40">
-                                    <div class="cell-md-5 cell-lg-4 cell-md-preffix-1">
+                               <p class="offset-top-40 text-bold text-base">" Por qué tenemos el país más lindo del mundo, creemos que deberías elegir Parcelas de Chile."</p>
+                            <p class="offset-top-20">Marchihue en la Provincia de Cardenal Caro (Región del Libertador General Bernardo O'Higgins) es un lugar en Chile a 138 km al suroeste de Santiago.</p>
+                             </div>
+                             <div class="col-md-6">
+                                <div class="cell-md-5 cell-lg-4 cell-md-preffix-1">
                                         <div class="well well-base">
                                             <h3>¿Te llamamos?</h3>
                                             <form class="offset-top-30 text-left">
@@ -166,39 +108,66 @@
                                             </form>
                                         </div>
                                     </div>
-                                    <div class="cell-md-12 offset-top-50">
-                                        <hr>
-                                    </div>
-                                    <br>
-                                    <h3>Otros Proyectos</h3>
-                                    <div class="offset-top-40">
-                                        <!-- Post-->
-                                        <div class="post-blog-thumbnail unit unit-sm-horizontal unit-md-vertical text-sm-left unit-lg-horizontal">
-                                            <div class="unit-left"><a href="lagochapo"><img src="view/componentes/img/lcc.jpg" width="184" height="139" alt="lago chapo"></a></div>
-                                            <div class="unit-body">
-                                                <h6><a href="lagochapo" class="text-base text-bold">Lago Chapo</a></h6>
-                                                <div class="small offset-top-7"><a href="lagochapo" class="text-gray">Puerto Montt</a>
-                                                </div>
-                                            </div>
+                             </div>
+                         </div>
+                     </div>
+                    </section>
+                    <hr>
+                     
+                     <!-- Slick Carousel-->
+                     
+                    <section>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                                       <br>
+                                        <div data-photo-swipe-gallery="gallery" data-arrows="true" data-loop="false" data-dots="false" data-swipe="true" data-items="1" class="slick-slider">
+
+                                            <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/proyectos/mirador_alcones/malcones.jpg" class="thumbnail-variant-2"><img src="view/componentes/img/proyectos/mirador_alcones/malcones.jpg" alt="Volantin de la quebrada" class="img-responsive"></a></div>
+
+                                            <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/proyectos/mirador_alcones/1.jpg" class="thumbnail-variant-2"><img src="view/componentes/img/proyectos/mirador_alcones/1.jpg" alt="Volantin de la quebrada"class="img-responsive"></a></div>
+
+                                            <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/proyectos/mirador_alcones/2.jpg" class="thumbnail-variant-2"><img src="view/componentes/img/proyectos/mirador_alcones/2.jpg" alt="Volantin de la quebrada" class="img-responsive"></a></div>
+
+
+                                            <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/Proyectos/mirador_alcones/4.jpg" class="thumbnail-variant-2"><img src="view/componentes/img/proyectos/mirador_alcones/4.jpg" alt="Volantin de la quebrada" class="img-responsive"></a></div>
+
+                                            <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/proyectos/mirador_alcones/5.jpg" class="thumbnail-variant-2"><img src="view/componentes/img/proyectos/mirador_alcones/5.jpg" alt="Volantin de la quebrada"  class="img-responsive"></a></div>
+
+
                                         </div>
-                                    </div>
-                                    <div class="offset-top-30">
-                                        <!-- Post-->
-                                        <div class="post-blog-thumbnail unit unit-sm-horizontal unit-md-vertical text-sm-left unit-lg-horizontal">
-                                            <div class="unit-left"><a href="blog-single-post.html"><img src="view/componentes/img/mhc.jpg" width="184" height="139" alt="lago chapo"></a></div>
-                                            <div class="unit-body">
-                                                <h6><a href="miradoralcones.html" class="text-base text-bold">Volantín de la Quebrada</a></h6>
-                                                <div class="small offset-top-7">
-                                                    <a href="miradoralcones.html" class="text-gray">La Quebrada</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="cell-md-12 offset-top-50">
-                                    <hr>
-                                </div>
-                                <div class="cell-md-12 offset-top-40">
+                        </div>
+                    </div>
+                </div>
+            </section>
+                        <hr>
+
+                        <!-- CARPETA DE VENTA-->
+
+                    <section id="carpetadeventa">
+                          <div class="container">
+                              <div class="row">
+                                  <div class="col-md-12">
+                                        <h2 class="offset-top-50">Carpeta de venta</h2>
+                                        <br>
+                            <iframe src="https://cdn.flipsnack.com/widget/v2/widget.html?hash=f1na70y8h" width="100%" height="480" seamless="seamless" scrolling="no" frameBorder="0" allowFullScreen></iframe>
+                                  </div>
+                              </div>
+                          </div>
+                        </section>
+                        <hr>
+                        <!-- PLANO DEL PROYECTO-->
+                        
+                    <section id="planovolantin">
+                           <div class="container">
+                               <div class="row">
+                                   <div class="col-md-6">
+                                        <h2 class="offset-top-50">Parcelación <br>"Valores venta en verde"</h2>
+                            
+                            <div id="lagochapoSvg"></div>
+                                   </div>
+                                   <div class="col-md-6">
+                                      <div class="cell-md-12 offset-top-40">
                                     <div class="well">
                                         <h3>Siguenos</h3>
                                         <ul class="list-inline offset-top-30">
@@ -228,24 +197,40 @@
                                     </div>
 
                                 </div>
-                                <div class="cell-md-12 offset-top-50">
-                                    <hr>
-                                </div>
-                                <div class="cell-md-12 offset-top-40">
-                                    <!-- RD Calendar-->
-                                    <div class="rd-calendar">
-                                        <div class="rdc-table">
-                                            <div class="rdc-panel text-center"><a class="rdc-prev"></a><a class="rdc-next"></a>
-                                                <div class="h5 text-white">
-                                                    <div class="rdc-month reveal-inline-block"></div><span></span>
-                                                    <div class="rdc-fullyear reveal-inline-block"></div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </aside>
+                         
+                                       
+                                       
+                                   </div>
+                               </div>
+                           </div>
+
+                        </section>
+                        <hr>
+
+                        <!-- PLANO 360-->
+
+                        <section id="panovolantin">
+                           <div class="container">
+                               <div class="row">
+                                   <div class="col-md-12">
+                                        <h2 class="offset-top-50">Tour 360º</h2>
+                            <br>
+                            <iframe src="https://app.lapentor.com/sphere/el-volantin-de-la-quebrada" frameborder="0" width="100%" height="600px" scrolling="no" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" oallowfullscreen="true" msallowfullscreen="true"></iframe>
+                                   </div>
+                               </div>
+                           </div>
+                        </section>
+                        <hr>
+
+                        <!-- BOTONES SIGUIENTE PROYECTO-->
+
+                     <div class="container">
+                            <div class="row">
+                            <div class="col-xs-6 text-left"><a href="lagochapo" class="btn btn-primary btn-icon btn-icon btn-icon-left"><span class="icon fa-angle-left"></span><span class="text text-regular veil reveal-xs-inline">Proyecto previo</span></a></div>
+
+                            <div class="col-xs-6 text-right"><a href="miradoralcones" class="btn btn-primary btn-icon btn-icon btn-icon-right"><span class="text text-regular veil reveal-xs-inline">Siguiente proyecto</span><span class="icon fa-angle-right"></span></a></div>
+                        </div>
+                     </div>
                     </div>
                 </div>
             </div>
