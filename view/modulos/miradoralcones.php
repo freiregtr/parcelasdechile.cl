@@ -117,7 +117,8 @@
 
                         <section id="planovolantin">
                             <h2 class="offset-top-50">Parcelación <br>"Valores venta en verde"</h2>
-                            <img src="view/componentes/img/proyectos/mirador_alcones/plano/plano.png" width="886" height="520" alt="volantin de la quebrada" class="img-responsive center-block offset-top-40">
+                            <div id="volantinSvg"></div>
+
                         </section>
                         <hr>
 
