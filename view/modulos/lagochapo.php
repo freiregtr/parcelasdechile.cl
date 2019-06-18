@@ -67,8 +67,8 @@
                 </ol>
             </div>
         </section>
-        
-         <!-- PROYECTO LAGO CHAPO-->
+
+        <!-- PROYECTO LAGO CHAPO-->
 
         <section class="section-top-70 section-bottom-80">
             <div class="shell text-md-left product">
@@ -77,184 +77,159 @@
                         <div><a href="#" class="label label-primary">X Región</a></div>
 
                         <!-- INTRODUCCION AL PROYECTO-->
-                        
+
                         <section>
                             <div class="container">
                                 <div class="row">
                                     <div class="col-md-6">
                                         <h2 class="offset-top-50">Lago <br> Chapo</h2>
                                         <p class="offset-top-40 text-bold text-base">" Por qué tenemos el país más lindo del mundo, creemos que
-                                deberías elegir Parcelas de Chile."</p>
-                            <p class="offset-top-20">Una de las maravillas que podemos encontrar en la zona del Lago Chapo es
-                                Disfrutar navegando con la hermosa vista del Volcán Calbuco, y si eres de las personas que ama la naturaleza deberías recorrer los senderos de la Reserva Nacional Llanquihue, una de las más lindas de Chile.</p>
+                                            deberías elegir Parcelas de Chile."</p>
+                                        <p class="offset-top-20">Una de las maravillas que podemos encontrar en la zona del Lago Chapo es
+                                            Disfrutar navegando con la hermosa vista del Volcán Calbuco, y si eres de las personas que ama la naturaleza deberías recorrer los senderos de la Reserva Nacional Llanquihue, una de las más lindas de Chile.</p>
                                     </div>
                                     <br>
-                                          <!-- FORMULARIO-->
+                                    <!-- FORMULARIO-->
 
-                                   
+
                                     <div class="col-md-6">
-                                    <div>
-                                        <div class="well well-base">
-                                            <h3>¿Te llamamos?</h3>
-                                            <form class="offset-top-30 text-left">
-                                                <div class="form-group">
-                                                    <label class="form-label-static form-label-outside">Nombre Completo</label>
-                                                    <input type="text" name="name" data-constraints="@Required" class="form-control">
-                                                </div>
-                                                <div class="form-group">
-                                                    <label class="form-label-static form-label-outside">Correo Electrónico</label>
-                                                    <input type="text" name="name" data-constraints="@Required" class="form-control">
-                                                </div>
-                                                <div class="form-group">
-                                                    <label class="form-label-static form-label-outside">Teléfono</label>
-                                                    <input type="text" name="name" data-constraints="@Required" class="form-control">
-                                                </div>
-                                                <div class="offset-top-10">
-                                                    <button class="btn btn-block btn-primary">Enviar</button>
-                                                </div>
-                                            </form>
+                                        <div>
+                                            <div class="well well-base">
+                                                <h3>¿Te llamamos?</h3>
+                                                <form class="offset-top-30 text-left">
+                                                    <div class="form-group">
+                                                        <label class="form-label-static form-label-outside">Nombre Completo</label>
+                                                        <input type="text" name="name" data-constraints="@Required" class="form-control">
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label class="form-label-static form-label-outside">Correo Electrónico</label>
+                                                        <input type="text" name="name" data-constraints="@Required" class="form-control">
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label class="form-label-static form-label-outside">Teléfono</label>
+                                                        <input type="text" name="name" data-constraints="@Required" class="form-control">
+                                                    </div>
+                                                    <div class="offset-top-10">
+                                                        <button class="btn btn-block btn-primary">Enviar</button>
+                                                    </div>
+                                                </form>
+                                            </div>
                                         </div>
-                                    </div>
                                     </div>
                                 </div>
                             </div>
                         </section>
                         <hr>
-                          <!-- FIN INTRODUCCION-->
-                          
+                        <!-- FIN INTRODUCCION-->
+
                         <!-- GALERIA DE IMAGENES-->
 
                         <section id="galerialagochapo">
-                           <div class="container">
-                               <div class="row">
-                                   <div class="col-md-12">
-                            <br>
-                            <div data-photo-swipe-gallery="gallery" data-arrows="true" data-loop="false" data-dots="false" data-swipe="true" data-items="1" class="slick-slider">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <br>
+                                        <div data-photo-swipe-gallery="gallery" data-arrows="true" data-loop="false" data-dots="false" data-swipe="true" data-items="1" class="slick-slider">
 
-                                <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/proyectos/lago_chapo/1.jpg" class="thumbnail-variant-2"><img src="view/componentes/img/proyectos/lago_chapo/1.jpg" alt="lago chapo"  class="img-responsive"></a></div>
+                                            <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/proyectos/lago_chapo/1.jpg" class="thumbnail-variant-2"><img src="view/componentes/img/proyectos/lago_chapo/1.jpg" alt="lago chapo" class="img-responsive"></a></div>
 
-                                <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/proyectos/lago_chapo/2.jpg" class="thumbnail-variant-2"><img src="view/componentes/img/proyectos/lago_chapo/2.jpg" alt="lago chapo" class="img-responsive"></a></div>
+                                            <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/proyectos/lago_chapo/2.jpg" class="thumbnail-variant-2"><img src="view/componentes/img/proyectos/lago_chapo/2.jpg" alt="lago chapo" class="img-responsive"></a></div>
 
-                                <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/proyectos/lago_chapo/3.jpg" class="thumbnail-variant-2"><img src="view/componentes/img/proyectos/lago_chapo/3.jpg" alt="lago chapo"  class="img-responsive"></a></div>
+                                            <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/proyectos/lago_chapo/3.jpg" class="thumbnail-variant-2"><img src="view/componentes/img/proyectos/lago_chapo/3.jpg" alt="lago chapo" class="img-responsive"></a></div>
 
-                                <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/proyectos/lago_chapo/4.jpg" class="thumbnail-variant-2"><img src="view/componentes/img/proyectos/lago_chapo/4.jpg" alt="lago chapo" class="img-responsive"></a></div>
+                                            <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/proyectos/lago_chapo/4.jpg" class="thumbnail-variant-2"><img src="view/componentes/img/proyectos/lago_chapo/4.jpg" alt="lago chapo" class="img-responsive"></a></div>
 
-                                <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/proyectos/lago_chapo/6.jpg" class="thumbnail-variant-2"><img src="view/componentes/img/proyectos/lago_chapo/6.jpg" alt="lago chapo" class="img-responsive"></a></div>
+                                            <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/proyectos/lago_chapo/6.jpg" class="thumbnail-variant-2"><img src="view/componentes/img/proyectos/lago_chapo/6.jpg" alt="lago chapo" class="img-responsive"></a></div>
 
-                                <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/proyectos/lago_chapo/7.jpg" class="thumbnail-variant-2"><img src="view/componentes/img/proyectos/lago_chapo/7.jpg" alt="lago chapo" class="img-responsive"></a></div>
+                                            <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/proyectos/lago_chapo/7.jpg" class="thumbnail-variant-2"><img src="view/componentes/img/proyectos/lago_chapo/7.jpg" alt="lago chapo" class="img-responsive"></a></div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                                   </div>
-                               </div>
-                           </div>
-                           
+
                         </section>
-                         <hr>
-                             
-                              <!-- FIN GALERIA DE IMAGENES-->
+                        <hr>
+
+                        <!-- FIN GALERIA DE IMAGENES-->
 
                         <!-- PLANO DEL PROYECTO-->
 
                         <section id="planolagochapo">
 
-                         <div class="container">
-                             <div class="row">
-                                 <div class="col-md-6">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-12">
                                         <h2 class="offset-top-50">Parcelación</h2>
                                         <br>
-                                        
-                             <!-- VALORES-->
+
+                                        <!-- VALORES-->
                                         <div class="row">
-                <div class="col-md-4">
-                    <div class="valor1"><p>$10.990.000</p></div>
-                </div>
-               <div class="col-md-4">
-                    <div class="valor2"><p>$16.990.000</p></div>
-               </div>
-               <div class="col-md-4">
-                    <div  class="valor3"><p>$12.990.000</p></div>  
-               </div>                                      </div>
-                            <br>
-
-                            <div id="lagochapoSvg"></div>
-
-                                 </div>
-                                 <br>
-                                 
-                                       <!-- NEWSLETTER-->
-
-                                
-                                 <div class="col-md-6">
-                                      
-                                    <div class="well">
-                                        <h3>Siguenos</h3>
-                                        <ul class="list-inline offset-top-30">
-                                            <li><a href="https://www.facebook.com/parcelasdechile/" class="icon icon-sm text-white fa-facebook"></a></li>
-                                            <li><a href="https://www.youtube.com/channel/UC1A2lJ21pRVisDtocb1gTTA/" class="icon icon-sm text-white fa-youtube"></a></li>
-                                            <li><a href="https://www.instagram.com/parcelasdechile/" class="icon icon-sm text-white fa-instagram"></a></li>
-                                            <li><a href="https://cl.linkedin.com/company/parcelasdechile/" class="icon icon-sm text-white fa-linkedin"></a></li>
-                                        </ul>
-                                    </div>
-                                    <div class="well well-dark">
-                                        <h3>Newsletter</h3>
-                                        <p class="offset-tpo-10 offset-md-top-25 text-gray">¡Regístrate para las mejores ofertas en
-                                            parcelas!</p>
-                                        <!-- RD Mailform-->
-                                        <form data-form-output="form-output-global" data-form-type="subscribe" method="post" action="bat/rd-mailform.php" class="offset-top-20 rd-mailform form-inline-custom">
-                                            <div class="form-group">
-                                                <label for="subscribe-email" class="form-label">mail
-                                                </label>
-                                                <input id="subscribe-email" type="email" name="email" data-constraints="@Required @Email" class="form-control form-control-white">
+                                            <div class="col-md-4">
+                                                <div class="valor1">
+                                                    <p>$10.990.000</p>
+                                                </div>
                                             </div>
-                                            <button type="submit" class="btn btn-primary">Enviar</button>
-                                        </form>
-                                    </div>
-                             
-                                     
-                                 </div>
-                                 
-                                 <!-- FIN NEWSLETTER-->
+                                            <div class="col-md-4">
+                                                <div class="valor2">
+                                                    <p>$16.990.000</p>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <div class="valor3">
+                                                    <p>$12.990.000</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <br>
 
-                             </div>
-                         </div>
+                                        <div id="lagochapoSvg"></div>
+
+                                    </div>
+                                    <br>
+
+                                    
+
+                                </div>
+                            </div>
                         </section>
                         <hr>
 
                         <!-- PLANO 360-->
 
                         <section id="360lagochapo">
-                          <div class="container">
-                              <div class="row">
-                                  <div class="col-md-12">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-12">
                                         <h2 class="offset-top-50">Tour 360º </h2>
-                            <br>
-                            <div class="asincronico">
+                                        <br>
+                                        <div class="asincronico">
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                                  </div>
-                              </div>
-                          </div>
                         </section>
                         <hr>
 
                         <!-- BOTONES SIGUIENTE PROYECTO-->
 
-                       <div class="container">
+                        <div class="container">
                             <div class="row">
-                            <div class="col-xs-6 text-left"><a href="miradoralcones" class="btn btn-primary btn-icon btn-icon btn-icon-left"><span class="icon fa-angle-left"></span><span class="text text-regular veil reveal-xs-inline">Proyecto previo</span></a></div>
-                            
-                            <div class="col-xs-6 text-right"><a href="miradoralcones" class="btn btn-primary btn-icon btn-icon btn-icon-right"><span class="text text-regular veil reveal-xs-inline">Siguiente proyecto</span><span class="icon fa-angle-right"></span></a></div>
+                                <div class="col-xs-6 text-left"><a href="miradoralcones" class="btn btn-primary btn-icon btn-icon btn-icon-left"><span class="icon fa-angle-left"></span><span class="text text-regular veil reveal-xs-inline">Proyecto previo</span></a></div>
+
+                                <div class="col-xs-6 text-right"><a href="miradoralcones" class="btn btn-primary btn-icon btn-icon btn-icon-right"><span class="text text-regular veil reveal-xs-inline">Siguiente proyecto</span><span class="icon fa-angle-right"></span></a></div>
+                            </div>
                         </div>
-                       </div>
-                       
-                         <!-- FIN BOTONES SIGUIENTE PROYECTO-->
-                       
+
+                        <!-- FIN BOTONES SIGUIENTE PROYECTO-->
+
                         <hr>
                     </div>
                 </div>
             </div>
         </section>
-        
+
     </main>
-    
+
     <!-- FIN MAIN-->
 
     <!-- PARALAX -->
@@ -271,24 +246,24 @@
             </div>
         </div>
     </section>
-    
-      <!-- FOOTER-->
+
+    <!-- FOOTER-->
 
     <footer class="page-footer">
-       
+
         <div class="shell section-70 section-lg-120">
             <div class="range text-md-left">
-              
+
                 <!-- SOBRE NOSOTROS-->
-               
+
                 <div class="cell-md-4">
                     <h5>Sobre Nosotros</h5>
                     <p class="offset-top-20 offset-md-top-36">Por qué tenemos el país más lindo del mundo, creemos que deberías
                         elegir invertir con Parcelas de Chile.</p>
                 </div>
-                
-                  <!-- OTROS SITIOS-->
-                
+
+                <!-- OTROS SITIOS-->
+
                 <div class="cell-md-4">
                     <h5>Sitios Relacionados</h5>
                     <div class="post-blog-sm offset-top-20 offset-md-top-36"><a href="blog-single-post.html" class="text-bold">www.agenciapanoramica.cl</a>
@@ -298,9 +273,9 @@
                         <p class="small offset-top-7">Agencia de viajes</p>
                     </div>
                 </div>
-                
-                  <!-- TAGS-->
-                
+
+                <!-- TAGS-->
+
                 <div class="cell-md-4">
                     <h5>Tags</h5>
                     <ul class="offset-top-20 offset-md-top-36 group">
@@ -310,28 +285,28 @@
                 </div>
             </div>
         </div>
-        
+
         <div class="shell">
             <hr>
         </div>
-        
+
         <!-- PRIVACITY-->
-        
+
         <div class="shell section-30">
             <div class="range range-xs-middle">
-              
+
                 <!-- REDES SOCIALES-->
-               
+
                 <div class="cell-sm-6 text-sm-right cell-sm-push-1">
                     <ul class="list-inline">
-                       
+
                         <li><a href="https://www.facebook.com/parcelasdechile/" target="_blank" class="icon icon-sm text-primary fa-facebook"></a></li>
                         <li><a href="https://www.youtube.com/channel/UC1A2lJ21pRVisDtocb1gTTA/" target="_blank" class="icon icon-sm text-primary fa-youtube"></a></li>
                         <li><a href="https://www.linkedin.com/company/parcelasdechile?originalSubdomain=cl/" target="_blank" class="icon icon-sm text-primary fa-linkedin"></a></li>
                         <li><a href="https://instagram.com/parcelasdechile/" target="_blank" class="icon icon-sm text-primary fa-instagram"></a></li>
                     </ul>
                 </div>
-                
+
                 <div class="cell-sm-6 text-sm-left offset-top-20 offset-sm-top-0">
                     <p class="small">Parcelas de Chile &#169;<span id="copyright-year"></span>
                     </p>
