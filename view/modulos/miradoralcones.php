@@ -49,11 +49,9 @@
         </div>
     </header>
 
-    <!-- Page Content-->
+     <!-- INICIO MAIN-->
 
     <main class="page-content">
-
-        <!-- Page Content-->
 
         <section class="bg-gray-lighter">
             <div class="shell text-left">
@@ -85,8 +83,11 @@
                                <p class="offset-top-40 text-bold text-base">" Por qué tenemos el país más lindo del mundo, creemos que deberías elegir Parcelas de Chile."</p>
                             <p class="offset-top-20">Marchihue en la Provincia de Cardenal Caro (Región del Libertador General Bernardo O'Higgins) es un lugar en Chile a 138 km al suroeste de Santiago.</p>
                              </div>
+                             <br>
+                             
+                                 <!-- FORMULARIO-->
+
                              <div class="col-md-6">
-                                <div class="cell-md-5 cell-lg-4 cell-md-preffix-1">
                                         <div class="well well-base">
                                             <h3>¿Te llamamos?</h3>
                                             <form class="offset-top-30 text-left">
@@ -107,15 +108,21 @@
                                                 </div>
                                             </form>
                                         </div>
-                                    </div>
+                             
+                                    
+                                    
+                                    
+                                    
+                                    
                              </div>
                          </div>
                      </div>
                     </section>
                     <hr>
-                     
-                     <!-- Slick Carousel-->
-                     
+                       <!-- FIN INTRODUCCION-->
+                       
+                        <!-- GALERIA DE IMAGENES-->
+                        
                     <section>
                 <div class="container">
                     <div class="row">
@@ -141,6 +148,8 @@
                 </div>
             </section>
                         <hr>
+                        
+                     <!-- FIN GALERIA DE IMAGENES-->
 
                         <!-- CARPETA DE VENTA-->
 
@@ -156,6 +165,9 @@
                           </div>
                         </section>
                         <hr>
+                        
+                       <!-- FIN CARPETA DE VENTA-->
+                       
                         <!-- PLANO DEL PROYECTO-->
                         
                     <section id="planovolantin">
@@ -163,11 +175,31 @@
                                <div class="row">
                                    <div class="col-md-6">
                                         <h2 class="offset-top-50">Parcelación <br>"Valores venta en verde"</h2>
+                                        <br>
+                                                     <!-- VALORES-->
+                                        <div class="row">
+                <div class="col-md-3">
+                    <div class="valor1"><p>$7.990.000</p></div>
+                </div>
+                <div class="col-md-3">
+                    <div  class="valor4"><p>$8.990.000</p></div>  
+               </div>
+                <div class="col-md-3">
+                    <div  class="valor3"><p>$9.990.000</p></div>  
+               </div> 
+               <div class="col-md-3">
+                    <div class="valor2"><p>$10.990.000</p></div>
+               </div>
+              
+                                                      </div>
+                                                      <br>
                             
-                            <div id="lagochapoSvg"></div>
+                            <div id="volantinSvg"></div>
+                                  
                                    </div>
+                                   <br>
                                    <div class="col-md-6">
-                                      <div class="cell-md-12 offset-top-40">
+                                    
                                     <div class="well">
                                         <h3>Siguenos</h3>
                                         <ul class="list-inline offset-top-30">
@@ -196,7 +228,7 @@
 
                                     </div>
 
-                                </div>
+                   
                          
                                        
                                        
@@ -228,7 +260,7 @@
                             <div class="row">
                             <div class="col-xs-6 text-left"><a href="lagochapo" class="btn btn-primary btn-icon btn-icon btn-icon-left"><span class="icon fa-angle-left"></span><span class="text text-regular veil reveal-xs-inline">Proyecto previo</span></a></div>
 
-                            <div class="col-xs-6 text-right"><a href="miradoralcones" class="btn btn-primary btn-icon btn-icon btn-icon-right"><span class="text text-regular veil reveal-xs-inline">Siguiente proyecto</span><span class="icon fa-angle-right"></span></a></div>
+                            <div class="col-xs-6 text-right"><a href="lagochapo" class="btn btn-primary btn-icon btn-icon btn-icon-right"><span class="text text-regular veil reveal-xs-inline">Siguiente proyecto</span><span class="icon fa-angle-right"></span></a></div>
                         </div>
                      </div>
                     </div>
@@ -237,7 +269,9 @@
         </section>
     </main>
 
-    <!-- FOOTER-->
+    <!-- FIN MAIN-->
+
+    <!-- PARALAX -->
 
     <section class="rd-parallax">
 
@@ -255,6 +289,8 @@
 
     </section>
 
+   <!-- FOOTER-->
+   
     <footer class="page-footer">
 
         <div class="shell section-70 section-lg-120">
