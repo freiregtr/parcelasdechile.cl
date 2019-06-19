@@ -182,7 +182,7 @@
                                         </div>
                                         <br>
 
-                                        <div id="lagochapoSvg"></div>
+                                        <div class="row" id="lagochapoSvg"></div>
 
                                     </div>
                                     <br>
