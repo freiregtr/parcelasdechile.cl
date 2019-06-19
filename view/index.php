@@ -87,6 +87,8 @@
 
     <!-- mapa lago chapo -->
     <script src="view/componentes/mapsvg/js/lagochapo.js"></script>
+    <script src="view/componentes/mapsvg/js/volantin.js"></script>
+
 </body>
 
 </html>
