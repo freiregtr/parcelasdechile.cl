@@ -181,17 +181,12 @@
                                             </div>
                                         </div>
                                         <br>
-
                                         <div class="row" id="lagochapoSvg"></div>
-
                                     </div>
                                     <div class="col-md-6">
                                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio ipsum delectus dignissimos nostrum, eaque magni vitae reprehenderit aspernatur porro nemo recusandae molestiae distinctio laborum veniam ab impedit ullam autem optio.</p>
                                     </div>
                                     <br>
-
-                                    
-
                                 </div>
                             </div>
                         </section>
