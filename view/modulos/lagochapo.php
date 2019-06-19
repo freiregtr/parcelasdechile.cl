@@ -158,7 +158,7 @@
 
                             <div class="container">
                                 <div class="row">
-                                    <div class="col-md-12">
+                                    <div class="col-md-6">
                                         <h2 class="offset-top-50">Parcelación</h2>
                                         <br>
 
@@ -184,6 +184,9 @@
 
                                         <div class="row" id="lagochapoSvg"></div>
 
+                                    </div>
+                                    <div class="col-md-6">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio ipsum delectus dignissimos nostrum, eaque magni vitae reprehenderit aspernatur porro nemo recusandae molestiae distinctio laborum veniam ab impedit ullam autem optio.</p>
                                     </div>
                                     <br>
 
