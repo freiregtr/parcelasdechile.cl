@@ -81,7 +81,6 @@
     <!-- Main Js -->
     <script src="view/componentes/plugin-chat/main.js"></script>
     <!-- js mapsvg -->
-    <script src="view/componentes/mapsvg/js/jquery.js"></script>
     <script src="view/componentes/mapsvg/js/jquery.mousewheel.min.js"></script>
     <script src="view/componentes/mapsvg/js/jquery.nanoscroller.min.js"></script>
     <script src="view/componentes/mapsvg/js/mapsvg.min.js"></script>
