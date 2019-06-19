@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es" class="wide smoothscroll wow-animation">
+
 <head>
     <title>Parcelas de Chile</title>
     <meta name="format-detection" content="telephone=no">
@@ -17,6 +18,7 @@
     <link rel="stylesheet" href="view/componentes/css/normalize.css">
     <!-- CSS Plugin Contacto -->
     <link rel="stylesheet" href="view/componentes/css/soch.css">
+    <!-- CSS mapsvg -->
     <link href="view/componentes/mapsvg/css/mapsvg.css" rel="stylesheet">
     <link href="view/componentes/mapsvg/css/nanoscroller.css" rel="stylesheet">
     <!-- UA Analytics -->
@@ -38,26 +40,28 @@
     <!-- Stylesheets-->
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="view/componentes/css/style.css">
-    
+
     <!--[if lt IE 10]>
     <div style="background: #212121; padding: 10px 0; box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3); clear: both; text-align:center; position: relative; z-index:1;"><a href="http://windows.microsoft.com/en-US/internet-explorer/"><img src="images/ie8-panel/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."></a></div>
     <script src="js/html5shiv.min.js"></script>
 		<![endif]-->
 </head>
+
 <body>
     <!-- carga de módulos -->
     <?php
-    if(isset($_GET["ruta"])){
-        if($_GET["ruta"] == "inicio"         ||
-        $_GET["ruta"] == "lagochapo"      ||
-        $_GET["ruta"] == "miradoralcones" ||
-        $_GET["ruta"] == "contacto"        )
-        {
-            include "modulos/".$_GET["ruta"].".php"; // se concatena la variable
-        }else{
+    if (isset($_GET["ruta"])) {
+        if (
+            $_GET["ruta"] == "inicio"         ||
+            $_GET["ruta"] == "lagochapo"      ||
+            $_GET["ruta"] == "miradoralcones" ||
+            $_GET["ruta"] == "contacto"
+        ) {
+            include "modulos/" . $_GET["ruta"] . ".php"; // se concatena la variable
+        } else {
             include "modulos/404.php";
         }
-    }else{
+    } else {
         include "modulos/inicio.php";
     }
     ?>
@@ -76,18 +80,13 @@
     <script src="view/componentes/plugin-chat/messengerChat.js"></script>
     <!-- Main Js -->
     <script src="view/componentes/plugin-chat/main.js"></script>
-            <!-- Prueba MAPSVG -->
+    <!-- js mapsvg -->
+    <script src="/parcelasdechile.cl/view/componentes/mapsvg/js/jquery.mousewheel.min.js"></script>
+    <script src="/parcelasdechile.cl/view/componentes/mapsvg/js/jquery.nanoscroller.min.js"></script>
+    <script src="/parcelasdechile.cl/view/componentes/mapsvg/js/mapsvg.min.js"></script>
 
-
-
-    <script src="view/componentes/mapsvg/js/jquery.mousewheel.min.js"></script>
-    <script src="view/componentes/mapsvg/js/jquery.nanoscroller.min.js"></script>
-
-    <script src="view/componentes/mapsvg/js/mapsvg.min.js"></script>
     <!-- mapa lago chapo -->
     <script src="view/componentes/mapsvg/js/lagochapo.js"></script>
-    <script src="view/componentes/mapsvg/js/volantin.js"></script>
 </body>
 
 </html>
-
