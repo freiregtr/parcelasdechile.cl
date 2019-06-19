@@ -1,36 +1,25 @@
 <!-- Page-->
 <div class="page text-center">
-
     <!-- HEADER -->
-
     <header class="page-header">
         <!-- RD Navbar-->
         <div class="rd-navbar-wrap">
             <nav data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fixed" data-md-device-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-static" data-lg-device-layout="rd-navbar-static" data-sm-stick-up-offset="150px" data-md-stick-up-offset="1px" data-lg-stick-up-offset="150px" class="rd-navbar">
-
-                <button data-rd-navbar-toggle=".rd-navbar-collapse" class="rd-navbar-collapse-toggle"><span></span></button>
-
                 <div class="rd-navbar-panel">
                     <!-- RD Navbar Panel-->
                     <div class="rd-navbar-inner">
                         <!-- RD Navbar Toggle-->
                         <button data-rd-navbar-toggle=".rd-navbar-nav-wrap" class="rd-navbar-toggle"><span></span></button>
-
                         <!-- RD Navbar Brand-->
                         <div class="rd-navbar-brand"><a href="inicio" class="brand-name"><img src="view/componentes/img/logo/logo_transparente.png" width="228" height="83" alt="Parcelas de chile"></a>
                         </div>
-
                         <div class="rd-navbar-contacts rd-navbar-collapse rd-navbar-collapse-2"><span>Póngase en contacto con nosotros</span>
                             <div><span class="icon fa-phone text-primary"></span><a href="callto:> +56958053609"></span><a>+56 9 5805 3609</a>
                             </div>
                         </div>
-
                     </div>
-
                 </div>
-
                 <div class="rd-navbar-nav-wrap">
-
                     <div class="rd-navbar-inner">
                         <!-- RD Navbar Nav-->
                         <ul class="rd-navbar-nav">
@@ -48,15 +37,11 @@
                         </ul>
                     </div>
                 </div>
-
             </nav>
         </div>
     </header>
-
     <!-- INICIO MAIN-->
-
     <main class="page-content">
-
         <section class="bg-gray-lighter">
             <div class="shell text-left">
                 <ol class="breadcrumb">
@@ -67,31 +52,25 @@
                 </ol>
             </div>
         </section>
-
         <!-- PROYECTO LAGO CHAPO-->
-
         <section class="section-top-70 section-bottom-80">
             <div class="shell text-md-left product">
                 <div class="range">
                     <div class="cell-md-12">
                         <div><a href="#" class="label label-primary">X Región</a></div>
-
                         <!-- INTRODUCCION AL PROYECTO-->
-
                         <section>
                             <div class="container">
                                 <div class="row">
                                     <div class="col-md-6">
-                                        <h2 class="offset-top-50">Lago <br> Chapo</h2>
+                                        <h2 class="offset-top-50">Lago Chapo</h2>
                                         <p class="offset-top-40 text-bold text-base">" Por qué tenemos el país más lindo del mundo, creemos que
                                             deberías elegir Parcelas de Chile."</p>
-                                        <p class="offset-top-20">Una de las maravillas que podemos encontrar en la zona del Lago Chapo es
-                                            Disfrutar navegando con la hermosa vista del Volcán Calbuco, y si eres de las personas que ama la naturaleza deberías recorrer los senderos de la Reserva Nacional Llanquihue, una de las más lindas de Chile.</p>
+                                        <p class="offset-top-20">Una de las maravillas que podemos encontrar en la zona del Lago Chapo es Disfrutar navegando con la hermosa vista del Volcán Calbuco, y si eres de las personas que ama la naturaleza deberías recorrer los senderos de la Reserva Nacional Llanquihue, una de las más lindas de Chile.</p>
+                                        <br>
                                     </div>
                                     <br>
                                     <!-- FORMULARIO-->
-
-
                                     <div class="col-md-6">
                                         <div>
                                             <div class="well well-base">
@@ -121,47 +100,33 @@
                         </section>
                         <hr>
                         <!-- FIN INTRODUCCION-->
-
                         <!-- GALERIA DE IMAGENES-->
-
                         <section id="galerialagochapo">
                             <div class="container">
                                 <div class="row">
                                     <div class="col-md-12">
                                         <br>
                                         <div data-photo-swipe-gallery="gallery" data-arrows="true" data-loop="false" data-dots="false" data-swipe="true" data-items="1" class="slick-slider">
-
                                             <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/proyectos/lago_chapo/1.jpg" class="thumbnail-variant-2"><img src="view/componentes/img/proyectos/lago_chapo/1.jpg" alt="lago chapo" class="img-responsive"></a></div>
-
                                             <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/proyectos/lago_chapo/2.jpg" class="thumbnail-variant-2"><img src="view/componentes/img/proyectos/lago_chapo/2.jpg" alt="lago chapo" class="img-responsive"></a></div>
-
                                             <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/proyectos/lago_chapo/3.jpg" class="thumbnail-variant-2"><img src="view/componentes/img/proyectos/lago_chapo/3.jpg" alt="lago chapo" class="img-responsive"></a></div>
-
                                             <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/proyectos/lago_chapo/4.jpg" class="thumbnail-variant-2"><img src="view/componentes/img/proyectos/lago_chapo/4.jpg" alt="lago chapo" class="img-responsive"></a></div>
-
                                             <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/proyectos/lago_chapo/6.jpg" class="thumbnail-variant-2"><img src="view/componentes/img/proyectos/lago_chapo/6.jpg" alt="lago chapo" class="img-responsive"></a></div>
-
                                             <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/proyectos/lago_chapo/7.jpg" class="thumbnail-variant-2"><img src="view/componentes/img/proyectos/lago_chapo/7.jpg" alt="lago chapo" class="img-responsive"></a></div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-
                         </section>
                         <hr>
-
                         <!-- FIN GALERIA DE IMAGENES-->
-
                         <!-- PLANO DEL PROYECTO-->
-
                         <section id="planolagochapo">
-
                             <div class="container">
                                 <div class="row">
                                     <div class="col-md-6">
                                         <h2 class="offset-top-50">Parcelación</h2>
                                         <br>
-
                                         <!-- VALORES-->
                                         <div class="row">
                                             <div class="col-md-4">
@@ -181,19 +146,18 @@
                                             </div>
                                         </div>
                                         <br>
-                                        <div class="row" id="lagochapoSvg"></div>
+                                         <p class="offset-top-20">Una de las maravillas que podemos encontrar en la zona del Lago Chapo es Disfrutar navegando con la hermosa vista del Volcán Calbuco, y si eres de las personas que ama la naturaleza deberías recorrer los senderos de la Reserva Nacional Llanquihue, una de las más lindas de Chile.</p>
                                     </div>
+                                    <!-- ID PLANO -->
                                     <div class="col-md-6">
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio ipsum delectus dignissimos nostrum, eaque magni vitae reprehenderit aspernatur porro nemo recusandae molestiae distinctio laborum veniam ab impedit ullam autem optio.</p>
+                                        <div class="row" id="lagochapoSvg"></div>
                                     </div>
                                     <br>
                                 </div>
                             </div>
                         </section>
                         <hr>
-
                         <!-- PLANO 360-->
-
                         <section id="360lagochapo">
                             <div class="container">
                                 <div class="row">
@@ -207,9 +171,7 @@
                             </div>
                         </section>
                         <hr>
-
                         <!-- BOTONES SIGUIENTE PROYECTO-->
-
                         <div class="container">
                             <div class="row">
                                 <div class="col-xs-6 text-left"><a href="miradoralcones" class="btn btn-primary btn-icon btn-icon btn-icon-left"><span class="icon fa-angle-left"></span><span class="text text-regular veil reveal-xs-inline">Proyecto previo</span></a></div>
@@ -217,21 +179,15 @@
                                 <div class="col-xs-6 text-right"><a href="miradoralcones" class="btn btn-primary btn-icon btn-icon btn-icon-right"><span class="text text-regular veil reveal-xs-inline">Siguiente proyecto</span><span class="icon fa-angle-right"></span></a></div>
                             </div>
                         </div>
-
                         <!-- FIN BOTONES SIGUIENTE PROYECTO-->
-
                         <hr>
                     </div>
                 </div>
             </div>
         </section>
-
     </main>
-
     <!-- FIN MAIN-->
-
     <!-- PARALAX -->
-
     <section class="rd-parallax">
         <div data-speed="0.4" data-type="media" data-url="view/componentes/img/h2.jpg" class="rd-parallax-layer"></div>
         <div data-speed="0" data-type="html" class="rd-parallax-layer">
@@ -244,24 +200,16 @@
             </div>
         </div>
     </section>
-
     <!-- FOOTER-->
-
     <footer class="page-footer">
-
         <div class="shell section-70 section-lg-120">
             <div class="range text-md-left">
-
                 <!-- SOBRE NOSOTROS-->
-
                 <div class="cell-md-4">
                     <h5>Sobre Nosotros</h5>
-                    <p class="offset-top-20 offset-md-top-36">Por qué tenemos el país más lindo del mundo, creemos que deberías
-                        elegir invertir con Parcelas de Chile.</p>
+                    <p class="offset-top-20 offset-md-top-36">Por qué tenemos el país más lindo del mundo, creemos que deberías elegir invertir con Parcelas de Chile.</p>
                 </div>
-
                 <!-- OTROS SITIOS-->
-
                 <div class="cell-md-4">
                     <h5>Sitios Relacionados</h5>
                     <div class="post-blog-sm offset-top-20 offset-md-top-36"><a href="blog-single-post.html" class="text-bold">www.agenciapanoramica.cl</a>
@@ -271,9 +219,7 @@
                         <p class="small offset-top-7">Agencia de viajes</p>
                     </div>
                 </div>
-
                 <!-- TAGS-->
-
                 <div class="cell-md-4">
                     <h5>Tags</h5>
                     <ul class="offset-top-20 offset-md-top-36 group">
@@ -283,28 +229,21 @@
                 </div>
             </div>
         </div>
-
         <div class="shell">
             <hr>
         </div>
-
         <!-- PRIVACITY-->
-
         <div class="shell section-30">
             <div class="range range-xs-middle">
-
                 <!-- REDES SOCIALES-->
-
                 <div class="cell-sm-6 text-sm-right cell-sm-push-1">
                     <ul class="list-inline">
-
                         <li><a href="https://www.facebook.com/parcelasdechile/" target="_blank" class="icon icon-sm text-primary fa-facebook"></a></li>
                         <li><a href="https://www.youtube.com/channel/UC1A2lJ21pRVisDtocb1gTTA/" target="_blank" class="icon icon-sm text-primary fa-youtube"></a></li>
                         <li><a href="https://www.linkedin.com/company/parcelasdechile?originalSubdomain=cl/" target="_blank" class="icon icon-sm text-primary fa-linkedin"></a></li>
                         <li><a href="https://instagram.com/parcelasdechile/" target="_blank" class="icon icon-sm text-primary fa-instagram"></a></li>
                     </ul>
                 </div>
-
                 <div class="cell-sm-6 text-sm-left offset-top-20 offset-sm-top-0">
                     <p class="small">Parcelas de Chile &#169;<span id="copyright-year"></span>
                     </p>
@@ -312,13 +251,9 @@
             </div>
         </div>
     </footer>
-
     <!-- Global Mailform Output-->
-
     <div id="form-output-global" class="snackbars"></div>
-
     <!-- PhotoSwipe Gallery-->
-
     <div tabindex="-1" role="dialog" aria-hidden="true" class="pswp">
         <div class="pswp__bg"></div>
         <div class="pswp__scroll-wrap">

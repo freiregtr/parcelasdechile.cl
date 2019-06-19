@@ -1,25 +1,18 @@
 <!-- Page-->
 <div class="page text-center">
-
     <!-- HEADER -->
-
     <header class="page-header">
         <!-- RD Navbar-->
         <div class="rd-navbar-wrap">
             <nav data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fixed" data-md-device-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-static" data-lg-device-layout="rd-navbar-static" data-sm-stick-up-offset="150px" data-md-stick-up-offset="1px" data-lg-stick-up-offset="150px" class="rd-navbar">
-
-                <button data-rd-navbar-toggle=".rd-navbar-collapse" class="rd-navbar-collapse-toggle"><span></span></button>
-
                 <div class="rd-navbar-panel">
                     <!-- RD Navbar Panel-->
                     <div class="rd-navbar-inner">
                         <!-- RD Navbar Toggle-->
                         <button data-rd-navbar-toggle=".rd-navbar-nav-wrap" class="rd-navbar-toggle"><span></span></button>
-
                         <!-- RD Navbar Brand-->
                         <div class="rd-navbar-brand"><a href="inicio" class="brand-name"><img src="view/componentes/img/logo/logo_transparente.png" width="228" height="83" alt="Parcelas de chile"></a>
                         </div>
-
                         <div class="rd-navbar-contacts rd-navbar-collapse rd-navbar-collapse-2"><span>Póngase en contacto con nosotros</span>
                             <div><span class="icon fa-phone text-primary"></span><a href="callto:> +56958053609"></span><a>+56 9 5805 3609</a>
                             </div>
@@ -44,15 +37,11 @@
                         </ul>
                     </div>
                 </div>
-
             </nav>
         </div>
     </header>
-
-     <!-- INICIO MAIN-->
-
+    <!-- INICIO MAIN-->
     <main class="page-content">
-
         <section class="bg-gray-lighter">
             <div class="shell text-left">
                 <ol class="breadcrumb">
@@ -63,31 +52,26 @@
                 </ol>
             </div>
         </section>
-
         <!-- PROYECTO EL VOLANTIN DE LA QUEBRADA-->
-
         <section class="section-top-70 section-bottom-80">
-        <div class="shell text-md-left product">
+            <div class="shell text-md-left product">
                 <div class="range">
                     <div class="cell-md-12">
                         <div><a href="#" class="label label-primary">VI Región</a></div>
-
                         <!-- INTRODUCCION AL PROYECTO-->
-                    <section>
-                         <div class="container">
-                         <div class="row">
-                             <div class="col-md-6">
-                            <h2 class="offset-top-50">Volantín de la Quebrada
-                                <br>"Venta en verde"</h2>
-                            <br>
-                               <p class="offset-top-40 text-bold text-base">" Por qué tenemos el país más lindo del mundo, creemos que deberías elegir Parcelas de Chile."</p>
-                            <p class="offset-top-20">Marchihue en la Provincia de Cardenal Caro (Región del Libertador General Bernardo O'Higgins) es un lugar en Chile a 138 km al suroeste de Santiago.</p>
-                             </div>
-                             <br>
-                             
-                                 <!-- FORMULARIO-->
-
-                             <div class="col-md-6">
+                        <section>
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <h2 class="offset-top-50">Volantín de la Quebrada
+                                            <br>"Venta en verde"</h2>
+                                        <br>
+                                        <p class="offset-top-40 text-bold text-base">" Por qué tenemos el país más lindo del mundo, creemos que deberías elegir Parcelas de Chile."</p>
+                                        <p class="offset-top-20">Marchihue en la Provincia de Cardenal Caro (Región del Libertador General Bernardo O'Higgins) es un lugar en Chile a 138 km al suroeste de Santiago.</p>
+                                    </div>
+                                    <br>
+                                    <!-- FORMULARIO-->
+                                    <div class="col-md-6">
                                         <div class="well well-base">
                                             <h3>¿Te llamamos?</h3>
                                             <form class="offset-top-30 text-left">
@@ -107,140 +91,118 @@
                                                     <button class="btn btn-block btn-primary">Enviar</button>
                                                 </div>
                                             </form>
-                                        </div>      
-                             </div>
-                         </div>
-                     </div>
-                    </section>
-                    <hr>
-                       <!-- FIN INTRODUCCION-->
-                       
-                        <!-- GALERIA DE IMAGENES-->
-                        
-                    <section>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12">
-                                       <br>
-                                        <div data-photo-swipe-gallery="gallery" data-arrows="true" data-loop="false" data-dots="false" data-swipe="true" data-items="1" class="slick-slider">
-
-                                            <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/proyectos/mirador_alcones/malcones.jpg" class="thumbnail-variant-2"><img src="view/componentes/img/proyectos/mirador_alcones/malcones.jpg" alt="Volantin de la quebrada" class="img-responsive"></a></div>
-
-                                            <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/proyectos/mirador_alcones/1.jpg" class="thumbnail-variant-2"><img src="view/componentes/img/proyectos/mirador_alcones/1.jpg" alt="Volantin de la quebrada"class="img-responsive"></a></div>
-
-                                            <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/proyectos/mirador_alcones/2.jpg" class="thumbnail-variant-2"><img src="view/componentes/img/proyectos/mirador_alcones/2.jpg" alt="Volantin de la quebrada" class="img-responsive"></a></div>
-
-
-                                            <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/Proyectos/mirador_alcones/4.jpg" class="thumbnail-variant-2"><img src="view/componentes/img/proyectos/mirador_alcones/4.jpg" alt="Volantin de la quebrada" class="img-responsive"></a></div>
-
-                                            <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/proyectos/mirador_alcones/5.jpg" class="thumbnail-variant-2"><img src="view/componentes/img/proyectos/mirador_alcones/5.jpg" alt="Volantin de la quebrada"  class="img-responsive"></a></div>
-
-
                                         </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
                         <hr>
-                        
-                     <!-- FIN GALERIA DE IMAGENES-->
-
+                        <!-- FIN INTRODUCCION-->
+                        <!-- GALERIA DE IMAGENES-->
+                        <section>
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <br>
+                                        <div data-photo-swipe-gallery="gallery" data-arrows="true" data-loop="false" data-dots="false" data-swipe="true" data-items="1" class="slick-slider">
+                                            <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/proyectos/mirador_alcones/malcones.jpg" class="thumbnail-variant-2"><img src="view/componentes/img/proyectos/mirador_alcones/malcones.jpg" alt="Volantin de la quebrada" class="img-responsive"></a></div>
+                                            <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/proyectos/mirador_alcones/1.jpg" class="thumbnail-variant-2"><img src="view/componentes/img/proyectos/mirador_alcones/1.jpg" alt="Volantin de la quebrada" class="img-responsive"></a></div>
+                                            <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/proyectos/mirador_alcones/2.jpg" class="thumbnail-variant-2"><img src="view/componentes/img/proyectos/mirador_alcones/2.jpg" alt="Volantin de la quebrada" class="img-responsive"></a></div>
+                                            <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/Proyectos/mirador_alcones/4.jpg" class="thumbnail-variant-2"><img src="view/componentes/img/proyectos/mirador_alcones/4.jpg" alt="Volantin de la quebrada" class="img-responsive"></a></div>
+                                            <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/proyectos/mirador_alcones/5.jpg" class="thumbnail-variant-2"><img src="view/componentes/img/proyectos/mirador_alcones/5.jpg" alt="Volantin de la quebrada" class="img-responsive"></a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <hr>
+                        <!-- FIN GALERIA DE IMAGENES-->
                         <!-- CARPETA DE VENTA-->
-
-                    <section id="carpetadeventa">
-                          <div class="container">
-                              <div class="row">
-                                  <div class="col-md-12">
+                        <section id="carpetadeventa">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-12">
                                         <h2 class="offset-top-50">Carpeta de venta</h2>
                                         <br>
-                            <iframe src="https://cdn.flipsnack.com/widget/v2/widget.html?hash=f1na70y8h" width="100%" height="480" seamless="seamless" scrolling="no" frameBorder="0" allowFullScreen></iframe>
-                                  </div>
-                              </div>
-                          </div>
+                                        <iframe src="https://cdn.flipsnack.com/widget/v2/widget.html?hash=f1na70y8h" width="100%" height="480" seamless="seamless" scrolling="no" frameBorder="0" allowFullScreen></iframe>
+                                    </div>
+                                </div>
+                            </div>
                         </section>
                         <hr>
-                        
-                       <!-- FIN CARPETA DE VENTA-->
-                       
+                        <!-- FIN CARPETA DE VENTA-->
                         <!-- PLANO DEL PROYECTO-->
-                        
-                    <section id="planovolantin">
-                           <div class="container">
-                               <div class="row">
-                                   <div class="col-md-6">
+                        <section id="planovolantin">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-6">
                                         <h2 class="offset-top-50">Parcelación <br>"Valores venta en verde"</h2>
                                         <br>
-                                                     <!-- VALORES-->
+                                        <!-- VALORES-->
                                         <div class="row">
-                                    <div class="col-md-3">
-                                        <div class="valor1"><p>$7.990.000</p></div>
+                                            <div class="col-md-3">
+                                                <div class="valor1">
+                                                    <p>$7.990.000</p>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <div class="valor4">
+                                                    <p>$8.990.000</p>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <div class="valor3">
+                                                    <p>$9.990.000</p>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <div class="valor2">
+                                                    <p>$10.990.000</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <br>
+                                        <p class="offset-top-40 text-bold text-base">" Por qué tenemos el país más lindo del mundo, creemos que deberías elegir Parcelas de Chile."</p>
+                                        <p class="offset-top-20">Marchihue en la Provincia de Cardenal Caro (Región del Libertador General Bernardo O'Higgins) es un lugar en Chile a 138 km al suroeste de Santiago.</p>
                                     </div>
-                                    <div class="col-md-3">
-                                        <div  class="valor4"><p>$8.990.000</p></div>  
-                                   </div>
-                                    <div class="col-md-3">
-                                        <div  class="valor3"><p>$9.990.000</p></div>  
-                                   </div> 
-                                   <div class="col-md-3">
-                                        <div class="valor2"><p>$10.990.000</p></div>
-                                   </div>
-              
-                                                      </div>
-                                                      <br>
-                            
-                            <div class="row" id="volantinSvg"></div>
-                                  
-                                   </div>
-                                   <br>
-                                   <div class="col-md-6">
-                                    
-                               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem provident tempore nisi, aliquam. Velit earum, reprehenderit explicabo omnis, magnam cumque laborum iusto. Necessitatibus qui in doloremque perspiciatis nostrum corporis nihil!</p>
-                                       
-                                   </div>
-                               </div>
-                           </div>
-
+                                    <br>
+                                    <!-- ID PLANO -->
+                                    <div class="col-md-6">
+                                        <div class="row" id="volantinSvg"></div>
+                                    </div>
+                                </div>
+                            </div>
                         </section>
                         <hr>
-
                         <!-- PLANO 360-->
-
                         <section id="panovolantin">
-                           <div class="container">
-                               <div class="row">
-                                   <div class="col-md-12">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-12">
                                         <h2 class="offset-top-50">Tour 360º</h2>
-                            <br>
-                           <iframe src="https://app.lapentor.com/sphere/el-volantin-de-la-quebrada-1" frameborder="0" width="100%" height="600px" scrolling="no" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" oallowfullscreen="true" msallowfullscreen="true"></iframe>
-                                   </div>
-                               </div>
-                           </div>
+                                        <br>
+                                        <iframe src="https://app.lapentor.com/sphere/el-volantin-de-la-quebrada-1" frameborder="0" width="100%" height="600px" scrolling="no" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" oallowfullscreen="true" msallowfullscreen="true"></iframe>
+                                    </div>
+                                </div>
+                            </div>
                         </section>
                         <hr>
-
                         <!-- BOTONES SIGUIENTE PROYECTO-->
-
-                     <div class="container">
+                        <div class="container">
                             <div class="row">
-                            <div class="col-xs-6 text-left"><a href="lagochapo" class="btn btn-primary btn-icon btn-icon btn-icon-left"><span class="icon fa-angle-left"></span><span class="text text-regular veil reveal-xs-inline">Proyecto previo</span></a></div>
-
-                            <div class="col-xs-6 text-right"><a href="lagochapo" class="btn btn-primary btn-icon btn-icon btn-icon-right"><span class="text text-regular veil reveal-xs-inline">Siguiente proyecto</span><span class="icon fa-angle-right"></span></a></div>
+                                <div class="col-xs-6 text-left"><a href="lagochapo" class="btn btn-primary btn-icon btn-icon btn-icon-left"><span class="icon fa-angle-left"></span><span class="text text-regular veil reveal-xs-inline">Proyecto previo</span></a></div>
+                                <div class="col-xs-6 text-right"><a href="lagochapo" class="btn btn-primary btn-icon btn-icon btn-icon-right"><span class="text text-regular veil reveal-xs-inline">Siguiente proyecto</span><span class="icon fa-angle-right"></span></a></div>
+                            </div>
                         </div>
-                     </div>
                     </div>
                 </div>
             </div>
         </section>
     </main>
-
     <!-- FIN MAIN-->
-
     <!-- PARALAX -->
-
     <section class="rd-parallax">
-
         <div data-speed="0.4" data-type="media" data-url="view/componentes/img/h2.jpg" class="rd-parallax-layer"></div>
-
         <div data-speed="0" data-type="html" class="rd-parallax-layer">
             <div class="shell section-100 section-lg-top-220 section-lg-bottom-205 context-dark text-md-left">
                 <hr class="divider">
@@ -250,20 +212,14 @@
                 <a href="about.html" class="offset-top-50 btn btn-primary text-regular">Ver más</a>
             </div>
         </div>
-
     </section>
-
-   <!-- FOOTER-->
-   
+    <!-- FOOTER-->
     <footer class="page-footer">
-
         <div class="shell section-70 section-lg-120">
-
             <div class="range text-md-left">
                 <div class="cell-md-4">
                     <h5>Sobre Nosotros</h5>
-                    <p class="offset-top-20 offset-md-top-36">Por qué tenemos el país más lindo del mundo, creemos que deberías
-                        elegir invertir con Parcelas de Chile.</p>
+                    <p class="offset-top-20 offset-md-top-36">Por qué tenemos el país más lindo del mundo, creemos que deberías elegir invertir con Parcelas de Chile.</p>
                 </div>
                 <div class="cell-md-4">
                     <h5>Sitios Relacionados</h5>
@@ -281,50 +237,32 @@
                         <li><a href="blog.html" class="btn btn-tag">Chile</a></li>
                     </ul>
                 </div>
-
             </div>
-
         </div>
-
         <div class="shell">
             <hr>
         </div>
-
         <!-- PRIVACITY-->
-
         <div class="shell section-30">
-
             <div class="range range-xs-middle">
                 <div class="cell-sm-6 text-sm-right cell-sm-push-1">
                     <ul class="list-inline">
                         <li><a href="https://www.facebook.com/parcelasdechile/" target="_blank" class="icon icon-sm text-primary fa-facebook"></a></li>
-
                         <li><a href="https://www.youtube.com/channel/UC1A2lJ21pRVisDtocb1gTTA/" target="_blank" class="icon icon-sm text-primary fa-youtube"></a></li>
-
                         <li><a href="https://www.linkedin.com/company/parcelasdechile?originalSubdomain=cl/" target="_blank" class="icon icon-sm text-primary fa-linkedin"></a></li>
-
                         <li><a href="https://instagram.com/parcelasdechile/" target="_blank" class="icon icon-sm text-primary fa-instagram"></a></li>
-
                     </ul>
                 </div>
-
                 <div class="cell-sm-6 text-sm-left offset-top-20 offset-sm-top-0">
                     <p class="small">Parcelas de Chile &#169;<span id="copyright-year"></span>
                     </p>
                 </div>
-
             </div>
-
         </div>
-
     </footer>
-
     <!-- Global Mailform Output-->
-
     <div id="form-output-global" class="snackbars"></div>
-
     <!-- PhotoSwipe Gallery-->
-
     <div tabindex="-1" role="dialog" aria-hidden="true" class="pswp">
         <div class="pswp__bg"></div>
         <div class="pswp__scroll-wrap">
@@ -359,12 +297,10 @@
             </div>
         </div>
     </div>
-
     <div id="registerModal" role="dialog" class="modal fade">
         <div class="modal-dialog modal-lg">
             <!-- Modal content-->
             <div class="modal-content">
-
                 <div class="modal-body">
                     <div class="row">
                         <div class="col-md-6">
@@ -398,7 +334,6 @@
                         </div>
                     </div>
                     <div>
-
                     </div>
                 </div>
             </div>
