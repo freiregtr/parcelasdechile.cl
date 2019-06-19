@@ -188,39 +188,13 @@
                                                       </div>
                                                       <br>
                             
-                            <div id="volantinSvg"></div>
+                            <div class="row" id="volantinSvg"></div>
                                   
                                    </div>
                                    <br>
                                    <div class="col-md-6">
                                     
-                                    <div class="well">
-                                        <h3>Siguenos</h3>
-                                        <ul class="list-inline offset-top-30">
-                                            <li><a href="https://www.facebook.com/parcelasdechile/" class="icon icon-sm text-white fa-facebook"></a></li>
-                                            <li><a href="https://www.youtube.com/channel/UC1A2lJ21pRVisDtocb1gTTA" class="icon icon-sm text-white fa-youtube"></a></li>
-                                            <li><a href="https://www.instagram.com/parcelasdechile/" class="icon icon-sm text-white fa-instagram"></a></li>
-                                            <li><a href="#" class="icon icon-sm text-white fa-linkedin"></a></li>
-                                        </ul>
-                                    </div>
-
-                                    <div class="well well-dark">
-                                        <h3>Newsletter</h3>
-                                        <p class="offset-tpo-10 offset-md-top-25 text-gray">¡Regístrate para las mejores ofertas en
-                                            parcelas!</p>
-
-                                        <!-- RD Mailform-->
-
-                                        <form data-form-output="form-output-global" data-form-type="subscribe" method="post" action="bat/rd-mailform.php" class="offset-top-20 rd-mailform form-inline-custom">
-                                            <div class="form-group">
-                                                <label for="subscribe-email" class="form-label">mail
-                                                </label>
-                                                <input id="subscribe-email" type="email" name="email" data-constraints="@Required @Email" class="form-control form-control-white">
-                                            </div>
-                                            <button type="submit" class="btn btn-primary">Enviar</button>
-                                        </form>
-
-                                    </div>
+                               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem provident tempore nisi, aliquam. Velit earum, reprehenderit explicabo omnis, magnam cumque laborum iusto. Necessitatibus qui in doloremque perspiciatis nostrum corporis nihil!</p>
                                        
                                    </div>
                                </div>
