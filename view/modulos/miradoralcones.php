@@ -166,7 +166,6 @@
                                             <div class="cite unit unit-sm-horizontal unit-md-horizontal unit-lg-horizontal unit-middle">
                                             </div>
                                         </blockquote>
-
                                         <div class="well well-base">
                                             <h3>¿Te llamamos?</h3>
                                             <form class="offset-top-30 text-left">
