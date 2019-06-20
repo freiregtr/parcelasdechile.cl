@@ -51,97 +51,67 @@
             </div>
         </section>
         <section class="section-top-70 section-bottom-80">
-          <div class="shell text-md-left product">
-            <div class="range">
-              <div class="cell-md-8 text-center">
-                <h3>Agents Listing</h3>
-                <div class="range text-md-left offset-top-30">
-                  <div class="cell-sm-6"><a href="author.html" class="reveal-inline-block"><img src="images/user-01.jpg" width="301" height="301" alt="" class="img-responsive center-block"></a>
-                    <h5 class="offset-top-10"><a href="author.html" class="text-base">Emilia Warren</a></h5>
-                    <p class="offset-top-16">Hello! My name is Emilia Warren and I'm a full-time…</p>
-                    <div><span class="text-middle icon inset-right-10 text-primary fa-phone"></span><a href="callto:#" class="text-middle text-base">800-2345-6789</a></div>
-                    <div class="offset-top-0"><span class="text-middle icon inset-right-10 text-primary fa-phone"></span><a href="callto:#" class="text-middle text-base">800-2345-6789</a></div>
-                    <ul class="list-inline offset-top-20">
-                      <li><a href="#" class="icon icon-sm text-gray fa-facebook"></a></li>
-                      <li><a href="#" class="icon icon-sm text-gray fa-twitter"></a></li>
-                      <li><a href="#" class="icon icon-sm text-gray fa-google-plus"></a></li>
-                    </ul>
-                    <div class="offset-top-25"><a href="author.html" class="btn btn-primary">read more</a></div>
-                  </div>
-                  <div class="cell-sm-6"><a href="author.html" class="reveal-inline-block"><img src="images/user-05.jpg" width="301" height="301" alt="" class="img-responsive center-block"></a>
-                    <h5 class="offset-top-10"><a href="author.html" class="text-base">Warren Kalhoney</a></h5>
-                    <p class="offset-top-16">I work with Chicago, MI and OH real estate markets.…</p>
-                    <div><span class="text-middle icon inset-right-10 text-primary fa-phone"></span><a href="callto:#" class="text-middle text-base">800-2345-6789</a></div>
-                    <div class="offset-top-0"><span class="text-middle icon inset-right-10 text-primary fa-phone"></span><a href="callto:#" class="text-middle text-base">800-2345-6789</a></div>
-                    <ul class="list-inline offset-top-20">
-                      <li><a href="#" class="icon icon-sm text-gray fa-facebook"></a></li>
-                      <li><a href="#" class="icon icon-sm text-gray fa-twitter"></a></li>
-                      <li><a href="#" class="icon icon-sm text-gray fa-google-plus"></a></li>
-                    </ul>
-                    <div class="offset-top-25"><a href="author.html" class="btn btn-primary">read more</a></div>
-                  </div>
-                  <div class="cell-sm-12 offset-top-50 veil reveal-sm-block">
-                    <hr>
-                  </div>
-                  <div class="cell-sm-6 offset-top-50"><a href="author.html" class="reveal-inline-block"><img src="images/user-06.jpg" width="301" height="301" alt="" class="img-responsive center-block"></a>
-                    <h5 class="offset-top-10"><a href="author.html" class="text-base">Timothy Levine</a></h5>
-                    <p class="offset-top-16">I work mainly with the West coast properties, located in…</p>
-                    <div><span class="text-middle icon inset-right-10 text-primary fa-phone"></span><a href="callto:#" class="text-middle text-base">800-2345-6789</a></div>
-                    <div class="offset-top-0"><span class="text-middle icon inset-right-10 text-primary fa-phone"></span><a href="callto:#" class="text-middle text-base">800-2345-6789</a></div>
-                    <ul class="list-inline offset-top-20">
-                      <li><a href="#" class="icon icon-sm text-gray fa-facebook"></a></li>
-                      <li><a href="#" class="icon icon-sm text-gray fa-twitter"></a></li>
-                      <li><a href="#" class="icon icon-sm text-gray fa-google-plus"></a></li>
-                    </ul>
-                    <div class="offset-top-25"><a href="author.html" class="btn btn-primary">read more</a></div>
-                  </div>
-                  <div class="cell-sm-6 offset-top-50"><a href="author.html" class="reveal-inline-block"><img src="images/user-07.jpg" width="301" height="301" alt="" class="img-responsive center-block"></a>
-                    <h5 class="offset-top-10"><a href="author.html" class="text-base">Stacy Goldwein</a></h5>
-                    <p class="offset-top-16">I specialize in properties ranging from townhouses to offices in…</p>
-                    <div><span class="text-middle icon inset-right-10 text-primary fa-phone"></span><a href="callto:#" class="text-middle text-base">800-2345-6789</a></div>
-                    <div class="offset-top-0"><span class="text-middle icon inset-right-10 text-primary fa-phone"></span><a href="callto:#" class="text-middle text-base">800-2345-6789</a></div>
-                    <ul class="list-inline offset-top-20">
-                      <li><a href="#" class="icon icon-sm text-gray fa-facebook"></a></li>
-                      <li><a href="#" class="icon icon-sm text-gray fa-twitter"></a></li>
-                      <li><a href="#" class="icon icon-sm text-gray fa-google-plus"></a></li>
-                    </ul>
-                    <div class="offset-top-25"><a href="author.html" class="btn btn-primary">read more</a></div>
-                  </div>
+            <div class="shell text-md-left product">
+                <div class="range">
+                    <div class="cell-md-8 text-center">
+                        <h3>Agents Listing</h3>
+                        <div class="range text-md-left offset-top-30">
+                            <div class="cell-sm-6"><a href="author.html" class="reveal-inline-block"><img src="images/user-01.jpg" width="301" height="301" alt="" class="img-responsive center-block"></a>
+                                <h5 class="offset-top-10"><a href="author.html" class="text-base">Emilia Warren</a></h5>
+                                <p class="offset-top-16">Hello! My name is Emilia Warren and I'm a full-time…</p>
+                                <div><span class="text-middle icon inset-right-10 text-primary fa-phone"></span><a href="callto:#" class="text-middle text-base">800-2345-6789</a></div>
+                                <div class="offset-top-0"><span class="text-middle icon inset-right-10 text-primary fa-phone"></span><a href="callto:#" class="text-middle text-base">800-2345-6789</a></div>
+                                <ul class="list-inline offset-top-20">
+                                    <li><a href="#" class="icon icon-sm text-gray fa-facebook"></a></li>
+                                    <li><a href="#" class="icon icon-sm text-gray fa-twitter"></a></li>
+                                    <li><a href="#" class="icon icon-sm text-gray fa-google-plus"></a></li>
+                                </ul>
+                                <div class="offset-top-25"><a href="author.html" class="btn btn-primary">read more</a></div>
+                            </div>
+                            <div class="cell-sm-6"><a href="author.html" class="reveal-inline-block"><img src="images/user-05.jpg" width="301" height="301" alt="" class="img-responsive center-block"></a>
+                                <h5 class="offset-top-10"><a href="author.html" class="text-base">Warren Kalhoney</a></h5>
+                                <p class="offset-top-16">I work with Chicago, MI and OH real estate markets.…</p>
+                                <div><span class="text-middle icon inset-right-10 text-primary fa-phone"></span><a href="callto:#" class="text-middle text-base">800-2345-6789</a></div>
+                                <div class="offset-top-0"><span class="text-middle icon inset-right-10 text-primary fa-phone"></span><a href="callto:#" class="text-middle text-base">800-2345-6789</a></div>
+                                <ul class="list-inline offset-top-20">
+                                    <li><a href="#" class="icon icon-sm text-gray fa-facebook"></a></li>
+                                    <li><a href="#" class="icon icon-sm text-gray fa-twitter"></a></li>
+                                    <li><a href="#" class="icon icon-sm text-gray fa-google-plus"></a></li>
+                                </ul>
+                                <div class="offset-top-25"><a href="author.html" class="btn btn-primary">read more</a></div>
+                            </div>
+                            <div class="cell-sm-12 offset-top-50 veil reveal-sm-block">
+                                <hr>
+                            </div>
+                            <div class="cell-sm-6 offset-top-50"><a href="author.html" class="reveal-inline-block"><img src="images/user-06.jpg" width="301" height="301" alt="" class="img-responsive center-block"></a>
+                                <h5 class="offset-top-10"><a href="author.html" class="text-base">Timothy Levine</a></h5>
+                                <p class="offset-top-16">I work mainly with the West coast properties, located in…</p>
+                                <div><span class="text-middle icon inset-right-10 text-primary fa-phone"></span><a href="callto:#" class="text-middle text-base">800-2345-6789</a></div>
+                                <div class="offset-top-0"><span class="text-middle icon inset-right-10 text-primary fa-phone"></span><a href="callto:#" class="text-middle text-base">800-2345-6789</a></div>
+                                <ul class="list-inline offset-top-20">
+                                    <li><a href="#" class="icon icon-sm text-gray fa-facebook"></a></li>
+                                    <li><a href="#" class="icon icon-sm text-gray fa-twitter"></a></li>
+                                    <li><a href="#" class="icon icon-sm text-gray fa-google-plus"></a></li>
+                                </ul>
+                                <div class="offset-top-25"><a href="author.html" class="btn btn-primary">read more</a></div>
+                            </div>
+                            <div class="cell-sm-6 offset-top-50"><a href="author.html" class="reveal-inline-block"><img src="images/user-07.jpg" width="301" height="301" alt="" class="img-responsive center-block"></a>
+                                <h5 class="offset-top-10"><a href="author.html" class="text-base">Stacy Goldwein</a></h5>
+                                <p class="offset-top-16">I specialize in properties ranging from townhouses to offices in…</p>
+                                <div><span class="text-middle icon inset-right-10 text-primary fa-phone"></span><a href="callto:#" class="text-middle text-base">800-2345-6789</a></div>
+                                <div class="offset-top-0"><span class="text-middle icon inset-right-10 text-primary fa-phone"></span><a href="callto:#" class="text-middle text-base">800-2345-6789</a></div>
+                                <ul class="list-inline offset-top-20">
+                                    <li><a href="#" class="icon icon-sm text-gray fa-facebook"></a></li>
+                                    <li><a href="#" class="icon icon-sm text-gray fa-twitter"></a></li>
+                                    <li><a href="#" class="icon icon-sm text-gray fa-google-plus"></a></li>
+                                </ul>
+                                <div class="offset-top-25"><a href="author.html" class="btn btn-primary">read more</a></div>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
-              </div>
-              
             </div>
-          </div>
-        
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
     </main>
     <!-- FIN MAIN-->
     <!-- PARALAX -->

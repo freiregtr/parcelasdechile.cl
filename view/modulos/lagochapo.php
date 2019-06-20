@@ -155,11 +155,40 @@
                                         </div>
                                     </div>
                                     <br>
+                                    <!-- FORMULARIO-->
+                                    <div class="col-md-6">
+                                        <!-- Quote-->
+                                        <blockquote class="quote quote-variant-1">
+                                            <p>La solvencia de Chile como país, nos ha demostrado por mas de 60 años que la compra de terrenos es una de las inversiones mas seguras que se pueden hacer. Cada año los valores de los terrenos suben y suben. Llegado el momento de dejarle estos terrenos a nuestros hijos, ellos serán los que disfrutaran de las bondades de nuestro país.</p>
+                                            <div class="cite unit unit-sm-horizontal unit-md-horizontal unit-lg-horizontal unit-middle">
+                                            </div>
+                                        </blockquote>
 
+                                        <div class="well well-base">
+                                            <h3>¿Te llamamos?</h3>
+                                            <form class="offset-top-30 text-left">
+                                                <div class="form-group">
+                                                    <label class="form-label-static form-label-outside">Nombre Completo</label>
+                                                    <input type="text" name="name" data-constraints="@Required" class="form-control">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="form-label-static form-label-outside">Correo Electrónico</label>
+                                                    <input type="text" name="name" data-constraints="@Required" class="form-control">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="form-label-static form-label-outside">Teléfono</label>
+                                                    <input type="text" name="name" data-constraints="@Required" class="form-control">
+                                                </div>
+                                                <div class="offset-top-10">
+                                                    <button class="btn btn-block btn-primary">Enviar</button>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                    <br>
                                 </div>
                             </div>
                         </section>
-                        <hr>
                         <!-- FIN INTRODUCCION-->
                         <!-- PLANO 360-->
                         <section id="360lagochapo">
