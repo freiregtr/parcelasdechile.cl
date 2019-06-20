@@ -5,7 +5,6 @@
         <!-- RD Navbar-->
         <div class="rd-navbar-wrap">
             <nav data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fixed" data-md-device-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-static" data-lg-device-layout="rd-navbar-static" data-sm-stick-up-offset="150px" data-md-stick-up-offset="1px" data-lg-stick-up-offset="150px" class="rd-navbar">
-                <button data-rd-navbar-toggle=".rd-navbar-collapse" class="rd-navbar-collapse-toggle"><span></span></button>
                 <div class="rd-navbar-panel">
                     <!-- RD Navbar Panel-->
                     <div class="rd-navbar-inner">
@@ -24,11 +23,11 @@
                     <div class="rd-navbar-inner">
                         <!-- RD Navbar Nav-->
                         <ul class="rd-navbar-nav">
-                            <li><a href="inicio.php">Home</a></li>
+                            <li><a href="inicio">Home</a></li>
                             <li><a href="#">Proyectos</a>
                                 <!-- RD Navbar Dropdown-->
                                 <ul class="rd-navbar-dropdown">
-                                    <li><a href="lagochapo.php">Lago Chapo</a></li>
+                                    <li><a href="lagochapo">Lago Chapo</a></li>
                                     <li><a href="miradoralcones">Mirador Álcones</a></li>
                                 </ul>
                             </li>
@@ -46,78 +45,110 @@
         <section class="bg-gray-lighter">
             <div class="shell text-left">
                 <ol class="breadcrumb">
-                    <li><a href="index1.html">Home</a></li>
+                    <li><a href="inicio">Home</a></li>
                     <li class="active">Contacto
                     </li>
                 </ol>
             </div>
         </section>
-        <section class="section-top-70 section-bottom-80">
-            <div class="shell text-md-left">
-                <div class="range">
-                    <div class="cell-md-8">
-                        <h3>Contacto</h3>
-                        <p class="offset-top-32 lead">
-                            ¡Póngase en contacto con nosotros con respecto a su búsqueda de parcelas!</p>
-                        <p class="offset-top-16">Por lo general, respondemos dentro de 1 día hábil ...</p>
-                        <hr>
-                        <h3>¿En qué podemos ayudarte?</h3>
-                        <!-- RD Mailform-->
-                        <form data-form-output="form-0output-global" data-form-type="contact" method="post" action="bat/rd-mailform.php" class="offset-top-40 rd-mailform text-left">
-                            <div class="range range-xs-middle">
-                                <div class="cell-lg-2">
-                                    <p class="text-base">Nombre Completo</p>
-                                </div>
-                                <div class="cell-lg-10 offset-top-7 offset-lg-top-0">
-                                    <div class="form-group">
-                                        <label for="contact-name" class="form-label">Ingresa nombre</label>
-                                        <input id="contact-name" type="text" name="name" data-constraints="@Required" class="form-control">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="offset-top-30 bg-image-01 well-transparent context-dark">
+                        <div class="range">
+                            <div class="cell-md-9 cell-lg-7">
+                                <!-- Owl Carousel-->
+                                <div data-dots="true" data-items="1" data-margin="30" data-mouse-drag="false" class="owl-carousel owl-dots-sm">
+                                    <div>
+                                        <hr class="divider">
+                                        <h3 class="text-bold">Lago Chapo</h3>
+                                        <h3 class="offset-top-30 text-primary">$9.990.000</h3>
+                                        <p class="offset-top-30">En el Lago Chapo podemos Disfrutar navegando con la hermosa vista del Volcán Calbuco, y si eres de las personas que ama la naturaleza deberías recorrer los senderos de la Reserva Nacional Llanquihue.</p><a href="lagochapo" class="offset-top-20 btn btn-primary text-regular">Ver más</a>
+                                    </div>
+                                    <div>
+                                        <hr class="divider">
+                                        <h3 class="text-bold">Volantín de la Quebrada</h3>
+                                        <h3 class="offset-top-30 text-primary">$7.990.000</h3>
+                                        <br>
+                                        <p class="offset-top-30">Marchihue en la Provincia de Cardenal Caro (Región del Libertador General Bernardo O'Higgins) es un lugar en Chile a 138 km al suroeste de Santiago.</p>
+                                        <br>
+                                        <br>
+                                        <a href="miradoralcones" class="offset-top-20 btn btn-primary text-regular">Ver más</a>
                                     </div>
                                 </div>
                             </div>
-                            <div class="range range-xs-middle offset-top-20">
-                                <div class="cell-lg-2">
-                                    <p class="text-base">E-mail</p>
-                                </div>
-                                <div class="cell-lg-10 offset-top-7 offset-lg-top-0">
-                                    <div class="form-group">
-                                        <label for="contact-email" class="form-label">Ingresa tu e-mail</label>
-                                        <input id="contact-email" type="email" name="email" data-constraints="@Email @Required" class="form-control">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="range range-xs-middle offset-top-20">
-                                <div class="cell-lg-2">
-                                    <p class="text-base">Teléfono</p>
-                                </div>
-                                <div class="cell-lg-10 offset-top-7 offset-lg-top-0">
-                                    <div class="form-group">
-                                        <label for="contact-phone" class="form-label">Ingresa tu teléfono</label>
-                                        <input id="contact-phone" type="text" name="phone" data-constraints="@Numeric @Required" class="form-control">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="range offset-top-20">
-                                <div class="cell-lg-2 text-lg-nowrap">
-                                    <p class="text-base">Mensaje</p>
-                                </div>
-                                <div class="cell-lg-10 offset-top-7 offset-lg-top-0">
-                                    <div class="form-group">
-                                        <label for="contact-message" class="form-label">¿Qué podemos ayudarte?</label>
-                                        <textarea id="contact-message" name="message" data-constraints="@Required" class="form-control"></textarea>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="range offset-top-20 text-center text-sm-left">
-                                <div class="cell-lg-5 cell-lg-preffix-2">
-                                    <button type="submit" class="btn btn-primary">Enviar</button>
-                                </div>
-                            </div>
-                        </form>
+                        </div>
                     </div>
+
+                </div>
+
+                <div class="col-md-6">
+                    <section class="section-top-70 section-bottom-80">
+                        <div class="shell text-md-left">
+                            <div class="range">
+                                <div>
+                                    <h3>Contacto</h3>
+                                    <p class="offset-top-16">Por lo general, respondemos dentro de 1 día hábil ...</p>
+                                    <h3>¿En qué podemos ayudarte?</h3>
+                                    <!-- RD Mailform-->
+                                    <form data-form-output="form-0output-global" data-form-type="contact" method="post" action="bat/rd-mailform.php" class="offset-top-40 rd-mailform text-left">
+                                        <div class="range range-xs-middle">
+                                            <div class="cell-lg-2">
+                                                <p class="text-base">Nombre</p>
+                                            </div>
+                                            <div class="cell-lg-10 offset-top-7 offset-lg-top-0">
+                                                <div class="form-group">
+                                                    <label for="contact-name" class="form-label">Ingresa nombre</label>
+                                                    <input id="contact-name" type="text" name="name" data-constraints="@Required" class="form-control">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="range range-xs-middle offset-top-20">
+                                            <div class="cell-lg-2">
+                                                <p class="text-base">mail</p>
+                                            </div>
+                                            <div class="cell-lg-10 offset-top-7 offset-lg-top-0">
+                                                <div class="form-group">
+                                                    <label for="contact-email" class="form-label">Ingresa tu e-mail</label>
+                                                    <input id="contact-email" type="email" name="email" data-constraints="@Email @Required" class="form-control">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="range range-xs-middle offset-top-20">
+                                            <div class="cell-lg-2">
+                                                <p class="text-base">Teléfono</p>
+                                            </div>
+                                            <div class="cell-lg-10 offset-top-7 offset-lg-top-0">
+                                                <div class="form-group">
+                                                    <label for="contact-phone" class="form-label">Ingresa tu teléfono</label>
+                                                    <input id="contact-phone" type="text" name="phone" data-constraints="@Numeric @Required" class="form-control">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="range offset-top-20">
+                                            <div class="cell-lg-2 text-lg-nowrap">
+                                                <p class="text-base">Mensaje</p>
+                                            </div>
+                                            <div class="cell-lg-10 offset-top-7 offset-lg-top-0">
+                                                <div class="form-group">
+                                                    <label for="contact-message" class="form-label">¿Qué podemos ayudarte?</label>
+                                                    <textarea id="contact-message" name="message" data-constraints="@Required" class="form-control"></textarea>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="range offset-top-20 text-center text-sm-left">
+                                            <div class="cell-lg-5 cell-lg-preffix-2">
+                                                <button type="submit" class="btn btn-primary">Enviar</button>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
                 </div>
             </div>
-        </section>
+        </div>
     </main>
     <!-- Page Footer-->
     <footer class="page-footer">

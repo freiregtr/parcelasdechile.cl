@@ -58,20 +58,115 @@
                 <div class="range">
                     <div class="cell-md-12">
                         <div><a href="#" class="label label-primary">VI Región</a></div>
+                        <!-- PLANO DEL PROYECTO-->
+                        <section id="planovolantin">
+                            <div class="container">
+                                <div class="row">
+                                    <!-- ID PLANO -->
+                                    <div class="col-md-6">
+                                        <br>
+                                        <br>
+                                        <div class="row" id="volantinSvg"></div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <h2 class="offset-top-50">Volantín de la Quebrada</h2>
+                                        <br>
+                                        <p>"Valores venta en verde"</p>
+                                        <br>
+                                        <!-- VALORES-->
+                                        <div class="row">
+                                            <div class="col-md-3">
+                                                <div class="valor1">
+                                                    <p>$7.990.000</p>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <div class="valor4">
+                                                    <p>$8.990.000</p>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <div class="valor3">
+                                                    <p>$9.990.000</p>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <div class="valor2">
+                                                    <p>$10.990.000</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <br>
+
+                                        <p class="offset-top-40 text-bold text-base">" Por qué tenemos el país más lindo del mundo, creemos que deberías elegir Parcelas de Chile."</p>
+                                        <p class="offset-top-20">Marchihue en la Provincia de Cardenal Caro (Región del Libertador General Bernardo O'Higgins) es un lugar en Chile a 138 km al suroeste de Santiago.</p>
+                                    </div>
+                                    <br>
+
+                                </div>
+                            </div>
+                        </section>
+                        <hr>
+                        <!-- GALERIA DE IMAGENES-->
+                        <section>
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <br>
+                                        <div data-photo-swipe-gallery="gallery" data-arrows="true" data-loop="false" data-dots="false" data-swipe="true" data-items="1" class="slick-slider">
+                                            <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/proyectos/mirador_alcones/malcones.jpg" class="thumbnail-variant-2"><img src="view/componentes/img/proyectos/mirador_alcones/malcones.jpg" alt="Volantin de la quebrada" class="img-responsive"></a></div>
+                                            <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/proyectos/mirador_alcones/1.jpg" class="thumbnail-variant-2"><img src="view/componentes/img/proyectos/mirador_alcones/1.jpg" alt="Volantin de la quebrada" class="img-responsive"></a></div>
+                                            <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/proyectos/mirador_alcones/2.jpg" class="thumbnail-variant-2"><img src="view/componentes/img/proyectos/mirador_alcones/2.jpg" alt="Volantin de la quebrada" class="img-responsive"></a></div>
+                                            <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/Proyectos/mirador_alcones/4.jpg" class="thumbnail-variant-2"><img src="view/componentes/img/proyectos/mirador_alcones/4.jpg" alt="Volantin de la quebrada" class="img-responsive"></a></div>
+                                            <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/proyectos/mirador_alcones/5.jpg" class="thumbnail-variant-2"><img src="view/componentes/img/proyectos/mirador_alcones/5.jpg" alt="Volantin de la quebrada" class="img-responsive"></a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <hr>
                         <!-- INTRODUCCION AL PROYECTO-->
                         <section>
                             <div class="container">
                                 <div class="row">
                                     <div class="col-md-6">
-                                        <h2 class="offset-top-50">Volantín de la Quebrada
-                                            <br>"Venta en verde"</h2>
-                                        <br>
-                                        <p class="offset-top-40 text-bold text-base">" Por qué tenemos el país más lindo del mundo, creemos que deberías elegir Parcelas de Chile."</p>
-                                        <p class="offset-top-20">Marchihue en la Provincia de Cardenal Caro (Región del Libertador General Bernardo O'Higgins) es un lugar en Chile a 138 km al suroeste de Santiago.</p>
+
+                                        <div class="offset-top-30 bg-image-01 well-transparent context-dark">
+                                            <div class="range">
+                                                <div class="cell-md-9 cell-lg-7">
+                                                    <!-- Owl Carousel-->
+                                                    <div data-dots="true" data-items="1" data-margin="30" data-mouse-drag="false" class="owl-carousel owl-dots-sm">
+                                                        <div>
+                                                            <hr class="divider">
+                                                            <h3 class="text-bold">Lago Chapo</h3>
+                                                            <h3 class="offset-top-30 text-primary">$9.990.000</h3>
+                                                            <p class="offset-top-30">En el Lago Chapo podemos Disfrutar navegando con la hermosa vista del Volcán Calbuco, y si eres de las personas que ama la naturaleza deberías recorrer los senderos de la Reserva Nacional Llanquihue.</p><a href="lagochapo" class="offset-top-20 btn btn-primary text-regular">Ver más</a>
+                                                        </div>
+                                                        <div>
+                                                            <hr class="divider">
+                                                            <h3 class="text-bold">Volantín de la Quebrada</h3>
+                                                            <h3 class="offset-top-30 text-primary">$7.990.000</h3>
+                                                            <br>
+                                                            <p class="offset-top-30">Marchihue en la Provincia de Cardenal Caro (Región del Libertador General Bernardo O'Higgins) es un lugar en Chile a 138 km al suroeste de Santiago.</p>
+                                                            <br>
+                                                            <br>
+                                                            <a href="miradoralcones" class="offset-top-20 btn btn-primary text-regular">Ver más</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                     <br>
                                     <!-- FORMULARIO-->
                                     <div class="col-md-6">
+                                        <!-- Quote-->
+                                        <blockquote class="quote quote-variant-1">
+                                            <p>La solvencia de Chile como país, nos ha demostrado por mas de 60 años que la compra de terrenos es una de las inversiones mas seguras que se pueden hacer. Cada año los valores de los terrenos suben y suben. Llegado el momento de dejarle estos terrenos a nuestros hijos, ellos serán los que disfrutaran de las bondades de nuestro país.</p>
+                                            <div class="cite unit unit-sm-horizontal unit-md-horizontal unit-lg-horizontal unit-middle">
+                                            </div>
+                                        </blockquote>
+
                                         <div class="well well-base">
                                             <h3>¿Te llamamos?</h3>
                                             <form class="offset-top-30 text-left">
@@ -98,24 +193,6 @@
                         </section>
                         <hr>
                         <!-- FIN INTRODUCCION-->
-                        <!-- GALERIA DE IMAGENES-->
-                        <section>
-                            <div class="container">
-                                <div class="row">
-                                    <div class="col-md-12">
-                                        <br>
-                                        <div data-photo-swipe-gallery="gallery" data-arrows="true" data-loop="false" data-dots="false" data-swipe="true" data-items="1" class="slick-slider">
-                                            <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/proyectos/mirador_alcones/malcones.jpg" class="thumbnail-variant-2"><img src="view/componentes/img/proyectos/mirador_alcones/malcones.jpg" alt="Volantin de la quebrada" class="img-responsive"></a></div>
-                                            <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/proyectos/mirador_alcones/1.jpg" class="thumbnail-variant-2"><img src="view/componentes/img/proyectos/mirador_alcones/1.jpg" alt="Volantin de la quebrada" class="img-responsive"></a></div>
-                                            <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/proyectos/mirador_alcones/2.jpg" class="thumbnail-variant-2"><img src="view/componentes/img/proyectos/mirador_alcones/2.jpg" alt="Volantin de la quebrada" class="img-responsive"></a></div>
-                                            <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/Proyectos/mirador_alcones/4.jpg" class="thumbnail-variant-2"><img src="view/componentes/img/proyectos/mirador_alcones/4.jpg" alt="Volantin de la quebrada" class="img-responsive"></a></div>
-                                            <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/proyectos/mirador_alcones/5.jpg" class="thumbnail-variant-2"><img src="view/componentes/img/proyectos/mirador_alcones/5.jpg" alt="Volantin de la quebrada" class="img-responsive"></a></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </section>
-                        <hr>
                         <!-- FIN GALERIA DE IMAGENES-->
                         <!-- CARPETA DE VENTA-->
                         <section id="carpetadeventa">
@@ -131,49 +208,7 @@
                         </section>
                         <hr>
                         <!-- FIN CARPETA DE VENTA-->
-                        <!-- PLANO DEL PROYECTO-->
-                        <section id="planovolantin">
-                            <div class="container">
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <h2 class="offset-top-50">Parcelación <br>"Valores venta en verde"</h2>
-                                        <br>
-                                        <!-- VALORES-->
-                                        <div class="row">
-                                            <div class="col-md-3">
-                                                <div class="valor1">
-                                                    <p>$7.990.000</p>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-3">
-                                                <div class="valor4">
-                                                    <p>$8.990.000</p>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-3">
-                                                <div class="valor3">
-                                                    <p>$9.990.000</p>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-3">
-                                                <div class="valor2">
-                                                    <p>$10.990.000</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <br>
-                                        <p class="offset-top-40 text-bold text-base">" Por qué tenemos el país más lindo del mundo, creemos que deberías elegir Parcelas de Chile."</p>
-                                        <p class="offset-top-20">Marchihue en la Provincia de Cardenal Caro (Región del Libertador General Bernardo O'Higgins) es un lugar en Chile a 138 km al suroeste de Santiago.</p>
-                                    </div>
-                                    <br>
-                                    <!-- ID PLANO -->
-                                    <div class="col-md-6">
-                                        <div class="row" id="volantinSvg"></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </section>
-                        <hr>
+
                         <!-- PLANO 360-->
                         <section id="panovolantin">
                             <div class="container">

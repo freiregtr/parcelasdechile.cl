@@ -58,74 +58,19 @@
                 <div class="range">
                     <div class="cell-md-12">
                         <div><a href="#" class="label label-primary">X Región</a></div>
-                        <!-- INTRODUCCION AL PROYECTO-->
-                        <section>
-                            <div class="container">
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <h2 class="offset-top-50">Lago Chapo</h2>
-                                        <p class="offset-top-40 text-bold text-base">" Por qué tenemos el país más lindo del mundo, creemos que
-                                            deberías elegir Parcelas de Chile."</p>
-                                        <p class="offset-top-20">Una de las maravillas que podemos encontrar en la zona del Lago Chapo es Disfrutar navegando con la hermosa vista del Volcán Calbuco, y si eres de las personas que ama la naturaleza deberías recorrer los senderos de la Reserva Nacional Llanquihue, una de las más lindas de Chile.</p>
-                                        <br>
-                                    </div>
-                                    <br>
-                                    <!-- FORMULARIO-->
-                                    <div class="col-md-6">
-                                        <div>
-                                            <div class="well well-base">
-                                                <h3>¿Te llamamos?</h3>
-                                                <form class="offset-top-30 text-left">
-                                                    <div class="form-group">
-                                                        <label class="form-label-static form-label-outside">Nombre Completo</label>
-                                                        <input type="text" name="name" data-constraints="@Required" class="form-control">
-                                                    </div>
-                                                    <div class="form-group">
-                                                        <label class="form-label-static form-label-outside">Correo Electrónico</label>
-                                                        <input type="text" name="name" data-constraints="@Required" class="form-control">
-                                                    </div>
-                                                    <div class="form-group">
-                                                        <label class="form-label-static form-label-outside">Teléfono</label>
-                                                        <input type="text" name="name" data-constraints="@Required" class="form-control">
-                                                    </div>
-                                                    <div class="offset-top-10">
-                                                        <button class="btn btn-block btn-primary">Enviar</button>
-                                                    </div>
-                                                </form>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </section>
-                        <hr>
-                        <!-- FIN INTRODUCCION-->
-                        <!-- GALERIA DE IMAGENES-->
-                        <section id="galerialagochapo">
-                            <div class="container">
-                                <div class="row">
-                                    <div class="col-md-12">
-                                        <br>
-                                        <div data-photo-swipe-gallery="gallery" data-arrows="true" data-loop="false" data-dots="false" data-swipe="true" data-items="1" class="slick-slider">
-                                            <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/proyectos/lago_chapo/1.jpg" class="thumbnail-variant-2"><img src="view/componentes/img/proyectos/lago_chapo/1.jpg" alt="lago chapo" class="img-responsive"></a></div>
-                                            <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/proyectos/lago_chapo/2.jpg" class="thumbnail-variant-2"><img src="view/componentes/img/proyectos/lago_chapo/2.jpg" alt="lago chapo" class="img-responsive"></a></div>
-                                            <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/proyectos/lago_chapo/3.jpg" class="thumbnail-variant-2"><img src="view/componentes/img/proyectos/lago_chapo/3.jpg" alt="lago chapo" class="img-responsive"></a></div>
-                                            <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/proyectos/lago_chapo/4.jpg" class="thumbnail-variant-2"><img src="view/componentes/img/proyectos/lago_chapo/4.jpg" alt="lago chapo" class="img-responsive"></a></div>
-                                            <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/proyectos/lago_chapo/6.jpg" class="thumbnail-variant-2"><img src="view/componentes/img/proyectos/lago_chapo/6.jpg" alt="lago chapo" class="img-responsive"></a></div>
-                                            <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/proyectos/lago_chapo/7.jpg" class="thumbnail-variant-2"><img src="view/componentes/img/proyectos/lago_chapo/7.jpg" alt="lago chapo" class="img-responsive"></a></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </section>
-                        <hr>
-                        <!-- FIN GALERIA DE IMAGENES-->
                         <!-- PLANO DEL PROYECTO-->
                         <section id="planolagochapo">
                             <div class="container">
                                 <div class="row">
+                                    <br>
+                                    <!-- ID PLANO -->
                                     <div class="col-md-6">
-                                        <h2 class="offset-top-50">Parcelación</h2>
+                                        <div class="row" id="lagochapoSvg"></div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <h2 class="offset-top-50">Lago Chapo</h2>
+                                        <br>
+                                        <p>"Últimas parcelas disponibles"</p>
                                         <br>
                                         <!-- VALORES-->
                                         <div class="row">
@@ -146,17 +91,76 @@
                                             </div>
                                         </div>
                                         <br>
-                                         <p class="offset-top-20">Una de las maravillas que podemos encontrar en la zona del Lago Chapo es Disfrutar navegando con la hermosa vista del Volcán Calbuco, y si eres de las personas que ama la naturaleza deberías recorrer los senderos de la Reserva Nacional Llanquihue, una de las más lindas de Chile.</p>
-                                    </div>
-                                    <!-- ID PLANO -->
-                                    <div class="col-md-6">
-                                        <div class="row" id="lagochapoSvg"></div>
+                                        <p class="offset-top-40 text-bold text-base">" Por qué tenemos el país más lindo del mundo, creemos que
+                                            deberías elegir Parcelas de Chile."</p>
+                                        <p class="offset-top-20">Una de las maravillas que podemos encontrar en la zona del Lago Chapo es Disfrutar navegando con la hermosa vista del Volcán Calbuco, y si eres de las personas que ama la naturaleza deberías recorrer los senderos de la Reserva Nacional Llanquihue, una de las más lindas de Chile.</p>
+                                        <br>
                                     </div>
                                     <br>
                                 </div>
                             </div>
                         </section>
                         <hr>
+                        <!-- GALERIA DE IMAGENES-->
+                        <section id="galerialagochapo">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <br>
+                                        <div data-photo-swipe-gallery="gallery" data-arrows="true" data-loop="false" data-dots="false" data-swipe="true" data-items="1" class="slick-slider">
+                                            <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/proyectos/lago_chapo/1.jpg" class="thumbnail-variant-2"><img src="view/componentes/img/proyectos/lago_chapo/1.jpg" alt="lago chapo" class="img-responsive"></a></div>
+                                            <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/proyectos/lago_chapo/2.jpg" class="thumbnail-variant-2"><img src="view/componentes/img/proyectos/lago_chapo/2.jpg" alt="lago chapo" class="img-responsive"></a></div>
+                                            <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/proyectos/lago_chapo/3.jpg" class="thumbnail-variant-2"><img src="view/componentes/img/proyectos/lago_chapo/3.jpg" alt="lago chapo" class="img-responsive"></a></div>
+                                            <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/proyectos/lago_chapo/4.jpg" class="thumbnail-variant-2"><img src="view/componentes/img/proyectos/lago_chapo/4.jpg" alt="lago chapo" class="img-responsive"></a></div>
+                                            <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/proyectos/lago_chapo/6.jpg" class="thumbnail-variant-2"><img src="view/componentes/img/proyectos/lago_chapo/6.jpg" alt="lago chapo" class="img-responsive"></a></div>
+                                            <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/proyectos/lago_chapo/7.jpg" class="thumbnail-variant-2"><img src="view/componentes/img/proyectos/lago_chapo/7.jpg" alt="lago chapo" class="img-responsive"></a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <hr>
+                        <!-- FIN GALERIA DE IMAGENES-->
+                        <!-- INTRODUCCION AL PROYECTO-->
+                        <section>
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-6">
+
+                                        <div class="offset-top-30 bg-image-01 well-transparent context-dark">
+                                            <div class="range">
+                                                <div class="cell-md-9 cell-lg-7">
+                                                    <!-- Owl Carousel-->
+                                                    <div data-dots="true" data-items="1" data-margin="30" data-mouse-drag="false" class="owl-carousel owl-dots-sm">
+                                                        <div>
+                                                            <hr class="divider">
+                                                            <h3 class="text-bold">Volantín de la Quebrada</h3>
+                                                            <h3 class="offset-top-30 text-primary">$7.990.000</h3>
+                                                            <br>
+                                                            <p class="offset-top-30">Marchihue en la Provincia de Cardenal Caro (Región del Libertador General Bernardo O'Higgins) es un lugar en Chile a 138 km al suroeste de Santiago.</p>
+                                                            <br>
+                                                            <br>
+                                                            <a href="miradoralcones" class="offset-top-20 btn btn-primary text-regular">Ver más</a>
+                                                        </div>
+                                                        <div>
+                                                            <hr class="divider">
+                                                            <h3 class="text-bold">Lago Chapo</h3>
+                                                            <h3 class="offset-top-30 text-primary">$9.990.000</h3>
+                                                            <p class="offset-top-30">En el Lago Chapo podemos Disfrutar navegando con la hermosa vista del Volcán Calbuco, y si eres de las personas que ama la naturaleza deberías recorrer los senderos de la Reserva Nacional Llanquihue.</p><a href="lagochapo" class="offset-top-20 btn btn-primary text-regular">Ver más</a>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <br>
+
+                                </div>
+                            </div>
+                        </section>
+                        <hr>
+                        <!-- FIN INTRODUCCION-->
                         <!-- PLANO 360-->
                         <section id="360lagochapo">
                             <div class="container">
