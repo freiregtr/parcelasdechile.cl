@@ -1,6 +1,6 @@
 <?php
 
-$recipients = 'mailleads@parcelasdechile.cl';
+$recipients = 'ramon.freire@parcelasdechile.cl';
 
 try {
     require 'phpmailer/PHPMailerAutoload.php';
