@@ -86,9 +86,18 @@
     <script src="view/componentes/mapsvg/js/jquery.mousewheel.min.js"></script>
     <script src="view/componentes/mapsvg/js/jquery.nanoscroller.min.js"></script>
     <script src="view/componentes/mapsvg/js/mapsvg.min.js"></script>
-    <!-- mapa lago chapo -->
-    <script src="view/componentes/mapsvg/js/lagochapo.js"></script>
-    <script src="view/componentes/mapsvg/js/volantin.js"></script>
+
+    <?php
+
+    if (isset($_GET["ruta"])){
+        if($_GET["ruta"] == "lagochapo"){
+            echo '<script src="view/componentes/mapsvg/js/lagochapo.js"></script>';
+        }else if($_GET["ruta"] == "miradoralcones"){
+            echo '<script src="view/componentes/mapsvg/js/volantin.js"></script>';
+        }
+    }
+    ?>
+    
 
 </body>
 

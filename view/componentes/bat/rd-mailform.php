@@ -3,7 +3,7 @@
 $recipients = 'mailleads@parcelasdechile.cl';
 
 try {
-    require './phpmailer/PHPMailerAutoload.php';
+    require 'phpmailer/PHPMailerAutoload.php';
 
     preg_match_all("/([\w-]+(?:\.[\w-]+)*)@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)/", $recipients, $addresses, PREG_OFFSET_CAPTURE);
 
@@ -18,9 +18,9 @@ try {
     $template = file_get_contents('rd-mailform.tpl');
 
     if (isset($_POST['form-type'])) {
-        switch ($_POST['form-type']){
+        switch ($_POST['form-type']) {
             case 'contact':
-                $subject = 'A message from your site visitor';
+                $subject = 'Un mensaje de Parcelas de Chile';
                 break;
             case 'subscribe':
                 $subject = 'Suscripcion';
@@ -32,7 +32,7 @@ try {
                 $subject = 'A message from your site visitor';
                 break;
         }
-    }else{
+    } else {
         die('MF004');
     }
 
@@ -40,8 +40,9 @@ try {
         $template = str_replace(
             array("<!-- #{FromState} -->", "<!-- #{FromEmail} -->"),
             array("Email:", $_POST['email']),
-            $template);
-    }else{
+            $template
+        );
+    } else {
         die('MF003');
     }
 
@@ -49,16 +50,18 @@ try {
         $template = str_replace(
             array("<!-- #{MessageState} -->", "<!-- #{MessageDescription} -->"),
             array("Message:", $_POST['message']),
-            $template);
+            $template
+        );
     }
 
     preg_match("/(<!-- #{BeginInfo} -->)(.|\n)+(<!-- #{EndInfo} -->)/", $template, $tmp, PREG_OFFSET_CAPTURE);
     foreach ($_POST as $key => $value) {
-        if ($key != "email" && $key != "message" && $key != "form-type" && $key != "g-recaptcha-response" && !empty($value)){
+        if ($key != "email" && $key != "message" && $key != "form-type" && $key != "g-recaptcha-response" && !empty($value)) {
             $info = str_replace(
                 array("<!-- #{BeginInfo} -->", "<!-- #{InfoState} -->", "<!-- #{InfoDescription} -->"),
                 array("", ucfirst($key) . ':', $value),
-                $tmp[0][0]);
+                $tmp[0][0]
+            );
 
             $template = str_replace("<!-- #{EndInfo} -->", $info, $template);
         }
@@ -67,21 +70,26 @@ try {
     $template = str_replace(
         array("<!-- #{Subject} -->", "<!-- #{SiteName} -->"),
         array($subject, $_SERVER['SERVER_NAME']),
-        $template);
+        $template
+    );
 
     $mail = new PHPMailer();
     $mail->From = $_POST['email'];
 
     # Attach file
-    if (isset($_FILES['file']) &&
-        $_FILES['file']['error'] == UPLOAD_ERR_OK) {
-        $mail->AddAttachment($_FILES['file']['tmp_name'],
-                             $_FILES['file']['name']);
+    if (
+        isset($_FILES['file']) &&
+        $_FILES['file']['error'] == UPLOAD_ERR_OK
+    ) {
+        $mail->AddAttachment(
+            $_FILES['file']['tmp_name'],
+            $_FILES['file']['name']
+        );
     }
 
-    if (isset($_POST['name'])){
+    if (isset($_POST['name'])) {
         $mail->FromName = $_POST['name'];
-    }else{
+    } else {
         $mail->FromName = "Site Visitor";
     }
 

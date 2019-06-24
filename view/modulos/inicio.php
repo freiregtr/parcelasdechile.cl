@@ -78,29 +78,27 @@
                             </div>
                         </div>
                     </div> 
-                    <!-- TE LLAMAMOS-->
-                    <div class="cell-md-5 cell-lg-4 cell-md-preffix-1">
+                    <!-- TE LLAMAMOS - RD Mailform-->
+                    <div class="cell-md-5 cell-lg-4 cell-md-preffix-1 offset-top-40 rd-mailform text-left">
                         <div class="well well-base">
                             <h3>¿Te llamamos?</h3>
-                            
-                            <form class="offset-top-30 text-left">
+                            <form action="view/componentes/bat/rd-mailform.php" data-form-output="form-output-global" data-form-type="contact" method="POST" class="offset-top-30 text-left">
                                 <div class="form-group">
-                                    <label class="form-label-static form-label-outside">Nombre Completo</label>
-                                    <input type="text" name="name" data-constraints="@Required" class="form-control">
+                                    <label class="form-label-static form-label-outside"></label>
+                                    <input type="text" id="contact-name" name="name" data-constraints="@Required" class="form-control" placeholder="Nombre Completo">
                                 </div>
                                 <div class="form-group">
-                                    <label class="form-label-static form-label-outside">Correo Electrónico</label>
-                                    <input type="text" name="name" data-constraints="@Required" class="form-control">
+                                    <label class="form-label-static form-label-outside"></label>
+                                    <input type="email" id="contact-email" name="email" data-constraints="@Email @Required" class="form-control" placeholder="Correo Electrónico">
                                 </div>
                                 <div class="form-group">
-                                    <label class="form-label-static form-label-outside">Teléfono</label>
-                                    <input type="text" name="name" data-constraints="@Required" class="form-control">
+                                    <label class="form-label-static form-label-outside"></label>
+                                    <input type="text" id="contact-phone" name="phone" data-constraints="@Numeric @Required" class="form-control" placeholder="Teléfono">
                                 </div>
                                 <div class="offset-top-10">
-                                    <button class="btn btn-block btn-primary">Enviar</button>
+                                    <button type="submit" class="btn btn-block btn-primary">Enviar</button>
                                 </div>
                             </form>
-                            
                         </div>
                     </div>
                 </div>
@@ -200,7 +198,7 @@
                         </div>
                         <div class="cell-sm-8 cell-lg-6 offset-top-20 offset-lg-top-0">
                             <!-- RD Mailform-->
-                            <form data-form-output="form-output-global" data-form-type="subscribe" method="post" action="bat/rd-mailform.php" class="form-inline-custom-sm rd-mailform text-center">
+                            <form data-form-output="form-output-global" data-form-type="subscribe" method="post" class="form-inline-custom-sm rd-mailform text-center">
                                 <div class="form-group">
                                     <label for="sub-email" class="form-label">Ingrese su mail</label>
                                     <input id="sub-email" type="email" name="email" data-constraints="@Email @Required" class="form-control">
@@ -265,7 +263,7 @@
         
         <!-- Global Mailform Output-->
         
-        <div id="form-output-global" class="snackbars"></div>
+        <!-- <div id="form-output-global" class="snackbars"></div> -->
         
         <!-- PhotoSwipe Gallery-->
         
@@ -310,6 +308,9 @@
         ?>
         <!-- Fin Div chat -->
     </div>
+    <!-- Global Mailform Output-->
+    <div id="form-output-global" class="snackbars"></div>
+
 
 
 
