@@ -232,8 +232,17 @@
                 </div>
             </div>
         </section>
+
+        <section>
+        <div id="flipvolantin" style="position:absolute;width:60%;height:60%">
+
+        </div>
+    </section>
     </main>
     <!-- FIN MAIN-->
+    <!-- Flip3D -->
+
+    <!-- Flip3D -->
     <!-- PARALAX -->
     <section class="rd-parallax">
         <div data-speed="0.4" data-type="media" data-url="view/componentes/img/h2.jpg" class="rd-parallax-layer"></div>

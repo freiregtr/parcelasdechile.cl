@@ -21,6 +21,9 @@
     <!-- CSS mapsvg -->
     <link href="view/componentes/mapsvg/css/mapsvg.css" rel="stylesheet">
     <link href="view/componentes/mapsvg/css/nanoscroller.css" rel="stylesheet">
+    <!-- CSS Flip3D -->
+    <link href="view/componentes/flip/css/flipbook.style.css" rel="stylesheet">
+    <link href="view/componentes/flip/css/font-awesome.css" rel="stylesheet">
     <!-- UA Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-137903886-1"></script>
 
@@ -86,6 +89,8 @@
     <script src="view/componentes/mapsvg/js/jquery.mousewheel.min.js"></script>
     <script src="view/componentes/mapsvg/js/jquery.nanoscroller.min.js"></script>
     <script src="view/componentes/mapsvg/js/mapsvg.min.js"></script>
+    <!-- Flip3D -->
+    <script src="view/componentes/flip/js/flipbook.min.js"></script>
 
     <?php
 
@@ -94,6 +99,7 @@
             echo '<script src="view/componentes/mapsvg/js/lagochapo.js"></script>';
         }else if($_GET["ruta"] == "miradoralcones"){
             echo '<script src="view/componentes/mapsvg/js/volantin.js"></script>';
+            echo '<script src="view/js/flipvolantin.js"></script>';
         }
     }
     ?>
