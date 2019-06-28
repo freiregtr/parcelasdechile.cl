@@ -107,6 +107,19 @@
                             </div>
                         </section>
                         <hr>
+                        <section id="flip">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-12" style="width:100%;height:500px;">
+                                        <br>
+                                        <div id="container" style="width:100%;height:100%;">
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <hr>
                         <!-- GALERIA DE IMAGENES-->
                         <section>
                             <div class="container">
@@ -233,11 +246,7 @@
             </div>
         </section>
 
-        <section>
-        <div id="flipvolantin" style="position:absolute;width:60%;height:60%">
 
-        </div>
-    </section>
     </main>
     <!-- FIN MAIN-->
     <!-- Flip3D -->

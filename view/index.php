@@ -7,6 +7,9 @@
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
+    <!-- CSS Flip3D -->
+    <link href="view/componentes/flip/css/flipbook.style.css" rel="stylesheet">
+    <link href="view/componentes/flip/css/font-awesome.css" rel="stylesheet">
     <!-- Favicon -->
     <link rel="icon" href="zimages/favicon.ico" type="image/x-icon">
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -21,9 +24,7 @@
     <!-- CSS mapsvg -->
     <link href="view/componentes/mapsvg/css/mapsvg.css" rel="stylesheet">
     <link href="view/componentes/mapsvg/css/nanoscroller.css" rel="stylesheet">
-    <!-- CSS Flip3D -->
-    <link href="view/componentes/flip/css/flipbook.style.css" rel="stylesheet">
-    <link href="view/componentes/flip/css/font-awesome.css" rel="stylesheet">
+
     <!-- UA Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-137903886-1"></script>
 
