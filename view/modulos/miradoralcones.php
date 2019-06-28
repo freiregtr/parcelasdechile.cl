@@ -110,6 +110,8 @@
                         <section id="flip">
                             <div class="container">
                                 <div class="row">
+                                    <h2 class="offset-top-50">Carpeta de venta</h2>
+                                    <br>
                                     <div class="col-md-12" style="width:100%;height:500px;">
                                         <br>
                                         <div id="container" style="width:100%;height:100%;">
@@ -125,6 +127,8 @@
                             <div class="container">
                                 <div class="row">
                                     <div class="col-md-12">
+                                        <h2 class="offset-top-50">Galería del proyecto</h2>
+
                                         <br>
                                         <div data-photo-swipe-gallery="gallery" data-arrows="true" data-loop="false" data-dots="false" data-swipe="true" data-items="1" class="slick-slider">
                                             <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/proyectos/mirador_alcones/malcones.jpg" class="thumbnail-variant-2"><img src="view/componentes/img/proyectos/mirador_alcones/malcones.jpg" alt="Volantin de la quebrada" class="img-responsive"></a></div>
@@ -137,6 +141,8 @@
                                 </div>
                             </div>
                         </section>
+                        <!-- FIN GALERIA DE IMAGENES-->
+
                         <hr>
                         <!-- INTRODUCCION AL PROYECTO-->
                         <section>
@@ -205,22 +211,6 @@
                         </section>
                         <hr>
                         <!-- FIN INTRODUCCION-->
-                        <!-- FIN GALERIA DE IMAGENES-->
-                        <!-- CARPETA DE VENTA-->
-                        <section id="carpetadeventa">
-                            <div class="container">
-                                <div class="row">
-                                    <div class="col-md-12">
-                                        <h2 class="offset-top-50">Carpeta de venta</h2>
-                                        <br>
-                                        <iframe src="https://cdn.flipsnack.com/widget/v2/widget.html?hash=f1na70y8h" width="100%" height="480" seamless="seamless" scrolling="no" frameBorder="0" allowFullScreen></iframe>
-                                    </div>
-                                </div>
-                            </div>
-                        </section>
-                        <hr>
-                        <!-- FIN CARPETA DE VENTA-->
-
                         <!-- PLANO 360-->
                         <section id="panovolantin">
                             <div class="container">
