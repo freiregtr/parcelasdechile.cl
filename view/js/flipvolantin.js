@@ -9,4 +9,5 @@ $("#container").flipBook({
         { src: "view/componentes/flip/volantin/page7.jpg", thumb: "view/componentes/flip/volantin/thumb7.jpg", title: "Page seven" },
         { src: "view/componentes/flip/volantin/page8.jpg", thumb: "view/componentes/flip/volantin/thumb8.jpg", title: "Last" }
     ],
+    backgroundColor: "#fff"
 });
