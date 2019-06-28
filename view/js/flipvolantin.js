@@ -1,13 +1,19 @@
 $("#container").flipBook({
     pages: [
-        { src: "view/componentes/flip/volantin/page1.jpg", thumb: "view/componentes/flip/volantin/thumb1.jpg", title: "Página principal" },
-        { src: "view/componentes/flip/volantin/page2.jpg", thumb: "view/componentes/flip/volantin/thumb2.jpg", title: "Page two" },
-        { src: "view/componentes/flip/volantin/page3.jpg", thumb: "view/componentes/flip/volantin/thumb3.jpg", title: "Page three" },
-        { src: "view/componentes/flip/volantin/page4.jpg", thumb: "view/componentes/flip/volantin/thumb4.jpg", title: "" },
-        { src: "view/componentes/flip/volantin/page5.jpg", thumb: "view/componentes/flip/volantin/thumb5.jpg", title: "Page five" },
-        { src: "view/componentes/flip/volantin/page6.jpg", thumb: "view/componentes/flip/volantin/thumb6.jpg", title: "Page six" },
-        { src: "view/componentes/flip/volantin/page7.jpg", thumb: "view/componentes/flip/volantin/thumb7.jpg", title: "Page seven" },
-        { src: "view/componentes/flip/volantin/page8.jpg", thumb: "view/componentes/flip/volantin/thumb8.jpg", title: "Last" }
+        { src: "view/componentes/flip/volantin/volantin1.png", thumb: "view/componentes/flip/volantin/thumb1.jpg", title: "Página principal" },
+        { src: "view/componentes/flip/volantin/volantin2.png", thumb: "view/componentes/flip/volantin/thumb2.jpg", title: "Página 2" },
+        { src: "view/componentes/flip/volantin/volantin3.png", thumb: "view/componentes/flip/volantin/thumb3.jpg", title: "Página 3" },
+        { src: "view/componentes/flip/volantin/volantin4.png", thumb: "view/componentes/flip/volantin/thumb4.jpg", title: "Página 4" },
+        { src: "view/componentes/flip/volantin/volantin5.png", thumb: "view/componentes/flip/volantin/thumb5.jpg", title: "Página 5" },
+        { src: "view/componentes/flip/volantin/volantin6.png", thumb: "view/componentes/flip/volantin/thumb6.jpg", title: "Página 6" },
+        { src: "view/componentes/flip/volantin/volantin7.png", thumb: "view/componentes/flip/volantin/thumb7.jpg", title: "Página 7" },
+        { src: "view/componentes/flip/volantin/volantin8.png", thumb: "view/componentes/flip/volantin/thumb8.jpg", title: "Página 8" },
+        { src: "view/componentes/flip/volantin/volantin9.png", thumb: "view/componentes/flip/volantin/thumb8.jpg", title: "Página 9" },
+        { src: "view/componentes/flip/volantin/volantin10.png", thumb: "view/componentes/flip/volantin/thumb8.jpg", title: "Página 10" },
+        { src: "view/componentes/flip/volantin/volantin11.png", thumb: "view/componentes/flip/volantin/thumb8.jpg", title: "Página 11" },
+        { src: "view/componentes/flip/volantin/volantin12.png", thumb: "view/componentes/flip/volantin/thumb8.jpg", title: "Página 12" },
+        { src: "view/componentes/flip/volantin/volantin13.png", thumb: "view/componentes/flip/volantin/thumb8.jpg", title: "Página 13" },
+        { src: "view/componentes/flip/volantin/volantin14.png", thumb: "view/componentes/flip/volantin/thumb8.jpg", title: "Página 14" }
     ],
     backgroundColor: "#fff"
 });
