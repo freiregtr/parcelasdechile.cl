@@ -106,13 +106,19 @@
                             <div class="container">
                                 <div class="row">
                                     <div class="col-md-12">
+                                        <h2 class="offset-top-50">Galería del proyecto</h2>
                                         <br>
                                         <div data-photo-swipe-gallery="gallery" data-arrows="true" data-loop="false" data-dots="false" data-swipe="true" data-items="1" class="slick-slider">
                                             <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/proyectos/lago_chapo/1.jpg" class="thumbnail-variant-2"><img src="view/componentes/img/proyectos/lago_chapo/1.jpg" alt="lago chapo" class="img-responsive"></a></div>
+                                            
                                             <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/proyectos/lago_chapo/2.jpg" class="thumbnail-variant-2"><img src="view/componentes/img/proyectos/lago_chapo/2.jpg" alt="lago chapo" class="img-responsive"></a></div>
+                                            
                                             <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/proyectos/lago_chapo/3.jpg" class="thumbnail-variant-2"><img src="view/componentes/img/proyectos/lago_chapo/3.jpg" alt="lago chapo" class="img-responsive"></a></div>
+                                            
                                             <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/proyectos/lago_chapo/4.jpg" class="thumbnail-variant-2"><img src="view/componentes/img/proyectos/lago_chapo/4.jpg" alt="lago chapo" class="img-responsive"></a></div>
+                                            
                                             <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/proyectos/lago_chapo/6.jpg" class="thumbnail-variant-2"><img src="view/componentes/img/proyectos/lago_chapo/6.jpg" alt="lago chapo" class="img-responsive"></a></div>
+                                            
                                             <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/proyectos/lago_chapo/7.jpg" class="thumbnail-variant-2"><img src="view/componentes/img/proyectos/lago_chapo/7.jpg" alt="lago chapo" class="img-responsive"></a></div>
                                         </div>
                                     </div>
@@ -134,7 +140,7 @@
                                                     <div data-dots="true" data-items="1" data-margin="30" data-mouse-drag="false" class="owl-carousel owl-dots-sm">
                                                         <div>
                                                             <hr class="divider">
-                                                            <h3 class="text-bold">Volantín de la Quebrada</h3>
+                                                            <h3 class="text-bold">Parcelación El Volantín</h3>
                                                             <h3 class="offset-top-30 text-primary">$7.990.000</h3>
                                                             <br>
                                                             <p class="offset-top-30">Marchihue en la Provincia de Cardenal Caro (Región del Libertador General Bernardo O'Higgins) es un lugar en Chile a 138 km al suroeste de Santiago.</p>

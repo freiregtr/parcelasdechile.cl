@@ -45,7 +45,7 @@
                                     <!-- RD Navbar Dropdown-->
                                     <ul class="rd-navbar-dropdown">
                                         <li><a href="lagochapo">Lago Chapo</a></li>
-                                        <li><a href="miradoralcones">Volantín de la Quebarada</a></li>
+                                        <li><a href="miradoralcones">Parcelación El Volantín</a></li>
                                     </ul>
                                 </li>
                                 <li><a href="quienessomos">Quienes Somos</a></li>
@@ -65,7 +65,7 @@
                             <div class="owl-item">
                                 <hr class="divider veil reveal-md-inline-block">
                                 <h1>Inscríbete en nuestra venta en verde</h1>
-                                <p class="offset-top-25">Próximo proyecto "Volantín de la Quebrada"</p>
+                                <p class="offset-top-25">Próximo proyecto "Parcelación El Volantín"</p>
                             </div>
                             <div class="owl-item">
                                 <hr class="divider veil reveal-md-inline-block">
@@ -145,7 +145,7 @@
                                <br>
                                 <h3>Desde $7.990.00</h3>
                                 <p>Próximo lanzamiento</p>
-                                <h3 class="caption-title"><a href="miradoralcones" class="text-white">Volantín de la Quebrada</a></h3><a href="miradoralcones" class="btn btn-primary-variant-1">Ver más</a>
+                                <h3 class="caption-title"><a href="miradoralcones" class="text-white">Parcelación El Volantín</a></h3><a href="miradoralcones" class="btn btn-primary-variant-1">Ver más</a>
                             </div>
                         </div>
                     </div>
