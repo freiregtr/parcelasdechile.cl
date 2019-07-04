@@ -60,7 +60,7 @@
             $_GET["ruta"] == "lagochapo"      ||
             $_GET["ruta"] == "miradoralcones" ||
             $_GET["ruta"] == "contacto"       ||
-            $_GET["ruta"] == "quienesomos"
+            $_GET["ruta"] == "quienessomos"
 
         ) {
             include "modulos/" . $_GET["ruta"] . ".php"; // se concatena la variable
