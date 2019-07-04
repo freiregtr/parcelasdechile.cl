@@ -28,7 +28,7 @@
                                 <!-- RD Navbar Dropdown-->
                                 <ul class="rd-navbar-dropdown">
                                     <li><a href="lagochapo">Lago Chapo</a></li>
-                                    <li><a href="miradoralcones">Volantín de la Quebrada</a></li>
+                                    <li><a href="parcelacionelvolantin">Volantín de la Quebrada</a></li>
                                 </ul>
                             </li>
                             <li><a href="quienessomos">Quienes Somos</a></li>

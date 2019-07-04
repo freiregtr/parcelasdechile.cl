@@ -58,7 +58,7 @@
         if (
             $_GET["ruta"] == "inicio"         ||
             $_GET["ruta"] == "lagochapo"      ||
-            $_GET["ruta"] == "miradoralcones" ||
+            $_GET["ruta"] == "parcelacionelvolantin" ||
             $_GET["ruta"] == "contacto"       ||
             $_GET["ruta"] == "quienessomos"
 

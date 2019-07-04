@@ -28,7 +28,7 @@
                                 <!-- RD Navbar Dropdown-->
                                 <ul class="rd-navbar-dropdown">
                                     <li><a href="lagochapo">Lago Chapo</a></li>
-                                    <li><a href="miradoralcones">Volantín de la Quebrada</a></li>
+                                    <li><a href="parcelacionelvolantin">Volantín de la Quebrada</a></li>
                                 </ul>
                             </li>
                             <li><a href="quienessomos">Quienes Somos</a></li>
@@ -212,9 +212,9 @@
                         <!-- BOTONES SIGUIENTE PROYECTO-->
                         <div class="container">
                             <div class="row">
-                                <div class="col-xs-6 text-left"><a href="miradoralcones" class="btn btn-primary btn-icon btn-icon btn-icon-left"><span class="icon fa-angle-left"></span><span class="text text-regular veil reveal-xs-inline">Proyecto previo</span></a></div>
+                                <div class="col-xs-6 text-left"><a href="parcelacionelvolantin" class="btn btn-primary btn-icon btn-icon btn-icon-left"><span class="icon fa-angle-left"></span><span class="text text-regular veil reveal-xs-inline">Proyecto previo</span></a></div>
 
-                                <div class="col-xs-6 text-right"><a href="miradoralcones" class="btn btn-primary btn-icon btn-icon btn-icon-right"><span class="text text-regular veil reveal-xs-inline">Siguiente proyecto</span><span class="icon fa-angle-right"></span></a></div>
+                                <div class="col-xs-6 text-right"><a href="parcelacionelvolantin" class="btn btn-primary btn-icon btn-icon btn-icon-right"><span class="text text-regular veil reveal-xs-inline">Siguiente proyecto</span><span class="icon fa-angle-right"></span></a></div>
                             </div>
                         </div>
                         <!-- FIN BOTONES SIGUIENTE PROYECTO-->

@@ -45,7 +45,7 @@
                                     <!-- RD Navbar Dropdown-->
                                     <ul class="rd-navbar-dropdown">
                                         <li><a href="lagochapo">Lago Chapo</a></li>
-                                        <li><a href="miradoralcones">Parcelación El Volantín</a></li>
+                                        <li><a href="parcelacionelvolantin">Parcelación El Volantín</a></li>
                                     </ul>
                                 </li>
                                 <li><a href="quienessomos">Quienes Somos</a></li>
