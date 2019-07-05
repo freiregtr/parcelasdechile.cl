@@ -146,38 +146,7 @@
                                             
                                             
 
-                                            <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/proyectos/mirador_alcones/6.jpg" class="thumbnail-variant-2"><img src="view/componentes/img/proyectos/mirador_alcones/6.jpg" alt="Volantin de la quebrada" class="img-responsive"></a></div>
-
-                                            <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/proyectos/mirador_alcones/7.jpg" class="thumbnail-variant-2"><img src="view/componentes/img/proyectos/mirador_alcones/7.jpg" alt="Volantin de la quebrada" class="img-responsive"></a></div>
-
-                                            <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/proyectos/mirador_alcones/8.jpg" class="thumbnail-variant-2"><img src="view/componentes/img/proyectos/mirador_alcones/8.jpg" alt="Volantin de la quebrada" class="img-responsive"></a></div>
-
-                                            <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/proyectos/mirador_alcones/9.jpg" class="thumbnail-variant-2"><img src="view/componentes/img/proyectos/mirador_alcones/9.jpg" alt="Volantin de la quebrada" class="img-responsive"></a></div>
-
-                                            <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/proyectos/mirador_alcones/10.jpg" class="thumbnail-variant-2"><img src="view/componentes/img/proyectos/mirador_alcones/10.jpg" alt="Volantin de la quebrada" class="img-responsive"></a></div>
-
-                                            <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/proyectos/mirador_alcones/11.jpg" class="thumbnail-variant-2"><img src="view/componentes/img/proyectos/mirador_alcones/11.jpg" alt="Volantin de la quebrada" class="img-responsive"></a></div>
-
-                                            <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/proyectos/mirador_alcones/12.jpg" class="thumbnail-variant-2"><img src="view/componentes/img/proyectos/mirador_alcones/12.jpg" alt="Volantin de la quebrada" class="img-responsive"></a></div>
-
-                                            <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/proyectos/mirador_alcones/13.jpg" class="thumbnail-variant-2"><img src="view/componentes/img/proyectos/mirador_alcones/13.jpg" alt="Volantin de la quebrada" class="img-responsive"></a></div>
-
-                                            <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/proyectos/mirador_alcones/14.jpg" class="thumbnail-variant-2"><img src="view/componentes/img/proyectos/mirador_alcones/14.jpg" alt="Volantin de la quebrada" class="img-responsive"></a></div>
-
-                                            <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/proyectos/mirador_alcones/15.jpg" class="thumbnail-variant-2"><img src="view/componentes/img/proyectos/mirador_alcones/15.jpg" alt="Volantin de la quebrada" class="img-responsive"></a></div>
-
-                                            <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/proyectos/mirador_alcones/16.jpg" class="thumbnail-variant-2"><img src="view/componentes/img/proyectos/mirador_alcones/16.jpg" alt="Volantin de la quebrada" class="img-responsive"></a></div>
-
-                                            <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/proyectos/mirador_alcones/17.jpg" class="thumbnail-variant-2"><img src="view/componentes/img/proyectos/mirador_alcones/17.jpg" alt="Volantin de la quebrada" class="img-responsive"></a></div>
-
-                                            <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/proyectos/mirador_alcones/18.jpg" class="thumbnail-variant-2"><img src="view/componentes/img/proyectos/mirador_alcones/18.jpg" alt="Volantin de la quebrada" class="img-responsive"></a></div>
-
-                                            <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/proyectos/mirador_alcones/19.jpg" class="thumbnail-variant-2"><img src="view/componentes/img/proyectos/mirador_alcones/19.jpg" alt="Volantin de la quebrada" class="img-responsive"></a></div>
-
-                                            <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/proyectos/mirador_alcones/20.jpg" class="thumbnail-variant-2"><img src="view/componentes/img/proyectos/mirador_alcones/20.jpg" alt="Volantin de la quebrada" class="img-responsive"></a></div>
-
-                                            <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/proyectos/mirador_alcones/21.jpg" class="thumbnail-variant-2"><img src="view/componentes/img/proyectos/mirador_alcones/21.jpg" alt="Volantin de la quebrada" class="img-responsive"></a></div>
-
+                                          
                                         </div>
                                     </div>
                                 </div>
