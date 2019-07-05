@@ -24,7 +24,7 @@
                         <!-- RD Navbar Nav-->
                         <ul class="rd-navbar-nav">
                             <li><a href="inicio">Home</a></li>
-                            <li class="active"><a href="#">Proyectos</a>
+                            <li class="active"><a href="parcelacionelvolantin">Proyectos</a>
                                 <!-- RD Navbar Dropdown-->
                                 <ul class="rd-navbar-dropdown">
                                     <li><a href="lagochapo">Lago Chapo</a></li>
@@ -110,15 +110,15 @@
                                         <br>
                                         <div data-photo-swipe-gallery="gallery" data-arrows="true" data-loop="false" data-dots="false" data-swipe="true" data-items="1" class="slick-slider">
                                             <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/proyectos/lago_chapo/1.jpg" class="thumbnail-variant-2"><img src="view/componentes/img/proyectos/lago_chapo/1.jpg" alt="lago chapo" class="img-responsive"></a></div>
-                                            
+
                                             <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/proyectos/lago_chapo/2.jpg" class="thumbnail-variant-2"><img src="view/componentes/img/proyectos/lago_chapo/2.jpg" alt="lago chapo" class="img-responsive"></a></div>
-                                            
+
                                             <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/proyectos/lago_chapo/3.jpg" class="thumbnail-variant-2"><img src="view/componentes/img/proyectos/lago_chapo/3.jpg" alt="lago chapo" class="img-responsive"></a></div>
-                                            
+
                                             <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/proyectos/lago_chapo/4.jpg" class="thumbnail-variant-2"><img src="view/componentes/img/proyectos/lago_chapo/4.jpg" alt="lago chapo" class="img-responsive"></a></div>
-                                            
+
                                             <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/proyectos/lago_chapo/6.jpg" class="thumbnail-variant-2"><img src="view/componentes/img/proyectos/lago_chapo/6.jpg" alt="lago chapo" class="img-responsive"></a></div>
-                                            
+
                                             <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/proyectos/lago_chapo/7.jpg" class="thumbnail-variant-2"><img src="view/componentes/img/proyectos/lago_chapo/7.jpg" alt="lago chapo" class="img-responsive"></a></div>
                                         </div>
                                     </div>
@@ -132,7 +132,6 @@
                             <div class="container">
                                 <div class="row">
                                     <div class="col-md-6">
-
                                         <div class="offset-top-30 bg-image-01 well-transparent context-dark">
                                             <div class="range">
                                                 <div class="cell-md-9 cell-lg-7">
@@ -154,7 +153,6 @@
                                                             <h3 class="offset-top-30 text-primary">$9.990.000</h3>
                                                             <p class="offset-top-30">En el Lago Chapo podemos Disfrutar navegando con la hermosa vista del Volcán Calbuco, y si eres de las personas que ama la naturaleza deberías recorrer los senderos de la Reserva Nacional Llanquihue.</p><a href="lagochapo" class="offset-top-20 btn btn-primary text-regular">Ver más</a>
                                                         </div>
-
                                                     </div>
                                                 </div>
                                             </div>
@@ -213,7 +211,6 @@
                         <div class="container">
                             <div class="row">
                                 <div class="col-xs-6 text-left"><a href="parcelacionelvolantin" class="btn btn-primary btn-icon btn-icon btn-icon-left"><span class="icon fa-angle-left"></span><span class="text text-regular veil reveal-xs-inline">Proyecto previo</span></a></div>
-
                                 <div class="col-xs-6 text-right"><a href="parcelacionelvolantin" class="btn btn-primary btn-icon btn-icon btn-icon-right"><span class="text text-regular veil reveal-xs-inline">Siguiente proyecto</span><span class="icon fa-angle-right"></span></a></div>
                             </div>
                         </div>
@@ -240,33 +237,6 @@
     </section>
     <!-- FOOTER-->
     <footer class="page-footer">
-        <div class="shell section-70 section-lg-120">
-            <div class="range text-md-left">
-                <!-- SOBRE NOSOTROS-->
-                <div class="cell-md-4">
-                    <h5>Sobre Nosotros</h5>
-                    <p class="offset-top-20 offset-md-top-36">Por qué tenemos el país más lindo del mundo, creemos que deberías elegir invertir con Parcelas de Chile.</p>
-                </div>
-                <!-- OTROS SITIOS-->
-                <div class="cell-md-4">
-                    <h5>Sitios Relacionados</h5>
-                    <div class="post-blog-sm offset-top-20 offset-md-top-36"><a href="blog-single-post.html" class="text-bold">www.agenciapanoramica.cl</a>
-                        <p class="small offset-top-7">Tours Panorámicos</p>
-                    </div>
-                    <div class="post-blog-sm offset-top-16"><a href="blog-single-post.html" class="text-bold">www.lagochapo.cl</a>
-                        <p class="small offset-top-7">Agencia de viajes</p>
-                    </div>
-                </div>
-                <!-- TAGS-->
-                <div class="cell-md-4">
-                    <h5>Tags</h5>
-                    <ul class="offset-top-20 offset-md-top-36 group">
-                        <li><a href="blog.html" class="btn btn-tag">Parcelas</a></li>
-                        <li><a href="blog.html" class="btn btn-tag">Chile</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
         <div class="shell">
             <hr>
         </div>
@@ -327,7 +297,7 @@
         </div>
     </div>
     <!-- Inicio Div chat -->
-        <?php
+    <?php
         include "chat.php";
         ?>
-        <!-- Fin Div chat -->
+    <!-- Fin Div chat -->

@@ -24,7 +24,7 @@
                         <!-- RD Navbar Nav-->
                         <ul class="rd-navbar-nav">
                             <li><a href="inicio">Home</a></li>
-                            <li class="active"><a href="#">Proyectos</a>
+                            <li class="active"><a href="parcelacionelvolantin">Proyectos</a>
                                 <!-- RD Navbar Dropdown-->
                                 <ul class="rd-navbar-dropdown">
                                     <li><a href="lagochapo">Lago Chapo</a></li>
@@ -132,11 +132,11 @@
                                         <br>
                                         <div data-photo-swipe-gallery="gallery" data-arrows="true" data-loop="false" data-dots="false" data-swipe="true" data-items="1" class="slick-slider">
                                             <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/proyectos/mirador_alcones/malcones.jpg" class="thumbnail-variant-2"><img src="view/componentes/img/proyectos/mirador_alcones/malcones.jpg" alt="Volantin de la quebrada" class="img-responsive"></a></div>
-                                            
+
                                             <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/proyectos/mirador_alcones/1.jpg" class="thumbnail-variant-2"><img src="view/componentes/img/proyectos/mirador_alcones/1.jpg" alt="Volantin de la quebrada" class="img-responsive"></a></div>
-                                            
+
                                             <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/proyectos/mirador_alcones/2.jpg" class="thumbnail-variant-2"><img src="view/componentes/img/proyectos/mirador_alcones/2.jpg" alt="Volantin de la quebrada" class="img-responsive"></a></div>
-                                            
+
                                             <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/Proyectos/mirador_alcones/4.jpg" class="thumbnail-variant-2"><img src="view/componentes/img/proyectos/mirador_alcones/4.jpg" alt="Volantin de la quebrada" class="img-responsive"></a></div>
 
                                             <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/proyectos/mirador_alcones/5.jpg" class="thumbnail-variant-2"><img src="view/componentes/img/proyectos/mirador_alcones/5.jpg" alt="Volantin de la quebrada" class="img-responsive"></a></div>
@@ -294,30 +294,6 @@
     </section>
     <!-- FOOTER-->
     <footer class="page-footer">
-        <div class="shell section-70 section-lg-120">
-            <div class="range text-md-left">
-                <div class="cell-md-4">
-                    <h5>Sobre Nosotros</h5>
-                    <p class="offset-top-20 offset-md-top-36">Por qué tenemos el país más lindo del mundo, creemos que deberías elegir invertir con Parcelas de Chile.</p>
-                </div>
-                <div class="cell-md-4">
-                    <h5>Sitios Relacionados</h5>
-                    <div class="post-blog-sm offset-top-20 offset-md-top-36"><a href="blog-single-post.html" class="text-bold">www.agenciapanoramica.cl</a>
-                        <p class="small offset-top-7">Tours Panorámicos</p>
-                    </div>
-                    <div class="post-blog-sm offset-top-16"><a href="blog-single-post.html" class="text-bold">www.lagochapo.cl</a>
-                        <p class="small offset-top-7">Agencia de viajes</p>
-                    </div>
-                </div>
-                <div class="cell-md-4">
-                    <h5>Tags</h5>
-                    <ul class="offset-top-20 offset-md-top-36 group">
-                        <li><a href="blog.html" class="btn btn-tag">Parcelas</a></li>
-                        <li><a href="blog.html" class="btn btn-tag">Chile</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
         <div class="shell">
             <hr>
         </div>

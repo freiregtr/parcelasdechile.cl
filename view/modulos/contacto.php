@@ -14,8 +14,7 @@
                         <div class="rd-navbar-brand"><a href="inicio" class="brand-name"><img src="view/componentes/img/logo/logo_transparente.png" width="228" height="83" alt=""></a></div>
                         <div class="rd-navbar-contacts rd-navbar-collapse rd-navbar-collapse-2"><span class="semi-small">Póngase
                                 en contacto con nosotros</span>
-                            <div><span class="icon fa-phone text-primary"></span><a href="callto:>+56 9 5805 3609">+56 9 5805
-                                    3609</a></div>
+                            <div><span class="icon fa-phone text-primary"></span><a href="callto:>+56 9 5805 3609">+56 9 5805 3609</a></div>
                         </div>
                     </div>
                 </div>
@@ -24,7 +23,7 @@
                         <!-- RD Navbar Nav-->
                         <ul class="rd-navbar-nav">
                             <li><a href="inicio">Home</a></li>
-                            <li><a href="#">Proyectos</a>
+                            <li><a href="parcelacionelvolantin">Proyectos</a>
                                 <!-- RD Navbar Dropdown-->
                                 <ul class="rd-navbar-dropdown">
                                     <li><a href="lagochapo">Lago Chapo</a></li>
@@ -67,7 +66,7 @@
                                     </div>
                                     <div>
                                         <hr class="divider">
-                                        <h3 class="text-bold">Volantín de la Quebrada</h3>
+                                        <h3 class="text-bold">Parcelación El Volantín</h3>
                                         <h3 class="offset-top-30 text-primary">$7.990.000</h3>
                                         <br>
                                         <p class="offset-top-30">Marchihue en la Provincia de Cardenal Caro (Región del Libertador General Bernardo O'Higgins) es un lugar en Chile a 138 km al suroeste de Santiago.</p>
@@ -152,31 +151,6 @@
     </main>
     <!-- Page Footer-->
     <footer class="page-footer">
-        <div class="shell section-70 section-lg-120">
-            <div class="range text-md-left">
-                <div class="cell-md-4">
-                    <h5>Sobre Nosotros</h5>
-                    <p class="offset-top-20 offset-md-top-36">Por qué tenemos el país más lindo del mundo, creemos que deberías
-                        elegir invertir con Parcelas de Chile.</p>
-                </div>
-                <div class="cell-md-4">
-                    <h5>Sitios Relacionados</h5>
-                    <div class="post-blog-sm offset-top-20 offset-md-top-36"><a href="blog-single-post.html" class="text-bold">www.agenciapanoramica.cl</a>
-                        <p class="small offset-top-7">Tours Panorámicos</p>
-                    </div>
-                    <div class="post-blog-sm offset-top-16"><a href="blog-single-post.html" class="text-bold">www.lagochapo.cl</a>
-                        <p class="small offset-top-7">Agencia de viajes</p>
-                    </div>
-                </div>
-                <div class="cell-md-4">
-                    <h5>Tags</h5>
-                    <ul class="offset-top-20 offset-md-top-36 group">
-                        <li><a href="blog.html" class="btn btn-tag">Parcelas</a></li>
-                        <li><a href="blog.html" class="btn btn-tag">Chile</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
         <div class="shell">
             <hr>
         </div>
