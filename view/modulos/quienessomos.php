@@ -28,7 +28,7 @@
                                 <!-- RD Navbar Dropdown-->
                                 <ul class="rd-navbar-dropdown">
                                     <li><a href="lagochapo">Lago Chapo</a></li>
-                                    <li><a href="parcelacionelvolantin">Volantín de la Quebrada</a></li>
+                                    <li><a href="miradoralcones">Parcelación El Volantín</a></li>
                                 </ul>
                             </li>
                             <li><a href="quienessomos">Quienes Somos</a></li>
@@ -53,63 +53,80 @@
         <section class="section-top-70 section-bottom-80">
             <div class="shell text-md-left product">
                 <div class="range">
-                    <div class="cell-md-8 text-center">
-                        <h3>Agents Listing</h3>
-                        <div class="range text-md-left offset-top-30">
-                            <div class="cell-sm-6"><a href="author.html" class="reveal-inline-block"><img src="images/user-01.jpg" width="301" height="301" alt="" class="img-responsive center-block"></a>
-                                <h5 class="offset-top-10"><a href="author.html" class="text-base">Emilia Warren</a></h5>
-                                <p class="offset-top-16">Hello! My name is Emilia Warren and I'm a full-time…</p>
-                                <div><span class="text-middle icon inset-right-10 text-primary fa-phone"></span><a href="callto:#" class="text-middle text-base">800-2345-6789</a></div>
-                                <div class="offset-top-0"><span class="text-middle icon inset-right-10 text-primary fa-phone"></span><a href="callto:#" class="text-middle text-base">800-2345-6789</a></div>
-                                <ul class="list-inline offset-top-20">
-                                    <li><a href="#" class="icon icon-sm text-gray fa-facebook"></a></li>
-                                    <li><a href="#" class="icon icon-sm text-gray fa-twitter"></a></li>
-                                    <li><a href="#" class="icon icon-sm text-gray fa-google-plus"></a></li>
-                                </ul>
-                                <div class="offset-top-25"><a href="author.html" class="btn btn-primary">read more</a></div>
-                            </div>
-                            <div class="cell-sm-6"><a href="author.html" class="reveal-inline-block"><img src="images/user-05.jpg" width="301" height="301" alt="" class="img-responsive center-block"></a>
-                                <h5 class="offset-top-10"><a href="author.html" class="text-base">Warren Kalhoney</a></h5>
-                                <p class="offset-top-16">I work with Chicago, MI and OH real estate markets.…</p>
-                                <div><span class="text-middle icon inset-right-10 text-primary fa-phone"></span><a href="callto:#" class="text-middle text-base">800-2345-6789</a></div>
-                                <div class="offset-top-0"><span class="text-middle icon inset-right-10 text-primary fa-phone"></span><a href="callto:#" class="text-middle text-base">800-2345-6789</a></div>
-                                <ul class="list-inline offset-top-20">
-                                    <li><a href="#" class="icon icon-sm text-gray fa-facebook"></a></li>
-                                    <li><a href="#" class="icon icon-sm text-gray fa-twitter"></a></li>
-                                    <li><a href="#" class="icon icon-sm text-gray fa-google-plus"></a></li>
-                                </ul>
-                                <div class="offset-top-25"><a href="author.html" class="btn btn-primary">read more</a></div>
-                            </div>
-                            <div class="cell-sm-12 offset-top-50 veil reveal-sm-block">
-                                <hr>
-                            </div>
-                            <div class="cell-sm-6 offset-top-50"><a href="author.html" class="reveal-inline-block"><img src="images/user-06.jpg" width="301" height="301" alt="" class="img-responsive center-block"></a>
-                                <h5 class="offset-top-10"><a href="author.html" class="text-base">Timothy Levine</a></h5>
-                                <p class="offset-top-16">I work mainly with the West coast properties, located in…</p>
-                                <div><span class="text-middle icon inset-right-10 text-primary fa-phone"></span><a href="callto:#" class="text-middle text-base">800-2345-6789</a></div>
-                                <div class="offset-top-0"><span class="text-middle icon inset-right-10 text-primary fa-phone"></span><a href="callto:#" class="text-middle text-base">800-2345-6789</a></div>
-                                <ul class="list-inline offset-top-20">
-                                    <li><a href="#" class="icon icon-sm text-gray fa-facebook"></a></li>
-                                    <li><a href="#" class="icon icon-sm text-gray fa-twitter"></a></li>
-                                    <li><a href="#" class="icon icon-sm text-gray fa-google-plus"></a></li>
-                                </ul>
-                                <div class="offset-top-25"><a href="author.html" class="btn btn-primary">read more</a></div>
-                            </div>
-                            <div class="cell-sm-6 offset-top-50"><a href="author.html" class="reveal-inline-block"><img src="images/user-07.jpg" width="301" height="301" alt="" class="img-responsive center-block"></a>
-                                <h5 class="offset-top-10"><a href="author.html" class="text-base">Stacy Goldwein</a></h5>
-                                <p class="offset-top-16">I specialize in properties ranging from townhouses to offices in…</p>
-                                <div><span class="text-middle icon inset-right-10 text-primary fa-phone"></span><a href="callto:#" class="text-middle text-base">800-2345-6789</a></div>
-                                <div class="offset-top-0"><span class="text-middle icon inset-right-10 text-primary fa-phone"></span><a href="callto:#" class="text-middle text-base">800-2345-6789</a></div>
-                                <ul class="list-inline offset-top-20">
-                                    <li><a href="#" class="icon icon-sm text-gray fa-facebook"></a></li>
-                                    <li><a href="#" class="icon icon-sm text-gray fa-twitter"></a></li>
-                                    <li><a href="#" class="icon icon-sm text-gray fa-google-plus"></a></li>
-                                </ul>
-                                <div class="offset-top-25"><a href="author.html" class="btn btn-primary">read more</a></div>
-                            </div>
+                  <div class="container">
+                      <div class="row">
+                         <div class="col-md-6">
+                             <img src="../componentes/img/oficina-min.jpg" alt="">
+                         </div>
+                          <div class="col-md-6">
+                             <p>Somos un equipo de seres humanos enfocados en ayudar a lograr que miles de familias puedan comprar su primera Parcela.</p> <p>Vivimos en el país mas lindo del mundo y es nuestra misión ayudar a nuestros clientes a cumplir este anhelado sueño. </p> <p>Sabemos que los terrenos en Chile solo suben de valor, por lo que en un futuro nuestros hijos serán quienes disfrutarán de las inversiones que nosotros hagamos hoy.</p><p>Amamos Chile, disfrutamos Chile y compartimos Chile…. Somos Parcelas de Chile.</p>
+                              
+                          </div>
+                      </div>
+                  </div>
+                       <br>
+                        <div class="container text-center">
+                         <br>
+                          <h3>Nuestros vendedores</h3>     
+                 <div class="col-md-12">
+                     <div class="col-md-3">
+                         <div>
+                             <a href="author.html" class="reveal-inline-block"><img src="../componentes/img/chat/margarita.jpg" width="301" height="301" alt="" class="img-responsive center-block"></a>
+                             <h5 class="offset-top-10"><a href="author.html" class="text-base">Margarita <br>Ramirez</a></h5>
+                             <p class="offset-top-16">Hello!</p>
+                             <div><span class="text-middle icon inset-right-10 text-primary fa-phone"></span><a href="callto:#" class="text-middle text-base">+56 9 8821 4958</a></div>
+                             <ul class="list-inline offset-top-20">
+                                 <li><a href="#" class="icon icon-sm text-gray fa-facebook"></a></li>
+                                 <li><a href="#" class="icon icon-sm text-gray fa-instagram"></a></li>
+                                 <li><a href="#" class="icon icon-sm text-gray fa-google-plus"></a></li>
+                             </ul>
+                             <div class="offset-top-25"><a href="author.html" class="btn btn-primary">Contactar</a></div>
+                         </div>
+                     </div>
+                     <div class="col-md-3">
+                         <div>
+                             <a href="author.html" class="reveal-inline-block"><img src="images/user-01.jpg" width="301" height="301" alt="" class="img-responsive center-block"></a>
+                             <h5 class="offset-top-10"><a href="author.html" class="text-base">Soledad <br>Charme</a></h5>
+                             <p class="offset-top-16">Hello!</p>
+                             <div><span class="text-middle icon inset-right-10 text-primary fa-phone"></span><a href="callto:#" class="text-middle text-base">+56 9 7519 4031</a></div>
+                             <ul class="list-inline offset-top-20">
+                                 <li><a href="#" class="icon icon-sm text-gray fa-facebook"></a></li>
+                                 <li><a href="#" class="icon icon-sm text-gray fa-twitter"></a></li>
+                                 <li><a href="#" class="icon icon-sm text-gray fa-google-plus"></a></li>
+                             </ul>
+                             <div class="offset-top-25"><a href="author.html" class="btn btn-primary">Contactar</a></div>
+                         </div>
+                     </div>
+                     <div class="col-md-3">
+                         <div>
+                             <a href="author.html" class="reveal-inline-block"><img src="images/user-01.jpg" width="301" height="301" alt="" class="img-responsive center-block"></a>
+                             <h5 class="offset-top-10"><a href="author.html" class="text-base">Mauro <br> Beasain</a></h5>
+                             <p class="offset-top-16">Hello!</p>
+                             <div><span class="text-middle icon inset-right-10 text-primary fa-phone"></span><a href="callto:#" class="text-middle text-base">800-2345-6789</a></div>
+                             <ul class="list-inline offset-top-20">
+                                 <li><a href="#" class="icon icon-sm text-gray fa-facebook"></a></li>
+                                 <li><a href="#" class="icon icon-sm text-gray fa-twitter"></a></li>
+                                 <li><a href="#" class="icon icon-sm text-gray fa-google-plus"></a></li>
+                             </ul>
+                             <div class="offset-top-25"><a href="author.html" class="btn btn-primary">Contactar</a></div>
+                         </div>
+                     </div>
+                     <div class="col-md-3">
+                         <div>
+                             <a href="author.html" class="reveal-inline-block"><img src="images/user-01.jpg" width="301" height="301" alt="" class="img-responsive center-block"></a>
+                             <h5 class="offset-top-10"><a href="author.html" class="text-base">Jorge <br> Vera</a></h5>
+                             <p class="offset-top-16">Hello!</p>
+                             <div><span class="text-middle icon inset-right-10 text-primary fa-phone"></span><a href="callto:#" class="text-middle text-base">800-2345-6789</a></div>
+                             <ul class="list-inline offset-top-20">
+                                 <li><a href="#" class="icon icon-sm text-gray fa-facebook"></a></li>
+                                 <li><a href="#" class="icon icon-sm text-gray fa-twitter"></a></li>
+                                 <li><a href="#" class="icon icon-sm text-gray fa-google-plus"></a></li>
+                             </ul>
+                             <div class="offset-top-25"><a href="author.html" class="btn btn-primary">Contactar</a></div>
+                         </div>
+                     </div>
+                 </div>    
                         </div>
-                    </div>
-
                 </div>
             </div>
     </main>
