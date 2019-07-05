@@ -53,62 +53,71 @@
         <section class="section-top-70 section-bottom-80">
             <div class="shell text-md-left product">
                 <div class="range">
-                  <div class="container">
-                      <div class="row">
-                         <div class="col-md-6">
-                             <img src="../componentes/img/oficina-min.jpg" alt="">
-                         </div>
-                          <div class="col-md-6">
-                             <p>Somos un equipo de seres humanos enfocados en ayudar a lograr que miles de familias puedan comprar su primera Parcela.</p> <p>Vivimos en el país mas lindo del mundo y es nuestra misión ayudar a nuestros clientes a cumplir este anhelado sueño. </p> <p>Sabemos que los terrenos en Chile solo suben de valor, por lo que en un futuro nuestros hijos serán quienes disfrutarán de las inversiones que nosotros hagamos hoy.</p><p>Amamos Chile, disfrutamos Chile y compartimos Chile…. Somos Parcelas de Chile.</p>
-                              
-                          </div>
-                      </div>
-                  </div>
-                       <br>
-                        <div class="container text-center">
-                         <br>
-                          <h3>Nuestros vendedores</h3>     
-                 <div class="col-md-12">
-                     <div class="col-md-3">
-                         <div>
-                             <a href="author.html" class="reveal-inline-block"><img src="../componentes/img/vendedores/margarita301.jpg" width="301" height="301" alt="" class="img-responsive center-block"></a>
-                             
-                             <h5 class="offset-top-10">Margarita<br>Ramirez</h5>
-                             <div><span class="text-middle icon inset-right-10 text-primary fa-phone"></span><a href="callto:#" class="text-middle text-base">+56 9 8821 4958</a></div>
-                             <div class="offset-top-25"><a href="https://web.whatsapp.com/send?phone=56988214958" class="btn btn-primary">Contactar</a></div>
-                         </div>
-                     </div>
-                     <div class="col-md-3">
-                         <div>
-                             <a href="author.html" class="reveal-inline-block"><img src="../componentes/img/vendedores/user-03.jpg" width="301" height="301" alt="" class="img-responsive center-block"></a>
-                             
-                             <h5 class="offset-top-10">Soledad<br>Charme</h5>
-                             <div><span class="text-middle icon inset-right-10 text-primary fa-phone"></span><a href="callto:#" class="text-middle text-base">+56 9 6848 1426</a></div>
-                             <div class="offset-top-25"><a href="https://web.whatsapp.com/send?phone=56968481426" class="btn btn-primary">Contactar</a></div>
-                         </div>
-                     </div>
-                     <div class="col-md-3">
-                         <div>
-                             <a href="author.html" class="reveal-inline-block"><img src="../componentes/img/vendedores/mauro301.jpg" width="301" height="301" alt="" class="img-responsive center-block"></a>
-                             
-                             <h5 class="offset-top-10">Mauro<br>Beasain</h5>
-                             <div><span class="text-middle icon inset-right-10 text-primary fa-phone"></span><a href="callto:#" class="text-middle text-base">+56 9 9359 0127</a></div>
-                             <div class="offset-top-25"><a href="https://web.whatsapp.com/send?phone=56993590127" class="btn btn-primary">Contactar</a></div>
-                         </div>
-                     </div>
-                     <div class="col-md-3">
-                         <div>
-                             <a href="author.html" class="reveal-inline-block"><img src="../componentes/img/vendedores/user-05.jpg" width="301" height="301" alt="" class="img-responsive center-block"></a>
-                             
-                             <h5 class="offset-top-10">Jorge<br>Vera</h5>
-                             <div><span class="text-middle icon inset-right-10 text-primary fa-phone"></span><a href="callto:#" class="text-middle text-base">+56 9 4564 5272</a></div>
-                             <div class="offset-top-25"><a href="https://web.whatsapp.com/send?phone=56945645272" class="btn btn-primary">Contactar</a></div>
-                         </div>
-                     </div>
-                 </div>    
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <h3>Quienes somos</h3>
+                                <hr>
+                                <p>Somos un equipo de seres humanos enfocados en ayudar a lograr que miles de familias puedan comprar su primera Parcela.</p>
+                                <p>Vivimos en el país mas lindo del mundo y es nuestra misión ayudar a nuestros clientes a cumplir este anhelado sueño. </p>
+                                <p>Sabemos que los terrenos en Chile solo suben de valor, por lo que en un futuro nuestros hijos serán quienes disfrutarán de las inversiones que nosotros hagamos hoy.</p>
+                                <p>Amamos Chile, disfrutamos Chile y compartimos Chile…. <br><br>
+                                    Somos Parcelas de Chile.</p>
+                                <br>
+                            </div>
+                            <div class="col-md-6">
+                                <img src="view/componentes/img/oficina-min.jpg" class="img-responsive center-block" width="90%;" alt="">
+                            </div>
                         </div>
+                    </div>
+                    <hr>
+                    <div class="container text-center">
+                        <br>
+                        <h3>Nuestros vendedores</h3>
+                        <hr>
+                        <div class="col-md-12">
+                            <div class="col-md-3">
+                                <div>
+                                    <br>
+                                    <img src="view/componentes/img/vendedores/margarita301.jpg" width="301" height="301" alt="" class="img-responsive center-block">
+                                    <h5 class="offset-top-10">Margarita<br>Ramirez</h5>
+                                    <div><span class="text-middle icon inset-right-10 text-primary fa-phone"></span><a href="callto:#" class="text-middle text-base">+56 9 8821 4958</a></div>
+                                    <div class="offset-top-25"><a href="https://web.whatsapp.com/send?phone=56988214958" class="btn btn-primary">Contactar</a></div>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div>
+                                    <br>
+                                    <img src="view/componentes/img/vendedores/user-03.jpg" width="301" height="301" alt="" class="img-responsive center-block">
+                                    <h5 class="offset-top-10">Soledad<br>Charme</h5>
+                                    <div><span class="text-middle icon inset-right-10 text-primary fa-phone"></span><a href="callto:#" class="text-middle text-base">+56 9 6848 1426</a></div>
+                                    <div class="offset-top-25"><a href="https://web.whatsapp.com/send?phone=56968481426" class="btn btn-primary">Contactar</a></div>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div>
+                                    <br>
+                                    <img src="view/componentes/img/vendedores/mauro301.jpg" width="301" height="301" alt="" class="img-responsive center-block">
+
+                                    <h5 class="offset-top-10">Mauro<br>Beasain</h5>
+                                    <div><span class="text-middle icon inset-right-10 text-primary fa-phone"></span><a href="callto:#" class="text-middle text-base">+56 9 9359 0127</a></div>
+                                    <div class="offset-top-25"><a href="https://web.whatsapp.com/send?phone=56993590127" class="btn btn-primary">Contactar</a></div>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div>
+                                    <br>
+                                    <img src="view/componentes/img/vendedores/user-05.jpg" width="301" height="301" alt="" class="img-responsive center-block">
+                                    <h5 class="offset-top-10">Jorge<br>Vera</h5>
+                                    <div><span class="text-middle icon inset-right-10 text-primary fa-phone"></span><a href="callto:#" class="text-middle text-base">+56 9 4564 5272</a></div>
+                                    <div class="offset-top-25"><a href="https://web.whatsapp.com/send?phone=56945645272" class="btn btn-primary">Contactar</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
+        </section>
     </main>
     <!-- FIN MAIN-->
     <!-- PARALAX -->
@@ -126,7 +135,7 @@
     </section>
     <!-- FOOTER-->
     <footer class="page-footer">
-      
+
         <div class="shell">
             <hr>
         </div>

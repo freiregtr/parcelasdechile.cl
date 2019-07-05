@@ -98,7 +98,7 @@
     if (isset($_GET["ruta"])){
         if($_GET["ruta"] == "lagochapo"){
             echo '<script src="view/componentes/mapsvg/js/lagochapo.js"></script>';
-        }else if($_GET["ruta"] == "miradoralcones"){
+        }else if($_GET["ruta"] == "parcelacionelvolantin"){
             echo '<script src="view/componentes/mapsvg/js/volantin.js"></script>';
             echo '<script src="view/js/flipvolantin.js"></script>';
         }
