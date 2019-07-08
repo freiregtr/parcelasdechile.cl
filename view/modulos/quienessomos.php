@@ -237,7 +237,7 @@
         </div>
     </div>
     <!-- Inicio Div chat -->
-    <?php
+    <?php``
     include "chat.php";
     ?>
     <!-- Fin Div chat -->
