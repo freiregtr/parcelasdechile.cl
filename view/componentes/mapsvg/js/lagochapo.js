@@ -16,32 +16,32 @@ jQuery(document).ready(function () {
                 id: "P-2",
                 'id_no_spaces': "P-2",
                 fill: "rgba(192,46,56,1)",
-                tooltip: "P-2 $ 12.990.000",
-                popover: "P-2 $ 12.990.000",
+                tooltip: "P-2 $ 11.990.000",
+                popover: "P-2 $ 11.990.000",
                 data: {}
             },
             'P-3': {
                 id: "P-3",
                 'id_no_spaces': "P-3",
                 fill: "rgba(192,46,56,1)",
-                tooltip: "P-3 $ 12.990.000",
-                popover: "P-3 $ 12.990.000",
+                tooltip: "P-3 $ 11.990.000",
+                popover: "P-3 $ 11.990.000",
                 data: {}
             },
             'P-58': {
                 id: "P-58",
                 'id_no_spaces': "P-58",
-               fill: "rgba(83,147,67,1)",
-                tooltip: "P-58 $ 16.990.000",
-                popover: "P-58 $ 16.990.000",
+              fill: "rgba(88,89,89,1)",
+                tooltip: "P-58 VENDIDA",
+                popover: "P-58 VENDIDA",
                 data: {}
             },
             'P-59': {
                 id: "P-59",
                 'id_no_spaces': "P-59",
-              fill: "rgba(83,147,67,1)",
-                tooltip: "P-59 $ 16.990.000",
-                popover: "P-59 $ 16.990.000",
+              fill: "rgba(88,89,89,1)",
+                tooltip: "P-59 VENDIDA",
+                popover: "P-59 VENDIDA",
                 data: {}
             },
             'P-55': {
@@ -71,17 +71,17 @@ jQuery(document).ready(function () {
             'P-46': {
                 id: "P-46",
                 'id_no_spaces': "P-46",
-                fill: "rgba(48,85,147,1)",
-                tooltip: "P-46 $ 10.990.000",
-                popover: "P-46 $ 10.990.000",
+              fill: "rgba(88,89,89,1)",
+                tooltip: "P-46 VENDIDA",
+                popover: "P-46 VENDIDA",
                 data: {}
             },
             'P-44': {
                 id: "P-44",
                 'id_no_spaces': "P-44",
-                fill: "rgba(48,85,147,1)",
-                tooltip: "P-44 $ 10.990.000",
-                popover: "P-44 $ 10.990.000",
+               fill: "rgba(88,89,89,1)",
+                tooltip: "P-44 VENDIDA",
+                popover: "P-44 VENDIDA",
                 data: {}
             },
             'P-17': {
@@ -231,9 +231,9 @@ jQuery(document).ready(function () {
             'P-37': {
                 id: "P-37",
                 'id_no_spaces': "P-37",
-                 fill: "rgba(192,46,56,1)",
-                tooltip: "P-37 $ 12.990.000",
-                popover: "P-37 $ 12.990.000",
+                 fill: "rgba(88,89,89,1)",
+                tooltip: "P-37 VENDIDA",
+                popover: "P-37 VENDIDA",
                 data: {}
             },
             'P-36': {

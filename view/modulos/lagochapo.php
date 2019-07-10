@@ -76,7 +76,7 @@
                                         <div class="row">
                                             <div class="col-md-4">
                                                 <div class="valor1">
-                                                    <p>$10.990.000</p>
+                                                    <p>$11.990.000</p>
                                                 </div>
                                             </div>
                                             <div class="col-md-4">
