@@ -130,14 +130,14 @@
                     <div class="reveal-block thumbnail-variant-1">
                         <div class="caption-wrapper">
                             <img src="view/componentes/img/proyectos/mirador_alcones/malcones.jpg" width="960" height="567" alt="Volantin de la quebrada" class="img-responsive center-block">
-                            <div class="caption"><a href="miradoralcones" class="label label-primary">VI Región</a></div>
+                            <div class="caption"><a href="parcelacionelvolantin" class="label label-primary">VI Región</a></div>
                         </div>
                         <div class="caption-2">
                             <h2 class="context-dark">Inscríbete en nuestra <br>venta en verde</h2>
                             <br>
                             <h3>Desde $7.990.00</h3>
                             <p>Próximo lanzamiento</p>
-                            <h3 class="caption-title"><a href="miradoralcones" class="text-white">Parcelación El Volantín</a></h3><a href="miradoralcones" class="btn btn-primary-variant-1">Ver más</a>
+                            <h3 class="caption-title"><a href="parcelacionelvolantin" class="text-white">Parcelación El Volantín</a></h3><a href="parcelacionelvolantin" class="btn btn-primary-variant-1">Ver más</a>
                         </div>
                     </div>
                 </div>
