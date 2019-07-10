@@ -75,22 +75,18 @@
                                         <br>
                                         <!-- VALORES-->
                                         <div class="row">
-                                            <div class="col-md-3">
-                                                <div class="valor1">
+                                           
+                                            <div class="col-md-4">
+                                                <div class="valor4">
                                                     <p>$7.990.000</p>
                                                 </div>
                                             </div>
-                                            <div class="col-md-3">
-                                                <div class="valor4">
-                                                    <p>$8.990.000</p>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-3">
+                                            <div class="col-md-4">
                                                 <div class="valor3">
                                                     <p>$9.990.000</p>
                                                 </div>
                                             </div>
-                                            <div class="col-md-3">
+                                            <div class="col-md-4">
                                                 <div class="valor2">
                                                     <p>$10.990.000</p>
                                                 </div>
