@@ -195,48 +195,6 @@
             </div>
         </div>
     </div>
-    <div id="registerModal" role="dialog" class="modal fade">
-        <div class="modal-dialog modal-lg">
-            <!-- Modal content-->
-            <div class="modal-content">
-                <div class="modal-body">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="modal-head">
-                                <hr>
-                                <h3>Subscríbete a nuestra venta en verde</h3>
-                                <br>
-                                <h6>Solo con invitación*</h6>
-                                <hr>
-                                <img src="view/componentes/img/logo/logo_transparente.png" width="230" height="86" alt="Parcelas de chile">
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <form class="offset-top-30 text-left">
-                                <div class="form-group">
-                                    <label class="form-label-static form-label-outside">Nombre Completo</label>
-                                    <input type="text" name="name" data-constraints="@Required" class="form-control">
-                                </div>
-                                <div class="form-group">
-                                    <label class="form-label-static form-label-outside">Correo Electrónico</label>
-                                    <input type="text" name="name" data-constraints="@Required" class="form-control">
-                                </div>
-                                <div class="form-group">
-                                    <label class="form-label-static form-label-outside">Teléfono</label>
-                                    <input type="text" name="name" data-constraints="@Required" class="form-control">
-                                </div>
-                                <div class="offset-top-10">
-                                    <button class="btn btn-block btn-primary">Enviar</button>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                    <div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
     <!-- Inicio Div chat -->
     <?php
     include "chat.php";

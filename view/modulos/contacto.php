@@ -105,7 +105,7 @@
                                         </div>
                                         <div class="range range-xs-middle offset-top-20">
                                             <div class="cell-lg-2">
-                                                <p class="text-base">mail</p>
+                                                <p class="text-base">Mail</p>
                                             </div>
                                             <div class="cell-lg-10 offset-top-7 offset-lg-top-0">
                                                 <div class="form-group">
