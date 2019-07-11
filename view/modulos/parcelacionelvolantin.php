@@ -367,8 +367,8 @@
                                 <img src="view/componentes/img/logo/logo_transparente.png" width="230" height="86" alt="Parcelas de chile">
                             </div>
                         </div>
-                        <div class="col-md-6 rd-mailform text-left">
-                            <form action="view/componentes/bat/rd-mailform.php" data-form-output="form-output-global" data-form-type="ventaverde" method="POST" class="offset-top-30 text-left">
+                        <div class="col-md-6 text-left">
+                            <form action="view/componentes/bat/rd-mailform.php" data-form-output="form-output-global" data-form-type="ventaverde" method="POST" class="offset-top-30 text-left rd-mailform">
                                 <div class="form-group">
                                     <label class="form-label-static form-label-outside">Nombre Completo</label>
                                     <input type="text" id="contact-name" name="name" data-constraints="@Required" class="form-control" placeholder="Nombre Completo">
