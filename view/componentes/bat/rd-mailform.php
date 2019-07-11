@@ -22,6 +22,12 @@ try {
             case 'contact':
                 $subject = 'Un mensaje de Parcelas de Chile';
                 break;
+            case 'ventaverde':
+                $subject = 'Un mensaje de venta en verde Parcelación Volantin';
+                break;
+            case 'inicio':
+                $subject = 'Un mensaje del formulario de contacto en Inicio';
+                break;
             case 'subscribe':
                 $subject = 'Suscripcion';
                 break;

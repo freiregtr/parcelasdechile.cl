@@ -368,7 +368,7 @@
                             </div>
                         </div>
                         <div class="col-md-6 rd-mailform text-left">
-                            <form action="view/componentes/bat/rd-mailform.php" data-form-output="form-output-global" data-form-type="contact" method="POST" class="offset-top-30 text-left">
+                            <form action="view/componentes/bat/rd-mailform.php" data-form-output="form-output-global" data-form-type="ventaverde" method="POST" class="offset-top-30 text-left">
                                 <div class="form-group">
                                     <label class="form-label-static form-label-outside">Nombre Completo</label>
                                     <input type="text" id="contact-name" name="name" data-constraints="@Required" class="form-control" placeholder="Nombre Completo">

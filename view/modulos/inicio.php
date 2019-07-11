@@ -78,7 +78,7 @@
                 <div class="cell-md-5 cell-lg-4 cell-md-preffix-1 offset-top-40 rd-mailform text-left">
                     <div class="well well-base">
                         <h3>¿Te llamamos?</h3>
-                        <form action="view/componentes/bat/rd-mailform.php" data-form-output="form-output-global" data-form-type="contact" method="POST" class="offset-top-30 text-left">
+                        <form action="view/componentes/bat/rd-mailform.php" data-form-output="form-output-global" data-form-type="inicio" method="POST" class="offset-top-30 text-left">
                             <div class="form-group">
                                 <label class="form-label-static form-label-outside"></label>
                                 <input type="text" id="contact-name" name="name" data-constraints="@Required" class="form-control" placeholder="Nombre Completo">
