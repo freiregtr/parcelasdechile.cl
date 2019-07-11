@@ -367,19 +367,19 @@
                                 <img src="view/componentes/img/logo/logo_transparente.png" width="230" height="86" alt="Parcelas de chile">
                             </div>
                         </div>
-                        <div class="col-md-6">
-                            <form class="offset-top-30 text-left">
+                        <div class="col-md-6 rd-mailform text-left">
+                            <form action="view/componentes/bat/rd-mailform.php" data-form-output="form-output-global" data-form-type="contact" method="POST" class="offset-top-30 text-left">
                                 <div class="form-group">
                                     <label class="form-label-static form-label-outside">Nombre Completo</label>
-                                    <input type="text" name="name" data-constraints="@Required" class="form-control">
+                                    <input type="text" id="contact-name" name="name" data-constraints="@Required" class="form-control" placeholder="Nombre Completo">
                                 </div>
                                 <div class="form-group">
                                     <label class="form-label-static form-label-outside">Correo Electrónico</label>
-                                    <input type="text" name="name" data-constraints="@Required" class="form-control">
+                                    <input type="email" id="contact-email" name="email" data-constraints="@Email @Required" class="form-control" placeholder="Correo Electrónico">
                                 </div>
                                 <div class="form-group">
                                     <label class="form-label-static form-label-outside">Teléfono</label>
-                                    <input type="text" name="name" data-constraints="@Required" class="form-control">
+                                    <input type="text" id="contact-phone" name="phone" data-constraints="@Numeric @Required" class="form-control" placeholder="Teléfono">
                                 </div>
                                 <div class="offset-top-10">
                                     <button class="btn btn-block btn-primary">Enviar</button>
@@ -398,3 +398,5 @@
     include "chat.php";
     ?>
     <!-- Fin Div chat -->
+    <!-- Global Mailform Output-->
+    <div id="form-output-global" class="snackbars"></div>
