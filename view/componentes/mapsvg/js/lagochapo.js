@@ -16,16 +16,16 @@ jQuery(document).ready(function () {
                 id: "P-2",
                 'id_no_spaces': "P-2",
                 fill: "rgba(192,46,56,1)",
-                tooltip: "P-2 $ 11.990.000",
-                popover: "P-2 $ 11.990.000",
+                tooltip: "P-2 $ 12.990.000",
+                popover: "P-2 $ 12.990.000",
                 data: {}
             },
             'P-3': {
                 id: "P-3",
                 'id_no_spaces': "P-3",
                 fill: "rgba(192,46,56,1)",
-                tooltip: "P-3 $ 11.990.000",
-                popover: "P-3 $ 11.990.000",
+                tooltip: "P-3 $ 12.990.000",
+                popover: "P-3 $ 12.990.000",
                 data: {}
             },
             'P-58': {
@@ -232,8 +232,8 @@ jQuery(document).ready(function () {
                 id: "P-37",
                 'id_no_spaces': "P-37",
                  fill: "rgba(192,46,56,1)",
-                tooltip: "P-37 $ 11.990.000",
-                popover: "P-37 $ 11.990.000",
+                tooltip: "P-37 $ 12.990.000",
+                popover: "P-37 $ 12.990.000",
                 data: {}
             },
             'P-36': {
