@@ -20,10 +20,10 @@ try {
     if (isset($_POST['form-type'])) {
         switch ($_POST['form-type']) {
             case 'ventaverde':
-                $subject = 'Un mensaje de venta en verde Parcelación Volantin';
+                $subject = 'Correo de venta en verde Parcelación Volantin';
                 break;
             case 'inicio':
-                $subject = 'Un mensaje del formulario de contacto en Inicio';
+                $subject = 'Correo del formulario de contacto en Inicio';
                 break;
             case 'subscribe':
                 $subject = 'Suscripcion';

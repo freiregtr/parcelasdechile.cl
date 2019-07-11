@@ -1135,7 +1135,7 @@ $document.ready(function() {
     if (plugins.rdMailForm.length) {
         var i, j, k,
             msg = {
-                'MF000': 'Successfully sent!',
+                'MF000': 'Enviado de forma correcta!',
                 'MF001': 'Recipients are not set!',
                 'MF002': 'Form will not work locally!',
                 'MF003': 'Please, define email field in your form!',
@@ -1159,7 +1159,7 @@ $document.ready(function() {
                         var output = $("#" + form.attr("data-form-output"));
 
                         if (output.hasClass("snackbars")) {
-                            output.html('<p><span class="icon text-middle fa fa-circle-o-notch fa-spin icon-xxs"></span><span>Sending</span></p>');
+                            output.html('<p><span class="icon text-middle fa fa-circle-o-notch fa-spin icon-xxs"></span><span>Enviando</span></p>');
                             output.addClass("active");
                         }
                     } else {

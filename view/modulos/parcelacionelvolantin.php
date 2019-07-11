@@ -371,7 +371,7 @@
                             <form action="view/componentes/bat/rd-mailform.php" data-form-output="form-output-global" data-form-type="ventaverde" method="POST" class="offset-top-30 text-left rd-mailform">
                                 <div class="form-group">
                                     <label class="form-label-static form-label-outside">Nombre Completo</label>
-                                    <input type="text" id="contact-name" name="name" data-constraints="@Required" class="form-control" placeholder="Nombre Completo">
+                                    <input type="text" id="contact-name" name="nombre" data-constraints="@Required" class="form-control" placeholder="Nombre Completo">
                                 </div>
                                 <div class="form-group">
                                     <label class="form-label-static form-label-outside">Correo Electrónico</label>
@@ -379,7 +379,7 @@
                                 </div>
                                 <div class="form-group">
                                     <label class="form-label-static form-label-outside">Teléfono</label>
-                                    <input type="text" id="contact-phone" name="phone" data-constraints="@Numeric @Required" class="form-control" placeholder="Teléfono">
+                                    <input type="text" id="contact-phone" name="telefono" data-constraints="@Numeric @Required" class="form-control" placeholder="Teléfono">
                                 </div>
                                 <div class="offset-top-10">
                                     <button class="btn btn-block btn-primary">Enviar</button>
