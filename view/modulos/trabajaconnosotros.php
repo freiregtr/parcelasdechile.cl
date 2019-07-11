@@ -90,7 +90,7 @@
                                     <p class="offset-top-16">Por lo general, respondemos dentro de 1 día hábil ...</p>
                                     <h3>¿En qué podemos ayudarte?</h3>
                                     <!-- RD Mailform-->
-                                    <form action="view/componentes/bat/rd-mailform.php" data-form-output="form-0output-global" data-form-type="contacto" method="post" class="offset-top-40 rd-mailform text-left">
+                                    <form data-form-output="form-0output-global" data-form-type="contact" method="post" action="bat/rd-mailform.php" class="offset-top-40 rd-mailform text-left">
                                         <div class="range range-xs-middle">
                                             <div class="cell-lg-2">
                                                 <p class="text-base">Nombre</p>
@@ -98,7 +98,7 @@
                                             <div class="cell-lg-10 offset-top-7 offset-lg-top-0">
                                                 <div class="form-group">
                                                     <label for="contact-name" class="form-label">Ingresa nombre</label>
-                                                    <input id="contact-name" type="text" name="nombre" data-constraints="@Required" class="form-control">
+                                                    <input id="contact-name" type="text" name="name" data-constraints="@Required" class="form-control">
                                                 </div>
                                             </div>
                                         </div>
@@ -120,7 +120,7 @@
                                             <div class="cell-lg-10 offset-top-7 offset-lg-top-0">
                                                 <div class="form-group">
                                                     <label for="contact-phone" class="form-label">Ingresa tu teléfono</label>
-                                                    <input id="contact-phone" type="text" name="telefono" data-constraints="@Numeric @Required" class="form-control">
+                                                    <input id="contact-phone" type="text" name="phone" data-constraints="@Numeric @Required" class="form-control">
                                                 </div>
                                             </div>
                                         </div>
@@ -131,7 +131,7 @@
                                             <div class="cell-lg-10 offset-top-7 offset-lg-top-0">
                                                 <div class="form-group">
                                                     <label for="contact-message" class="form-label">¿Qué podemos ayudarte?</label>
-                                                    <textarea id="contact-message" name="mensaje" data-constraints="@Required" class="form-control"></textarea>
+                                                    <textarea id="contact-message" name="message" data-constraints="@Required" class="form-control"></textarea>
                                                 </div>
                                             </div>
                                         </div>
@@ -219,6 +219,3 @@
 include "chat.php";
 ?>
 <!-- Fin Div chat -->
-
-<!-- Global Mailform Output-->
-<div id="form-output-global" class="snackbars"></div>

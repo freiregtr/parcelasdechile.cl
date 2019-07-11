@@ -75,7 +75,7 @@
                                         <br>
                                         <!-- VALORES-->
                                         <div class="row">
-                                           
+
                                             <div class="col-md-4">
                                                 <div class="valor4">
                                                     <p>$7.990.000</p>
@@ -127,8 +127,8 @@
 
                                         <br>
                                         <div data-photo-swipe-gallery="gallery" data-arrows="true" data-loop="false" data-dots="false" data-swipe="true" data-items="1" class="slick-slider">
-                                           
-                                           
+
+
                                             <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/proyectos/mirador_alcones/malcones.jpg" class="thumbnail-variant-2"><img src="view/componentes/img/proyectos/mirador_alcones/malcones.jpg" alt="Volantin de la quebrada" class="img-responsive"></a></div>
 
                                             <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/proyectos/mirador_alcones/1.jpg" class="thumbnail-variant-2"><img src="view/componentes/img/proyectos/mirador_alcones/1.jpg" alt="Volantin de la quebrada" class="img-responsive"></a></div>
@@ -138,7 +138,7 @@
                                             <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/Proyectos/mirador_alcones/4.jpg" class="thumbnail-variant-2"><img src="view/componentes/img/proyectos/mirador_alcones/4.jpg" alt="Volantin de la quebrada" class="img-responsive"></a></div>
 
                                             <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/proyectos/mirador_alcones/5.jpg" class="thumbnail-variant-2"><img src="view/componentes/img/proyectos/mirador_alcones/5.jpg" alt="Volantin de la quebrada" class="img-responsive"></a></div>
-                                            
+
 
                                             <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/proyectos/mirador_alcones/6.jpg" class="thumbnail-variant-2"><img src="view/componentes/img/proyectos/mirador_alcones/6.jpg" alt="Volantin de la quebrada" class="img-responsive"></a></div>
 

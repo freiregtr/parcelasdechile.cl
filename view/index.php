@@ -56,10 +56,11 @@
     <?php
     if (isset($_GET["ruta"])) {
         if (
-            $_GET["ruta"] == "inicio"         ||
-            $_GET["ruta"] == "lagochapo"      ||
+            $_GET["ruta"] == "inicio"                ||
+            $_GET["ruta"] == "lagochapo"             ||
             $_GET["ruta"] == "parcelacionelvolantin" ||
-            $_GET["ruta"] == "contacto"       ||
+            $_GET["ruta"] == "contacto"              ||
+            $_GET["ruta"] == "trabajaconnosotros"    ||
             $_GET["ruta"] == "quienessomos"
 
         ) {

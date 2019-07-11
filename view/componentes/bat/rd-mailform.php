@@ -34,7 +34,7 @@ try {
             case 'order':
                 $subject = 'Order request';
                 break;
-            case 'contact':
+            case 'contacto':
                 $subject = 'Un mensaje de Parcelas de Chile';
                 break;
             default:
@@ -55,17 +55,17 @@ try {
         die('MF003');
     }
 
-    if (isset($_POST['message'])) {
+    if (isset($_POST['mensaje'])) {
         $template = str_replace(
             array("<!-- #{MessageState} -->", "<!-- #{MessageDescription} -->"),
-            array("Message:", $_POST['message']),
+            array("Mensaje:", $_POST['mensaje']),
             $template
         );
     }
 
     preg_match("/(<!-- #{BeginInfo} -->)(.|\n)+(<!-- #{EndInfo} -->)/", $template, $tmp, PREG_OFFSET_CAPTURE);
     foreach ($_POST as $key => $value) {
-        if ($key != "email" && $key != "message" && $key != "form-type" && $key != "g-recaptcha-response" && !empty($value)) {
+        if ($key != "email" && $key != "mensaje" && $key != "form-type" && $key != "g-recaptcha-response" && !empty($value)) {
             $info = str_replace(
                 array("<!-- #{BeginInfo} -->", "<!-- #{InfoState} -->", "<!-- #{InfoDescription} -->"),
                 array("", ucfirst($key) . ':', $value),
