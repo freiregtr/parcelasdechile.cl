@@ -32,7 +32,8 @@
                             </li>
                             <li><a href="quienessomos">Quienes Somos</a></li>
                             <!-- RD Navbar Dropdown-->
-                            <li class="active"><a href="contacto">Contacto</a></li>
+                            <li class="active"><a href="trabajaconnosotros">Trabaja con nosotros</a></li>
+                            <li><a href="contacto">Contacto</a></li>
                         </ul>
                     </div>
                 </div>
@@ -45,7 +46,7 @@
             <div class="shell text-left">
                 <ol class="breadcrumb">
                     <li><a href="inicio">Home</a></li>
-                    <li class="active">Contacto
+                    <li class="active">Trabaja con nosotros
                     </li>
                 </ol>
             </div>
@@ -86,11 +87,10 @@
                         <div class="shell text-md-left">
                             <div class="range">
                                 <div>
-                                    <h3>Contacto</h3>
-                                    <p class="offset-top-16">Por lo general, respondemos dentro de 1 día hábil ...</p>
-                                    <h3>¿En qué podemos ayudarte?</h3>
+                                    <h3>Trabaja con nosotros</h3>
+                                    <p class="offset-top-16">Si tienes experiencia en ventas y si deseas ser parte de una empresa donde las comisiones son las mas altas del mercado, puedes postular acá</p>
                                     <!-- RD Mailform-->
-                                    <form data-form-output="form-0output-global" data-form-type="contact" method="post" action="bat/rd-mailform.php" class="offset-top-40 rd-mailform text-left">
+                                    <form action="view/componentes/bat/rd-mailform.php" data-form-output="form-output-global" data-form-type="empleo" method="post" class="offset-top-40 text-left rd-mailform">
                                         <div class="range range-xs-middle">
                                             <div class="cell-lg-2">
                                                 <p class="text-base">Nombre</p>
@@ -98,13 +98,13 @@
                                             <div class="cell-lg-10 offset-top-7 offset-lg-top-0">
                                                 <div class="form-group">
                                                     <label for="contact-name" class="form-label">Ingresa nombre</label>
-                                                    <input id="contact-name" type="text" name="name" data-constraints="@Required" class="form-control">
+                                                    <input id="contact-name" type="text" name="nombre" data-constraints="@Required" class="form-control">
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="range range-xs-middle offset-top-20">
                                             <div class="cell-lg-2">
-                                                <p class="text-base">mail</p>
+                                                <p class="text-base">Mail</p>
                                             </div>
                                             <div class="cell-lg-10 offset-top-7 offset-lg-top-0">
                                                 <div class="form-group">
@@ -120,7 +120,7 @@
                                             <div class="cell-lg-10 offset-top-7 offset-lg-top-0">
                                                 <div class="form-group">
                                                     <label for="contact-phone" class="form-label">Ingresa tu teléfono</label>
-                                                    <input id="contact-phone" type="text" name="phone" data-constraints="@Numeric @Required" class="form-control">
+                                                    <input id="contact-phone" type="text" name="telefono" data-constraints="@Numeric @Required" class="form-control">
                                                 </div>
                                             </div>
                                         </div>
@@ -130,8 +130,8 @@
                                             </div>
                                             <div class="cell-lg-10 offset-top-7 offset-lg-top-0">
                                                 <div class="form-group">
-                                                    <label for="contact-message" class="form-label">¿Qué podemos ayudarte?</label>
-                                                    <textarea id="contact-message" name="message" data-constraints="@Required" class="form-control"></textarea>
+                                                    <label for="contact-message" class="form-label">Cuéntanos acerca de ti</label>
+                                                    <textarea id="contact-message" name="mensaje" data-constraints="@Required" class="form-control"></textarea>
                                                 </div>
                                             </div>
                                         </div>
@@ -179,41 +179,6 @@
 </div>
 <!-- Global Mailform Output-->
 <div id="form-output-global" class="snackbars"></div>
-<!-- PhotoSwipe Gallery-->
-<div tabindex="-1" role="dialog" aria-hidden="true" class="pswp">
-    <div class="pswp__bg"></div>
-    <div class="pswp__scroll-wrap">
-        <div class="pswp__container">
-            <div class="pswp__item"></div>
-            <div class="pswp__item"></div>
-            <div class="pswp__item"></div>
-        </div>
-        <div class="pswp__ui pswp__ui--hidden">
-            <div class="pswp__top-bar">
-                <div class="pswp__counter"></div>
-                <button title="Close (Esc)" class="pswp__button pswp__button--close"></button>
-                <button title="Share" class="pswp__button pswp__button--share"></button>
-                <button title="Toggle fullscreen" class="pswp__button pswp__button--fs"></button>
-                <button title="Zoom in/out" class="pswp__button pswp__button--zoom"></button>
-                <div class="pswp__preloader">
-                    <div class="pswp__preloader__icn">
-                        <div class="pswp__preloader__cut">
-                            <div class="pswp__preloader__donut"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
-                <div class="pswp__share-tooltip"></div>
-            </div>
-            <button title="Previous (arrow left)" class="pswp__button pswp__button--arrow--left"></button>
-            <button title="Next (arrow right)" class="pswp__button pswp__button--arrow--right"></button>
-            <div class="pswp__caption">
-                <div class="pswp__caption__cent"></div>
-            </div>
-        </div>
-    </div>
-</div>
 <!-- Inicio Div chat -->
 <?php
 include "chat.php";

@@ -32,6 +32,7 @@
                             </li>
                             <li><a href="quienessomos">Quienes Somos</a></li>
                             <!-- RD Navbar Dropdown-->
+                            <li><a href="trabajaconnosotros">Trabaja con nosotros</a></li>
                             <li class="active"><a href="contacto">Contacto</a></li>
                         </ul>
                     </div>
@@ -90,7 +91,7 @@
                                     <p class="offset-top-16">Por lo general, respondemos dentro de 1 día hábil ...</p>
                                     <h3>¿En qué podemos ayudarte?</h3>
                                     <!-- RD Mailform-->
-                                    <form action="view/componentes/bat/rd-mailform.php" data-form-output="form-0output-global" data-form-type="contacto" method="post" class="offset-top-40 rd-mailform text-left">
+                                    <form action="view/componentes/bat/rd-mailform.php" data-form-output="form-output-global" data-form-type="contacto" method="POST" class="offset-top-40 text-left rd-mailform">
                                         <div class="range range-xs-middle">
                                             <div class="cell-lg-2">
                                                 <p class="text-base">Nombre</p>
@@ -174,51 +175,14 @@
                 </div>
             </div>
         </div>
-    </footer>
-
-</div>
-<!-- Global Mailform Output-->
+        <!-- Global Mailform Output-->
 <div id="form-output-global" class="snackbars"></div>
-<!-- PhotoSwipe Gallery-->
-<div tabindex="-1" role="dialog" aria-hidden="true" class="pswp">
-    <div class="pswp__bg"></div>
-    <div class="pswp__scroll-wrap">
-        <div class="pswp__container">
-            <div class="pswp__item"></div>
-            <div class="pswp__item"></div>
-            <div class="pswp__item"></div>
-        </div>
-        <div class="pswp__ui pswp__ui--hidden">
-            <div class="pswp__top-bar">
-                <div class="pswp__counter"></div>
-                <button title="Close (Esc)" class="pswp__button pswp__button--close"></button>
-                <button title="Share" class="pswp__button pswp__button--share"></button>
-                <button title="Toggle fullscreen" class="pswp__button pswp__button--fs"></button>
-                <button title="Zoom in/out" class="pswp__button pswp__button--zoom"></button>
-                <div class="pswp__preloader">
-                    <div class="pswp__preloader__icn">
-                        <div class="pswp__preloader__cut">
-                            <div class="pswp__preloader__donut"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
-                <div class="pswp__share-tooltip"></div>
-            </div>
-            <button title="Previous (arrow left)" class="pswp__button pswp__button--arrow--left"></button>
-            <button title="Next (arrow right)" class="pswp__button pswp__button--arrow--right"></button>
-            <div class="pswp__caption">
-                <div class="pswp__caption__cent"></div>
-            </div>
-        </div>
-    </div>
+    </footer>
 </div>
+
 <!-- Inicio Div chat -->
 <?php
 include "chat.php";
 ?>
 <!-- Fin Div chat -->
 
-<!-- Global Mailform Output-->
-<div id="form-output-global" class="snackbars"></div>

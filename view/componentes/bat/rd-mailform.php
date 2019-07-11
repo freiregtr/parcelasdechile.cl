@@ -26,7 +26,7 @@ try {
                 $subject = 'Correo del formulario de contacto en Inicio';
                 break;
             case 'empleo':
-                $subject = 'Correo del formulario para trabajar';
+                $subject = 'Correo de postulación a empleo';
                 break;
             case 'subscribe':
                 $subject = 'Suscripcion';
@@ -35,7 +35,7 @@ try {
                 $subject = 'Order request';
                 break;
             case 'contacto':
-                $subject = 'Un mensaje de Parcelas de Chile';
+                $subject = 'Un mensaje del formulario de contacto';
                 break;
             default:
                 $subject = 'A message from your site visitor';

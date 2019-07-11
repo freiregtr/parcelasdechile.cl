@@ -33,6 +33,7 @@
                             </li>
                             <li><a href="quienessomos">Quienes Somos</a></li>
                             <!-- RD Navbar Dropdown-->
+                            <li><a href="trabajaconnosotros">Trabaja con nosotros</a></li>
                             <li><a href="contacto">Contacto</a></li>
                         </ul>
                     </div>
@@ -398,5 +399,3 @@
     include "chat.php";
     ?>
     <!-- Fin Div chat -->
-    <!-- Global Mailform Output-->
-    <div id="form-output-global" class="snackbars"></div>
