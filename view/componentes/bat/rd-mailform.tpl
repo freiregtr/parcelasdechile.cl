@@ -91,7 +91,7 @@
                           <td height="30" style="height: 30px; line-height:30px;"></td>
                         </tr> 
                         <tr> 
-                          <td align="left" valign="top" style="font-family: Arial, sans-serif; font-size: 14px; mso-line-height-rule: exactly; line-height: 22px; font-weight: 400;color: #302f35;">Hi, someone left a message for you at <!-- #{SiteName} --></td> 
+                          <td align="left" valign="top" style="font-family: Arial, sans-serif; font-size: 14px; mso-line-height-rule: exactly; line-height: 22px; font-weight: 400;color: #302f35;">Este es un correo del sitio <!-- #{SiteName} --></td> 
                         </tr>
                         <tr> 
                           <td height="20" style="height: 20px; line-height:20px;"></td>

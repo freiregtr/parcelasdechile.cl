@@ -8,7 +8,7 @@ try {
     preg_match_all("/([\w-]+(?:\.[\w-]+)*)@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)/", $recipients, $addresses, PREG_OFFSET_CAPTURE);
 
     if (!count($addresses[0])) {
-        die('MF001');
+        die('MF001'); 
     }
 
     if (preg_match('/^(127\.|192\.168\.)/', $_SERVER['REMOTE_ADDR'])) {
@@ -19,9 +19,6 @@ try {
 
     if (isset($_POST['form-type'])) {
         switch ($_POST['form-type']) {
-            case 'contact':
-                $subject = 'Un mensaje de Parcelas de Chile';
-                break;
             case 'ventaverde':
                 $subject = 'Un mensaje de venta en verde Parcelación Volantin';
                 break;
@@ -33,6 +30,9 @@ try {
                 break;
             case 'order':
                 $subject = 'Order request';
+                break;
+            case 'contact':
+                $subject = 'Un mensaje de Parcelas de Chile';
                 break;
             default:
                 $subject = 'A message from your site visitor';
