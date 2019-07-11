@@ -25,6 +25,9 @@ try {
             case 'inicio':
                 $subject = 'Correo del formulario de contacto en Inicio';
                 break;
+            case 'empleo':
+                $subject = 'Correo del formulario para trabajar';
+                break;
             case 'subscribe':
                 $subject = 'Suscripcion';
                 break;
@@ -93,10 +96,10 @@ try {
         );
     }
 
-    if (isset($_POST['name'])) {
-        $mail->FromName = $_POST['name'];
+    if (isset($_POST['nombre'])) {
+        $mail->FromName = $_POST['nombre'];
     } else {
-        $mail->FromName = "Site Visitor";
+        $mail->FromName = "Visitante Parcelas de Chile";
     }
 
     foreach ($addresses[0] as $key => $value) {

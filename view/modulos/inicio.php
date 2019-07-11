@@ -170,7 +170,7 @@
                     <hr class="divider">
                     <h2>Únete nuestro equipo de vendedores</h2>
                     <h4 class="offset-top-25">¿Tienes experiencia vendiendo terrenos ?<br class="veil reveal-md-block"></h4>
-                    <a href="about" class="offset-top-50 btn btn-primary text-regular">Ver más</a>
+                    <a href="#" class="offset-top-50 btn btn-primary text-regular" data-toggle="modal" data-target="#empleoModal">Ver más</a>
                 </div>
             </div>
         </section>
@@ -256,9 +256,51 @@
     </div>
     <!-- Inicio Div chat -->
     <?php
-        include "chat.php";
-        ?>
+    include "chat.php";
+    ?>
     <!-- Fin Div chat -->
+</div>
+<div id="empleoModal" role="dialog" class="modal fade">
+    <div class="modal-dialog modal-lg">
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="modal-head">
+                            <hr>
+                            <h2>Trabaja con nosotros!</h2>
+                            <br>
+                            <h6>Si tienes experiencia en ventas, no dudes dejar tus datos de contacto para que puedas ser parte de nuestro equipo comercial.</h6>
+                            <hr>
+                            <img src="view/componentes/img/logo/logo_transparente.png" width="230" height="86" alt="Parcelas de chile">
+                        </div>
+                    </div>
+                    <div class="col-md-6 text-left">
+                        <form action="view/componentes/bat/rd-mailform.php" data-form-output="form-output-global" data-form-type="empleo" method="POST" class="offset-top-30 text-left rd-mailform">
+                            <div class="form-group">
+                                <label class="form-label-static form-label-outside">Nombre Completo</label>
+                                <input type="text" id="contact-name" name="nombre" data-constraints="@Required" class="form-control" placeholder="Nombre Completo">
+                            </div>
+                            <div class="form-group">
+                                <label class="form-label-static form-label-outside">Correo Electrónico</label>
+                                <input type="email" id="contact-email" name="email" data-constraints="@Email @Required" class="form-control" placeholder="Correo Electrónico">
+                            </div>
+                            <div class="form-group">
+                                <label class="form-label-static form-label-outside">Teléfono</label>
+                                <input type="text" id="contact-phone" name="telefono" data-constraints="@Numeric @Required" class="form-control" placeholder="Teléfono">
+                            </div>
+                            <div class="offset-top-10">
+                                <button class="btn btn-block btn-primary">Enviar</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 <!-- Global Mailform Output-->
 <div id="form-output-global" class="snackbars"></div>
