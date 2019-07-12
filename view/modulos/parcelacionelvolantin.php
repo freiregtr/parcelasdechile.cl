@@ -227,12 +227,12 @@
                                             <div class="cite unit unit-sm-horizontal unit-md-horizontal unit-lg-horizontal unit-middle">
                                             </div>
                                         </blockquote>
-                                        
+
                                         <br>
-                                        
-                                      <div class="rd-navbar-brand"><a href="inicio" class="brand-name"><img src="view/componentes/img/logo/logo_transparente.png" width="350"  alt="Parcelas de chile"></a>
-                        </div>
-                                        
+
+                                        <div class="rd-navbar-brand"><a href="inicio" class="brand-name"><img src="view/componentes/img/logo/logo_transparente.png" width="350" alt="Parcelas de chile"></a>
+                                        </div>
+
                                     </div>
                                 </div>
                             </div>
@@ -343,52 +343,51 @@
             </div>
         </div>
     </div>
-    <div id="registerModal" role="dialog" class="modal fade">
-        <div class="modal-dialog modal-lg">
-            <!-- Modal content-->
-            <div class="modal-content">
-                <div class="modal-body">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="modal-head">
-                              <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
-                              
-                                <hr>
-                                <h3>Subscríbete a nuestra venta en verde</h3>
-                                <br>
-                                <h6>Solo con invitación*</h6>
-                                <hr>
-                                <img src="view/componentes/img/logo/logo_transparente.png" width="230" height="86" alt="Parcelas de chile">
-                            </div>
-                        </div>
-                        <div class="col-md-6 text-left">
-                            <form action="view/componentes/bat/rd-mailform.php" data-form-output="form-output-global" data-form-type="ventaverde" method="POST" class="offset-top-30 text-left rd-mailform">
-                                <div class="form-group">
-                                    <label class="form-label-static form-label-outside">Nombre Completo</label>
-                                    <input type="text" id="contact-name" name="nombre" data-constraints="@Required" class="form-control" placeholder="Nombre Completo">
-                                </div>
-                                <div class="form-group">
-                                    <label class="form-label-static form-label-outside">Correo Electrónico</label>
-                                    <input type="email" id="contact-email" name="email" data-constraints="@Email @Required" class="form-control" placeholder="Correo Electrónico">
-                                </div>
-                                <div class="form-group">
-                                    <label class="form-label-static form-label-outside">Teléfono</label>
-                                    <input type="text" id="contact-phone" name="telefono" data-constraints="@Numeric @Required" class="form-control" placeholder="Teléfono">
-                                </div>
-                                <div class="offset-top-10">
-                                    <button class="btn btn-block btn-primary">Enviar</button>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                    <div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    
     <!-- Inicio Div chat -->
     <?php
     include "chat.php";
     ?>
     <!-- Fin Div chat -->
+    <div id="registerModal" role="dialog" class="modal fade">
+        <div class="modal-dialog modal-lg">
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                    <div class="col-md-6 text-left">
+                        <h3>Subscríbete a nuestra venta en verde</h3>
+                        <br>
+                        <h6>Solo con invitación*</h6>
+                        <hr>
+                        <img src="view/componentes/img/logo/logo_transparente.png" width="230" height="86" alt="Parcelas de chile">
+                    </div>
+                    <div class="col-md-6 text-left">
+                        <form action="view/componentes/bat/rd-mailform.php" data-form-output="form-output-global" data-form-type="ventaverde" method="POST" class="offset-top-30 text-left rd-mailform">
+                            <div class="form-group">
+                                <label class="form-label-static form-label-outside">Nombre Completo</label>
+                                <input type="text" id="contact-name" name="nombre" data-constraints="@Required" class="form-control" placeholder="Nombre Completo">
+                            </div>
+                            <div class="form-group">
+                                <label class="form-label-static form-label-outside">Correo Electrónico</label>
+                                <input type="email" id="contact-email" name="email" data-constraints="@Email @Required" class="form-control" placeholder="Correo Electrónico">
+                            </div>
+                            <div class="form-group">
+                                <label class="form-label-static form-label-outside">Teléfono</label>
+                                <input type="text" id="contact-phone" name="telefono" data-constraints="@Numeric @Required" class="form-control" placeholder="Teléfono">
+                            </div>
+                            <div class="offset-top-10">
+                                <button class="btn btn-block btn-primary">Enviar</button>
+                            </div>
+                        </form>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
