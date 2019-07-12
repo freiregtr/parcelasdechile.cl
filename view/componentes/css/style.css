@@ -4008,6 +4008,12 @@ tbody.collapse.in {
   height: 50px;
 }
 
+.logo1{
+    display: block;
+    width: 60%;
+    
+}
+
 .navbar-brand:hover, .navbar-brand:focus {
   text-decoration: none;
 }

@@ -53,36 +53,26 @@
         </section>
         <div class="container">
             <div class="row">
-                <div class="col-md-6">
-                    <div class="offset-top-30 bg-image-01 well-transparent context-dark">
-                        <div class="range">
-                            <div class="cell-md-9 cell-lg-7">
-                                <!-- Owl Carousel-->
-                                <div data-dots="true" data-items="1" data-margin="30" data-mouse-drag="false" class="owl-carousel owl-dots-sm">
-                                    <div>
-                                        <hr class="divider">
-                                        <h3 class="text-bold">Lago Chapo</h3>
-                                        <h3 class="offset-top-30 text-primary">$9.990.000</h3>
-                                        <p class="offset-top-30">En el Lago Chapo podemos Disfrutar navegando con la hermosa vista del Volcán Calbuco, y si eres de las personas que ama la naturaleza deberías recorrer los senderos de la Reserva Nacional Llanquihue.</p><a href="lagochapo" class="offset-top-20 btn btn-primary text-regular">Ver más</a>
-                                    </div>
-                                    <div>
-                                        <hr class="divider">
-                                        <h3 class="text-bold">Parcelación El Volantín</h3>
-                                        <h3 class="offset-top-30 text-primary">$7.990.000</h3>
-                                        <br>
-                                        <p class="offset-top-30">Marchihue en la Provincia de Cardenal Caro (Región del Libertador General Bernardo O'Higgins) es un lugar en Chile a 138 km al suroeste de Santiago.</p>
-                                        <br>
-                                        <br>
-                                        <a href="miradoralcones" class="offset-top-20 btn btn-primary text-regular">Ver más</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                <div class="col-md-12">
+                    <section id="proyectos">
+            <div class="shell section-70 section-lg-45 text-md-left">
+               <br>
+                <div class="range range-xs-around text-center">
+                    <div class="cell-lg-4 cell-md-4"><span class="icon icon-lg icon-circle icon-primary fa-bookmark"></span>
+                        <h5 class="offset-top-20">COMISIÓNES</h5>
+                        <p class="offset-top-10"></p>
                     </div>
-
+                    <div class="cell-lg-4 cell-md-4"><span class="icon icon-lg icon-circle icon-primary fa-bookmark"></span>
+                        <h5 class="offset-top-20">INCENTIVO POR VENTA</h5>
+                        <p class="offset-top-10"></p>
+                    </div>
+                    <div class="cell-lg-4 cell-md-4"><span class="icon icon-lg icon-circle icon-primary fa-bookmark"></span>
+                        <h5 class="offset-top-20">FREELANCE</h5>
+                        <p class="offset-top-10"></p>
+                    </div>
                 </div>
-
-                <div class="col-md-6">
+            </div>
+        </section>
                     <section class="section-top-70 section-bottom-80">
                         <div class="shell text-md-left">
                             <div class="range">
@@ -154,11 +144,8 @@
         <div class="shell">
             <hr>
         </div>
-
         <!-- PRIVACITY-->
-
         <div class="shell section-30">
-
             <div class="range range-xs-middle">
                 <div class="cell-sm-6 text-sm-right cell-sm-push-1">
                     <ul class="list-inline">
@@ -175,7 +162,6 @@
             </div>
         </div>
     </footer>
-
 </div>
 <!-- Global Mailform Output-->
 <div id="form-output-global" class="snackbars"></div>

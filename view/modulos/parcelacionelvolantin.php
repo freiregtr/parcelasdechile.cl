@@ -227,26 +227,12 @@
                                             <div class="cite unit unit-sm-horizontal unit-md-horizontal unit-lg-horizontal unit-middle">
                                             </div>
                                         </blockquote>
-                                        <div class="well well-base">
-                                            <h3>¿Te llamamos?</h3>
-                                            <form class="offset-top-30 text-left">
-                                                <div class="form-group">
-                                                    <label class="form-label-static form-label-outside">Nombre Completo</label>
-                                                    <input type="text" name="name" data-constraints="@Required" class="form-control">
-                                                </div>
-                                                <div class="form-group">
-                                                    <label class="form-label-static form-label-outside">Correo Electrónico</label>
-                                                    <input type="text" name="name" data-constraints="@Required" class="form-control">
-                                                </div>
-                                                <div class="form-group">
-                                                    <label class="form-label-static form-label-outside">Teléfono</label>
-                                                    <input type="text" name="name" data-constraints="@Required" class="form-control">
-                                                </div>
-                                                <div class="offset-top-10">
-                                                    <button class="btn btn-block btn-primary">Enviar</button>
-                                                </div>
-                                            </form>
-                                        </div>
+                                        
+                                        <br>
+                                        
+                                      <div class="rd-navbar-brand"><a href="inicio" class="brand-name"><img src="view/componentes/img/logo/logo_transparente.png" width="350"  alt="Parcelas de chile"></a>
+                        </div>
+                                        
                                     </div>
                                 </div>
                             </div>
