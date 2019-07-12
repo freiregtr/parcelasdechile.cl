@@ -351,6 +351,8 @@
                     <div class="row">
                         <div class="col-md-6">
                             <div class="modal-head">
+                              <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                              
                                 <hr>
                                 <h3>Subscríbete a nuestra venta en verde</h3>
                                 <br>
