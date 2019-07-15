@@ -33,7 +33,7 @@
                             <li><a href="quienessomos">Quienes Somos</a></li>
                             <!-- RD Navbar Dropdown-->
                             <li><a href="trabajaconnosotros">Trabaja con nosotros</a></li>
-                              <li  class="active"><a href="beneficiarios">Beneficiarios</a></li>
+                            <li class="active"><a href="beneficiarios">Beneficiarios</a></li>
                             <li><a href="contacto">Contacto</a></li>
                         </ul>
                     </div>
@@ -52,37 +52,51 @@
                 </ol>
             </div>
         </section>
-        
-      
-        
-       
-        
-        
-        
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <section class="section-top-70 section-bottom-80">
-                        <div class="shell text-md-left">
-                            <div class="range">
-                                           
-                                           
-                                           
-                                           
-                                           
-                                           
-                                           
-                                           
-                                           
-                                           
-                                           
-                                           
-                            </div>
-                        </div>
-                    </section>
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="shell section-70 section-lg-45 text-md-left">
+                        <h3>Beneficiarios</h3>
+                        <p class="offset-top-16">Tenemos descuentos exclusivos para ti</p>
+                        <section id="carabineros">
+              <div class="container">
+                  <div class="row">
+                                
+                            <div class="col-md-12 offset-top-40">
+                      <div class="well">
+                        <h3>Carabineros de Chile</h3>
+                      </div>
+                      <div class="well well-dark">
+                        <p class="offset-tpo-10 offset-md-top-25 text-gray">Si te gustaría recibir ofertas exclusivas sobre nuestras parcelas, dejanos tu e-mail y nos pondremos en contacto </p>
+                        <!-- RD Mailform-->
+                        <form data-form-output="form-output-global" data-form-type="subscribe" method="post" action="bat/rd-mailform.php" class="offset-top-20 rd-mailform form-inline-custom">
+                          <div class="form-group">
+                            <label for="subscribe-email" class="form-label">Enter<span class="veil reveal-lg-inline"> please your</span> e-mail
+                            </label>
+                            <input id="subscribe-email" type="email" name="email" data-constraints="@Required @Email" class="form-control form-control-white">
+                          </div>
+                          <button type="submit" class="btn btn-primary">Enviar Oferta</button>
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+                        </section>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                    </div>
                 </div>
             </div>
-        </div>
+        </section>
     </main>
     <!-- Page Footer-->
     <footer class="page-footer">

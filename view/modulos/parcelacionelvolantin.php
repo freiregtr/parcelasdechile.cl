@@ -94,9 +94,13 @@
                                             </div>
                                             <div class="col-md-3">
                                                 <div class="valor1">
-                                                    <p>INDEFINIDO</p>
+                                                    <p>$9.990.000</p>
                                                 </div>
                                             </div>
+                                        </div>
+                                        <br>
+                                        <div class="valor1">
+                                            Parcelas de 1 héctarea"
                                         </div>
                                         <br>
                                         <p class="offset-top-40 text-bold text-base">" Por qué tenemos el país más lindo del mundo, creemos que deberías elegir Parcelas de Chile."</p>
