@@ -76,7 +76,6 @@
                                         <br>
                                         <!-- VALORES-->
                                         <div class="row">
-
                                             <div class="col-md-3">
                                                 <div class="valor4">
                                                     <p>$7.990.000</p>
@@ -99,18 +98,16 @@
                                             </div>
                                         </div>
                                         <br>
-
                                         <p class="offset-top-40 text-bold text-base">" Por qué tenemos el país más lindo del mundo, creemos que deberías elegir Parcelas de Chile."</p>
                                         <p class="offset-top-20">Marchihue en la Provincia de Cardenal Caro (Región del Libertador General Bernardo O'Higgins) es un lugar en Chile a 138 km al suroeste de Santiago.</p>
                                     </div>
                                     <br>
-
                                 </div>
                             </div>
                         </section>
-                        <hr>
                         <section id="flip">
                             <div class="container">
+                               <hr>
                                 <div class="row">
                                     <h2 class="offset-top-50">Carpeta de venta</h2>
                                     <br>
@@ -123,17 +120,16 @@
                                 </div>
                             </div>
                         </section>
-                        <hr>
                         <!-- GALERIA DE IMAGENES-->
                         <section>
                             <div class="container">
+                              <br>
+                               <hr>
                                 <div class="row">
                                     <div class="col-md-12">
                                         <h2 class="offset-top-50">Galería del proyecto</h2>
-
                                         <br>
                                         <div data-photo-swipe-gallery="gallery" data-arrows="true" data-loop="false" data-dots="false" data-swipe="true" data-items="1" class="slick-slider">
-
 
                                             <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/proyectos/mirador_alcones/malcones.jpg" class="thumbnail-variant-2"><img src="view/componentes/img/proyectos/mirador_alcones/malcones.jpg" alt="Volantin de la quebrada" class="img-responsive"></a></div>
 
@@ -156,12 +152,6 @@
 
                                             <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/proyectos/mirador_alcones/10.jpg" class="thumbnail-variant-2"><img src="view/componentes/img/proyectos/mirador_alcones/10.jpg" alt="Volantin de la quebrada" class="img-responsive"></a></div>
 
-                                            <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/proyectos/mirador_alcones/11.jpg" class="thumbnail-variant-2"><img src="view/componentes/img/proyectos/mirador_alcones/11.jpg" alt="Volantin de la quebrada" class="img-responsive"></a></div>
-
-                                            <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/proyectos/mirador_alcones/12.jpg" class="thumbnail-variant-2"><img src="view/componentes/img/proyectos/mirador_alcones/12.jpg" alt="Volantin de la quebrada" class="img-responsive"></a></div>
-
-                                            <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/proyectos/mirador_alcones/13.jpg" class="thumbnail-variant-2"><img src="view/componentes/img/proyectos/mirador_alcones/13.jpg" alt="Volantin de la quebrada" class="img-responsive"></a></div>
-
                                             <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/proyectos/mirador_alcones/14.jpg" class="thumbnail-variant-2"><img src="view/componentes/img/proyectos/mirador_alcones/14.jpg" alt="Volantin de la quebrada" class="img-responsive"></a></div>
 
                                             <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/proyectos/mirador_alcones/15.jpg" class="thumbnail-variant-2"><img src="view/componentes/img/proyectos/mirador_alcones/15.jpg" alt="Volantin de la quebrada" class="img-responsive"></a></div>
@@ -172,26 +162,30 @@
 
                                             <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/proyectos/mirador_alcones/18.jpg" class="thumbnail-variant-2"><img src="view/componentes/img/proyectos/mirador_alcones/18.jpg" alt="Volantin de la quebrada" class="img-responsive"></a></div>
 
-                                            <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/proyectos/mirador_alcones/19.jpg" class="thumbnail-variant-2"><img src="view/componentes/img/proyectos/mirador_alcones/19.jpg" alt="Volantin de la quebrada" class="img-responsive"></a></div>
-
                                             <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/proyectos/mirador_alcones/20.jpg" class="thumbnail-variant-2"><img src="view/componentes/img/proyectos/mirador_alcones/20.jpg" alt="Volantin de la quebrada" class="img-responsive"></a></div>
 
                                             <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/proyectos/mirador_alcones/21.jpg" class="thumbnail-variant-2"><img src="view/componentes/img/proyectos/mirador_alcones/21.jpg" alt="Volantin de la quebrada" class="img-responsive"></a></div>
-
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </section>
                         <!-- FIN GALERIA DE IMAGENES-->
-
-                        <hr>
                         <!-- INTRODUCCION AL PROYECTO-->
                         <section>
                             <div class="container">
+                               <hr>
                                 <div class="row">
-                                    <div class="col-md-6">
-
+                                    <!-- FORMULARIO-->
+                                    <div class="col-md-12">
+                                        <!-- Quote-->
+                                        <blockquote class="quote quote-variant-1">
+                                            <p>La solvencia de Chile como país, nos ha demostrado por mas de 60 años que la compra de terrenos es una de las inversiones mas seguras que se pueden hacer. Cada año los valores de los terrenos suben y suben. Llegado el momento de dejarle estos terrenos a nuestros hijos, ellos serán los que disfrutaran de las bondades de nuestro país.</p>
+                                            <div class="cite unit unit-sm-horizontal unit-md-horizontal unit-lg-horizontal unit-middle">
+                                            </div>
+                                        </blockquote>
+                                    </div>
+                                    <div class="col-md-12">
                                         <div class="offset-top-30 bg-image-01 well-transparent context-dark">
                                             <div class="range">
                                                 <div class="cell-md-9 cell-lg-7">
@@ -211,7 +205,7 @@
                                                             <p class="offset-top-30">Marchihue en la Provincia de Cardenal Caro (Región del Libertador General Bernardo O'Higgins) es un lugar en Chile a 138 km al suroeste de Santiago.</p>
                                                             <br>
                                                             <br>
-                                                            <a href="miradoralcones" class="offset-top-20 btn btn-primary text-regular">Ver más</a>
+                                                            <a href="parcelacionelvolantin" class="offset-top-20 btn btn-primary text-regular">Ver más</a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -219,41 +213,28 @@
                                         </div>
                                     </div>
                                     <br>
-                                    <!-- FORMULARIO-->
-                                    <div class="col-md-6">
-                                        <!-- Quote-->
-                                        <blockquote class="quote quote-variant-1">
-                                            <p>La solvencia de Chile como país, nos ha demostrado por mas de 60 años que la compra de terrenos es una de las inversiones mas seguras que se pueden hacer. Cada año los valores de los terrenos suben y suben. Llegado el momento de dejarle estos terrenos a nuestros hijos, ellos serán los que disfrutaran de las bondades de nuestro país.</p>
-                                            <div class="cite unit unit-sm-horizontal unit-md-horizontal unit-lg-horizontal unit-middle">
-                                            </div>
-                                        </blockquote>
-
-                                        <br>
-
-                                        <div class="rd-navbar-brand"><a href="inicio" class="brand-name"><img src="view/componentes/img/logo/logo_transparente.png" width="350" alt="Parcelas de chile"></a>
-                                        </div>
-
-                                    </div>
                                 </div>
                             </div>
                         </section>
-                        <hr>
                         <!-- FIN INTRODUCCION-->
                         <!-- PLANO 360-->
                         <section id="panovolantin">
                             <div class="container">
+                              <br>
+                               <hr>
                                 <div class="row">
                                     <div class="col-md-12">
                                         <h2 class="offset-top-50">Tour 360º</h2>
                                         <br>
-                                        <iframe src="https://app.lapentor.com/sphere/el-volantin-de-la-quebrada-1" frameborder="0" width="100%" height="600px" scrolling="no" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" oallowfullscreen="true" msallowfullscreen="true"></iframe>
+                                       <iframe src="https://app.lapentor.com/sphere/parcelacion-el-volantin" frameborder="0" width="100%" height="600px" scrolling="no" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" oallowfullscreen="true" msallowfullscreen="true"></iframe>
                                     </div>
                                 </div>
                             </div>
                         </section>
-                        <hr>
                         <!-- BOTONES SIGUIENTE PROYECTO-->
                         <div class="container">
+                          <br>
+                           <hr>
                             <div class="row">
                                 <div class="col-xs-6 text-left"><a href="lagochapo" class="btn btn-primary btn-icon btn-icon btn-icon-left"><span class="icon fa-angle-left"></span><span class="text text-regular veil reveal-xs-inline">Proyecto previo</span></a></div>
                                 <div class="col-xs-6 text-right"><a href="lagochapo" class="btn btn-primary btn-icon btn-icon btn-icon-right"><span class="text text-regular veil reveal-xs-inline">Siguiente proyecto</span><span class="icon fa-angle-right"></span></a></div>
@@ -263,13 +244,8 @@
                 </div>
             </div>
         </section>
-
-
     </main>
     <!-- FIN MAIN-->
-    <!-- Flip3D -->
-
-    <!-- Flip3D -->
     <!-- PARALAX -->
     <section class="rd-parallax">
         <div data-speed="0.4" data-type="media" data-url="view/componentes/img/h2.jpg" class="rd-parallax-layer"></div>
@@ -343,7 +319,6 @@
             </div>
         </div>
     </div>
-    
     <!-- Inicio Div chat -->
     <?php
     include "chat.php";

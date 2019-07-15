@@ -369,57 +369,57 @@ jQuery(document).ready(function () {
             'P-34': {
                 id: "P-34",
                 'id_no_spaces': "P-34",
-                fill: "rgba(0,0,0,1)",
-                tooltip: "NO DEFINIDO",
-                popover: "NO DEFINIDO",
+                fill: "rgba(247,188,4,1)",
+                tooltip: "$7.990.000",
+                popover: "$7.990.000",
                 data: {}
             },
             'P-24': {
                 id: "P-24",
                 'id_no_spaces': "P-24",
-                fill: "rgba(0,0,0,1)",
-                tooltip: "NO DEFINIDO",
-                popover: "NO DEFINIDO",
+                fill: "rgba(247,188,4,1)",
+                tooltip: "$7.990.000",
+                popover: "$7.990.000",
                 data: {}
             },
             'P-23': {
                 id: "P-23",
                 'id_no_spaces': "P-23",
-                fill: "rgba(0,0,0,1)",
-                tooltip: "NO DEFINIDO",
-                popover: "NO DEFINIDO",
+                fill: "rgba(247,188,4,1)",
+                tooltip: "$7.990.000",
+                popover: "$7.990.000",
                 data: {}
             },
             'P-36': {
                 id: "P-36",
                 'id_no_spaces': "P-36",
-                fill: "rgba(0,0,0,1)",
-                tooltip: "NO DEFINIDO",
-                popover: "NO DEFINIDO",
+                fill: "rgba(247,188,4,1)",
+                tooltip: "$7.990.000",
+                popover: "$7.990.000",
                 data: {}
             },
             'P-35': {
                 id: "P-35",
                 'id_no_spaces': "P-35",
-                fill: "rgba(0,0,0,1)",
-                tooltip: "NO DEFINIDO",
-                popover: "NO DEFINIDO",
+                fill: "rgba(247,188,4,1)",
+                tooltip: "$7.990.000",
+                popover: "$7.990.000",
                 data: {}
             },
             'P-21': {
                 id: "P-21",
                 'id_no_spaces': "P-21",
-                fill: "rgba(0,0,0,1)",
-                tooltip: "NO DEFINIDO",
-                popover: "NO DEFINIDO",
+                fill: "rgba(247,188,4,1)",
+                tooltip: "$7.990.000",
+                popover: "$7.990.000",
                 data: {}
             },
             'P-25': {
                 id: "P-25",
                 'id_no_spaces': "P-25",
-                fill: "rgba(0,0,0,1)",
-                tooltip: "NO DEFINIDO",
-                popover: "NO DEFINIDO",
+               fill: "rgba(247,188,4,1)",
+                tooltip: "$7.990.000",
+                popover: "$7.990.000",
                 data: {}
             }
         },

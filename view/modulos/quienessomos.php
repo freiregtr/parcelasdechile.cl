@@ -71,8 +71,8 @@
                             </div>
                         </div>
                     </div>
-                    <hr>
                     <div class="container text-center">
+                       <hr>
                         <br>
                         <h3>Nuestros vendedores</h3>
                         <hr>
@@ -130,7 +130,7 @@
                 <h2>Únete nuestro equipo de vendedores</h2>
                 <h4 class="offset-top-25">¿Tienes experiencia vendiendo terrenos ?
                     <br class="veil reveal-md-block"></h4>
-                <a href="about.html" class="offset-top-50 btn btn-primary text-regular">Ver más</a>
+                <a href="trabajaconnosotros" class="offset-top-50 btn btn-primary text-regular">Ver más</a>
             </div>
         </div>
     </section>

@@ -36,7 +36,7 @@
                         <!-- RD Navbar Nav-->
                         <ul class="rd-navbar-nav">
                             <li class="active"><a href="inicio">Home</a></li>
-                            <li><a href="#">Proyectos</a>
+                            <li><a href="parcelacionelvolantin">Proyectos</a>
                                 <!-- RD Navbar Dropdown-->
                                 <ul class="rd-navbar-dropdown">
                                     <li><a href="lagochapo">Lago Chapo</a></li>
@@ -104,8 +104,8 @@
     <!-- Page Content-->
     <main class="page-content">
         <!-- Nuestras Parcelas-->
-        <section>
-            <div class="shell section-100 section-lg-top-30 section-lg-bottom-30 context-light text-md-center">
+        <section class="bg-blue">
+            <div class="shell section-100 section-lg-top-30 section-lg-bottom-30 context-dark text-md-center">
                 <h3>Nuestras Parcelas en venta</h3>
             </div>
         </section>
