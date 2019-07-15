@@ -24,17 +24,17 @@
                         <!-- RD Navbar Nav-->
                         <ul class="rd-navbar-nav">
                             <li><a href="inicio">Home</a></li>
-                            <li class="active"><a href="parcelacionelvolantin">Proyectos</a>
+                            <li><a href="parcelacionelvolantin">Proyectos</a>
                                 <!-- RD Navbar Dropdown-->
                                 <ul class="rd-navbar-dropdown">
                                     <li><a href="lagochapo">Lago Chapo</a></li>
                                     <li><a href="parcelacionelvolantin">Parcelación El Volantín</a></li>
                                 </ul>
                             </li>
-                            <li><a href="quienessomos">Quienes Somos</a></li>
+                            <li class="active"><a href="quienessomos">Quienes Somos</a></li>
                             <!-- RD Navbar Dropdown-->
                             <li><a href="trabajaconnosotros">Trabaja con nosotros</a></li>
-                              <li><a href="beneficiarios.php">Beneficiarios</a></li>
+                              <li><a href="beneficiarios">Beneficiarios</a></li>
                             <li><a href="contacto">Contacto</a></li>
                         </ul>
                     </div>

@@ -33,7 +33,7 @@
                             <li><a href="quienessomos">Quienes Somos</a></li>
                             <!-- RD Navbar Dropdown-->
                             <li class="active"><a href="trabajaconnosotros">Trabaja con nosotros</a></li>
-                              <li><a href="beneficiarios.php">Beneficiarios</a></li>
+                              <li><a href="beneficiarios">Beneficiarios</a></li>
                             <li><a href="contacto">Contacto</a></li>
                         </ul>
                     </div>
