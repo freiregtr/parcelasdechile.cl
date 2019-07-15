@@ -51,10 +51,28 @@
                 </ol>
             </div>
         </section>
+        
+      
+        
+       
+        
+        
+        
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <section id="proyectos">
+                   <section class="rd-parallax">
+            <div data-speed="0.4" data-type="media" data-url="view/componentes/img/oficina-min.jpg" class="rd-parallax-layer"></div>
+            <div data-speed="0" data-type="html" class="rd-parallax-layer">
+                <div class="shell section-100 section-lg-top-220 section-lg-bottom-205 context-dark text-md-center">
+
+                    <h2>Sé parte de nuestro equipo</h2>
+                    <h4 class="offset-top-25">¡ Tenemos muchos beneficios a los mejores  !<br class="veil reveal-md-block"></h4>
+                   
+                </div>
+            </div>
+        </section>
+                   <section id="proyectos">
             <div class="shell section-70 section-lg-45 text-md-left">
                <br>
                 <div class="range range-xs-around text-center">
