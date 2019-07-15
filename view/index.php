@@ -61,6 +61,7 @@
             $_GET["ruta"] == "parcelacionelvolantin" ||
             $_GET["ruta"] == "contacto"              ||
             $_GET["ruta"] == "trabajaconnosotros"    ||
+            $_GET["ruta"] == "beneficiarios"    ||
             $_GET["ruta"] == "quienessomos"
 
         ) {

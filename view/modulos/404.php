@@ -37,12 +37,13 @@
                   <!-- RD Navbar Dropdown-->
                   <ul class="rd-navbar-dropdown">
                     <li><a href="lagochapo">Lago Chapo</a></li>
-                    <li><a href="parcelacionelvolantin">Volantín de la Quebrada</a></li>
+                    <li><a href="parcelacionelvolantin">Parcelacion El volantin</a></li>
                   </ul>
                 </li>
                 <li><a href="quienessomos">Quienes Somos</a></li>
                 <!-- RD Navbar Dropdown-->
                 <li><a href="trabajaconnosotros">Trabaja con nosotros</a></li>
+                  <li><a href="beneficiarios">Beneficiarios</a></li>
                 <li><a href="contacto">Contacto</a></li>
               </ul>
             </div>

@@ -27,12 +27,13 @@
                                 <!-- RD Navbar Dropdown-->
                                 <ul class="rd-navbar-dropdown">
                                     <li><a href="lagochapo">Lago Chapo</a></li>
-                                    <li><a href="parcelacionelvolantin">Mirador Álcones</a></li>
+                                    <li><a href="parcelacionelvolantin">Parcelación El Volantín</a></li>
                                 </ul>
                             </li>
                             <li><a href="quienessomos">Quienes Somos</a></li>
                             <!-- RD Navbar Dropdown-->
                             <li class="active"><a href="trabajaconnosotros">Trabaja con nosotros</a></li>
+                              <li><a href="beneficiarios.php">Beneficiarios</a></li>
                             <li><a href="contacto">Contacto</a></li>
                         </ul>
                     </div>
