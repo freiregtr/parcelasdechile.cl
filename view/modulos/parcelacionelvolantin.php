@@ -77,30 +77,28 @@
                                         <br>
                                         <!-- VALORES-->
                                         <div class="row">
-                                            <div class="col-md-3">
+                                            <div class="col-md-4">
                                                 <div class="valor4">
                                                     <p>$7.990.000</p>
                                                 </div>
                                             </div>
-                                            <div class="col-md-3">
+                                            <div class="col-md-4">
                                                 <div class="valor3">
                                                     <p>$9.990.000</p>
                                                 </div>
                                             </div>
-                                            <div class="col-md-3">
+                                            <div class="col-md-4">
                                                 <div class="valor2">
                                                     <p>$10.990.000</p>
                                                 </div>
                                             </div>
-                                            <div class="col-md-3">
+                                            
+                                            <div class="col-md-12">
+                                               <br>
                                                 <div class="valor1">
-                                                    <p>$9.990.000</p>
+                                                    <p>$9.990.000 - una héctarea</p>
                                                 </div>
                                             </div>
-                                        </div>
-                                        <br>
-                                        <div class="valor1">
-                                            Parcelas de 1 héctarea"
                                         </div>
                                         <br>
                                         <p class="offset-top-40 text-bold text-base">" Por qué tenemos el país más lindo del mundo, creemos que deberías elegir Parcelas de Chile."</p>
