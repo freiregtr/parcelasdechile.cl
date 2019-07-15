@@ -163,18 +163,6 @@
                 </div>
             </div>
         </section>
-        <!-- Parallax-->
-        <section class="rd-parallax">
-            <div data-speed="0.4" data-type="media" data-url="view/componentes/img/h1.jpg" class="rd-parallax-layer"></div>
-            <div data-speed="0" data-type="html" class="rd-parallax-layer">
-                <div class="shell section-100 section-lg-top-220 section-lg-bottom-205 context-dark text-md-left">
-                    <hr class="divider">
-                    <h2>Únete nuestro equipo de vendedores</h2>
-                    <h4 class="offset-top-25">¿Tienes experiencia vendiendo terrenos ?<br class="veil reveal-md-block"></h4>
-                    <a href="trabajaconnosotros" class="offset-top-50 btn btn-primary text-regular">Ver más</a>
-                </div>
-            </div>
-        </section>
         <!-- NEWSLETTERS-->
         <section class="bg-primary section-45">
             <div class="shell text-lg-left context-dark">
@@ -192,6 +180,18 @@
                             <button class="btn btn-base-variant-1">Subscribirme</button>
                         </form>
                     </div>
+                </div>
+            </div>
+        </section>
+        <!-- Parallax-->
+        <section class="rd-parallax">
+            <div data-speed="0.4" data-type="media" data-url="view/componentes/img/h1.jpg" class="rd-parallax-layer"></div>
+            <div data-speed="0" data-type="html" class="rd-parallax-layer">
+                <div class="shell section-100 section-lg-top-220 section-lg-bottom-205 context-dark text-md-left">
+                    <hr class="divider">
+                    <h2>Únete nuestro equipo de vendedores</h2>
+                    <h4 class="offset-top-25">¿Tienes experiencia vendiendo terrenos ?<br class="veil reveal-md-block"></h4>
+                    <a href="trabajaconnosotros" class="offset-top-50 btn btn-primary text-regular">Ver más</a>
                 </div>
             </div>
         </section>
