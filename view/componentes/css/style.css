@@ -210,7 +210,7 @@ code,
 kbd,
 pre,
 samp {
-  font-family: monospace, monospace;
+  font-family: 'Open Sans', sans-serif;
   font-size: 1em;
 }
 
@@ -397,7 +397,7 @@ html {
 }
 
 body {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   line-height: 1.5;
   color: #889298;
@@ -896,7 +896,7 @@ code,
 kbd,
 pre,
 samp {
-  font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+  font-family: 'Open Sans', sans-serif;
 }
 
 code {
@@ -7091,7 +7091,7 @@ button.close {
   position: absolute;
   z-index: 1070;
   display: block;
-  font-family: "Poppins", Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-style: normal;
   font-weight: normal;
   letter-spacing: normal;
@@ -7225,7 +7225,7 @@ button.close {
   display: none;
   max-width: 276px;
   padding: 1px;
-  font-family: "Poppins", Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-style: normal;
   font-weight: normal;
   letter-spacing: normal;
@@ -10050,7 +10050,7 @@ html.lt-ie-10 .range > [class*="cell-lg-preffix-"] {
 }
 
 .font-default {
-  font-family: "Poppins", Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
@@ -31840,7 +31840,7 @@ a.pswp__share--download:hover {
   border: 1px solid #f3f3f4;
   border-radius: 0;
   color: #889298;
-  font-family: "Poppins", Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 14px;
   outline: 0;
 }
@@ -31850,7 +31850,7 @@ a.pswp__share--download:hover {
   border: 1px solid #f3f3f4;
   border-radius: 0;
   color: #889298;
-  font-family: "Poppins", Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 14px;
 }
 
@@ -32848,7 +32848,7 @@ html.tablet .slick-slider .slick-next {
   content: "•";
   width: 20px;
   height: 20px;
-  font-family: "Poppins", Helvetica, Arial, sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 6px;
   line-height: 20px;
   text-align: center;
