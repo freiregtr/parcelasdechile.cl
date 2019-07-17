@@ -35,6 +35,7 @@
                             <li><a href="trabajaconnosotros">Trabaja con nosotros</a></li>
                             <li><a href="beneficiarios">Beneficiarios</a></li>
                             <li class="active"><a href="contacto">Contacto</a></li>
+                            <li><a href="faq">FAQ</a></li>
                         </ul>
                     </div>
                 </div>
