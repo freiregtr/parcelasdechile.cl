@@ -67,8 +67,12 @@
         <section class="section-top-70 section-bottom-80">
             <div class="shell text-md-left">
                 <h3 class="text-center">Preguntas Frecuentes</h3>
+                <br>
+                <br>
                 <!-- Accordion-->
-                <div id="accordion-2" role="tablist" aria-multiselectable="true" class="offset-top-30">
+               <div class="container">
+                   <div class="col-md-12">
+                        <div id="accordion-2" role="tablist" aria-multiselectable="true" class="offset-top-30">
                     <div class="accordion-type-2 accordion-type-2__mod-1">
                         <div id="headingOne2" role="tab" class="accordion-title">
                             <h5><a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne2" aria-expanded="true" aria-controls="collapseOne2">¿Qué significa que mi parcela tenga rol único?</a></h5>
@@ -192,6 +196,8 @@
                     </div>
                     
                 </div>
+                   </div>
+               </div>
             </div>
         </section>
     </main>
