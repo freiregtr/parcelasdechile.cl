@@ -60,40 +60,28 @@
                         <h3>Beneficiarios</h3>
                         <p class="offset-top-16">Tenemos descuentos exclusivos para ti</p>
                         <section id="carabineros">
-              <div class="container">
-                  <div class="row">
-                                
-                            <div class="col-md-12 offset-top-40">
-                      <div class="well">
-                        <h3>Carabineros de Chile</h3>
-                      </div>
-                      <div class="well well-dark">
-                        <p class="offset-tpo-10 offset-md-top-25 text-gray">Si te gustaría recibir ofertas exclusivas sobre nuestras parcelas, dejanos tu e-mail y nos pondremos en contacto </p>
-                        <!-- RD Mailform-->
-                        <form data-form-output="form-output-global" data-form-type="subscribe" method="post" action="bat/rd-mailform.php" class="offset-top-20 rd-mailform form-inline-custom">
-                          <div class="form-group">
-                            <label for="subscribe-email" class="form-label">Enter<span class="veil reveal-lg-inline"> please your</span> e-mail
-                            </label>
-                            <input id="subscribe-email" type="email" name="email" data-constraints="@Required @Email" class="form-control form-control-white">
-                          </div>
-                          <button type="submit" class="btn btn-primary">Enviar Oferta</button>
-                        </form>
-                      </div>
-                    </div>
-                  </div>
-              </div>
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-6 offset-top-40">
+                                        <div class="well">
+                                            <h3>Carabineros de Chile</h3>
+                                        </div>
+                                        <div class="well well-dark">
+                                            <p class="offset-tpo-10 offset-md-top-25 text-gray">Si te gustaría recibir ofertas exclusivas sobre nuestras parcelas, dejanos tu e-mail y nos pondremos en contacto </p>
+                                            <!-- RD Mailform-->
+                                            <form data-form-output="form-output-global" data-form-type="subscribe" method="post" action="bat/rd-mailform.php" class="offset-top-20 rd-mailform form-inline-custom">
+                                                <div class="form-group">
+                                                    <label for="subscribe-email" class="form-label">Enter<span class="veil reveal-lg-inline"> please your</span> e-mail
+                                                    </label>
+                                                    <input id="subscribe-email" type="email" name="email" data-constraints="@Required @Email" class="form-control form-control-white">
+                                                </div>
+                                                <button type="submit" class="btn btn-primary">Enviar Oferta</button>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </section>
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
                     </div>
                 </div>
             </div>

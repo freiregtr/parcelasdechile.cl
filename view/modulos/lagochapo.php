@@ -5,23 +5,30 @@
         <!-- RD Navbar-->
         <div class="rd-navbar-wrap">
             <nav data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fixed" data-md-device-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-static" data-lg-device-layout="rd-navbar-static" data-sm-stick-up-offset="150px" data-md-stick-up-offset="1px" data-lg-stick-up-offset="150px" class="rd-navbar">
+               
                 <div class="rd-navbar-panel">
+                   
                     <!-- RD Navbar Panel-->
                     <div class="rd-navbar-inner">
+                       
                         <!-- RD Navbar Toggle-->
                         <button data-rd-navbar-toggle=".rd-navbar-nav-wrap" class="rd-navbar-toggle"><span></span></button>
-                        <!-- RD Navbar Brand-->
+                        
+                        <!-- LOGO-->
                         <div class="rd-navbar-brand"><a href="inicio" class="brand-name"><img src="view/componentes/img/logo/logo_transparente.png" width="228" height="83" alt="Parcelas de chile"></a>
                         </div>
+                        
+                        <!-- TELÉFONO-->
                         <div class="rd-navbar-contacts rd-navbar-collapse rd-navbar-collapse-2"><span>Póngase en contacto con nosotros</span>
                             <div><span class="icon fa-phone text-primary"></span><a href="callto:> +56958053609"></span><a>+56 9 5805 3609</a>
                             </div>
                         </div>
                     </div>
                 </div>
+                
                 <div class="rd-navbar-nav-wrap">
                     <div class="rd-navbar-inner">
-                        <!-- RD Navbar Nav-->
+                        <!-- NAVBAR-->
                         <ul class="rd-navbar-nav">
                             <li><a href="inicio">Home</a></li>
                             <li class="active"><a href="parcelacionelvolantin">Proyectos</a>
@@ -32,7 +39,6 @@
                                 </ul>
                             </li>
                             <li><a href="quienessomos">Quienes Somos</a></li>
-                            <!-- RD Navbar Dropdown-->
                             <li><a href="trabajaconnosotros">Trabaja con nosotros</a></li>
                               <li><a href="beneficiarios">Beneficiarios</a></li>
                             <li><a href="contacto">Contacto</a></li>
@@ -40,6 +46,7 @@
                         </ul>
                     </div>
                 </div>
+                
             </nav>
         </div>
     </header>
@@ -59,8 +66,9 @@
         <section class="section-top-70 section-bottom-80">
             <div class="shell text-md-left product">
                 <div class="range">
-                    <div class="cell-md-12">
-                        <div><a href="#" class="label label-primary">X Región</a></div>
+                    <div class="col-md-12">
+                        <div><a href="lagochapo" class="label label-primary">X Región</a></div>
+                        
                         <!-- PLANO DEL PROYECTO-->
                         <section id="planolagochapo">
                             <div class="container">
@@ -141,7 +149,7 @@
                                     <div class="col-md-12">
                                         <div class="offset-top-30 bg-image-01 well-transparent context-dark">
                                             <div class="range">
-                                                <div class="cell-md-9 cell-lg-7">
+                                                <div class="col-md-9 col-lg-7">
                                                     <!-- Owl Carousel-->
                                                     <div data-dots="true" data-items="1" data-margin="30" data-mouse-drag="false" class="owl-carousel owl-dots-sm">
                                                         <div>
@@ -152,6 +160,7 @@
                                                             <p class="offset-top-30">Marchihue en la Provincia de Cardenal Caro (Región del Libertador General Bernardo O'Higgins) es un lugar en Chile a 138 km al suroeste de Santiago.</p>
 
                                                             <a href="parcelacionelvolantin" class="offset-top-20 btn btn-primary text-regular">Ver más</a>
+                                                            
                                                         </div>
                                                         <div>
                                                             <hr class="divider">
@@ -212,7 +221,7 @@
                 <h4 class="offset-top-25">¿Tienes experiencia vendiendo terrenos ?
                     <br class="veil reveal-md-block"></h4>
                     <br>
-                <a href="about.html" class="offset-top-50 btn btn-primary text-regular">Ver más</a>
+                <a href="trabajaconnosotros" class="offset-top-50 btn btn-primary text-regular">Ver más</a>
             </div>
         </div>
     </section>

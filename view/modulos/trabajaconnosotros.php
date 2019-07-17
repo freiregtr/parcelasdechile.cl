@@ -33,7 +33,7 @@
                             <li><a href="quienessomos">Quienes Somos</a></li>
                             <!-- RD Navbar Dropdown-->
                             <li class="active"><a href="trabajaconnosotros">Trabaja con nosotros</a></li>
-                              <li><a href="beneficiarios">Beneficiarios</a></li>
+                            <li><a href="beneficiarios">Beneficiarios</a></li>
                             <li><a href="contacto">Contacto</a></li>
                             <li><a href="faq">FAQ</a></li>
                         </ul>
@@ -53,46 +53,39 @@
                 </ol>
             </div>
         </section>
-        
-      
-        
-       
-        
-        
-        
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                   <section class="rd-parallax">
-            <div data-speed="0.4" data-type="media" data-url="view/componentes/img/oficina-min.jpg" class="rd-parallax-layer"></div>
-            <div data-speed="0" data-type="html" class="rd-parallax-layer">
-                <div class="shell section-100 section-lg-top-220 section-lg-bottom-205 context-dark text-md-center">
+                    <section class="rd-parallax">
+                        <div data-speed="0.4" data-type="media" data-url="view/componentes/img/oficina-min.jpg" class="rd-parallax-layer"></div>
+                        <div data-speed="0" data-type="html" class="rd-parallax-layer">
+                            <div class="shell section-100 section-lg-top-220 section-lg-bottom-205 context-dark text-md-center">
 
-                    <h2>Sé parte de nuestro equipo</h2>
-                    <h4 class="offset-top-25">¡ Tenemos muchos beneficios a los mejores  !<br class="veil reveal-md-block"></h4>
-                   
-                </div>
-            </div>
-        </section>
-                   <section id="proyectos">
-            <div class="shell section-70 section-lg-45 text-md-left">
-               <br>
-                <div class="range range-xs-around text-center">
-                    <div class="cell-lg-4 cell-md-4"><span class="icon icon-lg icon-circle icon-primary fa-bookmark"></span>
-                        <h5 class="offset-top-20">COMISIÓNES</h5>
-                        <p class="offset-top-10"></p>
-                    </div>
-                    <div class="cell-lg-4 cell-md-4"><span class="icon icon-lg icon-circle icon-primary fa-bookmark"></span>
-                        <h5 class="offset-top-20">INCENTIVO POR VENTA</h5>
-                        <p class="offset-top-10"></p>
-                    </div>
-                    <div class="cell-lg-4 cell-md-4"><span class="icon icon-lg icon-circle icon-primary fa-bookmark"></span>
-                        <h5 class="offset-top-20">FREELANCE</h5>
-                        <p class="offset-top-10"></p>
-                    </div>
-                </div>
-            </div>
-        </section>
+                                <h2>Sé parte de nuestro equipo</h2>
+                                <h4 class="offset-top-25">¡ Tenemos muchos beneficios a los mejores !<br class="veil reveal-md-block"></h4>
+
+                            </div>
+                        </div>
+                    </section>
+                    <section id="proyectos">
+                        <div class="shell section-70 section-lg-45 text-md-left">
+                            <br>
+                            <div class="range range-xs-around text-center">
+                                <div class="cell-lg-4 cell-md-4"><span class="icon icon-lg icon-circle icon-primary fa-bookmark"></span>
+                                    <h5 class="offset-top-20">COMISIÓNES</h5>
+                                    <p class="offset-top-10"></p>
+                                </div>
+                                <div class="cell-lg-4 cell-md-4"><span class="icon icon-lg icon-circle icon-primary fa-bookmark"></span>
+                                    <h5 class="offset-top-20">INCENTIVO POR VENTA</h5>
+                                    <p class="offset-top-10"></p>
+                                </div>
+                                <div class="cell-lg-4 cell-md-4"><span class="icon icon-lg icon-circle icon-primary fa-bookmark"></span>
+                                    <h5 class="offset-top-20">FREELANCE</h5>
+                                    <p class="offset-top-10"></p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
                     <section class="section-top-70 section-bottom-80">
                         <div class="shell text-md-left">
                             <div class="range">

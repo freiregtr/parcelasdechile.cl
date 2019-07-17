@@ -31,7 +31,6 @@
                                 </ul>
                             </li>
                             <li><a href="quienessomos">Quienes Somos</a></li>
-                            <!-- RD Navbar Dropdown-->
                             <li><a href="trabajaconnosotros">Trabaja con nosotros</a></li>
                             <li><a href="beneficiarios">Beneficiarios</a></li>
                             <li class="active"><a href="contacto">Contacto</a></li>
@@ -54,132 +53,130 @@
             </div>
         </section>
         <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="offset-top-30 bg-image-01 well-transparent context-dark">
-                        <div class="range">
-                            <div class="cell-md-9 cell-lg-7">
-                                <!-- Owl Carousel-->
-                                <div data-dots="true" data-items="1" data-margin="30" data-mouse-drag="false" class="owl-carousel owl-dots-sm">
-                                    <div>
-                                        <hr class="divider">
-                                        <h3 class="text-bold">Lago Chapo</h3>
-                                        <h3 class="offset-top-30 text-primary">$9.990.000</h3>
-                                        <p class="offset-top-30">En el Lago Chapo podemos Disfrutar navegando con la hermosa vista del Volcán Calbuco, y si eres de las personas que ama la naturaleza deberías recorrer los senderos de la Reserva Nacional Llanquihue.</p><a href="lagochapo" class="offset-top-20 btn btn-primary text-regular">Ver más</a>
+            <section class="section-top-70 section-bottom-80">
+                <div class="shell text-md-left">
+                    <div class="range">
+                        <div class="col-md-8">
+
+                            <div>
+                                <h3>Contacto</h3>
+                                <p class="offset-top-16">Por lo general, respondemos dentro de 1 día hábil ...</p>
+                                <h3>¿En qué podemos ayudarte?</h3>
+                                <!-- RD Mailform-->
+                                <form action="view/componentes/bat/rd-mailform.php" data-form-output="form-output-global" data-form-type="contacto" method="POST" class="offset-top-40 text-left rd-mailform">
+
+                                    <div class="range range-md-middle">
+                                        <div class="cell-lg-2">
+                                            <p class="text-base">Nombre</p>
+                                        </div>
+                                        <div class="cell-lg-10 offset-top-7 offset-lg-top-0">
+                                            <div class="form-group">
+                                                <label for="contact-name" class="form-label">Ingresa nombre</label>
+                                                <input id="contact-name" type="text" name="nombre" data-constraints="@Required" class="form-control">
+                                            </div>
+                                        </div>
                                     </div>
-                                    <div>
-                                        <hr class="divider">
-                                        <h3 class="text-bold">Parcelación El Volantín</h3>
-                                        <h3 class="offset-top-30 text-primary">$7.990.000</h3>
-                                        <br>
-                                        <p class="offset-top-30">Marchihue en la Provincia de Cardenal Caro (Región del Libertador General Bernardo O'Higgins) es un lugar en Chile a 138 km al suroeste de Santiago.</p>
-                                        <br>
-                                        <br>
-                                        <a href="miradoralcones" class="offset-top-20 btn btn-primary text-regular">Ver más</a>
+
+                                    <div class="range range-xs-middle offset-top-20">
+                                        <div class="cell-lg-2">
+                                            <p class="text-base">Mail</p>
+                                        </div>
+                                        <div class="cell-lg-10 offset-top-7 offset-lg-top-0">
+                                            <div class="form-group">
+                                                <label for="contact-email" class="form-label">Ingresa tu e-mail</label>
+                                                <input id="contact-email" type="email" name="email" data-constraints="@Email @Required" class="form-control">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="range range-xs-middle offset-top-20">
+                                        <div class="cell-lg-2">
+                                            <p class="text-base">Teléfono</p>
+                                        </div>
+                                        <div class="cell-lg-10 offset-top-7 offset-lg-top-0">
+                                            <div class="form-group">
+                                                <label for="contact-phone" class="form-label">Ingresa tu teléfono</label>
+                                                <input id="contact-phone" type="text" name="telefono" data-constraints="@Numeric @Required" class="form-control">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="range offset-top-20">
+                                        <div class="cell-lg-2 text-lg-nowrap">
+                                            <p class="text-base">Mensaje</p>
+                                        </div>
+                                        <div class="cell-lg-10 offset-top-7 offset-lg-top-0">
+                                            <div class="form-group">
+                                                <label for="contact-message" class="form-label">¿Qué podemos ayudarte?</label>
+                                                <textarea id="contact-message" name="mensaje" data-constraints="@Required" class="form-control"></textarea>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="range offset-top-20 text-center text-sm-left">
+                                        <div class="cell-lg-5 cell-lg-preffix-2">
+                                            <button type="submit" class="btn btn-primary">Enviar</button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="offset-top-30 bg-image-01 well-transparent context-dark">
+                                <div class="range">
+                                    <div class="col-md-12">
+                                        <!-- Owl Carousel-->
+                                        <div data-dots="true" data-items="1" data-margin="30" data-mouse-drag="false" class="owl-carousel owl-dots-sm">
+                                            <div>
+                                                <h3 class="text-bold">Lago Chapo</h3>
+                                                <h3 class="offset-top-30 text-primary">$9.990.000</h3>
+                                                <p class="offset-top-30">En el Lago Chapo podemos Disfrutar navegando con la hermosa vista del Volcán Calbuco, y si eres de las personas que ama la naturaleza deberías recorrer los senderos de la Reserva Nacional Llanquihue.</p><a href="lagochapo" class="offset-top-20 btn btn-primary text-regular">Ver más</a>
+                                            </div>
+                                            <div>
+                                                <h3 class="text-bold">Parcelación El Volantín</h3>
+                                                <h3 class="offset-top-30 text-primary">$7.990.000</h3>
+                                                <br>
+                                                <p class="offset-top-30">Marchihue en la Provincia de Cardenal Caro (Región del Libertador General Bernardo O'Higgins) es un lugar en Chile a 138 km al suroeste de Santiago.</p>
+                                                <br>
+                                                <br>
+                                                <a href="miradoralcones" class="offset-top-20 btn btn-primary text-regular">Ver más</a>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
+            </section>
+        </div>
+</div>
+</main>
+<!-- Page Footer-->
+<footer class="page-footer">
+    <div class="shell">
+        <hr>
+    </div>
+    <!-- PRIVACITY-->
+    <div class="shell section-30">
 
-                </div>
-
-                <div class="col-md-6">
-                    <section class="section-top-70 section-bottom-80">
-                        <div class="shell text-md-left">
-                            <div class="range">
-                                <div>
-                                    <h3>Contacto</h3>
-                                    <p class="offset-top-16">Por lo general, respondemos dentro de 1 día hábil ...</p>
-                                    <h3>¿En qué podemos ayudarte?</h3>
-                                    <!-- RD Mailform-->
-                                    <form action="view/componentes/bat/rd-mailform.php" data-form-output="form-output-global" data-form-type="contacto" method="POST" class="offset-top-40 text-left rd-mailform">
-                                        <div class="range range-xs-middle">
-                                            <div class="cell-lg-2">
-                                                <p class="text-base">Nombre</p>
-                                            </div>
-                                            <div class="cell-lg-10 offset-top-7 offset-lg-top-0">
-                                                <div class="form-group">
-                                                    <label for="contact-name" class="form-label">Ingresa nombre</label>
-                                                    <input id="contact-name" type="text" name="nombre" data-constraints="@Required" class="form-control">
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="range range-xs-middle offset-top-20">
-                                            <div class="cell-lg-2">
-                                                <p class="text-base">Mail</p>
-                                            </div>
-                                            <div class="cell-lg-10 offset-top-7 offset-lg-top-0">
-                                                <div class="form-group">
-                                                    <label for="contact-email" class="form-label">Ingresa tu e-mail</label>
-                                                    <input id="contact-email" type="email" name="email" data-constraints="@Email @Required" class="form-control">
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="range range-xs-middle offset-top-20">
-                                            <div class="cell-lg-2">
-                                                <p class="text-base">Teléfono</p>
-                                            </div>
-                                            <div class="cell-lg-10 offset-top-7 offset-lg-top-0">
-                                                <div class="form-group">
-                                                    <label for="contact-phone" class="form-label">Ingresa tu teléfono</label>
-                                                    <input id="contact-phone" type="text" name="telefono" data-constraints="@Numeric @Required" class="form-control">
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="range offset-top-20">
-                                            <div class="cell-lg-2 text-lg-nowrap">
-                                                <p class="text-base">Mensaje</p>
-                                            </div>
-                                            <div class="cell-lg-10 offset-top-7 offset-lg-top-0">
-                                                <div class="form-group">
-                                                    <label for="contact-message" class="form-label">¿Qué podemos ayudarte?</label>
-                                                    <textarea id="contact-message" name="mensaje" data-constraints="@Required" class="form-control"></textarea>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="range offset-top-20 text-center text-sm-left">
-                                            <div class="cell-lg-5 cell-lg-preffix-2">
-                                                <button type="submit" class="btn btn-primary">Enviar</button>
-                                            </div>
-                                        </div>
-                                    </form>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-                </div>
+        <div class="range range-xs-middle">
+            <div class="cell-sm-6 text-sm-right cell-sm-push-1">
+                <ul class="list-inline">
+                    <li><a href="https://www.facebook.com/parcelasdechile/" target="_blank" class="icon icon-sm text-primary fa-facebook"></a></li>
+                    <li><a href="https://www.youtube.com/channel/UC1A2lJ21pRVisDtocb1gTTA" target="_blank" class="icon icon-sm text-primary fa-youtube"></a></li>
+                    <li><a href="https://www.linkedin.com/company/parcelasdechile?originalSubdomain=cl" target="_blank" class="icon icon-sm text-primary fa-linkedin"></a></li>
+                    <li><a href="https://instagram.com/parcelasdechile" target="_blank" class="icon icon-sm text-primary fa-instagram"></a></li>
+                </ul>
+            </div>
+            <div class="cell-sm-6 text-sm-left offset-top-20 offset-sm-top-0">
+                <p class="small">Parcelas de Chile &#169;<span id="copyright-year"></span>. <a href="privacy.html" class="text-gray">Privacy Policy</a>
+                </p>
             </div>
         </div>
-    </main>
-    <!-- Page Footer-->
-    <footer class="page-footer">
-        <div class="shell">
-            <hr>
-        </div>
-
-        <!-- PRIVACITY-->
-
-        <div class="shell section-30">
-
-            <div class="range range-xs-middle">
-                <div class="cell-sm-6 text-sm-right cell-sm-push-1">
-                    <ul class="list-inline">
-                        <li><a href="https://www.facebook.com/parcelasdechile/" target="_blank" class="icon icon-sm text-primary fa-facebook"></a></li>
-                        <li><a href="https://www.youtube.com/channel/UC1A2lJ21pRVisDtocb1gTTA" target="_blank" class="icon icon-sm text-primary fa-youtube"></a></li>
-                        <li><a href="https://www.linkedin.com/company/parcelasdechile?originalSubdomain=cl" target="_blank" class="icon icon-sm text-primary fa-linkedin"></a></li>
-                        <li><a href="https://instagram.com/parcelasdechile" target="_blank" class="icon icon-sm text-primary fa-instagram"></a></li>
-                    </ul>
-                </div>
-                <div class="cell-sm-6 text-sm-left offset-top-20 offset-sm-top-0">
-                    <p class="small">Parcelas de Chile &#169;<span id="copyright-year"></span>. <a href="privacy.html" class="text-gray">Privacy Policy</a>
-                    </p>
-                </div>
-            </div>
-        </div>
-        <!-- Global Mailform Output-->
-<div id="form-output-global" class="snackbars"></div>
-    </footer>
+    </div>
+    <!-- Global Mailform Output-->
+    <div id="form-output-global" class="snackbars"></div>
+</footer>
 </div>
 
 <!-- Inicio Div chat -->
@@ -187,4 +184,3 @@
 include "chat.php";
 ?>
 <!-- Fin Div chat -->
-

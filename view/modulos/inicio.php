@@ -1,24 +1,35 @@
 <!-- Page-->
 <div class="page text-center">
+
     <!-- Page Header-->
     <header class="page-header bg-image-01">
+
         <!-- RD Navbar-->
         <div class="rd-navbar-wrap">
+
             <nav data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fixed" data-md-device-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-static" data-lg-device-layout="rd-navbar-static" data-sm-stick-up-offset="158px" data-md-stick-up-offset="10px" data-lg-stick-up-offset="158px" class="rd-navbar rd-navbar-centered">
+
                 <button data-rd-navbar-toggle=".rd-navbar-collapse" class="rd-navbar-collapse-toggle"><span></span></button>
                 <div class="rd-navbar-panel">
+
                     <!-- RD Navbar Panel-->
                     <div class="rd-navbar-inner">
                         <!-- RD Navbar Toggle-->
                         <button data-rd-navbar-toggle=".rd-navbar-nav-wrap" class="rd-navbar-toggle"><span></span></button>
+
+                        <!-- TELÉFONO-->
                         <div class="rd-navbar-contacts rd-navbar-collapse rd-navbar-collapse-2"><span>Póngase en contacto con nosotros</span>
                             <div><span class="icon fa-phone text-primary"></span><a>+56 9 5805 3609</a></div>
                         </div>
-                        <!-- RD Navbar Brand-->
+
+                        <!-- LOGO-->
                         <div class="rd-navbar-brand"><a href="inicio" class="brand-name"><img src="view/componentes/img/logo/logo_transparente.png" width="228" height="83" alt="Parcelas de chile"></a></div>
+
                         <!--RD Navbar Search-->
                         <div class="rd-navbar-search"><a data-rd-navbar-toggle=".rd-search" href="#" class="rd-navbar-search-toggle"><span class="fa-search"></span></a>
                             <form action="search-results.html" data-search-live="rd-search-results-live" method="GET" class="rd-search">
+
+                                <!-- REDES SOCIALES-->
                                 <div class="form-group">
                                     <ul class="list-inline">
                                         <li><a href="https://www.facebook.com/parcelasdechile/" target="_blank" class="icon icon-sm text-primary fa-facebook"></a></li>
@@ -27,13 +38,14 @@
                                         <li><a href="https://instagram.com/parcelasdechile/" target="_blank" class="icon icon-sm text-primary fa-instagram"></a></li>
                                     </ul>
                                 </div>
+
                             </form>
                         </div>
                     </div>
                 </div>
+                <!-- NAVBAR-->
                 <div class="rd-navbar-nav-wrap">
                     <div class="rd-navbar-inner">
-                        <!-- RD Navbar Nav-->
                         <ul class="rd-navbar-nav">
                             <li class="active"><a href="inicio">Home</a></li>
                             <li><a href="parcelacionelvolantin">Proyectos</a>
@@ -44,9 +56,8 @@
                                 </ul>
                             </li>
                             <li><a href="quienessomos">Quienes Somos</a></li>
-                            <!-- RD Navbar Dropdown-->
                             <li><a href="trabajaconnosotros">Trabaja con nosotros</a></li>
-                             <li><a href="beneficiarios">Beneficiarios</a></li>
+                            <li><a href="beneficiarios">Beneficiarios</a></li>
                             <li><a href="contacto">Contacto</a></li>
                             <li><a href="faq">FAQ</a></li>
                         </ul>
@@ -54,10 +65,12 @@
                 </div>
             </nav>
         </div>
+
+        <!-- HOME-->
         <div class="shell section-70 section-lg-120 text-md-left">
             <div class="range range-xs-middle">
                 <!-- SLIDE HOME-->
-                <div class="cell-lg-7 cell-md-6">
+                <div class="col-lg-7 col-md-6">
                     <!-- Owl Carousel-->
                     <div data-items="1" data-dots="true" data-margin="30" data-mouse-drag="false" class="context-dark owl-slider owl-carousel">
                         <div class="owl-item">
@@ -65,20 +78,11 @@
                             <h1>Inscríbete en nuestra venta en verde</h1>
                             <p class="offset-top-25">Próximo proyecto "Parcelación El Volantín"</p>
                         </div>
-                        <div class="owl-item">
-                            <hr class="divider veil reveal-md-inline-block">
-                            <h1>Invierte en tierra</h1>
-                            <p class="offset-top-25">El valor de la tierra va en aumento con los años, esta es una oportunidad de invertir.</p>
-                        </div>
-                        <div class="owl-item">
-                            <hr class="divider veil reveal-md-inline-block">
-                            <h1>Bienvenidos a Parcelas de Chile</h1>
-                            <p class="offset-top-25">Por qué tenemos el país más lindo del mundo, creemos que deberías elegir invertir con Parcelas de Chile.</p>
-                        </div>
                     </div>
                 </div>
+
                 <!-- TE LLAMAMOS - RD Mailform-->
-                <div class="cell-md-5 cell-lg-4 cell-md-preffix-1 offset-top-40 text-left">
+                <div class="col-md-5 cell-lg-4 col-md-preffix-1 offset-top-40 text-left">
                     <div class="well well-base">
                         <h3>¿Te llamamos?</h3>
                         <form action="view/componentes/bat/rd-mailform.php" data-form-output="form-output-global" data-form-type="inicio" method="POST" class="offset-top-30 text-left rd-mailform">
@@ -100,20 +104,24 @@
                         </form>
                     </div>
                 </div>
+
             </div>
         </div>
     </header>
     <!-- Page Content-->
     <main class="page-content">
-        <!-- Nuestras Parcelas-->
+
+        <!-- TITULO PARCELAS-->
         <section class="bg-blue">
             <div class="shell section-100 section-lg-top-30 section-lg-bottom-30 context-dark text-md-center">
                 <h3>Nuestras Parcelas en venta</h3>
             </div>
         </section>
-        <!-- Las Parcelas-->
-        <section>
+
+        <section id="parcelas">
+            <!-- LAS PARCELAS-->
             <div class="range range-condensed text-sm-left">
+                <!-- LAGO CHAPO-->
                 <div class="cell-sm-6">
                     <div class="reveal-block thumbnail-variant-1">
                         <div class="caption-wrapper">
@@ -129,7 +137,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="cell-sm-6 offset-top-0">
+                <!-- PARCELACION EL VOLANTIN-->
+                <div class="cell-sm-6">
                     <div class="reveal-block thumbnail-variant-1">
                         <div class="caption-wrapper">
                             <img src="view/componentes/img/proyectos/mirador_alcones/malcones.jpg" width="960" height="567" alt="Volantin de la quebrada" class="img-responsive center-block">
@@ -146,33 +155,35 @@
                 </div>
             </div>
         </section>
-        <!-- Caracteristicas Parcelas-->
+
+        <!-- CARACTERISTICAS DE LAS PARCELAS-->
         <section id="proyectos">
             <div class="shell section-70 section-lg-45 text-md-left">
                 <div class="range range-xs-around text-center">
-                    <div class="cell-lg-4 cell-md-4"><span class="icon icon-lg icon-circle icon-primary fa-bookmark"></span>
+                    <div class="col-lg-4 col-md-4"><span class="icon icon-lg icon-circle icon-primary fa-bookmark"></span>
                         <h5 class="offset-top-20">Rol Único</h5>
                         <p class="offset-top-10">Con el N° de Rol el SII identifica <br> a una propiedad o bien raíz. </p>
                     </div>
-                    <div class="cell-lg-4 cell-md-4"><span class="icon icon-lg icon-circle icon-primary fa-bookmark"></span>
+                    <div class="col-lg-4 col-md-4"><span class="icon icon-lg icon-circle icon-primary fa-bookmark"></span>
                         <h5 class="offset-top-20">Posibilidad luz y agua</h5>
                         <p class="offset-top-10">Parcelas posibilitadas para obtener <br> los recursos de luz y agua sin problemas.</p>
                     </div>
-                    <div class="cell-lg-4 cell-md-4"><span class="icon icon-lg icon-circle icon-primary fa-bookmark"></span>
+                    <div class="col-lg-4 col-md-4"><span class="icon icon-lg icon-circle icon-primary fa-bookmark"></span>
                         <h5 class="offset-top-20">Desde los 5000 Mt2</h5>
                         <p class="offset-top-10">Dependiendo del valor y el proyecto <br> los mts comienzan desde los 5000 mt2</p>
                     </div>
                 </div>
             </div>
         </section>
+
         <!-- NEWSLETTERS-->
         <section class="bg-primary section-45">
             <div class="shell text-lg-left context-dark">
                 <div class="range range-xs-middle range-xs-center">
-                    <div class="cell-lg-6">
+                    <div class="col-lg-6">
                         <h4>Subscribete a nuestro newsletter</h4>
                     </div>
-                    <div class="cell-sm-8 cell-lg-6 offset-top-20 offset-lg-top-0">
+                    <div class="col-sm-8 col-lg-6 offset-top-20 offset-lg-top-0">
                         <!-- RD Mailform-->
                         <form data-form-output="form-output-global" data-form-type="subscribe" method="post" class="form-inline-custom-sm rd-mailform text-center">
                             <div class="form-group">
@@ -185,20 +196,26 @@
                 </div>
             </div>
         </section>
-        <!-- Parallax-->
+
+        <!-- PARALAX -->
         <section class="rd-parallax">
-            <div data-speed="0.4" data-type="media" data-url="view/componentes/img/h1.jpg" class="rd-parallax-layer"></div>
+            <div data-speed="0.4" data-type="media" data-url="view/componentes/img/h2.jpg" class="rd-parallax-layer"></div>
             <div data-speed="0" data-type="html" class="rd-parallax-layer">
                 <div class="shell section-100 section-lg-top-220 section-lg-bottom-205 context-dark text-md-left">
                     <hr class="divider">
                     <h2>Únete nuestro equipo de vendedores</h2>
-                    <h4 class="offset-top-25">¿Tienes experiencia vendiendo terrenos ?<br class="veil reveal-md-block"></h4>
+                    <br>
+                    <h4 class="offset-top-25">¿Tienes experiencia vendiendo terrenos ?
+                        <br class="veil reveal-md-block"></h4>
+                    <br>
                     <a href="trabajaconnosotros" class="offset-top-50 btn btn-primary text-regular">Ver más</a>
                 </div>
             </div>
         </section>
+
     </main>
-    <!-- Page Footer-->
+
+    <!-- FOOTER-->
     <footer class="page-footer">
         <div class="shell">
             <hr>
@@ -207,12 +224,15 @@
         <div class="shell section-30">
             <div class="range range-xs-middle">
                 <div class="cell-sm-6 text-sm-right cell-sm-push-1">
+
+                    <!-- REDES SOCIALES-->
                     <ul class="list-inline">
                         <li><a href="https://www.facebook.com/parcelasdechile/" target="_blank" class="icon icon-sm text-primary fa-facebook"></a></li>
                         <li><a href="https://www.youtube.com/channel/UC1A2lJ21pRVisDtocb1gTTA/" target="_blank" class="icon icon-sm text-primary fa-youtube"></a></li>
                         <li><a href="https://www.linkedin.com/company/parcelasdechile?originalSubdomain=cl/" target="_blank" class="icon icon-sm text-primary fa-linkedin"></a></li>
                         <li><a href="https://instagram.com/parcelasdechile/" target="_blank" class="icon icon-sm text-primary fa-instagram"></a></li>
                     </ul>
+
                 </div>
                 <div class="cell-sm-6 text-sm-left offset-top-20 offset-sm-top-0">
                     <p class="small">Parcelas de Chile &#169;<span id="copyright-year"></span>.
@@ -221,6 +241,7 @@
             </div>
         </div>
     </footer>
+
     <!-- Global Mailform Output-->
     <!-- PhotoSwipe Gallery-->
     <div tabindex="-1" role="dialog" aria-hidden="true" class="pswp">

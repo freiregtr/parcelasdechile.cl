@@ -32,7 +32,6 @@
                                 </ul>
                             </li>
                             <li><a href="quienessomos">Quienes Somos</a></li>
-                            <!-- RD Navbar Dropdown-->
                             <li><a href="trabajaconnosotros">Trabaja con nosotros</a></li>
                               <li><a href="beneficiarios">Beneficiarios</a></li>
                             <li><a href="contacto">Contacto</a></li>
@@ -59,7 +58,7 @@
         <section class="section-top-70 section-bottom-80">
             <div class="shell text-md-left product">
                 <div class="range">
-                    <div class="cell-md-12">
+                    <div class="col-md-12">
                         <div><a href="#" class="label label-primary">VI Región</a></div>
                         <!-- PLANO DEL PROYECTO-->
                         <section id="planovolantin">
@@ -124,6 +123,7 @@
                                 </div>
                             </div>
                         </section>
+                        
                         <!-- GALERIA DE IMAGENES-->
                         <section>
                             <div class="container">
@@ -175,6 +175,7 @@
                             </div>
                         </section>
                         <!-- FIN GALERIA DE IMAGENES-->
+                        
                         <!-- INTRODUCCION AL PROYECTO-->
                         <section>
                             <div class="container">
@@ -221,6 +222,7 @@
                             </div>
                         </section>
                         <!-- FIN INTRODUCCION-->
+                        
                         <!-- PLANO 360-->
                         <section id="panovolantin">
                             <div class="container">
@@ -235,6 +237,7 @@
                                 </div>
                             </div>
                         </section>
+                        
                         <!-- BOTONES SIGUIENTE PROYECTO-->
                         <div class="container">
                           <br>
@@ -244,12 +247,14 @@
                                 <div class="col-xs-6 text-right"><a href="lagochapo" class="btn btn-primary btn-icon btn-icon btn-icon-right"><span class="text text-regular veil reveal-xs-inline">Siguiente proyecto</span><span class="icon fa-angle-right"></span></a></div>
                             </div>
                         </div>
+                        
                     </div>
                 </div>
             </div>
         </section>
     </main>
     <!-- FIN MAIN-->
+    
     <!-- PARALAX -->
     <section class="rd-parallax">
         <div data-speed="0.4" data-type="media" data-url="view/componentes/img/h2.jpg" class="rd-parallax-layer"></div>
@@ -259,7 +264,7 @@
                 <h2>Únete nuestro equipo de vendedores</h2>
                 <h4 class="offset-top-25">¿Tienes experiencia vendiendo terrenos ?
                     <br class="veil reveal-md-block"></h4>
-                <a href="about.html" class="offset-top-50 btn btn-primary text-regular">Ver más</a>
+                <a href="trabajaconnosotros" class="offset-top-50 btn btn-primary text-regular">Ver más</a>
             </div>
         </div>
     </section>
@@ -286,8 +291,10 @@
             </div>
         </div>
     </footer>
+    
     <!-- Global Mailform Output-->
     <div id="form-output-global" class="snackbars"></div>
+    
     <!-- PhotoSwipe Gallery-->
     <div tabindex="-1" role="dialog" aria-hidden="true" class="pswp">
         <div class="pswp__bg"></div>
@@ -323,6 +330,7 @@
             </div>
         </div>
     </div>
+    
     <!-- Inicio Div chat -->
     <?php
     include "chat.php";
@@ -339,12 +347,11 @@
                 </div>
                 <div class="modal-body">
                     <div class="row">
-                    <div class="col-md-6 text-left">
+                    <div class="col-md-6 text-center">
                         <h3>Subscríbete a nuestra venta en verde</h3>
                         <br>
-                        <h6>Solo con invitación*</h6>
-                        <hr>
-                        <img src="view/componentes/img/logo/logo_transparente.png" width="230" height="86" alt="Parcelas de chile">
+                        <h6>Solo con invitación*</h6>  
+                        <hr>                      <img src="view/componentes/img/logo/logo_transparente.png" width="230" height="86" alt="Parcelas de chile">
                     </div>
                     <div class="col-md-6 text-left">
                         <form action="view/componentes/bat/rd-mailform.php" data-form-output="form-output-global" data-form-type="ventaverde" method="POST" class="offset-top-30 text-left rd-mailform">
