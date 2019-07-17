@@ -85,11 +85,10 @@
                     
                     <div class="accordion-type-2 accordion-type-2__mod-1">
                         <div id="headingTwo2" role="tab" class="accordion-title">
-                            <h5><a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo2" aria-expanded="false" aria-controls="collapseTwo2" class="collapsed">¿Es todo legal?</a></h5>
+                            <h5><a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo2" aria-expanded="false" aria-controls="collapseTwo2" class="collapsed">¿Como compruebo que los papeles están al día?</a></h5>
                         </div>
                         <div id="collapseTwo2" role="tabpanel" aria-labelledby="headingTwo2" class="accordion-body panel-collapse collapse">
-                            <p>Totalmente, todas las parcelas tienen su rol propio ósea la tierra quedaría a tu nombre, se hace bajo firma de
-                                notaría e inscripción del conservador de bienes raíces.</p>
+                            <p>Todas las parcelas tienen su rol propio ósea la tierra quedaría a tu nombre, se hace bajo firma de notaría e inscripción del conservador de bienes raíces.</p>
                         </div>
                     </div>
                     
@@ -98,8 +97,7 @@
                             <h5><a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree2" aria-expanded="false" aria-controls="collapseThree2" class="collapsed">¿Yo tengo que hacer la inscripción en el conservador de bienes raíces?</a></h5>
                         </div>
                         <div id="collapseThree2" role="tabpanel" aria-labelledby="headingThree2" class="accordion-body panel-collapse collapse">
-                            <p>No, tú solamente tienes que juntarte a firmar con nuestra abogada en notaria y después los documentos te
-                                llegan a domicilio o al lugar que más te acomoden como por ejemplo lugar de trabajo.</p>
+                            <p>No, tú solamente tienes que juntarte a firmar con nuestra abogada en notaria y después los documentos te llegan a domicilio o al lugar que más te acomoden como por ejemplo lugar de trabajo.</p>
                         </div>
                     </div>
                     
@@ -117,8 +115,7 @@
                             <h5><a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree4" aria-expanded="false" aria-controls="collapseThree4" class="collapsed">¿Para qué sirve la reserva?</a></h5>
                         </div>
                         <div id="collapseThree4" role="tabpanel" aria-labelledby="headingThree4" class="accordion-body panel-collapse collapse">
-                            <p>La reserva aparte de asegurarte que la parcela que tú elijas nadie más la pueda comprar hasta que firmes en
-                                notaria. Con ese valor se paga los gastos notariales, inscripción de bienes raíces y el envío de documentos a tu domicilio vía Chile Express.
+                            <p>La reserva aparte de asegurarte que la parcela que tú elijas nadie más la pueda comprar hasta que firmes en notaria. Con ese valor se paga los gastos notariales, inscripción de bienes raíces y el envío de documentos a tu domicilio vía Chile Express.
                             </p>
                         </div>
                     </div>
@@ -138,8 +135,7 @@
                             <h5><a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree6" aria-expanded="false" aria-controls="collapseThree6" class="collapsed">¿Existe un máximo de tiempo sin hacerle nada a mi parcela?</a></h5>
                         </div>
                         <div id="collapseThree6" role="tabpanel" aria-labelledby="headingThree4" class="accordion-body panel-collapse collapse">
-                            <p>No, puedes dejar tu terreno ahí sin hacerle nada y sin pagar nada por su manutención por el tiempo que tú
-                                quieras.
+                            <p>No, puedes dejar tu terreno ahí sin hacerle nada y sin pagar nada por su manutención por el tiempo que tú quieras.
                             </p>
                         </div>
                     </div>
