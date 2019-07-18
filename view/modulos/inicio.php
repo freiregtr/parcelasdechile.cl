@@ -23,10 +23,11 @@
                         </div>
 
                         <!-- LOGO-->
-                        <div class="rd-navbar-brand"><a href="inicio" class="brand-name"><img src="view/componentes/img/logo/logo_transparente.png" width="228" height="83" alt="Parcelas de chile"></a></div>
+                        <div class="rd-navbar-brand"><a href="inicio" class="brand-name"><img src="view/componentes/img/logo/logo_transparente.png" width="220" height="75∫" alt="Parcelas de chile"></a></div>
 
                         <!--RD Navbar Search-->
                         <div class="rd-navbar-search"><a data-rd-navbar-toggle=".rd-search" href="#" class="rd-navbar-search-toggle"><span class="fa-search"></span></a>
+                           
                             <form action="search-results.html" data-search-live="rd-search-results-live" method="GET" class="rd-search">
 
                                 <!-- REDES SOCIALES-->
@@ -63,6 +64,7 @@
                         </ul>
                     </div>
                 </div>
+                
             </nav>
         </div>
 
@@ -73,6 +75,16 @@
                 <div class="col-lg-7 col-md-6">
                     <!-- Owl Carousel-->
                     <div data-items="1" data-dots="true" data-margin="30" data-mouse-drag="false" class="context-dark owl-slider owl-carousel">
+                        <div class="owl-item">
+                            <hr class="divider veil reveal-md-inline-block">
+                            <h1>Inscríbete en nuestra venta <br>en verde</h1>
+                            <p class="offset-top-25">Próximo proyecto "Parcelación El Volantín"</p>
+                        </div>
+                        <div class="owl-item">
+                            <hr class="divider veil reveal-md-inline-block">
+                            <h1>Inscríbete en nuestra venta en verde</h1>
+                            <p class="offset-top-25">Próximo proyecto "Parcelación El Volantín"</p>
+                        </div>
                         <div class="owl-item">
                             <hr class="divider veil reveal-md-inline-block">
                             <h1>Inscríbete en nuestra venta en verde</h1>
@@ -155,7 +167,6 @@
                 </div>
             </div>
         </section>
-
         <!-- CARACTERISTICAS DE LAS PARCELAS-->
         <section id="proyectos">
             <div class="shell section-70 section-lg-45 text-md-left">
@@ -175,7 +186,6 @@
                 </div>
             </div>
         </section>
-
         <!-- NEWSLETTERS-->
         <section class="bg-primary section-45">
             <div class="shell text-lg-left context-dark">
@@ -196,7 +206,6 @@
                 </div>
             </div>
         </section>
-
         <!-- PARALAX -->
         <section class="rd-parallax">
             <div data-speed="0.4" data-type="media" data-url="view/componentes/img/h2.jpg" class="rd-parallax-layer"></div>
@@ -212,7 +221,6 @@
                 </div>
             </div>
         </section>
-
     </main>
 
     <!-- FOOTER-->

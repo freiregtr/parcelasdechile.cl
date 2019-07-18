@@ -10499,8 +10499,12 @@ fieldset[disabled] .bg-gray-base .btn-primary {
 }
 
 .bg-image-01 {
-  background: url(../img/h2.jpg);
+  background: url(../img/home2.jpg);
   background-size: cover;
+}
+
+h1{
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.65);
 }
 
 .bg-image-02 {
