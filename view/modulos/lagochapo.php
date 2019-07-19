@@ -40,7 +40,6 @@
                             </li>
                             <li><a href="quienessomos">Quienes Somos</a></li>
                             <li><a href="trabajaconnosotros">Trabaja con nosotros</a></li>
-                              <li><a href="beneficiarios">Beneficiarios</a></li>
                             <li><a href="contacto">Contacto</a></li>
                             <li><a href="faq">FAQ</a></li>
                         </ul>
@@ -212,7 +211,7 @@
 <!-- FIN MAIN-->
 <!-- PARALAX -->
     <section class="rd-parallax">
-        <div data-speed="0.4" data-type="media" data-url="view/componentes/img/h2.jpg" class="rd-parallax-layer"></div>
+        <div data-speed="0.4" data-type="media" data-url="view/componentes/img/paralaxhome.jpg" class="rd-parallax-layer"></div>
         <div data-speed="0" data-type="html" class="rd-parallax-layer">
             <div class="shell section-100 section-lg-top-220 section-lg-bottom-205 context-dark text-md-left">
                 <hr class="divider">
