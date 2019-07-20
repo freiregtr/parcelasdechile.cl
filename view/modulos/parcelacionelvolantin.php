@@ -242,7 +242,7 @@
                                     <div class="col-md-12">
                                         <h2 class="offset-top-50">Tour 360º</h2>
                                         <br>
-                                        <iframe src="https://app.lapentor.com/sphere/parcelacion-el-volantin" frameborder="0" width="100%" height="600px" scrolling="no" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" oallowfullscreen="true" msallowfullscreen="true"></iframe>
+                                        <iframe src="https://app.lapentor.com/sphere/parcelacion-el-volantin/" frameborder="0" width="100%" height="600px" scrolling="no" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" oallowfullscreen="true" msallowfullscreen="true"></iframe>
                                     </div>
                                 </div>
                             </div>
