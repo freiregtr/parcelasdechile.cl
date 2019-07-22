@@ -10499,7 +10499,7 @@ fieldset[disabled] .bg-gray-base .btn-primary {
 }
 
 .bg-image-01 {
-  background: url(../img/home2.jpg);
+  background: url(../img/home3.jpg);
   background-size: cover;
 }
 
@@ -24889,7 +24889,7 @@ fieldset[disabled] .well .btn-base {
 }
 
 .well-base {
-  background-color: rgba(10, 25, 35, 0.7);
+  background-color: rgba(26, 85, 148, 0.5);
   padding: 30px 15px;
 }
 

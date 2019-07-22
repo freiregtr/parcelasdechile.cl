@@ -77,7 +77,6 @@
                         <div class="owl-item">
                             <hr class="divider veil reveal-md-inline-block">
                             <h1>Inscríbete en nuestra venta <br>en verde</h1>
-                            <p class="offset-top-25">Próximo proyecto "Parcelación El Volantín"</p>
                         </div>
                         <div class="owl-item">
                             <hr class="divider veil reveal-md-inline-block">
