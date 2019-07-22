@@ -91,7 +91,6 @@
                                                     <p>$10.990.000</p>
                                                 </div>
                                             </div>
-
                                             <div class="col-md-12">
                                                 <br>
                                                 <div class="valor1">
@@ -144,32 +143,18 @@
                                         <h2 class="offset-top-50">Galería del proyecto</h2>
                                         <br>
                                         <div data-photo-swipe-gallery="gallery" data-arrows="true" data-loop="false" data-dots="false" data-swipe="true" data-items="1" class="slick-slider">
-
                                             <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/proyectos/mirador_alcones/malcones.jpg" class="thumbnail-variant-2"><img src="view/componentes/img/proyectos/mirador_alcones/malcones.jpg" alt="Volantin de la quebrada" class="img-responsive"></a></div>
-
-
                                             <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/proyectos/mirador_alcones/6.jpg" class="thumbnail-variant-2"><img src="view/componentes/img/proyectos/mirador_alcones/6.jpg" alt="Volantin de la quebrada" class="img-responsive"></a></div>
-
                                             <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/proyectos/mirador_alcones/7.jpg" class="thumbnail-variant-2"><img src="view/componentes/img/proyectos/mirador_alcones/7.jpg" alt="Volantin de la quebrada" class="img-responsive"></a></div>
-
                                             <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/proyectos/mirador_alcones/8.jpg" class="thumbnail-variant-2"><img src="view/componentes/img/proyectos/mirador_alcones/8.jpg" alt="Volantin de la quebrada" class="img-responsive"></a></div>
-
                                             <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/proyectos/mirador_alcones/9.jpg" class="thumbnail-variant-2"><img src="view/componentes/img/proyectos/mirador_alcones/9.jpg" alt="Volantin de la quebrada" class="img-responsive"></a></div>
-
                                             <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/proyectos/mirador_alcones/10.jpg" class="thumbnail-variant-2"><img src="view/componentes/img/proyectos/mirador_alcones/10.jpg" alt="Volantin de la quebrada" class="img-responsive"></a></div>
-
                                             <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/proyectos/mirador_alcones/14.jpg" class="thumbnail-variant-2"><img src="view/componentes/img/proyectos/mirador_alcones/14.jpg" alt="Volantin de la quebrada" class="img-responsive"></a></div>
-
                                             <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/proyectos/mirador_alcones/15.jpg" class="thumbnail-variant-2"><img src="view/componentes/img/proyectos/mirador_alcones/15.jpg" alt="Volantin de la quebrada" class="img-responsive"></a></div>
-
                                             <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/proyectos/mirador_alcones/16.jpg" class="thumbnail-variant-2"><img src="view/componentes/img/proyectos/mirador_alcones/16.jpg" alt="Volantin de la quebrada" class="img-responsive"></a></div>
-
                                             <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/proyectos/mirador_alcones/17.jpg" class="thumbnail-variant-2"><img src="view/componentes/img/proyectos/mirador_alcones/17.jpg" alt="Volantin de la quebrada" class="img-responsive"></a></div>
-
                                             <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/proyectos/mirador_alcones/18.jpg" class="thumbnail-variant-2"><img src="view/componentes/img/proyectos/mirador_alcones/18.jpg" alt="Volantin de la quebrada" class="img-responsive"></a></div>
-
                                             <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/proyectos/mirador_alcones/20.jpg" class="thumbnail-variant-2"><img src="view/componentes/img/proyectos/mirador_alcones/20.jpg" alt="Volantin de la quebrada" class="img-responsive"></a></div>
-
                                             <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/proyectos/mirador_alcones/21.jpg" class="thumbnail-variant-2"><img src="view/componentes/img/proyectos/mirador_alcones/21.jpg" alt="Volantin de la quebrada" class="img-responsive"></a></div>
                                         </div>
                                     </div>
@@ -177,7 +162,6 @@
                             </div>
                         </section>
                         <!-- FIN GALERIA DE IMAGENES-->
-
                         <!-- INTRODUCCION AL PROYECTO-->
                         <section>
                             <div class="container">
@@ -224,7 +208,6 @@
                             </div>
                         </section>
                         <!-- FIN INTRODUCCION-->
-
                         <!-- PLANO 360-->
                         <section id="panovolantin">
                             <div class="container">
@@ -239,7 +222,6 @@
                                 </div>
                             </div>
                         </section>
-
                         <!-- BOTONES SIGUIENTE PROYECTO-->
                         <div class="container">
                             <br>
@@ -249,14 +231,12 @@
                                 <div class="col-xs-6 text-right"><a href="lagochapo" class="btn btn-primary btn-icon btn-icon btn-icon-right"><span class="text text-regular veil reveal-xs-inline">Siguiente proyecto</span><span class="icon fa-angle-right"></span></a></div>
                             </div>
                         </div>
-
                     </div>
                 </div>
             </div>
         </section>
     </main>
     <!-- FIN MAIN-->
-
     <!-- PARALAX -->
     <section class="rd-parallax">
         <div data-speed="0.4" data-type="media" data-url="view/componentes/img/paralaxhome.jpg" class="rd-parallax-layer"></div>
@@ -293,10 +273,8 @@
             </div>
         </div>
     </footer>
-
     <!-- Global Mailform Output-->
     <div id="form-output-global" class="snackbars"></div>
-
     <!-- PhotoSwipe Gallery-->
     <div tabindex="-1" role="dialog" aria-hidden="true" class="pswp">
         <div class="pswp__bg"></div>
@@ -332,7 +310,6 @@
             </div>
         </div>
     </div>
-
     <!-- Inicio Div chat -->
     <?php
     include "chat.php";

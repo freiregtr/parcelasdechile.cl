@@ -5,7 +5,6 @@
         <!-- RD Navbar-->
         <div class="rd-navbar-wrap">
             <nav data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fixed" data-md-device-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-static" data-lg-device-layout="rd-navbar-static" data-sm-stick-up-offset="150px" data-md-stick-up-offset="1px" data-lg-stick-up-offset="150px" class="rd-navbar">
-               
                 <div class="rd-navbar-panel">
                    
                     <!-- RD Navbar Panel-->
@@ -25,7 +24,6 @@
                         </div>
                     </div>
                 </div>
-                
                 <div class="rd-navbar-nav-wrap">
                     <div class="rd-navbar-inner">
                         <!-- NAVBAR-->
@@ -45,7 +43,6 @@
                         </ul>
                     </div>
                 </div>
-                
             </nav>
         </div>
     </header>

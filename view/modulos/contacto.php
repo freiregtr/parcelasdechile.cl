@@ -56,14 +56,12 @@
                 <div class="shell text-md-left">
                     <div class="range">
                         <div class="col-md-8">
-
                             <div>
                                 <h3>Contacto</h3>
                                 <p class="offset-top-16">Por lo general, respondemos dentro de 1 día hábil ...</p>
                                 <h3>¿En qué podemos ayudarte?</h3>
                                 <!-- RD Mailform-->
                                 <form action="view/componentes/bat/rd-mailform.php" data-form-output="form-output-global" data-form-type="contacto" method="POST" class="offset-top-40 text-left rd-mailform">
-
                                     <div class="range range-md-middle">
                                         <div class="cell-lg-2">
                                             <p class="text-base">Nombre</p>
@@ -75,7 +73,6 @@
                                             </div>
                                         </div>
                                     </div>
-
                                     <div class="range range-xs-middle offset-top-20">
                                         <div class="cell-lg-2">
                                             <p class="text-base">Mail</p>
@@ -87,7 +84,6 @@
                                             </div>
                                         </div>
                                     </div>
-
                                     <div class="range range-xs-middle offset-top-20">
                                         <div class="cell-lg-2">
                                             <p class="text-base">Teléfono</p>
@@ -99,7 +95,6 @@
                                             </div>
                                         </div>
                                     </div>
-
                                     <div class="range offset-top-20">
                                         <div class="cell-lg-2 text-lg-nowrap">
                                             <p class="text-base">Mensaje</p>
@@ -111,7 +106,6 @@
                                             </div>
                                         </div>
                                     </div>
-
                                     <div class="range offset-top-20 text-center text-sm-left">
                                         <div class="cell-lg-5 cell-lg-preffix-2">
                                             <button type="submit" class="btn btn-primary">Enviar</button>
@@ -162,9 +156,9 @@
             <div class="cell-sm-6 text-sm-right cell-sm-push-1">
                 <ul class="list-inline">
                     <li><a href="https://www.facebook.com/parcelasdechile/" target="_blank" class="icon icon-sm text-primary fa-facebook"></a></li>
-                    <li><a href="https://www.youtube.com/channel/UC1A2lJ21pRVisDtocb1gTTA" target="_blank" class="icon icon-sm text-primary fa-youtube"></a></li>
-                    <li><a href="https://www.linkedin.com/company/parcelasdechile?originalSubdomain=cl" target="_blank" class="icon icon-sm text-primary fa-linkedin"></a></li>
-                    <li><a href="https://instagram.com/parcelasdechile" target="_blank" class="icon icon-sm text-primary fa-instagram"></a></li>
+                    <li><a href="https://www.youtube.com/channel/UC1A2lJ21pRVisDtocb1gTTA/" target="_blank" class="icon icon-sm text-primary fa-youtube"></a></li>
+                    <li><a href="https://www.linkedin.com/company/parcelasdechile?originalSubdomain=cl/" target="_blank" class="icon icon-sm text-primary fa-linkedin"></a></li>
+                    <li><a href="https://instagram.com/parcelasdechile/" target="_blank" class="icon icon-sm text-primary fa-instagram"></a></li>
                 </ul>
             </div>
             <div class="cell-sm-6 text-sm-left offset-top-20 offset-sm-top-0">
@@ -177,7 +171,6 @@
     <div id="form-output-global" class="snackbars"></div>
 </footer>
 </div>
-
 <!-- Inicio Div chat -->
 <?php
 include "chat.php";

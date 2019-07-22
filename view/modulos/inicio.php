@@ -1,9 +1,7 @@
 <!-- Page-->
 <div class="page text-center">
-
     <!-- Page Header-->
     <header class="page-header bg-image-01">
-
         <!-- RD Navbar-->
         <div class="rd-navbar-wrap">
 
@@ -66,7 +64,6 @@
                 
             </nav>
         </div>
-
         <!-- HOME-->
         <div class="shell section-70 section-lg-120 text-md-left">
             <div class="range range-xs-middle">
@@ -90,7 +87,6 @@
                         </div>
                     </div>
                 </div>
-
                 <!-- TE LLAMAMOS - RD Mailform-->
                 <div class="col-md-5 cell-lg-4 col-md-preffix-1 offset-top-40 text-left">
                     <div class="well well-base">
@@ -114,20 +110,17 @@
                         </form>
                     </div>
                 </div>
-
             </div>
         </div>
     </header>
     <!-- Page Content-->
     <main class="page-content">
-
         <!-- TITULO PARCELAS-->
         <section class="bg-blue">
             <div class="shell section-100 section-lg-top-30 section-lg-bottom-30 context-dark text-md-center">
                 <h3>Nuestras Parcelas en venta</h3>
             </div>
         </section>
-
         <section id="parcelas">
             <!-- LAS PARCELAS-->
             <div class="range range-condensed text-sm-left">
@@ -220,7 +213,6 @@
             </div>
         </section>
     </main>
-
     <!-- FOOTER-->
     <footer class="page-footer">
         <div class="shell">
@@ -247,7 +239,6 @@
             </div>
         </div>
     </footer>
-
     <!-- Global Mailform Output-->
     <!-- PhotoSwipe Gallery-->
     <div tabindex="-1" role="dialog" aria-hidden="true" class="pswp">
@@ -290,6 +281,5 @@
     ?>
     <!-- Fin Div chat -->
 </div>
-
 <!-- Global Mailform Output-->
 <div id="form-output-global" class="snackbars"></div>
