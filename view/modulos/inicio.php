@@ -165,14 +165,17 @@
                     <div class="col-lg-4 col-md-4"><span class="icon icon-lg icon-circle icon-primary fa-bookmark"></span>
                         <h5 class="offset-top-20">Rol Único</h5>
                         <p class="offset-top-10">Con el N° de Rol el SII identifica <br> a una propiedad o bien raíz. </p>
+                        <br>
                     </div>
                     <div class="col-lg-4 col-md-4"><span class="icon icon-lg icon-circle icon-primary fa-bookmark"></span>
                         <h5 class="offset-top-20">Posibilidad luz y agua</h5>
                         <p class="offset-top-10">Parcelas posibilitadas para obtener <br> los recursos de luz y agua sin problemas.</p>
+                        <br>
                     </div>
                     <div class="col-lg-4 col-md-4"><span class="icon icon-lg icon-circle icon-primary fa-bookmark"></span>
                         <h5 class="offset-top-20">Desde los 5000 Mt2</h5>
                         <p class="offset-top-10">Dependiendo del valor y el proyecto <br> los mts comienzan desde los 5000 mt2</p>
+                        <br>
                     </div>
                 </div>
             </div>
@@ -203,9 +206,9 @@
             <div data-speed="0" data-type="html" class="rd-parallax-layer">
                 <div class="shell section-100 section-lg-top-220 section-lg-bottom-205 context-dark text-md-left">
                     <hr class="divider">
-                    <h2>Únete nuestro equipo de vendedores</h2>
+                    <h2 class="shadow1">Únete nuestro equipo de vendedores</h2>
                     <br>
-                    <h4 class="offset-top-25">¿Tienes experiencia vendiendo terrenos ?
+                    <h4 class="shadow1" class="offset-top-25">¿Tienes experiencia vendiendo terrenos ?
                         <br class="veil reveal-md-block"></h4>
                     <br>
                     <a href="trabajaconnosotros" class="offset-top-50 btn btn-primary text-regular">Ver más</a>

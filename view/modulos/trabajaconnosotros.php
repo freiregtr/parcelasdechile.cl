@@ -59,8 +59,9 @@
                         <div data-speed="0" data-type="html" class="rd-parallax-layer">
                             <div class="shell section-100 section-lg-top-220 section-lg-bottom-205 context-dark text-md-center">
 
-                                <h2>Sé parte de nuestro equipo</h2>
-                                <h4 class="offset-top-25">¡ Tenemos muchos beneficios a los mejores !<br class="veil reveal-md-block"></h4>
+                                <h2 class="shadow1">Sé parte de nuestro equipo</h2>
+                                <br>
+                                <h4 class="shadow1" class="offset-top-25" >¡ Tenemos muchos beneficios a los mejores !<br class="veil reveal-md-block"></h4>
 
                             </div>
                         </div>

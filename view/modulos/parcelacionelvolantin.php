@@ -184,16 +184,19 @@
                                                     <div data-dots="true" data-items="1" data-margin="30" data-mouse-drag="false" class="owl-carousel owl-dots-sm">
                                                         <div>
                                                             <hr class="divider">
-                                                            <h3 class="text-bold">Lago Chapo</h3>
-                                                            <h3 class="offset-top-30 text-primary">$9.990.000</h3>
-                                                            <p class="offset-top-30">En el Lago Chapo podemos Disfrutar navegando con la hermosa vista del Volcán Calbuco, y si eres de las personas que ama la naturaleza deberías recorrer los senderos de la Reserva Nacional Llanquihue.</p><a href="lagochapo" class="offset-top-20 btn btn-primary text-regular">Ver más</a>
+                                                            <h3 class="shadow1" class="text-bold">Lago Chapo</h3>
+                                                            <br>
+                                                            <h3 class="shadow1" class="offset-top-30 text-primary">$9.990.000</h3>
+                                                            <br>
+                                                            <p class="shadow1" class="offset-top-30">En el Lago Chapo podemos Disfrutar navegando con la hermosa vista del Volcán Calbuco, y si eres de las personas que ama la naturaleza deberías recorrer los senderos de la Reserva Nacional Llanquihue.</p><a href="lagochapo" class="offset-top-20 btn btn-primary text-regular">Ver más</a>
                                                         </div>
                                                         <div>
                                                             <hr class="divider">
-                                                            <h3 class="text-bold">Parcelación El Volantín</h3>
-                                                            <h3 class="offset-top-30 text-primary">$7.990.000</h3>
+                                                            <h3 class="shadow1"  class="text-bold">Parcelación El Volantín</h3>
                                                             <br>
-                                                            <p class="offset-top-30">Marchihue en la Provincia de Cardenal Caro (Región del Libertador General Bernardo O'Higgins) es un lugar en Chile a 138 km al suroeste de Santiago.</p>
+                                                            <h3 class="shadow1" class="offset-top-30 text-primary">$7.990.000</h3>
+                                                            <br>
+                                                            <p class="shadow1" class="offset-top-30">Marchihue en la Provincia de Cardenal Caro (Región del Libertador General Bernardo O'Higgins) es un lugar en Chile a 138 km al suroeste de Santiago.</p>
                                                             <br>
                                                             <br>
                                                             <a href="parcelacionelvolantin" class="offset-top-20 btn btn-primary text-regular">Ver más</a>
@@ -243,8 +246,8 @@
         <div data-speed="0" data-type="html" class="rd-parallax-layer">
             <div class="shell section-100 section-lg-top-220 section-lg-bottom-205 context-dark text-md-left">
                 <hr class="divider">
-                <h2>Únete nuestro equipo de vendedores</h2>
-                <h4 class="offset-top-25">¿Tienes experiencia vendiendo terrenos ?
+                <h2 class="shadow1">Únete nuestro equipo de vendedores</h2>
+                <h4 class="offset-top-25" class="shadow1">¿Tienes experiencia vendiendo terrenos ?
                     <br class="veil reveal-md-block"></h4>
                 <a href="trabajaconnosotros" class="offset-top-50 btn btn-primary text-regular">Ver más</a>
             </div>
