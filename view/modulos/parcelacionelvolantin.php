@@ -128,7 +128,7 @@
                                <br>
                                 <div class="card text-center">
                                 <div class="card-body">
-                                    <a href="/descargas/elvolantin.pdf" download="ElVolantin" class="btn btn-primary">DESCARGAR BROCHURE</a>                                    
+                                    <a href="https://drive.google.com/file/d/1967ntYrXLHIHK6vJLDlzHIh_ce6eYPni/view?usp=sharing" target="_blank" download="ElVolantin" class="btn btn-primary">DESCARGAR BROCHURE</a>                                    
                                 </div>
                             </div>
                             </div>
