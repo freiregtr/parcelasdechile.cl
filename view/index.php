@@ -62,7 +62,8 @@
             $_GET["ruta"] == "contacto"              ||
             $_GET["ruta"] == "trabajaconnosotros"    ||
             $_GET["ruta"] == "beneficiarios"         ||
-            $_GET["ruta"] == "faq"         ||
+            $_GET["ruta"] == "faq"                   ||
+               $_GET["ruta"] == "10razones"          ||
             $_GET["ruta"] == "quienessomos"
 
         ) {
