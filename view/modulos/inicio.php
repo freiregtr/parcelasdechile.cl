@@ -218,6 +218,31 @@
     </main>
     <!-- FOOTER-->
     <footer class="page-footer">
+         <div class="shell section-70 section-lg-120">
+         
+          <div class="range text-md-left">
+                      
+            <div class="cell-md-4 text-center">
+              <h5><a href="http://www.teyco.cl/" target="_blank">TEYCO</a></h5>
+               <br>
+              <img src="view/componentes/img/inversionistas/teyco.png" alt=""  height="60%">
+            </div>
+             <div class="cell-md-4 text-center">
+              <h5><a href="http://afondo.com/" target="_blank">AFONDO</a></h5>
+               <br>
+              <img src="view/componentes/img/inversionistas/afondo.png" alt=""  height="60%">
+            </div>
+            
+            <div class="cell-md-4 text-center">
+              <h5><a href="">SBK</a></h5>
+              <br>
+              <img src="view/componentes/img/inversionistas/sbk.png" alt="" height="60%">
+            </div>
+            
+           
+          </div>
+          
+        </div>
         <div class="shell">
             <hr>
         </div>
@@ -225,7 +250,6 @@
         <div class="shell section-30">
             <div class="range range-xs-middle">
                 <div class="cell-sm-6 text-sm-right cell-sm-push-1">
-
                     <!-- REDES SOCIALES-->
                     <ul class="list-inline">
                         <li><a href="https://www.facebook.com/parcelasdechile/" target="_blank" class="icon icon-sm text-primary fa-facebook"></a></li>
@@ -233,7 +257,6 @@
                         <li><a href="https://www.linkedin.com/company/parcelasdechile?originalSubdomain=cl/" target="_blank" class="icon icon-sm text-primary fa-linkedin"></a></li>
                         <li><a href="https://instagram.com/parcelasdechile/" target="_blank" class="icon icon-sm text-primary fa-instagram"></a></li>
                     </ul>
-
                 </div>
                 <div class="cell-sm-6 text-sm-left offset-top-20 offset-sm-top-0">
                     <p class="small">Parcelas de Chile &#169;<span id="copyright-year"></span>.
