@@ -21656,7 +21656,7 @@ fieldset[disabled] .btn-white {
   position: absolute;
   bottom: 0;
   left: 0;
-  background: linear-gradient(to bottom, rgba(11, 25, 35, 0) 0%, #0b1923 100%);
+  background: linear-gradient(to bottom, rgba(11, 25, 35, 0) 25%, #0b1923 100%);
   opacity: 1;
   z-index: 3;
   transition: .3s;
@@ -29036,26 +29036,26 @@ html:not(.lt-ie10) .not-animated {
 .rd-navbar-static .rd-navbar-contacts .icon,
 .rd-navbar-fullwidth .rd-navbar-contacts .icon {
   margin-right: 5px;
-  font-size: 26px;
+  font-size: 20px;
   line-height: 1.2;
 }
 
 .rd-navbar-static .rd-navbar-contacts a,
 .rd-navbar-fullwidth .rd-navbar-contacts a {
-  font-size: 18px;
+  font-size: 15px;
   font-weight: 600;
 }
 
 @media (min-width: 1400px) {
   .rd-navbar-static .rd-navbar-contacts a,
   .rd-navbar-fullwidth .rd-navbar-contacts a {
-    font-size: 24px;
+    font-size: 20px;
   }
 }
 
 .rd-navbar-static .rd-navbar-contacts a:hover,
 .rd-navbar-fullwidth .rd-navbar-contacts a:hover {
-  color: #fe5d4c;
+  color: #1A5594;
 }
 
 .rd-navbar-static .rd-navbar-contacts a, .rd-navbar-static .rd-navbar-contacts,
@@ -29077,10 +29077,9 @@ html:not(.lt-ie10) .not-animated {
   align-items: center;
   color: #fff;
   background: transparent;
-  line-height: 1.2;
-  font-size: 16px;
+  line-height: 2.2;
+  font-size: 18px;
   font-weight: 600;
-  text-transform: uppercase;
 }
 
 .rd-navbar-static .rd-navbar-nav > li > a:after,

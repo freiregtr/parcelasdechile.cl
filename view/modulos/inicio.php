@@ -8,13 +8,13 @@
             <nav data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fixed" data-md-device-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-static" data-lg-device-layout="rd-navbar-static" data-sm-stick-up-offset="158px" data-md-stick-up-offset="10px" data-lg-stick-up-offset="158px" class="rd-navbar rd-navbar-centered">
 
                 <button data-rd-navbar-toggle=".rd-navbar-collapse" class="rd-navbar-collapse-toggle"><span></span></button>
+                
                 <div class="rd-navbar-panel">
 
                     <!-- RD Navbar Panel-->
                     <div class="rd-navbar-inner">
                         <!-- RD Navbar Toggle-->
                         <button data-rd-navbar-toggle=".rd-navbar-nav-wrap" class="rd-navbar-toggle"><span></span></button>
-
                         <!-- TELÉFONO-->
                         <div class="rd-navbar-contacts rd-navbar-collapse rd-navbar-collapse-2"><span>Póngase en contacto con nosotros</span>
                             <div><span class="icon fa-phone text-primary"></span><a>+56 9 5805 3609</a></div>
@@ -50,8 +50,8 @@
                             <li><a href="parcelacionelvolantin">Proyectos</a>
                                 <!-- RD Navbar Dropdown-->
                                 <ul class="rd-navbar-dropdown">
-                                    <li><a href="lagochapo">Lago Chapo</a></li>
-                                    <li><a href="parcelacionelvolantin">Parcelación El Volantín</a></li>
+                                    <li><a href="lagochapo">> Lago Chapo</a></li>
+                                    <li><a href="parcelacionelvolantin">> El Volantín</a></li>
                                 </ul>
                             </li>
                             <li><a href="quienessomos">Quienes Somos</a></li>
@@ -71,23 +71,30 @@
                 <div class="col-lg-7 col-md-6">
                     <!-- Owl Carousel-->
                     <div data-items="1" data-dots="true" data-margin="30" data-mouse-drag="false" class="context-dark owl-slider owl-carousel">
+                       
                         <div class="owl-item">
                             <hr class="divider veil reveal-md-inline-block">
-                            <h1>Inscríbete en nuestra venta <br>en verde</h1>
+                            <h1>Lanzamiento <br>"El Volantín" <br>
+                            Parcelación</h1>
+                            <h3>sábado 3 de Agosto</h3>
                         </div>
+                        
                         <div class="owl-item">
                             <hr class="divider veil reveal-md-inline-block">
                             <h1>Inscríbete en nuestra venta en verde</h1>
                             <p class="offset-top-25">Próximo proyecto "Parcelación El Volantín"</p>
                         </div>
+                        
                         <div class="owl-item">
                             <hr class="divider veil reveal-md-inline-block">
                             <h1>Inscríbete en nuestra venta en verde</h1>
-                            <p class="offset-top-25">Próximo proyecto "Parcelación El Volantín"</p>
                         </div>
+                        
                     </div>
                 </div>
+                
                 <!-- TE LLAMAMOS - RD Mailform-->
+                
                 <div class="col-md-5 cell-lg-4 col-md-preffix-1 offset-top-40 text-left">
                     <div class="well well-base">
                         <h3>¿Te llamamos?</h3>
@@ -115,9 +122,9 @@
     </header>
     <!-- Page Content-->
     <main class="page-content">
-        <!-- TITULO PARCELAS-->
+        <!-- TITULO PARCELAS -->
         <section class="bg-blue">
-            <div class="shell section-100 section-lg-top-30 section-lg-bottom-30 context-dark text-md-center">
+            <div class="shell section-30 context-dark text-md-center">
                 <h3>Nuestras Parcelas en venta</h3>
             </div>
         </section>
@@ -127,40 +134,48 @@
                 <!-- LAGO CHAPO-->
                 <div class="cell-sm-6">
                     <div class="reveal-block thumbnail-variant-1">
+                       
                         <div class="caption-wrapper">
                             <img src="view/componentes/img/proyectos/lago_chapo/lagochapo.jpg" width="960" height="567" alt="Lago chapo" class="img-responsive center-block">
                             <div class="caption"><a href="lagochapo" class="label label-primary">X Región</a></div>
                         </div>
+                        
                         <div class="caption-2">
-                            <h2 class="context-dark ocultar">Inscríbete en nuestra <br>venta en verde</h2>
+                            <h2 class="context-dark">Últimas <br>parcelas</h2>
                             <br>
                             <h3>Desde: $ 9.990.000</h3>
                             <p>Últimas parcelas disponibles</p>
                             <h3 class="caption-title"><a href="lagochapo" class="text-white">Lago Chapo, Puerto Montt</a></h3><a href="lagochapo" class="btn btn-primary-variant-1">Ver más</a>
                         </div>
+                        
                     </div>
                 </div>
                 <!-- PARCELACION EL VOLANTIN-->
                 <div class="cell-sm-6">
                     <div class="reveal-block thumbnail-variant-1">
+                       
                         <div class="caption-wrapper">
                             <img src="view/componentes/img/proyectos/mirador_alcones/malcones.jpg" width="960" height="567" alt="Volantin de la quebrada" class="img-responsive center-block">
                             <div class="caption"><a href="parcelacionelvolantin" class="label label-primary">VI Región</a></div>
                         </div>
+                        
                         <div class="caption-2">
-                            <h2 class="context-dark">Inscríbete en nuestra <br>venta en verde</h2>
+                            <h2 class="context-dark">Inscríbete <br>venta en verde</h2>
                             <br>
                             <h3>Desde $7.990.00</h3>
                             <p>Próximo lanzamiento</p>
                             <h3 class="caption-title"><a href="parcelacionelvolantin" class="text-white">Parcelación El Volantín</a></h3><a href="parcelacionelvolantin" class="btn btn-primary-variant-1">Ver más</a>
                         </div>
+                        
                     </div>
                 </div>
             </div>
         </section>
+        
         <!-- CARACTERISTICAS DE LAS PARCELAS-->
+        
         <section id="proyectos">
-            <div class="shell section-70 section-lg-45 text-md-left">
+            <div class="shell section-45 section-lg-45">
                 <div class="range range-xs-around text-center">
                     <div class="col-lg-4 col-md-4"><span class="icon icon-lg icon-circle icon-primary fa-bookmark"></span>
                         <h5 class="offset-top-20">Rol Único</h5>
@@ -206,10 +221,7 @@
             <div data-speed="0" data-type="html" class="rd-parallax-layer">
                 <div class="shell section-100 section-lg-top-220 section-lg-bottom-205 context-dark text-md-left">
                     <hr class="divider">
-                    <h2 class="shadow1">Únete nuestro equipo de vendedores</h2>
-                    <br>
-                    <h4 class="shadow1" class="offset-top-25">¿Tienes experiencia vendiendo terrenos ?
-                        <br class="veil reveal-md-block"></h4>
+                    <h2 class="shadow1">Trabaja con nosotros</h2>
                     <br>
                     <a href="trabajaconnosotros" class="offset-top-50 btn btn-primary text-regular">Ver más</a>
                 </div>
@@ -218,30 +230,18 @@
     </main>
     <!-- FOOTER-->
     <footer class="page-footer">
-         <div class="shell section-70 section-lg-120">
-         
-          <div class="range text-md-left">
-                      
+         <div class="shell section-45 section-lg-30">
+          <div class="range">
             <div class="cell-md-4 text-center">
-              <h5><a href="http://www.teyco.cl/" target="_blank">TEYCO</a></h5>
-               <br>
-              <img src="view/componentes/img/inversionistas/teyco.png" alt=""  height="60%">
+              <img src="view/componentes/img/inversionistas/teyco.png" alt=""  height="80%">
             </div>
              <div class="cell-md-4 text-center">
-              <h5><a href="http://afondo.com/" target="_blank">AFONDO</a></h5>
-               <br>
-              <img src="view/componentes/img/inversionistas/afondo.png" alt=""  height="60%">
+              <img src="view/componentes/img/inversionistas/afondo.png" alt=""  height="80%">
             </div>
-            
             <div class="cell-md-4 text-center">
-              <h5><a href="">SBK</a></h5>
-              <br>
-              <img src="view/componentes/img/inversionistas/sbk.png" alt="" height="60%">
+              <img src="view/componentes/img/inversionistas/sbk.png" alt="" height="80%">
             </div>
-            
-           
           </div>
-          
         </div>
         <div class="shell">
             <hr>
