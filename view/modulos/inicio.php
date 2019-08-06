@@ -8,9 +8,7 @@
             <nav data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fixed" data-md-device-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-static" data-lg-device-layout="rd-navbar-static" data-sm-stick-up-offset="158px" data-md-stick-up-offset="10px" data-lg-stick-up-offset="158px" class="rd-navbar rd-navbar-centered">
 
                 <button data-rd-navbar-toggle=".rd-navbar-collapse" class="rd-navbar-collapse-toggle"><span></span></button>
-                
                 <div class="rd-navbar-panel">
-
                     <!-- RD Navbar Panel-->
                     <div class="rd-navbar-inner">
                         <!-- RD Navbar Toggle-->
@@ -231,6 +229,8 @@
     <!-- FOOTER-->
     <footer class="page-footer">
          <div class="shell section-45 section-lg-30">
+                    <h3>Nuestros Inversionistas</h3>
+
           <div class="range">
             <div class="cell-md-4 text-center">
               <img src="view/componentes/img/inversionistas/teyco.png" alt=""  height="80%">
