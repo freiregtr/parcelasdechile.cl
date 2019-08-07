@@ -1427,13 +1427,13 @@ $document.ready(function() {
         });
     }
 
-    // auto inicializar modal
-    setTimeout(function() {
+    // Script para inicializar un modal en función de milisegundos
+    /*setTimeout(function() {
         $('#registerModal').modal({
             Keyboard: false,
             show: true
         });
-    }, 3000);
+    }, 3000);*/
 
 
     // carga asincronica de los tour 360, asi se evita que la carga sincronica no se vea afectada por el iframe
