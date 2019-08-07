@@ -57,9 +57,9 @@
                     <div class="range">
                         <div class="col-md-8">
                             <div>
-                                <h3>Contacto</h3>
+                                <h2>Contacto</h2>
                                 <p class="offset-top-16">Por lo general, respondemos dentro de 1 día hábil ...</p>
-                                <h3>¿En qué podemos ayudarte?</h3>
+                                <h4>¿En qué podemos ayudarte?</h4>
                                 <!-- RD Mailform-->
                                 <form action="view/componentes/bat/rd-mailform.php" data-form-output="form-output-global" data-form-type="contacto" method="POST" class="offset-top-40 text-left rd-mailform">
                                     <div class="range range-md-middle">

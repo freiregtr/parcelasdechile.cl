@@ -6,17 +6,17 @@
         <div class="rd-navbar-wrap">
             <nav data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fixed" data-md-device-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-static" data-lg-device-layout="rd-navbar-static" data-sm-stick-up-offset="150px" data-md-stick-up-offset="1px" data-lg-stick-up-offset="150px" class="rd-navbar">
                 <div class="rd-navbar-panel">
-                   
+
                     <!-- RD Navbar Panel-->
                     <div class="rd-navbar-inner">
-                       
+
                         <!-- RD Navbar Toggle-->
                         <button data-rd-navbar-toggle=".rd-navbar-nav-wrap" class="rd-navbar-toggle"><span></span></button>
-                        
+
                         <!-- LOGO-->
                         <div class="rd-navbar-brand"><a href="inicio" class="brand-name"><img src="view/componentes/img/logo/logo_transparente.png" width="228" height="83" alt="Parcelas de chile"></a>
                         </div>
-                        
+
                         <!-- TELÉFONO-->
                         <div class="rd-navbar-contacts rd-navbar-collapse rd-navbar-collapse-2"><span>Póngase en contacto con nosotros</span>
                             <div><span class="icon fa-phone text-primary"></span><a href="callto:> +56958053609"></span><a>+56 9 5805 3609</a>
@@ -64,7 +64,7 @@
                 <div class="range">
                     <div class="col-md-12">
                         <div><a href="lagochapo" class="label label-primary">X Región</a></div>
-                        
+
                         <!-- PLANO DEL PROYECTO-->
                         <section id="planolagochapo">
                             <div class="container">
@@ -108,101 +108,134 @@
                             <div class="container">
                                 <div class="row">
                                     <div class="col-md-12">
-                                      <br>
-                                       <hr>
-                                        <h2 class="offset-top-50">Galería del proyecto</h2>
                                         <br>
-                                        <div data-photo-swipe-gallery="gallery" data-arrows="true" data-loop="false" data-dots="false" data-swipe="true" data-items="1" class="slick-slider">
-                                            <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/proyectos/lago_chapo/1.jpg" class="thumbnail-variant-2"><img src="view/componentes/img/proyectos/lago_chapo/1.jpg" alt="lago chapo" class="img-responsive"></a></div>
+                                        <hr>
+                                        <h2 class="offset-top-50">Galería del proyecto</h2>
 
-                                            <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/proyectos/lago_chapo/2.jpg" class="thumbnail-variant-2"><img src="view/componentes/img/proyectos/lago_chapo/2.jpg" alt="lago chapo" class="img-responsive"></a></div>
+                                        <br>
+                                        <!-- Slick Carousel-->
+                                        <div data-arrows="true" data-loop="false" data-dots="false" data-swipe="true" data-items="1" data-child="#child-carousel" data-for="#child-carousel" class="slick-slider carousel-parent">
+                                            <div class="item"><img src="view/componentes/img/proyectos/lago_chapo/1.jpg" alt="" width="100%" class="img-responsive"></div>
 
-                                            <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/proyectos/lago_chapo/3.jpg" class="thumbnail-variant-2"><img src="view/componentes/img/proyectos/lago_chapo/3.jpg" alt="lago chapo" class="img-responsive"></a></div>
+                                            <div class="item"><img src="view/componentes/img/proyectos/lago_chapo/2.jpg" alt="" width="100%" class="img-responsive"></div>
 
-                                            <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/proyectos/lago_chapo/4.jpg" class="thumbnail-variant-2"><img src="view/componentes/img/proyectos/lago_chapo/4.jpg" alt="lago chapo" class="img-responsive"></a></div>
+                                            <div class="item"><img src="view/componentes/img/proyectos/lago_chapo/3.jpg" alt="" width="100%" class="img-responsive"></div>
 
-                                            <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/proyectos/lago_chapo/6.jpg" class="thumbnail-variant-2"><img src="view/componentes/img/proyectos/lago_chapo/6.jpg" alt="lago chapo" class="img-responsive"></a></div>
+                                            <div class="item"><img src="view/componentes/img/proyectos/lago_chapo/4.jpg" alt="" width="100%" class="img-responsive"></div>
 
-                                            <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/proyectos/lago_chapo/7.jpg" class="thumbnail-variant-2"><img src="view/componentes/img/proyectos/lago_chapo/7.jpg" alt="lago chapo" class="img-responsive"></a></div>
+                                            <div class="item"><img src="view/componentes/img/proyectos/lago_chapo/6.jpg" alt="" width="100%" class="img-responsive"></div>
+
+                                            <div class="item"><img src="view/componentes/img/proyectos/lago_chapo/7.jpg" alt="" width="100%" class="img-responsive"></div>
+
+
+                                        </div>
+
+                                        <div id="child-carousel" data-for=".carousel-parent" data-arrows="false" data-loop="false" data-dots="false" data-swipe="true" data-items="3" data-xs-items="3" data-sm-items="4" data-md-items="5" data-lg-items="6" data-slide-to-scroll="1" class="slick-slider slick-child">
+
+                                            <div class="item"><img src="view/componentes/img/proyectos/lago_chapo/1.jpg" alt="" width="140" height="105"></div>
+                                            <div class="item"><img src="view/componentes/img/proyectos/lago_chapo/2.jpg" alt="" width="140" height="105"></div>
+                                            <div class="item"><img src="view/componentes/img/proyectos/lago_chapo/3.jpg" alt="" width="140" height="105"></div>
+
+                                            <div class="item"><img src="view/componentes/img/proyectos/lago_chapo/4.jpg" alt="" width="140" height="105"></div>
+
+                                            <div class="item"><img src="view/componentes/img/proyectos/lago_chapo/6.jpg" alt="" width="140" height="105"></div>
+
+                                            <div class="item"><img src="view/componentes/img/proyectos/lago_chapo/7.jpg" alt="" width="140" height="105"></div>
+
+
                                         </div>
                                     </div>
+
+
+
+
+
+
+
+
+
+
                                 </div>
                             </div>
-                        </section>
-                        <!-- FIN GALERIA DE IMAGENES-->
-                        <!-- INTRODUCCION AL PROYECTO-->
-                        <section>
-                            <div class="container">
-                                <div class="row">
-                                    <!-- FORMULARIO-->
-                                    <div class="col-md-12">
-                                        <blockquote class="quote quote-variant-1">
-                                            <p>La solvencia de Chile como país, nos ha demostrado por mas de 60 años que la compra de terrenos es una de las inversiones mas seguras que se pueden hacer. Cada año los valores de los terrenos suben y suben. Llegado el momento de dejarle estos terrenos a nuestros hijos, ellos serán los que disfrutaran de las bondades de nuestro país.</p>
-                                            <div class="cite unit unit-sm-horizontal unit-md-horizontal unit-lg-horizontal unit-middle">
-                                            </div>
-                                        </blockquote>
-                                    </div>
-                                    <div class="col-md-12">
+                    </div>
+                </div>
+        </section>
+        <!-- FIN GALERIA DE IMAGENES-->
+        <!-- INTRODUCCION AL PROYECTO-->
+        <section>
+            <div class="container">
+                <div class="row">
+                    <!-- FORMULARIO-->
+                    <div class="col-md-12">
+                        <blockquote class="quote quote-variant-1">
+                            <p>La solvencia de Chile como país, nos ha demostrado por mas de 60 años que la compra de terrenos es una de las inversiones mas seguras que se pueden hacer. Cada año los valores de los terrenos suben y suben. Llegado el momento de dejarle estos terrenos a nuestros hijos, ellos serán los que disfrutaran de las bondades de nuestro país.</p>
+                            <div class="cite unit unit-sm-horizontal unit-md-horizontal unit-lg-horizontal unit-middle">
+                            </div>
+                        </blockquote>
+                    </div>
+                    
+                    <div class="col-md-12 text-left">
                                         <div class="offset-top-30 bg-image-01 well-transparent context-dark">
                                             <div class="range">
-                                                <div class="col-md-9 col-lg-7">
+                                                <div class="cell-md-9 cell-lg-7">
                                                     <!-- Owl Carousel-->
                                                     <div data-dots="true" data-items="1" data-margin="30" data-mouse-drag="false" class="owl-carousel owl-dots-sm">
                                                         <div>
                                                             <hr class="divider">
-                                                            <h3 class="shadow1" class="text-bold">Parcelación El Volantín</h3>
+                                                            <h3 class="shadow1"  class="text-bold">Parcelación El Volantín</h3>
                                                             <br>
                                                             <h3 class="shadow1" class="offset-top-30 text-primary">$7.990.000</h3>
                                                             <br>
                                                             <p class="shadow1" class="offset-top-30">Marchihue en la Provincia de Cardenal Caro (Región del Libertador General Bernardo O'Higgins) es un lugar en Chile a 138 km al suroeste de Santiago.</p>
-
+                                                            <br>
+                                                            <br>
                                                             <a href="parcelacionelvolantin" class="offset-top-20 btn btn-primary text-regular">Ver más</a>
-                                                            
                                                         </div>
                                                         <div>
                                                             <hr class="divider">
-                                                            <h3  class="shadow1" class="text-bold">Lago Chapo</h3>
+                                                            <h3 class="shadow1" class="text-bold">Lago Chapo</h3>
                                                             <br>
                                                             <h3 class="shadow1" class="offset-top-30 text-primary">$9.990.000</h3>
                                                             <br>
                                                             <p class="shadow1" class="offset-top-30">En el Lago Chapo podemos Disfrutar navegando con la hermosa vista del Volcán Calbuco, y si eres de las personas que ama la naturaleza deberías recorrer los senderos de la Reserva Nacional Llanquihue.</p><a href="lagochapo" class="offset-top-20 btn btn-primary text-regular">Ver más</a>
                                                         </div>
+                                                       
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                                <br>
-                            </div>
-                    </div>
-        </section>
-        <!-- FIN INTRODUCCION-->
-        <!-- PLANO 360-->
-        <section id="360lagochapo">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <hr>
-                        <h2 class="offset-top-50">Plano 360º</h2>
-                        <br>
-                        <div class="asincronico">
-                        </div>
-                    </div>
+                </div>
+                <br>
+            </div>
+</div>
+</section>
+<!-- FIN INTRODUCCION-->
+<!-- PLANO 360-->
+<section id="360lagochapo">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <hr>
+                <h2 class="offset-top-50">Plano 360º</h2>
+                <br>
+                <div class="asincronico">
                 </div>
             </div>
-        </section>
-        <!-- BOTONES SIGUIENTE PROYECTO-->
-        <div class="container">
-            <div class="row">
-              <br>
-               <hr>
-                <div class="col-xs-6 text-left"><a href="parcelacionelvolantin" class="btn btn-primary btn-icon btn-icon btn-icon-left"><span class="icon fa-angle-left"></span><span class="text text-regular veil reveal-xs-inline">Proyecto previo</span></a></div>
-                <div class="col-xs-6 text-right"><a href="parcelacionelvolantin" class="btn btn-primary btn-icon btn-icon btn-icon-right"><span class="text text-regular veil reveal-xs-inline">Siguiente proyecto</span><span class="icon fa-angle-right"></span></a></div>
-            </div>
         </div>
-        <!-- FIN BOTONES SIGUIENTE PROYECTO-->
+    </div>
+</section>
+<!-- BOTONES SIGUIENTE PROYECTO-->
+<div class="container">
+    <div class="row">
+        <br>
         <hr>
+        <div class="col-xs-6 text-left"><a href="parcelacionelvolantin" class="btn btn-primary btn-icon btn-icon btn-icon-left"><span class="icon fa-angle-left"></span><span class="text text-regular veil reveal-xs-inline">Proyecto previo</span></a></div>
+        <div class="col-xs-6 text-right"><a href="parcelacionelvolantin" class="btn btn-primary btn-icon btn-icon btn-icon-right"><span class="text text-regular veil reveal-xs-inline">Siguiente proyecto</span><span class="icon fa-angle-right"></span></a></div>
+    </div>
+</div>
+<!-- FIN BOTONES SIGUIENTE PROYECTO-->
+<hr>
 </div>
 </div>
 </div>
@@ -210,20 +243,20 @@
 </main>
 <!-- FIN MAIN-->
 <!-- PARALAX -->
-    <section class="rd-parallax">
-        <div data-speed="0.4" data-type="media" data-url="view/componentes/img/paralaxhome.jpg" class="rd-parallax-layer"></div>
-        <div data-speed="0" data-type="html" class="rd-parallax-layer">
-            <div class="shell section-100 section-lg-top-220 section-lg-bottom-205 context-dark text-md-left">
-                <hr class="divider">
-                <h2 class="shadow1">Únete nuestro equipo de vendedores</h2>
-                <br>
-                <h4 class="shadow1" class="offset-top-25" >¿Tienes experiencia vendiendo terrenos ?
-                    <br class="veil reveal-md-block"></h4>
-                    <br>
-                <a href="trabajaconnosotros" class="offset-top-50 btn btn-primary text-regular">Ver más</a>
-            </div>
+<section class="rd-parallax">
+    <div data-speed="0.4" data-type="media" data-url="view/componentes/img/paralaxhome.jpg" class="rd-parallax-layer"></div>
+    <div data-speed="0" data-type="html" class="rd-parallax-layer">
+        <div class="shell section-100 section-lg-top-220 section-lg-bottom-205 context-dark text-md-left">
+            <hr class="divider">
+            <h2 class="shadow1">Únete nuestro equipo de vendedores</h2>
+            <br>
+            <h4 class="shadow1" class="offset-top-25">¿Tienes experiencia vendiendo terrenos ?
+                <br class="veil reveal-md-block"></h4>
+            <br>
+            <a href="trabajaconnosotros" class="offset-top-50 btn btn-primary text-regular">Ver más</a>
         </div>
-    </section>
+    </div>
+</section>
 <!-- FOOTER-->
 <footer class="page-footer">
     <div class="shell">

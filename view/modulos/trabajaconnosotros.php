@@ -51,10 +51,8 @@
                 </ol>
             </div>
         </section>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <section class="rd-parallax">
+        <section class="container-fluid">
+                      <section class="rd-parallax">
                         <div data-speed="0.4" data-type="media" data-url="view/componentes/img/oficina-min.jpg" class="rd-parallax-layer"></div>
                         <div data-speed="0" data-type="html" class="rd-parallax-layer">
                             <div class="shell section-100 section-lg-top-220 section-lg-bottom-205 context-dark text-md-center">
@@ -66,6 +64,9 @@
                             </div>
                         </div>
                     </section>
+        </section>
+        <div class="container">
+            <div class="row">
                     <section id="proyectos">
                         <div class="shell section-70 section-lg-45 text-md-left">
                             <br>
@@ -89,7 +90,7 @@
                         <div class="shell text-md-left">
                             <div class="range">
                                 <div>
-                                    <h3>Trabaja con nosotros</h3>
+                                    <h2>Trabaja con nosotros</h2>
                                     <p class="offset-top-16">Si tienes experiencia en ventas y si deseas ser parte de una empresa donde las comisiones son las mas altas del mercado, puedes postular acá</p>
                                     <!-- RD Mailform-->
                                     <form action="view/componentes/bat/rd-mailform.php" data-form-output="form-output-global" data-form-type="empleo" method="post" class="offset-top-40 text-left rd-mailform">
@@ -147,7 +148,7 @@
                             </div>
                         </div>
                     </section>
-                </div>
+            
             </div>
         </div>
     </main>

@@ -55,7 +55,7 @@
         </section>
         <section class="section-top-70 section-bottom-80">
             <div class="shell text-md-left">
-                <h3 class="text-center">Preguntas Frecuentes</h3>
+                <h2 class="text-center">Preguntas Frecuentes</h2>
                 <br>
                 <br>
                 <!-- Accordion-->

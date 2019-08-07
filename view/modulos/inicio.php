@@ -4,52 +4,31 @@
     <header class="page-header bg-image-01">
         <!-- RD Navbar-->
         <div class="rd-navbar-wrap">
-
-            <nav data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fixed" data-md-device-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-static" data-lg-device-layout="rd-navbar-static" data-sm-stick-up-offset="158px" data-md-stick-up-offset="10px" data-lg-stick-up-offset="158px" class="rd-navbar rd-navbar-centered">
-
-                <button data-rd-navbar-toggle=".rd-navbar-collapse" class="rd-navbar-collapse-toggle"><span></span></button>
+            <nav data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fixed" data-md-device-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-static" data-lg-device-layout="rd-navbar-static" data-sm-stick-up-offset="150px" data-md-stick-up-offset="1px" data-lg-stick-up-offset="150px" class="rd-navbar">
                 <div class="rd-navbar-panel">
                     <!-- RD Navbar Panel-->
                     <div class="rd-navbar-inner">
                         <!-- RD Navbar Toggle-->
                         <button data-rd-navbar-toggle=".rd-navbar-nav-wrap" class="rd-navbar-toggle"><span></span></button>
-                        <!-- TELÉFONO-->
-                        <div class="rd-navbar-contacts rd-navbar-collapse rd-navbar-collapse-2"><span>Póngase en contacto con nosotros</span>
-                            <div><span class="icon fa-phone text-primary"></span><a>+56 9 5805 3609</a></div>
+                        <!-- RD Navbar Brand-->
+                        <div class="rd-navbar-brand"><a href="inicio" class="brand-name"><img src="view/componentes/img/logo/logo_transparente.png" width="228" height="83" alt="Parcelas de chile"></a>
                         </div>
-
-                        <!-- LOGO-->
-                        <div class="rd-navbar-brand"><a href="inicio" class="brand-name"><img src="view/componentes/img/logo/logo_transparente.png" width="220" height="75∫" alt="Parcelas de chile"></a></div>
-
-                        <!--RD Navbar Search-->
-                        <div class="rd-navbar-search"><a data-rd-navbar-toggle=".rd-search" href="#" class="rd-navbar-search-toggle"><span class="fa-search"></span></a>
-                           
-                            <form action="search-results.html" data-search-live="rd-search-results-live" method="GET" class="rd-search">
-
-                                <!-- REDES SOCIALES-->
-                                <div class="form-group">
-                                    <ul class="list-inline">
-                                        <li><a href="https://www.facebook.com/parcelasdechile/" target="_blank" class="icon icon-sm text-primary fa-facebook"></a></li>
-                                        <li><a href="https://www.youtube.com/channel/UC1A2lJ21pRVisDtocb1gTTA/" target="_blank" class="icon icon-sm text-primary fa-youtube"></a></li>
-                                        <li><a href="https://www.linkedin.com/company/parcelasdechile?originalSubdomain=cl/" target="_blank" class="icon icon-sm text-primary fa-linkedin"></a></li>
-                                        <li><a href="https://instagram.com/parcelasdechile/" target="_blank" class="icon icon-sm text-primary fa-instagram"></a></li>
-                                    </ul>
-                                </div>
-
-                            </form>
+                        <div class="rd-navbar-contacts rd-navbar-collapse rd-navbar-collapse-2"><span>Contáctanos</span>
+                            <div><span class="icon fa-phone text-primary"></span><a href="callto:> +56958053609"></span><a>+56 9 5805 3609</a>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <!-- NAVBAR-->
                 <div class="rd-navbar-nav-wrap">
                     <div class="rd-navbar-inner">
+                        <!-- RD Navbar Nav-->
                         <ul class="rd-navbar-nav">
                             <li class="active"><a href="inicio">Home</a></li>
                             <li><a href="parcelacionelvolantin">Proyectos</a>
                                 <!-- RD Navbar Dropdown-->
                                 <ul class="rd-navbar-dropdown">
-                                    <li><a href="lagochapo">> Lago Chapo</a></li>
-                                    <li><a href="parcelacionelvolantin">> El Volantín</a></li>
+                                    <li><a href="lagochapo">Lago Chapo</a></li>
+                                    <li><a href="parcelacionelvolantin">El Volantín</a></li>
                                 </ul>
                             </li>
                             <li><a href="quienessomos">Quienes Somos</a></li>
@@ -59,7 +38,6 @@
                         </ul>
                     </div>
                 </div>
-                
             </nav>
         </div>
         <!-- HOME-->
@@ -69,30 +47,24 @@
                 <div class="col-lg-7 col-md-6">
                     <!-- Owl Carousel-->
                     <div data-items="1" data-dots="true" data-margin="30" data-mouse-drag="false" class="context-dark owl-slider owl-carousel">
-                       
                         <div class="owl-item">
                             <hr class="divider veil reveal-md-inline-block">
-                            <h1>Lanzamiento <br>"El Volantín" <br>
-                            Parcelación</h1>
-                            <h3>sábado 3 de Agosto</h3>
+                            <h1>Segunda Etapa<br>Parcelación<br>"El Volantín"</h1>
+                            <p class="offset-top-35">La solvencia de Chile como país, nos ha demostrado por mas de 60 años que la compra de terrenos es una de las inversiones mas seguras que se pueden hacer. Cada año los valores de los terrenos suben y suben. Llegado el momento de dejarle estos terrenos a nuestros hijos, ellos serán los que disfrutaran de las bondades de nuestro país.</p>
                         </div>
-                        
                         <div class="owl-item">
                             <hr class="divider veil reveal-md-inline-block">
-                            <h1>Inscríbete en nuestra venta en verde</h1>
-                            <p class="offset-top-25">Próximo proyecto "Parcelación El Volantín"</p>
+                            <h1>Segunda Etapa<br>Parcelación<br>"El Volantín"</h1>
+                            <p class="offset-top-35">La solvencia de Chile como país, nos ha demostrado por mas de 60 años que la compra de terrenos es una de las inversiones mas seguras que se pueden hacer. Cada año los valores de los terrenos suben y suben. Llegado el momento de dejarle estos terrenos a nuestros hijos, ellos serán los que disfrutaran de las bondades de nuestro país.</p>
                         </div>
-                        
                         <div class="owl-item">
                             <hr class="divider veil reveal-md-inline-block">
-                            <h1>Inscríbete en nuestra venta en verde</h1>
+                            <h1>Segunda Etapa<br>Parcelación<br>"El Volantín"</h1>
+                            <p class="offset-top-35">La solvencia de Chile como país, nos ha demostrado por mas de 60 años que la compra de terrenos es una de las inversiones mas seguras que se pueden hacer. Cada año los valores de los terrenos suben y suben. Llegado el momento de dejarle estos terrenos a nuestros hijos, ellos serán los que disfrutaran de las bondades de nuestro país.</p>
                         </div>
-                        
                     </div>
                 </div>
-                
                 <!-- TE LLAMAMOS - RD Mailform-->
-                
                 <div class="col-md-5 cell-lg-4 col-md-preffix-1 offset-top-40 text-left">
                     <div class="well well-base">
                         <h3>¿Te llamamos?</h3>
@@ -123,7 +95,7 @@
         <!-- TITULO PARCELAS -->
         <section class="bg-blue">
             <div class="shell section-30 context-dark text-md-center">
-                <h3>Nuestras Parcelas en venta</h3>
+                <h4>Nuestras Parcelas en venta</h4>
             </div>
         </section>
         <section id="parcelas">
@@ -132,63 +104,55 @@
                 <!-- LAGO CHAPO-->
                 <div class="cell-sm-6">
                     <div class="reveal-block thumbnail-variant-1">
-                       
                         <div class="caption-wrapper">
                             <img src="view/componentes/img/proyectos/lago_chapo/lagochapo.jpg" width="960" height="567" alt="Lago chapo" class="img-responsive center-block">
-                            <div class="caption"><a href="lagochapo" class="label label-primary">X Región</a></div>
+                            <div class="caption"><a href="#" class="label label-primary">X Región</a></div>
                         </div>
-                        
                         <div class="caption-2">
+                                                       <hr class="divider veil reveal-md-inline-block">
+
                             <h2 class="context-dark">Últimas <br>parcelas</h2>
                             <br>
-                            <h3>Desde: $ 9.990.000</h3>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="precios1">
+                                        <div class="precios">
+                                            <h3>Desde $ 9.990.000</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 .offset-md-6">
+                                    </div>
+                            </div>
                             <p>Últimas parcelas disponibles</p>
                             <h3 class="caption-title"><a href="lagochapo" class="text-white">Lago Chapo, Puerto Montt</a></h3><a href="lagochapo" class="btn btn-primary-variant-1">Ver más</a>
                         </div>
-                        
                     </div>
                 </div>
                 <!-- PARCELACION EL VOLANTIN-->
                 <div class="cell-sm-6">
                     <div class="reveal-block thumbnail-variant-1">
-                       
                         <div class="caption-wrapper">
                             <img src="view/componentes/img/proyectos/mirador_alcones/malcones.jpg" width="960" height="567" alt="Volantin de la quebrada" class="img-responsive center-block">
-                            <div class="caption"><a href="parcelacionelvolantin" class="label label-primary">VI Región</a></div>
+                            <div class="caption"><a href="#" class="label label-primary">VI Región</a></div>
                         </div>
-                        
                         <div class="caption-2">
+                                                       <hr class="divider veil reveal-md-inline-block">
+
                             <h2 class="context-dark">Inscríbete <br>venta en verde</h2>
                             <br>
-                            <h3>Desde $7.990.00</h3>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="precios">
+                                        <h3>Desde $ 7.990.000</h3>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 .offset-md-6">
+                                </div>
+                            </div>
                             <p>Próximo lanzamiento</p>
-                            <h3 class="caption-title"><a href="parcelacionelvolantin" class="text-white">Parcelación El Volantín</a></h3><a href="parcelacionelvolantin" class="btn btn-primary-variant-1">Ver más</a>
+                            <h3 class="caption-title"><a href="parcelacionelvolantin" class="text-white">Parcelación El Volantín, Marchigüe</a></h3><a href="parcelacionelvolantin" class="btn btn-primary-variant-1">Ver más</a>
                         </div>
-                        
-                    </div>
-                </div>
-            </div>
-        </section>
-        
-        <!-- CARACTERISTICAS DE LAS PARCELAS-->
-        
-        <section id="proyectos">
-            <div class="shell section-45 section-lg-45">
-                <div class="range range-xs-around text-center">
-                    <div class="col-lg-4 col-md-4"><span class="icon icon-lg icon-circle icon-primary fa-bookmark"></span>
-                        <h5 class="offset-top-20">Rol Único</h5>
-                        <p class="offset-top-10">Con el N° de Rol el SII identifica <br> a una propiedad o bien raíz. </p>
-                        <br>
-                    </div>
-                    <div class="col-lg-4 col-md-4"><span class="icon icon-lg icon-circle icon-primary fa-bookmark"></span>
-                        <h5 class="offset-top-20">Posibilidad luz y agua</h5>
-                        <p class="offset-top-10">Parcelas posibilitadas para obtener <br> los recursos de luz y agua sin problemas.</p>
-                        <br>
-                    </div>
-                    <div class="col-lg-4 col-md-4"><span class="icon icon-lg icon-circle icon-primary fa-bookmark"></span>
-                        <h5 class="offset-top-20">Desde los 5000 Mt2</h5>
-                        <p class="offset-top-10">Dependiendo del valor y el proyecto <br> los mts comienzan desde los 5000 mt2</p>
-                        <br>
                     </div>
                 </div>
             </div>
@@ -213,11 +177,33 @@
                 </div>
             </div>
         </section>
+        <!-- CARACTERISTICAS DE LAS PARCELAS-->
+        <section id="proyectos">
+            <div class="shell section-45 section-lg-45">
+                <div class="range range-xs-around text-center">
+                    <div class="col-lg-4 col-md-4"><span class="icon icon-lg icon-circle icon-primary fa-bookmark"></span>
+                        <h5 class="offset-top-20">Rol Único</h5>
+                        <p class="offset-top-10">Con el N° de Rol el SII identifica <br> a una propiedad o bien raíz. </p>
+                        <br>
+                    </div>
+                    <div class="col-lg-4 col-md-4"><span class="icon icon-lg icon-circle icon-primary fa-bookmark"></span>
+                        <h5 class="offset-top-20">Posibilidad luz y agua</h5>
+                        <p class="offset-top-10">Parcelas posibilitadas para obtener <br> los recursos de luz y agua sin problemas.</p>
+                        <br>
+                    </div>
+                    <div class="col-lg-4 col-md-4"><span class="icon icon-lg icon-circle icon-primary fa-bookmark"></span>
+                        <h5 class="offset-top-20">Desde los 5000 Mt2</h5>
+                        <p class="offset-top-10">Dependiendo del valor y el proyecto <br> los mts comienzan desde los 5000 mt2</p>
+                        <br>
+                    </div>
+                </div>
+            </div>
+        </section>
         <!-- PARALAX -->
         <section class="rd-parallax">
             <div data-speed="0.4" data-type="media" data-url="view/componentes/img/paralaxhome.jpg" class="rd-parallax-layer"></div>
             <div data-speed="0" data-type="html" class="rd-parallax-layer">
-                <div class="shell section-100 section-lg-top-220 section-lg-bottom-205 context-dark text-md-left">
+                <div class="shell section-100 section-lg-top-20 section-lg-bottom-20 context-dark text-md-left">
                     <hr class="divider">
                     <h2 class="shadow1">Trabaja con nosotros</h2>
                     <br>
@@ -228,20 +214,22 @@
     </main>
     <!-- FOOTER-->
     <footer class="page-footer">
-         <div class="shell section-45 section-lg-30">
-                    <h3>Nuestros Inversionistas</h3>
+        <div class="shell section-45 section-lg-30">
+            <h4>Nuestros Inversionistas</h4>
 
-          <div class="range">
-            <div class="cell-md-4 text-center">
-              <img src="view/componentes/img/inversionistas/teyco.png" alt=""  height="80%">
+            <div class="range">
+                <div class="cell-md-3">
+
+
+                </div>
+                <div class="cell-md-6">
+                    <img src="view/componentes/img/inversionistas/teyco.png"  class="logoinv" alt="" height="50%">
+                    <img src="view/componentes/img/inversionistas/afondo.png" class="logoinv" alt="" height="50%">
+                    <img src="view/componentes/img/inversionistas/sbk.png" class="logoinv" alt="" height="50%">
+
+                </div>
+
             </div>
-             <div class="cell-md-4 text-center">
-              <img src="view/componentes/img/inversionistas/afondo.png" alt=""  height="80%">
-            </div>
-            <div class="cell-md-4 text-center">
-              <img src="view/componentes/img/inversionistas/sbk.png" alt="" height="80%">
-            </div>
-          </div>
         </div>
         <div class="shell">
             <hr>

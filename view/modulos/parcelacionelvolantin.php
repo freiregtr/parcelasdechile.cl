@@ -141,22 +141,46 @@
                                 <div class="row">
                                     <div class="col-md-12">
                                         <h2 class="offset-top-50">Galería del proyecto</h2>
-                                        <br>
-                                        <div data-photo-swipe-gallery="gallery" data-arrows="true" data-loop="false" data-dots="false" data-swipe="true" data-items="1" class="slick-slider">
-                                            <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/proyectos/mirador_alcones/malcones.jpg" class="thumbnail-variant-2"><img src="view/componentes/img/proyectos/mirador_alcones/malcones.jpg" alt="Volantin de la quebrada" class="img-responsive"></a></div>
-                                            <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/proyectos/mirador_alcones/6.jpg" class="thumbnail-variant-2"><img src="view/componentes/img/proyectos/mirador_alcones/6.jpg" alt="Volantin de la quebrada" class="img-responsive"></a></div>
-                                            <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/proyectos/mirador_alcones/7.jpg" class="thumbnail-variant-2"><img src="view/componentes/img/proyectos/mirador_alcones/7.jpg" alt="Volantin de la quebrada" class="img-responsive"></a></div>
-                                            <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/proyectos/mirador_alcones/8.jpg" class="thumbnail-variant-2"><img src="view/componentes/img/proyectos/mirador_alcones/8.jpg" alt="Volantin de la quebrada" class="img-responsive"></a></div>
-                                            <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/proyectos/mirador_alcones/9.jpg" class="thumbnail-variant-2"><img src="view/componentes/img/proyectos/mirador_alcones/9.jpg" alt="Volantin de la quebrada" class="img-responsive"></a></div>
-                                            <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/proyectos/mirador_alcones/10.jpg" class="thumbnail-variant-2"><img src="view/componentes/img/proyectos/mirador_alcones/10.jpg" alt="Volantin de la quebrada" class="img-responsive"></a></div>
-                                            <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/proyectos/mirador_alcones/14.jpg" class="thumbnail-variant-2"><img src="view/componentes/img/proyectos/mirador_alcones/14.jpg" alt="Volantin de la quebrada" class="img-responsive"></a></div>
-                                            <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/proyectos/mirador_alcones/15.jpg" class="thumbnail-variant-2"><img src="view/componentes/img/proyectos/mirador_alcones/15.jpg" alt="Volantin de la quebrada" class="img-responsive"></a></div>
-                                            <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/proyectos/mirador_alcones/16.jpg" class="thumbnail-variant-2"><img src="view/componentes/img/proyectos/mirador_alcones/16.jpg" alt="Volantin de la quebrada" class="img-responsive"></a></div>
-                                            <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/proyectos/mirador_alcones/17.jpg" class="thumbnail-variant-2"><img src="view/componentes/img/proyectos/mirador_alcones/17.jpg" alt="Volantin de la quebrada" class="img-responsive"></a></div>
-                                            <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/proyectos/mirador_alcones/18.jpg" class="thumbnail-variant-2"><img src="view/componentes/img/proyectos/mirador_alcones/18.jpg" alt="Volantin de la quebrada" class="img-responsive"></a></div>
-                                            <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/proyectos/mirador_alcones/20.jpg" class="thumbnail-variant-2"><img src="view/componentes/img/proyectos/mirador_alcones/20.jpg" alt="Volantin de la quebrada" class="img-responsive"></a></div>
-                                            <div class="item"><a data-photo-swipe-item="" data-size="886x520" href="view/componentes/img/proyectos/mirador_alcones/21.jpg" class="thumbnail-variant-2"><img src="view/componentes/img/proyectos/mirador_alcones/21.jpg" alt="Volantin de la quebrada" class="img-responsive"></a></div>
-                                        </div>
+                                        <div class="offset-top-40">
+                  <!-- Slick Carousel-->
+                  <div data-arrows="true" data-loop="false" data-dots="false" data-swipe="true" data-items="1" data-child="#child-carousel" data-for="#child-carousel" class="slick-slider carousel-parent">
+                    <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/malcones.jpg" alt="" width="100%"  class="img-responsive"></div>
+                    
+                    <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/6.jpg" alt=""  width="100%" class="img-responsive"></div>
+                    
+                    <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/7.jpg" alt=""  width="100%" class="img-responsive"></div>
+                    
+                    <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/8.jpg" alt=""  width="100%" class="img-responsive"></div>
+                    
+                    <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/9.jpg" alt=""  width="100%" class="img-responsive"></div>
+                    
+                    <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/10.jpg" alt=""  width="100%" class="img-responsive"></div>
+                    
+                    <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/14.jpg" alt=""  width="100%" class="img-responsive"></div>
+                    
+                    <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/15.jpg" alt=""  width="100%" class="img-responsive"></div>
+                    
+                  </div>
+                  
+                  <div id="child-carousel" data-for=".carousel-parent" data-arrows="false" data-loop="false" data-dots="false" data-swipe="true" data-items="3" data-xs-items="3" data-sm-items="4" data-md-items="5" data-lg-items="6" data-slide-to-scroll="1" class="slick-slider slick-child">
+                   
+                    <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/malcones.jpg" alt="" width="140" height="105"></div>
+                    <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/6.jpg" alt="" width="140" height="105"></div>
+                    <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/7.jpg" alt="" width="140" height="105"></div>
+                    
+                    <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/8.jpg" alt="" width="140" height="105"></div>
+                    
+                    <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/9.jpg" alt="" width="140" height="105"></div>
+                    
+                    <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/10.jpg" alt="" width="140" height="105"></div>
+                    
+                    <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/14.jpg" alt="" width="140" height="105"></div>
+                    <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/15.jpg" alt="" width="140" height="105"></div>
+                  </div>
+                </div>
+                                       
+                                       
+                                        
                                     </div>
                                 </div>
                             </div>
@@ -326,35 +350,6 @@
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
-                </div>
-                <div class="modal-body">
-                    <div class="row">
-                        <div class="col-md-6 text-center">
-                            <h3>Subscríbete a nuestra venta en verde</h3>
-                            <br>
-                            <h6>Solo con invitación*</h6>
-                            <hr> <img src="view/componentes/img/logo/logo_transparente.png" width="230" height="86" alt="Parcelas de chile">
-                        </div>
-                        <div class="col-md-6 text-left">
-                            <form action="view/componentes/bat/rd-mailform.php" data-form-output="form-output-global" data-form-type="ventaverde" method="POST" class="offset-top-30 text-left rd-mailform">
-                                <div class="form-group">
-                                    <label class="form-label-static form-label-outside">Nombre Completo</label>
-                                    <input type="text" id="contact-name" name="nombre" data-constraints="@Required" class="form-control" placeholder="Nombre Completo">
-                                </div>
-                                <div class="form-group">
-                                    <label class="form-label-static form-label-outside">Correo Electrónico</label>
-                                    <input type="email" id="contact-email" name="email" data-constraints="@Email @Required" class="form-control" placeholder="Correo Electrónico">
-                                </div>
-                                <div class="form-group">
-                                    <label class="form-label-static form-label-outside">Teléfono</label>
-                                    <input type="text" id="contact-phone" name="telefono" data-constraints="@Numeric @Required" class="form-control" placeholder="Teléfono">
-                                </div>
-                                <div class="offset-top-10">
-                                    <button class="btn btn-block btn-primary">Enviar</button>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
                 </div>
             </div>
         </div>

@@ -62,7 +62,7 @@
                                 <br>
                             </div>
                             <div class="col-md-6">
-                                <h3>Quienes somos</h3>
+                                <h2>Quienes Somos</h2>
                                 <hr>
                                 <p>Somos un equipo de seres humanos enfocados en ayudar a lograr que miles de familias puedan comprar su primera Parcela.</p>
                                 <p>Vivimos en el país mas lindo del mundo y es nuestra misión ayudar a nuestros clientes a cumplir este anhelado sueño. </p>
