@@ -109,8 +109,7 @@
                             <div class="caption"><a href="#" class="label label-primary">X Región</a></div>
                         </div>
                         <div class="caption-2">
-                                                       <hr class="divider veil reveal-md-inline-block">
-
+                            <hr class="divider veil reveal-md-inline-block">
                             <h2 class="context-dark">Últimas <br>parcelas</h2>
                             <br>
                             <div class="row">
@@ -122,7 +121,7 @@
                                     </div>
                                 </div>
                                 <div class="col-md-6 .offset-md-6">
-                                    </div>
+                                </div>
                             </div>
                             <p>Últimas parcelas disponibles</p>
                             <h3 class="caption-title"><a href="lagochapo" class="text-white">Lago Chapo, Puerto Montt</a></h3><a href="lagochapo" class="btn btn-primary-variant-1">Ver más</a>
@@ -137,8 +136,7 @@
                             <div class="caption"><a href="#" class="label label-primary">VI Región</a></div>
                         </div>
                         <div class="caption-2">
-                                                       <hr class="divider veil reveal-md-inline-block">
-
+                            <hr class="divider veil reveal-md-inline-block">
                             <h2 class="context-dark">Inscríbete <br>venta en verde</h2>
                             <br>
                             <div class="row">
@@ -219,16 +217,12 @@
 
             <div class="range">
                 <div class="cell-md-3">
-
-
                 </div>
                 <div class="cell-md-6">
-                    <img src="view/componentes/img/inversionistas/teyco.png"  class="logoinv" alt="" height="50%">
+                    <img src="view/componentes/img/inversionistas/teyco.png" class="logoinv" alt="" height="50%">
                     <img src="view/componentes/img/inversionistas/afondo.png" class="logoinv" alt="" height="50%">
                     <img src="view/componentes/img/inversionistas/sbk.png" class="logoinv" alt="" height="50%">
-
                 </div>
-
             </div>
         </div>
         <div class="shell">
