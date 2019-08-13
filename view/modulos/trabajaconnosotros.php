@@ -93,7 +93,10 @@
                                     <h2>Trabaja con nosotros</h2>
                                     <p class="offset-top-16">Si tienes experiencia en ventas y si deseas ser parte de una empresa donde las comisiones son las mas altas del mercado, puedes postular acá</p>
                                     <!-- RD Mailform-->
-                                    <form action="view/componentes/bat/rd-mailform.php" data-form-output="form-output-global" data-form-type="empleo" method="post" class="offset-top-40 text-left rd-mailform">
+                                   <div class="container">
+                                       <div class="row">
+                                           <div class="col-md-12">
+                                                <form action="view/componentes/bat/rd-mailform.php" data-form-output="form-output-global" data-form-type="empleo" method="post" class="offset-top-40 text-left rd-mailform">
                                         <div class="range range-xs-middle">
                                             <div class="cell-lg-2">
                                                 <p class="text-base">Nombre</p>
@@ -144,6 +147,9 @@
                                             </div>
                                         </div>
                                     </form>
+                                           </div>
+                                       </div>
+                                   </div>
                                 </div>
                             </div>
                         </div>

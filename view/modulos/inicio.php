@@ -24,7 +24,7 @@
                         <!-- RD Navbar Nav-->
                         <ul class="rd-navbar-nav">
                             <li class="active"><a href="inicio">Home</a></li>
-                            <li><a href="parcelacionelvolantin">Proyectos</a>
+                            <li><a href="#">Proyectos</a>
                                 <!-- RD Navbar Dropdown-->
                                 <ul class="rd-navbar-dropdown">
                                     <li><a href="lagochapo">Lago Chapo</a></li>
@@ -50,17 +50,17 @@
                         <div class="owl-item">
                             <hr class="divider veil reveal-md-inline-block">
                             <h1>Segunda Etapa<br>Parcelación<br>"El Volantín"</h1>
-                            <p class="offset-top-35">La solvencia de Chile como país, nos ha demostrado por mas de 60 años que la compra de terrenos es una de las inversiones mas seguras que se pueden hacer. Cada año los valores de los terrenos suben y suben. Llegado el momento de dejarle estos terrenos a nuestros hijos, ellos serán los que disfrutaran de las bondades de nuestro país.</p>
+                            <p class="offset-top-35">Parcelas desde los $7.990.000, Un terreno es la mejor forma de asegurar el futuro de tu familia. A solo 138 km de Santiago y con buena conexión con otros destinos.</p>
                         </div>
                         <div class="owl-item">
                             <hr class="divider veil reveal-md-inline-block">
                             <h1>Segunda Etapa<br>Parcelación<br>"El Volantín"</h1>
-                            <p class="offset-top-35">La solvencia de Chile como país, nos ha demostrado por mas de 60 años que la compra de terrenos es una de las inversiones mas seguras que se pueden hacer. Cada año los valores de los terrenos suben y suben. Llegado el momento de dejarle estos terrenos a nuestros hijos, ellos serán los que disfrutaran de las bondades de nuestro país.</p>
+                            <p class="offset-top-35">Parcelas desde los $7.990.000, Un terreno es la mejor forma de asegurar el futuro de tu familia. A solo 138 km de Santiago y con buena conexión con otros destinos.</p>
                         </div>
                         <div class="owl-item">
                             <hr class="divider veil reveal-md-inline-block">
                             <h1>Segunda Etapa<br>Parcelación<br>"El Volantín"</h1>
-                            <p class="offset-top-35">La solvencia de Chile como país, nos ha demostrado por mas de 60 años que la compra de terrenos es una de las inversiones mas seguras que se pueden hacer. Cada año los valores de los terrenos suben y suben. Llegado el momento de dejarle estos terrenos a nuestros hijos, ellos serán los que disfrutaran de las bondades de nuestro país.</p>
+                            <p class="offset-top-35">Parcelas desde los $7.990.000, Un terreno es la mejor forma de asegurar el futuro de tu familia. A solo 138 km de Santiago y con buena conexión con otros destinos.</p>
                         </div>
                     </div>
                 </div>
@@ -137,7 +137,7 @@
                         </div>
                         <div class="caption-2">
                             <hr class="divider veil reveal-md-inline-block">
-                            <h2 class="context-dark">Inscríbete <br>venta en verde</h2>
+                            <h2 class="context-dark">Segunda<br>Etapa</h2>
                             <br>
                             <div class="row">
                                 <div class="col-md-6">
