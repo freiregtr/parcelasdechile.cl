@@ -12,10 +12,10 @@
                         <!-- RD Navbar Toggle-->
                         <button data-rd-navbar-toggle=".rd-navbar-nav-wrap" class="rd-navbar-toggle"><span></span></button>
                         <!-- RD Navbar Brand-->
-                        <div class="rd-navbar-brand"><a href="inicio" class="brand-name"><img src="view/componentes/img/logo/logo_transparente.png" width="228" height="83" alt="Parcelas de chile"></a>
+                        <div class="rd-navbar-brand"><a href="inicio" class="brand-name"><img src="view/componentes/img/logo/logon.png"  height="85" alt="Parcelas de chile"></a>
                         </div>
-                        <div class="rd-navbar-contacts rd-navbar-collapse rd-navbar-collapse-2"><span>Póngase en contacto con nosotros</span>
-                            <div><span class="icon fa-phone text-primary"></span><a href="callto:> +56958053609"></span><a>+56 9 5805 3609</a>
+                        <div class="rd-navbar-contacts rd-navbar-collapse rd-navbar-collapse-2"><span>Contáctanos</span>
+                            <div><span class="icon fa-phone text-primary"></span><a href="callto:> +56958053609"><a>+56 9 5805 3609</a></a>
                             </div>
                         </div>
                     </div>
@@ -55,8 +55,10 @@
         </section>
         <section class="section-top-70 section-bottom-80">
             <div class="shell text-md-left">
-                <h2 class="text-center">Preguntas Frecuentes</h2>
-                <br>
+<div class="context-light">
+                                            <h2 class="offset-top-35 section-bottom-30 text-center">Preguntas Frecuentes</h2>
+                                        </div>
+                                        <hr>                <br>
                 <br>
                 <!-- Accordion-->
                <div class="container">
@@ -174,10 +176,7 @@
         </section>
     </main>
     <!-- Page Footer-->
-    <footer class="page-footer">
-        <div class="shell">
-            <hr>
-        </div>
+    <footer class="page-footer2">
         <!-- PRIVACITY-->
         <div class="shell section-30">
             <div class="range range-xs-middle">

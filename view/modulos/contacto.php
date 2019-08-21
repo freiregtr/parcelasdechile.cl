@@ -11,9 +11,8 @@
                         <!-- RD Navbar Toggle-->
                         <button data-rd-navbar-toggle=".rd-navbar-nav-wrap" class="rd-navbar-toggle"><span></span></button>
                         <!-- RD Navbar Brand-->
-                        <div class="rd-navbar-brand"><a href="inicio" class="brand-name"><img src="view/componentes/img/logo/logo_transparente.png" width="228" height="83" alt=""></a></div>
-                        <div class="rd-navbar-contacts rd-navbar-collapse rd-navbar-collapse-2"><span class="semi-small">Póngase
-                                en contacto con nosotros</span>
+                        <div class="rd-navbar-brand"><a href="inicio" class="brand-name"><img src="view/componentes/img/logo/logon.png" height="85" alt=""></a></div>
+                        <div class="rd-navbar-contacts rd-navbar-collapse rd-navbar-collapse-2"><span>Contáctanos</span>
                             <div><span class="icon fa-phone text-primary"></span><a href="callto:>+56 9 5805 3609">+56 9 5805 3609</a></div>
                         </div>
                     </div>
@@ -51,15 +50,20 @@
                 </ol>
             </div>
         </section>
-        <div class="container">
+        <div class="container-fluid">
             <section class="section-top-70 section-bottom-80">
                 <div class="shell text-md-left">
-                    <div class="range">
+                    <div class="row">
+                       <div class="offset-md-2 col-md-2">
+                            
+                        </div>
+                       
                         <div class="col-md-8">
                             <div>
-                                <h2>Contacto</h2>
-                                <p class="offset-top-16">Por lo general, respondemos dentro de 1 día hábil ...</p>
-                                <h4>¿En qué podemos ayudarte?</h4>
+                                <div class="context-light">
+                                    <h2 class="offset-top-35 section-bottom-30 text-center">Contacto</h2>
+                                </div>
+                                <hr>
                                 <!-- RD Mailform-->
                                 <form action="view/componentes/bat/rd-mailform.php" data-form-output="form-output-global" data-form-type="contacto" method="POST" class="offset-top-40 text-left rd-mailform">
                                     <div class="range range-md-middle">
@@ -114,44 +118,16 @@
                                 </form>
                             </div>
                         </div>
-                        <div class="col-md-4">
-                            <div class="offset-top-30 bg-image-01 well-transparent context-dark">
-                                <div class="range">
-                                    <div class="col-md-12">
-                                        <!-- Owl Carousel-->
-                                        <div data-dots="true" data-items="1" data-margin="30" data-mouse-drag="false" class="owl-carousel owl-dots-sm">
-                                            <div>
-                                                <h3 class="shadow1" class="text-bold">Lago Chapo</h3>
-                                                <br>
-                                                <h3 class="shadow1" class="offset-top-30 text-primary">$9.990.000</h3>
-                                                <br>
-                                                <p class="shadow1" class="offset-top-30">En el Lago Chapo podemos Disfrutar navegando con la hermosa vista del Volcán Calbuco, y si eres de las personas que ama la naturaleza deberías recorrer los senderos de la Reserva Nacional Llanquihue.</p><a href="lagochapo" class="offset-top-20 btn btn-primary text-regular">Ver más</a>
-                                            </div>
-                                            <div>
-                                                <h3 class="shadow1" class="text-bold">Parcelación El Volantín</h3>
-                                                <br>
-                                                <h3 class="shadow1" class="offset-top-30 text-primary">$7.990.000</h3>
-                                                <br>
-                                                <p class="shadow1" class="offset-top-30">Marchihue en la Provincia de Cardenal Caro (Región del Libertador General Bernardo O'Higgins) es un lugar en Chile a 138 km al suroeste de Santiago.</p>
-                                                <br>
-                                                <br>
-                                                <a href="miradoralcones" class="offset-top-20 btn btn-primary text-regular">Ver más</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                        
+                       
                     </div>
+                            </div>
+
             </section>
-        </div>
 </div>
 </main>
 <!-- Page Footer-->
-<footer class="page-footer">
-    <div class="shell">
-        <hr>
-    </div>
+<footer class="page-footer2">
     <!-- PRIVACITY-->
     <div class="shell section-30">
 

@@ -6,20 +6,17 @@
         <div class="rd-navbar-wrap">
             <nav data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fixed" data-md-device-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-static" data-lg-device-layout="rd-navbar-static" data-sm-stick-up-offset="150px" data-md-stick-up-offset="1px" data-lg-stick-up-offset="150px" class="rd-navbar">
                 <div class="rd-navbar-panel">
-
                     <!-- RD Navbar Panel-->
                     <div class="rd-navbar-inner">
-
                         <!-- RD Navbar Toggle-->
                         <button data-rd-navbar-toggle=".rd-navbar-nav-wrap" class="rd-navbar-toggle"><span></span></button>
-
                         <!-- LOGO-->
-                        <div class="rd-navbar-brand"><a href="inicio" class="brand-name"><img src="view/componentes/img/logo/logo_transparente.png" width="228" height="83" alt="Parcelas de chile"></a>
+                        <div class="rd-navbar-brand"><a href="inicio" class="brand-name"><img src="view/componentes/img/logo/logon.png"  height="85" alt="Parcelas de chile"></a>
                         </div>
 
                         <!-- TELÉFONO-->
-                        <div class="rd-navbar-contacts rd-navbar-collapse rd-navbar-collapse-2"><span>Póngase en contacto con nosotros</span>
-                            <div><span class="icon fa-phone text-primary"></span><a href="callto:> +56958053609"></span><a>+56 9 5805 3609</a>
+                        <div class="rd-navbar-contacts rd-navbar-collapse rd-navbar-collapse-2"><span>Contáctanos</span>
+                            <div><span class="icon fa-phone text-primary"></span><a href="callto:> +56958053609"><a>+56 9 5805 3609</a></a>
                             </div>
                         </div>
                     </div>
@@ -59,22 +56,47 @@
             </div>
         </section>
         <!-- PROYECTO LAGO CHAPO-->
+        <section class=" text-center section-bottom-70 page-header bg-image-lagochapo">
+            <div class="shell section-100 section-lg-top-220 section-lg-bottom-205 context-dark">
+                <div><a href="lagochapo" class="label label-primary shadow2">X Región</a></div>
+                <br>
+                <h1 class="shadow1">Lago Chapo</h1>
+                <hr>
+                <div class="range offset-top-30 text-center">
+                    <div class="cell-sm-4">
+                        <!-- CountTo-->
+                        <div data-from="0" data-to="1" class="counter shadow1 text-medium"></div>
+                        <h3 class="text-sbold text-base shadow1 text-white">Parcela</h3>
+                    </div>
+                    <div class="cell-sm-4">
+                        <!-- CountTo-->
+                        <div data-from="0" data-to="43" class="counter shadow1 text-medium"></div>
+                        <h3 class="text-sbold text-base shadow1 text-white">KM de Pto Montt</h3>
+                    </div>
+                    <div class="cell-sm-4">
+                        <!-- CountTo-->
+                        <div data-from="0" data-to="5000" class="counter shadow1 text-medium"></div>
+                        <h3 class="text-sbold text-base shadow1 text-white">Mt2</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
         <section class="section-top-45 section-bottom-80">
             <div class="shell text-md-left product">
-                <div class="range">
+                <div class="row">
                     <div class="col-md-12">
-                        <div><a href="lagochapo" class="label label-primary">X Región</a></div>
-
                         <!-- PLANO DEL PROYECTO-->
                         <section class="section-top-70 section-bottom-70">
-                            <div class="container">
+                            <div class="container-fluid">
                                 <div class="row">
                                     <!-- ID PLANO -->
                                     <div class="col-md-6">
                                         <div class="row" id="lagochapoSvg"></div>
                                     </div>
                                     <div class="col-md-6">
-                                        <h2 class="offset-top-50 section-bottom-30">Lago Chapo</h2>
+                                        <div class="context-light">
+                                            <h2 class="offset-top-50 section-bottom-30">Lago Chapo</h2>
+                                        </div>
                                         <p class="section-bottom-30">"Últimas parcelas disponibles"</p>
                                         <!-- VALORES-->
                                         <div class="row">
@@ -91,17 +113,18 @@
                                         </div>
                                         <p class="offset-top-40 text-bold text-base">" Por qué tenemos el país más lindo del mundo, creemos que
                                             deberías elegir Parcelas de Chile."</p>
+                                            
                                         <p class="offset-top-20">Una de las maravillas que podemos encontrar en la zona del Lago Chapo es Disfrutar navegando con la hermosa vista del Volcán Calbuco, y si eres de las personas que ama la naturaleza deberías recorrer los senderos de la Reserva Nacional Llanquihue, una de las más lindas de Chile.</p>
                                     </div>
                                 </div>
                             </div>
                         </section>
                         <hr>
-                        <section class="section-top-35 section-bottom-70">
-                            <div class="container">
+                        <section class="section-top-35 section-bottom-70 ">
+                            <div class="container-fluid">
                                 <div class="row">
                                     <div class="col-md-6">
-                                        <div>
+                                        <div class="context-light ">
                                             <h2 class="offset-top-35 section-bottom-30">Galería</h2>
                                             <div data-arrows="true" data-loop="false" data-dots="false" data-swipe="true" data-items="1" data-child="#child-carousel" data-for="#child-carousel" class="slick-slider carousel-parent">
                                                 <div class="item"><img src="view/componentes/img/proyectos/lago_chapo/1.jpg" alt="" width="100%" class="img-responsive"></div>
@@ -121,16 +144,18 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-md-6">
+                                    <div class="col-md-6 context-light ">
                                         <h2 class="offset-top-35 section-bottom-30">Mapa</h2>
-                                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d382723.7076386406!2d-72.81779797558607!3d-41.460287077871115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9619c6147ef2efd7%3A0x74697c1789f6fef3!2sLago+Chapo!5e0!3m2!1ses!2scl!4v1566245995250!5m2!1ses!2scl" width="100%" height="380" frameborder="0" style="border:0" allowfullscreen></iframe>
+                                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d382723.7076386406!2d-72.81779797558607!3d-41.460287077871115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9619c6147ef2efd7%3A0x74697c1789f6fef3!2sLago+Chapo!5e0!3m2!1ses!2scl!4v1566245995250!5m2!1ses!2scl" width="100%" height="430" frameborder="0" style="border:0" allowfullscreen></iframe>
                                     </div>
                                 </div>
                             </div>
                         </section>
                         <hr>
                         <section class="section-top-35  section-bottom-70">
-                            <h2 class="offset-top-50 section-bottom-30 text-center">Panorama 360º</h2>
+                            <div class="context-light">
+                                <h2 class="offset-top-50 section-bottom-30 text-center">Panorama 360º</h2>
+                            </div>
                             <div class="container-fluid">
                                 <div class="row">
                                     <div class="col-md-12">
@@ -145,9 +170,11 @@
                             <div class="container-fluid">
                                 <div class="row">
                                     <div class="col-md-12 text-center">
-                                        <h2 class="offset-top-35 section-bottom-30">Otros proyectos</h2>
+                                        <div class="context-light">
+                                            <h2 class="offset-top-35 section-bottom-30">Otros proyectos</h2>
+                                        </div>
 
-                                        <div class="offset-top-30 bg-image-01 well-transparent context-dark">
+                                        <div class="offset-top-30 bg-image-elvolantin well-transparent context-dark">
                                             <div class="range">
                                                 <div class="col-md-12 col-lg-12">
                                                     <div data-dots="true" data-items="1" data-margin="30" data-mouse-drag="false" class="owl-carousel owl-dots-sm">
@@ -159,7 +186,7 @@
                                                             <br>
                                                             <p class="shadow1" class="offset-top-30">Marchihue en la Provincia de Cardenal Caro <br> (Región del Libertador General Bernardo O'Higgins)<br>es un lugar en Chile a 138 km al suroeste de Santiago.</p>
 
-                                                            <a href="parcelacionelvolantin" class="offset-top-20 btn btn-primary text-regular">Ver más</a>
+                                                            <a href="parcelacionelvolantin" class="offset-top-20 btn btn-primary text-regular shadow2">Ver más</a>
                                                         </div>
                                                         <div>
                                                             <br>
@@ -169,7 +196,7 @@
                                                             <br>
                                                             <p class="shadow1" class="offset-top-30">En el Lago Chapo podemos Disfrutar navegando <br>con la hermosa vista del Volcán Calbuco, y si eres de las personas <br>que ama la naturaleza deberías recorrer los senderos de la Reserva Nacional Llanquihue.</p>
 
-                                                            <a href="lagochapo" class="offset-top-20 btn btn-primary text-regular">Ver más</a>
+                                                            <a href="lagochapo" class="offset-top-20 btn btn-primary text-regular shadow2">Ver más</a>
                                                         </div>
 
                                                     </div>
@@ -182,7 +209,7 @@
                             </div>
                         </section>
                         <!-- BOTONES SIGUIENTE PROYECTO-->
-                        <div class="container">
+                        <div class="container-fluid">
                             <div class="row">
                                 <div class="col-xs-6 text-left"><a href="parcelacionelvolantin" class="btn btn-primary btn-icon btn-icon btn-icon-left"><span class="icon fa-angle-left"></span><span class="text text-regular veil reveal-xs-inline">Proyecto previo</span></a></div>
                                 <div class="col-xs-6 text-right"><a href="parcelacionelvolantin" class="btn btn-primary btn-icon btn-icon btn-icon-right"><span class="text text-regular veil reveal-xs-inline">Siguiente proyecto</span><span class="icon fa-angle-right"></span></a></div>
@@ -200,16 +227,17 @@
     <section class="rd-parallax">
         <div data-speed="0.4" data-type="media" data-url="view/componentes/img/paralaxhome.jpg" class="rd-parallax-layer"></div>
         <div data-speed="0" data-type="html" class="rd-parallax-layer">
-            <div class="shell section-100 section-lg-top-20 section-lg-bottom-20 context-dark text-md-left">
+            <div class="shell section-100 section-lg-top-220 section-lg-bottom-205 context-dark text-md-left">
                 <hr class="divider">
-                <h2 class="shadow1">Trabaja con nosotros</h2>
-                <br>
+                <h2 class="shadow1">Únete nuestro equipo de vendedores</h2>
+                <h4 class="offset-top-25 shadow1">¿Tienes experiencia vendiendo terrenos ?
+                    <br class="veil reveal-md-block"></h4>
                 <a href="trabajaconnosotros" class="offset-top-50 btn btn-primary text-regular">Ver más</a>
             </div>
         </div>
     </section>
     <!-- FOOTER-->
-    <footer class="page-footer">
+    <footer class="page-footer2">
         <div class="shell">
             <hr>
         </div>

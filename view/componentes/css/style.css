@@ -702,6 +702,12 @@ a.text-danger:focus {
   background-color: #1A5594;
 }
 
+.bg-secundary {
+  background-color: #f7f7f7;
+      box-shadow: 1px 1px 20px -3px rgba(0, 0, 0, 0.2);
+
+}
+
 a.bg-primary:hover,
 a.bg-primary:focus {
   background-color: #fe2f19;
@@ -755,7 +761,7 @@ ol {
   margin-bottom: 12px;
 }
 .precios{
-    background-color: #00942e;
+    background-color: #1A5594;
     width: 100%;
     padding: 10px;
     
@@ -10511,14 +10517,35 @@ fieldset[disabled] .bg-gray-base .btn-primary {
 
 
 .bg-blue {
-  background: #1A5594;
-  fill: #1A5594;
+  background: #f7f7f7;
+  fill: #f7f7f7;
+    color: #999999
 }
 
 .bg-image-01 {
   background: url(../img/home3.jpg);
   background-size: cover;
+
 }
+
+.bg-image-lagochapo {
+  background: url(../img/proyectos/lago_chapo/lagochapo.jpg);
+  background-size: cover;
+
+}
+
+.bg-image-elvolantin {
+  background: url(../img/proyectos/mirador_alcones/malcones.jpg);
+  background-size: cover;
+
+}
+
+.bg-image-trabajaconnosotros {
+  background: url(../img/trabajaconnosotros.jpg);
+  background-size:cover;
+  height: 1000px;
+}
+
 
 h1{
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.65);
@@ -10529,6 +10556,12 @@ h1{
     
 }
 
+.shadow2{
+     box-shadow: 0 0 12px rgba(0, 0, 0, 0.4);
+
+    
+}
+
 .bg-image-02 {
   background: url("../images/background-04.jpg");
   background-size: cover;
@@ -10536,8 +10569,17 @@ h1{
 .context-dark,
 .context-dark h1, .context-dark h2, .context-dark h3, .context-dark h4, .context-dark h5, .context-dark h6, .context-dark .h1, .context-dark .h2, .context-dark .h3, .context-dark .h4, .context-dark .h5, .context-dark .h6 {
   color: #fff;
+  font-weight: 600;
+
+
 }
 
+.context-light,
+.context-light h1, .context-light h2, .context-light h3, .context-light h4, .context-light h5, .context-light h6, .context-light .h1, .context-light .h2, .context-light .h3, .context-dark .h4, .context-dark .h5, .context-dark .h6 {
+  color: #999999;
+ font-weight: 200;
+    
+}
 .context-dark hr {
   border-top-color: rgba(255, 255, 255, 0.1);
 }
@@ -10598,6 +10640,9 @@ h1{
 
 .page-footer {
   background-color: #1a5594;
+}
+.page-footer2 {
+  background-color: #f7f7f7;
 }
 
 .page-footer h1, .page-footer h2, .page-footer h3, .page-footer h4, .page-footer h5, .page-footer h6, .page-footer .h1, .page-footer .h2, .page-footer .h3, .page-footer .h4, .page-footer .h5, .page-footer .h6 {
@@ -19773,6 +19818,9 @@ fieldset[disabled] .btn-white {
 .icon-primary {
   color: #00942e;
 }
+.icon-secundary{
+  color: #fff;
+}
 
 .icon-circle {
   display: inline-block;
@@ -23704,6 +23752,10 @@ html.ie-10 .form-control {
     padding-top: 220px;
     padding-bottom: 220px;
   }
+}
+
+.section-top-10 {
+  padding-top: 10px;
 }
 
 .section-top-30 {
@@ -28877,7 +28929,7 @@ html:not(.lt-ie10) .not-animated {
 */
 .rd-navbar {
   display: none;
-  background: #0a1923;
+  background: #f7f7f7;
 }
 
 .rd-navbar-toggle {
@@ -28975,7 +29027,9 @@ html:not(.lt-ie10) .not-animated {
 .rd-navbar-fullwidth {
   z-index: 999;
   background-color: #fff;
-    color: #1A5594;
+  color: #1A5594;
+  box-shadow: 1px 1px 20px -3px rgba(0, 0, 0, 0.2);
+
 }
 
 .rd-navbar-static .rd-navbar-top-panel,
@@ -29013,7 +29067,7 @@ html:not(.lt-ie10) .not-animated {
 
 .rd-navbar-static .rd-navbar-nav-wrap,
 .rd-navbar-fullwidth .rd-navbar-nav-wrap {
-  background-color: #1a5594;
+  background-color: #f7f7f7;
 }
 
 .rd-navbar-static .rd-navbar-nav-wrap .rd-navbar-inner,
@@ -29093,20 +29147,22 @@ html:not(.lt-ie10) .not-animated {
   display: inline-flex;
   flex-direction: column;
   align-items: center;
-  color: #fff;
+  color: #999999;
   background: transparent;
   line-height: 2.2;
   font-size: 18px;
   font-weight: 600;
 }
 
+
+/* aca estaba */
 .rd-navbar-static .rd-navbar-nav > li > a:after,
 .rd-navbar-fullwidth .rd-navbar-nav > li > a:after {
   content: '';
   display: block;
   height: 4px;
   width: 0;
-  background-color: #fff;
+  background-color: #1A5594;
   transition: .3s;
 }
 
@@ -29118,7 +29174,7 @@ html:not(.lt-ie10) .not-animated {
 .rd-navbar-fullwidth .rd-navbar-nav > li.opened > a,
 .rd-navbar-fullwidth .rd-navbar-nav > li > a:hover,
 .rd-navbar-fullwidth .rd-navbar-nav > li > .rd-navbar-submenu-toggle {
-  color: #fff;
+  color: #1A5594;
   background: transparent;
 }
 
@@ -29144,7 +29200,7 @@ html:not(.lt-ie10) .not-animated {
 .rd-navbar-static .rd-navbar-nav > li > .rd-navbar-submenu-toggle,
 .rd-navbar-fullwidth .rd-navbar-nav > li.active > a,
 .rd-navbar-fullwidth .rd-navbar-nav > li > .rd-navbar-submenu-toggle {
-  color: #fff;
+  color: #1A5594;
   background: transparent;
 }
 
@@ -29176,7 +29232,7 @@ html:not(.lt-ie10) .not-animated {
 
 .rd-navbar-static .rd-navbar-search .form-control,
 .rd-navbar-fullwidth .rd-navbar-search .form-control {
-  background-color: #fff;
+  background-color: #1A5594;
   padding-right: 50px;
 }
 
@@ -29232,6 +29288,8 @@ html:not(.lt-ie10) .not-animated {
   z-index: 5;
 }
 
+
+/*colores submenu   */
 .rd-navbar-static .rd-navbar-nav li.focus > .rd-navbar-dropdown,
 .rd-navbar-static .rd-navbar-nav li.focus > .rd-navbar-megamenu,
 .rd-navbar-static .rd-navbar-nav li.opened > .rd-navbar-dropdown,
@@ -29438,7 +29496,7 @@ html:not(.lt-ie10) .not-animated {
   top: 0;
   right: 0;
   z-index: 999;
-  background: #1A5594;
+  background: rgb(185, 185, 185);
   box-shadow: 0 0 20px -4px rgba(0, 0, 0, 0.2);
 }
 
@@ -29625,7 +29683,7 @@ html:not(.lt-ie10) .not-animated {
 }
 
 .rd-navbar-fixed .rd-navbar-brand img {
-  max-width: 120px;
+  max-width: 150px;
   height: auto;
 }
 
@@ -29769,7 +29827,7 @@ html:not(.lt-ie10) .not-animated {
   display: block;
   font-size: 16px;
   line-height: 26px;
-  text-align: left;
+  text-align: right;
 }
 
 .rd-navbar-fixed .rd-navbar-nav:before, .rd-navbar-fixed .rd-navbar-nav:after {
@@ -31668,7 +31726,8 @@ a.pswp__share--download:hover {
 .counter {
   font-size: 50px;
   line-height: 1.1;
-  color: #00942e;
+  color: #fff;
+    
 }
 
 @media (min-width: 992px) {

@@ -11,10 +11,10 @@
                         <!-- RD Navbar Toggle-->
                         <button data-rd-navbar-toggle=".rd-navbar-nav-wrap" class="rd-navbar-toggle"><span></span></button>
                         <!-- RD Navbar Brand-->
-                        <div class="rd-navbar-brand"><a href="inicio" class="brand-name"><img src="view/componentes/img/logo/logo_transparente.png" width="228" height="83" alt="Parcelas de chile"></a>
+                        <div class="rd-navbar-brand"><a href="inicio" class="brand-name"><img src="view/componentes/img/logo/logon.png" height="85" alt="Parcelas de chile"></a>
                         </div>
                         <div class="rd-navbar-contacts rd-navbar-collapse rd-navbar-collapse-2"><span>Contáctanos</span>
-                            <div><span class="icon fa-phone text-primary"></span><a href="callto:> +56958053609"></span><a>+56 9 5805 3609</a>
+                            <div><span class="icon fa-phone text-primary"></span><a href="callto:> +56958053609"></a><a>+56 9 5805 3609</a>
                             </div>
                         </div>
                     </div>
@@ -49,8 +49,8 @@
                     <div data-items="1" data-dots="true" data-margin="30" data-mouse-drag="false" class="context-dark owl-slider owl-carousel">
                         <div class="owl-item">
                             <hr class="divider veil reveal-md-inline-block">
-                            <h1>Segunda Etapa<br>Parcelación<br>"El Volantín"</h1>
-                            <p class="offset-top-35">Parcelas desde los $7.990.000, Un terreno es la mejor forma de asegurar el futuro de tu familia. A solo 138 km de Santiago y con buena conexión con otros destinos.</p>
+                            <h1>Parcelación<br>"El Volantín"</h1>
+                            <p class="offset-top-35 shadow1">Parcelas desde los $7.990.000, Un terreno es la mejor forma de asegurar el futuro de tu familia. A solo 138 km de Santiago y con buena conexión con otros destinos.</p>
                         </div>
                         <div class="owl-item">
                             <hr class="divider veil reveal-md-inline-block">
@@ -66,7 +66,7 @@
                 </div>
                 <!-- TE LLAMAMOS - RD Mailform-->
                 <div class="col-md-5 cell-lg-4 col-md-preffix-1 offset-top-40 text-left">
-                    <div class="well well-base">
+                    <div class="well well-base shadow2">
                         <h3>¿Te llamamos?</h3>
                         <form action="view/componentes/bat/rd-mailform.php" data-form-output="form-output-global" data-form-type="inicio" method="POST" class="offset-top-30 text-left rd-mailform">
                             <div class="form-group">
@@ -81,8 +81,9 @@
                                 <label class="form-label-static form-label-outside"></label>
                                 <input type="text" id="contact-phone" name="numero" data-constraints="@Numeric @Required" class="form-control" placeholder="Teléfono">
                             </div>
+                            <br>
                             <div class="offset-top-10">
-                                <button type="submit" class="btn btn-block btn-primary">Enviar</button>
+                                <button type="submit" class="btn btn-block btn-primary ">Enviar</button>
                             </div>
                         </form>
                     </div>
@@ -93,29 +94,29 @@
     <!-- Page Content-->
     <main class="page-content">
         <!-- TITULO PARCELAS -->
-        <section class="bg-blue">
-            <div class="shell section-30 context-dark text-md-center">
-                <h4>Nuestras Parcelas en venta</h4>
+        <section class="bg-blue shadow2">
+            <div class="shell section-30 context-light text-md-center">
+                <h2 class="offset-top-30 section-bottom-30">Nuestros Proyectos disponibles</h2>
             </div>
         </section>
-        <section id="parcelas">
+        <section id="parcelas shadow2">
             <!-- LAS PARCELAS-->
             <div class="range range-condensed text-sm-left">
                 <!-- LAGO CHAPO-->
-                <div class="cell-sm-6">
+                <div class="cell-sm-6 ">
                     <div class="reveal-block thumbnail-variant-1">
                         <div class="caption-wrapper">
                             <img src="view/componentes/img/proyectos/lago_chapo/lagochapo.jpg" width="960" height="567" alt="Lago chapo" class="img-responsive center-block">
-                            <div class="caption"><a href="#" class="label label-primary">X Región</a></div>
+                            <div class="caption shadow2"><a href="#" class="label label-primary">X Región</a></div>
                         </div>
                         <div class="caption-2">
-                            <hr class="divider veil reveal-md-inline-block">
-                            <h2 class="context-dark">Últimas <br>parcelas</h2>
+                            <hr class="divider veil reveal-md-inline-block shadow2">
+                            <h2 class="context-dark shadow1">Lago<br>Chapo</h2>
                             <br>
                             <div class="row">
                                 <div class="col-md-6">
                                     <div class="precios1">
-                                        <div class="precios">
+                                        <div class="precios shadow2">
                                             <h3>Desde $ 9.990.000</h3>
                                         </div>
                                     </div>
@@ -123,8 +124,7 @@
                                 <div class="col-md-6 .offset-md-6">
                                 </div>
                             </div>
-                            <p>Últimas parcelas disponibles</p>
-                            <h3 class="caption-title"><a href="lagochapo" class="text-white">Lago Chapo, Puerto Montt</a></h3><a href="lagochapo" class="btn btn-primary-variant-1">Ver más</a>
+                            <h3 class="caption-title"><a href="lagochapo" class="text-white shadow1">Región de los Lagos, Puerto Montt</a></h3><a href="lagochapo" class="btn btn-primary-variant-1">Ver más</a>
                         </div>
                     </div>
                 </div>
@@ -133,31 +133,30 @@
                     <div class="reveal-block thumbnail-variant-1">
                         <div class="caption-wrapper">
                             <img src="view/componentes/img/proyectos/mirador_alcones/malcones.jpg" width="960" height="567" alt="Volantin de la quebrada" class="img-responsive center-block">
-                            <div class="caption"><a href="#" class="label label-primary">VI Región</a></div>
+                            <div class="caption shadow2"><a href="#" class="label label-primary">VI Región</a></div>
                         </div>
                         <div class="caption-2">
-                            <hr class="divider veil reveal-md-inline-block">
-                            <h2 class="context-dark">Segunda<br>Etapa</h2>
+                            <hr class="divider veil reveal-md-inline-block shadow2">
+                            <h2 class="context-dark shadow1">Parcelación<br>El Volantín</h2>
                             <br>
                             <div class="row">
                                 <div class="col-md-6">
-                                    <div class="precios">
+                                    <div class="precios shadow2">
                                         <h3>Desde $ 7.990.000</h3>
                                     </div>
                                 </div>
                                 <div class="col-md-6 .offset-md-6">
                                 </div>
                             </div>
-                            <p>Próximo lanzamiento</p>
-                            <h3 class="caption-title"><a href="parcelacionelvolantin" class="text-white">Parcelación El Volantín, Marchigüe</a></h3><a href="parcelacionelvolantin" class="btn btn-primary-variant-1">Ver más</a>
+                            <h3 class="caption-title"><a href="parcelacionelvolantin" class="text-white shadow1">Región de Libertador O’Higgins</a></h3><a href="parcelacionelvolantin" class="btn btn-primary-variant-1">Ver más</a>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
         <!-- NEWSLETTERS-->
-        <section class="bg-primary section-45">
-            <div class="shell text-lg-left context-dark">
+        <section class="bg-secundary section-45">
+            <div class="shell text-lg-left context-light">
                 <div class="range range-xs-middle range-xs-center">
                     <div class="col-lg-6">
                         <h4>Subscribete a nuestro newsletter</h4>
@@ -178,7 +177,9 @@
         <!-- CARACTERISTICAS DE LAS PARCELAS-->
         <section id="proyectos">
             <div class="shell section-45 section-lg-45">
+                <h2 class="offset-top-50 section-bottom-30 context-light">Nuestras parcelas tienen</h2>
                 <div class="range range-xs-around text-center">
+
                     <div class="col-lg-4 col-md-4"><span class="icon icon-lg icon-circle icon-primary fa-bookmark"></span>
                         <h5 class="offset-top-20">Rol Único</h5>
                         <p class="offset-top-10">Con el N° de Rol el SII identifica <br> a una propiedad o bien raíz. </p>
@@ -199,22 +200,22 @@
         </section>
         <!-- PARALAX -->
         <section class="rd-parallax">
-            <div data-speed="0.4" data-type="media" data-url="view/componentes/img/paralaxhome.jpg" class="rd-parallax-layer"></div>
+            <div data-speed="0.4" data-type="media" data-url="view/componentes/img/trabajaconnosotros.jpg" class="rd-parallax-layer"></div>
             <div data-speed="0" data-type="html" class="rd-parallax-layer">
-                <div class="shell section-100 section-lg-top-20 section-lg-bottom-20 context-dark text-md-left">
+                <div class="shell section-100 section-lg-top-220 section-lg-bottom-205 context-dark text-md-left">
                     <hr class="divider">
-                    <h2 class="shadow1">Trabaja con nosotros</h2>
-                    <br>
-                    <a href="trabajaconnosotros" class="offset-top-50 btn btn-primary text-regular">Ver más</a>
+                    <h2 class="shadow1">Únete nuestro equipo de vendedores</h2>
+                    <h4 class="offset-top-25 shadow1">¿Tienes experiencia vendiendo terrenos ?
+                        <br class="veil reveal-md-block"></h4>
+                    <a href="trabajaconnosotros" class="offset-top-50 btn btn-primary text-regular shadow2">Ver más</a>
                 </div>
             </div>
         </section>
     </main>
     <!-- FOOTER-->
-    <footer class="page-footer">
+    <footer class="page-footer2">
         <div class="shell section-45 section-lg-30">
-            <h4>Nuestros Inversionistas</h4>
-
+            <h2 class="offset-top-50 section-bottom-30 context-light">Nuestros inversionistas</h2>
             <div class="range">
                 <div class="cell-md-3">
                 </div>
