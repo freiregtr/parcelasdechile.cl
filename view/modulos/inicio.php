@@ -40,6 +40,12 @@
                 </div>
             </nav>
         </div>
+        
+        
+    
+
+
+       
         <!-- HOME-->
         <div class="shell section-70 section-lg-120 text-md-left">
             <div class="range range-xs-middle">
@@ -65,7 +71,8 @@
                     </div>
                 </div>
                 <!-- TE LLAMAMOS - RD Mailform-->
-                <div class="col-md-5 cell-lg-4 col-md-preffix-1 offset-top-40 text-left">
+                <div class="col-md-5 cell-lg-4 col-md-preffix-1 offset-top-40 text-left
+">
                     <div class="well well-base shadow2">
                         <h3>¿Te llamamos?</h3>
                         <form action="view/componentes/bat/rd-mailform.php" data-form-output="form-output-global" data-form-type="inicio" method="POST" class="offset-top-30 text-left rd-mailform">
@@ -94,7 +101,7 @@
     <!-- Page Content-->
     <main class="page-content">
         <!-- TITULO PARCELAS -->
-        <section class="bg-blue shadow2">
+        <section class="shadow2">
             <div class="shell section-30 context-light text-md-center">
                 <h2 class="offset-top-30 section-bottom-30">Nuestros Proyectos disponibles</h2>
             </div>
@@ -198,6 +205,65 @@
                 </div>
             </div>
         </section>
+        
+        
+        
+        <section class="bg-secundary shadow2">
+            <div class="shell section-45 section-lg-45">
+           <div class="container">
+               <div class="row">
+                    <h2 class="offset-top-50 section-bottom-30 context-light">Experiencias de Clientes</h2>
+                    <div class="range offset-top-30">
+                    
+                     <div class="cell-md-4">
+                          <!-- Quote-->
+                          <blockquote class="quote quote-variant-1">
+                            <p>I love how fast-minded your real estate agents are! I was in a real hurry to buy a new home in Florida, where I’ve been promoted to at my work… Your real estate agents helped it happen in the shortest time frame!</p>
+                            <div class="cite unit unit-sm-horizontal unit-md-horizontal unit-lg-horizontal unit-middle">
+                              <div class="unit-left"><img src="images/user-03.jpg" width="97" height="97" alt="" class="img-circle img-responsive center-block"></div>
+                              <div class="unit-body"><a href="#" class="text-bold text-base">Mary Whitaker</a>
+                                <p class="offset-top-5 small text-primary">Marketing manager</p>
+                              </div>
+                            </div>
+                          </blockquote>
+                          <br>
+                  </div>
+                  
+                  <div class="cell-md-4">
+                          <!-- Quote-->
+                          <blockquote class="quote quote-variant-1">
+                            <p>I’ve spent tons of time searching for a not-so-expensive condo in Chicago, but as soon as I hired one of your agents, I was finally able to find it and move in!</p>
+                            <div class="cite unit unit-sm-horizontal unit-md-horizontal unit-lg-horizontal unit-middle">
+                              <div class="unit-left"><img src="images/user-02.jpg" width="97" height="97" alt="" class="img-circle img-responsive center-block"></div>
+                              <div class="unit-body"><a href="#" class="text-bold text-base">Emily Maroon</a>
+                                <p class="offset-top-5 small text-primary">Scriptwriter</p>
+                              </div>
+                            </div>
+                          </blockquote>
+                          <br>
+                  </div>
+                 
+                  <div class="cell-md-4">
+                          <!-- Quote-->
+                          <blockquote class="quote quote-variant-1">
+                            <p>I love how fast-minded your real estate agents are! I was in a real hurry to buy a new home in Florida, where I’ve been promoted to at my work… Your real estate agents helped it happen in the shortest time frame!</p>
+                            <div class="cite unit unit-sm-horizontal unit-md-horizontal unit-lg-horizontal unit-middle">
+                              <div class="unit-left"><img src="images/user-03.jpg" width="97" height="97" alt="" class="img-circle img-responsive center-block"></div>
+                              <div class="unit-body"><a href="#" class="text-bold text-base">Mary Whitaker</a>
+                                <p class="offset-top-5 small text-primary">Marketing manager</p>
+                              </div>
+                            </div>
+                          </blockquote>
+                          <br>
+                  </div>
+                </div>
+            
+               </div>
+           </div>
+            </div>
+        </section>
+        
+        
         <!-- PARALAX -->
         <section class="rd-parallax">
             <div data-speed="0.4" data-type="media" data-url="view/componentes/img/trabajaconnosotros.jpg" class="rd-parallax-layer"></div>

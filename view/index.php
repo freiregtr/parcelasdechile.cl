@@ -27,6 +27,7 @@
 
     <!-- UA Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-137903886-1"></script>
+    
 
     <!-- Facebook Pixel Code -->
     <script>
@@ -120,6 +121,8 @@
     <script src="view/componentes/mapsvg/js/mapsvg.min.js"></script>
     <!-- Flip3D -->
     <script src="view/componentes/flip/js/flipbook.min.js"></script>
+    
+    
 
     <?php
 

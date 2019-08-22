@@ -145,7 +145,7 @@
     </main>
     <!-- FIN MAIN-->
     <!-- PARALAX -->
-    <section class="rd-parallax shadow2">
+    <section class="rd-parallax">
         <div data-speed="0.4" data-type="media" data-url="view/componentes/img/trabajaconnosotros.jpg" class="rd-parallax-layer"></div>
         <div data-speed="0" data-type="html" class="rd-parallax-layer">
             <div class="shell section-100 section-lg-top-220 section-lg-bottom-205 context-dark text-md-left">

@@ -56,6 +56,13 @@
             </div>
         </section>
         <!-- PROYECTO EL VOLANTIN DE LA QUEBRADA-->
+        
+        
+        
+        
+        
+        
+        
         <section class=" text-center section-bottom-70 page-header bg-image-elvolantin">
             <div class="shell section-100 section-lg-top-220 section-lg-bottom-205 context-dark">
                 <div><a href="lagochapo" class="label label-primary shadow2">VI Región</a></div>
@@ -79,6 +86,8 @@
                         <h3 class="text-sbold text-base shadow1 text-white">Mt2</h3>
                     </div>
                 </div>
+                 
+                  <div class="offset-top-50"><a href="#" class="btn btn-primary text-regular shadow2">Ver video</a></div>
             </div>
         </section>
         <section class="section-top-45 section-bottom-80">
@@ -292,18 +301,21 @@
 </div>
 <!-- FIN MAIN-->
 <!-- PARALAX -->
-<section class="rd-parallax">
-    <div data-speed="0.4" data-type="media" data-url="view/componentes/img/trabajaconnosotros.jpg" class="rd-parallax-layer"></div>
-    <div data-speed="0" data-type="html" class="rd-parallax-layer">
-        <div class="shell section-100 section-lg-top-220 section-lg-bottom-205 context-dark text-md-left">
-            <hr class="divider">
-            <h2 class="shadow1">Únete nuestro equipo de vendedores</h2>
-            <h4 class="offset-top-25 shadow1">¿Tienes experiencia vendiendo terrenos ?
-                <br class="veil reveal-md-block"></h4>
-            <a href="trabajaconnosotros" class="offset-top-50 btn btn-primary text-regular">Ver más</a>
+ <section class="rd-parallax">
+        <div data-speed="0.4" data-type="media" data-url="view/componentes/img/trabajaconnosotros.jpg" class="rd-parallax-layer"></div>
+        <div data-speed="0" data-type="html" class="rd-parallax-layer">
+            <div class="shell section-100 section-lg-top-220 section-lg-bottom-205 context-dark text-md-left">
+                <hr class="divider">
+                <h2 class="shadow1">Únete nuestro equipo de vendedores</h2>
+                <br>
+                <h4 class="offset-top-25 shadow1">¿Tienes experiencia vendiendo terrenos ?
+                    <br class="veil reveal-md-block"></h4>
+                    <br>
+                    <br>
+                <a href="trabajaconnosotros" class="offset-top-50 btn btn-primary text-regular">Ver más</a>
+            </div>
         </div>
-    </div>
-</section>
+    </section>
 <!-- FOOTER-->
 <footer class="page-footer2">
     <div class="shell">
