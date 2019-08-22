@@ -40,12 +40,6 @@
                 </div>
             </nav>
         </div>
-        
-        
-    
-
-
-       
         <!-- HOME-->
         <div class="shell section-70 section-lg-120 text-md-left">
             <div class="range range-xs-middle">
@@ -205,10 +199,7 @@
                 </div>
             </div>
         </section>
-        
-        
-        
-        <section class="bg-secundary shadow2">
+        <section class="bg-blue">
             <div class="shell section-45 section-lg-45">
            <div class="container">
                <div class="row">
@@ -218,11 +209,24 @@
                      <div class="cell-md-4">
                           <!-- Quote-->
                           <blockquote class="quote quote-variant-1">
-                            <p>I love how fast-minded your real estate agents are! I was in a real hurry to buy a new home in Florida, where I’ve been promoted to at my work… Your real estate agents helped it happen in the shortest time frame!</p>
+                            <p>Margarita : compró una parcela en verde el año 2018 en $4.500.000 y después de un año vendió en $27.000.000.</p>
                             <div class="cite unit unit-sm-horizontal unit-md-horizontal unit-lg-horizontal unit-middle">
                               <div class="unit-left"><img src="images/user-03.jpg" width="97" height="97" alt="" class="img-circle img-responsive center-block"></div>
-                              <div class="unit-body"><a href="#" class="text-bold text-base">Mary Whitaker</a>
-                                <p class="offset-top-5 small text-primary">Marketing manager</p>
+                              <div class="unit-body"><a href="#" class="text-bold text-base">Margarita</a>
+                                <p class="offset-top-5 small text-primary">Vendedora</p>
+                              </div>
+                            </div>
+                          </blockquote>
+                          <br>
+                  </div>
+                  <div class="cell-md-4">
+                          <!-- Quote-->
+                          <blockquote class="quote quote-variant-1">
+                          <p>Luna : compró una parcela en el Lago Chapo en venta en verde a $9.990.000 y hoy después de 6 meses la misma parcela, en la segunda etapa tiene un valor de venta a publico por $18.990.000.</p>
+                            <div class="cite unit unit-sm-horizontal unit-md-horizontal unit-lg-horizontal unit-middle">
+                              <div class="unit-left"><img src="images/user-02.jpg" width="97" height="97" alt="" class="img-circle img-responsive center-block"></div>
+                              <div class="unit-body"><a href="#" class="text-bold text-base">Luna</a>
+                                <p class="offset-top-5 small text-primary">Vendedora</p>
                               </div>
                             </div>
                           </blockquote>
@@ -232,38 +236,23 @@
                   <div class="cell-md-4">
                           <!-- Quote-->
                           <blockquote class="quote quote-variant-1">
-                            <p>I’ve spent tons of time searching for a not-so-expensive condo in Chicago, but as soon as I hired one of your agents, I was finally able to find it and move in!</p>
-                            <div class="cite unit unit-sm-horizontal unit-md-horizontal unit-lg-horizontal unit-middle">
-                              <div class="unit-left"><img src="images/user-02.jpg" width="97" height="97" alt="" class="img-circle img-responsive center-block"></div>
-                              <div class="unit-body"><a href="#" class="text-bold text-base">Emily Maroon</a>
-                                <p class="offset-top-5 small text-primary">Scriptwriter</p>
-                              </div>
-                            </div>
-                          </blockquote>
-                          <br>
-                  </div>
-                 
-                  <div class="cell-md-4">
-                          <!-- Quote-->
-                          <blockquote class="quote quote-variant-1">
-                            <p>I love how fast-minded your real estate agents are! I was in a real hurry to buy a new home in Florida, where I’ve been promoted to at my work… Your real estate agents helped it happen in the shortest time frame!</p>
+                          <p>Dusan Dominic : compro una parcela en verde a $14.990.000 y hoy esa misma parcela en la segunda etapa tiene un valor de venta a publico de  $25.990.000.</p>
                             <div class="cite unit unit-sm-horizontal unit-md-horizontal unit-lg-horizontal unit-middle">
                               <div class="unit-left"><img src="images/user-03.jpg" width="97" height="97" alt="" class="img-circle img-responsive center-block"></div>
-                              <div class="unit-body"><a href="#" class="text-bold text-base">Mary Whitaker</a>
-                                <p class="offset-top-5 small text-primary">Marketing manager</p>
+                              <div class="unit-body"><a href="#" class="text-bold text-base">Dusan</a>
+                                <p class="offset-top-5 small text-primary">Ing. Civil</p>
                               </div>
                             </div>
                           </blockquote>
                           <br>
                   </div>
+                  
                 </div>
             
                </div>
            </div>
             </div>
         </section>
-        
-        
         <!-- PARALAX -->
         <section class="rd-parallax">
             <div data-speed="0.4" data-type="media" data-url="view/componentes/img/trabajaconnosotros.jpg" class="rd-parallax-layer"></div>
