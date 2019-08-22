@@ -50,16 +50,19 @@
                         <div class="owl-item">
                             <hr class="divider veil reveal-md-inline-block">
                             <h1>Parcelación<br>"El Volantín"</h1>
+                            <br>
                             <p class="offset-top-35 shadow1">Parcelas desde los $7.990.000, Un terreno es la mejor forma de asegurar el futuro de tu familia. A solo 138 km de Santiago y con buena conexión con otros destinos.</p>
                         </div>
                         <div class="owl-item">
                             <hr class="divider veil reveal-md-inline-block">
-                            <h1>Segunda Etapa<br>Parcelación<br>"El Volantín"</h1>
+                            <h1>Parcelación<br>"Lago Chapo"</h1>
+                            <br>
                             <p class="offset-top-35">Parcelas desde los $7.990.000, Un terreno es la mejor forma de asegurar el futuro de tu familia. A solo 138 km de Santiago y con buena conexión con otros destinos.</p>
                         </div>
                         <div class="owl-item">
                             <hr class="divider veil reveal-md-inline-block">
-                            <h1>Segunda Etapa<br>Parcelación<br>"El Volantín"</h1>
+                            <h1>Próximente<br>Nuevos Proyectos</h1>
+                            <br>
                             <p class="offset-top-35">Parcelas desde los $7.990.000, Un terreno es la mejor forma de asegurar el futuro de tu familia. A solo 138 km de Santiago y con buena conexión con otros destinos.</p>
                         </div>
                     </div>
@@ -205,7 +208,6 @@
                <div class="row">
                     <h2 class="offset-top-50 section-bottom-30 context-light">Experiencias de Clientes</h2>
                     <div class="range offset-top-30">
-                    
                      <div class="cell-md-4">
                           <!-- Quote-->
                           <blockquote class="quote quote-variant-1">
@@ -232,7 +234,6 @@
                           </blockquote>
                           <br>
                   </div>
-                  
                   <div class="cell-md-4">
                           <!-- Quote-->
                           <blockquote class="quote quote-variant-1">
@@ -246,9 +247,7 @@
                           </blockquote>
                           <br>
                   </div>
-                  
                 </div>
-            
                </div>
            </div>
             </div>

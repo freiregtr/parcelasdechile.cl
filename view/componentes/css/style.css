@@ -704,8 +704,6 @@ a.text-danger:focus {
 
 .bg-secundary {
   background-color: #f7f7f7;
-      box-shadow: 1px 1px 20px -3px rgba(0, 0, 0, 0.2);
-
 }
 
 a.bg-primary:hover,
@@ -2362,6 +2360,7 @@ fieldset[disabled] .btn-link:focus {
 .btn-block {
   display: block;
   width: 100%;
+  border-radius: 5px;
 }
 
 .btn-block + .btn-block {
@@ -23521,7 +23520,7 @@ html.ie-10 .form-control {
 
 .section-45 {
   padding-top: 45px;
-  padding-bottom: 45px;
+  padding-bottom: 45px;  
 }
 
 .section-70 {

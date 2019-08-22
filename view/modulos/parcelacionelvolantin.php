@@ -13,7 +13,6 @@
                         <!-- LOGO-->
                         <div class="rd-navbar-brand"><a href="inicio" class="brand-name"><img src="view/componentes/img/logo/logon.png" height="85" alt="Parcelas de chile"></a>
                         </div>
-
                         <!-- TELÉFONO-->
                         <div class="rd-navbar-contacts rd-navbar-collapse rd-navbar-collapse-2"><span>Contáctanos</span>
                             <div><span class="icon fa-phone text-primary"></span><a href="callto:> +56958053609"></a><a>+56 9 5805 3609</a>
@@ -56,13 +55,6 @@
             </div>
         </section>
         <!-- PROYECTO EL VOLANTIN DE LA QUEBRADA-->
-        
-        
-        
-        
-        
-        
-        
         <section class=" text-center section-bottom-70 page-header bg-image-elvolantin">
             <div class="shell section-100 section-lg-top-220 section-lg-bottom-205 context-dark">
                 <div><a href="lagochapo" class="label label-primary shadow2">VI Región</a></div>
@@ -86,7 +78,6 @@
                         <h3 class="text-sbold text-base shadow1 text-white">Mt2</h3>
                     </div>
                 </div>
-                 
                   <div class="offset-top-50"><a href="#" class="btn btn-primary text-regular shadow2">Ver video</a></div>
             </div>
         </section>
@@ -111,28 +102,33 @@
                                          <p class="section-bottom-30">"Región del Libertador General Bernardo O’Higgins"</p>
                                         <!-- VALORES-->
                                         <div class="row">
-                                            <div class="col-md-4">
+                                            <div class="col-md-6">
+                                                <br>
                                                 <div class="valor4">
                                                     <p>$7.990.000</p>
                                                 </div>
                                             </div>
-                                            <div class="col-md-4">
+                                            <div class="col-md-6">
+                                                <br>
                                                 <div class="valor3">
                                                     <p>$9.990.000</p>
                                                 </div>
                                             </div>
-                                            <div class="col-md-4">
+                                            </div>
+                                            <div class="row">
+                                            <div class="col-md-6">
+                                                <br>
                                                 <div class="valor2">
                                                     <p>$10.990.000</p>
                                                 </div>
                                             </div>
-                                            <div class="col-md-12">
+                                            <div class="col-md-6">
                                                 <br>
                                                 <div class="valor1">
                                                     <p>$9.990.000 - una héctarea</p>
                                                 </div>
                                             </div>
-                                        </div>
+                                            </div>
                                         <br>
                                         <p class="offset-top-40 text-bold text-base">" Por qué tenemos el país más lindo del mundo, creemos que deberías elegir Parcelas de Chile."</p>
                                         <p class="offset-top-20">Marchihue en la Provincia de Cardenal Caro (Región del Libertador General Bernardo O'Higgins) es un lugar en Chile a 138 km al suroeste de Santiago.</p>
@@ -149,55 +145,32 @@
                     <div class="container-fluid">
                         <div class="row">
                             <div class="col-md-6">
-                               
                                 <div class="context-light ">
-                                   
                                     <h2 class="offset-top-35 section-bottom-30">Galería</h2>
                                     <div data-arrows="true" data-loop="false" data-dots="false" data-swipe="true" data-items="1" data-child="#child-carousel" data-for="#child-carousel" class="slick-slider carousel-parent">
-                                       
                                         <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/6.jpg" alt="" width="100%" class="img-responsive"></div>
-
                                         <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/7.jpg" alt="" width="100%" class="img-responsive"></div>
-
                                         <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/8.jpg" alt="" width="100%" class="img-responsive"></div>
-
                                         <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/9.jpg" alt="" width="100%" class="img-responsive"></div>
-
                                         <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/10.jpg" alt="" width="100%" class="img-responsive"></div>
-
                                         <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/14.jpg" alt="" width="100%" class="img-responsive"></div>
-
                                         <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/15.jpg" alt="" width="100%" class="img-responsive"></div>
-
                                     </div>
-                                    
                                     <div id="child-carousel" data-for=".carousel-parent" data-arrows="false" data-loop="false" data-dots="false" data-swipe="true" data-items="3" data-xs-items="3" data-sm-items="4" data-md-items="5" data-lg-items="6" data-slide-to-scroll="1" class="slick-slider slick-child">
-
-                                       
                                         <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/6.jpg" alt="" width="140" height="105"></div>
                                         <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/7.jpg" alt="" width="140" height="105"></div>
-
                                         <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/8.jpg" alt="" width="140" height="105"></div>
-
                                         <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/9.jpg" alt="" width="140" height="105"></div>
-
                                         <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/10.jpg" alt="" width="140" height="105"></div>
-
                                         <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/14.jpg" alt="" width="140" height="105"></div>
-
                                         <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/15.jpg" alt="" width="140" height="105"></div>
-
                                     </div>
-                                    
                                 </div>
-                                
                             </div>
-                            
                             <div class="col-md-6 context-light ">
                                 <h2 class="offset-top-35 section-bottom-30">Mapa</h2>
                                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5997.409358890186!2d-71.57679514920432!3d-34.558943112475276!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzTCsDMzJzMzLjIiUyA3McKwMzQnMjQuNSJX!5e1!3m2!1ses-419!2scl!4v1566400470452!5m2!1ses-419!2scl" width="100%" height="500" frameborder="0" style="border:0" allowfullscreen></iframe>
                             </div>
-                            
                         </div>
                         <hr>
                     </div>
@@ -217,7 +190,6 @@
                         </div>
                     </div>
                 </section>
-                
                 <!-- DESCARGAR BROCHURE-->
                 <section class="section-top-70  section-bottom-70 ">
                    <hr>
@@ -230,7 +202,6 @@
                     </div>
                     <hr>
                 </section>
-                
                 <!-- PLANO 360º-->
                 <section class="section-top-35  section-bottom-70">
                     <div class="container-fluid">
@@ -245,7 +216,6 @@
                         <hr>
                     </div>
                 </section>
-                
                 <!-- OTROS PROYECTOS-->
                 <section class="section-top-35 section-bottom-70">
                     <div class="container-fluid">
@@ -295,7 +265,6 @@
                 <!-- FIN BOTONES SIGUIENTE PROYECTO-->
                 <hr>
             </div>
-
         </section>
     </main>
 </div>
