@@ -42,32 +42,39 @@
         </div>
         <!-- HOME-->
         <div class="shell section-70 section-lg-120 text-md-left">
-            <div class="range range-xs-middle">
+            <div class="row row-xs-middle">
                 <!-- SLIDE HOME-->
-                <div class="col-lg-7 col-md-6">
+                <div class="col-lg-7 col-md-7">
                     <!-- Owl Carousel-->
                     <div data-items="1" data-dots="true" data-margin="30" data-mouse-drag="false" class="context-dark owl-slider owl-carousel">
                         <div class="owl-item">
                             <hr class="divider veil reveal-md-inline-block">
-                            <h1>Parcelación<br>"El Volantín"</h1>
+                            <h1>Bienvenidos a  <br> <span class="text-sbold" > Parcelas De Chile </span></h1>
                             <br>
                             <p class="offset-top-35 shadow1">Parcelas desde los $7.990.000, Un terreno es la mejor forma de asegurar el futuro de tu familia. A solo 138 km de Santiago y con buena conexión con otros destinos.</p>
+                            <div class="offset-top-50"><a href="#" class="btn btn-primary text-regular shadow2">Ver video</a></div>
                         </div>
                         <div class="owl-item">
                             <hr class="divider veil reveal-md-inline-block">
-                            <h1>Parcelación<br>"Lago Chapo"</h1>
+                            <h1>Parcelación El Volantín</h1>
                             <br>
                             <p class="offset-top-35">Parcelas desde los $7.990.000, Un terreno es la mejor forma de asegurar el futuro de tu familia. A solo 138 km de Santiago y con buena conexión con otros destinos.</p>
+                            <div class="offset-top-50"><a href="#" class="btn btn-primary text-regular shadow2">Ver video</a></div>
+
                         </div>
                         <div class="owl-item">
                             <hr class="divider veil reveal-md-inline-block">
-                            <h1>Próximente<br>Nuevos Proyectos</h1>
+                            <h1>Parcelacion Lago Chapo</h1>
                             <br>
                             <p class="offset-top-35">Parcelas desde los $7.990.000, Un terreno es la mejor forma de asegurar el futuro de tu familia. A solo 138 km de Santiago y con buena conexión con otros destinos.</p>
+                            <div class="offset-top-50"><a href="#" class="btn btn-primary text-regular shadow2">Ver video</a></div>
+
                         </div>
                     </div>
                 </div>
-                <!-- TE LLAMAMOS - RD Mailform-->
+                <!--
+
+
                 <div class="col-md-5 cell-lg-4 col-md-preffix-1 offset-top-40 text-left
 ">
                     <div class="well well-base shadow2">
@@ -93,6 +100,9 @@
                     </div>
                 </div>
             </div>
+
+                     -->
+
         </div>
     </header>
     <!-- Page Content-->
@@ -103,7 +113,7 @@
                 <h2 class="offset-top-30 section-bottom-30">Nuestros Proyectos disponibles</h2>
             </div>
         </section>
-        <section id="parcelas shadow2">
+        <section id="parcelas">
             <!-- LAS PARCELAS-->
             <div class="range range-condensed text-sm-left">
                 <!-- LAGO CHAPO-->
@@ -119,16 +129,17 @@
                             <br>
                             <div class="row">
                                 <div class="col-md-6">
-                                    <div class="precios1">
-                                        <div class="precios shadow2">
+                                        <div class="precios shadow2" >
                                             <h3>Desde $ 9.990.000</h3>
-                                        </div>
-                                    </div>
+</div>
                                 </div>
+
                                 <div class="col-md-6 .offset-md-6">
                                 </div>
                             </div>
-                            <h3 class="caption-title"><a href="lagochapo" class="text-white shadow1">Región de los Lagos, Puerto Montt</a></h3><a href="lagochapo" class="btn btn-primary-variant-1">Ver más</a>
+                            <br>
+                            <p class="text-white shadow1 ">Región de los Lagos, Puerto Montt</p>
+                            <a href="lagochapo" class="btn btn-primary-variant-1">Ver más</a>
                         </div>
                     </div>
                 </div>
@@ -143,20 +154,28 @@
                             <hr class="divider veil reveal-md-inline-block shadow2">
                             <h2 class="context-dark shadow1">Parcelación<br>El Volantín</h2>
                             <br>
+
                             <div class="row">
                                 <div class="col-md-6">
+
                                     <div class="precios shadow2">
                                         <h3>Desde $ 7.990.000</h3>
-                                    </div>
+</div>
+
                                 </div>
                                 <div class="col-md-6 .offset-md-6">
                                 </div>
                             </div>
-                            <h3 class="caption-title"><a href="parcelacionelvolantin" class="text-white shadow1">Región de Libertador O’Higgins</a></h3><a href="parcelacionelvolantin" class="btn btn-primary-variant-1">Ver más</a>
+                            <br>
+                            <p class="text-white shadow1 ">Región de Libertador O’Higgins</p>
+                            <a href="parcelacionelvolantin" class="btn btn-primary-variant-1">Ver más</a>
                         </div>
                     </div>
                 </div>
             </div>
+
+
+
         </section>
         <!-- NEWSLETTERS-->
         <section class="bg-secundary section-45">
@@ -208,12 +227,12 @@
                <div class="row">
                     <h2 class="offset-top-50 section-bottom-30 context-light">Experiencias de Clientes</h2>
                     <div class="range offset-top-30">
-                     <div class="cell-md-4">
+                     <div class="col-md-4">
                           <!-- Quote-->
                           <blockquote class="quote quote-variant-1">
                             <p>Margarita : compró una parcela en verde el año 2018 en $4.500.000 y después de un año vendió en $27.000.000.</p>
                             <div class="cite unit unit-sm-horizontal unit-md-horizontal unit-lg-horizontal unit-middle">
-                              <div class="unit-left"><img src="images/user-03.jpg" width="97" height="97" alt="" class="img-circle img-responsive center-block"></div>
+                              <div class="unit-left"><img src="view/componentes/img/vendedores/margarita301.jpg" width="97" height="97" alt="" class="img-circle img-responsive center-block"></div>
                               <div class="unit-body"><a href="#" class="text-bold text-base">Margarita</a>
                                 <p class="offset-top-5 small text-primary">Vendedora</p>
                               </div>
@@ -221,12 +240,12 @@
                           </blockquote>
                           <br>
                   </div>
-                  <div class="cell-md-4">
+                  <div class="col-md-4">
                           <!-- Quote-->
                           <blockquote class="quote quote-variant-1">
                           <p>Luna : compró una parcela en el Lago Chapo en venta en verde a $9.990.000 y hoy después de 6 meses la misma parcela, en la segunda etapa tiene un valor de venta a publico por $18.990.000.</p>
                             <div class="cite unit unit-sm-horizontal unit-md-horizontal unit-lg-horizontal unit-middle">
-                              <div class="unit-left"><img src="images/user-02.jpg" width="97" height="97" alt="" class="img-circle img-responsive center-block"></div>
+                              <div class="unit-left"><img src="view/componentes/img/vendedores/user-03.jpg" width="97" height="97" alt="" class="img-circle img-responsive center-block"></div>
                               <div class="unit-body"><a href="#" class="text-bold text-base">Luna</a>
                                 <p class="offset-top-5 small text-primary">Vendedora</p>
                               </div>
@@ -234,12 +253,12 @@
                           </blockquote>
                           <br>
                   </div>
-                  <div class="cell-md-4">
+                  <div class="col-md-4">
                           <!-- Quote-->
                           <blockquote class="quote quote-variant-1">
                           <p>Dusan Dominic : compro una parcela en verde a $14.990.000 y hoy esa misma parcela en la segunda etapa tiene un valor de venta a publico de  $25.990.000.</p>
                             <div class="cite unit unit-sm-horizontal unit-md-horizontal unit-lg-horizontal unit-middle">
-                              <div class="unit-left"><img src="images/user-03.jpg" width="97" height="97" alt="" class="img-circle img-responsive center-block"></div>
+                              <div class="unit-left"><img src="view/componentes/img/vendedores/user-05.jpg" width="97" height="97" alt="" class="img-circle img-responsive center-block"></div>
                               <div class="unit-body"><a href="#" class="text-bold text-base">Dusan</a>
                                 <p class="offset-top-5 small text-primary">Ing. Civil</p>
                               </div>

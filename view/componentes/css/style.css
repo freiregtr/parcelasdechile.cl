@@ -758,36 +758,31 @@ ol {
   margin-top: 0;
   margin-bottom: 12px;
 }
-.precios{
-    background-color: #1A5594;
-    width: 100%;
-    padding: 10px;
-    
+.precios {
+  width: 100%;
+  padding: 10px;
+  color: #fff;
+  background-color: #1a559475;
 }
 
 .logoinv{
     padding: 10px;
 }
-
 @media (min-width: 736px) {
   .precios{
     justify-content: center;
   }
 }
-
-
 ul ul,
 ul ol,
 ol ul,
 ol ol {
   margin-bottom: 0;
 }
-
 .list-unstyled {
   padding-left: 0;
   list-style: none;
 }
-
 .list-inline {
   padding-left: 0;
   list-style: none;
@@ -1895,8 +1890,6 @@ select[multiple].input-lg,
   }
 }
 
-
-
 .valor1{
     background-color: rgba(192,46,56,1);
     color: #fff;
@@ -1938,7 +1931,6 @@ select[multiple].input-lg,
 .valor4 p{
     margin: 5px;
 }
-
 
 
 .btn {
@@ -4719,7 +4711,7 @@ a.label:hover, a.label:focus {
 }
 
 .label-primary {
-  background-color: #00942e;
+  background-color: #1a5594;
 }
 
 .label-primary[href]:hover, .label-primary[href]:focus {
@@ -4727,7 +4719,7 @@ a.label:hover, a.label:focus {
 }
 
 .label-primary[href]:hover {
-  background-color: #279443;
+  background-color: #1a5594;
   color: #fff;
 }
 
@@ -10385,7 +10377,7 @@ blockquote cite {
   display: block;
   font: bold 110px/1em "Times New Roman", serif;
   margin-bottom: -35px;
-  color: #00942e;
+  color: #1a5594;
 }
 
 .quote .h6,
@@ -10522,14 +10514,17 @@ fieldset[disabled] .bg-gray-base .btn-primary {
 }
 
 .bg-image-01 {
-  background: url(../img/home3.jpg);
+  background: url(../img/home3.jpg) ;
   background-size: cover;
+  width: 100%;
+  height: 100%;
+  
 
 }
-
 .bg-image-lagochapo {
   background: url(../img/proyectos/lago_chapo/lagochapo.jpg);
   background-size: cover;
+  border-image-width: 100%;
 
 }
 
@@ -10568,7 +10563,7 @@ h1{
 .context-dark,
 .context-dark h1, .context-dark h2, .context-dark h3, .context-dark h4, .context-dark h5, .context-dark h6, .context-dark .h1, .context-dark .h2, .context-dark .h3, .context-dark .h4, .context-dark .h5, .context-dark .h6 {
   color: #fff;
-  font-weight: 600;
+  font-weight: 400;
 
 
 }
@@ -19815,7 +19810,7 @@ fieldset[disabled] .btn-white {
 }
 
 .icon-primary {
-  color: #00942e;
+  color: #1a5594;
 }
 .icon-secundary{
   color: #fff;
@@ -24958,11 +24953,11 @@ fieldset[disabled] .well .btn-base {
 }
 
 .well-dark {
-  background-color: #0a1923;
+  background-color: #1a5594;
 }
 
 .well-base {
-  background-color: rgba(26, 85, 148, 0.5);
+  background-color: rgb(26, 85, 148);
   padding: 30px 15px;
 }
 
@@ -29347,7 +29342,7 @@ html:not(.lt-ie10) .not-animated {
 .rd-navbar-fullwidth .rd-navbar-dropdown {
   margin-left: -70px;
   width: 208px;
-  background: #f3f3f4;
+  background: #f3f3f3;
   box-shadow: 1px 1px 20px -3px rgba(0, 0, 0, 0.2);
 }
 
@@ -29792,8 +29787,8 @@ html:not(.lt-ie10) .not-animated {
   left: 0;
   bottom: 0;
   top: 0;
-  color: #fff;
-  background: #1A5594;
+  color: #999999;
+  background: #f7f7f7;
   -webkit-transform: translateX(-120%);
   transform: translateX(-120%);
 }
@@ -29837,7 +29832,7 @@ html:not(.lt-ie10) .not-animated {
 
 .rd-navbar-fixed .rd-navbar-nav li > a {
   padding: 11px 56px 11px 16px;
-  color: #fff;
+  color: #999999;
   text-transform: lowercase;
 }
 
@@ -29846,7 +29841,7 @@ html:not(.lt-ie10) .not-animated {
 }
 
 .rd-navbar-fixed .rd-navbar-nav li.active > a, .rd-navbar-fixed .rd-navbar-nav li.opened > a, .rd-navbar-fixed .rd-navbar-nav li:hover > a {
-  background-color: #00942E;
+  background-color: #1a5594;
   color: #fff;
 }
 
@@ -29874,7 +29869,7 @@ html:not(.lt-ie10) .not-animated {
 }
 
 .rd-navbar-fixed .rd-navbar-nav li > .rd-navbar-submenu-toggle {
-  color: #fff;
+  color:#fff;
 }
 
 .rd-navbar-fixed .rd-navbar-nav li > .rd-navbar-submenu-toggle:hover {
@@ -29918,7 +29913,7 @@ html:not(.lt-ie10) .not-animated {
   text-align: center;
   transition: 0.4s all ease;
   z-index: 2;
-  color: #fff;
+  color: #1a5594;
 }
 
 .rd-navbar-fixed .rd-navbar-collapse {
@@ -33110,7 +33105,7 @@ html.tablet .slick-slider .slick-next {
   display: inline-block;
   font-family: "Material Design Icons";
   font-size: 36px;
-  color: #00942e;
+  color: #1a5594;;
   transform: rotate(90deg);
   transition: .3s;
   font-weight: 400;
@@ -33238,7 +33233,7 @@ html.tablet .slick-slider .slick-next {
   .accordion-type-2__mod-1 .accordion-title:before {
     position: absolute;
     left: 0;
-    background-color: #00942e;
+    background-color: #1a5594;
     color: #fff;
     display: inline-block;
     width: 50px;

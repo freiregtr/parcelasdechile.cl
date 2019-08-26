@@ -51,7 +51,7 @@
                     <li class="active">Quienes somos</li>
                 </ol>
             </div>
-        </section>  
+        </section>
         <section class="section-top-70 section-bottom-80">
             <div class="shell text-md-left">
                 <div class="row">
@@ -76,11 +76,6 @@
                             </div>
                         </div>
                     </div>
-                    
-                    
-                    
-                    
-
                 </div>
             </div>
         </section>
@@ -93,7 +88,6 @@
                                                                                                    <hr>
 
                                 <div class="col-md-2 offset-md-2">
-                                    
                                 </div>
                                 <div class="col-md-8 text-center">
 

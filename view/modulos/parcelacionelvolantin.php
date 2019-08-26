@@ -78,7 +78,7 @@
                         <h3 class="text-sbold text-base shadow1 text-white">Mt2</h3>
                     </div>
                 </div>
-                  <div class="offset-top-50"><a href="#" class="btn btn-primary text-regular shadow2">Ver video</a></div>
+                <div class="offset-top-50"><a href="#" class="btn btn-primary text-regular shadow2">Ver video</a></div>
             </div>
         </section>
         <section class="section-top-45 section-bottom-80">
@@ -96,10 +96,10 @@
                                         <div class="row" id="volantinSvg"></div>
                                     </div>
                                     <div class="col-md-6">
-                                         <div class="context-light">
+                                        <div class="context-light">
                                             <h2 class="offset-top-50 section-bottom-30">Parcelación "El Volantín"</h2>
                                         </div>
-                                         <p class="section-bottom-30">"Región del Libertador General Bernardo O’Higgins"</p>
+                                        <p class="section-bottom-30">"Región del Libertador General Bernardo O’Higgins"</p>
                                         <!-- VALORES-->
                                         <div class="row">
                                             <div class="col-md-6">
@@ -114,8 +114,8 @@
                                                     <p>$9.990.000</p>
                                                 </div>
                                             </div>
-                                            </div>
-                                            <div class="row">
+                                        </div>
+                                        <div class="row">
                                             <div class="col-md-6">
                                                 <br>
                                                 <div class="valor2">
@@ -128,7 +128,7 @@
                                                     <p>$9.990.000 - una héctarea</p>
                                                 </div>
                                             </div>
-                                            </div>
+                                        </div>
                                         <br>
                                         <p class="offset-top-40 text-bold text-base">" Por qué tenemos el país más lindo del mundo, creemos que deberías elegir Parcelas de Chile."</p>
                                         <p class="offset-top-20">Marchihue en la Provincia de Cardenal Caro (Región del Libertador General Bernardo O'Higgins) es un lugar en Chile a 138 km al suroeste de Santiago.</p>
@@ -191,8 +191,7 @@
                     </div>
                 </section>
                 <!-- DESCARGAR BROCHURE-->
-                <section class="section-top-70  section-bottom-70 ">
-                   <hr>
+                <section class="section-top-70  section-bottom-70 bg-blue ">
                     <div class="container-fluid">
                         <div class="card text-center">
                             <div class="card-body ">
@@ -200,7 +199,6 @@
                             </div>
                         </div>
                     </div>
-                    <hr>
                 </section>
                 <!-- PLANO 360º-->
                 <section class="section-top-35  section-bottom-70">
@@ -216,17 +214,25 @@
                         <hr>
                     </div>
                 </section>
+            
                 <!-- OTROS PROYECTOS-->
                 <section class="section-top-35 section-bottom-70">
                     <div class="container-fluid">
                         <div class="row">
                             <div class="col-md-12 text-center">
-                                <div class="context-light">
+                               
+                               
+                                
+                                <div class="offset-top-30 ">
+                                    <div class="row">
+                                    
+    
+                                       <div class="col-md-6">
+                                            <div class="context-light">
                                     <h2 class="offset-top-35 section-bottom-30">Otros proyectos</h2>
                                 </div>
-                                <div class="offset-top-30 bg-image-lagochapo well-transparent context-dark">
-                                    <div class="row">
-                                        <div class="col-md-12 col-lg-12">
+                                            <div class="bg-image-lagochapo well-transparent context-dark">
+                                           
                                             <div data-dots="true" data-items="1" data-margin="30" data-mouse-drag="false" class="owl-carousel owl-dots-sm">
                                                 <div>
                                                     <br>
@@ -237,6 +243,7 @@
                                                     <p class="shadow1" class="offset-top-30">En el Lago Chapo podemos Disfrutar navegando <br>con la hermosa vista del Volcán Calbuco, y si eres de las personas <br>que ama la naturaleza deberías recorrer los senderos de la Reserva Nacional Llanquihue.</p>
                                                     <a href="lagochapo" class="offset-top-20 btn btn-primary text-regular shadow2">Ver más</a>
                                                 </div>
+                                                
                                                 <div>
                                                     <br>
                                                     <h2 class="shadow1">Parcelación El Volantín</h2>
@@ -246,8 +253,39 @@
                                                     <p class="shadow1" class="offset-top-30">Marchihue en la Provincia de Cardenal Caro <br> (Región del Libertador General Bernardo O'Higgins)<br>es un lugar en Chile a 138 km al suroeste de Santiago.</p>
                                                     <a href="parcelacionelvolantin" class="offset-top-20 btn btn-primary text-regular shadow2">Ver más</a>
                                                 </div>
+                                                
                                             </div>
                                         </div>
+                                       </div>
+                                        
+                                        <div class="col-md-6">
+                                         <div class="context-light">
+                                    <h2 class="offset-top-35 section-bottom-30">Formulario</h2>
+                                </div>
+                                <div class="well well-dark">
+                                    <h3 class="text-center"> ¿Te llamamos?</h3>
+                                    <hr>
+                                    <form action="view/componentes/bat/rd-mailform.php" data-form-output="form-output-global" data-form-type="inicio" method="POST" class="offset-top-30 text-left rd-mailform">
+                                        <div class="form-group">
+                                            <label class="form-label-static form-label-outside"></label>
+                                            <input type="text" id="contact-name" name="nombre" data-constraints="@Required" class="form-control" placeholder="Nombre Completo">
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="form-label-static form-label-outside"></label>
+                                            <input type="email" id="contact-email" name="email" data-constraints="@Email @Required" class="form-control" placeholder="Correo Electrónico">
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="form-label-static form-label-outside"></label>
+                                            <input type="text" id="contact-phone" name="numero" data-constraints="@Numeric @Required" class="form-control" placeholder="Teléfono">
+                                        </div>
+                                        <br>
+                                        <br>
+                                        <div class="offset-top-10">
+                                            <button type="submit" class="btn btn-block btn-primary ">Enviar</button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
                                     </div>
                                 </div>
                             </div>
@@ -264,27 +302,31 @@
                 </div>
                 <!-- FIN BOTONES SIGUIENTE PROYECTO-->
                 <hr>
+
             </div>
         </section>
+
     </main>
+
 </div>
 <!-- FIN MAIN-->
+
 <!-- PARALAX -->
- <section class="rd-parallax">
-        <div data-speed="0.4" data-type="media" data-url="view/componentes/img/trabajaconnosotros.jpg" class="rd-parallax-layer"></div>
-        <div data-speed="0" data-type="html" class="rd-parallax-layer">
-            <div class="shell section-100 section-lg-top-220 section-lg-bottom-205 context-dark text-md-left">
-                <hr class="divider">
-                <h2 class="shadow1">Únete nuestro equipo de vendedores</h2>
-                <br>
-                <h4 class="offset-top-25 shadow1">¿Tienes experiencia vendiendo terrenos ?
-                    <br class="veil reveal-md-block"></h4>
-                    <br>
-                    <br>
-                <a href="trabajaconnosotros" class="offset-top-50 btn btn-primary text-regular">Ver más</a>
-            </div>
+<section class="rd-parallax">
+    <div data-speed="0.4" data-type="media" data-url="view/componentes/img/trabajaconnosotros.jpg" class="rd-parallax-layer"></div>
+    <div data-speed="0" data-type="html" class="rd-parallax-layer">
+        <div class="shell section-100 section-lg-top-220 section-lg-bottom-205 context-dark text-md-left">
+            <hr class="divider">
+            <h2 class="shadow1">Únete nuestro equipo de vendedores</h2>
+            <br>
+            <h4 class="offset-top-25 shadow1">¿Tienes experiencia vendiendo terrenos ?
+                <br class="veil reveal-md-block"></h4>
+            <br>
+            <br>
+            <a href="trabajaconnosotros" class="offset-top-50 btn btn-primary text-regular">Ver más</a>
         </div>
-    </section>
+    </div>
+</section>
 <!-- FOOTER-->
 <footer class="page-footer2">
     <div class="shell">
@@ -348,6 +390,6 @@
 </div>
 <!-- Inicio Div chat -->
 <?php
-        include "chat.php";
-        ?>
+include "chat.php";
+?>
 <!-- Fin Div chat -->
