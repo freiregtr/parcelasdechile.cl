@@ -25016,6 +25016,10 @@ fieldset[disabled] .well-base .btn-primary {
   background-color: #fff;
 }
 
+.space{
+    padding: 20px;
+}
+
 .well-base .form-control,
 .well-base .select2-container--bootstrap .select2-selection {
   background-color: #fff;

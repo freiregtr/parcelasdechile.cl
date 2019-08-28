@@ -35,6 +35,8 @@
                             <li><a href="trabajaconnosotros">Trabaja con nosotros</a></li>
                             <li><a href="contacto">Contacto</a></li>
                             <li><a href="faq">FAQ</a></li>
+                            <li><a href="10razones">Blog</a></li>
+
                         </ul>
                     </div>
                 </div>
@@ -130,7 +132,7 @@
                             <div class="row">
                                 <div class="col-md-6">
                                         <div class="precios shadow2" >
-                                            <h3>Desde $ 9.990.000</h3>
+                                            <h3>Totamente vendido</h3>
 </div>
                                 </div>
 
@@ -258,7 +260,7 @@
                           <blockquote class="quote quote-variant-1">
                           <p>Dusan Dominic : compro una parcela en verde a $14.990.000 y hoy esa misma parcela en la segunda etapa tiene un valor de venta a publico de  $25.990.000.</p>
                             <div class="cite unit unit-sm-horizontal unit-md-horizontal unit-lg-horizontal unit-middle">
-                              <div class="unit-left"><img src="view/componentes/img/vendedores/user-05.jpg" width="97" height="97" alt="" class="img-circle img-responsive center-block"></div>
+                              <div class="unit-left"><img src="view/componentes/img/vendedores/dusan301.jpg" width="97" height="97" alt="" class="img-circle img-responsive center-block"></div>
                               <div class="unit-body"><a href="#" class="text-bold text-base">Dusan</a>
                                 <p class="offset-top-5 small text-primary">Ing. Civil</p>
                               </div>
@@ -288,14 +290,15 @@
     <!-- FOOTER-->
     <footer class="page-footer2">
         <div class="shell section-45 section-lg-30">
-            <h2 class="offset-top-50 section-bottom-30 context-light">Nuestros inversionistas</h2>
+            <h2 class="offset-top-50 section-bottom-30 context-light">Empresas partner</h2>
             <div class="range">
-                <div class="cell-md-3">
+                <div class="cell-md-2">
                 </div>
-                <div class="cell-md-6">
+                <div class="cell-md-8">
                     <img src="view/componentes/img/inversionistas/teyco.png" class="logoinv" alt="" height="50%">
                     <img src="view/componentes/img/inversionistas/afondo.png" class="logoinv" alt="" height="50%">
                     <img src="view/componentes/img/inversionistas/sbk.png" class="logoinv" alt="" height="50%">
+                     <img src="view/componentes/img/inversionistas/scs.png" class="logoinv" alt="" height="50%">
                 </div>
             </div>
         </div>

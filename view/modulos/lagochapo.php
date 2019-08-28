@@ -37,6 +37,8 @@
                             <li><a href="trabajaconnosotros">Trabaja con nosotros</a></li>
                             <li><a href="contacto">Contacto</a></li>
                             <li><a href="faq">FAQ</a></li>
+                            <li><a href="10razones">Blog</a></li>
+
                         </ul>
                     </div>
                 </div>
@@ -65,7 +67,7 @@
                 <div class="range offset-top-30 text-center">
                     <div class="cell-sm-4">
                         <!-- CountTo-->
-                        <div data-from="0" data-to="1" class="counter shadow1 text-medium"></div>
+                        <div data-from="0" data-to="0" class="counter shadow1 text-medium"></div>
                         <h3 class="text-sbold text-base shadow1 text-white">Parcela</h3>
                     </div>
                     <div class="cell-sm-4">
@@ -95,9 +97,9 @@
                                     </div>
                                     <div class="col-md-6">
                                         <div class="context-light">
-                                            <h2 class="offset-top-50 section-bottom-30">Lago Chapo</h2>
+                                            <h2 class="offset-top-50 section-bottom-30">Lago Chapo "Vendido"</h2>
                                         </div>
-                                        <p class="section-bottom-30">"Últimas parcelas disponibles"</p>
+                                        <p class="section-bottom-30">"Totalmente vendido"</p>
                                         <!-- VALORES-->
                                         <div class="row">
                                             <div class="col-md-6">
@@ -113,7 +115,6 @@
                                         </div>
                                         <p class="offset-top-40 text-bold text-base">" Por qué tenemos el país más lindo del mundo, creemos que
                                             deberías elegir Parcelas de Chile."</p>
-                                            
                                         <p class="offset-top-20">Una de las maravillas que podemos encontrar en la zona del Lago Chapo es Disfrutar navegando con la hermosa vista del Volcán Calbuco, y si eres de las personas que ama la naturaleza deberías recorrer los senderos de la Reserva Nacional Llanquihue, una de las más lindas de Chile.</p>
                                     </div>
                                 </div>
@@ -173,7 +174,6 @@
                                         <div class="context-light">
                                             <h2 class="offset-top-35 section-bottom-30">Otros proyectos</h2>
                                         </div>
-
                                         <div class="offset-top-30 bg-image-elvolantin well-transparent context-dark">
                                             <div class="range">
                                                 <div class="col-md-12 col-lg-12">
