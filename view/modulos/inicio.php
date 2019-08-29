@@ -51,10 +51,12 @@
                     <div data-items="1" data-dots="true" data-margin="30" data-mouse-drag="false" class="context-dark owl-slider owl-carousel">
                         <div class="owl-item">
                             <hr class="divider veil reveal-md-inline-block">
-                            <h1>Bienvenidos a  <br> <span class="text-sbold"> Parcelas De Chile </span></h1>
+                            <h1>Bienvenidos a <br> <span class="text-sbold"> Parcelas De Chile </span></h1>
                             <br>
                             <p class="offset-top-35 shadow1">Parcelas desde los $7.990.000, Un terreno es la mejor forma de asegurar el futuro de tu familia. A solo 138 km de Santiago y con buena conexión con otros destinos.</p>
-                            <div class="offset-top-50"><a href="#" class="btn btn-primary text-regular shadow2">Ver video</a></div>
+                            <button type="button" class="btn btn-primary video-btn" data-toggle="modal" data-src="https://www.youtube.com/embed/Jfrjeg26Cwk" data-target="#myModal">
+                                ver video
+                            </button>
                         </div>
                         <div class="owl-item">
                             <hr class="divider veil reveal-md-inline-block">
@@ -105,7 +107,7 @@
 
                      -->
 
-        </div>
+            </div>
     </header>
     <!-- Page Content-->
     <main class="page-content">
@@ -131,9 +133,9 @@
                             <br>
                             <div class="row">
                                 <div class="col-md-6">
-                                        <div class="precios shadow2" >
-                                            <h3>Totamente vendido</h3>
-</div>
+                                    <div class="precios shadow2">
+                                        <h3>Totamente vendido</h3>
+                                    </div>
                                 </div>
 
                                 <div class="col-md-6 .offset-md-6">
@@ -162,7 +164,7 @@
 
                                     <div class="precios shadow2">
                                         <h3>Desde $ 7.990.000</h3>
-</div>
+                                    </div>
 
                                 </div>
                                 <div class="col-md-6 .offset-md-6">
@@ -225,52 +227,52 @@
         </section>
         <section class="bg-blue">
             <div class="shell section-45 section-lg-45">
-           <div class="container">
-               <div class="row">
-                    <h2 class="offset-top-50 section-bottom-30 context-light">Experiencias de Clientes</h2>
-                    <div class="range offset-top-30">
-                     <div class="col-md-4">
-                          <!-- Quote-->
-                          <blockquote class="quote quote-variant-1">
-                            <p><span class="text-sbold">Margarita Ramirez: </span> Yo me Compré una parcela en verde el año 2018 en $4.500.000 y después de un año la vendí en $27.000.000. De ahí en adelante aprendí sobre la rentabilidad de los terrenos en Chile.</p>
-                            <div class="cite unit unit-sm-horizontal unit-md-horizontal unit-lg-horizontal unit-middle">
-                              <div class="unit-left"><img src="view/componentes/img/vendedores/margarita301.jpg" width="97" height="97" alt="" class="img-circle img-responsive center-block"></div>
-                              <div class="unit-body"><a href="#" class="text-bold text-base">Margarita Ramirez</a>
-                                <p class="offset-top-5 small text-primary">Ejecutiva de ventas</p>
-                              </div>
+                <div class="container">
+                    <div class="row">
+                        <h2 class="offset-top-50 section-bottom-30 context-light">Experiencias de Clientes</h2>
+                        <div class="range offset-top-30">
+                            <div class="col-md-4">
+                                <!-- Quote-->
+                                <blockquote class="quote quote-variant-1">
+                                    <p><span class="text-sbold">Margarita Ramirez: </span> Yo me Compré una parcela en verde el año 2018 en $4.500.000 y después de un año la vendí en $27.000.000. De ahí en adelante aprendí sobre la rentabilidad de los terrenos en Chile.</p>
+                                    <div class="cite unit unit-sm-horizontal unit-md-horizontal unit-lg-horizontal unit-middle">
+                                        <div class="unit-left"><img src="view/componentes/img/vendedores/margarita301.jpg" width="97" height="97" alt="" class="img-circle img-responsive center-block"></div>
+                                        <div class="unit-body"><a href="#" class="text-bold text-base">Margarita Ramirez</a>
+                                            <p class="offset-top-5 small text-primary">Ejecutiva de ventas</p>
+                                        </div>
+                                    </div>
+                                </blockquote>
+                                <br>
                             </div>
-                          </blockquote>
-                          <br>
-                  </div>
-                  <div class="col-md-4">
-                          <!-- Quote-->
-                          <blockquote class="quote quote-variant-1">
-                          <p><span  class="text-sbold">Luna Huerta: </span>Compré una parcela en el Lago Chapo en venta en verde en enero a $9.990.000 y después de 6 meses la misma parcela, en la segunda etapa ya tenia un valor a publico de $18.990.000. ya estoy en la busqueda de mi segunda parcela.</p>
-                            <div class="cite unit unit-sm-horizontal unit-md-horizontal unit-lg-horizontal unit-middle">
-                              <div class="unit-left"><img src="view/componentes/img/vendedores/luna301.jpg" width="97" height="97" alt="" class="img-circle img-responsive center-block"></div>
-                              <div class="unit-body"><a href="#" class="text-bold text-base">Luna Huerta</a>
-                                <p class="offset-top-5 small text-primary">Profesora de Yoga</p>
-                              </div>
+                            <div class="col-md-4">
+                                <!-- Quote-->
+                                <blockquote class="quote quote-variant-1">
+                                    <p><span class="text-sbold">Luna Huerta: </span>Compré una parcela en el Lago Chapo en venta en verde en enero a $9.990.000 y después de 6 meses la misma parcela, en la segunda etapa ya tenia un valor a publico de $18.990.000. ya estoy en la busqueda de mi segunda parcela.</p>
+                                    <div class="cite unit unit-sm-horizontal unit-md-horizontal unit-lg-horizontal unit-middle">
+                                        <div class="unit-left"><img src="view/componentes/img/vendedores/luna301.jpg" width="97" height="97" alt="" class="img-circle img-responsive center-block"></div>
+                                        <div class="unit-body"><a href="#" class="text-bold text-base">Luna Huerta</a>
+                                            <p class="offset-top-5 small text-primary">Profesora de Yoga</p>
+                                        </div>
+                                    </div>
+                                </blockquote>
+                                <br>
                             </div>
-                          </blockquote>
-                          <br>
-                  </div>
-                  <div class="col-md-4">
-                          <!-- Quote-->
-                          <blockquote class="quote quote-variant-1">
-                          <p><span class="text-sbold">Dusan Domancic:</span> Yo me compré una parcela en verde a $14.990.000 y hoy esa misma parcela en la segunda etapa tiene un valor de venta a publico de  $25.990.000. Estoy arrepentido de no haber comprado otra altiro.</p>
-                            <div class="cite unit unit-sm-horizontal unit-md-horizontal unit-lg-horizontal unit-middle">
-                              <div class="unit-left"><img src="view/componentes/img/vendedores/dusan301.jpg" width="97" height="97" alt="" class="img-circle img-responsive center-block"></div>
-                              <div class="unit-body"><a href="#" class="text-bold text-base">Dusan Domancic</a>
-                                <p class="offset-top-5 small text-primary">Ing. Civil</p>
-                              </div>
+                            <div class="col-md-4">
+                                <!-- Quote-->
+                                <blockquote class="quote quote-variant-1">
+                                    <p><span class="text-sbold">Dusan Domancic:</span> Yo me compré una parcela en verde a $14.990.000 y hoy esa misma parcela en la segunda etapa tiene un valor de venta a publico de $25.990.000. Estoy arrepentido de no haber comprado otra altiro.</p>
+                                    <div class="cite unit unit-sm-horizontal unit-md-horizontal unit-lg-horizontal unit-middle">
+                                        <div class="unit-left"><img src="view/componentes/img/vendedores/dusan301.jpg" width="97" height="97" alt="" class="img-circle img-responsive center-block"></div>
+                                        <div class="unit-body"><a href="#" class="text-bold text-base">Dusan Domancic</a>
+                                            <p class="offset-top-5 small text-primary">Ing. Civil</p>
+                                        </div>
+                                    </div>
+                                </blockquote>
+                                <br>
                             </div>
-                          </blockquote>
-                          <br>
-                  </div>
+                        </div>
+                    </div>
                 </div>
-               </div>
-           </div>
             </div>
         </section>
         <!-- PARALAX -->
@@ -298,7 +300,7 @@
                     <img src="view/componentes/img/inversionistas/teyco.png" class="logoinv" alt="" height="50%">
                     <img src="view/componentes/img/inversionistas/afondo.png" class="logoinv" alt="" height="50%">
                     <img src="view/componentes/img/inversionistas/sbk.png" class="logoinv" alt="" height="50%">
-                     <img src="view/componentes/img/inversionistas/scs.png" class="logoinv" alt="" height="50%">
+                    <img src="view/componentes/img/inversionistas/scs.png" class="logoinv" alt="" height="50%">
                 </div>
             </div>
         </div>
@@ -366,5 +368,27 @@
     ?>
     <!-- Fin Div chat -->
 </div>
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+
+
+            <div class="modal-body">
+
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <!-- 16:9 aspect ratio -->
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="" id="video" allowscriptaccess="always" allow="autoplay"></iframe>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
 <!-- Global Mailform Output-->
 <div id="form-output-global" class="snackbars"></div>

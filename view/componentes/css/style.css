@@ -33409,3 +33409,28 @@ html.tablet .slick-slider .slick-next {
   stroke: rgba(136, 146, 152, 0.05);
 }
 
+/* --------- MODAL VIDEO YUTUH ----------- */
+.modal-dialog {
+  width: 100%;
+  position: center;
+  max-width: 1200px;
+  margin: 30px auto;
+}
+
+
+
+.modal-body {
+position: relative;
+padding:0px;
+}
+.close {
+position:absolute;
+right:-30px;
+top:0;
+z-index:999;
+font-size:2rem;
+font-weight: normal;
+color:#fff;
+opacity:1;
+}
+
