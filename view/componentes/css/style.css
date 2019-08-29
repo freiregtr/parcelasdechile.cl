@@ -1932,6 +1932,19 @@ select[multiple].input-lg,
     margin: 5px;
 }
 
+.valor5{
+    background-color: rgba(88,89,89,1);
+    color: #fff;
+    text-align: center;
+}
+.valor5 p{
+    margin: 5px;
+}
+
+html {
+	font-size: 16px;
+}
+
 
 .btn {
   display: inline-block;
@@ -11161,7 +11174,7 @@ fieldset[disabled] .btn-white {
   border-radius: 0;
 }
 
-.btn.btn-icon .icon {
+.btn.btn-icon .icon1 {
   font-size: 28px;
   line-height: 28px;
   vertical-align: middle;
@@ -11173,13 +11186,13 @@ fieldset[disabled] .btn-white {
 }
 
 @media (min-width: 480px) {
-  .btn.btn-icon-left .icon {
+  .btn.btn-icon-left .icon1 {
     padding-right: 10px;
   }
 }
 
 @media (min-width: 480px) {
-  .btn.btn-icon-right .icon {
+  .btn.btn-icon-right .icon1 {
     padding-left: 10px;
   }
 }
@@ -17081,6 +17094,7 @@ fieldset[disabled] .btn-white {
 }
 
 /* makes the font 33% larger relative to the icon container */
+
 .fa-lg {
   font-size: 1.33333333em;
   line-height: 0.75em;
@@ -17275,6 +17289,7 @@ fieldset[disabled] .btn-white {
 
 /* Font Awesome uses the Unicode Private Use Area (PUA) to ensure screen
    readers do not read off random characters that represent icons */
+
 .fa-glass:before {
   content: "\f000";
 }
@@ -19789,12 +19804,12 @@ fieldset[disabled] .btn-white {
   font-family: 'FontAwesome';
 }
 
-.icon {
+.icon1 {
   font-size: 24px;
   text-decoration: none !important;
 }
 
-.icon:before {
+.icon1:before {
   position: relative;
   display: inline-block;
   font-weight: 400;
@@ -19805,7 +19820,7 @@ fieldset[disabled] .btn-white {
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon:hover {
+.icon1:hover {
   text-decoration: none !important;
 }
 
@@ -29104,7 +29119,7 @@ html:not(.lt-ie10) .not-animated {
 }
 
 .rd-navbar-static .rd-navbar-contacts .icon,
-.rd-navbar-fullwidth .rd-navbar-contacts .icon {
+.rd-navbar-fullwidth .rd-navbar-contacts .icon1 {
   margin-right: 5px;
   font-size: 20px;
   line-height: 1.2;
@@ -29957,7 +29972,7 @@ html:not(.lt-ie10) .not-animated {
   text-decoration: underline;
 }
 
-.rd-navbar-fixed .rd-navbar-collapse .icon {
+.rd-navbar-fixed .rd-navbar-collapse .icon1 {
   margin-right: 6px;
 }
 

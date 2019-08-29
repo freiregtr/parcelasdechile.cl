@@ -14,7 +14,7 @@
                         <div class="rd-navbar-brand"><a href="inicio" class="brand-name"><img src="view/componentes/img/logo/logon.png" height="85" alt="Parcelas de chile"></a>
                         </div>
                         <div class="rd-navbar-contacts rd-navbar-collapse rd-navbar-collapse-2"><span>Contáctanos</span>
-                            <div><span class="icon fa-phone text-primary"></span><a href="callto:> +56958053609"></a><a>+56 9 5805 3609</a>
+                            <div><span class="icon1 fa-phone text-primary"></span><a href="callto:> +56958053609"></a><a>+56 9 5805 3609</a>
                             </div>
                         </div>
                     </div>
@@ -96,38 +96,38 @@
                                     <div class="col-md-3">
                                         <div>
                                             <br>
-                                            <img src="view/componentes/img/vendedores/margarita301.jpg" width="200" height="200" alt="" class="img-responsive center-block">
+                                            <img src="view/componentes/img/vendedores/margarita301.jpg" width="200" height="200" alt="" class="img-responsive center-block img-circle">
 
                                             <h5 class="offset-top-10">Margarita<br>Ramirez</h5>
-                                            <div><span class="text-middle icon inset-right-10 text-primary fa-phone"></span><a href="callto:#" class="text-middle text-base">+56 9 8821 4958</a></div>
+                                            <div><span class="text-middle icon1 inset-right-10 text-primary fa-phone"></span><a href="callto:#" class="text-middle text-base">+56 9 8821 4958</a></div>
                                             <div class="offset-top-25"><a href="https://web.whatsapp.com/send?phone=56988214958/" class="btn btn-primary">Contactar</a></div>
                                         </div>
                                     </div>
                                     <div class="col-md-3">
                                         <div>
                                             <br>
-                                            <img src="view/componentes/img/vendedores/user-03.jpg" width="200" height="200" alt="" class="img-responsive center-block">
+                                            <img src="view/componentes/img/vendedores/user-03.jpg" width="200" height="200" alt="" class="img-responsive center-block img-circle">
                                             <h5 class="offset-top-10">Soledad<br>Charme</h5>
-                                            <div><span class="text-middle icon inset-right-10 text-primary fa-phone"></span><a href="callto:#" class="text-middle text-base">+56 9 6848 1426</a></div>
+                                            <div><span class="text-middle icon1 inset-right-10 text-primary fa-phone"></span><a href="callto:#" class="text-middle text-base">+56 9 6848 1426</a></div>
                                             <div class="offset-top-25"><a href="https://web.whatsapp.com/send?phone=56968481426/" class="btn btn-primary">Contactar</a></div>
                                         </div>
                                     </div>
                                     <div class="col-md-3">
                                         <div>
                                             <br>
-                                            <img src="view/componentes/img/vendedores/mauro301.jpg" width="200" height="200" alt="" class="img-responsive center-block">
+                                            <img src="view/componentes/img/vendedores/mauro301.jpg" width="200" height="200" alt="" class="img-responsive center-block img-circle">
 
                                             <h5 class="offset-top-10">Mauro<br>Beasain</h5>
-                                            <div><span class="text-middle icon inset-right-10 text-primary fa-phone"></span><a href="callto:#" class="text-middle text-base">+56 9 9359 0127</a></div>
+                                            <div><span class="text-middle icon1 inset-right-10 text-primary fa-phone"></span><a href="callto:#" class="text-middle text-base">+56 9 9359 0127</a></div>
                                             <div class="offset-top-25"><a href="https://web.whatsapp.com/send?phone=56993590127/" class="btn btn-primary">Contactar</a></div>
                                         </div>
                                     </div>
                                     <div class="col-md-3">
                                         <div>
                                             <br>
-                                            <img src="view/componentes/img/vendedores/user-05.jpg" width="200" height="200" alt="" class="img-responsive center-block">
+                                            <img src="view/componentes/img/vendedores/user-05.jpg" width="200" height="200" alt="" class="img-responsive center-block img-circle">
                                             <h5 class="offset-top-10">Jorge<br>Vera</h5>
-                                            <div><span class="text-middle icon inset-right-10 text-primary fa-phone"></span><a href="callto:#" class="text-middle text-base">+56 9 4564 5272</a></div>
+                                            <div><span class="text-middle icon1 inset-right-10 text-primary fa-phone"></span><a href="callto:#" class="text-middle text-base">+56 9 4564 5272</a></div>
                                             <div class="offset-top-25"><a href="https://web.whatsapp.com/send?phone=56945645272/" class="btn btn-primary">Contactar</a></div>
                                         </div>
                                     </div>
@@ -161,10 +161,10 @@
             <div class="range range-xs-middle">
                 <div class="cell-sm-6 text-sm-right cell-sm-push-1">
                     <ul class="list-inline">
-                        <li><a href="https://www.facebook.com/parcelasdechile/" target="_blank" class="icon icon-sm text-primary fa-facebook"></a></li>
-                        <li><a href="https://www.youtube.com/channel/UC1A2lJ21pRVisDtocb1gTTA/" target="_blank" class="icon icon-sm text-primary fa-youtube"></a></li>
-                        <li><a href="https://www.linkedin.com/company/parcelasdechile?originalSubdomain=cl/" target="_blank" class="icon icon-sm text-primary fa-linkedin"></a></li>
-                        <li><a href="https://instagram.com/parcelasdechile/" target="_blank" class="icon icon-sm text-primary fa-instagram"></a></li>
+                        <li><a href="https://www.facebook.com/parcelasdechile/" target="_blank" class="icon1 icon-sm text-primary fa-facebook"></a></li>
+                        <li><a href="https://www.youtube.com/channel/UC1A2lJ21pRVisDtocb1gTTA/" target="_blank" class="icon1 icon-sm text-primary fa-youtube"></a></li>
+                        <li><a href="https://www.linkedin.com/company/parcelasdechile?originalSubdomain=cl/" target="_blank" class="icon1 icon-sm text-primary fa-linkedin"></a></li>
+                        <li><a href="https://instagram.com/parcelasdechile/" target="_blank" class="icon1 icon-sm text-primary fa-instagram"></a></li>
                     </ul>
                 </div>
                 <div class="cell-sm-6 text-sm-left offset-top-20 offset-sm-top-0">

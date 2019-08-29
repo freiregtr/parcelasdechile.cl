@@ -13,7 +13,7 @@
                         <!-- RD Navbar Brand-->
                         <div class="rd-navbar-brand"><a href="inicio" class="brand-name"><img src="view/componentes/img/logo/logon.png" height="85" alt=""></a></div>
                         <div class="rd-navbar-contacts rd-navbar-collapse rd-navbar-collapse-2"><span>Contáctanos</span>
-                            <div><span class="icon fa-phone text-primary"></span><a href="callto:>+56 9 5805 3609">+56 9 5805 3609</a></div>
+                            <div><span class="icon1 fa-phone text-primary"></span><a href="callto:>+56 9 5805 3609">+56 9 5805 3609</a></div>
                         </div>
                     </div>
                 </div>
@@ -60,13 +60,13 @@
                     <div class="shell section-70 section-lg-70 text-md-left">
                         <br>
                         <div class="range range-xs-around text-center">
-                            <div class="cell-lg-4 cell-md-4"><span class="icon icon-lg icon-circle icon-secundary fa-bookmark shadow1"></span>
+                            <div class="cell-lg-4 cell-md-4"><span class="icon1 icon-lg icon-circle icon-secundary fa-bookmark shadow1"></span>
                                 <h3 class="offset-top-20 shadow1">COMISIÓNES</h3>
                             </div>
-                            <div class="cell-lg-4 cell-md-4"><span class="icon icon-lg icon-circle icon-secundary fa-bookmark shadow1"></span>
+                            <div class="cell-lg-4 cell-md-4"><span class="icon1 icon-lg icon-circle icon-secundary fa-bookmark shadow1"></span>
                                 <h3 class="offset-top-20 shadow1">INCENTIVO POR VENTA</h3>
                             </div>
-                            <div class="cell-lg-4 cell-md-4"><span class="icon icon-lg icon-circle icon-secundary fa-bookmark shadow1"></span>
+                            <div class="cell-lg-4 cell-md-4"><span class="icon1 icon-lg icon-circle icon-secundary fa-bookmark shadow1"></span>
                                 <h3 class="offset-top-20 shadow1">FREELANCE</h3>
                             </div>
                         </div>
@@ -161,10 +161,10 @@
             <div class="range range-xs-middle">
                 <div class="cell-sm-6 text-sm-right cell-sm-push-1">
                     <ul class="list-inline">
-                        <li><a href="https://www.facebook.com/parcelasdechile/" target="_blank" class="icon icon-sm text-primary fa-facebook"></a></li>
-                        <li><a href="https://www.youtube.com/channel/UC1A2lJ21pRVisDtocb1gTTA/" target="_blank" class="icon icon-sm text-primary fa-youtube"></a></li>
-                        <li><a href="https://www.linkedin.com/company/parcelasdechile?originalSubdomain=cl/" target="_blank" class="icon icon-sm text-primary fa-linkedin"></a></li>
-                        <li><a href="https://instagram.com/parcelasdechile/" target="_blank" class="icon icon-sm text-primary fa-instagram"></a></li>
+                        <li><a href="https://www.facebook.com/parcelasdechile/" target="_blank" class="icon1 icon-sm text-primary fa-facebook"></a></li>
+                        <li><a href="https://www.youtube.com/channel/UC1A2lJ21pRVisDtocb1gTTA/" target="_blank" class="icon1 icon-sm text-primary fa-youtube"></a></li>
+                        <li><a href="https://www.linkedin.com/company/parcelasdechile?originalSubdomain=cl/" target="_blank" class="icon1 icon-sm text-primary fa-linkedin"></a></li>
+                        <li><a href="https://instagram.com/parcelasdechile/" target="_blank" class="icon1 icon-sm text-primary fa-instagram"></a></li>
                     </ul>
                 </div>
                 <div class="cell-sm-6 text-sm-left offset-top-20 offset-sm-top-0">

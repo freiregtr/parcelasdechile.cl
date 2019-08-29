@@ -14,7 +14,7 @@
                         <div class="rd-navbar-brand"><a href="inicio" class="brand-name"><img src="view/componentes/img/logo/logon.png" height="85" alt="Parcelas de chile"></a>
                         </div>
                         <div class="rd-navbar-contacts rd-navbar-collapse rd-navbar-collapse-2"><span>Contáctanos</span>
-                            <div><span class="icon fa-phone text-primary"></span><a href="callto:> +56958053609"></a><a>+56 9 5805 3609</a>
+                            <div><span class="icon1 fa-phone text-primary"></span><a href="callto:> +56958053609"></a><a>+56 9 5805 3609</a>
                             </div>
                         </div>
                     </div>
@@ -51,7 +51,7 @@
                     <div data-items="1" data-dots="true" data-margin="30" data-mouse-drag="false" class="context-dark owl-slider owl-carousel">
                         <div class="owl-item">
                             <hr class="divider veil reveal-md-inline-block">
-                            <h1>Bienvenidos a  <br> <span class="text-sbold" > Parcelas De Chile </span></h1>
+                            <h1>Bienvenidos a  <br> <span class="text-sbold"> Parcelas De Chile </span></h1>
                             <br>
                             <p class="offset-top-35 shadow1">Parcelas desde los $7.990.000, Un terreno es la mejor forma de asegurar el futuro de tu familia. A solo 138 km de Santiago y con buena conexión con otros destinos.</p>
                             <div class="offset-top-50"><a href="#" class="btn btn-primary text-regular shadow2">Ver video</a></div>
@@ -205,17 +205,17 @@
                 <h2 class="offset-top-50 section-bottom-30 context-light">Nuestras parcelas tienen</h2>
                 <div class="range range-xs-around text-center">
 
-                    <div class="col-lg-4 col-md-4"><span class="icon icon-lg icon-circle icon-primary fa-bookmark"></span>
+                    <div class="col-lg-4 col-md-4"><span class="icon1 icon-lg icon-circle icon-primary fa-bookmark"></span>
                         <h5 class="offset-top-20">Rol Único</h5>
                         <p class="offset-top-10">Con el N° de Rol el SII identifica <br> a una propiedad o bien raíz. </p>
                         <br>
                     </div>
-                    <div class="col-lg-4 col-md-4"><span class="icon icon-lg icon-circle icon-primary fa-bookmark"></span>
+                    <div class="col-lg-4 col-md-4"><span class="icon1 icon-lg icon-circle icon-primary fa-bookmark"></span>
                         <h5 class="offset-top-20">Posibilidad luz y agua</h5>
                         <p class="offset-top-10">Parcelas posibilitadas para obtener <br> los recursos de luz y agua sin problemas.</p>
                         <br>
                     </div>
-                    <div class="col-lg-4 col-md-4"><span class="icon icon-lg icon-circle icon-primary fa-bookmark"></span>
+                    <div class="col-lg-4 col-md-4"><span class="icon1 icon-lg icon-circle icon-primary fa-bookmark"></span>
                         <h5 class="offset-top-20">Desde los 5000 Mt2</h5>
                         <p class="offset-top-10">Dependiendo del valor y el proyecto <br> los mts comienzan desde los 5000 mt2</p>
                         <br>
@@ -232,11 +232,11 @@
                      <div class="col-md-4">
                           <!-- Quote-->
                           <blockquote class="quote quote-variant-1">
-                            <p>Margarita : compró una parcela en verde el año 2018 en $4.500.000 y después de un año vendió en $27.000.000.</p>
+                            <p><span class="text-sbold">Margarita Ramirez: </span> Yo me Compré una parcela en verde el año 2018 en $4.500.000 y después de un año la vendí en $27.000.000. De ahí en adelante aprendí sobre la rentabilidad de los terrenos en Chile.</p>
                             <div class="cite unit unit-sm-horizontal unit-md-horizontal unit-lg-horizontal unit-middle">
                               <div class="unit-left"><img src="view/componentes/img/vendedores/margarita301.jpg" width="97" height="97" alt="" class="img-circle img-responsive center-block"></div>
-                              <div class="unit-body"><a href="#" class="text-bold text-base">Margarita</a>
-                                <p class="offset-top-5 small text-primary">Vendedora</p>
+                              <div class="unit-body"><a href="#" class="text-bold text-base">Margarita Ramirez</a>
+                                <p class="offset-top-5 small text-primary">Ejecutiva de ventas</p>
                               </div>
                             </div>
                           </blockquote>
@@ -245,11 +245,11 @@
                   <div class="col-md-4">
                           <!-- Quote-->
                           <blockquote class="quote quote-variant-1">
-                          <p>Luna : compró una parcela en el Lago Chapo en venta en verde a $9.990.000 y hoy después de 6 meses la misma parcela, en la segunda etapa tiene un valor de venta a publico por $18.990.000.</p>
+                          <p><span  class="text-sbold">Luna Huerta: </span>Compré una parcela en el Lago Chapo en venta en verde en enero a $9.990.000 y después de 6 meses la misma parcela, en la segunda etapa ya tenia un valor a publico de $18.990.000. ya estoy en la busqueda de mi segunda parcela.</p>
                             <div class="cite unit unit-sm-horizontal unit-md-horizontal unit-lg-horizontal unit-middle">
-                              <div class="unit-left"><img src="view/componentes/img/vendedores/user-03.jpg" width="97" height="97" alt="" class="img-circle img-responsive center-block"></div>
-                              <div class="unit-body"><a href="#" class="text-bold text-base">Luna</a>
-                                <p class="offset-top-5 small text-primary">Vendedora</p>
+                              <div class="unit-left"><img src="view/componentes/img/vendedores/luna301.jpg" width="97" height="97" alt="" class="img-circle img-responsive center-block"></div>
+                              <div class="unit-body"><a href="#" class="text-bold text-base">Luna Huerta</a>
+                                <p class="offset-top-5 small text-primary">Profesora de Yoga</p>
                               </div>
                             </div>
                           </blockquote>
@@ -258,10 +258,10 @@
                   <div class="col-md-4">
                           <!-- Quote-->
                           <blockquote class="quote quote-variant-1">
-                          <p>Dusan Dominic : compro una parcela en verde a $14.990.000 y hoy esa misma parcela en la segunda etapa tiene un valor de venta a publico de  $25.990.000.</p>
+                          <p><span class="text-sbold">Dusan Domancic:</span> Yo me compré una parcela en verde a $14.990.000 y hoy esa misma parcela en la segunda etapa tiene un valor de venta a publico de  $25.990.000. Estoy arrepentido de no haber comprado otra altiro.</p>
                             <div class="cite unit unit-sm-horizontal unit-md-horizontal unit-lg-horizontal unit-middle">
                               <div class="unit-left"><img src="view/componentes/img/vendedores/dusan301.jpg" width="97" height="97" alt="" class="img-circle img-responsive center-block"></div>
-                              <div class="unit-body"><a href="#" class="text-bold text-base">Dusan</a>
+                              <div class="unit-body"><a href="#" class="text-bold text-base">Dusan Domancic</a>
                                 <p class="offset-top-5 small text-primary">Ing. Civil</p>
                               </div>
                             </div>
@@ -311,10 +311,10 @@
                 <div class="cell-sm-6 text-sm-right cell-sm-push-1">
                     <!-- REDES SOCIALES-->
                     <ul class="list-inline">
-                        <li><a href="https://www.facebook.com/parcelasdechile/" target="_blank" class="icon icon-sm text-primary fa-facebook"></a></li>
-                        <li><a href="https://www.youtube.com/channel/UC1A2lJ21pRVisDtocb1gTTA/" target="_blank" class="icon icon-sm text-primary fa-youtube"></a></li>
-                        <li><a href="https://www.linkedin.com/company/parcelasdechile?originalSubdomain=cl/" target="_blank" class="icon icon-sm text-primary fa-linkedin"></a></li>
-                        <li><a href="https://instagram.com/parcelasdechile/" target="_blank" class="icon icon-sm text-primary fa-instagram"></a></li>
+                        <li><a href="https://www.facebook.com/parcelasdechile/" target="_blank" class="icon1 icon-sm text-primary fa-facebook"></a></li>
+                        <li><a href="https://www.youtube.com/channel/UC1A2lJ21pRVisDtocb1gTTA/" target="_blank" class="icon1 icon-sm text-primary fa-youtube"></a></li>
+                        <li><a href="https://www.linkedin.com/company/parcelasdechile?originalSubdomain=cl/" target="_blank" class="icon1 icon-sm text-primary fa-linkedin"></a></li>
+                        <li><a href="https://instagram.com/parcelasdechile/" target="_blank" class="icon1 icon-sm text-primary fa-instagram"></a></li>
                     </ul>
                 </div>
                 <div class="cell-sm-6 text-sm-left offset-top-20 offset-sm-top-0">

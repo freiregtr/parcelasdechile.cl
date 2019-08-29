@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="es" class="wide smoothscroll wow-animation">
-
 <head>
     <title>Parcelas de Chile</title>
     <meta name="format-detection" content="telephone=no">
@@ -24,11 +23,11 @@
     <!-- CSS mapsvg -->
     <link href="view/componentes/mapsvg/css/mapsvg.css" rel="stylesheet">
     <link href="view/componentes/mapsvg/css/nanoscroller.css" rel="stylesheet">
-
+    <!-- Social Media Btn -->
+    <link rel="stylesheet" href="view/componentes/social_media/font.css">
+    <link rel="stylesheet" href="view/componentes/social_media/rrss.css">
     <!-- UA Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-137903886-1"></script>
-    
-
     <!-- Facebook Pixel Code -->
     <script>
         ! function(f, b, e, v, n, t, s) {
@@ -54,7 +53,6 @@
     </script>
     <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1321289751362587&ev=PageView&noscript=1" /></noscript>
     <!-- End Facebook Pixel Code -->
-
     <script>
         window.dataLayer = window.dataLayer || [];
 
@@ -101,7 +99,7 @@
     }
     ?>
     <!-- fin carda de módulos -->
-
+    
     <!-- javascript -->
     <script src="view/componentes/js/core.min.js"></script>
     <script src="view/componentes/js/script.js"></script>
@@ -122,10 +120,8 @@
     <!-- Flip3D -->
     <script src="view/componentes/flip/js/flipbook.min.js"></script>
     
-    
-
     <?php
-
+    
     if (isset($_GET["ruta"])){
         if($_GET["ruta"] == "lagochapo"){
             echo '<script src="view/componentes/mapsvg/js/lagochapo.js"></script>';
@@ -135,8 +131,6 @@
         }
     }
     ?>
-
-
 </body>
 
 </html>

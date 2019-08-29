@@ -15,7 +15,7 @@
                         </div>
                         <!-- TELÉFONO-->
                         <div class="rd-navbar-contacts rd-navbar-collapse rd-navbar-collapse-2"><span>Contáctanos</span>
-                            <div><span class="icon fa-phone text-primary"></span><a href="callto:> +56958053609"></a><a>+56 9 5805 3609</a>
+                            <div><span class="icon1 fa-phone text-primary"></span><a href="callto:> +56958053609"></a><a>+56 9 5805 3609</a>
                             </div>
                         </div>
                     </div>
@@ -55,12 +55,26 @@
                 </ol>
             </div>
         </section>
+        
+  <div class="social-bar">
+   
+    <a href="https://www.facebook.com/parcelasdechile/" class="icon icon-facebook" target="_blank"></a>
+    
+    
+    <a href="https://www.youtube.com/channel/UC1A2lJ21pRVisDtocb1gTTA/" class="icon icon-youtube" target="_blank"></a>
+    
+    <a href="https://instagram.com/parcelasdechile/" class="icon icon-instagram" target="_blank"></a>
+    
+  </div>
+      
+    
+       
         <!-- PROYECTO EL VOLANTIN DE LA QUEBRADA-->
         <section class=" text-center section-bottom-70 page-header bg-image-elvolantin">
             <div class="shell section-100 section-lg-top-220 section-lg-bottom-205 context-dark">
                 <div><a href="lagochapo" class="label label-primary shadow2">VI Región</a></div>
                 <br>
-                <h1 class="shadow1">Parcelación "El Volantín"</h1>
+                <h1 class="shadow1">Parcelación <br><span class="text-sbold">"El Volantín"</span></h1>
                 <hr>
                 <div class="range offset-top-30 text-center">
                     <div class="cell-sm-4">
@@ -97,10 +111,12 @@
                                         <div class="row" id="volantinSvg"></div>
                                     </div>
                                     <div class="col-md-6">
-                                        <div class="context-light">
-                                            <h2 class="offset-top-50 section-bottom-30">Parcelación "El Volantín"</h2>
+                                      <div>
+                                            <div class="context-light">
+                                            <h2 class="offset-top-50 section-bottom-30">Parcelación <br> <span class="text-sbold"> "El Volantín"</span></h2>
                                         </div>
                                         <p class="section-bottom-30">"Región del Libertador General Bernardo O’Higgins"</p>
+                                      </div>
                                         <!-- VALORES-->
                                         <div class="row">
                                             <div class="col-md-6">
@@ -128,6 +144,15 @@
                                                 <div class="valor1">
                                                     <p>$9.990.000 - una héctarea</p>
                                                 </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                               <br>
+                                                <div class="valor5">
+                                                    <p>VENDIDA</p>
+                                                </div>
+                                                
                                             </div>
                                         </div>
                                         <br>
@@ -226,8 +251,6 @@
                                 
                                 <div class="offset-top-30 ">
                                     <div class="row">
-                                    
-    
                                        <div class="col-md-6">
                                             <div class="context-light">
                                     <h2 class="offset-top-35 section-bottom-30">Otros proyectos</h2>
@@ -297,8 +320,8 @@
                 <!-- BOTONES SIGUIENTE PROYECTO-->
                 <div class="container-fluid">
                     <div class="row">
-                        <div class="col-xs-6 text-left"><a href="parcelacionelvolantin" class="btn btn-primary btn-icon btn-icon btn-icon-left"><span class="icon fa-angle-left"></span><span class="text text-regular veil reveal-xs-inline">Proyecto previo</span></a></div>
-                        <div class="col-xs-6 text-right"><a href="parcelacionelvolantin" class="btn btn-primary btn-icon btn-icon btn-icon-right"><span class="text text-regular veil reveal-xs-inline">Siguiente proyecto</span><span class="icon fa-angle-right"></span></a></div>
+                        <div class="col-xs-6 text-left"><a href="parcelacionelvolantin" class="btn btn-primary btn-icon btn-icon btn-icon-left"><span class="icon1 fa-angle-left"></span><span class="text text-regular veil reveal-xs-inline">Proyecto previo</span></a></div>
+                        <div class="col-xs-6 text-right"><a href="parcelacionelvolantin" class="btn btn-primary btn-icon btn-icon btn-icon-right"><span class="text text-regular veil reveal-xs-inline">Siguiente proyecto</span><span class="icon1 fa-angle-right"></span></a></div>
                     </div>
                 </div>
                 <!-- FIN BOTONES SIGUIENTE PROYECTO-->
@@ -339,10 +362,12 @@
             <!-- REDES SOCIALES-->
             <div class="cell-sm-6 text-sm-right cell-sm-push-1">
                 <ul class="list-inline">
-                    <li><a href="https://www.facebook.com/parcelasdechile/" target="_blank" class="icon icon-sm text-primary fa-facebook"></a></li>
-                    <li><a href="https://www.youtube.com/channel/UC1A2lJ21pRVisDtocb1gTTA/" target="_blank" class="icon icon-sm text-primary fa-youtube"></a></li>
-                    <li><a href="https://www.linkedin.com/company/parcelasdechile?originalSubdomain=cl/" target="_blank" class="icon icon-sm text-primary fa-linkedin"></a></li>
-                    <li><a href="https://instagram.com/parcelasdechile/" target="_blank" class="icon icon-sm text-primary fa-instagram"></a></li>
+                    <li><a href="https://www.facebook.com/parcelasdechile/" target="_blank" class="icon1 icon-sm icon-primary fa-facebook"></a></li>
+                    
+                    <li><a href="https://www.youtube.com/channel/UC1A2lJ21pRVisDtocb1gTTA/" target="_blank" class="icon1 icon-sm icon-primary fa-youtube"></a></li>
+                    
+                    <li><a href="https://www.linkedin.com/company/parcelasdechile?originalSubdomain=cl/" target="_blank" class="icon1 icon-sm icon-primary fa-linkedin"></a></li>
+                    <li><a href="https://instagram.com/parcelasdechile/" target="_blank" class="icon1 icon-sm icon-primary fa-instagram"></a></li>
                 </ul>
             </div>
             <div class="cell-sm-6 text-sm-left offset-top-20 offset-sm-top-0">
