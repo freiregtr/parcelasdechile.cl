@@ -5,6 +5,11 @@
     <meta name="format-detection" content="telephone=no">
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="keywords" content="venta de parcelas, inversión, comprar parcelas, compra de parcelas, rentabilidad, terrenos, terrenos en venta, inmobiliaria, propiedades,
+    parcelas de agrado, venta en verde, segunda vivienda, casa de campo, parcelas baratas, terrenos en el sur, parcelas sexta region, ganar plata, parcelas en oferta, parcelas con descuento"/>
+    <meta name="description" content="Vivimos en el país mas lindo del mundo y es nuestra misión ayudar a nuestros clientes 
+    a cumplir este anhelado sueño. Sabemos que los terrenos en Chile solo suben de valor, por lo que en un futuro nuestros 
+    hijos serán quienes disfrutarán de las inversiones que nosotros hagamos hoy. Amamos Chile, disfrutamos Chile y compartimos Chile….."/>
     <meta charset="utf-8">
     <!-- CSS Flip3D -->
     <link href="view/componentes/flip/css/flipbook.style.css" rel="stylesheet">
