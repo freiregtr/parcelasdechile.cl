@@ -152,7 +152,7 @@
                             <div class="row">
                                 <div class="col-md-6">
                                     <div class="precios shadow2">
-                                        <h3>Totamente vendido</h3>
+                                        <h3>Totalmente vendido</h3>
                                     </div>
                                 </div>
 
