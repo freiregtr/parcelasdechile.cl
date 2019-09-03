@@ -26,7 +26,7 @@
     <!-- Social Media Btn -->
     <link rel="stylesheet" href="view/componentes/social_media/font.css">
     <link rel="stylesheet" href="view/componentes/social_media/rrss.css">
-    <!-- UA Analytics -->
+        <!-- UA Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-137903886-1"></script>
     <!-- Facebook Pixel Code -->
     <script>

@@ -42,6 +42,18 @@
                 </div>
             </nav>
         </div>
+        
+        <div class="social-bar">
+   
+    <a href="https://www.facebook.com/parcelasdechile/" class="icon icon-facebook" target="_blank"></a>
+    
+    
+    <a href="https://www.youtube.com/channel/UC1A2lJ21pRVisDtocb1gTTA/" class="icon icon-youtube" target="_blank"></a>
+    
+    <a href="https://instagram.com/parcelasdechile/" class="icon icon-instagram" target="_blank"></a>
+    
+  </div>
+      
         <!-- HOME-->
         <div class="shell section-70 section-lg-120 text-md-left">
             <div class="row row-xs-middle">
@@ -54,16 +66,20 @@
                             <h1>Bienvenidos a <br> <span class="text-sbold"> Parcelas De Chile </span></h1>
                             <br>
                             <p class="offset-top-35 shadow1">Parcelas desde los $7.990.000, Un terreno es la mejor forma de asegurar el futuro de tu familia. A solo 138 km de Santiago y con buena conexión con otros destinos.</p>
-                            <button type="button" class="btn btn-primary video-btn" data-toggle="modal" data-src="https://www.youtube.com/embed/Jfrjeg26Cwk" data-target="#myModal">
+                            
+                            <button type="button" class="btn btn-primary video-btn" data-toggle="modal" data-src="https://youtu.be/B_yBoXARTQY" data-target="#myModal">
                                 ver video
                             </button>
+                            
                         </div>
                         <div class="owl-item">
                             <hr class="divider veil reveal-md-inline-block">
                             <h1>Parcelación El Volantín</h1>
                             <br>
                             <p class="offset-top-35">Parcelas desde los $7.990.000, Un terreno es la mejor forma de asegurar el futuro de tu familia. A solo 138 km de Santiago y con buena conexión con otros destinos.</p>
-                            <div class="offset-top-50"><a href="#" class="btn btn-primary text-regular shadow2">Ver video</a></div>
+                             <button type="button" class="btn btn-primary video-btn" data-toggle="modal" data-src="https://youtu.be/B_yBoXARTQY" data-target="#myModal">
+                                ver video
+                            </button>
 
                         </div>
                         <div class="owl-item">
@@ -71,7 +87,9 @@
                             <h1>Parcelacion Lago Chapo</h1>
                             <br>
                             <p class="offset-top-35">Parcelas desde los $7.990.000, Un terreno es la mejor forma de asegurar el futuro de tu familia. A solo 138 km de Santiago y con buena conexión con otros destinos.</p>
-                            <div class="offset-top-50"><a href="#" class="btn btn-primary text-regular shadow2">Ver video</a></div>
+                            <button type="button" class="btn btn-primary video-btn" data-toggle="modal" data-src="https://youtu.be/B_yBoXARTQY" data-target="#myModal">
+                                ver video
+                            </button>
 
                         </div>
                     </div>
@@ -225,6 +243,20 @@
                 </div>
             </div>
         </section>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+
+    
         <section class="bg-blue">
             <div class="shell section-45 section-lg-45">
                 <div class="container">
@@ -238,7 +270,7 @@
                                     <div class="cite unit unit-sm-horizontal unit-md-horizontal unit-lg-horizontal unit-middle">
                                         <div class="unit-left"><img src="view/componentes/img/vendedores/margarita301.jpg" width="97" height="97" alt="" class="img-circle img-responsive center-block"></div>
                                         <div class="unit-body"><a href="#" class="text-bold text-base">Margarita Ramirez</a>
-                                            <p class="offset-top-5 small text-primary">Ejecutiva de ventas</p>
+                                            <p class="offset-top-5 small text-primary">Supervisora de ventas</p>
                                         </div>
                                     </div>
                                 </blockquote>
@@ -275,6 +307,11 @@
                 </div>
             </div>
         </section>
+        
+        
+        
+        
+        
         <!-- PARALAX -->
         <section class="rd-parallax">
             <div data-speed="0.4" data-type="media" data-url="view/componentes/img/trabajaconnosotros.jpg" class="rd-parallax-layer"></div>
@@ -292,17 +329,49 @@
     <!-- FOOTER-->
     <footer class="page-footer2">
         <div class="shell section-45 section-lg-30">
+           
             <h2 class="offset-top-50 section-bottom-30 context-light">Empresas partner</h2>
-            <div class="range">
-                <div class="cell-md-2">
-                </div>
-                <div class="cell-md-8">
-                    <img src="view/componentes/img/inversionistas/teyco.png" class="logoinv" alt="" height="50%">
-                    <img src="view/componentes/img/inversionistas/afondo.png" class="logoinv" alt="" height="50%">
-                    <img src="view/componentes/img/inversionistas/sbk.png" class="logoinv" alt="" height="50%">
-                    <img src="view/componentes/img/inversionistas/scs.png" class="logoinv" alt="" height="50%">
-                </div>
-            </div>
+            <hr>
+            <div class="slider">
+	<div class="slide-track">
+		<div class="slide">
+			<img src="view/componentes/img/inversionistas/1.png" width="250" height="100" alt="" />
+		</div>
+		<div class="slide">
+			<img src="view/componentes/img/inversionistas/2.png" height="100" width="250" alt="" />
+		</div>
+		<div class="slide">
+			<img src="view/componentes/img/inversionistas/3.png" height="100" width="250" alt="" />
+		</div>
+		<div class="slide">
+			<img src="view/componentes/img/inversionistas/4.png" height="100" width="250" alt="" />
+		</div>
+		<div class="slide">
+			<img src="view/componentes/img/inversionistas/1.png" width="250" height="100" alt="" />
+		</div>
+		<div class="slide">
+			<img src="view/componentes/img/inversionistas/2.png" height="100" width="250" alt="" />
+		</div>
+		<div class="slide">
+			<img src="view/componentes/img/inversionistas/3.png" height="100" width="250" alt="" />
+		</div>
+		<div class="slide">
+			<img src="view/componentes/img/inversionistas/4.png" height="100" width="250" alt="" />
+		</div>
+		<div class="slide">
+			<img src="view/componentes/img/inversionistas/1.png" width="250" height="100" alt="" />
+		</div>
+		<div class="slide">
+			<img src="view/componentes/img/inversionistas/2.png" height="100" width="250" alt="" />
+		</div>
+		<div class="slide">
+			<img src="view/componentes/img/inversionistas/3.png" height="100" width="250" alt="" />
+		</div>
+		<div class="slide">
+			<img src="view/componentes/img/inversionistas/4.png" height="100" width="250" alt="" />
+		</div>
+	</div>
+</div>
         </div>
         <div class="shell">
             <hr>
@@ -368,15 +437,11 @@
     ?>
     <!-- Fin Div chat -->
 </div>
-
 <!-- Modal -->
 <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog" role="document">
         <div class="modal-content">
-
-
             <div class="modal-body">
-
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
@@ -385,7 +450,6 @@
                     <iframe class="embed-responsive-item" src="" id="video" allowscriptaccess="always" allow="autoplay"></iframe>
                 </div>
             </div>
-
         </div>
     </div>
 </div>

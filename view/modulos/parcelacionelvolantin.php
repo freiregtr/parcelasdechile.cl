@@ -75,7 +75,6 @@
                 <div><a href="lagochapo" class="label label-primary shadow2">VI Región</a></div>
                 <br>
                 <h1 class="shadow1">Parcelación <br><span class="text-sbold">"El Volantín"</span></h1>
-                <hr>
                 <div class="range offset-top-30 text-center">
                     <div class="cell-sm-4">
                         <!-- CountTo-->
@@ -93,7 +92,11 @@
                         <h3 class="text-sbold text-base shadow1 text-white">Mt2</h3>
                     </div>
                 </div>
-                <div class="offset-top-50"><a href="#" class="btn btn-primary text-regular shadow2">Ver video</a></div>
+                <br>
+                <br>
+                <button type="button" class="btn btn-primary video-btn" data-toggle="modal" data-src="https://youtu.be/B_yBoXARTQY" data-target="#myModal">
+                                ver video
+                            </button>
             </div>
         </section>
         <section class="section-top-45 section-bottom-80">
@@ -377,6 +380,22 @@
         </div>
     </div>
 </footer>
+<!-- Modal -->
+<div class="modal fade " id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <!-- 16:9 aspect ratio -->
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="" id="video" allowscriptaccess="always" allow="autoplay"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 <!-- Global Mailform Output-->
 <div id="form-output-global" class="snackbars"></div>
 <!-- PhotoSwipe Gallery-->
