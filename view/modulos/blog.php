@@ -68,7 +68,7 @@
                             </div>
                             <p class="offset-top-10">Sabemos que los terrenos en Chile solo suben de valor, por lo que en un futuro nuestros hijos serán quienes disfrutarán de las inversiones que nosotros hagamos hoy.</p>
                             <div class="offset-top-20">
-                                <div class="offset-top-16"><a href="10razones" class="btn btn-primary">VER MÁS</a></div>
+                                <div class="offset-top-16"><a href="10razones" class="btn btn-primary" target="_blank">VER MÁS</a></div>
                             </div>
                         </div>
                     </div>
@@ -85,7 +85,7 @@
                             </div>
                             <p class="offset-top-10">Los buenos diseños de casas ven en las restricciones las oportunidades, no las limitantes.</p>
                             <div class="offset-top-20">
-                                <div class="offset-top-16"><a href="7beneficiospendiente" class="btn btn-primary">VER MÁS</a></div>
+                                <div class="offset-top-16"><a href="7beneficiospendiente" class="btn btn-primary" target="_blank">VER MÁS</a></div>
                             </div>
                         </div>
                     </div>
