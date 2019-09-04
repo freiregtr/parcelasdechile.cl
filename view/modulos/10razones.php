@@ -36,7 +36,7 @@
                             <li><a href="trabajaconnosotros">Trabaja con nosotros</a></li>
                             <li><a href="contacto">Contacto</a></li>
                             <li><a href="faq">FAQ</a></li>
-                            <li class="active"><a href="10razones">Blog</a></li>
+                            <li class="active"><a href="blog">Blog</a></li>
                         </ul>
                     </div>
                 </div>
@@ -183,7 +183,7 @@
                     <div class="container-fluid">
                         <div class="card text-center">
                             <div class="card-body ">
-                                <a href="parcelacionelvolantin" target="_blank" class="btn btn-primary shadow2">VER OFERTAS EN PARCELAS</a>
+                                <a href="parcelacionelvolantin" target="_blank" class="btn btn-primary shadow2">VER OFERTAS</a>
                             </div>
                         </div>
                     </div>
