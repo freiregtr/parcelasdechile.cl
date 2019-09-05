@@ -94,7 +94,7 @@
                 </div>
                 <br>
                 <br>
-                <button type="button" class="btn btn-primary video-btn" data-toggle="modal" data-src="https://youtu.be/B_yBoXARTQY" data-target="#myModal">
+                <button type="button" class="btn btn-primary video-btn" data-toggle="modal" data-src="https://www.youtube.com/embed/B_yBoXARTQY" data-target="#myModal">
                                 ver video
                             </button>
             </div>
