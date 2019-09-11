@@ -33432,12 +33432,11 @@ font-weight: normal;
 color:#fff;
 opacity:1;
 }
+.dieciocho{
+font-family: 'Lobster Two', cursive;
 
 
-
-
-
-
+}
 @-webkit-keyframes scroll {
   0% {
     -webkit-transform: translateX(0);
@@ -33495,33 +33494,4 @@ opacity:1;
   height: 100px;
   width: 250px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

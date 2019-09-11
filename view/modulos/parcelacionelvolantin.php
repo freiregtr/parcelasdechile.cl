@@ -55,20 +55,17 @@
                 </ol>
             </div>
         </section>
-        
-  <div class="social-bar">
-   
-    <a href="https://www.facebook.com/parcelasdechile/" class="icon icon-facebook" target="_blank"></a>
-    
-    
-    <a href="https://www.youtube.com/channel/UC1A2lJ21pRVisDtocb1gTTA/" class="icon icon-youtube" target="_blank"></a>
-    
-    <a href="https://instagram.com/parcelasdechile/" class="icon icon-instagram" target="_blank"></a>
-    
-  </div>
-      
-    
-       
+
+        <div class="social-bar">
+
+            <a href="https://www.facebook.com/parcelasdechile/" class="icon icon-facebook" target="_blank"></a>
+
+            <a href="https://www.youtube.com/channel/UC1A2lJ21pRVisDtocb1gTTA/" class="icon icon-youtube" target="_blank"></a>
+
+            <a href="https://instagram.com/parcelasdechile/" class="icon icon-instagram" target="_blank"></a>
+
+        </div>
+
         <!-- PROYECTO EL VOLANTIN DE LA QUEBRADA-->
         <section class=" text-center section-bottom-70 page-header bg-image-elvolantin">
             <div class="shell section-100 section-lg-top-220 section-lg-bottom-205 context-dark">
@@ -78,7 +75,7 @@
                 <div class="range offset-top-30 text-center">
                     <div class="cell-sm-4">
                         <!-- CountTo-->
-                        <div data-from="0" data-to="48" class="counter shadow1 text-medium"></div>
+                        <div data-from="0" data-to="38" class="counter shadow1 text-medium"></div>
                         <h3 class="text-sbold text-base shadow1 text-white">Parcelas</h3>
                     </div>
                     <div class="cell-sm-4">
@@ -94,7 +91,7 @@
                 </div>
                 <br>
                 <br>
-                <button type="button" class="btn btn-primary video-btn" data-toggle="modal" data-src="https://www.youtube.com/embed/B_yBoXARTQY" data-target="#myModal">
+                   <button type="button" class="btn btn-primary video-btn" data-toggle="modal" data-src="https://www.youtube.com/embed/B_yBoXARTQY" data-target="#myModal">
                                 ver video
                             </button>
             </div>
@@ -114,12 +111,12 @@
                                         <div class="row" id="volantinSvg"></div>
                                     </div>
                                     <div class="col-md-6">
-                                      <div>
+                                        <div>
                                             <div class="context-light">
-                                            <h2 class="offset-top-50 section-bottom-30">Parcelación <br> <span class="text-sbold"> "El Volantín"</span></h2>
+                                                <h2 class="offset-top-50 section-bottom-30">Parcelación <br> <span class="text-sbold"> "El Volantín"</span></h2>
+                                            </div>
+                                            <p class="section-bottom-30">"Región del Libertador General Bernardo O’Higgins"</p>
                                         </div>
-                                        <p class="section-bottom-30">"Región del Libertador General Bernardo O’Higgins"</p>
-                                      </div>
                                         <!-- VALORES-->
                                         <div class="row">
                                             <div class="col-md-6">
@@ -151,11 +148,11 @@
                                         </div>
                                         <div class="row">
                                             <div class="col-md-6">
-                                               <br>
+                                                <br>
                                                 <div class="valor5">
                                                     <p>VENDIDA</p>
                                                 </div>
-                                                
+
                                             </div>
                                         </div>
                                         <br>
@@ -177,22 +174,72 @@
                                 <div class="context-light ">
                                     <h2 class="offset-top-35 section-bottom-30">Galería</h2>
                                     <div data-arrows="true" data-loop="false" data-dots="false" data-swipe="true" data-items="1" data-child="#child-carousel" data-for="#child-carousel" class="slick-slider carousel-parent">
-                                        <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/6.jpg" alt="" width="100%" class="img-responsive"></div>
-                                        <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/7.jpg" alt="" width="100%" class="img-responsive"></div>
-                                        <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/8.jpg" alt="" width="100%" class="img-responsive"></div>
-                                        <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/9.jpg" alt="" width="100%" class="img-responsive"></div>
-                                        <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/10.jpg" alt="" width="100%" class="img-responsive"></div>
-                                        <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/14.jpg" alt="" width="100%" class="img-responsive"></div>
+
+                                        <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/1.png" alt="" width="100%" class="img-responsive"></div>
+                                        <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/2.png" alt="" width="100%" class="img-responsive"></div>
+                                        <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/3.png" alt="" width="100%" class="img-responsive"></div>
+                                        <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/4.png" alt="" width="100%" class="img-responsive"></div>
+                                        <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/5.png" alt="" width="100%" class="img-responsive"></div>
+                                        <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/6.png" alt="" width="100%" class="img-responsive"></div>
+                                        <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/7.png" alt="" width="100%" class="img-responsive"></div>
+                                        <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/8.png" alt="" width="100%" class="img-responsive"></div>
+                                        <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/9.png" alt="" width="100%" class="img-responsive"></div>
+                                        <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/10.png" alt="" width="100%" class="img-responsive"></div>
+                                        <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/11.png" alt="" width="100%" class="img-responsive"></div>
+                                        <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/12.png" alt="" width="100%" class="img-responsive"></div>
+                                        <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/13.png" alt="" width="100%" class="img-responsive"></div>
+                                        <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/14.png" alt="" width="100%" class="img-responsive"></div>
                                         <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/15.jpg" alt="" width="100%" class="img-responsive"></div>
+                                        <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/16.jpg" alt="" width="100%" class="img-responsive"></div>
+                                        <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/17.jpg" alt="" width="100%" class="img-responsive"></div>
+                                        <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/18.jpg" alt="" width="100%" class="img-responsive"></div>
+                                        <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/19.jpg" alt="" width="100%" class="img-responsive"></div>
+                                        <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/20.jpg" alt="" width="100%" class="img-responsive"></div>
+                                        <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/21.jpg" alt="" width="100%" class="img-responsive"></div>
+                                        <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/22.jpg" alt="" width="100%" class="img-responsive"></div>
+                                        <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/23.jpg" alt="" width="100%" class="img-responsive"></div>
+                                        <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/24.jpg" alt="" width="100%" class="img-responsive"></div>
+                                        <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/25.jpg" alt="" width="100%" class="img-responsive"></div>
+                                        <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/26.jpg" alt="" width="100%" class="img-responsive"></div>
+                                        <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/27.jpg" alt="" width="100%" class="img-responsive"></div>
+                                        <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/28.jpg" alt="" width="100%" class="img-responsive"></div>
+                                        <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/29.jpg" alt="" width="100%" class="img-responsive"></div>
+                                        <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/30.jpg" alt="" width="100%" class="img-responsive"></div>
                                     </div>
+                                    
                                     <div id="child-carousel" data-for=".carousel-parent" data-arrows="false" data-loop="false" data-dots="false" data-swipe="true" data-items="3" data-xs-items="3" data-sm-items="4" data-md-items="5" data-lg-items="6" data-slide-to-scroll="1" class="slick-slider slick-child">
-                                        <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/6.jpg" alt="" width="140" height="105"></div>
-                                        <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/7.jpg" alt="" width="140" height="105"></div>
-                                        <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/8.jpg" alt="" width="140" height="105"></div>
-                                        <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/9.jpg" alt="" width="140" height="105"></div>
-                                        <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/10.jpg" alt="" width="140" height="105"></div>
-                                        <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/14.jpg" alt="" width="140" height="105"></div>
+
+                                        <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/1.png" alt="" width="140" height="105"></div>
+                                        <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/2.png" alt="" width="140" height="105"></div>
+                                        <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/3.png" alt="" width="140" height="105"></div>
+                                        <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/4.png" alt="" width="140" height="105"></div>
+                                        <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/5.png" alt="" width="140" height="105"></div>
+                                        <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/6.png" alt="" width="140" height="105"></div>
+                                        <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/7.png" alt="" width="140" height="105"></div>
+                                        <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/8.png" alt="" width="140" height="105"></div>
+                                        <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/9.png" alt="" width="140" height="105"></div>
+                                        <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/10.png" alt="" width="140" height="105"></div>
+                                        <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/11.png" alt="" width="140" height="105"></div>
+                                        <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/12.png" alt="" width="140" height="105"></div>
+                                        <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/13.png" alt="" width="140" height="105"></div>
+                                        <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/14.png" alt="" width="140" height="105"></div>
                                         <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/15.jpg" alt="" width="140" height="105"></div>
+                                        <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/16.jpg" alt="" width="140" height="105"></div>
+                                        <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/17.jpg" alt="" width="140" height="105"></div>
+                                        <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/18.jpg" alt="" width="140" height="105"></div>
+                                        <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/19.jpg" alt="" width="140" height="105"></div>
+                                        <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/20.jpg" alt="" width="140" height="105"></div>
+                                        <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/21.jpg" alt="" width="140" height="105"></div>
+                                        <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/22.jpg" alt="" width="140" height="105"></div>
+                                        <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/23.jpg" alt="" width="140" height="105"></div>
+                                        <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/24.jpg" alt="" width="140" height="105"></div>
+                                        <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/25.jpg" alt="" width="140" height="105"></div>
+                                        <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/26.jpg" alt="" width="140" height="105"></div>
+                                        <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/27.jpg" alt="" width="140" height="105"></div>
+                                        <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/28.jpg" alt="" width="140" height="105"></div>
+                                        <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/29.jpg" alt="" width="140" height="105"></div>
+                                        <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/30.jpg" alt="" width="140" height="105"></div>
+
                                     </div>
                                 </div>
                             </div>
@@ -204,6 +251,9 @@
                         <hr>
                     </div>
                 </section>
+                
+              
+
                 <section id="flip" class="section-top-35  section-bottom-70">
                     <div class="container">
                         <div class="row">
@@ -243,76 +293,72 @@
                         <hr>
                     </div>
                 </section>
-            
                 <!-- OTROS PROYECTOS-->
                 <section class="section-top-35 section-bottom-70">
                     <div class="container-fluid">
                         <div class="row">
                             <div class="col-md-12 text-center">
-                               
-                               
-                                
                                 <div class="offset-top-30 ">
                                     <div class="row">
-                                       <div class="col-md-6">
+                                        <div class="col-md-6">
                                             <div class="context-light">
-                                    <h2 class="offset-top-35 section-bottom-30">Otros proyectos</h2>
-                                </div>
+                                                <h2 class="offset-top-35 section-bottom-30">Otros proyectos</h2>
+                                            </div>
                                             <div class="bg-image-lagochapo well-transparent context-dark">
-                                           
-                                            <div data-dots="true" data-items="1" data-margin="30" data-mouse-drag="false" class="owl-carousel owl-dots-sm">
-                                                <div>
-                                                    <br>
-                                                    <h2 class="shadow1">Lago Chapo</h2>
-                                                    <br>
-                                                    <h3 class="shadow1" class="offset-top-30 text-primary">Desde los $9.990.000</h3>
-                                                    <br>
-                                                    <p class="shadow1" class="offset-top-30">En el Lago Chapo podemos Disfrutar navegando <br>con la hermosa vista del Volcán Calbuco, y si eres de las personas <br>que ama la naturaleza deberías recorrer los senderos de la Reserva Nacional Llanquihue.</p>
-                                                    <a href="lagochapo" class="offset-top-20 btn btn-primary text-regular shadow2">Ver más</a>
+
+                                                <div data-dots="true" data-items="1" data-margin="30" data-mouse-drag="false" class="owl-carousel owl-dots-sm">
+                                                    <div>
+                                                        <br>
+                                                        <h2 class="shadow1">Lago Chapo</h2>
+                                                        <br>
+                                                        <h3 class="shadow1" class="offset-top-30 text-primary">Desde los $9.990.000</h3>
+                                                        <br>
+                                                        <p class="shadow1" class="offset-top-30">En el Lago Chapo podemos Disfrutar navegando <br>con la hermosa vista del Volcán Calbuco, y si eres de las personas <br>que ama la naturaleza deberías recorrer los senderos de la Reserva Nacional Llanquihue.</p>
+                                                        <a href="lagochapo" class="offset-top-20 btn btn-primary text-regular shadow2">Ver más</a>
+                                                    </div>
+
+                                                    <div>
+                                                        <br>
+                                                        <h2 class="shadow1">Parcelación El Volantín</h2>
+                                                        <br>
+                                                        <h3 class="shadow1" class="offset-top-30 text-primary">Desde los $7.990.000</h3>
+                                                        <br>
+                                                        <p class="shadow1" class="offset-top-30">Marchihue en la Provincia de Cardenal Caro <br> (Región del Libertador General Bernardo O'Higgins)<br>es un lugar en Chile a 138 km al suroeste de Santiago.</p>
+                                                        <a href="parcelacionelvolantin" class="offset-top-20 btn btn-primary text-regular shadow2">Ver más</a>
+                                                    </div>
+
                                                 </div>
-                                                
-                                                <div>
-                                                    <br>
-                                                    <h2 class="shadow1">Parcelación El Volantín</h2>
-                                                    <br>
-                                                    <h3 class="shadow1" class="offset-top-30 text-primary">Desde los $7.990.000</h3>
-                                                    <br>
-                                                    <p class="shadow1" class="offset-top-30">Marchihue en la Provincia de Cardenal Caro <br> (Región del Libertador General Bernardo O'Higgins)<br>es un lugar en Chile a 138 km al suroeste de Santiago.</p>
-                                                    <a href="parcelacionelvolantin" class="offset-top-20 btn btn-primary text-regular shadow2">Ver más</a>
-                                                </div>
-                                                
                                             </div>
                                         </div>
-                                       </div>
-                                        
+
                                         <div class="col-md-6">
-                                         <div class="context-light">
-                                    <h2 class="offset-top-35 section-bottom-30">Formulario</h2>
-                                </div>
-                                <div class="well well-dark">
-                                    <h3 class="text-center"> ¿Te llamamos?</h3>
-                                    <hr>
-                                    <form action="view/componentes/bat/rd-mailform.php" data-form-output="form-output-global" data-form-type="inicio" method="POST" class="offset-top-30 text-left rd-mailform">
-                                        <div class="form-group">
-                                            <label class="form-label-static form-label-outside"></label>
-                                            <input type="text" id="contact-name" name="nombre" data-constraints="@Required" class="form-control" placeholder="Nombre Completo">
+                                            <div class="context-light">
+                                                <h2 class="offset-top-35 section-bottom-30">Formulario</h2>
+                                            </div>
+                                            <div class="well well-dark">
+                                                <h3 class="text-center"> ¿Te llamamos?</h3>
+                                                <hr>
+                                                <form action="view/componentes/bat/rd-mailform.php" data-form-output="form-output-global" data-form-type="inicio" method="POST" class="offset-top-30 text-left rd-mailform">
+                                                    <div class="form-group">
+                                                        <label class="form-label-static form-label-outside"></label>
+                                                        <input type="text" id="contact-name" name="nombre" data-constraints="@Required" class="form-control" placeholder="Nombre Completo">
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label class="form-label-static form-label-outside"></label>
+                                                        <input type="email" id="contact-email" name="email" data-constraints="@Email @Required" class="form-control" placeholder="Correo Electrónico">
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label class="form-label-static form-label-outside"></label>
+                                                        <input type="text" id="contact-phone" name="numero" data-constraints="@Numeric @Required" class="form-control" placeholder="Teléfono">
+                                                    </div>
+                                                    <br>
+                                                    <br>
+                                                    <div class="offset-top-10">
+                                                        <button type="submit" class="btn btn-block btn-primary ">Enviar</button>
+                                                    </div>
+                                                </form>
+                                            </div>
                                         </div>
-                                        <div class="form-group">
-                                            <label class="form-label-static form-label-outside"></label>
-                                            <input type="email" id="contact-email" name="email" data-constraints="@Email @Required" class="form-control" placeholder="Correo Electrónico">
-                                        </div>
-                                        <div class="form-group">
-                                            <label class="form-label-static form-label-outside"></label>
-                                            <input type="text" id="contact-phone" name="numero" data-constraints="@Numeric @Required" class="form-control" placeholder="Teléfono">
-                                        </div>
-                                        <br>
-                                        <br>
-                                        <div class="offset-top-10">
-                                            <button type="submit" class="btn btn-block btn-primary ">Enviar</button>
-                                        </div>
-                                    </form>
-                                </div>
-                            </div>
                                     </div>
                                 </div>
                             </div>
@@ -329,10 +375,8 @@
                 </div>
                 <!-- FIN BOTONES SIGUIENTE PROYECTO-->
                 <hr>
-
             </div>
         </section>
-
     </main>
 
 </div>
@@ -366,9 +410,9 @@
             <div class="cell-sm-6 text-sm-right cell-sm-push-1">
                 <ul class="list-inline">
                     <li><a href="https://www.facebook.com/parcelasdechile/" target="_blank" class="icon1 icon-sm icon-primary fa-facebook"></a></li>
-                    
+
                     <li><a href="https://www.youtube.com/channel/UC1A2lJ21pRVisDtocb1gTTA/" target="_blank" class="icon1 icon-sm icon-primary fa-youtube"></a></li>
-                    
+
                     <li><a href="https://www.linkedin.com/company/parcelasdechile?originalSubdomain=cl/" target="_blank" class="icon1 icon-sm icon-primary fa-linkedin"></a></li>
                     <li><a href="https://instagram.com/parcelasdechile/" target="_blank" class="icon1 icon-sm icon-primary fa-instagram"></a></li>
                 </ul>
