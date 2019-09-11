@@ -65,6 +65,9 @@
                             <button type="button" class="btn btn-primary video-btn" data-toggle="modal" data-src="https://www.youtube.com/embed/B_yBoXARTQY" data-target="#myModal">
                                 ver video
                             </button>
+
+
+                            
                         </div>
                         <div class="owl-item">
                             <hr class="divider veil reveal-md-inline-block">

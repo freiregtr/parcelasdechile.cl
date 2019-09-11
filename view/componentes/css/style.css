@@ -6955,6 +6955,7 @@ button.close {
   display: none;
   overflow: hidden;
   position: fixed;
+  text-align:center;
   top: 0;
   right: 0;
   bottom: 0;
@@ -13387,7 +13388,7 @@ fieldset[disabled] .btn-white {
   content: "\f31f";
 }
 
-.mdi-file-video:before {
+.mdi-file-:before {
   content: "\f320";
 }
 
