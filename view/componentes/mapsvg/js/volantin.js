@@ -13,33 +13,33 @@ jQuery(document).ready(function () {
             'P-57': {
                 id: "P-57",
                 'id_no_spaces': "P-57",
-                fill: "rgba(2,78,139,1)",
-                tooltip: "$9.990.000",
-                popover: "$9.990.000",
+                 fill: "rgba(88,89,89,1)",
+                tooltip: "P-57 VENDIDA",
+                popover: "P-57 VENDIDA",
                 data: {}
             },
             'P-58': {
                 id: "P-58",
                 'id_no_spaces': "P-58",
-                fill: "rgba(2,78,139,1)",
-                tooltip: "$9.990.000",
-                popover: "$9.990.000",
+                 fill: "rgba(88,89,89,1)",
+                tooltip: "P-58 VENDIDA",
+                popover: "P-58 VENDIDA",
                 data: {}
             },
             'P-59': {
                 id: "P-59",
                 'id_no_spaces': "P-59",
-                fill: "rgba(2,78,139,1)",
-                tooltip: "$9.990.000",
-                popover: "$9.990.000",
+                fill: "rgba(88,89,89,1)",
+                tooltip: "P-59 VENDIDA",
+                popover: "P-59 VENDIDA",
                 data: {}
             },
             'P-60': {
                 id: "P-60",
                 'id_no_spaces': "P-60",
-                fill: "rgba(2,78,139,1)",
-                tooltip: "$9.990.000",
-                popover: "$9.990.000",
+                 fill: "rgba(88,89,89,1)",
+                tooltip: "P-60 VENDIDA",
+                popover: "P-60 VENDIDA",
                 data: {}
             },
             'P-55': {
@@ -109,9 +109,9 @@ jQuery(document).ready(function () {
             'P-43': {
                 id: "P-43",
                 'id_no_spaces': "P-43",
-                fill: "rgba(2,78,139,1)",
-                tooltip: "$9.990.000",
-                popover: "$9.990.000",
+                fill: "rgba(88,89,89,1)",
+                tooltip: "P-43 VENDIDA",
+                popover: "P-43 VENDIDA",
                 data: {}
             },
             'P-30': {
