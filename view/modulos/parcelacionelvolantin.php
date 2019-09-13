@@ -146,6 +146,15 @@
                                                 </div>
                                             </div>
                                         </div>
+                                        <br>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <div class="valor1">
+                                                    <p>$14.990.000</p>
+                                                </div>
+                                            </div>
+                                           
+                                        </div>
                                 
                                         <br>
                                         <p class="offset-top-40 text-bold text-base">" Por qué tenemos el país más lindo del mundo, creemos que deberías elegir Parcelas de Chile."</p>
