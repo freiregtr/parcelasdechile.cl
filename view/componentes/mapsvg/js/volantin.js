@@ -221,9 +221,9 @@ jQuery(document).ready(function () {
             'P-17': {
                 id: "P-17",
                 'id_no_spaces': "P-17",
-                fill: "rgba(25,143,61,1)",
-                tooltip: "$10.990.000",
-                popover: "$10.990.000",
+                fill: "rgba(88,89,89,1)",
+                tooltip: "P-17 VENDIDA",
+                popover: "P-17 VENDIDA",
                 data: {}
             },
             'P-16': {
@@ -339,9 +339,9 @@ jQuery(document).ready(function () {
             'P-7': {
                 id: "P-7",
                 'id_no_spaces': "P-7",
-                fill: "rgba(88,89,89,1)",
-                tooltip: "P-7 VENDIDA",
-                popover: "P-7 VENDIDA",
+                   fill: "rgba(25,143,61,1)",
+                tooltip: "$10.990.000",
+                popover: "$10.990.000",
                 data: {}
             },
             'P-47': {
