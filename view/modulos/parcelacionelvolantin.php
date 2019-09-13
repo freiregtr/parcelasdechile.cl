@@ -75,7 +75,7 @@
                 <div class="range offset-top-30 text-center">
                     <div class="cell-sm-4">
                         <!-- CountTo-->
-                        <div data-from="0" data-to="38" class="counter shadow1 text-medium"></div>
+                        <div data-from="0" data-to="21" class="counter shadow1 text-medium"></div>
                         <h3 class="text-sbold text-base shadow1 text-white">Parcelas</h3>
                     </div>
                     <div class="cell-sm-4">
