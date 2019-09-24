@@ -1,9 +1,6 @@
 <!-- Page-->
 <div class="page text-center">
-    <!-- HEADER -->
-    <header class="page-header">
-        <!-- RD Navbar-->
-        <div class="rd-navbar-wrap">
+   <div class="rd-navbar-wrap">
             <nav data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fixed" data-md-device-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-static" data-lg-device-layout="rd-navbar-static" data-sm-stick-up-offset="150px" data-md-stick-up-offset="1px" data-lg-stick-up-offset="150px" class="rd-navbar">
                 <div class="rd-navbar-panel">
                     <!-- RD Navbar Panel-->
@@ -42,6 +39,10 @@
                 </div>
             </nav>
         </div>
+    <!-- HEADER -->
+    <header class="page-header">
+        <!-- RD Navbar-->
+        
     </header>
     <!-- INICIO MAIN-->
     <main class="page-content">

@@ -1,9 +1,6 @@
 <!-- Page-->
 <div class="page text-center">
-    <!-- HEADER -->
-    <header class="page-header">
-        <!-- RD Navbar-->
-        <div class="rd-navbar-wrap">
+    <div class="rd-navbar-wrap">
             <nav data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fixed" data-md-device-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-static" data-lg-device-layout="rd-navbar-static" data-sm-stick-up-offset="150px" data-md-stick-up-offset="1px" data-lg-stick-up-offset="150px" class="rd-navbar">
                 <div class="rd-navbar-panel">
                     <!-- RD Navbar Panel-->
@@ -44,10 +41,11 @@
                 </div>
             </nav>
         </div>
-    </header>
-    <!-- INICIO MAIN-->
-    <main class="page-content">
-        <section class="bg-gray-lighter">
+    <!-- HEADER -->
+    <header class="page-header">
+        <!-- RD Navbar-->
+       
+         <section class="bg-gray-lighter">
             <div class="shell text-left">
                 <ol class="breadcrumb">
                     <li><a href="inicio">Home</a></li>
@@ -57,6 +55,10 @@
                 </ol>
             </div>
         </section>
+    </header>
+    <!-- INICIO MAIN-->
+    <main class="page-content">
+       
         <!-- PROYECTO LAGO CHAPO-->
         <section class=" text-center section-bottom-70 page-header bg-image-lagochapo">
             <div class="shell section-100 section-lg-top-220 section-lg-bottom-205 context-dark">
@@ -83,6 +85,7 @@
                 </div>
             </div>
         </section>
+        
         <section class="section-top-45 section-bottom-80">
             <div class="shell text-md-left product">
                 <div class="row">

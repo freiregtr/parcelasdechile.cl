@@ -1,9 +1,6 @@
 <!-- Page-->
 <div class="page text-center">
-    <!-- Page Header-->
-    <header class="page-header bg-image-01">
-        <!-- RD Navbar-->
-        <div class="rd-navbar-wrap">
+    <div class="rd-navbar-wrap">
             <nav data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fixed" data-md-device-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-static" data-lg-device-layout="rd-navbar-static" data-sm-stick-up-offset="150px" data-md-stick-up-offset="1px" data-lg-stick-up-offset="150px" class="rd-navbar">
                 <div class="rd-navbar-panel">
                     <!-- RD Navbar Panel-->
@@ -11,7 +8,7 @@
                         <!-- RD Navbar Toggle-->
                         <button data-rd-navbar-toggle=".rd-navbar-nav-wrap" class="rd-navbar-toggle"><span></span></button>
                         <!-- RD Navbar Brand-->
-                        <div class="rd-navbar-brand"><a href="inicio" class="brand-name"><img src="view/componentes/img/logo/logo18.png" height="85" alt="Parcelas de chile"></a>
+                        <div class="rd-navbar-brand"><a href="inicio" class="brand-name"><img src="view/componentes/img/logo/logon.png" height="85" alt="Parcelas de chile"></a>
                         </div>
                         <div class="rd-navbar-contacts rd-navbar-collapse rd-navbar-collapse-2"><span>Contáctanos</span>
                             <div><span class="icon1 fa-phone text-primary"></span><a href="callto:> +56958053609"></a><a>+56 9 5805 3609</a>
@@ -19,7 +16,6 @@
                         </div>
                     </div>
                 </div>
-
                 <div class="rd-navbar-nav-wrap">
                     <div class="rd-navbar-inner">
                         <!-- RD Navbar Nav-->
@@ -39,16 +35,25 @@
                             <li><a href="blog">Blog</a></li>
                         </ul>
                     </div>
-                </div>
-                               
+                </div>           
             </nav>
         </div>
 
+    <!-- Page Header-->
+    <header class="page-header">
+      
+       <div class="overlay"></div>
+  <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+    <source src="view/componentes/img/home.mp4" type="video/mp4">
+  </video>
+       
+        <!-- RD Navbar-->
         <div class="social-bar">
     <a href="https://www.facebook.com/parcelasdechile/" class="icon icon-facebook" target="_blank"></a>
     <a href="https://www.youtube.com/channel/UC1A2lJ21pRVisDtocb1gTTA/" class="icon icon-youtube" target="_blank"></a>
     <a href="https://instagram.com/parcelasdechile/" class="icon icon-instagram" target="_blank"></a>
   </div>
+       
         <!-- HOME-->
         <div class="shell section-70 section-lg-120 text-md-left">
             <div class="row row-xs-middle">
@@ -56,22 +61,10 @@
                 <div class="col-lg-7 col-md-7">
                     <!-- Owl Carousel-->
                     <div data-items="1" data-dots="true" data-margin="30" data-mouse-drag="false" class="context-dark owl-slider owl-carousel">
-                        <div class="owl-item">
+                       <div class="owl-item">
                             <hr class="divider veil reveal-md-inline-block">
-                            <h1><span class="dieciocho">Felices mes de la <br>Patrias te desea... <br> Parcelas de Chile 🇨🇱</span></h1>
-                            <br>     
-                            <p class="offset-top-35 shadow1">Parcelas desde los $7.990.000, Un terreno es la mejor forma de asegurar el futuro de tu familia. A solo 138 km de Santiago y con buena conexión con otros destinos.</p>
-                            <br>
-                            <button type="button" class="btn btn-primary video-btn" data-toggle="modal" data-src="https://www.youtube.com/embed/B_yBoXARTQY" data-target="#myModal">
-                                ver video
-                            </button>
-
-
-                            
-                        </div>
-                        <div class="owl-item">
-                            <hr class="divider veil reveal-md-inline-block">
-                            <h1>Parcelación El Volantín</h1>
+                            <h1>Parcelas de Chile <br>
+                            <span class="familiar">Tu proyecto familiar</span></h1>
                             <br>
                             <p class="offset-top-35">Parcelas desde los $7.990.000, Un terreno es la mejor forma de asegurar el futuro de tu familia. A solo 138 km de Santiago y con buena conexión con otros destinos.</p>
                             <br>
@@ -82,7 +75,18 @@
                         </div>
                         <div class="owl-item">
                             <hr class="divider veil reveal-md-inline-block">
-                            <h1>Parcelacion Lago Chapo</h1>
+                            <h1>Parcelación <br> El Volantín</h1>
+                            <br>
+                            <p class="offset-top-35">Parcelas desde los $7.990.000, Un terreno es la mejor forma de asegurar el futuro de tu familia. A solo 138 km de Santiago y con buena conexión con otros destinos.</p>
+                            <br>
+                             <button type="button" class="btn btn-primary video-btn" data-toggle="modal" data-src="https://youtu.be/B_yBoXARTQY" data-target="#myModal">
+                                ver video
+                            </button>
+
+                        </div>
+                        <div class="owl-item">
+                            <hr class="divider veil reveal-md-inline-block">
+                            <h1>Parcelación <br> Lago Chapo</h1>
                             <br>
                             <p class="offset-top-35">Parcelas desde los $7.990.000, Un terreno es la mejor forma de asegurar el futuro de tu familia. A solo 138 km de Santiago y con buena conexión con otros destinos.</p>
                             <br>
@@ -95,7 +99,9 @@
                 </div>
                 
             </div>
+            </div>
             </header>
+               
                 <!--
                 <div class="col-md-5 cell-lg-4 col-md-preffix-1 offset-top-40 text-left
 ">
