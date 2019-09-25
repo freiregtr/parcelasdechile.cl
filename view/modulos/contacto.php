@@ -1,66 +1,60 @@
 <!-- Page-->
 <div class="page text-center">
-    <!-- Page Header-->
-    <header class="page-header">
-        <!-- RD Navbar-->
-        <div class="rd-navbar-wrap">
-            <nav data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fixed" data-md-device-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-static" data-lg-device-layout="rd-navbar-static" data-sm-stick-up-offset="150px" data-md-stick-up-offset="1px" data-lg-stick-up-offset="150px" class="rd-navbar">
-                <div class="rd-navbar-panel">
-                    <!-- RD Navbar Panel-->
-                    <div class="rd-navbar-inner">
-                        <!-- RD Navbar Toggle-->
-                        <button data-rd-navbar-toggle=".rd-navbar-nav-wrap" class="rd-navbar-toggle"><span></span></button>
-                        <!-- RD Navbar Brand-->
-                        <div class="rd-navbar-brand"><a href="inicio" class="brand-name"><img src="view/componentes/img/logo/logon.png" height="85" alt=""></a></div>
-                        <div class="rd-navbar-contacts rd-navbar-collapse rd-navbar-collapse-2"><span>Contáctanos</span>
+    <!-- RD Navbar-->
+    <div class="rd-navbar-wrap">
+        <nav data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fixed" data-md-device-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-static" data-lg-device-layout="rd-navbar-static" data-sm-stick-up-offset="150px" data-md-stick-up-offset="1px" data-lg-stick-up-offset="150px" class="rd-navbar">
+            <div class="rd-navbar-panel">
+                <!-- RD Navbar Panel-->
+                <div class="rd-navbar-inner">
+                    <!-- RD Navbar Toggle-->
+                    <button data-rd-navbar-toggle=".rd-navbar-nav-wrap" class="rd-navbar-toggle"><span></span></button>
+                    <!-- RD Navbar Brand-->
+                    <div class="rd-navbar-brand"><a href="inicio" class="brand-name"><img src="view/componentes/img/logo/logon.png" height="85" alt=""></a></div>
+                    <div class="rd-navbar-contacts rd-navbar-collapse rd-navbar-collapse-2"><span>Contáctanos</span>
                         <div><span class="icon1 fa-phone text-primary"></span><a href="callto:> +56958053609"></a><a>+56 9 4007 5222</a>
                         </div>
                     </div>
-                    </div>
                 </div>
-                <div class="rd-navbar-nav-wrap">
-                    <div class="rd-navbar-inner">
-                        <!-- RD Navbar Nav-->
-                        <ul class="rd-navbar-nav">
-                            <li><a href="inicio">Home</a></li>
-                            <li><a href="parcelacionelvolantin">Proyectos</a>
-                                <!-- RD Navbar Dropdown-->
-                                <ul class="rd-navbar-dropdown">
-                                    <li><a href="lagochapo">Lago Chapo</a></li>
-                                    <li><a href="parcelacionelvolantin">Parcelación El Volantín</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="quienessomos">Quienes Somos</a></li>
-                            <li><a href="trabajaconnosotros">Trabaja con nosotros</a></li>
-                            <li class="active"><a href="contacto">Contacto</a></li>
-                            <li><a href="faq">FAQ</a></li>
-                            <li><a href="blog">Blog</a></li>
-
-                        </ul>
-                    </div>
+            </div>
+            <div class="rd-navbar-nav-wrap">
+                <div class="rd-navbar-inner">
+                    <!-- RD Navbar Nav-->
+                    <ul class="rd-navbar-nav">
+                        <li><a href="inicio">Home</a></li>
+                        <li><a href="parcelacionelvolantin">Proyectos</a>
+                            <!-- RD Navbar Dropdown-->
+                            <ul class="rd-navbar-dropdown">
+                                <li><a href="lagochapo">Lago Chapo</a></li>
+                                <li><a href="parcelacionelvolantin">Parcelación El Volantín</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="quienessomos">Quienes Somos</a></li>
+                        <li><a href="trabajaconnosotros">Trabaja con nosotros</a></li>
+                        <li class="active"><a href="contacto">Contacto</a></li>
+                        <li><a href="faq">FAQ</a></li>
+                        <li><a href="blog">Blog</a></li>
+                    </ul>
                 </div>
-            </nav>
+            </div>
+        </nav>
+    </div>
+    <section class="bg-gray-lighter">
+        <div class="shell text-left">
+            <ol class="breadcrumb">
+                <li><a href="inicio">Home</a></li>
+                <li class="active">Contacto
+                </li>
+            </ol>
         </div>
-    </header>
+    </section>
     <!-- Page Content-->
     <main class="page-content">
-        <section class="bg-gray-lighter">
-            <div class="shell text-left">
-                <ol class="breadcrumb">
-                    <li><a href="inicio">Home</a></li>
-                    <li class="active">Contacto
-                    </li>
-                </ol>
-            </div>
-        </section>
         <div class="container-fluid">
             <section class="section-top-70 section-bottom-80">
                 <div class="shell text-md-left">
                     <div class="row">
-                       <div class="offset-md-2 col-md-2">
-                            
+                        <div class="offset-md-2 col-md-2">
                         </div>
-                       
                         <div class="col-md-8">
                             <div>
                                 <div class="context-light">
@@ -121,37 +115,34 @@
                                 </form>
                             </div>
                         </div>
-                        
-                       
                     </div>
-                            </div>
-
+                </div>
             </section>
-</div>
-</main>
-<!-- Page Footer-->
-<footer class="page-footer2">
-    <!-- PRIVACITY-->
-    <div class="shell section-30">
+        </div>
+    </main>
+    <!-- Page Footer-->
+    <footer class="page-footer2">
+        <!-- PRIVACITY-->
+        <div class="shell section-30">
 
-        <div class="range range-xs-middle">
-            <div class="cell-sm-6 text-sm-right cell-sm-push-1">
-                <ul class="list-inline">
-                    <li><a href="https://www.facebook.com/parcelasdechile/" target="_blank" class="icon1 icon-sm text-primary fa-facebook"></a></li>
-                    <li><a href="https://www.youtube.com/channel/UC1A2lJ21pRVisDtocb1gTTA/" target="_blank" class="icon1 icon-sm text-primary fa-youtube"></a></li>
-                    <li><a href="https://www.linkedin.com/company/parcelasdechile?originalSubdomain=cl/" target="_blank" class="icon1 icon-sm text-primary fa-linkedin"></a></li>
-                    <li><a href="https://instagram.com/parcelasdechile/" target="_blank" class="icon1 icon-sm text-primary fa-instagram"></a></li>
-                </ul>
-            </div>
-            <div class="cell-sm-6 text-sm-left offset-top-20 offset-sm-top-0">
-                <p class="small">Parcelas de Chile &#169;<span id="copyright-year"></span>. <a href="privacy.html" class="text-gray">Privacy Policy</a>
-                </p>
+            <div class="range range-xs-middle">
+                <div class="cell-sm-6 text-sm-right cell-sm-push-1">
+                    <ul class="list-inline">
+                        <li><a href="https://www.facebook.com/parcelasdechile/" target="_blank" class="icon1 icon-sm text-primary fa-facebook"></a></li>
+                        <li><a href="https://www.youtube.com/channel/UC1A2lJ21pRVisDtocb1gTTA/" target="_blank" class="icon1 icon-sm text-primary fa-youtube"></a></li>
+                        <li><a href="https://www.linkedin.com/company/parcelasdechile?originalSubdomain=cl/" target="_blank" class="icon1 icon-sm text-primary fa-linkedin"></a></li>
+                        <li><a href="https://instagram.com/parcelasdechile/" target="_blank" class="icon1 icon-sm text-primary fa-instagram"></a></li>
+                    </ul>
+                </div>
+                <div class="cell-sm-6 text-sm-left offset-top-20 offset-sm-top-0">
+                    <p class="small">Parcelas de Chile &#169;<span id="copyright-year"></span>. <a href="privacy.html" class="text-gray">Privacy Policy</a>
+                    </p>
+                </div>
             </div>
         </div>
-    </div>
-    <!-- Global Mailform Output-->
-    <div id="form-output-global" class="snackbars"></div>
-</footer>
+        <!-- Global Mailform Output-->
+        <div id="form-output-global" class="snackbars"></div>
+    </footer>
 </div>
 <!-- Inicio Div chat -->
 <?php

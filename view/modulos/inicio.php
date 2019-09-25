@@ -1,5 +1,4 @@
 <!-- Page-->
-
 <div class="page text-center">
     <div class="rd-navbar-wrap">
         <nav data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fixed" data-md-device-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-static" data-lg-device-layout="rd-navbar-static" data-sm-stick-up-offset="150px" data-md-stick-up-offset="1px" data-lg-stick-up-offset="150px" class="rd-navbar">
@@ -39,34 +38,24 @@
             </div>
         </nav>
     </div>
-    
     <!-- Page Header-->
-    
     <header class="page-header">
         <div class="overlay"></div>
         <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
             <source src="view/componentes/img/home.mp4" type="video/mp4">
         </video>
-        
         <!-- RD Navbar-->
-        
         <div class="social-bar">
             <a href="https://www.facebook.com/parcelasdechile/" class="icon icon-facebook" target="_blank"></a>
             <a href="https://www.youtube.com/channel/UC1A2lJ21pRVisDtocb1gTTA/" class="icon icon-youtube" target="_blank"></a>
             <a href="https://instagram.com/parcelasdechile/" class="icon icon-instagram" target="_blank"></a>
         </div>
-        
         <!-- HOME-->
-        
         <div class="shell section-70 section-lg-120 text-md-left">
             <div class="row row-xs-middle">
-               
                 <!-- SLIDE HOME-->
-                
                 <div class="col-lg-7 col-md-7">
-                   
                     <!-- Owl Carousel-->
-                    
                     <div data-items="1" data-dots="true" data-margin="30" data-mouse-drag="false" class="context-dark owl-slider owl-carousel">
                         <div class="owl-item">
                             <hr class="divider veil reveal-md-inline-block">
@@ -108,7 +97,7 @@
             </div>
         </div>
     </header>
-    
+
     <!--
                 <div class="col-md-5 cell-lg-4 col-md-preffix-1 offset-top-40 text-left
 ">
@@ -136,10 +125,10 @@
                 </div>
             </div>
                      -->
-                     
+
     <!-- Page Content-->
     <main class="page-content">
-       
+
         <!-- TITULO PARCELAS -->
         <section class="#">
             <div class="shell section-30 context-light text-md-center">
@@ -309,9 +298,9 @@
                 </div>
             </div>
         </section>
-        
+
     </main>
-    
+
     <!-- FOOTER-->
     <footer class="page-footer2">
         <div class="shell section-45 section-lg-30">
@@ -380,7 +369,7 @@
             </div>
         </div>
     </footer>
-        <!-- PhotoSwipe Gallery-->
+    <!-- PhotoSwipe Gallery-->
     <div tabindex="-1" role="dialog" aria-hidden="true" class="pswp">
         <div class="pswp__bg"></div>
         <div class="pswp__scroll-wrap">
@@ -420,7 +409,7 @@
     include "chat.php";
     ?>
     <!-- Fin Div chat -->
-    
+
 </div>
 <!-- Modal -->
 <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">

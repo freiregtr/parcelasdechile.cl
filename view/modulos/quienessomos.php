@@ -1,59 +1,54 @@
 <!-- Page-->
 <div class="page text-center">
-    <!-- HEADER -->
-    <header class="page-header">
-        <!-- RD Navbar-->
-        <div class="rd-navbar-wrap">
-            <nav data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fixed" data-md-device-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-static" data-lg-device-layout="rd-navbar-static" data-sm-stick-up-offset="150px" data-md-stick-up-offset="1px" data-lg-stick-up-offset="150px" class="rd-navbar">
-                <div class="rd-navbar-panel">
-                    <!-- RD Navbar Panel-->
-                    <div class="rd-navbar-inner">
-                        <!-- RD Navbar Toggle-->
-                        <button data-rd-navbar-toggle=".rd-navbar-nav-wrap" class="rd-navbar-toggle"><span></span></button>
-                        <!-- RD Navbar Brand-->
-                        <div class="rd-navbar-brand"><a href="inicio" class="brand-name"><img src="view/componentes/img/logo/logon.png" height="85" alt="Parcelas de chile"></a>
-                        </div>
-                        <div class="rd-navbar-contacts rd-navbar-collapse rd-navbar-collapse-2"><span>Contáctanos</span>
+    <div class="rd-navbar-wrap">
+        <nav data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fixed" data-md-device-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-static" data-lg-device-layout="rd-navbar-static" data-sm-stick-up-offset="150px" data-md-stick-up-offset="1px" data-lg-stick-up-offset="150px" class="rd-navbar">
+            <div class="rd-navbar-panel">
+                <!-- RD Navbar Panel-->
+                <div class="rd-navbar-inner">
+                    <!-- RD Navbar Toggle-->
+                    <button data-rd-navbar-toggle=".rd-navbar-nav-wrap" class="rd-navbar-toggle"><span></span></button>
+                    <!-- RD Navbar Brand-->
+                    <div class="rd-navbar-brand"><a href="inicio" class="brand-name"><img src="view/componentes/img/logo/logon.png" height="85" alt="Parcelas de chile"></a>
+                    </div>
+                    <div class="rd-navbar-contacts rd-navbar-collapse rd-navbar-collapse-2"><span>Contáctanos</span>
                         <div><span class="icon1 fa-phone text-primary"></span><a href="callto:> +56958053609"></a><a>+56 9 4007 5222</a>
                         </div>
                     </div>
-                    </div>
                 </div>
-                <div class="rd-navbar-nav-wrap">
-                    <div class="rd-navbar-inner">
-                        <!-- RD Navbar Nav-->
-                        <ul class="rd-navbar-nav">
-                            <li><a href="inicio">Home</a></li>
-                            <li><a href="parcelacionelvolantin">Proyectos</a>
-                                <!-- RD Navbar Dropdown-->
-                                <ul class="rd-navbar-dropdown">
-                                    <li><a href="lagochapo">Lago Chapo</a></li>
-                                    <li><a href="parcelacionelvolantin">Parcelación El Volantín</a></li>
-                                </ul>
-                            </li>
-                            <li class="active"><a href="quienessomos">Quienes Somos</a></li>
+            </div>
+            <div class="rd-navbar-nav-wrap">
+                <div class="rd-navbar-inner">
+                    <!-- RD Navbar Nav-->
+                    <ul class="rd-navbar-nav">
+                        <li><a href="inicio">Home</a></li>
+                        <li><a href="parcelacionelvolantin">Proyectos</a>
                             <!-- RD Navbar Dropdown-->
-                            <li><a href="trabajaconnosotros">Trabaja con nosotros</a></li>
-                            <li><a href="contacto">Contacto</a></li>
-                            <li><a href="faq">FAQ</a></li>
-                            <li><a href="blog">Blog</a></li>
-
-                        </ul>
-                    </div>
+                            <ul class="rd-navbar-dropdown">
+                                <li><a href="lagochapo">Lago Chapo</a></li>
+                                <li><a href="parcelacionelvolantin">Parcelación El Volantín</a></li>
+                            </ul>
+                        </li>
+                        <li class="active"><a href="quienessomos">Quienes Somos</a></li>
+                        <!-- RD Navbar Dropdown-->
+                        <li><a href="trabajaconnosotros">Trabaja con nosotros</a></li>
+                        <li><a href="contacto">Contacto</a></li>
+                        <li><a href="faq">FAQ</a></li>
+                        <li><a href="blog">Blog</a></li>
+                    </ul>
                 </div>
-            </nav>
+            </div>
+        </nav>
+    </div>
+    <section class="bg-gray-lighter">
+        <div class="shell text-left">
+            <ol class="breadcrumb">
+                <li><a href="inicio">Home</a></li>
+                <li class="active">Quienes somos</li>
+            </ol>
         </div>
-    </header>
+    </section>
     <!-- INICIO MAIN-->
     <main class="page-content">
-        <section class="bg-gray-lighter">
-            <div class="shell text-left">
-                <ol class="breadcrumb">
-                    <li><a href="inicio">Home</a></li>
-                    <li class="active">Quienes somos</li>
-                </ol>
-            </div>
-        </section>
         <section class="section-top-70 section-bottom-80">
             <div class="shell text-md-left">
                 <div class="row">
@@ -82,62 +77,57 @@
             </div>
         </section>
         <section class=" text-center section-bottom-70 section-top-50 page-header bg-blue">
-           <div class="container-fluid">
-            <div class="row">
-                                <div class="context-light">
-                                    <h2 class="offset-top-50 section-bottom-30 text-center">Nuestros Vendedores</h2>
-                                </div>
-                                                                                                   <hr>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="context-light">
+                        <h2 class="offset-top-50 section-bottom-30 text-center">Nuestros Vendedores</h2>
+                    </div>
+                    <hr>
+                    <div class="col-md-2 offset-md-2">
+                    </div>
+                    <div class="col-md-8 text-center">
+                        <div class="col-md-3">
+                            <div>
+                                <br>
+                                <img src="view/componentes/img/vendedores/margarita301.jpg" width="200" height="200" alt="" class="img-responsive center-block img-circle">
 
-                                <div class="col-md-2 offset-md-2">
-                                </div>
-                                <div class="col-md-8 text-center">
+                                <h5 class="offset-top-10">Margarita<br>Ramirez</h5>
+                                <div><span class="text-middle icon1 inset-right-10 text-primary fa-phone"></span><a href="callto:#" class="text-middle text-base">+56 9 8821 4958</a></div>
+                                <div class="offset-top-25"><a href="https://web.whatsapp.com/send?phone=56988214958/" class="btn btn-primary">Contactar</a></div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div>
+                                <br>
+                                <img src="view/componentes/img/vendedores/soledad301.jpg" width="200" height="200" alt="" class="img-responsive center-block img-circle">
+                                <h5 class="offset-top-10">Soledad<br>Charme</h5>
+                                <div><span class="text-middle icon1 inset-right-10 text-primary fa-phone"></span><a href="callto:#" class="text-middle text-base">+56 9 6848 1426</a></div>
+                                <div class="offset-top-25"><a href="https://web.whatsapp.com/send?phone=56968481426/" class="btn btn-primary">Contactar</a></div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div>
+                                <br>
+                                <img src="view/componentes/img/vendedores/mauro301.jpg" width="200" height="200" alt="" class="img-responsive center-block img-circle">
 
-                                    <div class="col-md-3">
-                                        <div>
-                                            <br>
-                                            <img src="view/componentes/img/vendedores/margarita301.jpg" width="200" height="200" alt="" class="img-responsive center-block img-circle">
-
-                                            <h5 class="offset-top-10">Margarita<br>Ramirez</h5>
-                                            <div><span class="text-middle icon1 inset-right-10 text-primary fa-phone"></span><a href="callto:#" class="text-middle text-base">+56 9 8821 4958</a></div>
-                                            <div class="offset-top-25"><a href="https://web.whatsapp.com/send?phone=56988214958/" class="btn btn-primary">Contactar</a></div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-3">
-                                        <div>
-                                            <br>
-                                            <img src="view/componentes/img/vendedores/soledad301.jpg" width="200" height="200" alt="" class="img-responsive center-block img-circle">
-                                            <h5 class="offset-top-10">Soledad<br>Charme</h5>
-                                            <div><span class="text-middle icon1 inset-right-10 text-primary fa-phone"></span><a href="callto:#" class="text-middle text-base">+56 9 6848 1426</a></div>
-                                            <div class="offset-top-25"><a href="https://web.whatsapp.com/send?phone=56968481426/" class="btn btn-primary">Contactar</a></div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-3">
-                                        <div>
-                                            <br>
-                                            <img src="view/componentes/img/vendedores/mauro301.jpg" width="200" height="200" alt="" class="img-responsive center-block img-circle">
-
-                                            <h5 class="offset-top-10">Mauro<br>Beasain</h5>
-                                            <div><span class="text-middle icon1 inset-right-10 text-primary fa-phone"></span><a href="callto:#" class="text-middle text-base">+56 9 9359 0127</a></div>
-                                            <div class="offset-top-25"><a href="https://web.whatsapp.com/send?phone=56993590127/" class="btn btn-primary">Contactar</a></div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-3">
-                                        <div>
-                                            <br>
-                                            <img src="view/componentes/img/vendedores/jorge301.jpg" width="200" height="200" alt="" class="img-responsive center-block img-circle">
-                                            <h5 class="offset-top-10">Jorge<br>Vera</h5>
-                                            <div><span class="text-middle icon1 inset-right-10 text-primary fa-phone"></span><a href="callto:#" class="text-middle text-base">+56 9 4564 5272</a></div>
-                                            <div class="offset-top-25"><a href="https://web.whatsapp.com/send?phone=56945645272/" class="btn btn-primary">Contactar</a></div>
-                                        </div>
-                                    </div>
-                                </div>
-
+                                <h5 class="offset-top-10">Mauro<br>Beasain</h5>
+                                <div><span class="text-middle icon1 inset-right-10 text-primary fa-phone"></span><a href="callto:#" class="text-middle text-base">+56 9 9359 0127</a></div>
+                                <div class="offset-top-25"><a href="https://web.whatsapp.com/send?phone=56993590127/" class="btn btn-primary">Contactar</a></div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div>
+                                <br>
+                                <img src="view/componentes/img/vendedores/jorge301.jpg" width="200" height="200" alt="" class="img-responsive center-block img-circle">
+                                <h5 class="offset-top-10">Jorge<br>Vera</h5>
+                                <div><span class="text-middle icon1 inset-right-10 text-primary fa-phone"></span><a href="callto:#" class="text-middle text-base">+56 9 4564 5272</a></div>
+                                <div class="offset-top-25"><a href="https://web.whatsapp.com/send?phone=56945645272/" class="btn btn-primary">Contactar</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>
-            
         </section>
-                    
     </main>
     <!-- FIN MAIN-->
     <!-- PARALAX -->
