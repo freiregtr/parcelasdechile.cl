@@ -13,8 +13,8 @@
                         <!-- RD Navbar Brand-->
                         <div class="rd-navbar-brand"><a href="inicio" class="brand-name"><img src="view/componentes/img/logo/logon.png" height="85" alt="Parcelas de chile"></a>
                         </div>
-                        <div class="rd-navbar-contacts rd-navbar-collapse rd-navbar-collapse-2"><span>Póngase en contacto con nosotros</span>
-                            <div><span class="icon1 fa-phone text-primary"></span><a href="callto:> +56958053609"></span><a>+56 9 5805 3609</a>
+                        <div class="rd-navbar-contacts rd-navbar-collapse rd-navbar-collapse-2"><span>Contáctanos</span>
+                            <div><span class="icon1 fa-phone text-primary"></span><a href="callto:> +56958053609"></span><a>+56 9 4007 5222</a>
                             </div>
                         </div>
                     </div>
