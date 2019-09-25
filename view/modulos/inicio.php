@@ -1,74 +1,81 @@
 <!-- Page-->
+
 <div class="page text-center">
     <div class="rd-navbar-wrap">
-            <nav data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fixed" data-md-device-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-static" data-lg-device-layout="rd-navbar-static" data-sm-stick-up-offset="150px" data-md-stick-up-offset="1px" data-lg-stick-up-offset="150px" class="rd-navbar">
-                <div class="rd-navbar-panel">
-                    <!-- RD Navbar Panel-->
-                    <div class="rd-navbar-inner">
-                        <!-- RD Navbar Toggle-->
-                        <button data-rd-navbar-toggle=".rd-navbar-nav-wrap" class="rd-navbar-toggle"><span></span></button>
-                        <!-- RD Navbar Brand-->
-                        <div class="rd-navbar-brand"><a href="inicio" class="brand-name"><img src="view/componentes/img/logo/logon.png" height="85" alt="Parcelas de chile"></a>
-                        </div>
-                        <div class="rd-navbar-contacts rd-navbar-collapse rd-navbar-collapse-2"><span>Contáctanos</span>
-                            <div><span class="icon1 fa-phone text-primary"></span><a href="callto:> +56958053609"></a><a>+56 9 5805 3609</a>
-                            </div>
+        <nav data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fixed" data-md-device-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-static" data-lg-device-layout="rd-navbar-static" data-sm-stick-up-offset="150px" data-md-stick-up-offset="1px" data-lg-stick-up-offset="150px" class="rd-navbar">
+            <div class="rd-navbar-panel">
+                <!-- RD Navbar Panel-->
+                <div class="rd-navbar-inner">
+                    <!-- RD Navbar Toggle-->
+                    <button data-rd-navbar-toggle=".rd-navbar-nav-wrap" class="rd-navbar-toggle"><span></span></button>
+                    <!-- RD Navbar Brand-->
+                    <div class="rd-navbar-brand"><a href="inicio" class="brand-name"><img src="view/componentes/img/logo/logon.png" height="85" alt="Parcelas de chile"></a>
+                    </div>
+                    <div class="rd-navbar-contacts rd-navbar-collapse rd-navbar-collapse-2"><span>Contáctanos</span>
+                        <div><span class="icon1 fa-phone text-primary"></span><a href="callto:> +56958053609"></a><a>+56 9 5805 3609</a>
                         </div>
                     </div>
                 </div>
-                <div class="rd-navbar-nav-wrap">
-                    <div class="rd-navbar-inner">
-                        <!-- RD Navbar Nav-->
-                        <ul class="rd-navbar-nav">
-                            <li class="active"><a href="inicio">Home</a></li>
-                            <li><a href="#">Proyectos</a>
-                                <!-- RD Navbar Dropdown-->
-                                <ul class="rd-navbar-dropdown">
-                                    <li><a href="lagochapo">Lago Chapo</a></li>
-                                    <li><a href="parcelacionelvolantin">El Volantín</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="quienessomos">Quienes Somos</a></li>
-                            <li><a href="trabajaconnosotros">Trabaja con nosotros</a></li>
-                            <li><a href="contacto">Contacto</a></li>
-                            <li><a href="faq">FAQ</a></li>
-                            <li><a href="blog">Blog</a></li>
-                        </ul>
-                    </div>
-                </div>           
-            </nav>
-        </div>
-
+            </div>
+            <div class="rd-navbar-nav-wrap">
+                <div class="rd-navbar-inner">
+                    <!-- RD Navbar Nav-->
+                    <ul class="rd-navbar-nav">
+                        <li class="active"><a href="inicio">Home</a></li>
+                        <li><a href="#">Proyectos</a>
+                            <!-- RD Navbar Dropdown-->
+                            <ul class="rd-navbar-dropdown">
+                                <li><a href="lagochapo">Lago Chapo</a></li>
+                                <li><a href="parcelacionelvolantin">El Volantín</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="quienessomos">Quienes Somos</a></li>
+                        <li><a href="trabajaconnosotros">Trabaja con nosotros</a></li>
+                        <li><a href="contacto">Contacto</a></li>
+                        <li><a href="faq">FAQ</a></li>
+                        <li><a href="blog">Blog</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    
     <!-- Page Header-->
+    
     <header class="page-header">
-      
-       <div class="overlay"></div>
-  <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
-    <source src="view/componentes/img/home.mp4" type="video/mp4">
-  </video>
-       
+        <div class="overlay"></div>
+        <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+            <source src="view/componentes/img/home.mp4" type="video/mp4">
+        </video>
+        
         <!-- RD Navbar-->
+        
         <div class="social-bar">
-    <a href="https://www.facebook.com/parcelasdechile/" class="icon icon-facebook" target="_blank"></a>
-    <a href="https://www.youtube.com/channel/UC1A2lJ21pRVisDtocb1gTTA/" class="icon icon-youtube" target="_blank"></a>
-    <a href="https://instagram.com/parcelasdechile/" class="icon icon-instagram" target="_blank"></a>
-  </div>
-       
+            <a href="https://www.facebook.com/parcelasdechile/" class="icon icon-facebook" target="_blank"></a>
+            <a href="https://www.youtube.com/channel/UC1A2lJ21pRVisDtocb1gTTA/" class="icon icon-youtube" target="_blank"></a>
+            <a href="https://instagram.com/parcelasdechile/" class="icon icon-instagram" target="_blank"></a>
+        </div>
+        
         <!-- HOME-->
+        
         <div class="shell section-70 section-lg-120 text-md-left">
             <div class="row row-xs-middle">
+               
                 <!-- SLIDE HOME-->
+                
                 <div class="col-lg-7 col-md-7">
+                   
                     <!-- Owl Carousel-->
+                    
                     <div data-items="1" data-dots="true" data-margin="30" data-mouse-drag="false" class="context-dark owl-slider owl-carousel">
-                       <div class="owl-item">
+                        <div class="owl-item">
                             <hr class="divider veil reveal-md-inline-block">
                             <h1>Parcelas de Chile <br>
-                            <span class="familiar">Tu proyecto familiar</span></h1>
+                                <span class="familiar">Tu proyecto familiar</span></h1>
                             <br>
                             <p class="offset-top-35">Parcelas desde los $7.990.000, Un terreno es la mejor forma de asegurar el futuro de tu familia. A solo 138 km de Santiago y con buena conexión con otros destinos.</p>
                             <br>
-                             <button type="button" class="btn btn-primary video-btn" data-toggle="modal" data-src="https://youtu.be/B_yBoXARTQY" data-target="#myModal">
+                            <button type="button" class="btn btn-primary video-btn" data-toggle="modal" data-src="https://youtu.be/B_yBoXARTQY" data-target="#myModal">
                                 ver video
                             </button>
 
@@ -79,7 +86,7 @@
                             <br>
                             <p class="offset-top-35">Parcelas desde los $7.990.000, Un terreno es la mejor forma de asegurar el futuro de tu familia. A solo 138 km de Santiago y con buena conexión con otros destinos.</p>
                             <br>
-                             <button type="button" class="btn btn-primary video-btn" data-toggle="modal" data-src="https://youtu.be/B_yBoXARTQY" data-target="#myModal">
+                            <button type="button" class="btn btn-primary video-btn" data-toggle="modal" data-src="https://youtu.be/B_yBoXARTQY" data-target="#myModal">
                                 ver video
                             </button>
 
@@ -97,12 +104,12 @@
                         </div>
                     </div>
                 </div>
-                
+
             </div>
-            </div>
-            </header>
-               
-                <!--
+        </div>
+    </header>
+    
+    <!--
                 <div class="col-md-5 cell-lg-4 col-md-preffix-1 offset-top-40 text-left
 ">
                     <div class="well well-base shadow2">
@@ -129,8 +136,8 @@
                 </div>
             </div>
                      -->
+                     
     <!-- Page Content-->
-    
     <main class="page-content">
        
         <!-- TITULO PARCELAS -->
@@ -159,7 +166,6 @@
                                         <h3>Totalmente vendido</h3>
                                     </div>
                                 </div>
-
                                 <div class="col-md-6 .offset-md-6">
                                 </div>
                             </div>
@@ -180,14 +186,11 @@
                             <hr class="divider veil reveal-md-inline-block shadow2">
                             <h2 class="context-dark shadow1">Parcelación<br>El Volantín</h2>
                             <br>
-
                             <div class="row">
                                 <div class="col-md-6">
-
                                     <div class="precios shadow2">
                                         <h3>Desde $ 7.990.000</h3>
                                     </div>
-
                                 </div>
                                 <div class="col-md-6 .offset-md-6">
                                 </div>
@@ -199,9 +202,6 @@
                     </div>
                 </div>
             </div>
-
-
-
         </section>
         <!-- NEWSLETTERS-->
         <section class="bg-secundary section-45">
@@ -228,7 +228,6 @@
             <div class="shell section-45 section-lg-45">
                 <h2 class="offset-top-50 section-bottom-30 context-light">Nuestras parcelas tienen</h2>
                 <div class="range range-xs-around text-center">
-
                     <div class="col-lg-4 col-md-4"><span class="icon1 icon-lg icon-circle icon-primary fa-bookmark"></span>
                         <h5 class="offset-top-20">Rol Único</h5>
                         <p class="offset-top-10">Con el N° de Rol el SII identifica <br> a una propiedad o bien raíz. </p>
@@ -310,52 +309,54 @@
                 </div>
             </div>
         </section>
+        
     </main>
+    
     <!-- FOOTER-->
     <footer class="page-footer2">
         <div class="shell section-45 section-lg-30">
             <h2 class="offset-top-50 section-bottom-30 context-light">Empresas partner</h2>
             <hr>
             <div class="slider">
-	<div class="slide-track">
-		<div class="slide">
-			<img src="view/componentes/img/inversionistas/1.png" width="250" height="100" alt="" />
-		</div>
-		<div class="slide">
-			<img src="view/componentes/img/inversionistas/2.png" height="100" width="250" alt="" />
-		</div>
-		<div class="slide">
-			<img src="view/componentes/img/inversionistas/3.png" height="100" width="250" alt="" />
-		</div>
-		<div class="slide">
-			<img src="view/componentes/img/inversionistas/4.png" height="100" width="250" alt="" />
-		</div>
-		<div class="slide">
-			<img src="view/componentes/img/inversionistas/1.png" width="250" height="100" alt="" />
-		</div>
-		<div class="slide">
-			<img src="view/componentes/img/inversionistas/2.png" height="100" width="250" alt="" />
-		</div>
-		<div class="slide">
-			<img src="view/componentes/img/inversionistas/3.png" height="100" width="250" alt="" />
-		</div>
-		<div class="slide">
-			<img src="view/componentes/img/inversionistas/4.png" height="100" width="250" alt="" />
-		</div>
-		<div class="slide">
-			<img src="view/componentes/img/inversionistas/1.png" width="250" height="100" alt="" />
-		</div>
-		<div class="slide">
-			<img src="view/componentes/img/inversionistas/2.png" height="100" width="250" alt="" />
-		</div>
-		<div class="slide">
-			<img src="view/componentes/img/inversionistas/3.png" height="100" width="250" alt="" />
-		</div>
-		<div class="slide">
-			<img src="view/componentes/img/inversionistas/4.png" height="100" width="250" alt="" />
-		</div>
-	</div>
-</div>
+                <div class="slide-track">
+                    <div class="slide">
+                        <img src="view/componentes/img/inversionistas/1.png" width="250" height="100" alt="" />
+                    </div>
+                    <div class="slide">
+                        <img src="view/componentes/img/inversionistas/2.png" height="100" width="250" alt="" />
+                    </div>
+                    <div class="slide">
+                        <img src="view/componentes/img/inversionistas/3.png" height="100" width="250" alt="" />
+                    </div>
+                    <div class="slide">
+                        <img src="view/componentes/img/inversionistas/4.png" height="100" width="250" alt="" />
+                    </div>
+                    <div class="slide">
+                        <img src="view/componentes/img/inversionistas/1.png" width="250" height="100" alt="" />
+                    </div>
+                    <div class="slide">
+                        <img src="view/componentes/img/inversionistas/2.png" height="100" width="250" alt="" />
+                    </div>
+                    <div class="slide">
+                        <img src="view/componentes/img/inversionistas/3.png" height="100" width="250" alt="" />
+                    </div>
+                    <div class="slide">
+                        <img src="view/componentes/img/inversionistas/4.png" height="100" width="250" alt="" />
+                    </div>
+                    <div class="slide">
+                        <img src="view/componentes/img/inversionistas/1.png" width="250" height="100" alt="" />
+                    </div>
+                    <div class="slide">
+                        <img src="view/componentes/img/inversionistas/2.png" height="100" width="250" alt="" />
+                    </div>
+                    <div class="slide">
+                        <img src="view/componentes/img/inversionistas/3.png" height="100" width="250" alt="" />
+                    </div>
+                    <div class="slide">
+                        <img src="view/componentes/img/inversionistas/4.png" height="100" width="250" alt="" />
+                    </div>
+                </div>
+            </div>
         </div>
         <div class="shell">
             <hr>
@@ -379,8 +380,7 @@
             </div>
         </div>
     </footer>
-    <!-- Global Mailform Output-->
-    <!-- PhotoSwipe Gallery-->
+        <!-- PhotoSwipe Gallery-->
     <div tabindex="-1" role="dialog" aria-hidden="true" class="pswp">
         <div class="pswp__bg"></div>
         <div class="pswp__scroll-wrap">
@@ -420,6 +420,7 @@
     include "chat.php";
     ?>
     <!-- Fin Div chat -->
+    
 </div>
 <!-- Modal -->
 <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">

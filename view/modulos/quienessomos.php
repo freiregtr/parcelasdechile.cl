@@ -106,7 +106,7 @@
                                     <div class="col-md-3">
                                         <div>
                                             <br>
-                                            <img src="view/componentes/img/vendedores/user-03.jpg" width="200" height="200" alt="" class="img-responsive center-block img-circle">
+                                            <img src="view/componentes/img/vendedores/soledad301.jpg" width="200" height="200" alt="" class="img-responsive center-block img-circle">
                                             <h5 class="offset-top-10">Soledad<br>Charme</h5>
                                             <div><span class="text-middle icon1 inset-right-10 text-primary fa-phone"></span><a href="callto:#" class="text-middle text-base">+56 9 6848 1426</a></div>
                                             <div class="offset-top-25"><a href="https://web.whatsapp.com/send?phone=56968481426/" class="btn btn-primary">Contactar</a></div>
@@ -125,7 +125,7 @@
                                     <div class="col-md-3">
                                         <div>
                                             <br>
-                                            <img src="view/componentes/img/vendedores/user-05.jpg" width="200" height="200" alt="" class="img-responsive center-block img-circle">
+                                            <img src="view/componentes/img/vendedores/jorge301.jpg" width="200" height="200" alt="" class="img-responsive center-block img-circle">
                                             <h5 class="offset-top-10">Jorge<br>Vera</h5>
                                             <div><span class="text-middle icon1 inset-right-10 text-primary fa-phone"></span><a href="callto:#" class="text-middle text-base">+56 9 4564 5272</a></div>
                                             <div class="offset-top-25"><a href="https://web.whatsapp.com/send?phone=56945645272/" class="btn btn-primary">Contactar</a></div>
