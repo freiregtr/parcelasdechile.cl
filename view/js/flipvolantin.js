@@ -19,19 +19,6 @@ $("#container").flipBook({
         
         { src: "view/componentes/flip/volantin/volantin10.png", thumb: "view/componentes/flip/volantin/thumb8.jpg", title: "Página 10" },
         
-        { src: "view/componentes/flip/volantin/volantin11.png", thumb: "view/componentes/flip/volantin/thumb8.jpg", title: "Página 11" },
-        
-        { src: "view/componentes/flip/volantin/volantin12.png", thumb: "view/componentes/flip/volantin/thumb8.jpg", title: "Página 12" },
-        
-        { src: "view/componentes/flip/volantin/volantin13.png", thumb: "view/componentes/flip/volantin/thumb8.jpg", title: "Página 13" },
-        
-         { src: "view/componentes/flip/volantin/volantin14.png", thumb: "view/componentes/flip/volantin/thumb8.jpg", title: "Página 14" },
-        
-         { src: "view/componentes/flip/volantin/volantin15.png", thumb: "view/componentes/flip/volantin/thumb8.jpg", title: "Página 15" },
-        
-         { src: "view/componentes/flip/volantin/volantin16.png", thumb: "view/componentes/flip/volantin/thumb8.jpg", title: "Página 16" },
-        
-        { src: "view/componentes/flip/volantin/volantin17.png", thumb: "view/componentes/flip/volantin/thumb8.jpg", title: "Página 17" }
     ],
     backgroundColor: "#fff"
 });

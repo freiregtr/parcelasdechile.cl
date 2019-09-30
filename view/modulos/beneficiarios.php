@@ -28,7 +28,6 @@
                                  <ul class="rd-navbar-dropdown">
                                 <li><a href="lagochapo">Lago Chapo</a></li>
                                 <li><a href="parcelacionelvolantin">El Volantín</a></li>
-                                <li><a href="laconsentida">La Consentida</a></li>
 
                             </ul>
                             </li>

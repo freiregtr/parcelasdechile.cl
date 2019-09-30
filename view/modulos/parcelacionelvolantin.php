@@ -27,7 +27,6 @@
                                  <ul class="rd-navbar-dropdown">
                                 <li><a href="lagochapo">Lago Chapo</a></li>
                                 <li><a href="parcelacionelvolantin">El Volantín</a></li>
-                                <li><a href="laconsentida">La Consentida</a></li>
 
                             </ul>
                             </li>
@@ -278,7 +277,7 @@
                     <div class="container-fluid">
                         <div class="card text-center">
                             <div class="card-body ">
-                                <a href="https://drive.google.com/file/d/1967ntYrXLHIHK6vJLDlzHIh_ce6eYPni/view?usp=sharing" target="_blank" download="ElVolantin" class="btn btn-primary shadow2">DESCARGAR BROCHURE</a>
+                                <a href="https://drive.google.com/file/d/1VjJqiZsdwUSEUOuGm7iASHaixzVustXF/view?usp=sharing" target="_blank" download="ElVolantin" class="btn btn-primary shadow2">DESCARGAR BROCHURE</a>
                             </div>
                         </div>
                     </div>
