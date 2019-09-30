@@ -25,7 +25,9 @@
                             <!-- RD Navbar Dropdown-->
                             <ul class="rd-navbar-dropdown">
                                 <li><a href="lagochapo">Lago Chapo</a></li>
-                                <li><a href="parcelacionelvolantin">Parcelación El Volantín</a></li>
+                                <li><a href="parcelacionelvolantin">El Volantín</a></li>
+                                <li><a href="laconsentida">La Consentida</a></li>
+
                             </ul>
                         </li>
                         <li class="active"><a href="quienessomos">Quienes Somos</a></li>
@@ -128,6 +130,12 @@
                 </div>
             </div>
         </section>
+        
+        
+        
+        
+        
+        
     </main>
     <!-- FIN MAIN-->
     <!-- PARALAX -->

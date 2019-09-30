@@ -10535,11 +10535,6 @@ fieldset[disabled] .bg-gray-base .btn-primary {
 
 }
 
-
-
-
-
-
 .bg-image-lagochapo {
   background: url(../img/proyectos/lago_chapo/lagochapo.jpg);
   background-size: cover;
@@ -10552,6 +10547,14 @@ fieldset[disabled] .bg-gray-base .btn-primary {
   background-size: cover;
 
 }
+
+.bg-image-laconsentida {
+  background: url(../img/proyectos/la_consentida/consentida.jpg);
+  background-size: cover;
+
+}
+
+
 
 .bg-image-trabajaconnosotros {
   background: url(../img/trabajaconnosotros.jpg);
@@ -33537,13 +33540,13 @@ header .overlay {
   height: 100%;
   width: 100%;
   background-color: black;
-  opacity: 0.1;
+  opacity: 0.3;
   z-index: 1;
 }
 
 @media (pointer: coarse) and (hover: none) {
   header {
-    background: url('https://source.unsplash.com/XT5OInaElMw/1600x900') black no-repeat center center scroll;
+    background: url('view/componentes/img/home.jpg') black no-repeat center center scroll;
   }
   header video {
     display: none;

@@ -38,9 +38,11 @@
                             <li><a href="parcelacionelvolantin">Proyectos</a>
                                 <!-- RD Navbar Dropdown-->
                                 <ul class="rd-navbar-dropdown">
-                                    <li><a href="lagochapo">Lago Chapo</a></li>
-                                    <li><a href="parcelacionelvolantin">Parcelacion El volantin</a></li>
-                                </ul>
+                                <li><a href="lagochapo">Lago Chapo</a></li>
+                                <li><a href="parcelacionelvolantin">El Volantín</a></li>
+                                <li><a href="laconsentida">La Consentida</a></li>
+
+                            </ul>
                             </li>
                             <li><a href="quienessomos">Quienes Somos</a></li>
                             <!-- RD Navbar Dropdown-->

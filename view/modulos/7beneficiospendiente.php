@@ -26,10 +26,12 @@
                             <li><a href="inicio">Home</a></li>
                             <li><a href="parcelacionelvolantin">Proyectos</a>
                                 <!-- RD Navbar Dropdown-->
-                                <ul class="rd-navbar-dropdown">
-                                    <li><a href="lagochapo">Lago Chapo</a></li>
-                                    <li><a href="parcelacionelvolantin">Parcelación El Volantín</a></li>
-                                </ul>
+                                 <ul class="rd-navbar-dropdown">
+                                <li><a href="lagochapo">Lago Chapo</a></li>
+                                <li><a href="parcelacionelvolantin">El Volantín</a></li>
+                                <li><a href="laconsentida">La Consentida</a></li>
+
+                            </ul>
                             </li>
                             <li><a href="quienessomos">Quienes Somos</a></li>
                             <!-- RD Navbar Dropdown-->

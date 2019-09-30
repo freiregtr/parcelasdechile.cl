@@ -24,12 +24,11 @@
                             <li><a href="inicio">Home</a></li>
                             <li class="active"><a href="parcelacionelvolantin">Proyectos</a>
                                 <!-- RD Navbar Dropdown-->
-                                 <ul class="rd-navbar-dropdown">
-                                <li><a href="lagochapo">Lago Chapo</a></li>
-                                <li><a href="parcelacionelvolantin">El Volantín</a></li>
-                                <li><a href="laconsentida">La Consentida</a></li>
-
-                            </ul>
+                                <ul class="rd-navbar-dropdown">
+                                    <li><a href="lagochapo">Lago Chapo</a></li>
+                                    <li><a href="parcelacionelvolantin">El Volantín</a></li>
+                                    <li><a href="laconsentida">La Consentida</a></li>
+                                </ul>
                             </li>
                             <li><a href="quienessomos">Quienes Somos</a></li>
                             <li><a href="trabajaconnosotros">Trabaja con nosotros</a></li>
@@ -54,7 +53,7 @@
                     <li><a href="inicio">Home</a></li>
                     <li>Proyectos
                     </li>
-                    <li class="active">Parcelación "El Volantín"</li>
+                    <li class="active">Parcelación "La Consentida"</li>
                 </ol>
             </div>
         </section>
@@ -70,21 +69,21 @@
         </div>
 
         <!-- PROYECTO EL VOLANTIN DE LA QUEBRADA-->
-        <section class=" text-center section-bottom-70 page-header bg-image-elvolantin">
+        <section class=" text-center section-bottom-70 page-header bg-image-laconsentida">
             <div class="shell section-100 section-lg-top-220 section-lg-bottom-205 context-dark">
-                <div><a href="lagochapo" class="label label-primary shadow2">VI Región</a></div>
+                <div><a href="lagochapo" class="label label-primary shadow2">X Región</a></div>
                 <br>
-                <h1 class="shadow1">Parcelación <br><span class="text-sbold">"El Volantín"</span></h1>
+                <h1 class="shadow1">Parcelación <br><span class="text-sbold">"La Consentida"</span></h1>
                 <div class="range offset-top-30 text-center">
                     <div class="cell-sm-4">
                         <!-- CountTo-->
-                        <div data-from="0" data-to="21" class="counter shadow1 text-medium"></div>
+                        <div data-from="0" data-to="30" class="counter shadow1 text-medium"></div>
                         <h3 class="text-sbold text-base shadow1 text-white">Parcelas</h3>
                     </div>
                     <div class="cell-sm-4">
                         <!-- CountTo-->
-                        <div data-from="0" data-to="138" class="counter shadow1 text-medium"></div>
-                        <h3 class="text-sbold text-base shadow1 text-white">KM de Santiago</h3>
+                        <div data-from="0" data-to="35" class="counter shadow1 text-medium"></div>
+                        <h3 class="text-sbold text-base shadow1 text-white">Min de Pto Montt</h3>
                     </div>
                     <div class="cell-sm-4">
                         <!-- CountTo-->
@@ -94,7 +93,7 @@
                 </div>
                 <br>
                 <br>
-                   <button type="button" class="btn btn-primary video-btn" data-toggle="modal" data-src="https://www.youtube.com/embed/n0ORmVVdVqY" data-target="#myModal">
+                   <button type="button" class="btn btn-primary video-btn" data-toggle="modal" data-src="https://www.youtube.com/embed/B_yBoXARTQY" data-target="#myModal">
                                 ver video
                             </button>
             </div>
@@ -116,22 +115,22 @@
                                     <div class="col-md-6">
                                         <div>
                                             <div class="context-light">
-                                                <h2 class="offset-top-50 section-bottom-30">Parcelación <br> <span class="text-sbold"> "El Volantín"</span></h2>
+                                                <h2 class="offset-top-50 section-bottom-30">Parcelación <br> <span class="text-sbold"> "La Consentida"</span></h2>
                                             </div>
-                                            <p class="section-bottom-30">"Región del Libertador General Bernardo O’Higgins"</p>
+                                            <p class="section-bottom-30">"Región de Los Lagos"</p>
                                         </div>
                                         <!-- VALORES-->
                                         <div class="row">
                                             <div class="col-md-6">
                                                 <br>
                                                 <div class="valor4">
-                                                    <p>$7.990.000</p>
+                                                    <p>$30.000.000</p>
                                                 </div>
                                             </div>
                                             <div class="col-md-6">
                                                 <br>
                                                 <div class="valor3">
-                                                    <p>$9.990.000</p>
+                                                    <p>$35.000.000</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -139,7 +138,7 @@
                                             <div class="col-md-6">
                                                 <br>
                                                 <div class="valor2">
-                                                    <p>$10.990.000</p>
+                                                    <p>$40.000.000</p>
                                                 </div>
                                             </div>
                                             <div class="col-md-6">
@@ -149,19 +148,12 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <br>
-                                        <div class="row">
-                                            <div class="col-md-6">
-                                                <div class="valor1">
-                                                    <p>$14.990.000</p>
-                                                </div>
-                                            </div>
-                                           
-                                        </div>
+                                      
+                                       
                                 
                                         <br>
                                         <p class="offset-top-40 text-bold text-base">" Por qué tenemos el país más lindo del mundo, creemos que deberías elegir Parcelas de Chile."</p>
-                                        <p class="offset-top-20">Marchihue en la Provincia de Cardenal Caro (Región del Libertador General Bernardo O'Higgins) es un lugar en Chile a 138 km al suroeste de Santiago.</p>
+                                        <p class="offset-top-20">La Región de Los Lagos te invita a conocer bellos paisajes, con hermosos destinos llenos de magia y encanto.  Los mitos y leyendas son pan de cada día, y las tradiciones gastronómicas te harán agua la boca.</p>
                                     </div>
                                     <br>
                                 </div>
@@ -171,94 +163,40 @@
                 </div>
                 <hr>
                 <!-- GALERIA DE IMAGENES-->
-                <section class="section-top-35 section-bottom-70 ">
-                    <div class="container-fluid">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="context-light ">
-                                    <h2 class="offset-top-35 section-bottom-30">Galería</h2>
-                                    <div data-arrows="true" data-loop="false" data-dots="false" data-swipe="true" data-items="1" data-child="#child-carousel" data-for="#child-carousel" class="slick-slider carousel-parent">
-
-                                        <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/1.png" alt="" width="100%" class="img-responsive"></div>
-                                        <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/2.png" alt="" width="100%" class="img-responsive"></div>
-                                        <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/3.png" alt="" width="100%" class="img-responsive"></div>
-                                        <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/4.png" alt="" width="100%" class="img-responsive"></div>
-                                        <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/5.png" alt="" width="100%" class="img-responsive"></div>
-                                        <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/6.png" alt="" width="100%" class="img-responsive"></div>
-                                        <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/7.png" alt="" width="100%" class="img-responsive"></div>
-                                        <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/8.png" alt="" width="100%" class="img-responsive"></div>
-                                        <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/9.png" alt="" width="100%" class="img-responsive"></div>
-                                        <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/10.png" alt="" width="100%" class="img-responsive"></div>
-                                        <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/11.png" alt="" width="100%" class="img-responsive"></div>
-                                        <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/12.png" alt="" width="100%" class="img-responsive"></div>
-                                        <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/13.png" alt="" width="100%" class="img-responsive"></div>
-                                        <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/14.png" alt="" width="100%" class="img-responsive"></div>
-                                        <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/15.jpg" alt="" width="100%" class="img-responsive"></div>
-                                        <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/16.jpg" alt="" width="100%" class="img-responsive"></div>
-                                        <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/17.jpg" alt="" width="100%" class="img-responsive"></div>
-                                        <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/18.jpg" alt="" width="100%" class="img-responsive"></div>
-                                        <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/19.jpg" alt="" width="100%" class="img-responsive"></div>
-                                        <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/20.jpg" alt="" width="100%" class="img-responsive"></div>
-                                        <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/21.jpg" alt="" width="100%" class="img-responsive"></div>
-                                        <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/22.jpg" alt="" width="100%" class="img-responsive"></div>
-                                        <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/23.jpg" alt="" width="100%" class="img-responsive"></div>
-                                        <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/24.jpg" alt="" width="100%" class="img-responsive"></div>
-                                        <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/25.jpg" alt="" width="100%" class="img-responsive"></div>
-                                        <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/26.jpg" alt="" width="100%" class="img-responsive"></div>
-                                        <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/27.jpg" alt="" width="100%" class="img-responsive"></div>
-                                        <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/28.jpg" alt="" width="100%" class="img-responsive"></div>
-                                        <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/29.jpg" alt="" width="100%" class="img-responsive"></div>
-                                        <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/30.jpg" alt="" width="100%" class="img-responsive"></div>
+               <section class="section-top-35 section-bottom-70 ">
+                            <div class="container-fluid">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="context-light ">
+                                            <h2 class="offset-top-35 section-bottom-30">Galería</h2>
+                                            <div data-arrows="true" data-loop="false" data-dots="false" data-swipe="true" data-items="1" data-child="#child-carousel" data-for="#child-carousel" class="slick-slider carousel-parent">
+                                                <div class="item"><img src="view/componentes/img/proyectos/lago_chapo/1.jpg" alt="" width="100%" class="img-responsive"></div>
+                                                <div class="item"><img src="view/componentes/img/proyectos/lago_chapo/2.jpg" alt="" width="100%" class="img-responsive"></div>
+                                                <div class="item"><img src="view/componentes/img/proyectos/lago_chapo/3.jpg" alt="" width="100%" class="img-responsive"></div>
+                                                <div class="item"><img src="view/componentes/img/proyectos/lago_chapo/4.jpg" alt="" width="100%" class="img-responsive"></div>
+                                                <div class="item"><img src="view/componentes/img/proyectos/lago_chapo/6.jpg" alt="" width="100%" class="img-responsive"></div>
+                                                <div class="item"><img src="view/componentes/img/proyectos/lago_chapo/7.jpg" alt="" width="100%" class="img-responsive"></div>
+                                            </div>
+                                            <div id="child-carousel" data-for=".carousel-parent" data-arrows="false" data-loop="false" data-dots="false" data-swipe="true" data-items="3" data-xs-items="3" data-sm-items="4" data-md-items="5" data-lg-items="6" data-slide-to-scroll="1" class="slick-slider slick-child">
+                                                <div class="item"><img src="view/componentes/img/proyectos/lago_chapo/1.jpg" alt="" width="140" height="105"></div>
+                                                <div class="item"><img src="view/componentes/img/proyectos/lago_chapo/2.jpg" alt="" width="140" height="105"></div>
+                                                <div class="item"><img src="view/componentes/img/proyectos/lago_chapo/3.jpg" alt="" width="140" height="105"></div>
+                                                <div class="item"><img src="view/componentes/img/proyectos/lago_chapo/4.jpg" alt="" width="140" height="105"></div>
+                                                <div class="item"><img src="view/componentes/img/proyectos/lago_chapo/6.jpg" alt="" width="140" height="105"></div>
+                                                <div class="item"><img src="view/componentes/img/proyectos/lago_chapo/7.jpg" alt="" width="140" height="105"></div>
+                                            </div>
+                                        </div>
                                     </div>
-                                    
-                                    <div id="child-carousel" data-for=".carousel-parent" data-arrows="false" data-loop="false" data-dots="false" data-swipe="true" data-items="3" data-xs-items="3" data-sm-items="4" data-md-items="5" data-lg-items="6" data-slide-to-scroll="1" class="slick-slider slick-child">
-
-                                        <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/1.png" alt="" width="140" height="105"></div>
-                                        <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/2.png" alt="" width="140" height="105"></div>
-                                        <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/3.png" alt="" width="140" height="105"></div>
-                                        <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/4.png" alt="" width="140" height="105"></div>
-                                        <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/5.png" alt="" width="140" height="105"></div>
-                                        <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/6.png" alt="" width="140" height="105"></div>
-                                        <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/7.png" alt="" width="140" height="105"></div>
-                                        <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/8.png" alt="" width="140" height="105"></div>
-                                        <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/9.png" alt="" width="140" height="105"></div>
-                                        <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/10.png" alt="" width="140" height="105"></div>
-                                        <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/11.png" alt="" width="140" height="105"></div>
-                                        <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/12.png" alt="" width="140" height="105"></div>
-                                        <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/13.png" alt="" width="140" height="105"></div>
-                                        <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/14.png" alt="" width="140" height="105"></div>
-                                        <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/15.jpg" alt="" width="140" height="105"></div>
-                                        <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/16.jpg" alt="" width="140" height="105"></div>
-                                        <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/17.jpg" alt="" width="140" height="105"></div>
-                                        <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/18.jpg" alt="" width="140" height="105"></div>
-                                        <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/19.jpg" alt="" width="140" height="105"></div>
-                                        <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/20.jpg" alt="" width="140" height="105"></div>
-                                        <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/21.jpg" alt="" width="140" height="105"></div>
-                                        <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/22.jpg" alt="" width="140" height="105"></div>
-                                        <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/23.jpg" alt="" width="140" height="105"></div>
-                                        <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/24.jpg" alt="" width="140" height="105"></div>
-                                        <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/25.jpg" alt="" width="140" height="105"></div>
-                                        <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/26.jpg" alt="" width="140" height="105"></div>
-                                        <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/27.jpg" alt="" width="140" height="105"></div>
-                                        <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/28.jpg" alt="" width="140" height="105"></div>
-                                        <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/29.jpg" alt="" width="140" height="105"></div>
-                                        <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/30.jpg" alt="" width="140" height="105"></div>
-
+                                    <div class="col-md-6 context-light ">
+                                        <h2 class="offset-top-35 section-bottom-30">Mapa</h2>
+                                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d382723.7076386406!2d-72.81779797558607!3d-41.460287077871115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9619c6147ef2efd7%3A0x74697c1789f6fef3!2sLago+Chapo!5e0!3m2!1ses!2scl!4v1566245995250!5m2!1ses!2scl" width="100%" height="430" frameborder="0" style="border:0" allowfullscreen></iframe>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-6 context-light ">
-                                <h2 class="offset-top-35 section-bottom-30">Mapa</h2>
-                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5997.409358890186!2d-71.57679514920432!3d-34.558943112475276!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzTCsDMzJzMzLjIiUyA3McKwMzQnMjQuNSJX!5e1!3m2!1ses-419!2scl!4v1566400470452!5m2!1ses-419!2scl" width="100%" height="500" frameborder="0" style="border:0" allowfullscreen></iframe>
-                            </div>
-                        </div>
-                        <hr>
-                    </div>
-                </section>
-                
+                        </section>
               
 
-                <section id="flip" class="section-top-35  section-bottom-70">
+                <section id="flipconsentida" class="section-top-35  section-bottom-70">
                     <div class="container">
                         <div class="row">
                             <div class="context-light">
@@ -273,7 +211,10 @@
                         </div>
                     </div>
                 </section>
-                <!-- DESCARGAR BROCHURE-->
+                
+                
+                
+                <!-- DESCARGAR BROCHURE
                 <section class="section-top-70  section-bottom-70 bg-blue ">
                     <div class="container-fluid">
                         <div class="card text-center">
@@ -283,20 +224,21 @@
                         </div>
                     </div>
                 </section>
+                -->
                 <!-- PLANO 360º-->
                 <section class="section-top-35  section-bottom-70">
-                    <div class="container-fluid">
-                        <div class="row">
-                            <div class="col-md-12">
-                                <div class="context-light">
-                                    <h2 class="offset-top-50 section-bottom-30 text-center">Panorama 360º</h2>
-                                </div>
-                                <iframe src="https://app.lapentor.com/sphere/parcelacion-el-volantin" frameborder="0" width="100%" height="600px" scrolling="no" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" oallowfullscreen="true" msallowfullscreen="true"></iframe>
+                            <div class="context-light">
+                                <h2 class="offset-top-50 section-bottom-30 text-center">Panorama 360º</h2>
                             </div>
-                        </div>
-                        <hr>
-                    </div>
-                </section>
+                            <div class="container-fluid">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="asincronico">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
                 <!-- OTROS PROYECTOS-->
                 <section class="section-top-35 section-bottom-70">
                     <div class="container-fluid">

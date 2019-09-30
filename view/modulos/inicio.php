@@ -26,6 +26,8 @@
                             <ul class="rd-navbar-dropdown">
                                 <li><a href="lagochapo">Lago Chapo</a></li>
                                 <li><a href="parcelacionelvolantin">El Volantín</a></li>
+                                <li><a href="laconsentida">La Consentida</a></li>
+
                             </ul>
                         </li>
                         <li><a href="quienessomos">Quienes Somos</a></li>
@@ -64,7 +66,7 @@
                             <br>
                             <p class="offset-top-35">Parcelas desde los $7.990.000, Un terreno es la mejor forma de asegurar el futuro de tu familia. A solo 138 km de Santiago y con buena conexión con otros destinos.</p>
                             <br>
-                            <button type="button" class="btn btn-primary video-btn" data-toggle="modal" data-src="https://youtu.be/B_yBoXARTQY" data-target="#myModal">
+                            <button type="button" class="btn btn-primary video-btn" data-toggle="modal" data-src="https://www.youtube.com/embed/n0ORmVVdVqY" data-target="#myModal">
                                 ver video
                             </button>
 
@@ -75,7 +77,7 @@
                             <br>
                             <p class="offset-top-35">Parcelas desde los $7.990.000, Un terreno es la mejor forma de asegurar el futuro de tu familia. A solo 138 km de Santiago y con buena conexión con otros destinos.</p>
                             <br>
-                            <button type="button" class="btn btn-primary video-btn" data-toggle="modal" data-src="https://youtu.be/B_yBoXARTQY" data-target="#myModal">
+                            <button type="button" class="btn btn-primary video-btn" data-toggle="modal" data-src="https://www.youtube.com/embed/n0ORmVVdVqY" data-target="#myModal">
                                 ver video
                             </button>
 
@@ -86,7 +88,7 @@
                             <br>
                             <p class="offset-top-35">Parcelas desde los $7.990.000, Un terreno es la mejor forma de asegurar el futuro de tu familia. A solo 138 km de Santiago y con buena conexión con otros destinos.</p>
                             <br>
-                            <button type="button" class="btn btn-primary video-btn" data-toggle="modal" data-src="https://youtu.be/B_yBoXARTQY" data-target="#myModal">
+                            <button type="button" class="btn btn-primary video-btn" data-toggle="modal" data-src="https://www.youtube.com/embed/n0ORmVVdVqY" data-target="#myModal">
                                 ver video
                             </button>
 

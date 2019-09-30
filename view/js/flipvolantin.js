@@ -35,4 +35,3 @@ $("#container").flipBook({
     ],
     backgroundColor: "#fff"
 });
-

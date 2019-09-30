@@ -1,15 +1,16 @@
 <!DOCTYPE html>
 <html lang="es" class="wide smoothscroll wow-animation">
+
 <head>
     <title>Parcelas de Chile</title>
     <meta name="format-detection" content="telephone=no">
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="keywords" content="venta de parcelas, inversión, comprar parcelas, compra de parcelas, rentabilidad, terrenos, terrenos en venta, inmobiliaria, propiedades,
-    parcelas de agrado, venta en verde, segunda vivienda, casa de campo, parcelas baratas, terrenos en el sur, parcelas sexta region, ganar plata, parcelas en oferta, parcelas con descuento"/>
+    <meta name="keywords" content="venta de parcelas, inversión, comprar parcelas, compra de parcelas, rentabilidad, terrenos, terrenos en venta, inmobiliaria, propiedades,
+    parcelas de agrado, venta en verde, segunda vivienda, casa de campo, parcelas baratas, terrenos en el sur, parcelas sexta region, ganar plata, parcelas en oferta, parcelas con descuento" />
     <meta name="description" content="Vivimos en el país mas lindo del mundo y es nuestra misión ayudar a nuestros clientes 
     a cumplir este anhelado sueño. Sabemos que los terrenos en Chile solo suben de valor, por lo que en un futuro nuestros 
-    hijos serán quienes disfrutarán de las inversiones que nosotros hagamos hoy. Amamos Chile, disfrutamos Chile y compartimos Chile….."/>
+    hijos serán quienes disfrutarán de las inversiones que nosotros hagamos hoy. Amamos Chile, disfrutamos Chile y compartimos Chile….." />
     <meta charset="utf-8">
     <!-- CSS Flip3D -->
     <link href="view/componentes/flip/css/flipbook.style.css" rel="stylesheet">
@@ -31,8 +32,10 @@
     <!-- Social Media Btn -->
     <link rel="stylesheet" href="view/componentes/social_media/font.css">
     <link rel="stylesheet" href="view/componentes/social_media/rrss.css">
-        <!-- UA Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-137903886-1"></script>
+    <!-- UA Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-137903886-1"></script>  
+     <!-- Chart.js -->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.js"></script> 
     <!-- Facebook Pixel Code -->
     <script>
         ! function(f, b, e, v, n, t, s) {
@@ -60,7 +63,6 @@
     <!-- End Facebook Pixel Code -->
     <script>
         window.dataLayer = window.dataLayer || [];
-
         function gtag() {
             dataLayer.push(arguments);
         }
@@ -68,11 +70,9 @@
         gtag('config', 'UA-137903886-1');
     </script>
     <!-- Fin UA Analytics -->
-
     <!-- Stylesheets-->
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="view/componentes/css/style.css">
-
     <!--[if lt IE 10]>
     <div style="background: #212121; padding: 10px 0; box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3); clear: both; text-align:center; position: relative; z-index:1;"><a href="http://windows.microsoft.com/en-US/internet-explorer/"><img src="images/ie8-panel/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."></a></div>
     <script src="js/html5shiv.min.js"></script>
@@ -93,6 +93,7 @@
             $_GET["ruta"] == "10razones"             ||
             $_GET["ruta"] == "7beneficiospendiente"  ||
             $_GET["ruta"] == "blog"                  ||
+            $_GET["ruta"] == "laconsentida"          ||
             $_GET["ruta"] == "quienessomos"
 
         ) {
@@ -130,9 +131,14 @@
     if (isset($_GET["ruta"])){
         if($_GET["ruta"] == "lagochapo"){
             echo '<script src="view/componentes/mapsvg/js/lagochapo.js"></script>';
+            
         }else if($_GET["ruta"] == "parcelacionelvolantin"){
             echo '<script src="view/componentes/mapsvg/js/volantin.js"></script>';
             echo '<script src="view/js/flipvolantin.js"></script>';
+            
+        }else if($_GET["ruta"] == "laconsentida"){
+            echo '<script src="view/componentes/mapsvg/js/consentida.js"></script>';
+            echo '<script src="view/js/flipconsentida.js"></script>';         
         }
     }
     ?>

@@ -1,51 +1,53 @@
 <!-- Page-->
 <div class="page text-center">
     <div class="rd-navbar-wrap">
-            <nav data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fixed" data-md-device-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-static" data-lg-device-layout="rd-navbar-static" data-sm-stick-up-offset="150px" data-md-stick-up-offset="1px" data-lg-stick-up-offset="150px" class="rd-navbar">
-                <div class="rd-navbar-panel">
-                    <!-- RD Navbar Panel-->
-                    <div class="rd-navbar-inner">
-                        <!-- RD Navbar Toggle-->
-                        <button data-rd-navbar-toggle=".rd-navbar-nav-wrap" class="rd-navbar-toggle"><span></span></button>
-                        <!-- LOGO-->
-                        <div class="rd-navbar-brand"><a href="inicio" class="brand-name"><img src="view/componentes/img/logo/logon.png"  height="85" alt="Parcelas de chile"></a>
-                        </div>
+        <nav data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fixed" data-md-device-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-static" data-lg-device-layout="rd-navbar-static" data-sm-stick-up-offset="150px" data-md-stick-up-offset="1px" data-lg-stick-up-offset="150px" class="rd-navbar">
+            <div class="rd-navbar-panel">
+                <!-- RD Navbar Panel-->
+                <div class="rd-navbar-inner">
+                    <!-- RD Navbar Toggle-->
+                    <button data-rd-navbar-toggle=".rd-navbar-nav-wrap" class="rd-navbar-toggle"><span></span></button>
+                    <!-- LOGO-->
+                    <div class="rd-navbar-brand"><a href="inicio" class="brand-name"><img src="view/componentes/img/logo/logon.png" height="85" alt="Parcelas de chile"></a>
+                    </div>
 
-                        <!-- TELÉFONO-->
-                         <div class="rd-navbar-contacts rd-navbar-collapse rd-navbar-collapse-2"><span>Contáctanos</span>
+                    <!-- TELÉFONO-->
+                    <div class="rd-navbar-contacts rd-navbar-collapse rd-navbar-collapse-2"><span>Contáctanos</span>
                         <div><span class="icon1 fa-phone text-primary"></span><a href="callto:> +56958053609"></a><a>+56 9 4007 5222</a>
                         </div>
                     </div>
-                    </div>
                 </div>
-                <div class="rd-navbar-nav-wrap">
-                    <div class="rd-navbar-inner">
-                        <!-- NAVBAR-->
-                        <ul class="rd-navbar-nav">
-                            <li><a href="inicio">Home</a></li>
-                            <li class="active"><a href="parcelacionelvolantin">Proyectos</a>
-                                <!-- RD Navbar Dropdown-->
-                                <ul class="rd-navbar-dropdown">
-                                    <li><a href="lagochapo">Lago Chapo</a></li>
-                                    <li><a href="parcelacionelvolantin">Parcelación El Volantín</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="quienessomos">Quienes Somos</a></li>
-                            <li><a href="trabajaconnosotros">Trabaja con nosotros</a></li>
-                            <li><a href="contacto">Contacto</a></li>
-                            <li><a href="faq">FAQ</a></li>
-                            <li><a href="blog">Blog</a></li>
+            </div>
+            <div class="rd-navbar-nav-wrap">
+                <div class="rd-navbar-inner">
+                    <!-- NAVBAR-->
+                    <ul class="rd-navbar-nav">
+                        <li><a href="inicio">Home</a></li>
+                        <li class="active"><a href="parcelacionelvolantin">Proyectos</a>
+                            <!-- RD Navbar Dropdown-->
+                            <ul class="rd-navbar-dropdown">
+                                <li><a href="lagochapo">Lago Chapo</a></li>
+                                <li><a href="parcelacionelvolantin">El Volantín</a></li>
+                                <li><a href="laconsentida">La Consentida</a></li>
 
-                        </ul>
-                    </div>
+                            </ul>
+                        </li>
+                        <li><a href="quienessomos">Quienes Somos</a></li>
+                        <li><a href="trabajaconnosotros">Trabaja con nosotros</a></li>
+                        <li><a href="contacto">Contacto</a></li>
+                        <li><a href="faq">FAQ</a></li>
+                        <li><a href="blog">Blog</a></li>
+
+                    </ul>
                 </div>
-            </nav>
-        </div>
+            </div>
+        </nav>
+    </div>
     <!-- HEADER -->
     <header class="page-header">
         <!-- RD Navbar-->
-       
-         <section class="bg-gray-lighter">
+
+        <section class="bg-gray-lighter">
             <div class="shell text-left">
                 <ol class="breadcrumb">
                     <li><a href="inicio">Home</a></li>
@@ -58,7 +60,7 @@
     </header>
     <!-- INICIO MAIN-->
     <main class="page-content">
-       
+
         <!-- PROYECTO LAGO CHAPO-->
         <section class=" text-center section-bottom-70 page-header bg-image-lagochapo">
             <div class="shell section-100 section-lg-top-220 section-lg-bottom-205 context-dark">
@@ -85,7 +87,7 @@
                 </div>
             </div>
         </section>
-        
+
         <section class="section-top-45 section-bottom-80">
             <div class="shell text-md-left product">
                 <div class="row">
@@ -123,65 +125,209 @@
                                 </div>
                             </div>
                         </section>
-                        <hr>
-                        <section class="section-top-35 section-bottom-70 ">
-                            <div class="container-fluid">
+
+
+                        <section>
+                            <div class="context-light">
+                                            <h2 class="offset-top-35 section-bottom-30 text-center">Ánalisis de ventas</h2>
+                                        </div>
+                                        <hr>
+                            <div class="container">
                                 <div class="row">
                                     <div class="col-md-6">
-                                        <div class="context-light ">
-                                            <h2 class="offset-top-35 section-bottom-30">Galería</h2>
-                                            <div data-arrows="true" data-loop="false" data-dots="false" data-swipe="true" data-items="1" data-child="#child-carousel" data-for="#child-carousel" class="slick-slider carousel-parent">
-                                                <div class="item"><img src="view/componentes/img/proyectos/lago_chapo/1.jpg" alt="" width="100%" class="img-responsive"></div>
-                                                <div class="item"><img src="view/componentes/img/proyectos/lago_chapo/2.jpg" alt="" width="100%" class="img-responsive"></div>
-                                                <div class="item"><img src="view/componentes/img/proyectos/lago_chapo/3.jpg" alt="" width="100%" class="img-responsive"></div>
-                                                <div class="item"><img src="view/componentes/img/proyectos/lago_chapo/4.jpg" alt="" width="100%" class="img-responsive"></div>
-                                                <div class="item"><img src="view/componentes/img/proyectos/lago_chapo/6.jpg" alt="" width="100%" class="img-responsive"></div>
-                                                <div class="item"><img src="view/componentes/img/proyectos/lago_chapo/7.jpg" alt="" width="100%" class="img-responsive"></div>
-                                            </div>
-                                            <div id="child-carousel" data-for=".carousel-parent" data-arrows="false" data-loop="false" data-dots="false" data-swipe="true" data-items="3" data-xs-items="3" data-sm-items="4" data-md-items="5" data-lg-items="6" data-slide-to-scroll="1" class="slick-slider slick-child">
-                                                <div class="item"><img src="view/componentes/img/proyectos/lago_chapo/1.jpg" alt="" width="140" height="105"></div>
-                                                <div class="item"><img src="view/componentes/img/proyectos/lago_chapo/2.jpg" alt="" width="140" height="105"></div>
-                                                <div class="item"><img src="view/componentes/img/proyectos/lago_chapo/3.jpg" alt="" width="140" height="105"></div>
-                                                <div class="item"><img src="view/componentes/img/proyectos/lago_chapo/4.jpg" alt="" width="140" height="105"></div>
-                                                <div class="item"><img src="view/componentes/img/proyectos/lago_chapo/6.jpg" alt="" width="140" height="105"></div>
-                                                <div class="item"><img src="view/componentes/img/proyectos/lago_chapo/7.jpg" alt="" width="140" height="105"></div>
-                                            </div>
+                                        <div class="context-light">
+                                            <h2 class="offset-top-35 section-bottom-30 text-center">Ventas por mes</h2>
                                         </div>
+                                        <canvas id="myChart" width="200" height="200"></canvas>
+                                        <script>
+                                            var ctx = document.getElementById('myChart');
+                                            var myChart = new Chart(ctx, {
+                                                type: 'bar',
+                                                data:{
+                                                    labels: ['Diciembre', 'Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio'],
+                                                    datasets: [{
+                                                        label: 'Meses',
+                                                        data: [1, 5, 3, 5, 2, 3, 6 ,1],
+                                                        backgroundColor: [
+                                                            'rgba(255, 99, 132, 0.2)',
+                                                            'rgba(54, 162, 235, 0.2)',
+                                                            'rgba(255, 206, 86, 0.2)',
+                                                            'rgba(75, 192, 192, 0.2)',
+                                                            'rgba(153, 102, 255, 0.2)',
+                                                            'rgba(153, 102, 255, 0.2)',
+                                                            'rgba(153, 102, 255, 0.2)',
+                                                            'rgba(255, 159, 64, 0.2)'
+                                                        ],
+                                                        borderColor: [
+                                                            'rgba(255, 99, 132, 1)',
+                                                            'rgba(54, 162, 235, 1)',
+                                                            'rgba(255, 206, 86, 1)',
+                                                            'rgba(75, 192, 192, 1)',
+                                                            'rgba(153, 102, 255, 1)',
+                                                             'rgba(153, 102, 255, 1)',
+                                                             'rgba(153, 102, 255, 1)',
+                                                            'rgba(255, 159, 64, 1)'
+                                                        ],
+                                                        borderWidth: 1
+                                                    }]
+                                                },
+                                                options: {
+                                                    scales: {
+                                                        yAxes: [{
+                                                            ticks: {
+                                                                beginAtZero: true
+                                                            }
+                                                        }]
+                                                    }
+                                                }
+                                            });
+                                        </script>
                                     </div>
-                                    <div class="col-md-6 context-light ">
-                                        <h2 class="offset-top-35 section-bottom-30">Mapa</h2>
-                                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d382723.7076386406!2d-72.81779797558607!3d-41.460287077871115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9619c6147ef2efd7%3A0x74697c1789f6fef3!2sLago+Chapo!5e0!3m2!1ses!2scl!4v1566245995250!5m2!1ses!2scl" width="100%" height="430" frameborder="0" style="border:0" allowfullscreen></iframe>
+                                    <div class="col-md-6">
+                                        <div class="context-light">
+                                            <h2 class="offset-top-35 section-bottom-30 text-center">Valores por etapa</h2>
+                                        </div>
+                                        <canvas id="myLineChart" width="200" height="200"></canvas>
+                                        <script>
+                                            var ctx = document.getElementById('myLineChart');
+                                            var myLineChart = new Chart(ctx, {
+                                                type: 'line',
+                                                data: {
+                                                    labels: ['$12.990.000', '$12.990.000', '$12.990.000', ' $12.990.000', 'Venta Final'],
+                                                    datasets: [{
+                                                        label: 'Valor por etapa',
+                                                        data: [1, 2, 3, 4, 5, 3],
+                                                        backgroundColor: [
+                                                            'rgba(255, 99, 132, 0.2)',
+                                                            'rgba(54, 162, 235, 0.2)',
+                                                            'rgba(255, 206, 86, 0.2)',
+                                                            'rgba(75, 192, 192, 0.2)',
+                                                            'rgba(153, 102, 255, 0.2)',
+                                                            'rgba(255, 159, 64, 0.2)'
+                                                        ],
+                                                        borderColor: [
+                                                            'rgba(255, 99, 132, 1)',
+                                                            'rgba(54, 162, 235, 1)',
+                                                            'rgba(255, 206, 86, 1)',
+                                                            'rgba(75, 192, 192, 1)',
+                                                            'rgba(153, 102, 255, 1)',
+                                                            'rgba(255, 159, 64, 1)'
+                                                        ],
+                                                        borderWidth: 1
+                                                    }]
+                                                },
+                                                options: {
+                                                    scales: {
+                                                        yAxes: [{
+                                                            ticks: {
+                                                                beginAtZero: true
+                                                            }
+                                                        }]
+                                                    }
+                                                }
+                                            });
+                                        </script>
                                     </div>
                                 </div>
-                            </div>
-                        </section>
-                        <hr>
-                        <section class="section-top-35  section-bottom-70">
-                            <div class="context-light">
-                                <h2 class="offset-top-50 section-bottom-30 text-center">Panorama 360º</h2>
-                            </div>
-                            <div class="container-fluid">
+                                <br>
+                                <br>
                                 <div class="row">
-                                    <div class="col-md-12">
-                                        <div class="asincronico">
+                                    <div class="col-md-6">
+                                        <div class="context-light">
+                                            <h2 class="offset-top-35 section-bottom-30 text-center">Otros proyectos</h2>
                                         </div>
+                                        <canvas id="myPieChart" width="200" height="200"></canvas>
+                                        <script>
+                                            var ctx = document.getElementById('myPieChart');
+                                            var myPieChart = new Chart(ctx, {
+                                                type: 'pie',
+                                                data: {
+                                                    labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
+                                                    datasets: [{
+                                                        label: '# of Votes',
+                                                        data: [12, 19, 3, 5, 2, 3],
+                                                        backgroundColor: [
+                                                            'rgba(255, 99, 132, 0.2)',
+                                                            'rgba(54, 162, 235, 0.2)',
+                                                            'rgba(255, 206, 86, 0.2)',
+                                                            'rgba(75, 192, 192, 0.2)',
+                                                            'rgba(153, 102, 255, 0.2)',
+                                                            'rgba(255, 159, 64, 0.2)'
+                                                        ],
+                                                        borderColor: [
+                                                            'rgba(255, 99, 132, 1)',
+                                                            'rgba(54, 162, 235, 1)',
+                                                            'rgba(255, 206, 86, 1)',
+                                                            'rgba(75, 192, 192, 1)',
+                                                            'rgba(153, 102, 255, 1)',
+                                                            'rgba(255, 159, 64, 1)'
+                                                        ],
+                                                        borderWidth: 1
+                                                    }]
+                                                },
+                                                options: {
+                                                    scales: {
+                                                        yAxes: [{
+                                                            ticks: {
+                                                                beginAtZero: true
+                                                            }
+                                                        }]
+                                                    }
+                                                }
+                                            });
+                                        </script>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="context-light">
+                                            <h2 class="offset-top-35 section-bottom-30 text-center">Otros proyectos</h2>
+                                        </div>
+                                        <canvas id="myDoughnutChart" width="200" height="200"></canvas>
+                                        <script>
+                                            var ctx = document.getElementById('myDoughnutChart');
+                                            var myDoughnutChart = new Chart(ctx, {
+                                                type: 'doughnut',
+                                                data: {
+                                                    labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
+                                                    datasets: [{
+                                                        label: '# of Votes',
+                                                        data: [12, 19, 3, 5, 2, 3],
+                                                        backgroundColor: [
+                                                            'rgba(255, 99, 132, 0.2)',
+                                                            'rgba(54, 162, 235, 0.2)',
+                                                            'rgba(255, 206, 86, 0.2)',
+                                                            'rgba(75, 192, 192, 0.2)',
+                                                            'rgba(153, 102, 255, 0.2)',
+                                                            'rgba(255, 159, 64, 0.2)'
+                                                        ],
+                                                        borderColor: [
+                                                            'rgba(255, 99, 132, 1)',
+                                                            'rgba(54, 162, 235, 1)',
+                                                            'rgba(255, 206, 86, 1)',
+                                                            'rgba(75, 192, 192, 1)',
+                                                            'rgba(153, 102, 255, 1)',
+                                                            'rgba(255, 159, 64, 1)'
+                                                        ],
+                                                        borderWidth: 1
+                                                    }]
+                                                },
+                                                options: {
+                                                    scales: {
+                                                        yAxes: [{
+                                                            ticks: {
+                                                                beginAtZero: true
+                                                            }
+                                                        }]
+                                                    }
+                                                }
+                                            });
+                                        </script>
                                     </div>
                                 </div>
+                                <br>
+                                <br>
+                                
                             </div>
                         </section>
-                        <hr>
-                        
-                        
-                        
-                        
-                        
-  
-                        
-
-                    
-                        
-                        
-                        
                         <section class="section-top-35 section-bottom-70">
                             <div class="container-fluid">
                                 <div class="row">
