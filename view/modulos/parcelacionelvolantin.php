@@ -77,7 +77,7 @@
                 <div class="range offset-top-30 text-center">
                     <div class="cell-sm-4">
                         <!-- CountTo-->
-                        <div data-from="0" data-to="21" class="counter shadow1 text-medium"></div>
+                        <div data-from="0" data-to="28" class="counter shadow1 text-medium"></div>
                         <h3 class="text-sbold text-base shadow1 text-white">Parcelas</h3>
                     </div>
                     <div class="cell-sm-4">
@@ -254,8 +254,6 @@
                         <hr>
                     </div>
                 </section>
-                
-              
 
                 <section id="flip" class="section-top-35  section-bottom-70">
                     <div class="container">
@@ -265,13 +263,13 @@
                             </div>
                             <div class="col-md-12" style="width:100%;height:500px;">
                                 <br>
-                                <div id="container" style="width:100%;height:100%;">
+                                <div id="flipvolantin" style="width:100%;height:100%;">
                                 </div>
                             </div>
-
                         </div>
                     </div>
                 </section>
+                
                 <!-- DESCARGAR BROCHURE-->
                 <section class="section-top-70  section-bottom-70 bg-blue ">
                     <div class="container-fluid">

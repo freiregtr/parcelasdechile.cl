@@ -93,6 +93,7 @@
             $_GET["ruta"] == "10razones"             ||
             $_GET["ruta"] == "7beneficiospendiente"  ||
             $_GET["ruta"] == "blog"                  ||
+            $_GET["ruta"] == "laconsentida"          ||
             $_GET["ruta"] == "quienessomos"
 
         ) {
@@ -136,7 +137,7 @@
             echo '<script src="view/js/flipvolantin.js"></script>';
             
         }else if($_GET["ruta"] == "laconsentida"){
-            echo '<script src="view/componentes/mapsvg/js/consentida.js"></script>';
+            echo '<script src="view/componentes/mapsvg/js/laconsentida.js"></script>';
             echo '<script src="view/js/flipconsentida.js"></script>';         
         }
     }

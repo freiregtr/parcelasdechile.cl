@@ -1,4 +1,4 @@
-$("#container").flipBook({
+$("#flipvolantin").flipBook({
     pages: [
         { src: "view/componentes/flip/volantin/volantin1.png", thumb: "view/componentes/flip/volantin/thumb1.jpg", title: "Página principal" },
         { src: "view/componentes/flip/volantin/volantin2.png", thumb: "view/componentes/flip/volantin/thumb2.jpg", title: "Página 2" },

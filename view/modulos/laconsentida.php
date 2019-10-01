@@ -110,7 +110,7 @@
                                     <div class="col-md-6">
                                         <br>
                                         <br>
-                                        <div class="row" id="volantinSvg"></div>
+                                        <div class="row" id="consentidaSvg"></div>
                                     </div>
                                     <div class="col-md-6">
                                         <div>
@@ -143,14 +143,11 @@
                                             </div>
                                             <div class="col-md-6">
                                                 <br>
-                                                <div class="valor5">
-                                                    <p>VENDIDA</p>
+                                                <div class="valor1">
+                                                    <p>Entrada privada al Lago</p>
                                                 </div>
                                             </div>
-                                        </div>
-                                      
-                                       
-                                
+                                        </div>                                
                                         <br>
                                         <p class="offset-top-40 text-bold text-base">" Por qué tenemos el país más lindo del mundo, creemos que deberías elegir Parcelas de Chile."</p>
                                         <p class="offset-top-20">La Región de Los Lagos te invita a conocer bellos paisajes, con hermosos destinos llenos de magia y encanto.  Los mitos y leyendas son pan de cada día, y las tradiciones gastronómicas te harán agua la boca.</p>
@@ -194,25 +191,24 @@
                                 </div>
                             </div>
                         </section>
-              
 
-                <section id="flipconsentida" class="section-top-35  section-bottom-70">
+                <section id="flip" class="section-top-35  section-bottom-70">
                     <div class="container">
                         <div class="row">
                             <div class="context-light">
                                 <h2 class="offset-top-50 section-bottom-30 text-center">Carpeta de Venta</h2>
                             </div>
+                            
+                            
                             <div class="col-md-12" style="width:100%;height:500px;">
                                 <br>
-                                <div id="container" style="width:100%;height:100%;">
+                                <div id="flipconsentida" style="width:100%;height:100%;">
                                 </div>
                             </div>
 
                         </div>
                     </div>
                 </section>
-                
-                
                 
                 <!-- DESCARGAR BROCHURE
                 <section class="section-top-70  section-bottom-70 bg-blue ">
@@ -250,19 +246,9 @@
                                             <div class="context-light">
                                                 <h2 class="offset-top-35 section-bottom-30">Otros proyectos</h2>
                                             </div>
-                                            <div class="bg-image-lagochapo well-transparent context-dark">
+                                            <div class="bg-image-elvolantin well-transparent context-dark">
 
                                                 <div data-dots="true" data-items="1" data-margin="30" data-mouse-drag="false" class="owl-carousel owl-dots-sm">
-                                                    <div>
-                                                        <br>
-                                                        <h2 class="shadow1">Lago Chapo</h2>
-                                                        <br>
-                                                        <h3 class="shadow1" class="offset-top-30 text-primary">Desde los $9.990.000</h3>
-                                                        <br>
-                                                        <p class="shadow1" class="offset-top-30">En el Lago Chapo podemos Disfrutar navegando <br>con la hermosa vista del Volcán Calbuco, y si eres de las personas <br>que ama la naturaleza deberías recorrer los senderos de la Reserva Nacional Llanquihue.</p>
-                                                        <a href="lagochapo" class="offset-top-20 btn btn-primary text-regular shadow2">Ver más</a>
-                                                    </div>
-
                                                     <div>
                                                         <br>
                                                         <h2 class="shadow1">Parcelación El Volantín</h2>
@@ -272,7 +258,15 @@
                                                         <p class="shadow1" class="offset-top-30">Marchihue en la Provincia de Cardenal Caro <br> (Región del Libertador General Bernardo O'Higgins)<br>es un lugar en Chile a 138 km al suroeste de Santiago.</p>
                                                         <a href="parcelacionelvolantin" class="offset-top-20 btn btn-primary text-regular shadow2">Ver más</a>
                                                     </div>
-
+                                                    <div>
+                                                        <br>
+                                                        <h2 class="shadow1">Lago Chapo</h2>
+                                                        <br>
+                                                        <h3 class="shadow1" class="offset-top-30 text-primary">Desde los $9.990.000</h3>
+                                                        <br>
+                                                        <p class="shadow1" class="offset-top-30">En el Lago Chapo podemos Disfrutar navegando <br>con la hermosa vista del Volcán Calbuco, y si eres de las personas <br>que ama la naturaleza deberías recorrer los senderos de la Reserva Nacional Llanquihue.</p>
+                                                        <a href="lagochapo" class="offset-top-20 btn btn-primary text-regular shadow2">Ver más</a>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
