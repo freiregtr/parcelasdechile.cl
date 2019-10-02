@@ -1,7 +1,7 @@
 $("#flipconsentida").flipBook({
     pages: [
         { src: "view/componentes/flip/consentida/consentida1.png", thumb: "view/componentes/flip/consentida/thumb1.jpg", title: "Página principal" },
-        { src: "view/componentes/flip/volantin/consentida2.png", thumb: "view/componentes/flip/consentida/thumb2.jpg", title: "Página 2" },
+        { src: "view/componentes/flip/consentida/consentida2.png", thumb: "view/componentes/flip/consentida/thumb2.jpg", title: "Página 2" },
         
         { src: "view/componentes/flip/consentida/consentida3.png", thumb: "view/componentes/flip/consentida/thumb3.jpg", title: "Página 3" },
         

@@ -136,10 +136,78 @@
                 <h2 class="offset-top-30 section-bottom-30">Nuestros Proyectos disponibles</h2>
             </div>
         </section>
-        <section id="parcelas">
-            <!-- LAS PARCELAS-->
-            <div class="range range-condensed text-sm-left">
+
+        <!-- PROYECTOS-->
+        <section id="sliderproyectos ">
+
+            <div id="child-carousel" data-arrows="true" data-loop="true" data-dots="true" data-swipe="true" data-items="1" data-xs-items="1" data-sm-items="1" data-md-items="2" data-lg-items="2" data-slide-to-scroll="1" class="slick-slider slick-child ">
+
+                <!-- EL VOLANTIN-->
+                <div class="item mov">
+                    <div class="reveal-block thumbnail-variant-1">
+                        <div class="caption-wrapper">
+                            <img src="view/componentes/img/proyectos/mirador_alcones/malcones.jpg" width="960" height="567" alt="Volantin de la quebrada" class="img-responsive center-block">
+                            <div class="caption shadow2"><a href="#" class="label label-primary">VI Región</a></div>
+                        </div>
+                        <div class="caption-2">
+                            <hr class="divider veil reveal-md-inline-block shadow2">
+                            <h2 class="context-dark shadow1">El Volantín</h2>
+                            <br>
+                            <h3>Desde $ 7.990.000</h3>
+                            <br>
+                            <p class="text-white shadow1 ">Región de Libertador O’Higgins</p>
+                            <a href="parcelacionelvolantin" class="btn btn-primary-variant-1">Ver más</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- LA CONSENTIDA-->
+                <div class="item mov">
+                    <div class="reveal-block thumbnail-variant-1">
+                        <div class="caption-wrapper">
+                            <img src="view/componentes/img/proyectos/la_consentida/consentida2.jpg" width="960" height="567" alt="Volantin de la quebrada" class="img-responsive center-block">
+                            <div class="caption shadow2"><a href="#" class="label label-primary">VI Región</a></div>
+                        </div>
+                        <div class="caption-2">
+                            <hr class="divider veil reveal-md-inline-block shadow2">
+                            <h2 class="context-dark shadow1">La Consentida</h2>
+                            <br>
+                            <h3>PRÓXIMAMENTE</h3>
+                            <br>
+                            <p class="text-white shadow1 ">Región de los Lagos, Puerto Montt</p>
+                            <a href="laconsentida" class="btn btn-primary-variant-1 disabled">Pronto</a>
+                        </div>
+                    </div>
+                </div>
+
                 <!-- LAGO CHAPO-->
+                <div class="item mov">
+                    <div class="reveal-block thumbnail-variant-1">
+                        <div class="caption-wrapper">
+                            <img src="view/componentes/img/proyectos/lago_chapo/lagochapo.jpg" width="960" height="567" alt="Lago chapo" class="img-responsive center-block">
+                            <div class="caption shadow2"><a href="#" class="label label-primary">X Región</a></div>
+                        </div>
+                        <div class="caption-2">
+                            <hr class="divider veil reveal-md-inline-block shadow2">
+                            <h2 class="context-dark shadow1">Lago Chapo</h2>
+                            <br>
+                            <h3>Totalmente vendido</h3>
+                            <br>
+                            <p class="text-white shadow1 ">Región de los Lagos, Puerto Montt</p>
+                            <a href="lagochapo" class="btn btn-primary-variant-1">Ver más</a>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+
+        </section>
+        <!-- 
+
+        <section id="parcelas">
+            <div class="range range-condensed text-sm-left">
                 <div class="cell-sm-6 ">
                     <div class="reveal-block thumbnail-variant-1">
                         <div class="caption-wrapper">
@@ -165,7 +233,6 @@
                         </div>
                     </div>
                 </div>
-                <!-- PARCELACION EL VOLANTIN-->
                 <div class="cell-sm-6">
                     <div class="reveal-block thumbnail-variant-1">
                         <div class="caption-wrapper">
@@ -193,6 +260,10 @@
                 </div>
             </div>
         </section>
+        
+ -->
+
+
         <!-- NEWSLETTERS-->
         <section class="bg-secundary section-45">
             <div class="shell text-lg-left context-light">

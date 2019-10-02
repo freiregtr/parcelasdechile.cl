@@ -760,9 +760,10 @@ ol {
 }
 .precios {
   width: 100%;
-  padding: 10px;
+  padding: 15px;
   color: #fff;
-  background-color: #1a559475;
+  background-color: #1a5594;
+
 }
 
 .logoinv{
@@ -33503,7 +33504,12 @@ font-family: 'Lobster Two', cursive;
   height: 100px;
   width: 250px;
 }
-
+.movxxx{
+     -webkit-animation: scroll 30s linear infinite;
+      animation: scroll 30s linear infinite;
+      display: flex;
+    
+}
 
 header {
   position: relative;
@@ -33548,9 +33554,8 @@ header .overlay {
   header {
     background: url('view/componentes/img/home.jpg') black no-repeat center center scroll;
   }
-  header video {
-    display: none;
-  }
+    
+ 
 }
 .familiar{
     font-size: 55px;
