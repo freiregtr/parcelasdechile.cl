@@ -176,9 +176,11 @@
                             <div class="col-md-6">
                                 <div class="context-light ">
                                     <h2 class="offset-top-35 section-bottom-30">Galería</h2>
+                                    
                                     <div data-arrows="true" data-loop="false" data-dots="false" data-swipe="true" data-items="1" data-child="#child-carousel" data-for="#child-carousel" class="slick-slider carousel-parent">
 
                                         <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/1.png" alt="" width="100%" class="img-responsive"></div>
+                                        
                                         <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/2.png" alt="" width="100%" class="img-responsive"></div>
                                         <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/3.png" alt="" width="100%" class="img-responsive"></div>
                                         <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/4.png" alt="" width="100%" class="img-responsive"></div>

@@ -79,7 +79,7 @@
                 <div class="range offset-top-30 text-center">
                     <div class="cell-sm-4">
                         <!-- CountTo-->
-                        <div data-from="0" data-to="30" class="counter shadow1 text-medium"></div>
+                        <div data-from="0" data-to="15" class="counter shadow1 text-medium"></div>
                         <h3 class="text-sbold text-base shadow1 text-white">Parcelas</h3>
                     </div>
                     <div class="cell-sm-4">
@@ -165,27 +165,55 @@
                <section class="section-top-35 section-bottom-70 ">
                             <div class="container-fluid">
                                 <div class="row">
-                                    <div class="col-md-6">
-                                        <div class="context-light ">
-                                            <h2 class="offset-top-35 section-bottom-30">Galería</h2>
-                                            <div data-arrows="true" data-loop="false" data-dots="false" data-swipe="true" data-items="1" data-child="#child-carousel" data-for="#child-carousel" class="slick-slider carousel-parent">
-                                                <div class="item"><img src="view/componentes/img/proyectos/lago_chapo/1.jpg" alt="" width="100%" class="img-responsive"></div>
-                                                <div class="item"><img src="view/componentes/img/proyectos/lago_chapo/2.jpg" alt="" width="100%" class="img-responsive"></div>
-                                                <div class="item"><img src="view/componentes/img/proyectos/lago_chapo/3.jpg" alt="" width="100%" class="img-responsive"></div>
-                                                <div class="item"><img src="view/componentes/img/proyectos/lago_chapo/4.jpg" alt="" width="100%" class="img-responsive"></div>
-                                                <div class="item"><img src="view/componentes/img/proyectos/lago_chapo/6.jpg" alt="" width="100%" class="img-responsive"></div>
-                                                <div class="item"><img src="view/componentes/img/proyectos/lago_chapo/7.jpg" alt="" width="100%" class="img-responsive"></div>
-                                            </div>
-                                            <div id="child-carousel" data-for=".carousel-parent" data-arrows="false" data-loop="false" data-dots="false" data-swipe="true" data-items="3" data-xs-items="3" data-sm-items="4" data-md-items="5" data-lg-items="6" data-slide-to-scroll="1" class="slick-slider slick-child">
-                                                <div class="item"><img src="view/componentes/img/proyectos/lago_chapo/1.jpg" alt="" width="140" height="105"></div>
-                                                <div class="item"><img src="view/componentes/img/proyectos/lago_chapo/2.jpg" alt="" width="140" height="105"></div>
-                                                <div class="item"><img src="view/componentes/img/proyectos/lago_chapo/3.jpg" alt="" width="140" height="105"></div>
-                                                <div class="item"><img src="view/componentes/img/proyectos/lago_chapo/4.jpg" alt="" width="140" height="105"></div>
-                                                <div class="item"><img src="view/componentes/img/proyectos/lago_chapo/6.jpg" alt="" width="140" height="105"></div>
-                                                <div class="item"><img src="view/componentes/img/proyectos/lago_chapo/7.jpg" alt="" width="140" height="105"></div>
-                                            </div>
-                                        </div>
+                                     <div class="col-md-6">
+                                <div class="context-light ">
+                                    <h2 class="offset-top-35 section-bottom-30">Galería</h2>
+                                    
+                                    <div data-arrows="true" data-loop="false" data-dots="false" data-swipe="true" data-items="1" data-child="#child-carousel" data-for="#child-carousel" class="slick-slider carousel-parent">
+
+                                        <div class="item"><img src="view/componentes/img/proyectos/la_consentida/1.jpg" alt="" width="100%" class="img-responsive"></div>
+                                        <div class="item"><img src="view/componentes/img/proyectos/la_consentida/2.jpg" alt="" width="100%" class="img-responsive"></div>
+                                        <div class="item"><img src="view/componentes/img/proyectos/la_consentida/3.jpg" alt="" width="100%" class="img-responsive"></div>
+                                        <div class="item"><img src="view/componentes/img/proyectos/la_consentida/4.jpg" alt="" width="100%" class="img-responsive"></div>
+                                        <div class="item"><img src="view/componentes/img/proyectos/la_consentida/5.jpg" alt="" width="100%" class="img-responsive"></div>
+                                        <div class="item"><img src="view/componentes/img/proyectos/la_consentida/6.jpg" alt="" width="100%" class="img-responsive"></div>
+                                        <div class="item"><img src="view/componentes/img/proyectos/la_consentida/7.jpg" alt="" width="100%" class="img-responsive"></div>
+                                        <div class="item"><img src="view/componentes/img/proyectos/la_consentida/8.jpg" alt="" width="100%" class="img-responsive"></div>
+                                        <div class="item"><img src="view/componentes/img/proyectos/la_consentida/9.jpg" alt="" width="100%" class="img-responsive"></div>
+                                        <div class="item"><img src="view/componentes/img/proyectos/la_consentida/10.jpg" alt="" width="100%" class="img-responsive"></div>
+                                        <div class="item"><img src="view/componentes/img/proyectos/la_consentida/11.jpg" alt="" width="100%" class="img-responsive"></div>
+                                        <div class="item"><img src="view/componentes/img/proyectos/la_consentida/12.jpg" alt="" width="100%" class="img-responsive"></div>
+                                        <div class="item"><img src="view/componentes/img/proyectos/la_consentida/13.jpg" alt="" width="100%" class="img-responsive"></div>
+                                        <div class="item"><img src="view/componentes/img/proyectos/la_consentida/14.jpg" alt="" width="100%" class="img-responsive"></div>
+                                        <div class="item"><img src="view/componentes/img/proyectos/la_consentida/15.jpg" alt="" width="100%" class="img-responsive"></div>
+                                        <div class="item"><img src="view/componentes/img/proyectos/la_consentida/16.jpg" alt="" width="100%" class="img-responsive"></div>
+                                        
                                     </div>
+                                    
+                                    <div id="child-carousel" data-for=".carousel-parent" data-arrows="false" data-loop="false" data-dots="false" data-swipe="true" data-items="3" data-xs-items="3" data-sm-items="4" data-md-items="5" data-lg-items="6" data-slide-to-scroll="1" class="slick-slider slick-child">
+
+                                        <div class="item"><img src="view/componentes/img/proyectos/la_consentida/1.jpg" alt="" width="140" height="105"></div>
+                                        <div class="item"><img src="view/componentes/img/proyectos/la_consentida/2.jpg" alt="" width="140" height="105"></div>
+                                        <div class="item"><img src="view/componentes/img/proyectos/la_consentida/3.jpg" alt="" width="140" height="105"></div>
+                                        <div class="item"><img src="view/componentes/img/proyectos/la_consentida/4.jpg" alt="" width="140" height="105"></div>
+                                        <div class="item"><img src="view/componentes/img/proyectos/la_consentida/5.jpg" alt="" width="140" height="105"></div>
+                                        <div class="item"><img src="view/componentes/img/proyectos/la_consentida/6.jpg" alt="" width="140" height="105"></div>
+                                        <div class="item"><img src="view/componentes/img/proyectos/la_consentida/7.jpg" alt="" width="140" height="105"></div>
+                                        <div class="item"><img src="view/componentes/img/proyectos/la_consentida/8.jpg" alt="" width="140" height="105"></div>
+                                        <div class="item"><img src="view/componentes/img/proyectos/la_consentida/9.jpg" alt="" width="140" height="105"></div>
+                                        <div class="item"><img src="view/componentes/img/proyectos/la_consentida/10.jpg" alt="" width="140" height="105"></div>
+                                        <div class="item"><img src="view/componentes/img/proyectos/la_consentida/11.jpg" alt="" width="140" height="105"></div>
+                                        <div class="item"><img src="view/componentes/img/proyectos/la_consentida/12.jpg" alt="" width="140" height="105"></div>
+                                        <div class="item"><img src="view/componentes/img/proyectos/la_consentida/13.jpg" alt="" width="140" height="105"></div>
+                                        <div class="item"><img src="view/componentes/img/proyectos/la_consentida/14.jpg" alt="" width="140" height="105"></div>
+                                        <div class="item"><img src="view/componentes/img/proyectos/la_consentida/15.jpg" alt="" width="140" height="105"></div>
+                                        <div class="item"><img src="view/componentes/img/proyectos/la_consentida/16.jpg" alt="" width="140" height="105"></div>
+                                      
+
+                                    </div>
+                                </div>
+                            </div>
+                                    
                                     <div class="col-md-6 context-light ">
                                         <h2 class="offset-top-35 section-bottom-30">Mapa</h2>
                                         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d382723.7076386406!2d-72.81779797558607!3d-41.460287077871115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9619c6147ef2efd7%3A0x74697c1789f6fef3!2sLago+Chapo!5e0!3m2!1ses!2scl!4v1566245995250!5m2!1ses!2scl" width="100%" height="430" frameborder="0" style="border:0" allowfullscreen></iframe>
