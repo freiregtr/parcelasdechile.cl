@@ -263,11 +263,12 @@
                             <div class="context-light">
                                 <h2 class="offset-top-50 section-bottom-30 text-center">Carpeta de Venta</h2>
                             </div>
-                            <div class="col-md-12" style="width:100%;height:500px;">
+                            <div class="col-md-12" style="width:100%;height:600px;">
                                 <br>
                                 <div id="flipvolantin" style="width:100%;height:100%;">
                                 </div>
                             </div>
+                            
                         </div>
                     </div>
                 </section>

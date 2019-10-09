@@ -1,51 +1,48 @@
 <!-- Page-->
 <div class="page text-center">
-   <div class="rd-navbar-wrap">
-            <nav data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fixed" data-md-device-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-static" data-lg-device-layout="rd-navbar-static" data-sm-stick-up-offset="150px" data-md-stick-up-offset="1px" data-lg-stick-up-offset="150px" class="rd-navbar">
-                <div class="rd-navbar-panel">
-                    <!-- RD Navbar Panel-->
-                    <div class="rd-navbar-inner">
-                        <!-- RD Navbar Toggle-->
-                        <button data-rd-navbar-toggle=".rd-navbar-nav-wrap" class="rd-navbar-toggle"><span></span></button>
-                        <!-- LOGO-->
-                        <div class="rd-navbar-brand"><a href="inicio" class="brand-name"><img src="view/componentes/img/logo/logon.png" height="85" alt="Parcelas de chile"></a>
-                        </div>
-                        <!-- TELÉFONO-->
-                         <div class="rd-navbar-contacts rd-navbar-collapse rd-navbar-collapse-2"><span>Contáctanos</span>
+    <div class="rd-navbar-wrap">
+        <nav data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fixed" data-md-device-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-static" data-lg-device-layout="rd-navbar-static" data-sm-stick-up-offset="150px" data-md-stick-up-offset="1px" data-lg-stick-up-offset="150px" class="rd-navbar">
+            <div class="rd-navbar-panel">
+                <!-- RD Navbar Panel-->
+                <div class="rd-navbar-inner">
+                    <!-- RD Navbar Toggle-->
+                    <button data-rd-navbar-toggle=".rd-navbar-nav-wrap" class="rd-navbar-toggle"><span></span></button>
+                    <!-- LOGO-->
+                    <div class="rd-navbar-brand"><a href="inicio" class="brand-name"><img src="view/componentes/img/logo/logon.png" height="85" alt="Parcelas de chile"></a>
+                    </div>
+                    <!-- TELÉFONO-->
+                    <div class="rd-navbar-contacts rd-navbar-collapse rd-navbar-collapse-2"><span>Contáctanos</span>
                         <div><span class="icon1 fa-phone text-primary"></span><a href="callto:> +56958053609"></a><a>+56 9 4007 5222</a>
                         </div>
                     </div>
-                    </div>
                 </div>
-                <div class="rd-navbar-nav-wrap">
-                    <div class="rd-navbar-inner">
-                        <!-- NAVBAR-->
-                        <ul class="rd-navbar-nav">
-                            <li><a href="inicio">Home</a></li>
-                            <li class="active"><a href="parcelacionelvolantin">Proyectos</a>
-                                <!-- RD Navbar Dropdown-->
-                                <ul class="rd-navbar-dropdown">
-                                   <li><a href="laconsentida">La Consentida</a></li>
-                                    <li><a href="parcelacionelvolantin">El Volantín</a></li>
-                                    <li><a href="lagochapo">Lago Chapo</a></li>
-                                   
-                                    
-                                </ul>
-                            </li>
-                            <li><a href="quienessomos">Quienes Somos</a></li>
-                            <li><a href="trabajaconnosotros">Trabaja con nosotros</a></li>
-                            <li><a href="contacto">Contacto</a></li>
-                            <li><a href="faq">FAQ</a></li>
-                            <li><a href="blog">Blog</a></li>
-                        </ul>
-                    </div>
+            </div>
+            <div class="rd-navbar-nav-wrap">
+                <div class="rd-navbar-inner">
+                    <!-- NAVBAR-->
+                    <ul class="rd-navbar-nav">
+                        <li><a href="inicio">Home</a></li>
+                        <li class="active"><a href="parcelacionelvolantin">Proyectos</a>
+                            <!-- RD Navbar Dropdown-->
+                            <ul class="rd-navbar-dropdown">
+                                <li><a href="laconsentida">La Consentida</a></li>
+                                <li><a href="parcelacionelvolantin">El Volantín</a></li>
+                                <li><a href="lagochapo">Lago Chapo</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="quienessomos">Quienes Somos</a></li>
+                        <li><a href="trabajaconnosotros">Trabaja con nosotros</a></li>
+                        <li><a href="contacto">Contacto</a></li>
+                        <li><a href="faq">FAQ</a></li>
+                        <li><a href="blog">Blog</a></li>
+                    </ul>
                 </div>
-            </nav>
-        </div>
+            </div>
+        </nav>
+    </div>
     <!-- HEADER -->
     <header class="page-header">
         <!-- RD Navbar-->
-        
     </header>
     <!-- INICIO MAIN-->
     <main class="page-content">
@@ -59,17 +56,11 @@
                 </ol>
             </div>
         </section>
-
         <div class="social-bar">
-
             <a href="https://www.facebook.com/parcelasdechile/" class="icon icon-facebook" target="_blank"></a>
-
             <a href="https://www.youtube.com/channel/UC1A2lJ21pRVisDtocb1gTTA/" class="icon icon-youtube" target="_blank"></a>
-
             <a href="https://instagram.com/parcelasdechile/" class="icon icon-instagram" target="_blank"></a>
-
         </div>
-
         <!-- PROYECTO EL VOLANTIN DE LA QUEBRADA-->
         <section class=" text-center section-bottom-70 page-header bg-image-laconsentida">
             <div class="shell section-100 section-lg-top-220 section-lg-bottom-205 context-dark">
@@ -95,9 +86,9 @@
                 </div>
                 <br>
                 <br>
-                   <button type="button" class="btn btn-primary video-btn" data-toggle="modal" data-src="https://www.youtube.com/embed/B_yBoXARTQY" data-target="#myModal">
-                                ver video
-                            </button>
+                <button type="button" class="btn btn-primary video-btn" data-toggle="modal" data-src="https://www.youtube.com/embed/B_yBoXARTQY" data-target="#myModal">
+                    ver video
+                </button>
             </div>
         </section>
         <section class="section-top-45 section-bottom-80">
@@ -110,8 +101,6 @@
                                 <div class="row">
                                     <!-- ID PLANO -->
                                     <div class="col-md-6">
-                                        <br>
-                                        <br>
                                         <div class="row" id="consentidaSvg"></div>
                                     </div>
                                     <div class="col-md-6">
@@ -149,10 +138,10 @@
                                                     <p>Entrada privada al Lago</p>
                                                 </div>
                                             </div>
-                                        </div>                                
+                                        </div>
                                         <br>
                                         <p class="offset-top-40 text-bold text-base">" Por qué tenemos el país más lindo del mundo, creemos que deberías elegir Parcelas de Chile."</p>
-                                        <p class="offset-top-20">La Región de Los Lagos te invita a conocer bellos paisajes, con hermosos destinos llenos de magia y encanto.  Los mitos y leyendas son pan de cada día, y las tradiciones gastronómicas te harán agua la boca.</p>
+                                        <p class="offset-top-20">La Región de Los Lagos te invita a conocer bellos paisajes, con hermosos destinos llenos de magia y encanto. Los mitos y leyendas son pan de cada día, y las tradiciones gastronómicas te harán agua la boca.</p>
                                     </div>
                                     <br>
                                 </div>
@@ -161,76 +150,73 @@
                     </div>
                 </div>
                 <hr>
+                 </div>
+                <section id="sliderproyectos ">
+                     <div class="context-light">
+                                <h2 class="offset-top-50 section-bottom-30 text-center">Galería</h2>
+                            </div>
+                    <div id="child-carousel" data-arrows="true" data-loop="true" data-dots="true" data-swipe="true" data-items="1" data-xs-items="1" data-sm-items="1" data-md-items="3" data-lg-items="3" data-slide-to-scroll="1" class="slick-slider slick-child ">
                 <!-- GALERIA DE IMAGENES-->
-               <section class="section-top-35 section-bottom-70 ">
-                            <div class="container-fluid">
-                                <div class="row">
-                                     <div class="col-md-6">
-                                <div class="context-light ">
-                                    <h2 class="offset-top-35 section-bottom-30">Galería</h2>
-                                    
-                                    <div data-arrows="true" data-loop="false" data-dots="false" data-swipe="true" data-items="1" data-child="#child-carousel" data-for="#child-carousel" class="slick-slider carousel-parent">
-
-                                        <div class="item"><img src="view/componentes/img/proyectos/la_consentida/1.jpg" alt="" width="100%" class="img-responsive"></div>
-                                        <div class="item"><img src="view/componentes/img/proyectos/la_consentida/2.jpg" alt="" width="100%" class="img-responsive"></div>
-                                        <div class="item"><img src="view/componentes/img/proyectos/la_consentida/3.jpg" alt="" width="100%" class="img-responsive"></div>
-                                        <div class="item"><img src="view/componentes/img/proyectos/la_consentida/4.jpg" alt="" width="100%" class="img-responsive"></div>
-                                        <div class="item"><img src="view/componentes/img/proyectos/la_consentida/5.jpg" alt="" width="100%" class="img-responsive"></div>
-                                        <div class="item"><img src="view/componentes/img/proyectos/la_consentida/6.jpg" alt="" width="100%" class="img-responsive"></div>
-                                        <div class="item"><img src="view/componentes/img/proyectos/la_consentida/7.jpg" alt="" width="100%" class="img-responsive"></div>
-                                        <div class="item"><img src="view/componentes/img/proyectos/la_consentida/8.jpg" alt="" width="100%" class="img-responsive"></div>
-                                        <div class="item"><img src="view/componentes/img/proyectos/la_consentida/9.jpg" alt="" width="100%" class="img-responsive"></div>
-                                        <div class="item"><img src="view/componentes/img/proyectos/la_consentida/10.jpg" alt="" width="100%" class="img-responsive"></div>
-                                        <div class="item"><img src="view/componentes/img/proyectos/la_consentida/11.jpg" alt="" width="100%" class="img-responsive"></div>
-                                        <div class="item"><img src="view/componentes/img/proyectos/la_consentida/12.jpg" alt="" width="100%" class="img-responsive"></div>
-                                        <div class="item"><img src="view/componentes/img/proyectos/la_consentida/13.jpg" alt="" width="100%" class="img-responsive"></div>
-                                        <div class="item"><img src="view/componentes/img/proyectos/la_consentida/14.jpg" alt="" width="100%" class="img-responsive"></div>
-                                        <div class="item"><img src="view/componentes/img/proyectos/la_consentida/15.jpg" alt="" width="100%" class="img-responsive"></div>
-                                        <div class="item"><img src="view/componentes/img/proyectos/la_consentida/16.jpg" alt="" width="100%" class="img-responsive"></div>
-                                        
-                                    </div>
-                                    
-                                    <div id="child-carousel" data-for=".carousel-parent" data-arrows="false" data-loop="false" data-dots="false" data-swipe="true" data-items="3" data-xs-items="3" data-sm-items="4" data-md-items="5" data-lg-items="6" data-slide-to-scroll="1" class="slick-slider slick-child">
-
-                                        <div class="item"><img src="view/componentes/img/proyectos/la_consentida/1.jpg" alt="" width="140" height="105"></div>
-                                        <div class="item"><img src="view/componentes/img/proyectos/la_consentida/2.jpg" alt="" width="140" height="105"></div>
-                                        <div class="item"><img src="view/componentes/img/proyectos/la_consentida/3.jpg" alt="" width="140" height="105"></div>
-                                        <div class="item"><img src="view/componentes/img/proyectos/la_consentida/4.jpg" alt="" width="140" height="105"></div>
-                                        <div class="item"><img src="view/componentes/img/proyectos/la_consentida/5.jpg" alt="" width="140" height="105"></div>
-                                        <div class="item"><img src="view/componentes/img/proyectos/la_consentida/6.jpg" alt="" width="140" height="105"></div>
-                                        <div class="item"><img src="view/componentes/img/proyectos/la_consentida/7.jpg" alt="" width="140" height="105"></div>
-                                        <div class="item"><img src="view/componentes/img/proyectos/la_consentida/8.jpg" alt="" width="140" height="105"></div>
-                                        <div class="item"><img src="view/componentes/img/proyectos/la_consentida/9.jpg" alt="" width="140" height="105"></div>
-                                        <div class="item"><img src="view/componentes/img/proyectos/la_consentida/10.jpg" alt="" width="140" height="105"></div>
-                                        <div class="item"><img src="view/componentes/img/proyectos/la_consentida/11.jpg" alt="" width="140" height="105"></div>
-                                        <div class="item"><img src="view/componentes/img/proyectos/la_consentida/12.jpg" alt="" width="140" height="105"></div>
-                                        <div class="item"><img src="view/componentes/img/proyectos/la_consentida/13.jpg" alt="" width="140" height="105"></div>
-                                        <div class="item"><img src="view/componentes/img/proyectos/la_consentida/14.jpg" alt="" width="140" height="105"></div>
-                                        <div class="item"><img src="view/componentes/img/proyectos/la_consentida/15.jpg" alt="" width="140" height="105"></div>
-                                        <div class="item"><img src="view/componentes/img/proyectos/la_consentida/16.jpg" alt="" width="140" height="105"></div>
-                                      
-
-                                    </div>
-                                </div>
+                        <div class="item mov"><img src="view/componentes/img/proyectos/la_consentida/1.jpg" alt="" width="100%" class="img-responsive"></div>
+                        <div class="item mov"><img src="view/componentes/img/proyectos/la_consentida/2.jpg" alt="" width="100%" class="img-responsive"></div>
+                        <div class="item mov"><img src="view/componentes/img/proyectos/la_consentida/3.jpg" alt="" width="100%" class="img-responsive"></div>
+                        <div class="item"><img src="view/componentes/img/proyectos/la_consentida/4.jpg" alt="" width="100%" class="img-responsive"></div>
+                        <div class="item mov"><img src="view/componentes/img/proyectos/la_consentida/5.jpg" alt="" width="100%" class="img-responsive"></div>
+                        <div class="item"><img src="view/componentes/img/proyectos/la_consentida/6.jpg" alt="" width="100%" class="img-responsive"></div>
+                        <div class="item mov"><img src="view/componentes/img/proyectos/la_consentida/7.jpg" alt="" width="100%" class="img-responsive"></div>
+                        <div class="item mov"><img src="view/componentes/img/proyectos/la_consentida/8.jpg" alt="" width="100%" class="img-responsive"></div>
+                        <div class="item"><img src="view/componentes/img/proyectos/la_consentida/9.jpg" alt="" width="100%" class="img-responsive"></div>
+                        <div class="item mov"><img src="view/componentes/img/proyectos/la_consentida/10.jpg" alt="" width="100%" class="img-responsive"></div>
+                        <div class="item mov"><img src="view/componentes/img/proyectos/la_consentida/11.jpg" alt="" width="100%" class="img-responsive"></div>
+                        <div class="item mov"><img src="view/componentes/img/proyectos/la_consentida/12.jpg" alt="" width="100%" class="img-responsive"></div>
+                        <div class="item mov"><img src="view/componentes/img/proyectos/la_consentida/13.jpg" alt="" width="100%" class="img-responsive"></div>
+                        <div class="item mov"><img src="view/componentes/img/proyectos/la_consentida/14.jpg" alt="" width="100%" class="img-responsive"></div>
+                        <div class="item mov"><img src="view/componentes/img/proyectos/la_consentida/15.jpg" alt="" width="100%" class="img-responsive"></div>
+                        <div class="item mov"><img src="view/componentes/img/proyectos/la_consentida/16.jpg" alt="" width="100%" class="img-responsive"></div>
+                    </div>
+                </section>
+                 <section id="proyectos">
+            <div class="shell section-45 section-lg-45">
+                <h2 class="offset-top-50 section-bottom-30 context-light">Nuestras parcelas tienen</h2>
+                <div class="range range-xs-around text-center">
+                    <div class="col-lg-4 col-md-4"><span class="icon1 icon-lg icon-circle icon-primary fa-bookmark"></span>
+                        <h5 class="offset-top-20">Rol Único</h5>
+                        <p class="offset-top-10">Con el N° de Rol el SII identifica <br> a una propiedad o bien raíz. </p>
+                        <br>
+                    </div>
+                    <div class="col-lg-4 col-md-4"><span class="icon1 icon-lg icon-circle icon-primary fa-bookmark"></span>
+                        <h5 class="offset-top-20">Posibilidad luz y agua</h5>
+                        <p class="offset-top-10">Parcelas posibilitadas para obtener <br> los recursos de luz y agua sin problemas.</p>
+                        <br>
+                    </div>
+                    <div class="col-lg-4 col-md-4"><span class="icon1 icon-lg icon-circle icon-primary fa-bookmark"></span>
+                        <h5 class="offset-top-20">Desde los 5000 Mt2</h5>
+                        <p class="offset-top-10">Dependiendo del valor y el proyecto <br> los mts comienzan desde los 5000 mt2</p>
+                        <br>
+                    </div>
+                </div>
+            </div>
+        </section>
+                <!-- MAPA-->
+                <section>
+                    <div class="container-fluid">
+                        <div class="row">
+                             <div class="context-light">
+                                <h2 class="offset-top-50 section-bottom-30 text-center">Georeferencia</h2>
                             </div>
-                                    
-                                    <div class="col-md-6 context-light ">
-                                        <h2 class="offset-top-35 section-bottom-30">Mapa</h2>
-                                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d382723.7076386406!2d-72.81779797558607!3d-41.460287077871115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9619c6147ef2efd7%3A0x74697c1789f6fef3!2sLago+Chapo!5e0!3m2!1ses!2scl!4v1566245995250!5m2!1ses!2scl" width="100%" height="430" frameborder="0" style="border:0" allowfullscreen></iframe>
-                                    </div>
-                                </div>
+                            <div class="col-md-12 context-light ">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d382723.7076386406!2d-72.81779797558607!3d-41.460287077871115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9619c6147ef2efd7%3A0x74697c1789f6fef3!2sLago+Chapo!5e0!3m2!1ses!2scl!4v1566245995250!5m2!1ses!2scl" width="100%" height="630" frameborder="0" style="border:0" allowfullscreen></iframe>
                             </div>
-                        </section>
-
+                        </div>
+                    </div>
+                </section>
                 <section id="flip" class="section-top-35  section-bottom-70">
                     <div class="container">
                         <div class="row">
                             <div class="context-light">
                                 <h2 class="offset-top-50 section-bottom-30 text-center">Carpeta de Venta</h2>
                             </div>
-                            
-                            
-                            <div class="col-md-12" style="width:100%;height:500px;">
+                            <div class="col-md-12" style="width:100%;height:600px;">
                                 <br>
                                 <div id="flipconsentida" style="width:100%;height:100%;">
                                 </div>
@@ -239,8 +225,6 @@
                         </div>
                     </div>
                 </section>
-                
-                <!-- DESCARGAR BROCHURE
                 <section class="section-top-70  section-bottom-70 bg-blue ">
                     <div class="container-fluid">
                         <div class="card text-center">
@@ -250,21 +234,20 @@
                         </div>
                     </div>
                 </section>
-                -->
                 <!-- PLANO 360º-->
                 <section class="section-top-35  section-bottom-70">
-                            <div class="context-light">
-                                <h2 class="offset-top-50 section-bottom-30 text-center">Panorama 360º</h2>
-                            </div>
-                            <div class="container-fluid">
-                                <div class="row">
-                                    <div class="col-md-12">
-                                        <div class="asincronico">
-                                        </div>
-                                    </div>
+                    <div class="context-light">
+                        <h2 class="offset-top-50 section-bottom-30 text-center">Panorama 360º</h2>
+                    </div>
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="asincronico">
                                 </div>
                             </div>
-                        </section>
+                        </div>
+                    </div>
+                </section>
                 <!-- OTROS PROYECTOS-->
                 <section class="section-top-35 section-bottom-70">
                     <div class="container-fluid">
@@ -272,7 +255,8 @@
                             <div class="col-md-12 text-center">
                                 <div class="offset-top-30 ">
                                     <div class="row">
-                                        <div class="col-md-6">
+                                       <div class="col-md-2 ofsset-md-2"></div>
+                                        <div class="col-md-8">
                                             <div class="context-light">
                                                 <h2 class="offset-top-35 section-bottom-30">Otros proyectos</h2>
                                             </div>
@@ -301,34 +285,8 @@
                                             </div>
                                         </div>
 
-                                        <div class="col-md-6">
-                                            <div class="context-light">
-                                                <h2 class="offset-top-35 section-bottom-30">Formulario</h2>
-                                            </div>
-                                            <div class="well well-dark">
-                                                <h3 class="text-center"> ¿Te llamamos?</h3>
-                                                <hr>
-                                                <form action="view/componentes/bat/rd-mailform.php" data-form-output="form-output-global" data-form-type="inicio" method="POST" class="offset-top-30 text-left rd-mailform">
-                                                    <div class="form-group">
-                                                        <label class="form-label-static form-label-outside"></label>
-                                                        <input type="text" id="contact-name" name="nombre" data-constraints="@Required" class="form-control" placeholder="Nombre Completo">
-                                                    </div>
-                                                    <div class="form-group">
-                                                        <label class="form-label-static form-label-outside"></label>
-                                                        <input type="email" id="contact-email" name="email" data-constraints="@Email @Required" class="form-control" placeholder="Correo Electrónico">
-                                                    </div>
-                                                    <div class="form-group">
-                                                        <label class="form-label-static form-label-outside"></label>
-                                                        <input type="text" id="contact-phone" name="numero" data-constraints="@Numeric @Required" class="form-control" placeholder="Teléfono">
-                                                    </div>
-                                                    <br>
-                                                    <br>
-                                                    <div class="offset-top-10">
-                                                        <button type="submit" class="btn btn-block btn-primary ">Enviar</button>
-                                                    </div>
-                                                </form>
-                                            </div>
-                                        </div>
+                                       
+                                     
                                     </div>
                                 </div>
                             </div>
@@ -345,7 +303,7 @@
                 </div>
                 <!-- FIN BOTONES SIGUIENTE PROYECTO-->
                 <hr>
-            </div>
+           
         </section>
     </main>
 

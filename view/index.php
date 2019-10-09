@@ -140,7 +140,8 @@
         }else if($_GET["ruta"] == "laconsentida"){
             echo '<script src="view/componentes/mapsvg/js/laconsentida.js"></script>';
             echo '<script src="view/js/flipconsentida.js"></script>';         
-        }
+        
+         }
     }
     ?>
 </body>

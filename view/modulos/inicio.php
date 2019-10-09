@@ -138,9 +138,7 @@
 
         <!-- PROYECTOS-->
         <section id="sliderproyectos ">
-
             <div id="child-carousel" data-arrows="true" data-loop="true" data-dots="true" data-swipe="true" data-items="1" data-xs-items="1" data-sm-items="1" data-md-items="2" data-lg-items="2" data-slide-to-scroll="1" class="slick-slider slick-child ">
-
                 <!-- EL VOLANTIN-->
                 <div class="item mov">
                     <div class="reveal-block thumbnail-variant-1">
@@ -159,7 +157,6 @@
                         </div>
                     </div>
                 </div>
-
                 <!-- LA CONSENTIDA-->
                 <div class="item mov">
                     <div class="reveal-block thumbnail-variant-1">
@@ -178,7 +175,6 @@
                         </div>
                     </div>
                 </div>
-
                 <!-- LAGO CHAPO-->
                 <div class="item mov">
                     <div class="reveal-block thumbnail-variant-1">
@@ -197,14 +193,11 @@
                         </div>
                     </div>
                 </div>
-
-
             </div>
 
 
         </section>
         <!-- 
-
         <section id="parcelas">
             <div class="range range-condensed text-sm-left">
                 <div class="cell-sm-6 ">
@@ -258,10 +251,8 @@
                     </div>
                 </div>
             </div>
-        </section>
-        
+        </section> 
  -->
-
 
         <!-- NEWSLETTERS-->
         <section class="bg-secundary section-45">
@@ -306,6 +297,10 @@
                 </div>
             </div>
         </section>
+        
+ 
+
+        
         <section class="bg-blue">
             <div class="shell section-45 section-lg-45">
                 <div class="container">
@@ -369,7 +364,6 @@
                 </div>
             </div>
         </section>
-
     </main>
 
     <!-- FOOTER-->
