@@ -173,6 +173,10 @@
                         <div class="item mov"><img src="view/componentes/img/proyectos/la_consentida/14.jpg" alt="" width="100%" class="img-responsive"></div>
                         <div class="item mov"><img src="view/componentes/img/proyectos/la_consentida/15.jpg" alt="" width="100%" class="img-responsive"></div>
                         <div class="item mov"><img src="view/componentes/img/proyectos/la_consentida/16.jpg" alt="" width="100%" class="img-responsive"></div>
+                         <div class="item mov"><img src="view/componentes/img/proyectos/la_consentida/17.jpg" alt="" width="100%" class="img-responsive"></div>
+                          <div class="item mov"><img src="view/componentes/img/proyectos/la_consentida/18.jpg" alt="" width="100%" class="img-responsive"></div>
+                           <div class="item mov"><img src="view/componentes/img/proyectos/la_consentida/19.jpg" alt="" width="100%" class="img-responsive"></div>
+                           
                     </div>
                 </section>
                  <section id="proyectos">
