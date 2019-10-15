@@ -193,7 +193,7 @@
                 min: 0,
                 max: false
             },
-            source: "/parcelasdechile.cl/view/componentes/mapsvg/maps/user-uploads/laconsentida.svg",
+            source: "view/componentes/mapsvg/maps/user-uploads/laconsentida.svg",
             title: "Laconsentida",
             responsive: true
         });

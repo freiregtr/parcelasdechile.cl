@@ -25,6 +25,7 @@
                             <li class="active"><a href="parcelacionelvolantin">Proyectos</a>
                                 <!-- RD Navbar Dropdown-->
                                  <ul class="rd-navbar-dropdown">
+                                                                <li><a href="laconsentida">La Consentida</a></li>
                                                                  <li><a href="parcelacionelvolantin">El Volantín</a></li>
 
                                 <li><a href="lagochapo">Lago Chapo</a></li>

@@ -229,6 +229,7 @@
                         </div>
                     </div>
                 </section>
+                      <!-- PLANO 360º
                 <section class="section-top-70  section-bottom-70 bg-blue ">
                     <div class="container-fluid">
                         <div class="card text-center">
@@ -238,7 +239,8 @@
                         </div>
                     </div>
                 </section>
-                <!-- PLANO 360º-->
+                
+          -->
                 <section class="section-top-35  section-bottom-70">
                     <div class="context-light">
                         <h2 class="offset-top-50 section-bottom-30 text-center">Panorama 360º</h2>

@@ -16,6 +16,14 @@ $("#flipconsentida").flipBook({
         { src: "view/componentes/flip/consentida/consentida8.png", thumb: "view/componentes/flip/consentida/consentida8.png", title: "Página 8" },
         
         { src: "view/componentes/flip/consentida/consentida9.png", thumb: "view/componentes/flip/consentida/consentida9.png", title: "Página 9" },
+        
+         { src: "view/componentes/flip/consentida/consentida10.png", thumb: "view/componentes/flip/consentida/consentida10.png", title: "Página 10" },
+        
+         { src: "view/componentes/flip/consentida/consentida11.png", thumb: "view/componentes/flip/consentida/consentida11.png", title: "Página 11" },
+        
+         { src: "view/componentes/flip/consentida/consentida12.png", thumb: "view/componentes/flip/consentida/consentida12.png", title: "Página 12" },
+        
+         { src: "view/componentes/flip/consentida/consentida13.png", thumb: "view/componentes/flip/consentida/consentida13.png", title: "Página 13" },
     ],
     backgroundColor: "#fff",
     autoplayOnStart:true,
