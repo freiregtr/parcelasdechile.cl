@@ -259,8 +259,8 @@
                             <div class="col-md-12 text-center">
                                 <div class="offset-top-30 ">
                                     <div class="row">
-                                       <div class="col-md-2 ofsset-md-2"></div>
-                                        <div class="col-md-8">
+                                       
+                                        <div class="col-md-12">
                                             <div class="context-light">
                                                 <h2 class="offset-top-35 section-bottom-30">Otros proyectos</h2>
                                             </div>
