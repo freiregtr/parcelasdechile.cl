@@ -93,9 +93,9 @@ jQuery(document).ready(function () {
             'P-56': {
                 id: "P-56",
                 'id_no_spaces': "P-56",
-                 fill: "rgba(88,89,89,1)",
-                tooltip: "P-56 VENDIDA",
-                popover: "P-56 VENDIDA",
+                fill: "rgba(2,78,139,1)",
+                tooltip: "$9.990.000",
+                popover: "$9.990.000",
                 data: {}
             },
             'P-46': {
