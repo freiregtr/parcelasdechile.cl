@@ -53,70 +53,70 @@
                     id: "_x31_8",
                     'id_no_spaces': "_x31_8",
                     fill: "rgba(2,78,139,1)",
-                    tooltip: "$ 40.000.000 ",
+                    tooltip: "$ 35.000.000 ",
                     data: {}
                 },
                 '_x35_7': {
                     id: "_x35_7",
                     'id_no_spaces': "_x35_7",
                     fill: "rgba(2,78,139,1)",
-                    tooltip: "$ 40.000.000 ",
+                    tooltip: "$ 35.000.000 ",
                     data: {}
                 },
                 '_x35_5': {
                     id: "_x35_5",
                     'id_no_spaces': "_x35_5",
                     fill: "rgba(2,78,139,1)",
-                    tooltip: "$ 40.000.000 ",
+                    tooltip: "$ 35.000.000 ",
                     data: {}
                 },
                 '_x34_5': {
                     id: "_x34_5",
                     'id_no_spaces': "_x34_5",
                     fill: "rgba(2,78,139,1)",
-                    tooltip: "$ 40.000.000 ",
+                    tooltip: "$ 35.000.000 ",
                     data: {}
                 },
                 '_x34_3': {
                     id: "_x34_3",
                     'id_no_spaces': "_x34_3",
                     fill: "rgba(2,78,139,1)",
-                    tooltip: "$ 40.000.000 ",
+                    tooltip: "$ 35.000.000 ",
                     data: {}
                 },
                 '_x32_0': {
                     id: "_x32_0",
                     'id_no_spaces': "_x32_0",
                     fill: "rgba(247,188,4,1)",
-                    tooltip: "$ 40.000.000 ",
+                    tooltip: "$ 30.000.000 ",
                     data: {}
                 },
                 '_x32_2': {
                     id: "_x32_2",
                     'id_no_spaces': "_x32_2",
                     fill: "rgba(247,188,4,1)",
-                    tooltip: "$ 40.000.000 ",
+                    tooltip: "$ 30.000.000 ",
                     data: {}
                 },
                 '_x34_7': {
                     id: "_x34_7",
                     'id_no_spaces': "_x34_7",
                     fill: "rgba(247,188,4,1)",
-                    tooltip: "$ 40.000.000 ",
+                    tooltip: "$ 35.000.000 ",
                     data: {}
                 },
                 '_x34_9': {
                     id: "_x34_9",
                     'id_no_spaces': "_x34_9",
                     fill: "rgba(247,188,4,1)",
-                    tooltip: "$ 40.000.000 ",
+                    tooltip: "$ 35.000.000 ",
                     data: {}
                 },
                 '_x35_3': {
                     id: "_x35_3",
                     'id_no_spaces': "_x35_3",
                     fill: "rgba(247,188,4,1)",
-                    tooltip: "$ 40.000.000 ",
+                    tooltip: "$ 35.000.000 ",
                     data: {}
                 },
                 '_x34_': {

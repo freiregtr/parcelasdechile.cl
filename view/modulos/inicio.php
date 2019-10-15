@@ -59,7 +59,7 @@
                             <br>
                             <p class="offset-top-35">Parcelas desde los $7.990.000, Un terreno es la mejor forma de asegurar el futuro de tu familia. A solo 138 km de Santiago y con buena conexión con otros destinos.</p>
                             <br>
-                            <button type="button" class="btn btn-primary video-btn" data-toggle="modal" data-src="https://www.youtube.com/embed/n0ORmVVdVqY" data-target="#myModal">
+                            <button type="button" class="btn btn-primary video-btn" data-toggle="modal" data-src="https://www.youtube.com/embed/7X0FgJ6MsxM" data-target="#myModal">
                                 ver video
                             </button>
                         </div>
@@ -170,10 +170,10 @@
                         <hr class="divider veil reveal-md-inline-block shadow2">
                         <h2 class="context-dark shadow1">La Consentida</h2>
                         <br>
-                        <h3>PRÓXIMAMENTE</h3>
+                        <h3>VENTA EN VERDE</h3>
                         <br>
                         <p class="text-white shadow1 ">Región de los Lagos, Puerto Montt</p>
-                        <a href="laconsentida" class="btn btn-primary-variant-1 disabled">Pronto</a>
+                        <a href="laconsentida" class="btn btn-primary-variant-1 ">Ver más</a>
                     </div>
                 </div>
             </div>
