@@ -43,7 +43,7 @@
     <header class="page-header">
         <div class="overlay"></div>
         <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
-            <source src="view/componentes/img/home.mp4" type="video/mp4">
+            <source src="view/componentes/img/home1.mp4" type="video/mp4">
         </video>
         <!-- HOME-->
         <div class="shell section-70 section-lg-120 text-md-left">

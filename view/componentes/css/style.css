@@ -33545,7 +33545,7 @@ header .overlay {
   left: 0;
   height: 100%;
   width: 100%;
-  background-color: black;
+  background-color: transparent;
   opacity: 0.3;
   z-index: 1;
 }
