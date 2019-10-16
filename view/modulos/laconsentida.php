@@ -52,7 +52,7 @@
                     <li><a href="inicio">Home</a></li>
                     <li>Proyectos
                     </li>
-                    <li class="active">Parcelación "La Consentida"</li>
+                    <li class="active">Fundo "La Consentida"</li>
                 </ol>
             </div>
         </section>
@@ -66,7 +66,7 @@
             <div class="shell section-100 section-lg-top-220 section-lg-bottom-205 context-dark">
                 <div><a href="lagochapo" class="label label-primary shadow2">X Región</a></div>
                 <br>
-                <h1 class="shadow1">Parcelación <br><span class="text-sbold">"La Consentida"</span></h1>
+                <h1 class="shadow1">Fundo<br><span class="text-sbold">"La Consentida"</span></h1>
                 <div class="range offset-top-30 text-center">
                     <div class="cell-sm-4">
                         <!-- CountTo-->
