@@ -153,7 +153,7 @@
                                         <div class="row">
                                             <div class="col-md-6">
                                                 <div class="valor1">
-                                                    <p>$14.990.000</p>
+                                                    <p>$9.990.000</p>
                                                 </div>
                                             </div>
                                            
