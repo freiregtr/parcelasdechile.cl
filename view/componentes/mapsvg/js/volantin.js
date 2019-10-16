@@ -149,7 +149,7 @@ jQuery(document).ready(function () {
             'P-41-42': {
                 id: "P-41-42",
                 'id_no_spaces': "P-41-42",
-                fill: "rgba(192,46,56,1)",
+                fill: "rgba(88,89,89,1)",
                 tooltip: "P-41-42",
                 popover: "P-41-42",
                 data: {}
@@ -157,7 +157,7 @@ jQuery(document).ready(function () {
             'P-51-52': {
                 id: "P-51-52",
                 'id_no_spaces': "P-51-52",
-                fill: "rgba(192,46,56,1)",
+             fill: "rgba(88,89,89,1)",
                 tooltip: "P-51-52",
                 popover: "P-51-52",
                 data: {}
@@ -165,7 +165,7 @@ jQuery(document).ready(function () {
             'P-39-40': {
                 id: "P-39-40",
                 'id_no_spaces': "P-39-40",
-                fill: "rgba(192,46,56,1)",
+               fill: "rgba(88,89,89,1)",
                 tooltip: "P-39-40",
                 popover: "P-39-40",
                 data: {}
@@ -189,7 +189,7 @@ jQuery(document).ready(function () {
             'P-28-29': {
                 id: "P-28-29",
                 'id_no_spaces': "P-28-29",
-                 fill: "rgba(192,46,56,1)",
+                fill: "rgba(88,89,89,1)",
                 tooltip: "P-28-29",
                 popover: "P-28-29",
                 data: {}
@@ -197,7 +197,7 @@ jQuery(document).ready(function () {
             'P-26-27': {
                 id: "P-26-27",
                 'id_no_spaces': "P-26-27",
-                 fill: "rgba(192,46,56,1)",
+                fill: "rgba(88,89,89,1)",
                 tooltip: "P-26-27" ,
                 popover: "P-26-27",
                 data: {}
@@ -205,7 +205,7 @@ jQuery(document).ready(function () {
             'P-8-9': {
                 id: "P-8-9",
                 'id_no_spaces': "P-8-9",
-                 fill: "rgba(192,46,56,1)",
+                fill: "rgba(88,89,89,1)",
                 tooltip: "P-8-9 VENDIDA",
                 popover: "P-8-9 VENDIDA",
                 data: {}

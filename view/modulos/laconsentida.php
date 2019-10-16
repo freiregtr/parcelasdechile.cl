@@ -99,10 +99,6 @@
                         <section id="planovolantin">
                             <div class="container">
                                 <div class="row">
-                                    <!-- ID PLANO -->
-                                    <div class="col-md-6">
-                                        <div class="row" id="consentidaSvg"></div>
-                                    </div>
                                     <div class="col-md-6">
                                         <div>
                                             <div class="context-light">
@@ -110,126 +106,134 @@
                                             </div>
                                             <p class="section-bottom-30">"Región de Los Lagos"</p>
                                         </div>
-                                        <!-- VALORES-->
-                                        <div class="row">
-                                            <div class="col-md-6">
-                                                <br>
-                                                <div class="valor4">
-                                                    <p>$30.000.000</p>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-6">
-                                                <br>
-                                                <div class="valor3">
-                                                    <p>$35.000.000</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="row">
-                                            <div class="col-md-6">
-                                                <br>
-                                                <div class="valor2">
-                                                    <p>$40.000.000</p>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-6">
-                                                <br>
-                                                <div class="valor1">
-                                                    <p>Entrada privada al Lago</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <br>
+                                    </div>
+                                    <div class="col-md-6">
                                         <p class="offset-top-40 text-bold text-base">" Por qué tenemos el país más lindo del mundo, creemos que deberías elegir Parcelas de Chile."</p>
                                         <p class="offset-top-20">La Región de Los Lagos te invita a conocer bellos paisajes, con hermosos destinos llenos de magia y encanto. Los mitos y leyendas son pan de cada día, y las tradiciones gastronómicas te harán agua la boca.</p>
                                     </div>
-                                    <br>
+                                </div>
+                                <!-- ID PLANO -->
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="row" id="consentidaSvg"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- VALORES-->
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-md-3">
+                                            <br>
+                                            <div class="valor4">
+                                                <p>$30.000.000</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <br>
+                                            <div class="valor3">
+                                                <p>$35.000.000</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <br>
+                                            <div class="valor2">
+                                                <p>$40.000.000</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <br>
+                                            <div class="valor1">
+                                                <p>Entrada privada al Lago</p>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </section>
                     </div>
                 </div>
                 <hr>
-                 </div>
-                <section id="sliderproyectos ">
-                     <div class="context-light">
-                                <h2 class="offset-top-50 section-bottom-30 text-center">Galería</h2>
-                            </div>
-                    <div id="child-carousel" data-arrows="true" data-loop="true" data-dots="true" data-swipe="true" data-items="1" data-xs-items="1" data-sm-items="1" data-md-items="3" data-lg-items="3" data-slide-to-scroll="1" class="slick-slider slick-child ">
-                <!-- GALERIA DE IMAGENES-->
-                        <div class="item mov"><img src="view/componentes/img/proyectos/la_consentida/1.jpg" alt="" width="100%" class="img-responsive"></div>
-                        <div class="item mov"><img src="view/componentes/img/proyectos/la_consentida/2.jpg" alt="" width="100%" class="img-responsive"></div>
-                        <div class="item mov"><img src="view/componentes/img/proyectos/la_consentida/3.jpg" alt="" width="100%" class="img-responsive"></div>
-                        <div class="item"><img src="view/componentes/img/proyectos/la_consentida/4.jpg" alt="" width="100%" class="img-responsive"></div>
-                        <div class="item mov"><img src="view/componentes/img/proyectos/la_consentida/5.jpg" alt="" width="100%" class="img-responsive"></div>
-                        <div class="item"><img src="view/componentes/img/proyectos/la_consentida/6.jpg" alt="" width="100%" class="img-responsive"></div>
-                        <div class="item mov"><img src="view/componentes/img/proyectos/la_consentida/7.jpg" alt="" width="100%" class="img-responsive"></div>
-                        <div class="item mov"><img src="view/componentes/img/proyectos/la_consentida/8.jpg" alt="" width="100%" class="img-responsive"></div>
-                        <div class="item"><img src="view/componentes/img/proyectos/la_consentida/9.jpg" alt="" width="100%" class="img-responsive"></div>
-                        <div class="item mov"><img src="view/componentes/img/proyectos/la_consentida/10.jpg" alt="" width="100%" class="img-responsive"></div>
-                        <div class="item mov"><img src="view/componentes/img/proyectos/la_consentida/11.jpg" alt="" width="100%" class="img-responsive"></div>
-                        <div class="item mov"><img src="view/componentes/img/proyectos/la_consentida/12.jpg" alt="" width="100%" class="img-responsive"></div>
-                        <div class="item mov"><img src="view/componentes/img/proyectos/la_consentida/13.jpg" alt="" width="100%" class="img-responsive"></div>
-                        <div class="item mov"><img src="view/componentes/img/proyectos/la_consentida/14.jpg" alt="" width="100%" class="img-responsive"></div>
-                        <div class="item mov"><img src="view/componentes/img/proyectos/la_consentida/15.jpg" alt="" width="100%" class="img-responsive"></div>
-                        <div class="item mov"><img src="view/componentes/img/proyectos/la_consentida/16.jpg" alt="" width="100%" class="img-responsive"></div>
-                         <div class="item mov"><img src="view/componentes/img/proyectos/la_consentida/17.jpg" alt="" width="100%" class="img-responsive"></div>
-                          <div class="item mov"><img src="view/componentes/img/proyectos/la_consentida/18.jpg" alt="" width="100%" class="img-responsive"></div>
-                           <div class="item mov"><img src="view/componentes/img/proyectos/la_consentida/19.jpg" alt="" width="100%" class="img-responsive"></div>
-                           
-                    </div>
-                </section>
-                 <section id="proyectos">
-            <div class="shell section-45 section-lg-45">
-                <h2 class="offset-top-50 section-bottom-30 context-light">Nuestras parcelas tienen</h2>
-                <div class="range range-xs-around text-center">
-                    <div class="col-lg-4 col-md-4"><span class="icon1 icon-lg icon-circle icon-primary fa-bookmark"></span>
-                        <h5 class="offset-top-20">Rol Único</h5>
-                        <p class="offset-top-10">Con el N° de Rol el SII identifica <br> a una propiedad o bien raíz. </p>
-                        <br>
-                    </div>
-                    <div class="col-lg-4 col-md-4"><span class="icon1 icon-lg icon-circle icon-primary fa-bookmark"></span>
-                        <h5 class="offset-top-20">Posibilidad luz y agua</h5>
-                        <p class="offset-top-10">Parcelas posibilitadas para obtener <br> los recursos de luz y agua sin problemas.</p>
-                        <br>
-                    </div>
-                    <div class="col-lg-4 col-md-4"><span class="icon1 icon-lg icon-circle icon-primary fa-bookmark"></span>
-                        <h5 class="offset-top-20">Desde los 5000 Mt2</h5>
-                        <p class="offset-top-10">Dependiendo del valor y el proyecto <br> los mts comienzan desde los 5000 mt2</p>
-                        <br>
+            </div>
+            <section id="sliderproyectos ">
+                <div class="context-light">
+                    <h2 class="offset-top-50 section-bottom-30 text-center">Galería</h2>
+                </div>
+                <div id="child-carousel" data-arrows="true" data-loop="true" data-dots="true" data-swipe="true" data-items="1" data-xs-items="1" data-sm-items="1" data-md-items="3" data-lg-items="3" data-slide-to-scroll="1" class="slick-slider slick-child ">
+                    <!-- GALERIA DE IMAGENES-->
+                    <div class="item mov"><img src="view/componentes/img/proyectos/la_consentida/1.jpg" alt="" width="100%" class="img-responsive"></div>
+                    <div class="item mov"><img src="view/componentes/img/proyectos/la_consentida/2.jpg" alt="" width="100%" class="img-responsive"></div>
+                    <div class="item mov"><img src="view/componentes/img/proyectos/la_consentida/3.jpg" alt="" width="100%" class="img-responsive"></div>
+                    <div class="item"><img src="view/componentes/img/proyectos/la_consentida/4.jpg" alt="" width="100%" class="img-responsive"></div>
+                    <div class="item mov"><img src="view/componentes/img/proyectos/la_consentida/5.jpg" alt="" width="100%" class="img-responsive"></div>
+                    <div class="item"><img src="view/componentes/img/proyectos/la_consentida/6.jpg" alt="" width="100%" class="img-responsive"></div>
+                    <div class="item mov"><img src="view/componentes/img/proyectos/la_consentida/7.jpg" alt="" width="100%" class="img-responsive"></div>
+                    <div class="item mov"><img src="view/componentes/img/proyectos/la_consentida/8.jpg" alt="" width="100%" class="img-responsive"></div>
+                    <div class="item"><img src="view/componentes/img/proyectos/la_consentida/9.jpg" alt="" width="100%" class="img-responsive"></div>
+                    <div class="item mov"><img src="view/componentes/img/proyectos/la_consentida/10.jpg" alt="" width="100%" class="img-responsive"></div>
+                    <div class="item mov"><img src="view/componentes/img/proyectos/la_consentida/11.jpg" alt="" width="100%" class="img-responsive"></div>
+                    <div class="item mov"><img src="view/componentes/img/proyectos/la_consentida/12.jpg" alt="" width="100%" class="img-responsive"></div>
+                    <div class="item mov"><img src="view/componentes/img/proyectos/la_consentida/13.jpg" alt="" width="100%" class="img-responsive"></div>
+                    <div class="item mov"><img src="view/componentes/img/proyectos/la_consentida/14.jpg" alt="" width="100%" class="img-responsive"></div>
+                    <div class="item mov"><img src="view/componentes/img/proyectos/la_consentida/15.jpg" alt="" width="100%" class="img-responsive"></div>
+                    <div class="item mov"><img src="view/componentes/img/proyectos/la_consentida/16.jpg" alt="" width="100%" class="img-responsive"></div>
+                    <div class="item mov"><img src="view/componentes/img/proyectos/la_consentida/17.jpg" alt="" width="100%" class="img-responsive"></div>
+                    <div class="item mov"><img src="view/componentes/img/proyectos/la_consentida/18.jpg" alt="" width="100%" class="img-responsive"></div>
+                    <div class="item mov"><img src="view/componentes/img/proyectos/la_consentida/19.jpg" alt="" width="100%" class="img-responsive"></div>
+
+                </div>
+            </section>
+            <section id="proyectos">
+                <div class="shell section-45 section-lg-45">
+                    <h2 class="offset-top-50 section-bottom-30 context-light">Nuestras parcelas tienen</h2>
+                    <div class="range range-xs-around text-center">
+                        <div class="col-lg-4 col-md-4"><span class="icon1 icon-lg icon-circle icon-primary fa-bookmark"></span>
+                            <h5 class="offset-top-20">Rol Único</h5>
+                            <p class="offset-top-10">Con el N° de Rol el SII identifica <br> a una propiedad o bien raíz. </p>
+                            <br>
+                        </div>
+                        <div class="col-lg-4 col-md-4"><span class="icon1 icon-lg icon-circle icon-primary fa-bookmark"></span>
+                            <h5 class="offset-top-20">Posibilidad luz y agua</h5>
+                            <p class="offset-top-10">Parcelas posibilitadas para obtener <br> los recursos de luz y agua sin problemas.</p>
+                            <br>
+                        </div>
+                        <div class="col-lg-4 col-md-4"><span class="icon1 icon-lg icon-circle icon-primary fa-bookmark"></span>
+                            <h5 class="offset-top-20">Desde los 5000 Mt2</h5>
+                            <p class="offset-top-10">Dependiendo del valor y el proyecto <br> los mts comienzan desde los 5000 mt2</p>
+                            <br>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </section>
-                <!-- MAPA-->
-                <section>
-                    <div class="container-fluid">
-                        <div class="row">
-                             <div class="context-light">
-                                <h2 class="offset-top-50 section-bottom-30 text-center">Georeferencia</h2>
-                            </div>
-                            <div class="col-md-12 context-light ">
-                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d382723.7076386406!2d-72.81779797558607!3d-41.460287077871115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9619c6147ef2efd7%3A0x74697c1789f6fef3!2sLago+Chapo!5e0!3m2!1ses!2scl!4v1566245995250!5m2!1ses!2scl" width="100%" height="630" frameborder="0" style="border:0" allowfullscreen></iframe>
-                            </div>
+            </section>
+            <!-- MAPA-->
+            <section>
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="context-light">
+                            <h2 class="offset-top-50 section-bottom-30 text-center">Georeferencia</h2>
+                        </div>
+                        <div class="col-md-12 context-light ">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d382723.7076386406!2d-72.81779797558607!3d-41.460287077871115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9619c6147ef2efd7%3A0x74697c1789f6fef3!2sLago+Chapo!5e0!3m2!1ses!2scl!4v1566245995250!5m2!1ses!2scl" width="100%" height="630" frameborder="0" style="border:0" allowfullscreen></iframe>
                         </div>
                     </div>
-                </section>
-                <section id="flip" class="section-top-35  section-bottom-70">
-                    <div class="container">
-                        <div class="row">
-                            <div class="context-light">
-                                <h2 class="offset-top-50 section-bottom-30 text-center">Carpeta de Venta</h2>
+                </div>
+            </section>
+            <section id="flip" class="section-top-35  section-bottom-70">
+                <div class="container">
+                    <div class="row">
+                        <div class="context-light">
+                            <h2 class="offset-top-50 section-bottom-30 text-center">Carpeta de Venta</h2>
+                        </div>
+                        <div class="col-md-12" style="width:100%;height:600px;">
+                            <br>
+                            <div id="flipconsentida" style="width:100%;height:100%;">
                             </div>
-                            <div class="col-md-12" style="width:100%;height:600px;">
-                                <br>
-                                <div id="flipconsentida" style="width:100%;height:100%;">
-                                </div>
-                            </div>
+                        </div>
 
-                        </div>
                     </div>
-                </section>
-                      <!-- PLANO 360º
+                </div>
+            </section>
+            <!-- PLANO 360º
                 <section class="section-top-70  section-bottom-70 bg-blue ">
                     <div class="container-fluid">
                         <div class="card text-center">
@@ -241,75 +245,75 @@
                 </section>
                 
           -->
-                <section class="section-top-35  section-bottom-70">
-                    <div class="context-light">
-                        <h2 class="offset-top-50 section-bottom-30 text-center">Panorama 360º</h2>
-                    </div>
-                    <div class="container-fluid">
-                        <div class="row">
-                            <div class="col-md-12">
-                                <div class="asincronico">
-                                </div>
+            <section class="section-top-35  section-bottom-70">
+                <div class="context-light">
+                    <h2 class="offset-top-50 section-bottom-30 text-center">Panorama 360º</h2>
+                </div>
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="asincronico">
                             </div>
                         </div>
                     </div>
-                </section>
-                <!-- OTROS PROYECTOS-->
-                <section class="section-top-35 section-bottom-70">
-                    <div class="container-fluid">
-                        <div class="row">
-                            <div class="col-md-12 text-center">
-                                <div class="offset-top-30 ">
-                                    <div class="row">
-                                       
-                                        <div class="col-md-12">
-                                            <div class="context-light">
-                                                <h2 class="offset-top-35 section-bottom-30">Otros proyectos</h2>
-                                            </div>
-                                            <div class="bg-image-elvolantin well-transparent context-dark">
+                </div>
+            </section>
+            <!-- OTROS PROYECTOS-->
+            <section class="section-top-35 section-bottom-70">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-12 text-center">
+                            <div class="offset-top-30 ">
+                                <div class="row">
 
-                                                <div data-dots="true" data-items="1" data-margin="30" data-mouse-drag="false" class="owl-carousel owl-dots-sm">
-                                                    <div>
-                                                        <br>
-                                                        <h2 class="shadow1">Parcelación El Volantín</h2>
-                                                        <br>
-                                                        <h3 class="shadow1" class="offset-top-30 text-primary">Desde los $7.990.000</h3>
-                                                        <br>
-                                                        <p class="shadow1" class="offset-top-30">Marchihue en la Provincia de Cardenal Caro <br> (Región del Libertador General Bernardo O'Higgins)<br>es un lugar en Chile a 138 km al suroeste de Santiago.</p>
-                                                        <a href="parcelacionelvolantin" class="offset-top-20 btn btn-primary text-regular shadow2">Ver más</a>
-                                                    </div>
-                                                    <div>
-                                                        <br>
-                                                        <h2 class="shadow1">Lago Chapo</h2>
-                                                        <br>
-                                                        <h3 class="shadow1" class="offset-top-30 text-primary">Desde los $9.990.000</h3>
-                                                        <br>
-                                                        <p class="shadow1" class="offset-top-30">En el Lago Chapo podemos Disfrutar navegando <br>con la hermosa vista del Volcán Calbuco, y si eres de las personas <br>que ama la naturaleza deberías recorrer los senderos de la Reserva Nacional Llanquihue.</p>
-                                                        <a href="lagochapo" class="offset-top-20 btn btn-primary text-regular shadow2">Ver más</a>
-                                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="context-light">
+                                            <h2 class="offset-top-35 section-bottom-30">Otros proyectos</h2>
+                                        </div>
+                                        <div class="bg-image-elvolantin well-transparent context-dark">
+
+                                            <div data-dots="true" data-items="1" data-margin="30" data-mouse-drag="false" class="owl-carousel owl-dots-sm">
+                                                <div>
+                                                    <br>
+                                                    <h2 class="shadow1">Parcelación El Volantín</h2>
+                                                    <br>
+                                                    <h3 class="shadow1" class="offset-top-30 text-primary">Desde los $7.990.000</h3>
+                                                    <br>
+                                                    <p class="shadow1" class="offset-top-30">Marchihue en la Provincia de Cardenal Caro <br> (Región del Libertador General Bernardo O'Higgins)<br>es un lugar en Chile a 138 km al suroeste de Santiago.</p>
+                                                    <a href="parcelacionelvolantin" class="offset-top-20 btn btn-primary text-regular shadow2">Ver más</a>
+                                                </div>
+                                                <div>
+                                                    <br>
+                                                    <h2 class="shadow1">Lago Chapo</h2>
+                                                    <br>
+                                                    <h3 class="shadow1" class="offset-top-30 text-primary">Desde los $9.990.000</h3>
+                                                    <br>
+                                                    <p class="shadow1" class="offset-top-30">En el Lago Chapo podemos Disfrutar navegando <br>con la hermosa vista del Volcán Calbuco, y si eres de las personas <br>que ama la naturaleza deberías recorrer los senderos de la Reserva Nacional Llanquihue.</p>
+                                                    <a href="lagochapo" class="offset-top-20 btn btn-primary text-regular shadow2">Ver más</a>
                                                 </div>
                                             </div>
                                         </div>
-
-                                       
-                                     
                                     </div>
+
+
+
                                 </div>
                             </div>
                         </div>
-                        <br>
                     </div>
-                </section>
-                <!-- BOTONES SIGUIENTE PROYECTO-->
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-xs-6 text-left"><a href="parcelacionelvolantin" class="btn btn-primary btn-icon btn-icon btn-icon-left"><span class="icon1 fa-angle-left"></span><span class="text text-regular veil reveal-xs-inline">Proyecto previo</span></a></div>
-                        <div class="col-xs-6 text-right"><a href="parcelacionelvolantin" class="btn btn-primary btn-icon btn-icon btn-icon-right"><span class="text text-regular veil reveal-xs-inline">Siguiente proyecto</span><span class="icon1 fa-angle-right"></span></a></div>
-                    </div>
+                    <br>
                 </div>
-                <!-- FIN BOTONES SIGUIENTE PROYECTO-->
-                <hr>
-           
+            </section>
+            <!-- BOTONES SIGUIENTE PROYECTO-->
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-xs-6 text-left"><a href="parcelacionelvolantin" class="btn btn-primary btn-icon btn-icon btn-icon-left"><span class="icon1 fa-angle-left"></span><span class="text text-regular veil reveal-xs-inline">Proyecto previo</span></a></div>
+                    <div class="col-xs-6 text-right"><a href="parcelacionelvolantin" class="btn btn-primary btn-icon btn-icon btn-icon-right"><span class="text text-regular veil reveal-xs-inline">Siguiente proyecto</span><span class="icon1 fa-angle-right"></span></a></div>
+                </div>
+            </div>
+            <!-- FIN BOTONES SIGUIENTE PROYECTO-->
+            <hr>
+
         </section>
     </main>
 
