@@ -28,7 +28,7 @@
                     <div class="chatsPopupList">
                         <ul class="list-unstyled">
                             <li>
-                                <div class="chats-button" data-contact="+56988214958" data-available='{"monday":"10:00-20:00", "tuesday":"10:00-20:00", "wednesday":"10:00-20:00", "thursday":"10:00-20:00", "friday":"10:00-20:00","saturday": "10:00-19:00" }'>
+                                <div class="chats-button" data-contact="+56940075222" data-available='{"monday":"10:00-20:00", "tuesday":"10:00-20:00", "wednesday":"10:00-20:00", "thursday":"10:00-20:00", "friday":"10:00-20:00","saturday": "10:00-19:00" }'>
                                     <div class="chatsUserImg">
                                         <img src="view/componentes/img/chat/daria.jpg" width="100%">
                                     </div>
@@ -61,7 +61,7 @@
                     <div class="chatsPopupList">
                         <ul class="list-unstyled">
                             <li>
-                                <div class="chats-button" data-username="margarita.l.lagos" data-available='{"monday":"09:00-19:00", "tuesday":"09:00-19:00", "wednesday":"09:00-19:00", "thursday":"09:00-19:00", "friday":"09:00-19:00","saturday": "10:00-15:00" }'>
+                                <div class="chats-button" data-username="parcelasdechile" data-available='{"monday":"09:00-19:00", "tuesday":"09:00-19:00", "wednesday":"09:00-19:00", "thursday":"09:00-19:00", "friday":"09:00-19:00","saturday": "10:00-15:00" }'>
                                     <div class="chatsUserImg">
                                         <img src="view/componentes/img/chat/daria.jpg"width="100%">
                                     </div>

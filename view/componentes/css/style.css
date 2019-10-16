@@ -29306,9 +29306,11 @@ html:not(.lt-ie10) .not-animated {
 .rd-navbar-fullwidth .rd-navbar-nav > li > .rd-navbar-dropdown {
   position: absolute;
   left: 0;
-  width: 208px;
+  width: 308px;
   background: #f3f3f4;
   z-index: 5;
+  border-bottom: 5px solid rgb(26, 85, 148);
+  
 }
 
 
@@ -29384,7 +29386,7 @@ html:not(.lt-ie10) .not-animated {
 
 .rd-navbar-static .rd-navbar-dropdown > li:not(:last-child),
 .rd-navbar-fullwidth .rd-navbar-dropdown > li:not(:last-child) {
-  border-bottom: 1px solid #d6dee2;
+  border-bottom: 1px solid #d6dee2;    
 }
 
 .rd-navbar-static .rd-navbar-dropdown li > .rd-navbar-submenu-toggle,
