@@ -112,6 +112,9 @@
                                         <p class="offset-top-20">La Región de Los Lagos te invita a conocer bellos paisajes, con hermosos destinos llenos de magia y encanto. Los mitos y leyendas son pan de cada día, y las tradiciones gastronómicas te harán agua la boca.</p>
                                     </div>
                                 </div>
+                                 <br>
+                                <br>
+                                <br>
                                 <!-- ID PLANO -->
                                 <div class="container">
                                     <div class="row">
@@ -120,21 +123,25 @@
                                         </div>
                                     </div>
                                 </div>
+                                <br>
+                                <br>
+                                <br>
                                 <!-- VALORES-->
                                 <div class="container">
                                     <div class="row">
-                                        <div class="col-md-3">
+                                       <div class="col-md-3">
                                             <br>
-                                            <div class="valor4">
+                                            <div class="valor1">
                                                 <p>$30.000.000</p>
                                             </div>
                                         </div>
                                         <div class="col-md-3">
                                             <br>
-                                            <div class="valor3">
+                                            <div class="valor4">
                                                 <p>$35.000.000</p>
                                             </div>
                                         </div>
+                                        
                                         <div class="col-md-3">
                                             <br>
                                             <div class="valor2">
@@ -143,8 +150,8 @@
                                         </div>
                                         <div class="col-md-3">
                                             <br>
-                                            <div class="valor1">
-                                                <p>Entrada privada al Lago</p>
+                                            <div class="valor5">
+                                                <p>NO DISPONIBLES</p>
                                             </div>
                                         </div>
                                     </div>

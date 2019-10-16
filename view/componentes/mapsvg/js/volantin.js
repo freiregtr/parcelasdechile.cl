@@ -8,6 +8,7 @@ jQuery(document).ready(function () {
             hover: 20,
             directory: "#fafafa",
             status: {},
+            
         },
         regions: {
             'P-57': {
