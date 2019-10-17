@@ -93,6 +93,7 @@
             $_GET["ruta"] == "beneficiarios"         ||
             $_GET["ruta"] == "faq"                   ||
             $_GET["ruta"] == "10razones"             ||
+            $_GET["ruta"] == "404"                   ||
             $_GET["ruta"] == "7beneficiospendiente"  ||
             $_GET["ruta"] == "blog"                  ||
             $_GET["ruta"] == "laconsentida"          ||
