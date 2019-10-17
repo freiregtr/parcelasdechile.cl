@@ -181,7 +181,6 @@
                                     <div data-arrows="true" data-loop="false" data-dots="false" data-swipe="true" data-items="1" data-child="#child-carousel" data-for="#child-carousel" class="slick-slider carousel-parent">
 
                                         <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/1.png" alt="" width="100%" class="img-responsive"></div>
-                                        
                                         <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/2.png" alt="" width="100%" class="img-responsive"></div>
                                         <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/3.png" alt="" width="100%" class="img-responsive"></div>
                                         <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/4.png" alt="" width="100%" class="img-responsive"></div>
@@ -195,22 +194,9 @@
                                         <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/12.png" alt="" width="100%" class="img-responsive"></div>
                                         <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/13.png" alt="" width="100%" class="img-responsive"></div>
                                         <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/14.png" alt="" width="100%" class="img-responsive"></div>
-                                        <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/15.jpg" alt="" width="100%" class="img-responsive"></div>
-                                        <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/16.jpg" alt="" width="100%" class="img-responsive"></div>
-                                        <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/17.jpg" alt="" width="100%" class="img-responsive"></div>
-                                        <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/18.jpg" alt="" width="100%" class="img-responsive"></div>
-                                        <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/19.jpg" alt="" width="100%" class="img-responsive"></div>
-                                        <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/20.jpg" alt="" width="100%" class="img-responsive"></div>
-                                        <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/21.jpg" alt="" width="100%" class="img-responsive"></div>
-                                        <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/22.jpg" alt="" width="100%" class="img-responsive"></div>
-                                        <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/23.jpg" alt="" width="100%" class="img-responsive"></div>
-                                        <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/24.jpg" alt="" width="100%" class="img-responsive"></div>
-                                        <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/25.jpg" alt="" width="100%" class="img-responsive"></div>
-                                        <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/26.jpg" alt="" width="100%" class="img-responsive"></div>
-                                        <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/27.jpg" alt="" width="100%" class="img-responsive"></div>
-                                        <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/28.jpg" alt="" width="100%" class="img-responsive"></div>
-                                        <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/29.jpg" alt="" width="100%" class="img-responsive"></div>
-                                        <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/30.jpg" alt="" width="100%" class="img-responsive"></div>
+                                        
+                                   
+                                        
                                     </div>
                                     
                                     <div id="child-carousel" data-for=".carousel-parent" data-arrows="false" data-loop="false" data-dots="false" data-swipe="true" data-items="3" data-xs-items="3" data-sm-items="4" data-md-items="5" data-lg-items="6" data-slide-to-scroll="1" class="slick-slider slick-child">
@@ -229,22 +215,8 @@
                                         <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/12.png" alt="" width="140" height="105"></div>
                                         <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/13.png" alt="" width="140" height="105"></div>
                                         <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/14.png" alt="" width="140" height="105"></div>
-                                        <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/15.jpg" alt="" width="140" height="105"></div>
-                                        <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/16.jpg" alt="" width="140" height="105"></div>
-                                        <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/17.jpg" alt="" width="140" height="105"></div>
-                                        <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/18.jpg" alt="" width="140" height="105"></div>
-                                        <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/19.jpg" alt="" width="140" height="105"></div>
-                                        <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/20.jpg" alt="" width="140" height="105"></div>
-                                        <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/21.jpg" alt="" width="140" height="105"></div>
-                                        <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/22.jpg" alt="" width="140" height="105"></div>
-                                        <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/23.jpg" alt="" width="140" height="105"></div>
-                                        <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/24.jpg" alt="" width="140" height="105"></div>
-                                        <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/25.jpg" alt="" width="140" height="105"></div>
-                                        <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/26.jpg" alt="" width="140" height="105"></div>
-                                        <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/27.jpg" alt="" width="140" height="105"></div>
-                                        <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/28.jpg" alt="" width="140" height="105"></div>
-                                        <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/29.jpg" alt="" width="140" height="105"></div>
-                                        <div class="item"><img src="view/componentes/img/proyectos/mirador_alcones/30.jpg" alt="" width="140" height="105"></div>
+                                        
+                            
 
                                     </div>
                                 </div>
