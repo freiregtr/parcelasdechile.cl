@@ -762,7 +762,7 @@ ol {
   width: 100%;
   padding: 15px;
   color: #fff;
-  background-color: #1a5594;
+  background-color: #00942e;
 
 }
 
@@ -33444,11 +33444,8 @@ font-weight: normal;
 color:#fff;
 opacity:1;
 }
-.dieciocho{
-font-family: 'Lobster Two', cursive;
 
 
-}
 @-webkit-keyframes scroll {
   0% {
     -webkit-transform: translateX(0);

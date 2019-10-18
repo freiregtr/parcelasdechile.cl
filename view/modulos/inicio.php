@@ -170,8 +170,9 @@
                         <hr class="divider veil reveal-md-inline-block shadow2">
                         <h2 class="context-dark shadow1">La Consentida</h2>
                         <br>
-                        <h3>VENTA EN VERDE</h3>
-                        <br>
+                       <div class="precios">
+                            <h3>VENTA EN VERDE</h3>
+                       </div>
                         <p class="text-white shadow1 ">Región de los Lagos, Puerto Montt</p>
                         <a href="laconsentida" class="btn btn-primary-variant-1 ">Ver más</a>
                     </div>
