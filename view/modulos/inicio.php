@@ -249,9 +249,7 @@
                     <p class="offset-top-10">Dependiendo del valor y el proyecto <br> los mts comienzan desde los 5000 mt2</p>
                     <br>
                 </div>
-
             </div>
-
         </div>
     </section>
     <section class="bg-blue">
