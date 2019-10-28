@@ -102,7 +102,7 @@
                                     <div class="col-md-6">
                                         <div>
                                             <div class="context-light">
-                                                <h2 class="offset-top-50 section-bottom-30">Parcelación <br> <span class="text-sbold"> "La Consentida"</span></h2>
+                                                <h2 class="offset-top-50 section-bottom-30">Fundo <br> <span class="text-sbold"> "La Consentida"</span></h2>
                                             </div>
                                             <p class="section-bottom-30">"Región de Los Lagos"</p>
                                         </div>
