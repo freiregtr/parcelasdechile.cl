@@ -57,7 +57,7 @@
                             <h1>Parcelas de Chile <br>
                                 <span class="familiar">Tu proyecto familiar</span></h1>
                             <br>
-                            <p class="offset-top-35">Parcelas desde los $7.990.000, Un terreno es la mejor forma de asegurar el futuro de tu familia. A solo 138 km de Santiago y con buena conexión con otros destinos.</p>
+                            <p class="offset-top-35">Parcelas desde los $30.000.000, Un terreno es la mejor forma de asegurar el futuro de tu familia, parcelas en el Lago Chapo, Puerto Montt "Fundo La Consentida"</p>
                             <br>
                             <button type="button" class="btn btn-primary video-btn" data-toggle="modal" data-src="https://www.youtube.com/embed/7X0FgJ6MsxM" data-target="#myModal">
                                 ver video
@@ -141,24 +141,7 @@
     <!-- PROYECTOS-->
     <section id="sliderproyectos ">
         <div id="child-carousel" data-arrows="true" data-loop="true" data-dots="true" data-swipe="true" data-items="1" data-xs-items="1" data-sm-items="1" data-md-items="2" data-lg-items="2" data-slide-to-scroll="1" class="slick-slider slick-child ">
-            <!-- EL VOLANTIN-->
-            <div class="item mov">
-                <div class="reveal-block thumbnail-variant-1">
-                    <div class="caption-wrapper">
-                        <img src="view/componentes/img/proyectos/mirador_alcones/malcones.jpg" width="960" height="567" alt="Volantin de la quebrada" class="img-responsive center-block">
-                        <div class="caption shadow2"><a href="#" class="label label-primary">VI Región</a></div>
-                    </div>
-                    <div class="caption-2">
-                        <hr class="divider veil reveal-md-inline-block shadow2">
-                        <h2 class="context-dark shadow1">El Volantín</h2>
-                        <br>
-                        <h3>Desde $ 7.990.000</h3>
-                        <br>
-                        <p class="text-white shadow1 ">Región de Libertador O’Higgins</p>
-                        <a href="parcelacionelvolantin" class="btn btn-primary-variant-1">Ver más</a>
-                    </div>
-                </div>
-            </div>
+           
             <!-- LA CONSENTIDA-->
             <div class="item mov">
                 <div class="reveal-block thumbnail-variant-1">
@@ -175,6 +158,24 @@
                        </div>
                         <p class="text-white shadow1 ">Región de los Lagos, Puerto Montt</p>
                         <a href="laconsentida" class="btn btn-primary-variant-1 ">Ver más</a>
+                    </div>
+                </div>
+            </div>
+             <!-- EL VOLANTIN-->
+            <div class="item mov">
+                <div class="reveal-block thumbnail-variant-1">
+                    <div class="caption-wrapper">
+                        <img src="view/componentes/img/proyectos/mirador_alcones/malcones.jpg" width="960" height="567" alt="Volantin de la quebrada" class="img-responsive center-block">
+                        <div class="caption shadow2"><a href="#" class="label label-primary">VI Región</a></div>
+                    </div>
+                    <div class="caption-2">
+                        <hr class="divider veil reveal-md-inline-block shadow2">
+                        <h2 class="context-dark shadow1">El Volantín</h2>
+                        <br>
+                        <h3>Desde $ 7.990.000</h3>
+                        <br>
+                        <p class="text-white shadow1 ">Región de Libertador O’Higgins</p>
+                        <a href="parcelacionelvolantin" class="btn btn-primary-variant-1">Ver más</a>
                     </div>
                 </div>
             </div>
