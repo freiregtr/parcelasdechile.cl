@@ -36,6 +36,12 @@
                         popover: "$35.000.000",
                         data: {}
                     },
+                     'lago': {
+                        id: "lago",
+                        'id_no_spaces': "lago",
+                        fill: "#27aae1",
+                        data: {}
+                    },
                     'p-70': {
                         id: "p-70",
                         'id_no_spaces': "p-70",
