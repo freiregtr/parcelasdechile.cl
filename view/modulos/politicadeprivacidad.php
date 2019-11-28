@@ -115,103 +115,9 @@ Parcelas De Chile SPA Se reserva el derecho de cambiar los términos de la prese
         </div>
     </footer>
       <!-- Modal-->
-      <div id="loginModal" role="dialog" class="modal fade">
-        <div class="modal-dialog">
-          <!-- Modal content-->
-          <div class="modal-content"> 
-            <div class="modal-body">
-              <button type="button" data-dismiss="modal" class="close mdi mdi-window-close"></button>
-              <!-- Nav tabs-->
-              <ul role="tablist" class="nav nav-tabs nav-tabs-custom">
-                <li role="presentation" class="active"><a href="#login" aria-controls="login" role="tab" data-toggle="tab">Login</a></li>
-                <li role="presentation"><a href="#register" aria-controls="register" role="tab" data-toggle="tab">Register</a></li>
-              </ul>
-              <!-- Tab panes-->
-              <div class="tab-content offset-top-20">
-                <div id="login" role="tabpanel" class="fade in tab-pane active">
-                  <form method="post" class="offset-top-40 rd-mailform text-left">
-                    <div class="form-group">
-                      <label for="login-name" class="form-label">User name</label>
-                      <input id="login-name" type="text" name="name" data-constraints="@Required" class="form-control">
-                    </div>
-                    <div class="form-group offset-top-7">
-                      <label for="login-password" class="form-label">Password</label>
-                      <input id="login-password" type="password" name="password" data-constraints="@Required" class="form-control">
-                    </div>
-                    <div class="offset-top-20 text-center text-sm-left">
-                      <button type="submit" class="btn btn-block btn-primary">login</button>
-                    </div>
-                  </form>
-                </div>
-                <div id="register" role="tabpanel" class="fade in tab-pane">
-                  <form method="post" class="offset-top-40 rd-mailform text-left">
-                    <div class="form-group">
-                      <label for="register-name" class="form-label">User name</label>
-                      <input id="register-name" type="text" name="name" data-constraints="@Required" class="form-control">
-                    </div>
-                    <div class="form-group offset-top-7">
-                      <label for="register-email" class="form-label">Email</label>
-                      <input id="register-email" type="email" name="email" data-constraints="@Email @Required" class="form-control">
-                    </div>
-                    <div class="offset-top-20 text-center text-sm-left">
-                      <button type="submit" class="btn btn-block btn-primary">register</button>
-                    </div>
-                  </form>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div id="registerModal" role="dialog" class="modal fade">
-        <div class="modal-dialog">
-          <!-- Modal content-->
-          <div class="modal-content">
-            <div class="modal-body">
-              <button type="button" data-dismiss="modal" class="close mdi mdi-window-close"></button>
-              <!-- Nav tabs-->
-              <ul role="tablist" class="nav nav-tabs nav-tabs-custom">
-                <li role="presentation"><a href="#login-2" aria-controls="login" role="tab" data-toggle="tab">Login</a></li>
-                <li role="presentation" class="active"><a href="#register-2" aria-controls="register" role="tab" data-toggle="tab">Register</a></li>
-              </ul>
-              <!-- Tab panes-->
-              <div class="tab-content offset-top-20">
-                <div id="login-2" role="tabpanel" class="fade in tab-pane">
-                  <form method="post" class="offset-top-40 rd-mailform text-left">
-                    <div class="form-group">
-                      <label for="login-name-2" class="form-label">User name</label>
-                      <input id="login-name-2" type="text" name="name" data-constraints="@Required" class="form-control">
-                    </div>
-                    <div class="form-group offset-top-7">
-                      <label for="login-password-2" class="form-label">Password</label>
-                      <input id="login-password-2" type="password" name="password" data-constraints="@Required" class="form-control">
-                    </div>
-                    <div class="offset-top-20 text-center text-sm-left">
-                      <button type="submit" class="btn btn-block btn-primary">login</button>
-                    </div>
-                  </form>
-                </div>
-                <div id="register-2" role="tabpanel" class="fade in tab-pane active">
-                  <form method="post" class="offset-top-40 rd-mailform text-left">
-                    <div class="form-group">
-                      <label for="register-name-2" class="form-label">User name</label>
-                      <input id="register-name-2" type="text" name="name" data-constraints="@Required" class="form-control">
-                    </div>
-                    <div class="form-group offset-top-7">
-                      <label for="register-email-2" class="form-label">Email</label>
-                      <input id="register-email-2" type="email" name="email" data-constraints="@Email @Required" class="form-control">
-                    </div>
-                    <div class="offset-top-20 text-center text-sm-left">
-                      <button type="submit" class="btn btn-block btn-primary">register</button>
-                    </div>
-                  </form>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
     </div>
+
+
     <!-- Global Mailform Output-->
     <div id="form-output-global" class="snackbars"></div>
     <!-- PhotoSwipe Gallery-->
@@ -249,8 +155,8 @@ Parcelas De Chile SPA Se reserva el derecho de cambiar los términos de la prese
         </div>
       </div>
     </div>
-    <!-- Java script-->
-    <script src="js/core.min.js"></script>
-    <script src="js/script.js"></script>
-    <!-- Coded by Mnemon1k-->
- 
+   <!-- Inicio Div chat -->
+<?php
+include "chat.php";
+?>
+<!-- Fin Div chat -->
