@@ -376,7 +376,7 @@
         <div class="range range-xs-middle">
             <div class="cell-sm-6 text-sm-right cell-sm-push-1">
                 <!-- REDES SOCIALES-->
-                <ul class="list-inline">
+              <ul class="list-inline">
                     <li><a href="https://www.facebook.com/parcelasdechile/" target="_blank" class="icon1 icon-sm text-primary fa-facebook"></a></li>
                     <li><a href="https://www.youtube.com/channel/UC1A2lJ21pRVisDtocb1gTTA/" target="_blank" class="icon1 icon-sm text-primary fa-youtube"></a></li>
                     <li><a href="https://www.linkedin.com/company/parcelasdechile?originalSubdomain=cl/" target="_blank" class="icon1 icon-sm text-primary fa-linkedin"></a></li>

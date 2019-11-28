@@ -114,7 +114,9 @@
             $_GET["ruta"] == "7beneficiospendiente"  ||
             $_GET["ruta"] == "blog"                  ||
             $_GET["ruta"] == "laconsentida"          ||
+            $_GET["ruta"] == "politicadeprivacidad"  ||
             $_GET["ruta"] == "quienessomos"
+
 
         ) {
             include "modulos/" . $_GET["ruta"] . ".php"; // se concatena la variable

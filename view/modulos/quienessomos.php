@@ -164,6 +164,7 @@
                         <li><a href="https://www.youtube.com/channel/UC1A2lJ21pRVisDtocb1gTTA/" target="_blank" class="icon1 icon-sm text-primary fa-youtube"></a></li>
                         <li><a href="https://www.linkedin.com/company/parcelasdechile?originalSubdomain=cl/" target="_blank" class="icon1 icon-sm text-primary fa-linkedin"></a></li>
                         <li><a href="https://instagram.com/parcelasdechile/" target="_blank" class="icon1 icon-sm text-primary fa-instagram"></a></li>
+                        <li> <a href="https://parcelasdechile.cl/politicadeprivacidad/" target="_blank" class="small text-primary"> Politica de privacida </a> </li>
                     </ul>
                 </div>
                 <div class="cell-sm-6 text-sm-left offset-top-20 offset-sm-top-0">
