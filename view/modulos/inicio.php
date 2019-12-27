@@ -172,7 +172,7 @@
                         <hr class="divider veil reveal-md-inline-block shadow2">
                         <h2 class="context-dark shadow1">El Volantín</h2>
                         <br>
-                        <h3>Desde $ 7.990.000</h3>
+                        <h3>Desde $ 8.490.000</h3>
                         <br>
                         <p class="text-white shadow1 ">Región de Libertador O’Higgins</p>
                         <a href="parcelacionelvolantin" class="btn btn-primary-variant-1">Ver más</a>
