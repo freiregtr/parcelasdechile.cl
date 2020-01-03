@@ -57,7 +57,7 @@
                             <h1>Parcelas de Chile <br>
                                 <span class="familiar">Tu proyecto familiar</span></h1>
                             <br>
-                            <p class="offset-top-35">Parcelas desde los $30.000.000, Un terreno es la mejor forma de asegurar el futuro de tu familia, parcelas en el Lago Chapo, Puerto Montt "Fundo La Consentida"</p>
+                            <p class="offset-top-35">Parcelas desde los $29.990.000, Un terreno es la mejor forma de asegurar el futuro de tu familia, parcelas en el Lago Chapo, Puerto Montt "Fundo La Consentida"</p>
                             <br>
                             <button type="button" class="btn btn-primary video-btn" data-toggle="modal" data-src="https://www.youtube.com/embed/7X0FgJ6MsxM" data-target="#myModal">
                                 ver video

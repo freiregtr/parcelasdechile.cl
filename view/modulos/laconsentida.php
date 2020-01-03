@@ -132,20 +132,20 @@
                                        <div class="col-md-3">
                                             <br>
                                             <div class="valor1">
-                                                <p>$30.000.000</p>
+                                                <p>$29.990.000</p>
                                             </div>
                                         </div>
                                         <div class="col-md-3">
                                             <br>
                                             <div class="valor4">
-                                                <p>$35.000.000</p>
+                                                <p>$34.990.000</p>
                                             </div>
                                         </div>
                                         
                                         <div class="col-md-3">
                                             <br>
                                             <div class="valor2">
-                                                <p>$40.000.000</p>
+                                                <p>$39.990.000</p>
                                             </div>
                                         </div>
                                         <div class="col-md-3">
@@ -284,7 +284,7 @@
                                                     <br>
                                                     <h2 class="shadow1">Parcelación El Volantín</h2>
                                                     <br>
-                                                    <h3 class="shadow1" class="offset-top-30 text-primary">Desde los $7.990.000</h3>
+                                                    <h3 class="shadow1" class="offset-top-30 text-primary">Desde los $8.490.000</h3>
                                                     <br>
                                                     <p class="shadow1" class="offset-top-30">Marchihue en la Provincia de Cardenal Caro <br> (Región del Libertador General Bernardo O'Higgins)<br>es un lugar en Chile a 138 km al suroeste de Santiago.</p>
                                                     <a href="parcelacionelvolantin" class="offset-top-20 btn btn-primary text-regular shadow2">Ver más</a>

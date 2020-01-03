@@ -24,16 +24,16 @@
                         id: "p-68",
                         'id_no_spaces': "p-68",
                         fill: "rgba(247,188,4,1)",
-                        tooltip: "$35.000.000",
-                        popover: "$35.000.000",
+                        tooltip: "$34.990.000",
+                        popover: "$34.990.000",
                         data: {}
                     },
                     'p-69': {
                         id: "p-69",
                         'id_no_spaces': "p-69",
                         fill: "rgba(247,188,4,1)",
-                        tooltip: "$35.000.000",
-                        popover: "$35.000.000",
+                        tooltip: "$34.990.000",
+                        popover: "$34.990.000",
                         data: {}
                     },
                      'lago': {
@@ -46,104 +46,104 @@
                         id: "p-70",
                         'id_no_spaces': "p-70",
                         fill: "rgba(247,188,4,1)",
-                        tooltip: "$35.000.000",
-                        popover: "$35.000.000",
+                        tooltip: "$34.990.000",
+                        popover: "$34.990.000",
                         data: {}
                     },
                     'p-71': {
                         id: "p-71",
                         'id_no_spaces': "p-71",
                         fill: "rgba(247,188,4,1)",
-                        tooltip: "$35.000.000",
-                        popover: "$35.000.000",
+                        tooltip: "$34.990.000",
+                        popover: "$34.990.000",
                         data: {}
                     },
                     'p-72': {
                         id: "p-72",
                         'id_no_spaces': "p-72",
                         fill: "rgba(247,188,4,1)",
-                        tooltip: "$35.000.000",
-                        popover: "$35.000.000",
+                        tooltip: "$34.990.000",
+                        popover: "$34.990.000",
                         data: {}
                     },
                     'p-32': {
                         id: "p-32",
                         'id_no_spaces': "p-32",
                         fill: "rgba(25,143,61,1)",
-                        tooltip: "$40.000.000",
-                        popover: "$40.000.000",
+                        tooltip: "$39.990.000",
+                        popover: "$39.990.000",
                         data: {}
                     },
                     'p-30': {
                         id: "p-30",
                         'id_no_spaces': "p-30",
                         fill: "rgba(25,143,61,1)",
-                        tooltip: "$40.000.000",
-                        popover: "$40.000.000",
+                        tooltip: "$39.990.000",
+                        popover: "$39.990.000",
                         data: {}
                     },
                     'p-28': {
                         id: "p-28",
                         'id_no_spaces': "p-28",
                         fill: "rgba(25,143,61,1)",
-                        tooltip: "$40.000.000",
-                        popover: "$40.000.000",
+                        tooltip: "$39.990.000",
+                        popover: "$39.990.000",
                         data: {}
                     },
                     'p-26': {
                         id: "p-26",
                         'id_no_spaces': "p-26",
                         fill: "rgba(25,143,61,1)",
-                        tooltip: "$40.000.000",
-                        popover: "$40.000.000",
+                        tooltip: "$39.990.000",
+                        popover: "$39.990.000",
                         data: {}
                     },
                     'p-24': {
                         id: "p-24",
                         'id_no_spaces': "p-24",
                         fill: "rgba(25,143,61,1)",
-                        tooltip: "$40.000.000",
-                        popover: "$40.000.000",
+                        tooltip: "$39.990.000",
+                        popover: "$39.990.000",
                         data: {}
                     },
                     'p-58': {
                         id: "p-58",
                         'id_no_spaces': "p-58",
-                        fill: "rgba(190,46,56,1)",
-                        tooltip: "$30.000.000",
-                        popover: "$30.000.000",
+                        fill: "rgba(88,89,89,1)",
+                        tooltip: "NO DISPONIBLE",
+                        popover: "NO DISPONIBLE",
                         data: {}
                     },
                     'p-50': {
                         id: "p-50",
                         'id_no_spaces': "p-50",
                         fill: "rgba(190,46,56,1)",
-                        tooltip: "$30.000.000",
-                        popover: "$30.000.000",
+                        tooltip: "$29.990.000",
+                        popover: "$29.990.000",
                         data: {}
                     },
                     'p-56': {
                         id: "p-56",
                         'id_no_spaces': "p-56",
                         fill: "rgba(190,46,56,1)",
-                        tooltip: "$30.000.000",
-                        popover: "$30.000.000",
+                        tooltip: "$29.990.000",
+                        popover: "$29.990.000",
                         data: {}
                     },
                     'p-52': {
                         id: "p-52",
                         'id_no_spaces': "p-52",
                         fill: "rgba(190,46,56,1)",
-                        tooltip: "$30.000.000",
-                        popover: "$30.000.000",
+                        tooltip: "$29.990.000",
+                        popover: "$29.990.000",
                         data: {}
                     },
                     'p-54': {
                         id: "p-54",
                         'id_no_spaces': "p-54",
                         fill: "rgba(190,46,56,1)",
-                        tooltip: "$30.000.000",
-                        popover: "$30.000.000",
+                        tooltip: "$29.990.000",
+                        popover: "$29.990.000",
                         data: {}
                     }
                 },
