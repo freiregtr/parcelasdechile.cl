@@ -309,7 +309,7 @@
         <div data-speed="0" data-type="html" class="rd-parallax-layer">
             <div class="shell section-100 section-lg-top-220 section-lg-bottom-205 context-dark text-md-left">
                 <hr class="divider">
-                <h2 class="shadow1">Únete nuestro equipo de vendedores</h2>
+                <h2 class="shadow1">Únete a nuestro equipo de vendedores</h2>
                 <br>
                 <h4 class="offset-top-25 shadow1">¿Tienes experiencia vendiendo terrenos ?
                     <br class="veil reveal-md-block"></h4>

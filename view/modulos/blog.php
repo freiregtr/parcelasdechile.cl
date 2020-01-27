@@ -54,6 +54,21 @@
     <main class="page-content">
         <section class="section-top-70 section-bottom-80">
             <div class="shell text-md-left">
+                   <div class="row">
+                    <div class="col-md-4">
+                        <div class="post-blog">
+                            <h5 class="text-justify text-center">Las noticias del Lago Chapo</h5>
+                            <div class="offset-top-20">
+                                <div class="thumbnail-variant-1"><img src="view/componentes/img/noticias-tourismo.jpg" width="418" height="316" alt="" class="img-responsive center-block">
+                                </div>
+                            </div>
+                            <p class="offset-top-10 text-justify">Todas las noticias más recientes del Lago Chapo y sus alrededores.</p>
+                            <div class="offset-top-20">
+                                <div class="offset-top-16"><a href="noticiaslagochapo" class="btn btn-primary" target="_blank">VER MÁS</a></div>
+                            </div>
+                        </div>
+                    </div>
+            <div class="shell text-md-left">
                 <div class="row">
                     <div class="col-md-4">
                         <div class="post-blog">

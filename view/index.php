@@ -115,6 +115,7 @@
             $_GET["ruta"] == "blog"                  ||
             $_GET["ruta"] == "laconsentida"          ||
             $_GET["ruta"] == "politicadeprivacidad"  ||
+            $_GET["ruta"] == "noticiaslagochapo"     ||
             $_GET["ruta"] == "quienessomos"
 
 

@@ -326,6 +326,91 @@
 
 </div>
 <!-- FIN MAIN-->
+<!-- NOTICIAS-->
+ 
+    
+<div class="text-center offset-top-35 section-bottom-30 context-light"><h2> Noticias Lago Chapo</h2></div>
+
+<section class="section-top-70 section-bottom-80">
+
+            <div class="shell text-md-left">
+                   <div class="row">
+                    <div class="col-md-4">
+                        <div class="post-blog">
+                            <h5 class="text-justify text-center header-noticias">Desarrollarán diez proyectos para impulsar el turismo en el Lago Chapo </h5>
+                            <div class="offset-top-20">
+                                <div class="thumbnail-variant-1"><img src="view/componentes/img/noticias-tourismo.jpg" width="418" height="316" alt="" class="img-responsive img-rounded ">
+                                </div>
+                            </div>
+                            <p class="offset-top-10 text-justify">Mejoramiento de camping y cabañas, productos artesanales de madera, producción de pan, tejidos a telar y servicios de navegación, son algunos de los 10 proyectos favorecidos por el programa de fondos concursables para vecinos de Río Blanco y Lago Chapo.</p>
+                            <div class="offset-top-20">
+                                <div class="offset-top-16"><a href="noticiaslagochapo#noticias-tourismo" class="btn btn-primary" target="_blank">VER MÁS</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="post-blog">
+                            <h5 class="text-justify text-center header-noticias">En Lago Chapo inauguraron un paseo en el borde costero </h5>
+
+                            <div class="offset-top-20">
+                                <div class="thumbnail-variant-1"><img src="view/componentes/img/noticias-bordecostero.jpg" width="418" height="316" alt="" class="img-responsive img-rounded">
+                                </div>
+                            </div>
+                            <p class="offset-top-10 text-justify">Con un paseo recreativo de una extensión de 700 metros en el borde costero, cuenta desde ahora la localidad de Lago Chapo.</p>
+                            <div class="offset-top-20">
+                                <div class="offset-top-16"><a href="noticiaslagochapo#noticias-bordecostero" class="btn btn-primary" target="_blank">VER MÁS</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="post-blog">
+                            <h5 class="text-justify text-center header-noticias">Mesa de Turismo del Lago Chapo impulsó taller apícola para vecinos</h5>
+
+                            <div class="offset-top-20">
+                                <div class="thumbnail-variant-1"><img src="view/componentes/img/noticias-tallerapicola.jpg" width="418" height="316" alt="" class="img-responsive img-rounded">
+                                </div>
+                            </div>
+                            <p class="offset-top-10 text-justify">El objetivo es que los residentes puedan trabajar en su sector.</p>
+                            <div class="offset-top-20">
+                                <div class="offset-top-16"><a href="noticiaslagochapo#noticias-tallerapicola" class="btn btn-primary" target="_blank">VER MÁS</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 
+                    <div class="col-md-4">
+                        <div class="post-blog">
+                            <h5>20 Atractivos para vivir en <br> la parcelación "El Volantín"</h5>
+
+                            <div class="offset-top-20">
+                                <div class="thumbnail-variant-1"><img src="view/componentes/img/7r/volantin.jpg" width="418" height="316" alt="" class="img-responsive center-block">
+                                </div>
+                            </div>
+                            <p class="offset-top-10">
+                                Marchihue en la Provincia de Cardenal Caro (Región del Libertador General Bernardo O'Higgins) es un lugar en Chile a 138 km al suroeste de Santiago.</p>
+                            <div class="offset-top-20">
+
+                                <div class="offset-top-16"><a href="blog-single-post.html" class="btn btn-primary">VER MÁS</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+               
+            <div class="offset-top-30 offset-md-top-70">
+              <hr class="veil reveal-md-block">
+                   
+                    <nav>
+                      <ul class="pagination pagination">
+                        <li class="active"><span>1</span></li>
+                        <li><a href="#">2</a></li>
+                        <li><a href="#" aria-label="Next" class="btn"><span aria-hidden="true">Next</span></a></li>
+                      </ul>
+                    </nav>
+            </div>
+         -->
+                </div>
+            </div>
+        </section>
+<!--FIN NOTICIAS-->
 
 <!-- PARALAX -->
 <section class="rd-parallax">
@@ -333,7 +418,7 @@
     <div data-speed="0" data-type="html" class="rd-parallax-layer">
         <div class="shell section-100 section-lg-top-220 section-lg-bottom-205 context-dark text-md-left">
             <hr class="divider">
-            <h2 class="shadow1">Únete nuestro equipo de vendedores</h2>
+            <h2 class="shadow1">Únete a nuestro equipo de vendedores</h2>
             <br>
             <h4 class="offset-top-25 shadow1">¿Tienes experiencia vendiendo terrenos ?
                 <br class="veil reveal-md-block"></h4>
