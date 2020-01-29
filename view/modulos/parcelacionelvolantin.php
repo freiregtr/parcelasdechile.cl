@@ -251,7 +251,7 @@
                     <div class="container-fluid">
                         <div class="card text-center">
                             <div class="card-body ">
-                                <a href="https://drive.google.com/file/d/1VjJqiZsdwUSEUOuGm7iASHaixzVustXF/view?usp=sharing" target="_blank" download="ElVolantin" class="btn btn-primary shadow2">DESCARGAR BROCHURE</a>
+                                <a href="https://drive.google.com/file/d/1zmrEFyapQX-mpgx3HvnZ9MOJ37Rnajm8/view?usp=sharing" target="_blank" download="ElVolantin" class="btn btn-primary shadow2">DESCARGAR BROCHURE</a>
                             </div>
                         </div>
                     </div>
