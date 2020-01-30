@@ -252,7 +252,7 @@
                 </section>
                 
           -->
-            <section class="section-top-35  section-bottom-70">
+            <!--<section class="section-top-35  section-bottom-70">
                 <div class="context-light">
                     <h2 class="offset-top-50 section-bottom-30 text-center">Panorama 360º</h2>
                 </div>
@@ -264,7 +264,7 @@
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> -->
             <!-- OTROS PROYECTOS-->
             <section class="section-top-35 section-bottom-70">
                 <div class="container-fluid">
