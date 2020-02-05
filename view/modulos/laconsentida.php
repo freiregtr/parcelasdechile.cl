@@ -160,6 +160,16 @@
                         </section>
                     </div>
                 </div>
+                <br>
+                <section class="section-top-70  section-bottom-70 bg-blue ">
+                    <div class="container-fluid">
+                        <div class="card text-center">
+                            <div class="card-body ">
+                                <a href="https://drive.google.com/file/d/1EY7gQKCyvZiBGqQqOmnZTiAA-lo0oTbq/view?usp=sharing" target="_blank" download="LaConsentida" class="btn btn-primary shadow2">DESCARGAR PLANO</a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
                 <hr>
             </div>
             <section id="sliderproyectos ">
