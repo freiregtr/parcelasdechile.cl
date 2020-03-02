@@ -371,12 +371,12 @@ jQuery(document).ready(function () {
                 popover: "$8.490.000",
                 data: {}
             },
-            'P-34': {
-                id: "P-34",
-                'id_no_spaces': "P-34",
-                fill: "rgba(247,188,4,1)",
-                tooltip: "$8.490.000",
-                popover: "$8.490.000",
+            'P-34-35': {
+                id: "P-34-35",
+                'id_no_spaces': "P-34-35",
+                fill: "rgba(192,46,56,1)",
+                tooltip: "$10.490.000",
+                popover: "$10.490.000",
                 data: {}
             },
             'P-24': {

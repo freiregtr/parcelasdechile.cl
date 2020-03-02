@@ -31,6 +31,11 @@
     
     <!-- Font Awesome Css -->
     <link rel="stylesheet" href="view/componentes/css/font-awesome.min.css">
+     <link href="https://fonts.googleapis.com/css?family=Caveat&display=swap" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css?family=Kavivanar&display=swap" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css?family=Cinzel&display=swap" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css?family=News+Cycle&display=swap" rel="stylesheet">
+     
     
     <!-- Normalize Css -->
     <link rel="stylesheet" href="view/componentes/css/normalize.css">
@@ -90,6 +95,7 @@
     <!-- Fin UA Analytics -->
     <!-- Stylesheets-->
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+   
     <link rel="stylesheet" href="view/componentes/css/style.css">
 
     <!--[if lt IE 10]>

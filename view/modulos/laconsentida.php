@@ -86,7 +86,7 @@
                 </div>
                 <br>
                 <br>
-                <button type="button" class="btn btn-primary video-btn" data-toggle="modal" data-src="https://www.youtube.com/embed/7X0FgJ6MsxM" data-target="#myModal">
+                <button type="button" class="btn btn-primary video-btn btn-no-display" data-toggle="modal" data-src="https://www.youtube.com/embed/7X0FgJ6MsxM" data-target="#myModal">
                     ver video
                 </button>
             </div>
@@ -161,7 +161,7 @@
                     </div>
                 </div>
                 <br>
-                <section class="section-top-70  section-bottom-70 bg-blue ">
+                <section class="section-top-70  section-bottom-70">
                     <div class="container-fluid">
                         <div class="card text-center">
                             <div class="card-body ">

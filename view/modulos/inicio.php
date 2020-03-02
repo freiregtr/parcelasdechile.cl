@@ -8,7 +8,7 @@
                     <!-- RD Navbar Toggle-->
                     <button data-rd-navbar-toggle=".rd-navbar-nav-wrap" class="rd-navbar-toggle"><span></span></button>
                     <!-- RD Navbar Brand-->
-                    <div class="rd-navbar-brand"><a href="inicio" class="brand-name"><img src="view/componentes/img/logo/logon.png" height="85" alt="Parcelas de chile"></a>
+                    <div class="rd-navbar-brand"><a href="inicio" class="brand-name"><img src="view/componentes/img/logo/logon.png" class="rd-navbar-brand-img" height="85" alt="Parcelas de chile"></a>
                     </div>
                     <div class="rd-navbar-contacts rd-navbar-collapse rd-navbar-collapse-2"><span>Contáctanos</span>
                         <div><span class="icon1 fa-phone text-primary"></span><a href="callto:> +56958053609"></a><a>+56 9 4007 5222</a>
@@ -54,35 +54,38 @@
                     <div data-items="1" data-dots="true" data-margin="30" data-mouse-drag="false" class="context-dark owl-slider owl-carousel">
                         <div class="owl-item">
                             <hr class="divider veil reveal-md-inline-block">
-                            <h1>Parcelas de Chile <br>
-                                <span class="familiar">Tu proyecto familiar</span></h1>
+                            <h1>Parcelas de Chile</h1>
+                                <p class="familiar">Tu proyecto familiar<p>
+                           <p class="offset-top-35 text-header-mob-small text-header-desktop"> Un terreno es la mejor forma de asegurar el futuro de tu familia.<br>No esperes invertir en tierra, invierte en tierra y espera.</p>
                             <br>
-                            <p class="offset-top-35">Parcelas desde los $29.990.000, Un terreno es la mejor forma de asegurar el futuro de tu familia, parcelas en el Lago Chapo, Puerto Montt "Fundo La Consentida"</p>
-                            <br>
-                            <button type="button" class="btn btn-primary video-btn" data-toggle="modal" data-src="https://www.youtube.com/embed/7X0FgJ6MsxM" data-target="#myModal">
+                           <div class="btn-no-display"> <button type="button" class="btn btn-primary video-btn" data-toggle="modal" data-src="https://www.youtube.com/embed/7X0FgJ6MsxM" data-target="#myModal">
                                 ver video
-                            </button>
+                            </button></div>
                         </div>
                         <div class="owl-item">
                             <hr class="divider veil reveal-md-inline-block">
-                            <h1>Parcelación <br> El Volantín</h1>
+                            
+                    <div><h1 class="text-mobile-header font-proyectos">Fundo <br> "La Consentida"</h1>
                             <br>
-                            <p class="offset-top-35">Parcelas desde los $8.490.000, Un terreno es la mejor forma de asegurar el futuro de tu familia. A solo 138 km de Santiago y con buena conexión con otros destinos.</p>
+                            <p class="text-header-mob-small text-header-desktop">Parcelas desde los $29.990.000 <br> X región, Lago Chapo, 35 km de Puerto Montt</p>
                             <br>
-                            <button type="button" class="btn btn-primary video-btn" data-toggle="modal" data-src="https://www.youtube.com/embed/n0ORmVVdVqY" data-target="#myModal">
-                                ver video
-                            </button>
+                            <button type="button" class="btn btn-primary text-mobile-header ">
+                               <a href="laconsentida" target="blank" class="a-white"> mas información</a>
+                            </button> </div>
                         </div>
+                        
                         <div class="owl-item">
                             <hr class="divider veil reveal-md-inline-block">
-                            <h1>Parcelación <br> Lago Chapo</h1>
+                            
+                            <h1 class="font-proyectos">Parcelación<br> "El Volantín"</h1>
                             <br>
-                            <p class="offset-top-35">Parcelas desde los $7.990.000, Un terreno es la mejor forma de asegurar el futuro de tu familia. A solo 138 km de Santiago y con buena conexión con otros destinos.</p>
+                            <p class="text-header-mob-small text-header-desktop">Parcelas desde los $8.490.000<br> VI región, Marchihue, 135 km de Santiago</p>
                             <br>
-                            <button type="button" class="btn btn-primary video-btn" data-toggle="modal" data-src="https://www.youtube.com/embed/n0ORmVVdVqY" data-target="#myModal">
-                                ver video
-                            </button>
+                            <div><button type="button" class="btn btn-primary" target="blank"><a href="parcelacionelvolantin" target="blank" class="a-white">
+                                mas información</a>
+                            </button></div>
                         </div>
+                        
                     </div>
                 </div>
             </div>
@@ -90,47 +93,7 @@
     </header>
 </div>
 <!-- Page Content-->
-<main class="page-content">
-    <section id="formulario">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="well well-base">
-                    <div class="shell section-30 context-light text-md-center">
-                        <h2>Inscríbete en nuestra venta privada</h2>
-                    </div>
-                    <br>
-                    <form action="view/componentes/bat/rd-mailform.php" data-form-output="form-output-global" data-form-type="inicio" method="POST" class="offset-top-30 text-left rd-mailform">
-                        <div class="row">
-                            <div class="col-md-3">
-                                <div class="form-group">
-                                    <label class="form-label-static form-label-outside"></label>
-                                    <input type="text" id="contact-name" name="nombre" data-constraints="@Required" class="form-control" placeholder="Nombre Completo">
-                                </div>
-                            </div>
-                            <div class="col-md-3">
-                                <div class="form-group">
-                                    <label class="form-label-static form-label-outside"></label>
-                                    <input type="email" id="contact-email" name="email" data-constraints="@Email @Required" class="form-control" placeholder="Correo Electrónico">
-                                </div>
-                            </div>
-                            <div class="col-md-3">
-                                <div class="form-group">
-                                    <label class="form-label-static form-label-outside"></label>
-                                    <input type="text" id="contact-phone" name="numero" data-constraints="@Numeric @Required" class="form-control" placeholder="Teléfono">
-                                </div>
-                            </div>
-                            <br>
-                            <div class="col-md-3">
-                                <div class="offset-top-10">
-                                    <button type="submit" class="btn btn-block btn-primary ">Enviar</button>
-                                </div>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </section>
+
     <!-- TITULO PARCELAS -->
     <br>
     <section>
@@ -200,15 +163,56 @@
         </div>
     </section>
     <!-- NEWSLETTERS-->
-    <section class="bg-secundary section-45">
+    <main class="page-content">
+    <section id="formulario">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="well well-base">
+                    <div class="shell section-30 context-light text-md-center">
+                        <h2>Inscríbete en nuestra venta privada</h2>
+                    </div>
+                    <br>
+                    <form action="view/componentes/bat/rd-mailform.php" data-form-output="form-output-global" data-form-type="inicio" method="POST" class="offset-top-30 text-left rd-mailform">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <div class="form-group">
+                                    <label class="form-label-static form-label-outside"></label>
+                                    <input type="text" id="contact-name" name="nombre" data-constraints="@Required" class="form-control" placeholder="Nombre Completo">
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="form-group">
+                                    <label class="form-label-static form-label-outside"></label>
+                                    <input type="email" id="contact-email" name="email" data-constraints="@Email @Required" class="form-control" placeholder="Correo Electrónico">
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="form-group">
+                                    <label class="form-label-static form-label-outside"></label>
+                                    <input type="text" id="contact-phone" name="numero" data-constraints="@Numeric @Required" class="form-control" placeholder="Teléfono">
+                                </div>
+                            </div>
+                            <br>
+                            <div class="col-md-3">
+                                <div class="offset-top-10">
+                                    <button type="submit" class="btn btn-block btn-primary ">Enviar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--<section class="bg-secundary section-45">
         <div class="shell text-lg-left context-light">
             <div class="range range-xs-middle range-xs-center">
                 <div class="col-lg-6">
                     <h4>Subscribete a nuestro newsletter</h4>
                 </div>
-                <div class="col-sm-8 col-lg-6 offset-top-20 offset-lg-top-0">
+                <div class="col-sm-8 col-lg-6 offset-top-20 offset-lg-top-0">-->
                     <!-- RD Mailform-->
-                    <form data-form-output="form-output-global" data-form-type="subscribe" method="post" class="form-inline-custom-sm rd-mailform text-center">
+                   <!-- <form data-form-output="form-output-global" data-form-type="subscribe" method="post" class="form-inline-custom-sm rd-mailform text-center">
                         <div class="form-group">
                             <label for="sub-email" class="form-label">Ingrese su mail</label>
                             <input id="sub-email" type="email" name="email" data-constraints="@Email @Required" class="form-control">
@@ -218,7 +222,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section>-->
     <!-- CARACTERISTICAS DE LAS PARCELAS-->
     <section id="proyectos">
         <div class="shell section-45 section-lg-45">
