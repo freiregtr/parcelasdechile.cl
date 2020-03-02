@@ -333,9 +333,7 @@
         <hr>
         <div class="slider">
             <div class="slide-track">
-                <div class="slide">
-                    <img src="view/componentes/img/inversionistas/1.png" width="250" height="100" alt="" />
-                </div>
+                
                 <div class="slide">
                     <img src="view/componentes/img/inversionistas/2.png" height="100" width="250" alt="" />
                 </div>
@@ -345,9 +343,7 @@
                 <div class="slide">
                     <img src="view/componentes/img/inversionistas/4.png" height="100" width="250" alt="" />
                 </div>
-                <div class="slide">
-                    <img src="view/componentes/img/inversionistas/1.png" width="250" height="100" alt="" />
-                </div>
+                
                 <div class="slide">
                     <img src="view/componentes/img/inversionistas/2.png" height="100" width="250" alt="" />
                 </div>
@@ -357,9 +353,8 @@
                 <div class="slide">
                     <img src="view/componentes/img/inversionistas/4.png" height="100" width="250" alt="" />
                 </div>
-                <div class="slide">
-                    <img src="view/componentes/img/inversionistas/1.png" width="250" height="100" alt="" />
-                </div>
+                
+                
                 <div class="slide">
                     <img src="view/componentes/img/inversionistas/2.png" height="100" width="250" alt="" />
                 </div>
