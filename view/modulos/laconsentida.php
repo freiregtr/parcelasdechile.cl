@@ -141,13 +141,41 @@
                                                 <p>$34.990.000</p>
                                             </div>
                                         </div>
+                                         <div class="col-md-3">
+                                            <br>
+                                            <div class="valor6">
+                                                <p>$38.990.000</p>
+                                            </div>
+                                        </div>
                                         
-                                        <div class="col-md-3">
+                                       <div class="col-md-3">
                                             <br>
                                             <div class="valor2">
                                                 <p>$39.990.000</p>
                                             </div>
                                         </div>
+                                        
+                                         <div class="col-md-3">
+                                            <br>
+                                            <div class="valor7">
+                                                <p>$44.990.000</p>
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="col-md-3">
+                                            <br>
+                                            <div class="valor8">
+                                                <p>$54.990.000</p>
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="col-md-3">
+                                            <br>
+                                            <div class="valor9">
+                                                <p>$69.990.000</p>
+                                            </div>
+                                        </div>
+                                        
                                         <div class="col-md-3">
                                             <br>
                                             <div class="valor5">
@@ -155,7 +183,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                </div>
+                                </div>  
                             </div>
                         </section>
                     </div>
@@ -165,7 +193,7 @@
                     <div class="container-fluid">
                         <div class="card text-center">
                             <div class="card-body ">
-                                <a href="https://drive.google.com/file/d/1EY7gQKCyvZiBGqQqOmnZTiAA-lo0oTbq/view?usp=sharing" target="_blank" download="LaConsentida" class="btn btn-primary shadow2">DESCARGAR PLANO</a>
+                                <a href="https://drive.google.com/file/d/1ChSaiQDwqq3vBtVb8UlhXU2TJjE93rji/view?usp=sharing" target="_blank" download="LaConsentida" class="btn btn-primary shadow2">DESCARGAR PLANO</a>
                             </div>
                         </div>
                     </div>

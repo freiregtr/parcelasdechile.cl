@@ -1904,7 +1904,7 @@ select[multiple].input-lg,
 
 
 .valor2{
-    background-color: rgba(83,147,67,1);
+    background-color: rgba(57,142,45,1);
     color: #fff;
     text-align: center;
 }
@@ -1940,6 +1940,42 @@ select[multiple].input-lg,
     text-align: center;
 }
 .valor5 p{
+    margin: 5px;
+}
+
+.valor6{
+    background-color: rgba(252,107,8,1);
+    color: #fff;
+    text-align: center;
+}
+.valor6 p{
+    margin: 5px;
+}
+
+.valor7{
+    background-color: rgba(0,85,137,1);
+    color: #fff;
+    text-align: center;
+}
+.valor7 p{
+    margin: 5px;
+}
+
+.valor8{
+    background-color: rgba(22,139,211,1);
+    color: #fff;
+    text-align: center;
+}
+.valor8 p{
+    margin: 5px;
+}
+
+.valor9{
+    background-color: rgba(22,91,27,1);
+    color: #fff;
+    text-align: center;
+}
+.valor9 p{
     margin: 5px;
 }
 
