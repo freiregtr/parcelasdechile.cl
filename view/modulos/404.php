@@ -18,7 +18,7 @@
                         
                         <button data-rd-navbar-toggle=".rd-navbar-nav-wrap" class="rd-navbar-toggle"><span></span></button>
                         <!-- LOGO-->
-                        <div class="rd-navbar-brand"><a href="inicio" class="brand-name"><img src="view/componentes/img/logo/logon.png" width="228" height="83" alt="Parcelas de chile"></a>
+                        <div class="rd-navbar-brand"><a href="inicio" class="brand-name"><img src="view/componentes/img/logo/logo18.png" width="228" height="83" alt="Parcelas de chile"></a>
                         </div>
                         
                         <!-- TELÉFONO-->
@@ -38,6 +38,7 @@
                             <li><a href="parcelacionelvolantin">Proyectos</a>
                                 <!-- RD Navbar Dropdown-->
                                 <ul class="rd-navbar-dropdown">
+                                <li><a href="larosaconelclavel">La Rosa con El Clavel</a></li>
                                 <li><a href="lagochapo">Lago Chapo</a></li>
                                 <li><a href="parcelacionelvolantin">El Volantín</a></li>
                                 <li><a href="laconsentida">La Consentida</a></li>

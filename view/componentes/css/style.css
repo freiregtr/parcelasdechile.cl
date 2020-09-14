@@ -10596,6 +10596,13 @@ fieldset[disabled] .bg-gray-base .btn-primary {
 }
 
 
+.bg-image-larosa {
+  background: url(../img/proyectos/larosaconelclavel/larosa-banner.jpg);
+  background-size: cover;
+
+}
+
+
 
 .bg-image-trabajaconnosotros {
   background: url(../img/trabajaconnosotros.jpg);

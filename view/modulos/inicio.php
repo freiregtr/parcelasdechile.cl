@@ -8,7 +8,7 @@
                     <!-- RD Navbar Toggle-->
                     <button data-rd-navbar-toggle=".rd-navbar-nav-wrap" class="rd-navbar-toggle"><span></span></button>
                     <!-- RD Navbar Brand-->
-                    <div class="rd-navbar-brand"><a href="inicio" class="brand-name"><img src="view/componentes/img/logo/logon.png" class="rd-navbar-brand-img" height="85" alt="Parcelas de chile"></a>
+                    <div class="rd-navbar-brand"><a href="inicio" class="brand-name"><img src="view/componentes/img/logo/logo18.png" class="rd-navbar-brand-img" height="85" alt="Parcelas de chile"></a>
                     </div>
                     <div class="rd-navbar-contacts rd-navbar-collapse rd-navbar-collapse-2"><span>Contáctanos</span>
                         <div><span class="icon1 fa-phone text-primary"></span><a href="callto:> +56958053609"></a><a>+56 9 4007 5222</a>
@@ -24,6 +24,7 @@
                         <li><a href="#">Proyectos</a>
                             <!-- RD Navbar Dropdown-->
                             <ul class="rd-navbar-dropdown">
+                                <li><a href="larosaconelclavel">La Rosa con El Clavel</a></li>
                                <li><a href="laconsentida">La Consentida</a></li>
                                 <li><a href="parcelacionelvolantin">El Volantín</a></li>
                                 <li><a href="lagochapo">Lago Chapo</a></li>
@@ -104,7 +105,22 @@
     <!-- PROYECTOS-->
     <section id="sliderproyectos ">
         <div id="child-carousel" data-arrows="true" data-loop="true" data-dots="true" data-swipe="true" data-items="1" data-xs-items="1" data-sm-items="1" data-md-items="2" data-lg-items="2" data-slide-to-scroll="1" class="slick-slider slick-child ">
-           
+           <!--LA ROSA CON EL CLAVEL -->
+           <div class="item mov">
+                <div class="reveal-block thumbnail-variant-1">
+                    <div class="caption-wrapper">
+                        <img src="view/componentes/img/proyectos/larosaconelclavel/larosa1.jpg" width="960" height="567" alt="La Rosa con El Clavel" class="img-responsive center-block">
+                        <div class="caption shadow2"><a href="#" class="label label-primary">VI Región</a></div>
+                    </div>
+                    <div class="caption-2">
+                        <hr class="divider veil reveal-md-inline-block shadow2">
+                        <h2 class="context-dark shadow1">La Rosa con El Clavel</h2>
+                        <br>
+                     <p class="text-white shadow1 ">Región de O'Hoggins, Pumanque</p>
+                        <a href="larosaconelclavel" class="btn btn-primary-variant-1 ">Ver más</a>
+                    </div>
+                </div>
+            </div>
             <!-- LA CONSENTIDA-->
             <div class="item mov">
                 <div class="reveal-block thumbnail-variant-1">
@@ -116,10 +132,7 @@
                         <hr class="divider veil reveal-md-inline-block shadow2">
                         <h2 class="context-dark shadow1">La Consentida</h2>
                         <br>
-                       <div class="precios">
-                            <h3>VENTA EN VERDE</h3>
-                       </div>
-                        <p class="text-white shadow1 ">Región de los Lagos, Puerto Montt</p>
+                     <p class="text-white shadow1 ">Región de los Lagos, Puerto Montt</p>
                         <a href="laconsentida" class="btn btn-primary-variant-1 ">Ver más</a>
                     </div>
                 </div>

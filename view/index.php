@@ -122,6 +122,7 @@
             $_GET["ruta"] == "laconsentida"          ||
             $_GET["ruta"] == "politicadeprivacidad"  ||
             $_GET["ruta"] == "noticiaslagochapo"     ||
+            $_GET["ruta"] == "larosaconelclavel"     ||
             $_GET["ruta"] == "quienessomos"
 
 
@@ -168,7 +169,12 @@
             echo '<script src="view/componentes/mapsvg/js/laconsentida.js"></script>';
             echo '<script src="view/js/flipconsentida.js"></script>';         
         
-         }
+         }else if($_GET["ruta"] == "larosaconelclavel"){
+          echo '<script src="view/js/fliplarosa.js"></script>';
+            
+        }
+
+
     }
     ?>
 </body>
