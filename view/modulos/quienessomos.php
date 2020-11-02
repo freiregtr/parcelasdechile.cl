@@ -24,10 +24,13 @@
                         <li><a href="parcelacionelvolantin">Proyectos</a>
                             <!-- RD Navbar Dropdown-->
                             <ul class="rd-navbar-dropdown">
-                                <li><a href="larosaconelclavel">La Rosa con El Clavel</a></li>
-                                <li><a href="laconsentida">La Consentida</a></li>
-                                 <li><a href="parcelacionelvolantin">El Volantín</a></li>
-                                <li><a href="lagochapo">Lago Chapo</a></li>
+                                <li><a href="larosaconelclavel"><img src="view/componentes/images/iconos-menu/icono-menu-larosaconelclavel.svg" class="iconos-menu"> </img>La Rosa con El Clavel</a></li>
+
+                            <li><a href="laconsentida"><img src="view/componentes/images/iconos-menu/icono-menu-laconsentida.svg" class="iconos-menu"> </img>La Consentida</a></li>
+                                                                 
+                            <li><a href="parcelacionelvolantin"><img src="view/componentes/images/iconos-menu/icono-menu-volantin.svg" class="iconos-menu"> </img> El Volantín</a></li>
+
+                            <li><a href="lagochapo"><img src="view/componentes/images/iconos-menu/icono-menu-lagochapo.svg" class="iconos-menu"> </img>Lago Chapo</a></li>
                               
 
                             </ul>
@@ -59,7 +62,7 @@
                     <div class="container-fluid">
                         <div class="row">
                             <div class="col-md-6">
-                                <img src="view/componentes/img/oficina-min.jpg" class="img-responsive center-block" width="100%;" alt="">
+                                <img src="view/componentes/img/oficina-min-1.jpg" class="img-responsive center-block" width="100%;" alt="">
                             </div>
                             <div class="col-md-6">
                                 <div class="context-light">

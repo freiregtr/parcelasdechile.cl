@@ -123,6 +123,7 @@
             $_GET["ruta"] == "politicadeprivacidad"  ||
             $_GET["ruta"] == "noticiaslagochapo"     ||
             $_GET["ruta"] == "larosaconelclavel"     ||
+            $_GET["ruta"] == "reservaonline"         ||
             $_GET["ruta"] == "quienessomos"
 
 

@@ -37,6 +37,9 @@ try {
             case 'contacto':
                 $subject = 'Un mensaje del formulario de contacto';
                 break;
+            case 'reserva online':
+                $subject = 'Un mensaje del formulario de la reserva';
+                break;
             default:
                 $subject = 'A message from your site visitor';
                 break;
@@ -106,10 +109,24 @@ try {
         $mail->addAddress($value[0]);
     }
 
+    $mail->isSMTP();
+    $mail->SMTPAuth   = true;
+    $mail->Port       = 587;
+
+    $mail->SMTPSecure = "tls";
+
+    $mail->Host       = "smtp.gmail.com";
+    $mail->Username   = "info@parcelasdechile.cl";
+    $mail->Password   = "eieibbglbhbmsvbg";
+    $mail->From       = "info@parcelasdechile.cl";
+    $mail->FromName   = "Parcelas Chile";
+
     $mail->CharSet = 'utf-8';
     $mail->Subject = $subject;
     $mail->MsgHTML($template);
     $mail->send();
+
+
 
     die('MF000');
 } catch (phpmailerException $e) {
@@ -117,3 +134,5 @@ try {
 } catch (Exception $e) {
     die('MF255');
 }
+
+?>

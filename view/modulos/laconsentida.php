@@ -12,7 +12,7 @@
                     </div>
                     <!-- TELÉFONO-->
                     <div class="rd-navbar-contacts rd-navbar-collapse rd-navbar-collapse-2"><span>Contáctanos</span>
-                        <div><span class="icon1 fa-phone text-primary"></span><a href="callto:> +56958053609"></a><a>+56 9 4007 5222</a>
+                        <div><span class="icon1 fa-phone text-primary"></span><a href="callto:> +56940075222"></a><a>+56 9 4007 5222</a>
                         </div>
                     </div>
                 </div>
@@ -25,10 +25,13 @@
                         <li class="active"><a href="parcelacionelvolantin">Proyectos</a>
                             <!-- RD Navbar Dropdown-->
                             <ul class="rd-navbar-dropdown">
-                                <li><a href="larosaconelclavel">La Rosa con El Clavel</a></li>
-                                <li><a href="laconsentida">La Consentida</a></li>
-                                <li><a href="parcelacionelvolantin">El Volantín</a></li>
-                                <li><a href="lagochapo">Lago Chapo</a></li>
+                                <li><a href="larosaconelclavel"><img src="view/componentes/images/iconos-menu/icono-menu-larosaconelclavel.svg" class="iconos-menu"> </img>La Rosa con El Clavel</a></li>
+
+                            <li><a href="laconsentida"><img src="view/componentes/images/iconos-menu/icono-menu-laconsentida.svg" class="iconos-menu"> </img>La Consentida</a></li>
+                                                                 
+                            <li><a href="parcelacionelvolantin"><img src="view/componentes/images/iconos-menu/icono-menu-volantin.svg" class="iconos-menu"> </img> El Volantín</a></li>
+
+                            <li><a href="lagochapo"><img src="view/componentes/images/iconos-menu/icono-menu-lagochapo.svg" class="iconos-menu"> </img>Lago Chapo</a></li>
                             </ul>
                         </li>
                         <li><a href="quienessomos">Quienes Somos</a></li>
@@ -194,7 +197,7 @@
                     <div class="container-fluid">
                         <div class="card text-center">
                             <div class="card-body ">
-                                <a href="https://drive.google.com/file/d/1ChSaiQDwqq3vBtVb8UlhXU2TJjE93rji/view?usp=sharing" target="_blank" download="LaConsentida" class="btn btn-primary shadow2">DESCARGAR PLANO</a>
+                                <a href="https://drive.google.com/file/d/1hEbiZykEfcDLpVRJRnNHRiytIvWwaJuc/view?usp=sharing" target="_blank" download="LaConsentida" class="btn btn-primary shadow2">DESCARGAR PLANO</a>
                             </div>
                         </div>
                     </div>

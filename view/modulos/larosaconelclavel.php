@@ -25,10 +25,13 @@
                         <li class="active"><a href="parcelacionelvolantin">Proyectos</a>
                             <!-- RD Navbar Dropdown-->
                             <ul class="rd-navbar-dropdown">
-                                <li><a href="larosaconelclavel">La Rosa con El Clavel</a></li>
-                                <li><a href="laconsentida">La Consentida</a></li>
-                                <li><a href="parcelacionelvolantin">El Volantín</a></li>
-                                <li><a href="lagochapo">Lago Chapo</a></li>
+                                <li><a href="larosaconelclavel"><img src="view/componentes/images/iconos-menu/icono-menu-larosaconelclavel.svg" class="iconos-menu"> </img>La Rosa con El Clavel</a></li>
+
+                            <li><a href="laconsentida"><img src="view/componentes/images/iconos-menu/icono-menu-laconsentida.svg" class="iconos-menu"> </img>La Consentida</a></li>
+                                                                 
+                            <li><a href="parcelacionelvolantin"><img src="view/componentes/images/iconos-menu/icono-menu-volantin.svg" class="iconos-menu"> </img> El Volantín</a></li>
+
+                            <li><a href="lagochapo"><img src="view/componentes/images/iconos-menu/icono-menu-lagochapo.svg" class="iconos-menu"> </img>Lago Chapo</a></li>
                             </ul>
                         </li>
                         <li><a href="quienessomos">Quienes Somos</a></li>
@@ -114,6 +117,8 @@
                                         <p class="offset-top-20">Pertenecedora de patrimonios vivos y naturales, esta región refleja lo profundo de nuestras costumbres y enarbola a uno de los personajes típicos de la historia nacional, “El Huaso Chileno”.</p>
                                     </div>
                                 </div>
+                            </div>
+                        </section>
                                  <br>
                                 <br>
                                 <br>
@@ -130,17 +135,20 @@
                                 <br> -->
                                 <!-- VALORES-->
                                 <!--Plano-->
-                                <section>
+                   <section>         
                 <div class="container">
+                    <div class="context-light">
+                    <h2 class="offset-top-50 section-bottom-30 text-center">Etapa 1</h2>
+                </div>
                                     <div class="row">
                                         <div class="col-md-12">
                             <img src="view/componentes/img/larosaconelclavel.jpg" width="100%" frameborder="0" style="border:0" allowfullscreen></img>
                         </div>
                     </div>
                 </div>
-            </section>
+            
 
-                                <div class="container">
+                               <!-- <div class="container">
                                     <div class="row">
                                        
                                         
@@ -174,8 +182,88 @@
                                         </div>
                                     </div>
                                 </div>  
+                            </div> -->
+                       
+                  
+                <br>
+                <section class="section-top-70  section-bottom-70">
+                    <div class="container-fluid">
+                        <div class="card text-center">
+                            <div class="card-body ">
+                                <a href="https://drive.google.com/file/d/1JeMJwiF3fTtBzExJdDB21HooDlo4Fhrd/view?usp=sharing" target="_blank" download="PreciosLaRosaConElClavel" class="btn btn-primary shadow2">DESCARGAR PLANO</a>
                             </div>
-                        </section>
+                        </div>
+                    </div>
+               </section> 
+           </section>
+                <!--<hr>
+                <section class="section-top-70  section-bottom-70">
+                    <div class="container-fluid">
+                        <div class="card text-center">
+                            <div class="card-body ">
+                                <a href="reservaonline" target="_blank" class="btn btn-primary shadow2">RESERVAR PARCELA </a>
+                            </div>
+                        </div>
+                    </div>
+                </section> -->
+            </div>
+
+            <section>
+
+<div class="container">
+                    <div class="context-light">
+                    <h2 class="offset-top-50 section-bottom-30 text-center">Etapa 2</h2>
+                </div>
+                                    <div class="row">
+                                        <div class="col-md-12">
+                            <img src="view/componentes/img/larosaconelclavel2.jpg" width="100%" frameborder="0" style="border:0" allowfullscreen></img>
+                        </div>
+                    </div>
+                </div>
+            
+
+                               <!-- <div class="container">
+                                    <div class="row">
+                                       
+                                        
+                                         <div class="col-md-3">
+                                            <br>
+                                            <div class="valor1">
+                                                <p>$5.990.000</p>
+                                            </div>
+                                        </div>
+                                        
+                                       <div class="col-md-3">
+                                            <br>
+                                            <div class="valor6">
+                                                <p>$6.490.000</p>
+                                            </div>
+                                        </div>
+                                        
+                                         <div class="col-md-3">
+                                            <br>
+                                            <div class="valor2">
+                                                <p>$6.990.000</p>
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="col-md-3">
+                                            <br>
+                                            <div class="valor7">
+                                                <p>$9.990.000</p>
+                                            </div>
+                                        </div>
+                                        
+                                          <div class="col-md-3">
+                                            <br>
+                                            <div class="valor5">
+                                                <p>NO DISPONIBLES</p>
+                                            </div> 
+                                        </div>
+                                    </div>
+                                </div>  
+                            </div> -->
+                       
                     </div>
                 </div>
                 <br>
@@ -183,13 +271,12 @@
                     <div class="container-fluid">
                         <div class="card text-center">
                             <div class="card-body ">
-                                <a href="https://drive.google.com/file/d/1TWJW4zwrO6kSNtBDQ29AtCagLWAzxSoU/view?usp=sharing" target="_blank" download="PreciosLaRosaConElClavel" class="btn btn-primary shadow2">DESCARGAR PLANO</a>
+                                <a href="https://drive.google.com/file/d/1Lcne0sXjkG1AWiLyMvtXDc7U69_ja_nv/view?usp=sharing" target="_blank" download="PreciosLaRosaConElClavel" class="btn btn-primary shadow2">DESCARGAR PLANO</a>
                             </div>
                         </div>
                     </div>
                 </section>
-                <hr>
-            </div>
+</section>
             <section id="sliderproyectos ">
                 <div class="context-light">
                     <h2 class="offset-top-50 section-bottom-30 text-center">Galería</h2>

@@ -25,13 +25,18 @@
                             <li class="active"><a href="parcelacionelvolantin">Proyectos</a>
                                 <!-- RD Navbar Dropdown-->
                                  <ul class="rd-navbar-dropdown">
-                                    <li><a href="larosaconelclavel">La Rosa con El Clavel</a></li>
-                                                                <li><a href="laconsentida">La Consentida</a></li>
-                                                                 <li><a href="parcelacionelvolantin">El Volantín</a></li>
+                                    
+                            <li><a href="larosaconelclavel"><img src="view/componentes/images/iconos-menu/icono-menu-larosaconelclavel.svg" class="iconos-menu"> </img>La Rosa con El Clavel</a></li>
 
-                                <li><a href="lagochapo">Lago Chapo</a></li>
+                            <li><a href="laconsentida"><img src="view/componentes/images/iconos-menu/icono-menu-laconsentida.svg" class="iconos-menu"> </img>La Consentida</a></li>
+                                                                 
+                            <li><a href="parcelacionelvolantin"><img src="view/componentes/images/iconos-menu/icono-menu-volantin.svg" class="iconos-menu"> </img> El Volantín</a></li>
+
+                            <li><a href="lagochapo"><img src="view/componentes/images/iconos-menu/icono-menu-lagochapo.svg" class="iconos-menu"> </img>Lago Chapo</a></li>
+
                             </ul>
                             </li>
+                            
                             <li><a href="quienessomos">Quienes Somos</a></li>
                             <li><a href="trabajaconnosotros">Trabaja con nosotros</a></li>
                             <li><a href="contacto">Contacto</a></li>
@@ -299,7 +304,7 @@
                                                         <br>
                                                         <h2 class="shadow1">Parcelación El Volantín</h2>
                                                         <br>
-                                                        <h3 class="shadow1" class="offset-top-30 text-primary">Desde los $7.990.000</h3>
+                                                        <h3 class="shadow1" class="offset-top-30 text-primary">Desde los $8.490.000</h3>
                                                         <br>
                                                         <p class="shadow1" class="offset-top-30">Marchihue en la Provincia de Cardenal Caro <br> (Región del Libertador General Bernardo O'Higgins)<br>es un lugar en Chile a 138 km al suroeste de Santiago.</p>
                                                         <a href="parcelacionelvolantin" class="offset-top-20 btn btn-primary text-regular shadow2">Ver más</a>
