@@ -25,13 +25,13 @@
                         <li class="active"><a href="parcelacionelvolantin">Proyectos</a>
                             <!-- RD Navbar Dropdown-->
                             <ul class="rd-navbar-dropdown">
-                                <li><a href="larosaconelclavel"><img src="view/componentes/images/iconos-menu/icono-menu-larosaconelclavel.svg" class="iconos-menu"> </img>La Rosa con El Clavel</a></li>
+                                <li><a href="larosaconelclavel"><img src="view/componentes/images/iconos-menu/icono-menu-larosaconelclavel.svg" class="iconos-menu" width="70"> </img>La Rosa con El Clavel</a></li>
 
-                            <li><a href="laconsentida"><img src="view/componentes/images/iconos-menu/icono-menu-laconsentida.svg" class="iconos-menu"> </img>La Consentida</a></li>
+                            <li><a href="laconsentida"><img src="view/componentes/images/iconos-menu/icono-menu-laconsentida.svg" class="iconos-menu" width="70"> </img>La Consentida</a></li>
                                                                  
-                            <li><a href="parcelacionelvolantin"><img src="view/componentes/images/iconos-menu/icono-menu-volantin.svg" class="iconos-menu"> </img> El Volantín</a></li>
+                            <li><a href="parcelacionelvolantin"><img src="view/componentes/images/iconos-menu/icono-menu-volantin.svg" class="iconos-menu" width="70"> </img> El Volantín</a></li>
 
-                            <li><a href="lagochapo"><img src="view/componentes/images/iconos-menu/icono-menu-lagochapo.svg" class="iconos-menu"> </img>Lago Chapo</a></li>
+                            <li><a href="lagochapo"><img src="view/componentes/images/iconos-menu/icono-menu-lagochapo.svg" class="iconos-menu" width="70"> </img>Lago Chapo</a></li>
                             </ul>
                         </li>
                         <li><a href="quienessomos">Quienes Somos</a></li>
