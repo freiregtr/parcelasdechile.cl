@@ -23,7 +23,7 @@
                         <li><a href="parcelacionelvolantin">Proyectos</a>
                             <!-- RD Navbar Dropdown-->
                              <ul class="rd-navbar-dropdown">
-                                <li><a href="larosaconelclavel"><img src="view/componentes/images/iconos-menu/icono-menu-larosaconelclavel.svg" class="iconos-menu" width="70"> </img>La Rosa con El Clavel</a></li>
+                                <li><a href="larosaconelclavel"><img src="view/componentes/images/iconos-menu/icono-menu-larosaconelclavel.svg" class="iconos-menu" width="70"> </img> La Rosa con El Clavel</a></li>
 
                             <li><a href="laconsentida"><img src="view/componentes/images/iconos-menu/icono-menu-laconsentida.svg" class="iconos-menu" width="70"> </img>La Consentida</a></li>
                                                                  
@@ -35,7 +35,7 @@
                             </ul>
                         </li>
                         <li><a href="quienessomos">Quienes Somos</a></li>
-                        <li class="active"><a href="trabajaconnosotros">Trabaja con nosotros</a></li>
+                        <li><a href="trabajaconnosotros">Trabaja con nosotros</a></li>
                         <li><a href="vendetucampo">Vende tu campo con nosotros </a></li>
                         <li><a href="contacto">Contacto</a></li>
                         <li><a href="faq">FAQ</a></li>
@@ -49,45 +49,21 @@
         <div class="shell text-left">
             <ol class="breadcrumb">
                 <li><a href="inicio">Home</a></li>
-                <li class="active">Trabaja con nosotros
-                </li>
-            </ol>
+        </ol>
         </div>
     </section>
     <!-- Page Content-->
     <main class="page-content">
-        <section class=" text-center section-bottom-70  section-top-10 page-header bg-image-trabajaconnosotros">
-            <div class="container-fluid">
-                <div class="row">
-                    <section id="proyectos">
-                        <div class="shell section-70 section-lg-70 text-md-left">
-                            <br>
-                            <div class="range range-xs-around text-center">
-                                <div class="cell-lg-4 cell-md-4"><span class="icon1 icon-lg icon-circle icon-secundary fa-bookmark shadow1"></span>
-                                    <h3 class="offset-top-20 shadow1">COMISIÓNES</h3>
-                                </div>
-                                <div class="cell-lg-4 cell-md-4"><span class="icon1 icon-lg icon-circle icon-secundary fa-bookmark shadow1"></span>
-                                    <h3 class="offset-top-20 shadow1">INCENTIVO POR VENTA</h3>
-                                </div>
-                                <div class="cell-lg-4 cell-md-4"><span class="icon1 icon-lg icon-circle icon-secundary fa-bookmark shadow1"></span>
-                                    <h3 class="offset-top-20 shadow1">FREELANCE</h3>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-                </div>
-            </div>
-        </section>
-        <div class="container-fluid">
+       <div class="container-fluid">
             <section class="section-top-70 section-bottom-80">
                 <div class="shell text-md-left">
                     <div class="row">
                         <div>
                             <div class="context-light">
-                                <h2 class="offset-top-35 section-bottom-30 text-center">Trabaja con nosotros</h2>
+                                <h2 class="offset-top-35 section-bottom-30 text-center">Vende tu campo con nostros </h2>
                             </div>
                             <hr>
-                            <p class="offset-top-16 text-center">Si tienes experiencia en ventas y si deseas ser parte de una empresa donde <br> las comisiones son las mas altas del mercado, puedes postular acá.</p>
+                            <p class="offset-top-16 text-center">Déjanos toda la información sobre tu terreno y nos pondremos en contacto a la brevedad </p>
                             <!-- RD Mailform-->
                             <div class="container">
                                 <div class="row">
@@ -95,7 +71,7 @@
 
                                     </div>
                                     <div class="col-md-8">
-                                        <form action="view/componentes/bat/rd-mailform.php" data-form-output="form-output-global" data-form-type="empleo" method="post" class="offset-top-40 text-left rd-mailform">
+                                        <form action="view/componentes/bat/rd-mailform.php" data-form-output="form-output-global" data-form-type="reserva online" method="post" class="offset-top-40 text-left rd-mailform">
                                             <div class="range range-xs-middle">
                                                 <div class="cell-lg-2">
                                                     <p class="text-base">Nombre</p>
@@ -129,17 +105,57 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="range offset-top-20">
-                                                <div class="cell-lg-2 text-lg-nowrap">
-                                                    <p class="text-base">Mensaje</p>
+                                            <div class="range range-xs-middle offset-top-20">
+                                                <div class="cell-lg-2">
+                                                    <p class="text-base">De que tamaño es?</p>
                                                 </div>
                                                 <div class="cell-lg-10 offset-top-7 offset-lg-top-0">
                                                     <div class="form-group">
-                                                        <label for="contact-message" class="form-label">Cuéntanos acerca de ti</label>
-                                                        <textarea id="contact-message" name="mensaje" data-constraints="@Required" class="form-control"></textarea>
+                                                        <label for="contact-phone" class="form-label">Escribe la cantidad de hectareas </label>
+                                                        <input id="contact-phone" type="text" name="s" data-constraints="@Numeric @Required" class="form-control">
                                                     </div>
                                                 </div>
                                             </div>
+                                            
+                                            <div class="range range-xs-middle offset-top-20">
+                                                <div class="cell-lg-2">
+                                                    <p class="text-base">Donde esta ubicado?</p>
+                                                </div>
+                                                <div class="cell-lg-10 offset-top-7 offset-lg-top-0">
+                                                    <div class="form-group">
+                                                        <label for="contact-name" class="form-label">Escribe región y la ciudad más cercana</label>
+                                                        <input id="ubicacion" type="text" name="ubicacion" data-constraints="@Required" class="form-control">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            
+                                            <div class="range range-xs-middle offset-top-20">
+                                        <div class="cell-lg-2">
+                                            <p class="text-base">Cuentanos un poco del campo</p>
+                                        </div>
+                                        <div class="cell-lg-10 offset-top-7 offset-lg-top-0">
+                                            <div class="form-group">
+                                                <label for="contact-message" class="form-label">Si esta plano, si esta cerca de algun lago/rio/playa, tipo de suelo etc. </label>
+                                                <textarea id="contact-message" name="mensaje" data-constraints="@Required" class="form-control"></textarea>
+                                            </div>
+                                        </div>
+                                    </div>
+
+<!--<div class="range offset-top-20">
+    <div class="cell-lg-10 offset-top-7 offset-lg-top-0">
+                                                    <div class="form-group">
+                                            <select name="proyecto">
+                                                <label for="proyecto" class="form-label">Elige el proyecto donde quiere reservar</label>
+    <option value="LaConsentida">La Consentida (X región)</option>
+      <option value="LaRefalosa">La Refalosa (X región)</option>
+      <option value="LaRosaConElClavel">La Rosa con El Clavel (VI región)</option>
+      <option value="ElVolantin">El Volantin (VI región)</option>
+</select>
+</div>
+</div> -->
+
+
+
                                             <div class="range offset-top-20 text-center text-sm-left">
                                                 <div class="cell-lg-5 cell-lg-preffix-2">
                                                     <button type="submit" class="btn btn-primary">Enviar</button>

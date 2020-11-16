@@ -1,38 +1,27 @@
 <!-- Page-->
 <div class="page text-center">
-    <!-- Page Header-->
-    
+    <!-- HEADER -->
     <header class="page-header">
         <!-- RD Navbar-->
-        
         <div class="rd-navbar-wrap">
             <nav data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fixed" data-md-device-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-static" data-lg-device-layout="rd-navbar-static" data-sm-stick-up-offset="150px" data-md-stick-up-offset="1px" data-lg-stick-up-offset="150px" class="rd-navbar">
-               
-                <button data-rd-navbar-toggle=".rd-navbar-collapse" class="rd-navbar-collapse-toggle"><span></span></button>
-                
                 <div class="rd-navbar-panel">
                     <!-- RD Navbar Panel-->
-                    
                     <div class="rd-navbar-inner">
                         <!-- RD Navbar Toggle-->
-                        
                         <button data-rd-navbar-toggle=".rd-navbar-nav-wrap" class="rd-navbar-toggle"><span></span></button>
-                        <!-- LOGO-->
-                        <div class="rd-navbar-brand"><a href="inicio" class="brand-name"><img src="view/componentes/img/logo/logo18.png" width="228" height="83" alt="Parcelas de chile"></a>
+                        <!-- RD Navbar Brand-->
+                        <div class="rd-navbar-brand"><a href="inicio" class="brand-name"><img src="view/componentes/img/logo/logon.png" height="85" alt="Parcelas de chile"></a>
                         </div>
-                        
-                        <!-- TELÉFONO-->
                         <div class="rd-navbar-contacts rd-navbar-collapse rd-navbar-collapse-2"><span>Póngase en contacto con nosotros</span>
-                            <div><span class="icon fa-phone text-primary"></span><a href="callto:> +56958053609"></span><a>+56 9 5805 3609</a>
+                            <div><span class="icon1 fa-phone text-primary"></span><a href="callto:> +56958053609"></span><a>+56 9 4007 5222</a>
                             </div>
                         </div>
-                        
                     </div>
                 </div>
-                
                 <div class="rd-navbar-nav-wrap">
                     <div class="rd-navbar-inner">
-                        <!-- NAVBAR-->
+                        <!-- RD Navbar Nav-->
                         <ul class="rd-navbar-nav">
                             <li><a href="inicio">Home</a></li>
                             <li><a href="parcelacionelvolantin">Proyectos</a>
@@ -51,9 +40,10 @@
                             <li><a href="quienessomos">Quienes Somos</a></li>
                             <!-- RD Navbar Dropdown-->
                             <li><a href="trabajaconnosotros">Trabaja con nosotros</a></li>
-                            <li><a href="beneficiarios">Beneficiarios</a></li>
+                             <li><a href="vendetucampo">Vende tu campo con nosotros </a></li>
                             <li><a href="contacto">Contacto</a></li>
                             <li><a href="faq">FAQ</a></li>
+                            <li class="active"><a href="blog">Blog</a></li>
                         </ul>
                     </div>
                 </div>

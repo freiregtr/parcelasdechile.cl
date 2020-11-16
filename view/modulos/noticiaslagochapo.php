@@ -35,6 +35,7 @@
                         <li><a href="quienessomos">Quienes Somos</a></li>
                         <!-- RD Navbar Dropdown-->
                         <li><a href="trabajaconnosotros">Trabaja con nosotros</a></li>
+                        <li><a href="vendetucampo">Vende tu campo con nosotros </a></li>
                         <li><a href="contacto">Contacto</a></li>
                         <li><a href="faq">FAQ</a></li>
                         <li class="active"><a href="blog">Blog</a></li>

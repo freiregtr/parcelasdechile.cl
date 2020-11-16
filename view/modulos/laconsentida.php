@@ -8,7 +8,7 @@
                     <!-- RD Navbar Toggle-->
                     <button data-rd-navbar-toggle=".rd-navbar-nav-wrap" class="rd-navbar-toggle"><span></span></button>
                     <!-- LOGO-->
-                    <div class="rd-navbar-brand"><a href="inicio" class="brand-name"><img src="view/componentes/img/logo/logo18.png" height="85" alt="Parcelas de chile"></a>
+                    <div class="rd-navbar-brand"><a href="inicio" class="brand-name"><img src="view/componentes/img/logo/logon.png" height="85" alt="Parcelas de chile"></a>
                     </div>
                     <!-- TELÉFONO-->
                     <div class="rd-navbar-contacts rd-navbar-collapse rd-navbar-collapse-2"><span>Contáctanos</span>
@@ -36,6 +36,7 @@
                         </li>
                         <li><a href="quienessomos">Quienes Somos</a></li>
                         <li><a href="trabajaconnosotros">Trabaja con nosotros</a></li>
+                        <li><a href="vendetucampo">Vende tu campo con nosotros </a></li>
                         <li><a href="contacto">Contacto</a></li>
                         <li><a href="faq">FAQ</a></li>
                         <li><a href="blog">Blog</a></li>
@@ -74,12 +75,12 @@
                 <div class="range offset-top-30 text-center">
                     <div class="cell-sm-4">
                         <!-- CountTo-->
-                        <div data-from="0" data-to="15" class="counter shadow1 text-medium"></div>
+                        <div data-from="0" data-to="72" class="counter shadow1 text-medium"></div>
                         <h3 class="text-sbold text-base shadow1 text-white">Parcelas</h3>
                     </div>
                     <div class="cell-sm-4">
                         <!-- CountTo-->
-                        <div data-from="0" data-to="35" class="counter shadow1 text-medium"></div>
+                        <div data-from="0" data-to="40" class="counter shadow1 text-medium"></div>
                         <h3 class="text-sbold text-base shadow1 text-white">Min de Pto Montt</h3>
                     </div>
                     <div class="cell-sm-4">
@@ -192,7 +193,23 @@
                         </section>
                     </div>
                 </div>
+                
+                  <section class="section-top-70  section-bottom-70">
+                   <hr>
+                    <div class="container-fluid">
+                        <div class="card text-center">
+                            <div class="card-body ">
+                                <a href="reservaonline" target="_blank" class="btn btn-primary shadow2">RESERVAR PARCELA </a>
+                            </div>
+                        </div>
+                    </div>
+                      <hr>
+                </section> 
+                
                 <br>
+                  
+                  
+                
                 <section class="section-top-70  section-bottom-70">
                     <div class="container-fluid">
                         <div class="card text-center">

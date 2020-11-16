@@ -8,7 +8,7 @@
                     <!-- RD Navbar Toggle-->
                     <button data-rd-navbar-toggle=".rd-navbar-nav-wrap" class="rd-navbar-toggle"><span></span></button>
                     <!-- LOGO-->
-                    <div class="rd-navbar-brand"><a href="inicio" class="brand-name"><img src="view/componentes/img/logo/logo18.png" height="85" alt="Parcelas de chile"></a>
+                    <div class="rd-navbar-brand"><a href="inicio" class="brand-name"><img src="view/componentes/img/logo/logon.png" height="85" alt="Parcelas de chile"></a>
                     </div>
                     <!-- TELÉFONO-->
                     <div class="rd-navbar-contacts rd-navbar-collapse rd-navbar-collapse-2"><span>Contáctanos</span>
@@ -36,6 +36,7 @@
                         </li>
                         <li><a href="quienessomos">Quienes Somos</a></li>
                         <li><a href="trabajaconnosotros">Trabaja con nosotros</a></li>
+                        <li><a href="vendetucampo">Vende tu campo con nosotros </a></li>
                         <li><a href="contacto">Contacto</a></li>
                         <li><a href="faq">FAQ</a></li>
                         <li><a href="blog">Blog</a></li>
@@ -184,20 +185,8 @@
                                 </div>  
                             </div> -->
                        
-                  
-                <br>
-                <section class="section-top-70  section-bottom-70">
-                    <div class="container-fluid">
-                        <div class="card text-center">
-                            <div class="card-body ">
-                                <a href="https://drive.google.com/file/d/1JeMJwiF3fTtBzExJdDB21HooDlo4Fhrd/view?usp=sharing" target="_blank" download="PreciosLaRosaConElClavel" class="btn btn-primary shadow2">DESCARGAR PLANO</a>
-                            </div>
-                        </div>
-                    </div>
-               </section> 
-           </section>
-                <!--<hr>
-                <section class="section-top-70  section-bottom-70">
+                   <section class="section-top-70  section-bottom-70">
+                   <hr>
                     <div class="container-fluid">
                         <div class="card text-center">
                             <div class="card-body ">
@@ -205,8 +194,27 @@
                             </div>
                         </div>
                     </div>
-                </section> -->
+                      <hr>
+                </section> 
+                <br>
+            <section class="section-top-70  section-bottom-70">
+                    <div class="container-fluid">
+                        <div class="card text-center">
+                            <div class="card-body ">
+                                <a href="https://drive.google.com/file/d/1JeMJwiF3fTtBzExJdDB21HooDlo4Fhrd/view?usp=sharing" target="_blank" download="PreciosLaRosaConElClavel" class="btn btn-primary shadow2">DESCARGAR PLANO</a>
+                            </div>
+                        </div>
+                        <hr>
+                    </div>
+                     
+               </section> 
+               
+          
+                
+               
+                
             </div>
+                
 
             <section>
 
@@ -220,7 +228,17 @@
                         </div>
                     </div>
                 </div>
-            
+            <section class="section-top-70  section-bottom-70">
+                   <hr>
+                    <div class="container-fluid">
+                        <div class="card text-center">
+                            <div class="card-body ">
+                                <a href="reservaonline" target="_blank" class="btn btn-primary shadow2">RESERVAR PARCELA </a>
+                            </div>
+                        </div>
+                    </div>
+                      <hr>
+                </section> 
 
                                <!-- <div class="container">
                                     <div class="row">
@@ -274,7 +292,9 @@
                                 <a href="https://drive.google.com/file/d/1Lcne0sXjkG1AWiLyMvtXDc7U69_ja_nv/view?usp=sharing" target="_blank" download="PreciosLaRosaConElClavel" class="btn btn-primary shadow2">DESCARGAR PLANO</a>
                             </div>
                         </div>
+                        <hr>
                     </div>
+                    
                 </section>
 </section>
             <section id="sliderproyectos ">

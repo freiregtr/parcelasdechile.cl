@@ -8,7 +8,7 @@
                     <!-- RD Navbar Toggle-->
                     <button data-rd-navbar-toggle=".rd-navbar-nav-wrap" class="rd-navbar-toggle"><span></span></button>
                     <!-- LOGO-->
-                    <div class="rd-navbar-brand"><a href="inicio" class="brand-name"><img src="view/componentes/img/logo/logo18.png" height="85" alt="Parcelas de chile"></a>
+                    <div class="rd-navbar-brand"><a href="inicio" class="brand-name"><img src="view/componentes/img/logo/logon.png" height="85" alt="Parcelas de chile"></a>
                     </div>
 
                     <!-- TELÉFONO-->
@@ -39,6 +39,7 @@
                         </li>
                         <li><a href="quienessomos">Quienes Somos</a></li>
                         <li><a href="trabajaconnosotros">Trabaja con nosotros</a></li>
+                        <li><a href="vendetucampo">Vende tu campo con nosotros </a></li>
                         <li><a href="contacto">Contacto</a></li>
                         <li><a href="faq">FAQ</a></li>
                         <li><a href="blog">Blog</a></li>

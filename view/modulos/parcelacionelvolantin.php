@@ -8,7 +8,7 @@
                         <!-- RD Navbar Toggle-->
                         <button data-rd-navbar-toggle=".rd-navbar-nav-wrap" class="rd-navbar-toggle"><span></span></button>
                         <!-- LOGO-->
-                        <div class="rd-navbar-brand"><a href="inicio" class="brand-name"><img src="view/componentes/img/logo/logo18.png" height="85" alt="Parcelas de chile"></a>
+                        <div class="rd-navbar-brand"><a href="inicio" class="brand-name"><img src="view/componentes/img/logo/logon.png" height="85" alt="Parcelas de chile"></a>
                         </div>
                         <!-- TELÉFONO-->
                          <div class="rd-navbar-contacts rd-navbar-collapse rd-navbar-collapse-2"><span>Contáctanos</span>
@@ -39,6 +39,7 @@
                             
                             <li><a href="quienessomos">Quienes Somos</a></li>
                             <li><a href="trabajaconnosotros">Trabaja con nosotros</a></li>
+                            <li><a href="vendetucampo">Vende tu campo con nosotros </a></li>
                             <li><a href="contacto">Contacto</a></li>
                             <li><a href="faq">FAQ</a></li>
                             <li><a href="blog">Blog</a></li>
@@ -166,6 +167,19 @@
                                         </div>
                                 
                                         <br>
+                                        
+                                        <section class="section-top-70  section-bottom-70">
+                   <hr>
+                    <div class="container-fluid">
+                        <div class="card text-center">
+                            <div class="card-body ">
+                                <a href="reservaonline" target="_blank" class="btn btn-primary shadow2">RESERVAR PARCELA </a>
+                            </div>
+                        </div>
+                    </div>
+                      <hr>
+                </section> 
+                                       
                                         <p class="offset-top-40 text-bold text-base">" Por qué tenemos el país más lindo del mundo, creemos que deberías elegir Parcelas de Chile."</p>
                                         <p class="offset-top-20">Marchihue en la Provincia de Cardenal Caro (Región del Libertador General Bernardo O'Higgins) es un lugar en Chile a 138 km al suroeste de Santiago.</p>
                                     </div>

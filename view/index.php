@@ -124,6 +124,7 @@
             $_GET["ruta"] == "noticiaslagochapo"     ||
             $_GET["ruta"] == "larosaconelclavel"     ||
             $_GET["ruta"] == "reservaonline"         ||
+            $_GET["ruta"] == "vendetucampo"          ||
             $_GET["ruta"] == "quienessomos"
 
 
