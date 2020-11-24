@@ -349,7 +349,7 @@
                                                             <br>
                                                             <h2 class="shadow1">Parcelación El Volantín</h2>
                                                             <br>
-                                                            <h3 class="shadow1" class="offset-top-30 text-primary">Desde los $7.990.000</h3>
+                                                            <h3 class="shadow1" class="offset-top-30 text-primary">Desde los $8.490.000</h3>
                                                             <br>
                                                             <p class="shadow1" class="offset-top-30">Marchihue en la Provincia de Cardenal Caro <br> (Región del Libertador General Bernardo O'Higgins)<br>es un lugar en Chile a 138 km al suroeste de Santiago.</p>
 
