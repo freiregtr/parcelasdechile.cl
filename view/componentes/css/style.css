@@ -763,7 +763,7 @@ ol {
   width: 100%;
   padding: 15px;
   color: #fff;
-  background-color: #6fa24f;
+  background-color: #6ea250;
 
 }
 
@@ -2091,8 +2091,8 @@ fieldset[disabled] .btn-default.focus {
 
 .btn-primary {
   color: #fff;
-  background-color: #6fa24f;
-  border-color: #6fa24f;
+  background-color: #6ea250;
+  border-color: #6ea250;
 }
 
 .btn-primary:focus, .btn-primary.focus {
@@ -4150,10 +4150,10 @@ tbody.collapse.in {
   }
   .navbar-nav .open .dropdown-menu > li > a,
   .navbar-nav .open .dropdown-menu .dropdown-header {
-    padding: 5px 15px 5px 25px;
+    padding: 5px 5px 5px 5px;
   }
   .navbar-nav .open .dropdown-menu > li > a {
-    line-height: 24px;
+    line-height: 40px;
   }
   .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-nav .open .dropdown-menu > li > a:focus {
     background-image: none;
@@ -10953,8 +10953,8 @@ fieldset[disabled] .btn.btn-default {
 .btn-primary {
   color: #fff;
   text-shadow: 1px 1px 2px #45684c;
-  background-color: #6fa24f;
-  border-color: #6fa24f;
+  background-color: #6ea250;
+  border-color: #6ea250;
 }
 
 .btn-primary:focus, .btn-primary.focus, .btn-primary:hover, .btn-primary:active,
@@ -25048,8 +25048,8 @@ fieldset[disabled] .well .btn-base {
 
 .well-base .btn-primary {
   color: #fff;
-  background-color: #6fa24f;
-  border-color: #6fa24f;
+  background-color: #6ea250;
+  border-color: #6ea250;
   text-shadow: 1px 1px 2px #4A6C35
 }
 
@@ -29306,7 +29306,7 @@ html:not(.lt-ie10) .not-animated {
 
 .rd-navbar-static .rd-navbar-search .form-control,
 .rd-navbar-fullwidth .rd-navbar-search .form-control {
-  background-color: #6fa24f;
+  background-color: #6ea250;
   padding-right: 50px;
 }
 
@@ -29913,9 +29913,8 @@ html:not(.lt-ie10) .not-animated {
 }
 
 .rd-navbar-fixed .rd-navbar-nav li > a {
-  padding: 11px 56px 11px 16px;
+  padding: 15px 10px 10px 10px;
   color: #999999;
-  text-transform: lowercase;
 }
 
 .rd-navbar-fixed .rd-navbar-nav li > a:first-letter {
