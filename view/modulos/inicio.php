@@ -8,7 +8,7 @@
                     <!-- RD Navbar Toggle-->
                     <button data-rd-navbar-toggle=".rd-navbar-nav-wrap" class="rd-navbar-toggle"><span></span></button>
                     <!-- RD Navbar Brand-->
-                    <div class="rd-navbar-brand"><a href="inicio" class="brand-name"><img src="view/componentes/img/logo/logo-navidad.png" class="rd-navbar-brand-img" height="85" alt="Parcelas de chile"></a>
+                    <div class="rd-navbar-brand"><a href="inicio" class="brand-name"><img src="view/componentes/img/logo/logon.png" class="rd-navbar-brand-img" height="85" alt="Parcelas de chile"></a>
                     </div>
                     <div class="rd-navbar-contacts rd-navbar-collapse rd-navbar-collapse-2"><span>Contáctanos</span>
                         <div><span class="icon1 fa-phone text-primary"></span><a href="callto:> +56958053609"></a><a>+56 9 4007 5222</a>
@@ -108,7 +108,7 @@
     </section>
     <!-- PROYECTOS-->
     <section id="sliderproyectos ">
-        <div id="child-carousel" data-arrows="true" data-loop="true" data-dots="true" data-swipe="true" data-items="1" data-xs-items="1" data-sm-items="1" data-md-items="2" data-lg-items="2" data-slide-to-scroll="1" class="slick-slider slick-child ">
+        <div id="carrusel-no-display"><div id="child-carousel" data-arrows="true" data-loop="true" data-dots="true" data-swipe="true" data-items="4" data-xs-items="4" data-sm-items="4" data-md-items="4" data-lg-items="4" data-slide-to-scroll="1" class="slick-slider slick-child ">
            <!--LA ROSA CON EL CLAVEL -->
            <div class="item mov">
                 <div class="reveal-block thumbnail-variant-1">
@@ -118,8 +118,8 @@
                     </div>
                     <div class="caption-2">
                         <hr class="divider veil reveal-md-inline-block shadow2">
-                        <h2 class="context-dark shadow1">La Rosa con El Clavel</h2>
-                        <br>
+                        <div class="carrusel-nombre-proyecto"><h2 class="context-dark shadow1">La Rosa con El Clavel</h2></div>
+                        
                      <p class="text-white shadow1 ">Región de O'Hoggins, Pumanque</p>
                         <a href="larosaconelclavel" class="btn btn-primary-variant-1 ">Ver más</a>
                     </div>
@@ -134,8 +134,8 @@
                     </div>
                     <div class="caption-2">
                         <hr class="divider veil reveal-md-inline-block shadow2">
-                        <h2 class="context-dark shadow1">La Consentida</h2>
-                        <br>
+                        <div class="carrusel-nombre-proyecto"><h2 class="context-dark shadow1">La Consentida</h2> </div>
+                        
                      <p class="text-white shadow1 ">Región de los Lagos, Puerto Montt</p>
                         <a href="laconsentida" class="btn btn-primary-variant-1 ">Ver más</a>
                     </div>
@@ -150,11 +150,8 @@
                     </div>
                     <div class="caption-2">
                         <hr class="divider veil reveal-md-inline-block shadow2">
-                        <h2 class="context-dark shadow1">El Volantín</h2>
-                        <br>
-                        <h3>Desde $ 8.490.000</h3>
-                        <br>
-                        <p class="text-white shadow1 ">Región de Libertador O’Higgins</p>
+                        <div class="carrusel-nombre-proyecto"><h2 class="context-dark shadow1">El Volantín</h2></div>
+                         <p class="text-white shadow1 ">Región de Libertador O’Higgins</p>
                         <a href="parcelacionelvolantin" class="btn btn-primary-variant-1">Ver más</a>
                     </div>
                 </div>
@@ -168,17 +165,107 @@
                     </div>
                     <div class="caption-2">
                         <hr class="divider veil reveal-md-inline-block shadow2">
-                        <h2 class="context-dark shadow1">Lago Chapo</h2>
-                        <br>
-                        <h3>Totalmente vendido</h3>
-                        <br>
+                        <div class="carrusel-nombre-proyecto"> <h2 class="context-dark shadow1">Lago Chapo</h2> </div>
                         <p class="text-white shadow1 ">Región de los Lagos, Puerto Montt</p>
                         <a href="lagochapo" class="btn btn-primary-variant-1">Ver más</a>
                     </div>
                 </div>
             </div>
         </div>
+</div>
     </section>
+<!--- PROYECTOS MOBILE ---->
+<div id="proyectos-mobile">
+        <section id="sliderproyectos">
+        
+          
+          <div id="child-carousel" data-arrows="false" data-loop="true" data-dots="true" data-swipe="true" data-items="1" data-xs-items="1" data-slide-to-scroll="0" class="slick-slider slick-child">
+           <!--LA ROSA CON EL CLAVEL -->
+           <div class="item mov">
+                <div class="reveal-block thumbnail-variant-1">
+                    <div class="caption-wrapper">
+                        <img src="view/componentes/img/proyectos/larosaconelclavel/larosa1.jpg" width="960" height="567" alt="La Rosa con El Clavel" class="img-responsive center-block">
+                        <div class="caption shadow2"><a href="#" class="label label-primary">VI Región</a></div>
+                    </div>
+                    <div class="caption-2">
+                        <hr class="divider veil reveal-md-inline-block shadow2">
+                        <div class="carrusel-nombre-proyecto"><h2 class="context-dark shadow1">La Rosa con El Clavel</h2></div>
+                        
+                     <p class="text-white shadow1 ">Región de O'Hoggins, Pumanque</p>
+                        <a href="larosaconelclavel" class="btn btn-primary-variant-1 ">Ver más</a>
+                    </div>
+                </div>
+            </div>
+            </div>
+              </section>
+            
+             <br>
+            <section id="sliderproyectos">
+            <div id="child-carousel" data-arrows="false" data-loop="true" data-dots="true" data-swipe="true" data-items="1" data-xs-items="1" data-slide-to-scroll="0" class="slick-slider slick-child ">
+            <div class="item mov">
+                <div class="reveal-block thumbnail-variant-1">
+                    <div class="caption-wrapper">
+                        <img src="view/componentes/img/proyectos/la_consentida/consentida2.jpg" width="960" height="567" alt="Volantin de la quebrada" class="img-responsive center-block">
+                        <div class="caption shadow2"><a href="#" class="label label-primary">X Región</a></div>
+                    </div>
+                    <div class="caption-2">
+                        <hr class="divider veil reveal-md-inline-block shadow2">
+                        <div class="carrusel-nombre-proyecto"><h2 class="context-dark shadow1">La Consentida</h2> </div>
+                        
+                     <p class="text-white shadow1 ">Región de los Lagos, Puerto Montt</p>
+                        <a href="laconsentida" class="btn btn-primary-variant-1 ">Ver más</a>
+                    </div>
+                </div>
+            </div>
+
+            </div>
+ </section>
+           <br>
+           
+            <section id="sliderproyectos">
+        <div id="child-carousel" data-arrows="false" data-loop="true" data-dots="true" data-swipe="true" data-items="1" data-xs-items="1" data-slide-to-scroll="0" class="slick-slider slick-child ">
+<div class="item mov">
+                <div class="reveal-block thumbnail-variant-1">
+                    <div class="caption-wrapper">
+                        <img src="view/componentes/img/proyectos/mirador_alcones/malcones.jpg" width="960" height="567" alt="Volantin de la quebrada" class="img-responsive center-block">
+                        <div class="caption shadow2"><a href="#" class="label label-primary">VI Región</a></div>
+                    </div>
+                    <div class="caption-2">
+                        <hr class="divider veil reveal-md-inline-block shadow2">
+                        <div class="carrusel-nombre-proyecto"><h2 class="context-dark shadow1">El Volantín</h2></div>
+                         <p class="text-white shadow1 ">Región de Libertador O’Higgins</p>
+                        <a href="parcelacionelvolantin" class="btn btn-primary-variant-1">Ver más</a>
+                    </div>
+                </div>
+            </div>
+            
+     </div>
+            </section>
+
+           <br>
+           
+           <section id="sliderproyectos">
+      <div id="child-carousel" data-arrows="false" data-loop="true" data-dots="true" data-swipe="true" data-items="1" data-xs-items="1" data-slide-to-scroll="0" class="slick-slider slick-child ">
+            
+            <div class="item mov">
+                <div class="reveal-block thumbnail-variant-1">
+                    <div class="caption-wrapper">
+                        <img src="view/componentes/img/proyectos/lago_chapo/lagochapo.jpg" width="960" height="567" alt="Lago chapo" class="img-responsive center-block">
+                        <div class="caption shadow2"><a href="#" class="label label-primary">X Región</a></div>
+                    </div>
+                    <div class="caption-2">
+                        <hr class="divider veil reveal-md-inline-block shadow2">
+                        <div class="carrusel-nombre-proyecto"> <h2 class="context-dark shadow1">Lago Chapo</h2> </div>
+                        <p class="text-white shadow1 ">Región de los Lagos, Puerto Montt</p>
+                        <a href="lagochapo" class="btn btn-primary-variant-1">Ver más</a>
+                    </div>
+                </div>
+            </div>
+            
+          
+     </div>
+    </section>
+    </div>
     <!-- NEWSLETTERS-->
     <main class="page-content">
     <section id="formulario">

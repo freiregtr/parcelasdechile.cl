@@ -33695,8 +33695,18 @@ header .overlay {
 
 
 
+.carrusel-nombre-proyecto h2 {
+    font-size: 30px;
+}
 
+@media only screen and (max-width: 768px){
+#carrusel-no-display {
+ display:none ;
+}
+}
 
-
-
-
+@media (min-width: 768px) {
+    #proyectos-mobile {
+        display:none;
+    }
+}
