@@ -120,7 +120,7 @@
                         <hr class="divider veil reveal-md-inline-block shadow2">
                         <div class="carrusel-nombre-proyecto"><h2 class="context-dark shadow1">La Rosa con El Clavel</h2></div>
                         
-                     <p class="text-white shadow1 ">Región de O'Hoggins, Pumanque</p>
+                     <p class="text-white shadow1 ">Región de O'Higgins, Pumanque</p>
                         <a href="larosaconelclavel" class="btn btn-primary-variant-1 ">Ver más</a>
                     </div>
                 </div>
