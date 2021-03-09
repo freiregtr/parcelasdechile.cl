@@ -325,9 +325,9 @@
                     'p-50': {
                         id: "p-50",
                         'id_no_spaces': "p-50",
-                        fill: "rgba(88,89,89,1)",
-                        tooltip: "NO DISPONIBLE",
-                        popover: "NO DISPONIBLE",
+                        fill: "rgba(190,46,56,1)",
+                        tooltip: "$29.990.000",
+                        popover: "$29.990.000",
                         data: {}
                     },
                     
