@@ -149,18 +149,28 @@
                                                     <p>$11.490.000</p>
                                                 </div>
                                             </div>
+                                            
+                                            <div class="col-md-6">
+                                                <br>
+                                                <div class="valor6">
+                                                    <p>$15.990.000</p>
+                                                </div>
+                                            </div>
+                                            
+                                        </div>
+                                       
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                               <br>
+                                                <div class="valor1">
+                                                    <p>$10.490.000</p>
+                                                </div>
+                                            </div>
+                                            
                                             <div class="col-md-6">
                                                 <br>
                                                 <div class="valor5">
                                                     <p>VENDIDA</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <br>
-                                        <div class="row">
-                                            <div class="col-md-6">
-                                                <div class="valor1">
-                                                    <p>$10.490.000</p>
                                                 </div>
                                             </div>
                                            
