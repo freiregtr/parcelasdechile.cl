@@ -26,6 +26,9 @@
                             <li><a href="parcelacionelvolantin">Proyectos</a>
                                 <!-- RD Navbar Dropdown-->
                                  <ul class="rd-navbar-dropdown">
+                                 
+                                 <li><a href="lasgolondrinas"><img src="view/componentes/images/iconos-menu/icono-menu-lasgolondrinas.svg" class="iconos-menu" width="70"> </img>Las Golondrinas</a></li>
+                                 
                                 <li><a href="larosaconelclavel"><img src="view/componentes/images/iconos-menu/icono-menu-larosaconelclavel.svg" class="iconos-menu" width="70"> </img>La Rosa con El Clavel</a></li>
 
                             <li><a href="laconsentida"><img src="view/componentes/images/iconos-menu/icono-menu-laconsentida.svg" class="iconos-menu" width="70"> </img>La Consentida</a></li>

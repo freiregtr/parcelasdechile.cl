@@ -124,6 +124,7 @@
             $_GET["ruta"] == "noticiaslagochapo"     ||
             $_GET["ruta"] == "larosaconelclavel"     ||
             $_GET["ruta"] == "reservaonline"         ||
+            $_GET["ruta"] == "lasgolondrinas"        ||
             $_GET["ruta"] == "vendetucampo"          ||
             $_GET["ruta"] == "quienessomos"
 
@@ -174,8 +175,15 @@
          }else if($_GET["ruta"] == "larosaconelclavel"){
           echo '<script src="view/js/fliplarosa.js"></script>';
             
+            }else if($_GET["ruta"] == "lasgolondrinas"){
+          echo '<script src="view/js/fliplasgolondrinas.js"></script>';
+            
+        
+
+            
         }
 
+        
 
     }
     ?>

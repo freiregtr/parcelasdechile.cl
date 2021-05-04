@@ -10602,6 +10602,12 @@ fieldset[disabled] .bg-gray-base .btn-primary {
 
 }
 
+.bg-image-lasgolondrinas {
+  background: url(../img/proyectos/las_golondrinas/lasgolondrinas-portada.jpg);
+  background-size: cover;
+
+}
+
 
 
 .bg-image-trabajaconnosotros {
