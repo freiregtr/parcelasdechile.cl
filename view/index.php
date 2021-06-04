@@ -125,6 +125,8 @@
             $_GET["ruta"] == "larosaconelclavel"     ||
             $_GET["ruta"] == "reservaonline"         ||
             $_GET["ruta"] == "lasgolondrinas"        ||
+            $_GET["ruta"] == "larefalosa"            ||
+            $_GET["ruta"] == "puchacay"              ||
             $_GET["ruta"] == "vendetucampo"          ||
             $_GET["ruta"] == "quienessomos"
 
@@ -175,8 +177,14 @@
          }else if($_GET["ruta"] == "larosaconelclavel"){
           echo '<script src="view/js/fliplarosa.js"></script>';
             
+             }else if($_GET["ruta"] == "larefalosa"){
+          echo '<script src="view/js/fliplarefalosa.js"></script>';
+            
             }else if($_GET["ruta"] == "lasgolondrinas"){
           echo '<script src="view/js/fliplasgolondrinas.js"></script>';
+            
+            }else if($_GET["ruta"] == "puchacay"){
+          echo '<script src="view/js/flippuchacay.js"></script>';
             
         
 

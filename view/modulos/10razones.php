@@ -23,31 +23,33 @@
                     <div class="rd-navbar-inner">
                         <!-- RD Navbar Nav-->
                         <ul class="rd-navbar-nav">
-                            <li><a href="inicio">Home</a></li>
-                            <li><a href="parcelacionelvolantin">Proyectos</a>
-                                <!-- RD Navbar Dropdown-->
-                                <ul class="rd-navbar-dropdown">
-                                
-                                <li><a href="lasgolondrinas"><img src="view/componentes/images/iconos-menu/icono-menu-lasgolondrinas.svg" class="iconos-menu" width="70"> </img>Las Golondrinas</a></li>
-                                
-                                <li><a href="larosaconelclavel"><img src="view/componentes/images/iconos-menu/icono-menu-larosaconelclavel.svg" class="iconos-menu" width="70"> </img>La Rosa con El Clavel</a></li>
-
-                            <li><a href="laconsentida"><img src="view/componentes/images/iconos-menu/icono-menu-laconsentida.svg" class="iconos-menu" width="70"> </img>La Consentida</a></li>
-                                                                 
-                            <li><a href="parcelacionelvolantin"><img src="view/componentes/images/iconos-menu/icono-menu-volantin.svg" class="iconos-menu" width="70"> </img> El Volantín</a></li>
-
-                            <li><a href="lagochapo"><img src="view/componentes/images/iconos-menu/icono-menu-lagochapo.svg" class="iconos-menu" width="70"> </img>Lago Chapo</a></li>
-
-                            </ul>
-                            </li>
-                            <li><a href="quienessomos">Quienes Somos</a></li>
+                        <li class="active"><a href="inicio">Home</a></li>
+                        <li><a href="#">Proyectos</a>
                             <!-- RD Navbar Dropdown-->
-                            <li><a href="trabajaconnosotros">Trabaja con nosotros</a></li>
-                             <li><a href="vendetucampo">Vende tu campo con nosotros </a></li>
-                            <li><a href="contacto">Contacto</a></li>
-                            <li><a href="faq">FAQ</a></li>
-                            <li class="active"><a href="blog">Blog</a></li>
-                        </ul>
+                            <ul class="rd-navbar-dropdown">
+                               
+                               <li><a href="puchacay"><img src="view/componentes/images/iconos-menu/icono-menu-puchacay.svg" class="iconos-menu" width="70"> </img>Puchacay</a></li>
+                               
+                               <li><a href="lasgolondrinas"><img src="view/componentes/images/iconos-menu/icono-menu-lasgolondrinas.svg" class="iconos-menu" width="70"> </img>Las Golondrinas</a></li>
+                                
+                                <li><a href="larosaconelclavel"><img src="view/componentes/images/iconos-menu/icono-menu-larosaconelclavel.svg" class="iconos-menu" width="70"> La Rosa con El Clavel</a></li>
+                                
+                                <li><a href="larefalosa"><img src="view/componentes/images/iconos-menu/icono-menu-larefalosa.svg" class="iconos-menu" width="70"> </img>La Refalosa</a></li>
+
+                            <li><a href="laconsentida"><img src="view/componentes/images/iconos-menu/icono-menu-laconsentida.svg" class="iconos-menu" width="70"> </img> La Consentida</a></li>
+                                                                 
+                            <li><a href="parcelacionelvolantin"><img src="view/componentes/images/iconos-menu/icono-menu-volantin.svg" class="iconos-menu" width="70">  El Volantín</a></li>
+
+                            <li><a href="lagochapo"><img src="view/componentes/images/iconos-menu/icono-menu-lagochapo.svg" class="iconos-menu" width="70"> Lago Chapo</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="quienessomos">Quienes Somos</a></li>
+                        <li><a href="trabajaconnosotros">Trabaja con nosotros</a></li>
+                         <li><a href="vendetucampo">Vende tu campo con nosotros </a></li>
+                        <li><a href="contacto">Contacto</a></li>
+                        <li><a href="faq">FAQ</a></li>
+                        <li><a href="blog">Blog</a></li>
+                    </ul>
                     </div>
                 </div>
             </nav>

@@ -10595,6 +10595,12 @@ fieldset[disabled] .bg-gray-base .btn-primary {
 
 }
 
+.bg-image-larefalosa {
+  background: url(../img/proyectos/la_refalosa/portada-larefalosa.png);
+  background-size: cover;
+
+}
+
 
 .bg-image-larosa {
   background: url(../img/proyectos/larosaconelclavel/larosa-banner.jpg);
@@ -10608,6 +10614,11 @@ fieldset[disabled] .bg-gray-base .btn-primary {
 
 }
 
+.bg-image-puchacay {
+  background: url(../img/proyectos/puchacay/portada-puchacay.jpg);
+  background-size: cover;
+
+}
 
 
 .bg-image-trabajaconnosotros {
@@ -29909,7 +29920,7 @@ html:not(.lt-ie10) .not-animated {
   display: block;
   font-size: 16px;
   line-height: 26px;
-  text-align: right;
+  
 }
 
 .rd-navbar-fixed .rd-navbar-nav:before, .rd-navbar-fixed .rd-navbar-nav:after {
