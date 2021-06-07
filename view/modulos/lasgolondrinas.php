@@ -204,7 +204,7 @@
                     <div class="container-fluid">
                         <div class="card text-center">
                             <div class="card-body ">
-                                <a href="https://drive.google.com/file/d/1JeMJwiF3fTtBzExJdDB21HooDlo4Fhrd/view?usp=sharing" target="_blank" download="PreciosLaRosaConElClavel" class="btn btn-primary shadow2">DESCARGAR PLANO</a>
+                                <a href="https://drive.google.com/file/d/1bc_RQ_TDmIdsHpd9eG4Nr9d4DI8qMr9J/view?usp=sharing" target="_blank" download="PreciosLasGolondrinas" class="btn btn-primary shadow2">DESCARGAR PLANO</a>
                             </div>
                         </div>
                         <hr>

@@ -11,7 +11,7 @@
                     <div class="rd-navbar-brand"><a href="inicio" class="brand-name"><img src="view/componentes/img/logo/logon.png" class="rd-navbar-brand-img" height="85" alt="Parcelas de chile"></a>
                     </div>
                     <div class="rd-navbar-contacts rd-navbar-collapse rd-navbar-collapse-2"><span>Contáctanos</span>
-                        <div><span class="icon1 fa-phone text-primary"></span><a href="callto:> +56958053609"></a><a>+56 9 4007 5222</a>
+                        <div><span class="icon1 fa-phone text-primary"></span><a href="callto:> +56986216015"></a><a>+56 9 8621 6015</a>
                         </div>
                     </div>
                 </div>
