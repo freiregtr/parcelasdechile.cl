@@ -78,9 +78,9 @@ jQuery(document).ready(function () {
             'P-48': {
                 id: "P-48",
                 'id_no_spaces': "P-48",
-                 fill: "rgba(15,80,134,1)",
-                tooltip: "$10.490.000",
-                popover: "$10.490.000",
+                 fill: "rgba(88,89,89,1)",
+                tooltip: "VENDIDA",
+                popover: "VENDIDA",
                 data: {}
             },
             'P-50': {
@@ -110,9 +110,9 @@ jQuery(document).ready(function () {
             'P-43': {
                 id: "P-43",
                 'id_no_spaces': "P-43",
-                fill: "rgba(15,80,134,1)",
-                tooltip: "$10.490.000",
-                popover: "$10.490.000",
+                fill: "rgba(88,89,89,1)",
+                tooltip: "VENDIDA",
+                popover: "VENDIDA",
                 data: {}
             },
             'P-30': {
@@ -126,9 +126,9 @@ jQuery(document).ready(function () {
             'P-31': {
                 id: "P-31",
                 'id_no_spaces': "P-31",
-                fill: "rgba(15,80,134,1)",
-                tooltip: "$10.490.000",
-                popover: "$10.490.000",
+                fill: "rgba(88,89,89,1)",
+                tooltip: "VENDIDA",
+                popover: "VENDIDA",
                 data: {}
             },
             'P-32': {
@@ -350,9 +350,9 @@ jQuery(document).ready(function () {
             'P-47': {
                 id: "P-47",
                 'id_no_spaces': "P-47",
-                fill: "rgba(15,80,134,1)",
-                tooltip: "$10.490.000",
-                popover: "$10.490.000",
+                fill: "rgba(88,89,89,1)",
+                tooltip: "VENDIDA",
+                popover: "VENDIDA",
                 data: {}
             },
             'P-45': {
@@ -401,9 +401,9 @@ jQuery(document).ready(function () {
             'P-35': {
                 id: "P-35",
                 'id_no_spaces': "P-35",
-                fill: "rgba(243,185,60,1)",
-                tooltip: "$8.490.000",
-                popover: "$8.490.000",
+                fill: "rgba(88,89,89,1)",
+                tooltip: "VENDIDA",
+                popover: "VENDIDA",
                 data: {}
             },
             'P-21': {
