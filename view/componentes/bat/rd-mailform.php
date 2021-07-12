@@ -117,7 +117,7 @@ try {
 
     $mail->Host       = "smtp.gmail.com";
     $mail->Username   = "info@parcelasdechile.cl";
-    $mail->Password   = "nqjqfhlukazqodnv";
+    $mail->Password   = "zijlhcrtpmmepfgs";
     $mail->From       = "info@parcelasdechile.cl";
     $mail->FromName   = "Parcelas Chile";
 
