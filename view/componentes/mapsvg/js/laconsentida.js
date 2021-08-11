@@ -23,9 +23,9 @@
                     'p-68': {
                         id: "p-68",
                         'id_no_spaces': "p-68",
-                        fill: "rgba(247,188,4,1)",
-                        tooltip: "$34.990.000",
-                        popover: "$34.990.000",
+                        fill: "rgba(88,89,89,1)",
+                        tooltip: "NO DISPONIBLE",
+                        popover: "NO DISPONIBLE",
                         data: {}
                     },
                     'p-69': {
@@ -358,9 +358,9 @@
                     'p-53': {
                         id: "p-53",
                         'id_no_spaces': "p-53",
-                        fill: "rgba(190,46,56,1)",
-                        tooltip: "$29.990.000",
-                        popover: "$29.990.000",
+                        fill: "rgba(88,89,89,1)",
+                        tooltip: "NO DISPONIBLE",
+                        popover: "NO DISPONIBLE",
                         data: {}
                     },
                     'p-54': {
