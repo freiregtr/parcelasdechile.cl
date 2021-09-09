@@ -22,17 +22,17 @@ jQuery(document).ready(function () {
             'P-58': {
                 id: "P-58",
                 'id_no_spaces': "P-58",
-                fill: "rgba(15,80,134,1)",
-                tooltip: "$10.490.000",
-                popover: "$10.490.000",
+                fill: "rgba(88,89,89,1)",
+                tooltip: "VENDIDA",
+                popover: "VENDIDA",
                 data: {}
             },
             'P-59': {
                 id: "P-59",
                 'id_no_spaces': "P-59",
-                   fill: "rgba(15,80,134,1)",
-                tooltip: "$10.490.000",
-                popover: "$10.490.000",
+                   fill: "rgba(88,89,89,1)",
+                tooltip: "VENDIDA",
+                popover: "VENDIDA",
                 data: {}
             },
             'P-60': {
@@ -46,9 +46,9 @@ jQuery(document).ready(function () {
             'P-55': {
                 id: "P-55",
                 'id_no_spaces': "P-55",
-                 fill: "rgba(15,80,134,1)",
-                tooltip: "$10.490.000",
-                popover: "$10.490.000",
+                 fill: "rgba(88,89,89,1)",
+                tooltip: "VENDIDA",
+                popover: "VENDIDA",
                 data: {}
             },
             'P-54': {
@@ -78,9 +78,9 @@ jQuery(document).ready(function () {
             'P-48': {
                 id: "P-48",
                 'id_no_spaces': "P-48",
-                fill: "rgba(15,80,134,1)",
-                tooltip: "$10.490.000",
-                popover: "$10.490.000",
+                fill: "rgba(88,89,89,1)",
+                tooltip: "VENDIDA",
+                popover: "VENDIDA",
                 data: {}
             },
             'P-50': {
@@ -118,9 +118,9 @@ jQuery(document).ready(function () {
             'P-30': {
                 id: "P-30",
                 'id_no_spaces': "P-30",
-                fill: "rgba(15,80,134,1)",
-                tooltip: "$10.490.000",
-                popover: "$10.490.000",
+                fill: "rgba(88,89,89,1)",
+                tooltip: "VENDIDA",
+                popover: "VENDIDA",
                 data: {}
             },
             'P-31': {
@@ -166,9 +166,9 @@ jQuery(document).ready(function () {
             'P-39-40': {
                 id: "P-39-40",
                 'id_no_spaces': "P-39-40",
-               fill: "rgba(207,40,59,1)",
-                tooltip: "$10.490.000",
-                popover: "$10.490.000",
+               fill: "rgba(88,89,89,1)",
+                tooltip: "VENDIDA",
+                popover: "VENDIDA",
                 data: {}
             },
             'P-37-38': {
