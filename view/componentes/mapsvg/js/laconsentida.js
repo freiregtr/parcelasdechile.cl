@@ -53,7 +53,7 @@
                     'p-71': {
                         id: "p-71",
                         'id_no_spaces': "p-71",
-                        fill: "rgba(88,89,89,1)",
+                        fill: "rgba(229,191,89,1)",
                         tooltip: "NO DISPONIBLE",
                         popover: "NO DISPONIBLE",
                         data: {}
@@ -150,82 +150,82 @@
                     'p-29': {
                         id: "p-29",
                         'id_no_spaces': "p-29",
-                        fill: "rgba(57,142,45,1)",
-                        tooltip: "$39.990.000",
-                        popover: "$39.990.000",
+                        fill: "rgba(88,89,89,1)",
+                        tooltip: "NO DISPONIBLE",
+                        popover: "NO DISPONIBLE",
                         data: {}
                     },
                     'p-28': {
                         id: "p-28",
                         'id_no_spaces': "p-28",
-                        fill: "rgba(57,142,45,1)",
-                        tooltip: "$39.990.000",
-                        popover: "$39.990.000",
+                        fill: "rgba(88,89,89,1)",
+                        tooltip: "NO DISPONIBLE",
+                        popover: "NO DISPONIBLE",
                         data: {}
                     },
                     'p-27': {
                         id: "p-27",
                         'id_no_spaces': "p-27",
-                        fill: "rgba(57,142,45,1)",
-                        tooltip: "$39.990.000",
-                        popover: "$39.990.000",
+                        fill: "rgba(88,89,89,1)",
+                        tooltip: "NO DISPONIBLE",
+                        popover: "NO DISPONIBLE",
                         data: {}
                     },
                     'p-26': {
                         id: "p-26",
                         'id_no_spaces': "p-26",
-                        fill: "rgba(57,142,45,1)",
-                        tooltip: "$39.990.000",
-                        popover: "$39.990.000",
+                        fill: "rgba(88,89,89,1)",
+                        tooltip: "NO DISPONIBLE",
+                        popover: "NO DISPONIBLE",
                         data: {}
                     },
                     'p-25': {
                         id: "p-25",
                         'id_no_spaces': "p-25",
-                        fill: "rgba(57,142,45,1)",
-                        tooltip: "$39.990.000",
-                        popover: "$39.990.000",
+                        fill: "rgba(88,89,89,1)",
+                        tooltip: "NO DISPONIBLE",
+                        popover: "NO DISPONIBLE",
                         data: {}
                     },
                     
                     'p-24': {
                         id: "p-24",
                         'id_no_spaces': "p-24",
-                        fill: "rgba(57,142,45,1)",
-                        tooltip: "$39.990.000",
-                        popover: "$39.990.000",
+                        fill: "rgba(88,89,89,1)",
+                        tooltip: "NO DISPONIBLE",
+                        popover: "NO DISPONIBLE",
                         data: {}
                     },
                     'p-23': {
                         id: "p-23",
                         'id_no_spaces': "p-23",
-                        fill: "rgba(57,142,45,1)",
-                        tooltip: "$39.990.000",
-                        popover: "$39.990.000",
+                        fill: "rgba(88,89,89,1)",
+                        tooltip: "NO DISPONIBLE",
+                        popover: "NO DISPONIBLE",
                         data: {}
                     },
                     'p-22': {
                         id: "p-22",
                         'id_no_spaces': "p-22",
-                        fill: "rgba(57,142,45,1)",
-                        tooltip: "$39.990.000",
-                        popover: "$39.990.000",
+                        fill: "rgba(88,89,89,1)",
+                        tooltip: "NO DISPONIBLE",
+                        popover: "NO DISPONIBLE",
                         data: {}
                     },
                     'p-21': {
                         id: "p-21",
                         'id_no_spaces': "p-21",
-                        fill: "rgba(57,142,45,1)",
-                        tooltip: "$39.990.000",
-                        popover: "$39.990.000",
+                        fill: "rgba(88,89,89,1)",
+                        tooltip: "NO DISPONIBLE",
+                        popover: "NO DISPONIBLE",
                         data: {}
                     },
                     'p-20': {
                         id: "p-20",
                         'id_no_spaces': "p-20",
-                        fill: "rgba(57,142,45,1)",
-                        tooltip: "$39.990.000",
-                        popover: "$39.990.000",
+                        fill: "rgba(88,89,89,1)",
+                        tooltip: "NO DISPONIBLE",
+                        popover: "NO DISPONIBLE",
                         data: {}
                     },
                     'p-19': {
