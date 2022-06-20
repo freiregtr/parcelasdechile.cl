@@ -10620,6 +10620,11 @@ fieldset[disabled] .bg-gray-base .btn-primary {
 
 }
 
+.bg-image-laspalmas {
+  background: url(../img/proyectos/laspalmas/laspalmas-bg2.jpg);
+  background-size: cover;
+
+}
 
 .bg-image-trabajaconnosotros {
   background: url(../img/trabajaconnosotros.jpg);

@@ -24,6 +24,8 @@
                         <li><a href="#">Proyectos</a>
                             <!-- RD Navbar Dropdown-->
                             <ul class="rd-navbar-dropdown">
+                              
+                              <li><a href="laspalmas"><img src="view/componentes/images/iconos-menu/icono-menu-laspalmas.svg" class="iconos-menu" width="70"> </img>Las Palmas</a></li>
                                
                                <li><a href="puchacay"><img src="view/componentes/images/iconos-menu/icono-menu-puchacay.svg" class="iconos-menu" width="70"> </img>Puchacay</a></li>
                                
@@ -88,7 +90,7 @@
                 </div>
             </div>
         </section>
-        <section class=" text-center section-bottom-70 section-top-50 page-header bg-blue">
+    <!-- <section class=" text-center section-bottom-70 section-top-50 page-header bg-blue">
             <div class="container-fluid">
                 <div class="row">
                     <div class="context-light">
@@ -131,7 +133,7 @@
                             <div>
                                 <br>
                                 <img src="view/componentes/img/vendedores/ivo301.jpg" width="200" height="200" alt="" class="img-responsive center-block img-circle">
-                                <h5 class="offset-top-10">Ivo<br>Ljubetic</h5>
+                                <h5 class="offset-top-10">Luis<br>Garcia</h5>
                                 <div><span class="text-middle icon1 inset-right-10 text-primary fa-phone"></span><a href="callto:#" class="text-middle text-base">+56 9 6151 8457</a></div>
                                 <div class="offset-top-25"><a href="https://web.whatsapp.com/send?phone=56961518457/" class="btn btn-primary">Contactar</a></div>
                             </div>
@@ -142,7 +144,7 @@
         </section>
         
         
-        
+        -->
         
         
         

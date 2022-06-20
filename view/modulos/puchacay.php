@@ -25,6 +25,8 @@
                         <li><a href="#">Proyectos</a>
                             <!-- RD Navbar Dropdown-->
                             <ul class="rd-navbar-dropdown">
+                              
+                              <li><a href="laspalmas"><img src="view/componentes/images/iconos-menu/icono-menu-laspalmas.svg" class="iconos-menu" width="70"> </img>Las Palmas</a></li>
                                
                                <li><a href="puchacay"><img src="view/componentes/images/iconos-menu/icono-menu-puchacay.svg" class="iconos-menu" width="70"> </img>Puchacay</a></li>
                                

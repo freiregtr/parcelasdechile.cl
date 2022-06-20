@@ -126,6 +126,7 @@
             $_GET["ruta"] == "reservaonline"         ||
             $_GET["ruta"] == "lasgolondrinas"        ||
             $_GET["ruta"] == "larefalosa"            ||
+            $_GET["ruta"] == "laspalmas"             ||
             $_GET["ruta"] == "puchacay"              ||
             $_GET["ruta"] == "vendetucampo"          ||
             $_GET["ruta"] == "quienessomos"
